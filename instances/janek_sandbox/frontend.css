@@ -113,3 +113,6 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
 .section .activity .actions {
 	top: 8px;
 }
+.section .activity .contentafterlink p {
+    margin: .5em 1em;
+}

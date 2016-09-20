@@ -116,3 +116,9 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
 .section .activity .contentafterlink p {
     margin: .5em 1em;
 }
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+    background-color: #f4f5f5;
+    border-color: #dee0e1;
+    border-style: solid;
+    border-width: 1px;
+}

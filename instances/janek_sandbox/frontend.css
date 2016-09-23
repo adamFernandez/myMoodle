@@ -4,10 +4,6 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-li.section.hidden, .block.hidden, .block.invisible {
-	display: none;
-}
-
 .instancename {
 	top: 10px !important;
 	font-size: 1.5em;

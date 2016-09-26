@@ -60,6 +60,7 @@ img.iconlarge {
     height: 100%;
     display: flex;
     padding: 0px;
+    top: 0xp;
     justify-content: center;
     align-items: center;
   }

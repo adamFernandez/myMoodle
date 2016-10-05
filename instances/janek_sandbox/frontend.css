@@ -30,7 +30,7 @@
 
 .summary-progress {
   position: relative;
-  background-image: url("https://rawgit.com/qwerty1829/moodle-frontend/master/assets/images/progress_bg.jpg");
+  background-image: url("https://rawgit.com/KingsOnline/moodle-frontend/master/assets/images/progress_bg.jpg");
   height: 80px;
   background-size: contain;
   background-position: right;
@@ -42,12 +42,12 @@
   position: absolute;
   width: 35px;
   top: 35px;
-  content:url("https://rawgit.com/qwerty1829/moodle-frontend/master/assets/images/progress_bus.png");
+  content:url("https://rawgit.com/KingsOnline/moodle-frontend/master/assets/images/progress_bus.png");
 }
 
 @media (max-width: 600px) {
   #yui_3_17_2_1_1473171512459_226 {
-    content:url("https://cdn.rawgit.com/qwerty1829/moodle-frontend/master/assets/images/banner-header-mobile.png");
+    content:url("https://cdn.rawgit.com/KingsOnline/moodle-frontend/master/assets/images/banner-header-mobile.png");
   }
   /*.instancename {
     line-height: 24px;

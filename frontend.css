@@ -14,7 +14,7 @@ a {
 /* Code from Louise's projects*/
 @font-face {
   font-family: kingsfont;
-  src: url('https://cdn.rawgit.com/qwerty1829/moodle-frontend/master/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+  src: url('https://cdn.rawgit.com/KingsOnline/moodle-frontend/master/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
 }
 
 main {

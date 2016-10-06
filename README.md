@@ -77,4 +77,4 @@ Store icons that will be used across multiple courses here.
 Store images that will be used across multiple courses here.
 
 #Loading into Moodle
-Files are loaded from this repository to our server every 15 minutes. You can then embed them in your moodle course using **http://git.iddkingsonline.com/<path to files>**. 
+Files are loaded from this repository to our server every 15 minutes. You can then embed them in your moodle course using **http://git.iddkingsonline.com/path_to_file**. 

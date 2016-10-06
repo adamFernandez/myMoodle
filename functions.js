@@ -57,13 +57,13 @@ function replaceProgressBar() {
 			// $(this).css("background","url('https://keats.kcl.ac.uk/pluginfile.php/2038040/mod_resource/content/3/hank.png')");
 		});
 		var percentComplete = (completedElements/numElements)*160 + '%';
-		$(".progressBarProgressTable").css("background","url('https://rawgit.com/KingsOnline/moodle-frontend/master/assets/images/progress_bg.png')");
+		$(".progressBarProgressTable").css("background","url('https://git.iddkingsonline.com/assets/images/progress_bg.png')");
 		$(".progressBarProgressTable").css("background-size", "contain");
 		$(".progressBarProgressTable").css("background-repeat", "no-repeat");
 		$(".progressBarProgressTable").css("position", "relative");
 		$(".progressBarProgressTable").css("height", 70);
 		$(".progressBarHeader").css('display',"none")
-		var bus = $("<img class='completition' src='https://rawgit.com/KingsOnline/moodle-frontend/master/assets/images/progress_bus.png'/>");
+		var bus = $("<img class='completition' src='https://git.iddkingsonline.com/assets/images/progress_bus.png'/>");
 		$(".progressBarProgressTable").prepend(bus);
 		$(".completition").css("left", 100);
 		$(".completition").css("position", "absolute");
@@ -121,6 +121,3 @@ function loadGA(){
 	ga('send', 'pageview');
 	ga('siteLinker.send', 'pageview');
 }
-
-
-//ga('set', 'userId', {{USER_ID}});

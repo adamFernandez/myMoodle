@@ -1,68 +1,6 @@
 ﻿/* Code from Louise's projects*/
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Serif';
 
-main {
-  overflow: hidden;
-  font-family: 'PT Serif', serif;
-}
-
-img.iconlarge {
-	width: 50px;
-}
-
-.hero {
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.hero-box {
-  background-color: #4e647f;
-  opacity: 0.9;
-  right: 0px;
-  padding: 20px;
-  position: absolute;
-}
-
-.hero-box h1 {
-  font-size: 2em;
-  color: #ffffff;
-}
-
-.hero-box h2 {
-  font-size: 1em;
-  color: #ffffff;
-  right: 0;
-}
-
-@media all and (max-width: 650px) {
-  .hero-box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 0px;
-    top: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero-box h1 {
-    font-size: 1.7em;
-  }
-  
-  .hero-box h2 {
-    display: none;
-  }
-}
-
-@media all and (max-width: 380px) {
-  .hero-box h1 {
-    font-size: 1.4em;
-  }
-}
-
-.section-title {
+.section-title, h1, h2, h3, h4 {
 font-family: 'Fjalla One', sans-serif;
 }

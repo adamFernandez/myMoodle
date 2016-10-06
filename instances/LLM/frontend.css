@@ -1,12 +1,9 @@
 ﻿/* Code from Louise's projects*/
-@font-face {
-  font-family: kingsfont;
-  src: url('https://cdn.rawgit.com/KingsOnline/moodle-frontend/master/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
-}
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Serif';
 
 main {
   overflow: hidden;
-  font-family: 'kingsfont';
+  font-family: 'PT Serif', serif;
 }
 
 img.iconlarge {
@@ -64,4 +61,8 @@ img.iconlarge {
   .hero-box h1 {
     font-size: 1.4em;
   }
+}
+
+.section-title {
+font-family: 'Fjalla One', sans-serif;
 }

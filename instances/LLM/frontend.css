@@ -5,7 +5,7 @@ font-family: 'Fjalla One', sans-serif;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
+button.custom-accordion {
 	background-color: #ccc !important;
 	cursor: pointer !important;
 	padding: 15px !important;
@@ -15,7 +15,7 @@ button.accordion {
   	color: #000 !important;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
+button.custom-accordion.active, button.accordion:hover {
 	background-color: #ccc !important;
 }
 /* Style the accordion panel. Note: hidden by default */

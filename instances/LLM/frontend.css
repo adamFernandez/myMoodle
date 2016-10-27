@@ -6,28 +6,28 @@ font-family: 'Fjalla One', sans-serif;
 
 /* Style the buttons that are used to open and close the accordion panel */
 button.accordion {
-	background-color: #ccc;
-	cursor: pointer;
-	padding: 15px;
-	width: 99%;
-	text-align: left;
-	outline: none;
-  color: #000;
+	background-color: #ccc !important;
+	cursor: pointer !important;
+	padding: 15px !important;
+	width: 99% !important;
+	text-align: left !important;
+	outline: none !important;
+  	color: #000 !important;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
-	background-color: #ccc;
+	background-color: #ccc !important;
 }
 /* Style the accordion panel. Note: hidden by default */
 div.panel {
-	padding: 0 15px;
-	background-color: white;
-	display: none;
+	padding: 0 15px !important;
+	background-color: white !important;
+	display: none !important;
 
 }
 /* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
 div.panel.show {
-	display: block;
+	display: block !important;
 }
 
 @font-face {

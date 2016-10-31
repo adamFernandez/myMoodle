@@ -1,27 +1,26 @@
 @import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Serif';
 
 .section-title, h1, h2, h3, h4 {
-font-family: 'Fjalla One', sans-serif;
+font-family: 'Fjalla One', sans-serif !important;
 }
 
 p {
 	color: #000000;
 }
 
-  .accordion-toggle {cursor: pointer;}
-  .accordion-content {display: none;}
-  .accordion-content.default {display: block;}
-  
-.accordion-button
-{
+  .accordion-toggle {
+	cursor: pointer;
 	background-color: #ccc;
 	cursor: pointer;
 	padding: 15px;
 	width: 99%;
 	text-align: left;
 	outline: none;
-        color: #000;
-}
+        color: #000;}
+
+  .accordion-content {display: none;}
+  .accordion-content.default {display: block;}
+  
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
 	background-color: #ddd;

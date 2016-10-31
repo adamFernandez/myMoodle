@@ -16,9 +16,11 @@ p {
 	width: 99%;
 	text-align: left;
 	outline: none;
-        color: #000;}
+        color: #000;
+	margin: 0px;
+}
 
-  .accordion-content {display: none;}
+  .accordion-content {display: none; padding-top: 10px;}
   .accordion-content.default {display: block;}
   
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */

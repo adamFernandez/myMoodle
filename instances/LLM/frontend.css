@@ -8,6 +8,12 @@ p {
 	color: #000000;
 }
 
+.subtitles {
+	font-family: 'Fjalla One', sans-serif;
+	color: #4e647f;
+	font-size: medium;
+}
+
   .accordion-toggle {
 	cursor: pointer;
 	background-color: #ccc;

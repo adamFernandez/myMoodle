@@ -12,7 +12,7 @@ p {
   .accordion-content {display: none;}
   .accordion-content.default {display: block;}
   
-button
+accordion-button
 {
 	background-color: #ccc;
 	cursor: pointer;

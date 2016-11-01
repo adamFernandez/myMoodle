@@ -4,40 +4,12 @@
 font-family: 'Roboto', sans-serif !important;
 }
 
-p {
-	color: #000000;
-}
-
-.subtitles {
-	font-family: 'Roboto', sans-serif;
-	color: #4e647f;
-	font-size: medium;
-	font-weight: bold;
-}
-
-  .accordion-toggle {
-	cursor: pointer;
-	background-color: #ccc;
-	cursor: pointer;
-	padding: 15px;
-	width: 99%;
-	text-align: left;
-	outline: none;
-        color: #000;
-	margin: 0px;
-}
-
-  .accordion-content {display: none; padding-top: 10px;}
-  .accordion-content.default {display: block;}
-  
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active, button.accordion:hover {
-	background-color: #ddd;
+html, body {
+	font-family: 'Roboto', sans-serif !important;
 }
 
 main {
   overflow: hidden;
-  font-family: 'Roboto';
 }
 
 .hero {

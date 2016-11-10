@@ -75,4 +75,7 @@ main {
 
 .block {border-radius: 0 !important; box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important}
 
-.emphasis-box {background-color: #EFE8DD;}
+.emphasis-box-ivory {background-color: #EFE8DD; padding:5px}
+.emphasis-box-blue {background-color: #377B9C; color: white; padding:5px}
+.emphasis-box-beige {background-color: #DCC7BB; padding:5px}
+.emphasis-box-red {background-color: #A00B17; color: white; padding:5px;}

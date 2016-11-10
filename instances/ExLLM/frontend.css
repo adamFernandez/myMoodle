@@ -80,3 +80,5 @@ main {
 .emphasis-box-beige {background-color: #DCC7BB; padding:5px}
 .emphasis-box-red {background-color: #A00B17; color: white; padding:5px;}
 .emphasis-box-grey {background-color: #4E5057; color: white; padding:5px;}
+
+#page-header {background-color: #000000 !important;}

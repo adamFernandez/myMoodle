@@ -72,3 +72,5 @@ main {
 }
 
 .course-content ul.ctopics li.section .content .toggle {border-radius: 0 !important;}
+
+.block {border-radius: 0 !important; box-shadow: 0 !important}

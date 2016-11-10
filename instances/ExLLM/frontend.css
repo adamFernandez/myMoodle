@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif !important;
 
 html, body {
 	font-family: 'Roboto', sans-serif !important;
-	color: #4e5057;
+	color: #000000;
 	text-align: justify !important;
 }
 
@@ -24,7 +24,7 @@ main {
 }
 
 .hero-box {
-  background-color: #377B9C;
+  background-color: #4E5057;
   opacity: 0.9;
   right: 0px;
   padding: 20px;

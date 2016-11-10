@@ -70,3 +70,5 @@ main {
   }
 
 }
+
+.course-content ul.ctopics li.section .content .toggle {border-radius: 0 !important;}

@@ -101,3 +101,13 @@ main {
   }
 
 }
+
+blockquote {
+	color: black;
+}
+
+h2 .csstransform {
+	letter-spacing: 1px;
+	font-size: 12px;
+	width: 88px;
+}

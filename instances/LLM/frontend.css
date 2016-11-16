@@ -106,7 +106,7 @@ blockquote {
 	color: black;
 }
 
-h2 .csstransform {
+#dock .dockedtitle h2 {
 	letter-spacing: 1px;
 	font-size: 12px;
 	width: 88px;

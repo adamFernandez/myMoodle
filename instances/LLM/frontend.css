@@ -108,6 +108,5 @@ blockquote {
 
 #dock .dockedtitle h2 {
 	letter-spacing: 1px;
-	font-size: 12px;
-	width: 88px;
+	font-size: 12px !important;
 }

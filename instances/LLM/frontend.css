@@ -15,8 +15,14 @@ p {
 	font-weight: bold;
 }
 
-h3, h2 {
+h3  {
 	color: #4e647f;
+	font-size: medium;
+	font-weight: bold;
+}
+
+h2 .titles {
+	color: #FFFFFF;
 	font-size: medium;
 	font-weight: bold;
 }

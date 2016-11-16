@@ -2,6 +2,7 @@
 
 .section-title, h1, h2, h3, h4 {
 font-family: 'Fjalla One', sans-serif !important;
+font-size: inherit !important;
 }
 
 p {

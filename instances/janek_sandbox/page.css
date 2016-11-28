@@ -107,7 +107,10 @@ a.s1:hover {text-decoration:underline;}
 .instancename {			position: relative;
 			line-height: 36px;
 			color: #6b6b6b;
+			margin-left: 40px;
 			font-size: 20px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
 
 .course-content ul.topics li.section .summary {margin-top: 0px;}
+#page-mod-subpage-view li.activity
+.actions {right:50px;}

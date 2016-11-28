@@ -119,4 +119,5 @@ a.s1:hover {text-decoration:underline;}
     .instancename {
         font-size: 16px;
     }
+	#page-mod-subpage-view li.activity .actions {display: none;}
 }

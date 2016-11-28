@@ -112,3 +112,5 @@ a.s1:hover {text-decoration:underline;}
 			color: #6b6b6b;
 			font-size: 20px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}
+
+.course-content ul.topics li.section .summary {margin-top: 0px;}

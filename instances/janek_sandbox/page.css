@@ -122,3 +122,16 @@ a.s1:hover {text-decoration:underline;}
     }
 	#page-mod-subpage-view li.activity .actions {display: none;}
 }
+
+.bookcontent h3 {
+				background-size: 30px 30px;
+				position: relative;
+				background: #fafafa;
+				border: 1px solid #ececec;
+				line-height: 36px;
+				font-size: 30px;
+				padding: 10px 20px;
+				font-family: 'KingsBureauGrot ThreeSeven';
+				font-weight: bold;
+				font-style: normal;
+				}

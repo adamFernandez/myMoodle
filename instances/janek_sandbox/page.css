@@ -25,7 +25,6 @@ h2 {
 			font-size: 32px;
 			color: #6b6b6b;
 			padding: 10px 20px;
-			margin: 0 -20px 10px -20px;
 			font-family: 'KingsBureauGrot ThreeSeven';
 			font-weight: bold;
 			font-style: normal;
@@ -39,19 +38,6 @@ h2 {
 			overflow: hidden;
 		}
 
-		#header_week{
-			position: relative;
-			background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top;
-			border: 1px solid #ececec;
-			line-height: 60px;
-			font-size: 32px;
-			color: #6b6b6b;
-			padding: 10px 20px;
-			margin: 0 -20px 10px -20px;
-			font-family: 'KingsBureauGrot ThreeSeven';
-			font-weight: bold;
-			font-style: normal;
-		}
 		#icons_week {
 			position: relative;
 			font-size: 24px;

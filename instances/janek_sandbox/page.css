@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'KingsBureauGrot ThreeSeven';
-	src: url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/KingsBureauGrot-ThreeSeven.eot');
-	src: url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/KingsBureauGrot-ThreeSeven.eot?#iefix') format('embedded-opentype'),
-		url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/KingsBureauGrot-ThreeSeven.woff') format('woff'),
-		url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.eot');
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.eot?#iefix') format('embedded-opentype'),
+		url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff') format('woff'),
+		url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'ELCicons';
-	src: url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/ELCicons.eot');
-	src: url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/ELCicons.eot?#iefix') format('embedded-opentype'),
-		url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/ELCicons.woff') format('woff'),
-		url('https://git.iddkingsonline.com/moodle-frontend/tree/master/assets/fonts/ELCicons/fonts/ELCicons.ttf') format('truetype');
+	src: url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons.eot');
+	src: url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons.eot?#iefix') format('embedded-opentype'),
+		url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons.woff') format('woff'),
+		url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }

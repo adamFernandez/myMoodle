@@ -106,4 +106,9 @@ h2 {
 a.s1:link {color:#666;text-decoration:none;}
 a.s1:visited {color:#eee;text-decoration:none;}
 a.s1:hover {text-decoration:underline;}
-/* End of ELC Lesson page css */	
+.activity img.activityicon {display: none;}
+.instance-name {			position: relative;
+			line-height: 36px;
+			color: #6b6b6b;
+			font-size: 20px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;}

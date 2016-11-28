@@ -1,0 +1,127 @@
+.summary h3 {
+	color: red !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.instancename {
+	top: 10px !important;
+	font-size: 1.5em;
+}
+
+.iconlarge, img.iconlarge {
+ 	width: 45px;
+ 	height: 30px;
+	background-image: none;
+}
+
+.iconlarge::before {
+ 	font-size:2.5em;
+  	color:#132c4d;
+}
+
+#page-header {
+	background-color: #06314d;
+}
+
+.coursesearchbox input, .coursesearchbox.input::-webkit-input-placeholder, .coursesearchbox.input:-moz-placeholder, .coursesearchbox.input::-moz-placeholder, .coursesearchbox.input:-ms-input-placeholder  {
+	color: #06314d;
+}
+
+.summary-progress {
+  position: relative;
+  background-image: url("https://git.iddkingsonline.com/assets/images/progress_bg.jpg");
+  height: 80px;
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  margin: 0 30px;
+}
+
+.summary-progress-icon {
+  position: absolute;
+  width: 35px;
+  top: 35px;
+  content:url("https://git.iddkingsonline.com/assets/images/progress_bus.png");
+}
+
+@media (max-width: 600px) {
+  #yui_3_17_2_1_1473171512459_226 {
+    content:url("https://git.iddkingsonline.com/assets/images/banner-header-mobile.png");
+  }
+  /*.instancename {
+    line-height: 24px;
+    padding-right: 20px;
+    top: 0px !important;
+  }*/
+}
+
+ul.badges {
+  margin: 0;
+  list-style: none; 
+  margin-left: 0px !important;
+  padding: 10px;
+  text-align: center;
+}
+
+.badges li {
+  width: 80px;
+}
+
+.badges li .badge-image {
+  padding: 5px;
+  border: 4px solid #d13a2a;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.badges li .badge-name {
+ display: none;
+}
+
+.block .content h3.eventskey {
+  display: none;
+}
+
+.block .calendar_filters li {
+  display: none;
+}
+
+@media (max-width: 500px) {
+
+	.instancename {    
+		font-size: 1em;
+		
+	}
+}
+
+@media (max-width: 390px) {
+	.iconlarge {
+		display: none;
+	}
+	.instancename {    
+		left: 0px;
+		font-size: 1em;
+	}
+}
+
+body.format-topcoll.editing ul.ctopics .section .activity .actions {
+	position: absolute;
+}
+
+.section .activity .actions {
+	top: 8px;
+}
+.section .activity .contentafterlink p {
+    margin: .5em 1em;
+}
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+    background-color: #ffffff;
+    border-color: #dee0e1;
+    border-style: solid;
+    border-width: 1px;
+}
+.path-course-view .completionprogress {
+    margin-left: -125px !important;
+	margin-right: 30px !important;
+}

@@ -17,6 +17,20 @@
 	font-style: normal;
 }
 
+h2 {
+			position: relative;
+			background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top;
+			border: 1px solid #ececec;
+			line-height: 60px;
+			font-size: 32px;
+			color: #6b6b6b;
+			padding: 10px 20px;
+			margin: 0 -20px 10px -20px;
+			font-family: 'KingsBureauGrot ThreeSeven';
+			font-weight: bold;
+			font-style: normal;
+		}
+
 /* Start of ELC Lesson page css */		
 		.page {
 			background: #fff;

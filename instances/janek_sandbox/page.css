@@ -114,3 +114,9 @@ a.s1:hover {text-decoration:underline;}
 .course-content ul.topics li.section .summary {margin-top: 0px;}
 #page-mod-subpage-view li.activity
 .actions {right:50px;}
+
+@media only screen and (max-width: 500px) {
+    .instancename {
+        font-size: 16px;
+    }
+}

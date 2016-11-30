@@ -30,7 +30,9 @@ h2 {
 			margin-top: 0px;
 			font-style: normal;
 		}
-
+h3 {
+    			margin: -40px 0px 0px 0px;
+		}
 /* Start of ELC Lesson page css */		
 		.page {
 			background: #fff;

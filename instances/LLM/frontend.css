@@ -121,3 +121,23 @@ blockquote {
 	letter-spacing: 1px;
 	font-size: 12px !important;
 }
+
+.image {
+   width:40px;
+   padding: 10px;
+   display:inline-block;
+   vertical-align:middle;
+}
+.text {
+   width:100%;
+   margin-right:-70px;
+   padding-right:60px;
+   display:inline-block;
+   vertical-align:middle;
+   box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+  font-size: x-large;
+  color: #ffffff;
+  padding-left: 10px;
+}

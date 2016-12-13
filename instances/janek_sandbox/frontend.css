@@ -126,3 +126,9 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
     margin-left: -125px !important;
 	margin-right: 30px !important;
 }
+/* Navigation buttons size*/
+.navtop.navtext a, .navbottom.navtext a {
+    display: inline-block;
+    max-width: 45%;
+    font-size: 14px;
+}

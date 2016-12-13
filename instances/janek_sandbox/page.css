@@ -139,3 +139,9 @@ a.s1:hover {text-decoration:underline;}
 
 .path-mod-book h2 {margin: 0px;}
 .path-mod-book .navtop {margin-top: 10px;}
+/* Navibuttons */	
+.navtop.navtext a, .navbottom.navtext a {
+    display: inline-block;
+    max-width: 45%;
+    font-size: 14px;
+}

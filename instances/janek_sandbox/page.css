@@ -149,3 +149,10 @@ a.s1:hover {text-decoration:underline;}
 #page-header {
     background-color: #06314d;
 }
+/* Navigation Icons */
+img.icon {
+    height: 25px;
+    vertical-align: text-bottom;
+    width: 25px;
+    padding-right: 6px;
+}

@@ -31,7 +31,7 @@ h2 {
 			font-style: normal;
 		}
 h3 {
-    			margin: -40px 0px 0px 0px;
+    			margin: -20px 0px 0px -20px;
 		}
 /* Start of ELC Lesson page css */		
 		.page {
@@ -131,7 +131,7 @@ a.s1:hover {text-decoration:underline;}
 				position: relative;
 				line-height: 36px;
 				font-size: 30px;
-				padding: 10px 0px;
+				padding: 10px 20px;
 				font-family: 'KingsBureauGrot ThreeSeven';
 				font-weight: bold;
 				font-style: normal;

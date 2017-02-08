@@ -156,3 +156,8 @@ img.icon {
     width: 25px;
     padding-right: 6px;
 }
+/* Video Scrollbars hiding*/
+.no-overflow {
+    overflow: hidden;
+    padding-bottom: 1px;
+}

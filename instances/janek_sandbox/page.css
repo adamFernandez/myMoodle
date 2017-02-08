@@ -166,6 +166,7 @@ img.icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: #ffffff;
     height: 100%;
     position: absolute;
     top: 0;

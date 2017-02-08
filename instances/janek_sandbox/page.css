@@ -161,3 +161,13 @@ img.icon {
     overflow: hidden;
     padding-bottom: 1px;
 }
+/* Remove Black lines in video proportions*/
+.bc-player-default_default .vjs-poster {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

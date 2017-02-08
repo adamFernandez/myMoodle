@@ -132,3 +132,8 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
     max-width: 45%;
     font-size: 14px;
 }
+/* Video Scrollbars hiding*/
+.no-overflow {
+    overflow: hidden;
+    padding-bottom: 1px;
+}

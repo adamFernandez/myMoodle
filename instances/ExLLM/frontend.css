@@ -29,9 +29,9 @@ main {
 }
 
 .hero-box {
-  background-color: #4E5057;
-  opacity: 0.9;
-  right: 0px;
+  background-color: black;
+  opacity: 0.65;
+  left: 0px;
   padding: 20px;
   position: absolute;
 }
@@ -87,3 +87,5 @@ main {
 .emphasis-box-grey {background-color: #4E5057; color: white; padding:5px;}
 
 #page-header {background-color: #000000 !important;}
+
+.toggle {border: 1px solid #9e9fa7;}

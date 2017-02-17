@@ -46,6 +46,7 @@ main {
 .hero-box h1 {
   font-size: 3em;
   color: #ffffff;
+  font-weight: 100 !important;
 }
 
 .hero-box h2 {

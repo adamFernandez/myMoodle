@@ -148,3 +148,12 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
     top: 0;
     width: 100%;
 }
+/* Book subheader position and size*/
+.book_content h3 {
+    font-size: 23px;
+    margin-top: -70px;
+    padding: 20px;
+    font-family: 'KingsBureauGrot ThreeSeven';
+    font-weight: bold;
+    font-style: normal;
+}

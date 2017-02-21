@@ -135,6 +135,7 @@ a.s1:hover {text-decoration:underline;}
 				font-family: 'KingsBureauGrot ThreeSeven';
 				font-weight: bold;
 				font-style: normal;
+				pointer-events: none;
 				}
 
 .path-mod-book h2 {margin: 0px;}

@@ -182,3 +182,7 @@ img.icon {
     font-weight: bold;
     font-style: normal;
 }
+/* Forum header normal place*/
+h3 {
+    margin: 0px 0px 0px 0px;
+}

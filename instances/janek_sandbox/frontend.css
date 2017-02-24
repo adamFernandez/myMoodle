@@ -132,11 +132,6 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
     max-width: 45%;
     font-size: 14px;
 }
-/* Video Scrollbars hiding*/
-.no-overflow {
-    overflow: hidden;
-    padding-bottom: 1px;
-}
 /* Remove Black lines in video proportions*/
 .bc-player-default_default .vjs-poster {
     background-repeat: no-repeat;
@@ -166,4 +161,10 @@ element.style {
     border: 4px solid #0b5584;
     border-radius: 5px;
     background-image: none;
+}
+/* Video Scrollbars hiding and also dashboard icon centrening*/
+.no-overflow {
+    overflow: hidden;
+    padding-bottom: 1px;
+    text-align: center;
 }

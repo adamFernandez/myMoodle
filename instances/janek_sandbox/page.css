@@ -67,6 +67,7 @@ h3 {
 		}
 		#green_week {
 				color: #449f1e;
+			        text-align: left;
 				position: relative;
 				background: #fafafa;
 				border: 1px solid #ececec;
@@ -79,6 +80,7 @@ h3 {
 				}
 		#blue_week {
 				color: #092c50;
+				text-align: left;
 				background-size: 30px 30px;
 				position: relative;
 				background: #fafafa;
@@ -92,6 +94,7 @@ h3 {
 				}
 		#red_week {
 				color: #e1221a;
+				text-align: left;
 				background-size: 30px 30px;
 				position: relative;
 				background: #fafafa;
@@ -196,4 +199,5 @@ element.style {
 .no-overflow {
     overflow: hidden;
     padding-bottom: 1px;
+    text-align: center;
 }

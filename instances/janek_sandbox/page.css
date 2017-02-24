@@ -192,9 +192,8 @@ element.style {
     border-radius: 5px;
     background-image: none;
 }
-/* Video Scrollbars hiding and also dashboard icon centrening*/
+/* Video Scrollbars hiding*/
 .no-overflow {
     overflow: hidden;
     padding-bottom: 1px;
-    text-align: center;
 }

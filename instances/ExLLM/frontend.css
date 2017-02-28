@@ -56,6 +56,9 @@ main {
 .ivory {
 	background-color: #EFE8DD !important;
 	opacity: 0.9;
+}
+
+.ivory h1 {
 	color: black !important;
 }
 

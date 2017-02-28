@@ -55,6 +55,11 @@ main {
   	opacity: 0.9;
 }
 
+.ivory {
+	background-color: #EFE8DD !important;
+	opacity: 0.9;
+}
+
 .hero-box h1 {
   font-size: 3em;
   color: #ffffff;

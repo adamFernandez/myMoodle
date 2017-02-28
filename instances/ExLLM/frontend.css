@@ -37,7 +37,7 @@ main {
   background-color: black;
   opacity: 0.65;
   left: 0px;
-  padding: 20px;
+  padding: 0px;
   padding-left: 50px;
   padding-right: 50px;
   position: absolute;
@@ -46,23 +46,13 @@ main {
 .blue {
 	background-color: #377B9C !important;
 	color: white !important;
-  	opacity: 0.65;
-  	left: 0px;
-  	padding: 20px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	position: absolute;
+  	opacity: 0.9;
 }
 
 .red {
 	background-color: #A00B17 !important;
 	color: white !important;
-  	opacity: 0.65;
-  	left: 0px;
-  	padding: 20px;
-  	padding-left: 50px;
-  	padding-right: 50px;
-  	position: absolute;
+  	opacity: 0.9;
 }
 
 .hero-box h1 {

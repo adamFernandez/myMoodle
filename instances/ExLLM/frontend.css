@@ -45,19 +45,18 @@ main {
 
 .blue {
 	background-color: #377B9C !important;
-	color: white !important;
   	opacity: 0.9;
 }
 
 .red {
 	background-color: #A00B17 !important;
-	color: white !important;
   	opacity: 0.9;
 }
 
 .ivory {
 	background-color: #EFE8DD !important;
 	opacity: 0.9;
+	color: black !important;
 }
 
 .hero-box h1 {

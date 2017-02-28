@@ -43,6 +43,28 @@ main {
   position: absolute;
 }
 
+.blue {
+	background-color: #377B9C !important;
+	color: white !important;
+  	opacity: 0.65;
+  	left: 0px;
+  	padding: 20px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	position: absolute;
+}
+
+.red {
+	background-color: #A00B17 !important;
+	color: white !important;
+  	opacity: 0.65;
+  	left: 0px;
+  	padding: 20px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	position: absolute;
+}
+
 .hero-box h1 {
   font-size: 3em;
   color: #ffffff;

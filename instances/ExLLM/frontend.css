@@ -35,7 +35,7 @@ main {
 
 .hero-box {
   background-color: black;
-  opacity: 0.65;
+  opacity: 0.9;
   left: 0px;
   padding: 0px;
   padding-left: 50px;
@@ -45,17 +45,14 @@ main {
 
 .blue {
 	background-color: #377B9C !important;
-  	opacity: 0.9;
 }
 
 .red {
 	background-color: #A00B17 !important;
-  	opacity: 0.9;
 }
 
 .ivory {
 	background-color: #EFE8DD !important;
-	opacity: 0.9;
 }
 
 .ivory h1 {

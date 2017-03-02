@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Serif';
+
+.section-title, h1, h2, h3, h4 {
+font-family: 'Fjalla One', sans-serif !important;
+}
+
+p {
+	color: #000000;
+}
+
+.subtitles {
+	font-family: 'Fjalla One', sans-serif;
+	color: #4e647f;
+	font-size: medium;
+	font-weight: bold;
+}
+
+  .accordion-toggle {
+	cursor: pointer;
+	background-color: #ccc;
+	cursor: pointer;
+	padding: 15px;
+	width: 99%;
+	text-align: left;
+	outline: none;
+        color: #000;
+	margin: 0px;
+}
+
+  .accordion-content {display: none; padding-top: 10px;}
+  .accordion-content.default {display: block;}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+@font-face {
+  font-family: kingsfont;
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+main {
+  overflow: hidden;
+  font-family: 'kingsfont';
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero-box {
+  background-color: #4e647f;
+  opacity: 0.9;
+  right: 0px;
+  padding: 20px;
+  position: absolute;
+}
+
+.hero-box h1 {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.hero-box h2 {
+  font-size: 1em;
+  color: #ffffff;
+  right: 0;
+}
+
+@media all and (max-width: 650px) {
+
+  .hero-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-box h1 {
+    font-size: 1.7em;
+  }
+  
+  .hero-box h2 {
+    display: none;
+  }
+ 
+}
+
+@media all and (max-width: 380px) {
+
+  .hero-box h1 {
+    font-size: 1.4em;
+  }
+
+}

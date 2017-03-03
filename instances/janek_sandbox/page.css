@@ -17,6 +17,7 @@
 	font-style: normal;
 }
 
+.book_content {margin-left: 20px;}
 h2 {
 			position: relative;
 			background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top;

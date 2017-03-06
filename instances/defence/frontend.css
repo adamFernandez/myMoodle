@@ -9,7 +9,7 @@
 }
 
 .section-title, h1, h2, h3, h4 {
-font-family: 'KingsBureauGrot !important;
+font-family: 'KingsBureauGrot' !important;
 }
 
 .subtitles {
@@ -41,7 +41,7 @@ button.accordion.active, button.accordion:hover {
 
 main {
   overflow: hidden;
-  font-family: 'KingsBureauGrot !important';
+  font-family: 'KingsBureauGrot' !important;
 }
 
 .hero {
@@ -65,6 +65,8 @@ main {
   font-size: 2em;
   color: #202f3f;
   background-color: #f3f3f3;
+  text-transform: uppercase;
+  padding: 5px;
 }
 
 .hero-box h2 {
@@ -72,6 +74,8 @@ main {
   color: #404142;
   right: 0;
   background-color: #f3f3f3;
+  padding: 5px;
+  text-transform: uppercase;
 }
 
 @media all and (max-width: 650px) {

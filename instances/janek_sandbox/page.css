@@ -76,7 +76,7 @@ h3 {
 				position: relative;
 				line-height: 36px;
 				font-size: 26px;
-				padding: 10px 20px;
+				padding: 0px;
 				font-family: 'KingsBureauGrot ThreeSeven';
 				font-weight: bold;
 				font-style: normal;
@@ -205,4 +205,9 @@ element.style {
     overflow: hidden;
     padding-bottom: 1px;
     text-align: center;
+}
+
+.book_content {
+	padding-left: 20px;
+	padding-right: 20px;
 }

@@ -17,7 +17,7 @@
 	font-style: normal;
 }
 
-.main h2 {
+[role=main] h2 {
 	background-color: #6b6b6b;
 	color: white;
 }

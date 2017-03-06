@@ -75,10 +75,10 @@ main {
 }
 
 .hero-box h2 {
-  font-size: 1em;
-  color: #404142;
+  font-size: 1.1em;
+  color: #000000;
   right: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto' !important;
   background-color: #f3f3f3;
   padding: 5px;
   text-transform: uppercase;
@@ -90,7 +90,7 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    padding: 0px;
+    padding: 0px !important;
     top: 0px;
     justify-content: center;
     align-items: center;

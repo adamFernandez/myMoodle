@@ -204,7 +204,6 @@ element.style {
 .no-overflow {
     overflow: hidden;
     padding-bottom: 1px;
-    text-align: center;
 }
 
 .book_content {

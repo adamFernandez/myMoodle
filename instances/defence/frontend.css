@@ -8,6 +8,11 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Roboto;;
+	src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
 .section-title, h1, h2, h3, h4 {
 font-family: 'KingsBureauGrot' !important;
 }
@@ -62,7 +67,7 @@ main {
 }
 
 .hero-box h1 {
-  font-size: 2em;
+  font-size: 3em;
   color: #202f3f;
   background-color: #f3f3f3;
   text-transform: uppercase;
@@ -73,6 +78,7 @@ main {
   font-size: 1em;
   color: #404142;
   right: 0;
+  font-family: 'Roboto';
   background-color: #f3f3f3;
   padding: 5px;
   text-transform: uppercase;
@@ -106,3 +112,5 @@ main {
   }
 
 }
+
+.course-content ul.ctopics li.section .content .toggle {border: 1px solid #a0a0a0 !important;}

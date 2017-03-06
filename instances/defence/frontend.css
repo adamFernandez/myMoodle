@@ -91,7 +91,6 @@ main {
   .hero-box {
     width: 100%;
     height: 100%;
-    display: flex;
 	max-width: 100% !important;
     padding: 0px !important;
     top: 0px;
@@ -100,6 +99,12 @@ main {
   }
   .hero-box h1 {
     font-size: 1.7em;
+	margin-bottom: 1px !important;
+  }
+  
+  .hero-box h2 {
+	font-size: 0.9em;
+	margin: 0px !important;
   }
 
  

@@ -17,6 +17,11 @@
 	font-style: normal;
 }
 
+.main h2 {
+	background-color: #6b6b6b;
+	color: white;
+}
+
 h2 {
 			position: relative;
 			background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top;

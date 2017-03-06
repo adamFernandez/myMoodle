@@ -211,3 +211,5 @@ element.style {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.bc-iframe body, .bc-player-default_default {background: inherit}

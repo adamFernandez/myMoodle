@@ -88,28 +88,28 @@ h3 {
 				text-align: left;
 				background-size: 30px 30px;
 				position: relative;
-				background: #fafafa;
-				border: 1px solid #ececec;
 				line-height: 36px;
-				font-size: 30px;
-				padding: 10px 20px;
+				font-size: 26px;
+				padding: 0px;
 				font-family: 'KingsBureauGrot ThreeSeven';
 				font-weight: bold;
 				font-style: normal;
+				background-color: white;
+				border: 0px;
 				}
 		#red_week {
 				color: #e1221a;
 				text-align: left;
 				background-size: 30px 30px;
 				position: relative;
-				background: #fafafa;
-				border: 1px solid #ececec;
 				line-height: 36px;
-				font-size: 30px;
-				padding: 10px 20px;
+				font-size: 26px;
+				padding: 0px;
 				font-family: 'KingsBureauGrot ThreeSeven';
 				font-weight: bold;
 				font-style: normal;
+				background-color: white;
+				border: 0px;
 				}
 a.s1:link {color:#666;text-decoration:none;}
 a.s1:visited {color:#eee;text-decoration:none;}

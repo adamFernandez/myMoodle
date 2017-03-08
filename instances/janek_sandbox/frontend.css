@@ -167,3 +167,9 @@ element.style {
     overflow: hidden;
     padding-bottom: 1px;
 }
+/* Dashboard module centre position*/
+.block_html {
+    background-color: #FFF;
+    padding-bottom: 5px;
+    text-align: center;
+}

@@ -212,3 +212,9 @@ element.style {
 }
 
 .bc-iframe body, .bc-player-default_default {background: inherit}
+/* Dashboard module centre position*/
+.block_html {
+    background-color: #FFF;
+    padding-bottom: 5px;
+    text-align: center;
+}

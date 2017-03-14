@@ -51,6 +51,27 @@ main {
     content: " - Remember this";
 }
 
+.arrow-box {
+	position: absolute;
+	height: 100%;
+	top: 0px;
+	width: 100px;
+	right: 0;
+	background: red;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid green;
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
 .blue {
     background-color: #377B9C !important;
 }

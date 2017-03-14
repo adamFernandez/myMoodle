@@ -36,7 +36,7 @@ main {
     background-color: black;
     opacity: 0.9;
     left: 0px;
-    top: 33%;
+    top: 90px;
     padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
@@ -45,10 +45,6 @@ main {
 
 .hero.launch-page .hero-box {
     background-color: transparent;
-}
-
-.hero.launchpage::after {
-    content: " - Remember this";
 }
 
 .arrow-box {
@@ -65,7 +61,7 @@ main {
 .arrow::before {
     content: '';
     background: white;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 50px;
 		height: 35px;
     width: 5px;

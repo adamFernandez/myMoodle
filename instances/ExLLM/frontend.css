@@ -43,11 +43,11 @@ main {
     position: absolute;
 }
 
-.hero-box.launch-page>.hero-box {
+.hero.launch-page .hero-box {
     background-color: transparent;
 }
 
-.hero-box.launchpage::after {
+.hero.launchpage::after {
     content: " - Remember this";
 }
 

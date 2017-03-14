@@ -37,10 +37,19 @@ main {
   background-color: black;
   opacity: 0.9;
   left: 0px;
+	top: 33%;
   padding: 0px;
   padding-left: 50px;
   padding-right: 50px;
   position: absolute;
+}
+
+.hero-box.launch-page > .hero-box {
+	background-color: transparent;
+}
+
+.hero-box.launchpage::after {
+    content: " - Remember this";
 }
 
 .blue {
@@ -85,11 +94,11 @@ main {
   .hero-box h1 {
     font-size: 1.7em;
   }
-  
+
   .hero-box h2 {
     display: none;
   }
- 
+
 }
 
 @media all and (max-width: 380px) {

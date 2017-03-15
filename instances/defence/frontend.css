@@ -1,9 +1,6 @@
 @font-face {
 	font-family: 'KingsBureauGrot';
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.eot');
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.eot?#iefix') format('embedded-opentype'),
-		url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff') format('woff'),
-		url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
 	font-weight: bold;
 	font-style: normal;
 }

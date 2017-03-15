@@ -44,7 +44,7 @@ main {
 
 .hero.launch-page .hero-box {
     background-color: transparent;
-    top: 10px;
+    top: 15px;
 }
 
 .arrow-box {
@@ -63,7 +63,7 @@ main {
     background: white;
     margin-top: 25%;
     margin-left: 50px;
-    height: 35px;
+    height: 20px;
     width: 5px;
     display: block;
     transform: skew(45deg);
@@ -73,7 +73,7 @@ main {
     content: '';
     background: white;
     margin-left: 50px;
-    height: 35px;
+    height: 20px;
     width: 5px;
     display: block;
     transform: skew(135deg);
@@ -96,7 +96,8 @@ main {
 }
 
 .launch-page .hero-box h1 {
-    font-weight: 300;
+    font-weight: 300 !important;
+    font-weight: 2em;
 }
 
 .hero-box h1 {
@@ -115,10 +116,7 @@ main {
     .hero-box {
         top: 45px;
     }
-    .arrow::before {
-        height: 15px;
-    }
-    .arrow::after {
+    .arrow::before, .arrow::after {
         height: 15px;
     }
 }

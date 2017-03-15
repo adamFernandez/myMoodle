@@ -126,9 +126,10 @@ main {
         margin-top: -90px;
         position: relative;
         padding-bottom: 10px;
+        opacity: 1;
     }
     .launch-page img {
-        border-bottom: 25px solid black;
+        border-bottom: 55px solid black;
     }
     .arrow::after, .arrow::before {
         margin-left: 50%;

@@ -44,6 +44,7 @@ main {
 
 .hero.launch-page .hero-box {
     background-color: transparent;
+    top: 30px;
 }
 
 .arrow-box {
@@ -60,7 +61,7 @@ main {
 .arrow::before {
     content: '';
     background: white;
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 50px;
     height: 35px;
     width: 5px;

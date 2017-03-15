@@ -45,6 +45,7 @@ main {
 .hero.launch-page .hero-box {
     background-color: transparent;
     top: 37px;
+    max-width: 98%;
 }
 
 .hero.launch-page img {

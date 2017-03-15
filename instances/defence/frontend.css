@@ -20,7 +20,11 @@
 
 .section-title, h1, h2, h3, h4 {
 	font-family: 'KingsBureauGrot' !important;
-	color: #33475c;
+	color: #33475c !important;
+}
+
+.block {
+	border-color: #777;
 }
 
 .subtitles {

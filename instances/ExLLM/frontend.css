@@ -44,7 +44,7 @@ main {
 
 .hero.launch-page .hero-box {
     background-color: transparent;
-    top: 15px;
+    top: 37px;
 }
 
 .hero.launch-page img {
@@ -141,7 +141,7 @@ main {
         height: 20px;
     }
     .arrow::before {
-        margin-top: 21%;
+        margin-top: 100px;
     }
     .launch-page .hero-box {
         margin-top: -25px;

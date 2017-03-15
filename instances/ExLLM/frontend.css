@@ -34,13 +34,56 @@ main {
 }
 
 .hero-box {
-  background-color: black;
-  opacity: 0.9;
-  left: 0px;
-  padding: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
-  position: absolute;
+    background-color: black;
+    opacity: 0.9;
+    left: 0px;
+    top: 40px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 67%
+    position: absolute;
+}
+
+.hero.launch-page .hero-box {
+    background-color: transparent;
+    top: 37px;
+    max-width: 98%;
+}
+
+.hero.launch-page img {
+  height: 100%;
+}
+
+.arrow-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.arrow::before {
+    content: '';
+    background: white;
+    margin-top: 45px;
+    margin-left: 25px;
+    height: 20px;
+    width: 5px;
+    display: block;
+    transform: skew(30deg);
+}
+
+.arrow::after {
+    content: '';
+    background: white;
+    margin-left: 25px;
+    height: 20px;
+    width: 5px;
+    display: block;
+    transform: skew(150deg);
 }
 
 .blue {
@@ -56,7 +99,12 @@ main {
 }
 
 .ivory h1 {
-	color: black !important;
+    color: black !important;
+}
+
+.launch-page .hero-box h1 {
+    font-weight: 300 !important;
+    font-size: 32px;
 }
 
 .hero-box h1 {
@@ -66,12 +114,59 @@ main {
 }
 
 .hero-box h2 {
-  font-size: 1em;
-  color: #ffffff;
-  right: 0;
+    font-size: 1em;
+    color: #ffffff;
+    right: 0;
+}
+
+@media all and (max-width: 780px) {
+    .hero-box {
+        top: 45px;
+    }
+    .arrow::before, .arrow::after {
+        height: 15px;
+    }
 }
 
 @media all and (max-width: 650px) {
+    .launch-page .arrow-box {
+        width: 100%;
+        height: 100%;
+        margin-top: -145px;
+        position: relative;
+        padding-bottom: 10px;
+        opacity: 1;
+    }
+    .launch-page img {
+        border-bottom: 55px solid black;
+    }
+    .arrow::after, .arrow::before {
+        margin-left: 50%;
+        height: 20px;
+    }
+    .arrow::before {
+        margin-top: 100px;
+    }
+    .launch-page .hero-box {
+        margin-top: -55px;
+    }
+    .hero-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0px;
+        top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-box h1 {
+        font-size: 1.7em;
+    }
+    .hero-box h2 {
+        display: none;
+    }
+}
+>>>>>>> development
 
   .hero-box {
     width: 100%;
@@ -85,11 +180,11 @@ main {
   .hero-box h1 {
     font-size: 1.7em;
   }
-  
+
   .hero-box h2 {
     display: none;
   }
- 
+
 }
 
 @media all and (max-width: 380px) {

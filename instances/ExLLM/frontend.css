@@ -49,11 +49,10 @@ main {
 
 .arrow-box {
     position: absolute;
-    height: 100%;
-    top: 0px;
-    width: 100px;
+    top: 0;
     right: 0;
-    background: red;
+    height: 100%;
+    width: 50px;
     background-color: black;
     opacity: 0.7;
 }
@@ -61,22 +60,22 @@ main {
 .arrow::before {
     content: '';
     background: white;
-    margin-top: 25%;
-    margin-left: 50px;
+    margin-top: 43%;
+    margin-left: 25px;
     height: 20px;
     width: 5px;
     display: block;
-    transform: skew(45deg);
+    transform: skew(30deg);
 }
 
 .arrow::after {
     content: '';
     background: white;
-    margin-left: 50px;
+    margin-left: 25px;
     height: 20px;
     width: 5px;
     display: block;
-    transform: skew(135deg);
+    transform: skew(150deg);
 }
 
 .blue {

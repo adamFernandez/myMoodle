@@ -47,6 +47,10 @@ main {
     top: 15px;
 }
 
+.hero.launch-page img {
+  height: 100%;
+}
+
 .arrow-box {
     position: absolute;
     top: 0;
@@ -60,7 +64,7 @@ main {
 .arrow::before {
     content: '';
     background: white;
-    margin-top: 43%;
+    margin-top: 45px;
     margin-left: 25px;
     height: 20px;
     width: 5px;
@@ -96,7 +100,7 @@ main {
 
 .launch-page .hero-box h1 {
     font-weight: 300 !important;
-    font-weight: 2em;
+    font-size: 32px;
 }
 
 .hero-box h1 {
@@ -124,7 +128,7 @@ main {
     .launch-page .arrow-box {
         width: 100%;
         height: 100%;
-        margin-top: -90px;
+        margin-top: -145px;
         position: relative;
         padding-bottom: 10px;
         opacity: 1;

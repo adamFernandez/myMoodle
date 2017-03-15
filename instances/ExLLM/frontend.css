@@ -35,7 +35,7 @@ main {
     background-color: black;
     opacity: 0.9;
     left: 0px;
-    top: 90px;
+    top: 40px;
     padding: 0px;
     padding-left: 50px;
     padding-right: 50px;
@@ -44,7 +44,7 @@ main {
 
 .hero.launch-page .hero-box {
     background-color: transparent;
-    top: 30px;
+    top: 10px;
 }
 
 .arrow-box {

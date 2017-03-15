@@ -12,6 +12,9 @@
 
 #page-header {
 	background-color: #33475c;
+	.coursesearch input[type="submit"] {
+		background-color: #ffbb57 !important;
+	}
 }
 
 .section-title, h1, h2, h3, h4 {

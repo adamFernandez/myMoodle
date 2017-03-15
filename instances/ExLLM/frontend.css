@@ -26,9 +26,9 @@ main {
 .hero {
     text-align: center;
     position: relative;
-    /*justify-content: center;
+    justify-content: center;
     align-items: center;
-    margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 .hero-box {
@@ -61,7 +61,7 @@ main {
 .arrow::before {
     content: '';
     background: white;
-    margin-top: 30px;
+    margin-top: 25%;
     margin-left: 50px;
     height: 35px;
     width: 5px;
@@ -96,7 +96,7 @@ main {
 }
 
 .launch-page .hero-box h1 {
-		font-weight: 300;
+    font-weight: 300;
 }
 
 .hero-box h1 {
@@ -112,12 +112,15 @@ main {
 }
 
 @media all and (max-width: 780px) {
-	.hero-box {
-		top: 45px;
-	}
-	.arrow::before {
-	    margin-top: 45px;
-	}
+    .hero-box {
+        top: 45px;
+    }
+    .arrow::before {
+        height: 15px;
+    }
+    .arrow::after {
+        height: 15px;
+    }
 }
 
 @media all and (max-width: 650px) {
@@ -134,7 +137,10 @@ main {
     }
     .arrow::after, .arrow::before {
         margin-left: 50%;
-				height: 20px;
+        height: 20px;
+    }
+    .arrow::before {
+        margin-top: 21%;
     }
     .launch-page .hero-box {
         margin-top: -25px;

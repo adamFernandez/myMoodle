@@ -1,36 +1,35 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400';
-
 h1, h2, h3, h4 {
-font-family: 'Roboto', sans-serif !important;
-font-weight: 300 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
 }
 
 .section-title {
-	font-family: 'Roboto', sans-serif !important;
-	font-weight: 500 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
 }
 
 h1, h2, h3 {
-	color: inherit;
+    color: inherit;
 }
 
 html, body {
-	font-family: 'Roboto', sans-serif !important;
-	color: #000000;
-	text-align: justify !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: #000000;
+    text-align: justify !important;
 }
 
 main {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .hero {
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .hero-box {
@@ -52,7 +51,7 @@ main {
 }
 
 .hero.launch-page img {
-  height: 100%;
+    height: 100%;
 }
 
 .arrow-box {
@@ -87,15 +86,15 @@ main {
 }
 
 .blue {
-	background-color: #377B9C !important;
+    background-color: #377B9C !important;
 }
 
 .red {
-	background-color: #A00B17 !important;
+    background-color: #A00B17 !important;
 }
 
 .ivory {
-	background-color: #EFE8DD !important;
+    background-color: #EFE8DD !important;
 }
 
 .ivory h1 {
@@ -108,9 +107,9 @@ main {
 }
 
 .hero-box h1 {
-  font-size: 3em;
-  color: #ffffff;
-  font-weight: 100 !important;
+    font-size: 3em;
+    color: #ffffff;
+    font-weight: 100 !important;
 }
 
 .hero-box h2 {
@@ -152,7 +151,7 @@ main {
     }
     .hero-box {
         width: 100%;
-				max-width: 100%;
+        max-width: 100%;
         height: 100%;
         display: flex;
         padding: 0px;

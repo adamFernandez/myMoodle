@@ -52,6 +52,7 @@ main {
 
 .hero.launch-page img {
     height: 120px;
+    width: 100%;
 }
 
 .arrow-box {

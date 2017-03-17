@@ -189,6 +189,7 @@ ul.topnav li a {
     text-align: center;
     padding: 1px 1px 1px 1px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #eee;}

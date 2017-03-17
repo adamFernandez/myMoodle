@@ -218,3 +218,31 @@ element.style {
     padding-bottom: 5px;
     text-align: center;
 }
+/* Frontpage navigation*/
+ul.topnav {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    background-color: #fff;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1px 1px 1px 1px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #eee;}
+
+ul.topnav li a.active {background-color: #fdfdfd;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}

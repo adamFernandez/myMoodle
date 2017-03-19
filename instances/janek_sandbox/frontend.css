@@ -209,3 +209,5 @@ ul.topnav li.right {float: right;}
 	max-width:180px !important; 
 	height:auto !important;
 }
+
+.img-row{display:flex; flex-wrap:wrap}

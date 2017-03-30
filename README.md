@@ -4,19 +4,19 @@ To begin you must have this repository either checked out or at the very least d
 
 **Before you start you should consider how much of the page you want to update.** If it's only a few specific elements it's probably easier to do it directly on the page. You should only use this approach if you are creating a theme that you want to use across multiple courses or if you want to do something specific.
 
-##Create a new folder with your page
+## Create a new folder with your page
 
 Go inside the 'instances' folder and then create a new folder with the name of your course.
 
-##Copy the frontend.html
+## Copy the frontend.html
 
 Copy the frontend.html file into your project.
 
-##Select all the features you want (requires developer)
+## Select all the features you want (requires developer)
 
 List at all the features that you want for your webpage (header recolouring, custom icons etc.). Go into the HTML file and uncomment all the features you want and ensure that they have been configured correctly.
 
-##Ensure that CSS is being loaded in locally
+## Ensure that CSS is being loaded in locally
 
 Inside the loadCSS() function at the top ensure that code is being loaded in locally. So for *Janek sandbox* set the location to be *Course_%20Janek%20sandbox_files/theme.css*.
 
@@ -36,45 +36,45 @@ Go back to the original checked out folder and copy the *theme.css* file. Now ad
 
 Go to the *.htm* you created and it should load the page (with lots of elements missing that have to be loaded in externally). However you should be able to use test all CSS you write on this page!
 
-##Once you've finished
+## Once you've finished
 
 After you have finished writing your CSS ensure that the .html and .css file gets added to Github **Don't add the .htm file or the source folder.** Then go into the HTML file and link to the 'development' CSS for testing or 'production' if it's ready to go live. Now copy the .html code back into the webpage and your changes should be reflected.
 
-#Explanation of files
+# Explanation of files
 
-##frontend.html 
+## frontend.html 
 Is the code that will be embedded into the webpage. It contains functions that will implement all the functionality that a designer requests per page. The purpose of this code is to either create new elements or hide elements that exist currently or to apply classes to exisiting elements. You should not use Javascript for any other purpose!
 
-##theme.css
+## theme.css
 Is loaded in externally and is used to style up the classes that you applied in Javascript.
 
 This decision was made to make the code a lot more readable and to ensure modularity so that we can load in specific functions as needed.
 
-##functions.js
+## functions.js
 This contains all the functions that are useable within moodle. Link to this page and the functions will be imported for you to use. NOTE: for production ensure that this is included in the HTML instead of being loaded.
 
-##lightbox.html
+## lightbox.html
 This code should be embedded in a seperate HTML block.
 
-##Instances
+## Instances
 Create instances of courses here e.g (Janek_sandbox). Within that folder add the 'Course_[your course]' html file and theme.css. 
 
-##popup.html
+## popup.html
 Add to styles for popup/tooltip text.
 
 **Don't add the other 'Course_[your course] _files' here as it will make the repo massive** - Just keep them on your own computer.
 
-##assets
+## assets
 Store assets that will be used across courses here (images/icons)
 
-###fonts
+### fonts
 Store fonts that will be used across multiple courses here.
 
-###icons
+### icons
 Store icons that will be used across multiple courses here.
 
-###images
+### images
 Store images that will be used across multiple courses here.
 
-#Loading into Moodle
+# Loading into Moodle
 Files are loaded from this repository to our server every 15 minutes. You can then embed them in your moodle course using **http://git.iddkingsonline.com/path_to_file**. 

@@ -1,4 +1,4 @@
-#How to create a new CSS file for a page
+# How to create a new CSS file for a page
 
 To begin you must have this repository either checked out or at the very least download the zip and then have a developer (Simon, Louise or Paul) help you at a later stage.
 

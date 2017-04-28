@@ -90,9 +90,9 @@ function addProgressBar() {
     $(".summary-progress-icon").css("left", percentComplete);
 }
 
-function getCurrentImage() {
+function setImageByDate() {
     var currentWeek = getCurrentWeek();
-    $('.img-row img:nth-child(' + currentweek + ')').css("border", "10px solid red")
+    $('.img-row img:nth-child(' + currentweek + ')').css("border", "2px solid red")
 }
 
 function getCurrentWeek() {

@@ -94,8 +94,7 @@ function setImageByDate() {
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
-    if ()
-        console.log(date.getDate());
+    console.log(date.getDate());
 
     switch (month) {
         case 4:

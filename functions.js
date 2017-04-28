@@ -90,35 +90,66 @@ function addProgressBar() {
     $(".summary-progress-icon").css("left", percentComplete);
 }
 
-function setImageByDate() {
+function getCurrentImage() {
+    var currentWeek = getCurrentWeek();
+    $('.img-row img:nth-child(' + currentweek + ')').css("border", "10px solid red")
+}
+
+function getCurrentWeek() {
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
     console.log(day);
-		console.log(month);
+    console.log(month);
 
-    switch (month) {
-        case 4:
+    switch (month) { // month is 0 starting array (Jan = 0)
+        case 3:
             switch (day) {
                 case (day < 7):
                     console.log('week 1');
-                    break;
+                    return 1;
                 case (day < 14):
                     console.log('week 2');
-                    break;
+                    return 2;
                 case (day < 21):
                     console.log('week 3');
-                    break;
+                    return 3;
                 case (day <= 31):
                     console.log('week 4');
-                    break;
+                    return 4;
+            }
+            break;
+        case 5:
+            switch (day) {
+                case (day < 7):
+                    console.log('week 1');
+                    return 1;
+                case (day < 14):
+                    console.log('week 2');
+                    return 2;
+                case (day < 21):
+                    console.log('week 3');
+                    return 3;
+                case (day <= 31):
+                    console.log('week 4');
+                    return 4;
             }
             break;
         case 6:
-            day = "Monday";
-            break;
-        case 7:
-            day = "Tuesday";
+            switch (day) {
+                case (day < 7):
+                    console.log('week 1');
+                    return 1;
+                case (day < 14):
+                    console.log('week 2');
+                    return 2;
+                case (day < 21):
+                    console.log('week 3');
+                    return 3;
+                case (day <= 31):
+                    console.log('week 4');
+                    return 4;
+            }
             break;
     }
 }

@@ -102,7 +102,7 @@ function getCurrentWeek() {
     console.log(day);
     console.log(month);
 
-    switch (true) { // month is 0 starting array (Jan = 0)
+    switch (month) { // month is 0 starting array (Jan = 0)
         case 3:
             switch (true) {
                 case (day < 7):

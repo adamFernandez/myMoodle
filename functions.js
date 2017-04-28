@@ -93,11 +93,8 @@ function addProgressBar() {
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
     for (var i = 0; i <= currentWeek; i++) {
-				console.log(i);
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
-        console.log(imageSrc);
         imageSrc = imageSrc.replace('no', '');
-        console.log(imageSrc);
         $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
     }
 }
@@ -106,49 +103,25 @@ function getCurrentWeek() {
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
-    console.log("today is the " + day + " day of ");
-    console.log(month);
 
     switch (month) { // month is 0 starting array (Jan = 0)
         case 3:
             switch (true) {
                 case (day < 7):
-                    console.log('week 1');
                     return 0;
                 case (day < 14):
-                    console.log('week 2');
                     return 1;
                 case (day < 21):
-                    console.log('week 3');
                     return 2;
                 case (day <= 31):
-                    console.log('week 4');
                     return 3;
             }
             break;
         case 5:
             switch (true) {
                 case (day < 7):
-                    console.log('week 1');
                     return 1;
-                case (day < 14):
-                    console.log('week 2');
-                    return 2;
-                case (day < 21):
-                    console.log('week 3');
-                    return 3;
-                case (day <= 31):
-                    console.log('week 4');
-                    return 4;
-            }
-            break;
-        case 6:
-            switch (true) {
-                case (day < 7):
-                    console.log('week 1');
-                    return 1;
-                case (day < 14):
-                    console.log('week 2');
+                case (day < 14)
                     return 2;
                 case (day < 21):
                     console.log('week 3');

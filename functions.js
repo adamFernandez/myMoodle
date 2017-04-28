@@ -1,4 +1,4 @@
-function replaceFileIcons(name, location) {	
+function replaceFileIcons(name, location) {
 	$(".activityinstance").each(function(index, value){
 		var instanceName = $(value).eq(0).text();
 		if(instanceName.indexOf(name) !== -1){
@@ -8,7 +8,7 @@ function replaceFileIcons(name, location) {
 	});
 }
 
-function replaceFileIconsByUrl(original, replace) {	
+function replaceFileIconsByUrl(original, replace) {
 	$(".activityinstance").each(function(index, value) {
 		var iconImage = $(this).find("img").first();
 		if($(iconImage).attr('src').indexOf(original) !== -1){
@@ -31,7 +31,7 @@ function replaceFileIconsCSS(name, code) {
 			$(this).find('.instancename').css('top','25px');
 			$(this).prepend(icon);
 		}
-	});	
+	});
 }
 
 function setBackgroundImage(location) {
@@ -88,7 +88,12 @@ function addProgressBar() {
 		var progress = $("<img class='summary-progress-icon'/>");
 		$(".summary-progress").append(progress);
 		$(".summary-progress-icon").css("left",percentComplete);
-}	
+}
+
+function setActiveImageByDate() {
+	var date = new Date();
+	console.log(	date.getDate());
+}
 
 function closeOtherAccordions(context) {
 	$('ul.topics li.section').each(function(index) {

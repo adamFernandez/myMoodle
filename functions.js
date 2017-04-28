@@ -92,19 +92,18 @@ function addProgressBar() {
 
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
-		console.log($('.img-row img'));
-		console.log($('.img-row img:eq(' + currentWeek + ')'));
     var imageSrc = $('.img-row img:eq(' + currentWeek + ')').attr('src');
 		console.log(imageSrc);
-		imageSrc = imageSrc.replace('data-','');
+		imageSrc = imageSrc.replace('no','');
 		console.log(imageSrc);
+		$('.img-row img:eq(' + currentWeek + ')').attr('src',imageSrc);
 }
 
 function getCurrentWeek() {
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
-    console.log(day);
+    console.log("today is the " + day + " day of ");
     console.log(month);
 
     switch (month) { // month is 0 starting array (Jan = 0)

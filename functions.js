@@ -94,7 +94,10 @@ function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
 		console.log($('.img-row img'));
 		console.log($('.img-row img:eq(' + currentWeek + ')'));
-    $('.img-row img:eq(' + currentWeek + ')').css("border", "2px solid red");
+    var imageSrc = $('.img-row img:eq(' + currentWeek + ')').attr('src');
+		console.log(imageSrc);
+		imageSrc = imageSrc.slice(imageSrc.length - 6, imageSrc.length - 4);
+		console.log(imageSrc);
 }
 
 function getCurrentWeek() {

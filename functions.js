@@ -94,7 +94,8 @@ function setImageByDate() {
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
-    console.log(date.getDate());
+    console.log(day);
+		console.log(month);
 
     switch (month) {
         case 4:
@@ -107,11 +108,9 @@ function setImageByDate() {
                     break;
                 case (day < 21):
                     console.log('week 3');
-                    day = "Tuesday";
                     break;
                 case (day <= 31):
                     console.log('week 4');
-                    day = "Wednesday";
                     break;
             }
             break;

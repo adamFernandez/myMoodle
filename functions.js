@@ -90,7 +90,7 @@ function addProgressBar() {
 		$(".summary-progress-icon").css("left",percentComplete);
 }
 
-function setActiveImageByDate() {
+function setImageByDate() {
 	var date = new Date();
 	console.log(	date.getDate());
 }

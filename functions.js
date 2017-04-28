@@ -92,7 +92,9 @@ function addProgressBar() {
 
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
-    $('.img-row img:nth-child(' + currentWeek + ')').css("border", "2px solid red")
+		console.log($('.img-row img');
+		console.log($('.img-row img:nth-child(' + currentWeek + ')'));
+    $('.img-row img:nth-child(' + currentWeek + ')').css("border", "2px solid red");
 }
 
 function getCurrentWeek() {

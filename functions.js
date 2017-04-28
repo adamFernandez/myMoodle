@@ -96,7 +96,7 @@ function setImageByDate() {
 		console.log($('.img-row img:eq(' + currentWeek + ')'));
     var imageSrc = $('.img-row img:eq(' + currentWeek + ')').attr('src');
 		console.log(imageSrc);
-		imageSrc = imageSrc.slice(imageSrc.length - 6, imageSrc.length - 4);
+		imageSrc = imageSrc.replace('data-','');
 		console.log(imageSrc);
 }
 

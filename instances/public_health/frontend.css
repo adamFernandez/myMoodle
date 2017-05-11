@@ -8,12 +8,12 @@ h1 {
 font-family: 'kingsfont-51' !important;
 }
 
-.section-title {
-	color: #0A2D50;
+h3.section-title {
+	color: #0A2D50 !important;
 }
 
 #page-header {
-	background: #0A2D50;
+	background-color: #0A2D50;
 }
 
 .sectionbody {

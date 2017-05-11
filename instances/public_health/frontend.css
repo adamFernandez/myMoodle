@@ -2,6 +2,8 @@
 font-family: 'kingsfont-37' !important;
 }
 
+h4 {font-weight: normal !important;}
+
 h1 {
 font-family: 'kingsfont-51' !important;
 }
@@ -9,6 +11,7 @@ font-family: 'kingsfont-51' !important;
 .sectionbody {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
+	color: black;
 }
 
 .subtitles {
@@ -76,7 +79,7 @@ main {
 .hero-box h1 {
   font-size: 2.5em;
   color: #ffffff;
-  font-family: 'kingsfont-37 !important';
+  font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
@@ -129,8 +132,10 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
     background-color: #ffffff !important;
 }
 
-.toggle .toggle-open {
+.course-content ul.ctopics li.section .content .sectionhead
+a.toggle_open {
 	color: #28C382;
 	border: 1px solid #28C382 !important;
 }
 
+.course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}

@@ -8,6 +8,14 @@ h1 {
 font-family: 'kingsfont-51' !important;
 }
 
+.section-title {
+	color: #0A2D50;
+}
+
+#page-header {
+	background: #0A2D50;
+}
+
 .sectionbody {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
@@ -68,7 +76,7 @@ main {
 }
 
 .hero-box {
-    background-color: #00B9E1;
+    background-color: #FC5E72;
     opacity: 0.9;
     left: 0px;
     padding: 0px;

@@ -1,13 +1,17 @@
-.section-title, h1, h2, h3, h4 {
-font-family: 'kingsfont' !important;
+.section-title, h2, h3, h4 {
+font-family: 'kingsfont-37' !important;
 }
 
-p {
-	color: #000000;
+h1 {
+font-family: 'kingsfont-51' !important;
+}
+
+p,li {
+	font-family: 'kingsfont-51' !important;
 }
 
 .subtitles {
-	font-family: 'kingsfont';
+	font-family: 'kingsfont-37';
 	color: #4e647f;
 	font-size: medium;
 	font-weight: bold;
@@ -34,30 +38,38 @@ button.accordion.active, button.accordion:hover {
 }
 
 @font-face {
-  font-family: kingsfont;
+  font-family: kingsfont-37;
   src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+@font-face {
+	font-family: kingsfont-51;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
 main {
   overflow: hidden;
-  font-family: 'kingsfont';
+  font-family: 'kingsfont-37';
 }
 
 .hero {
-  text-align: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .hero-box {
-  background-color: #4e647f;
-  opacity: 0.9;
-  right: 0px;
-  padding: 20px;
-  position: absolute;
+    background-color: #00B9E1;
+    opacity: 0.9;
+    left: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 67%;
+    position: absolute;
 }
 
 .hero-box h1 {
@@ -84,6 +96,7 @@ main {
   }
   .hero-box h1 {
     font-size: 1.7em;
+    font-family: 'kingsfont-51' !important;
   }
   
   .hero-box h2 {
@@ -99,3 +112,22 @@ main {
   }
 
 }
+
+.course-content ul.ctopics li.section .content .toggle {
+    border-radius: 0 !important;
+}
+
+.block {
+    border-radius: 0 !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important
+}
+
+body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
+    border: 1px solid #9e9fa7 !important;
+}
+
+.toggle-open {
+	color: #28C382;
+	border: 1px solid #28C382 !important;
+}
+

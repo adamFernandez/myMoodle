@@ -8,11 +8,13 @@ h1 {
 font-family: 'kingsfont-51' !important;
 }
 
-html, body {
+.sectionbody {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
 	color: black;
 }
+
+html, body {'kingsfont-51' !important;}
 
 .subtitles {
 	font-family: 'kingsfont-37';

@@ -8,7 +8,7 @@ h1 {
 font-family: 'kingsfont-51' !important;
 }
 
-.sectionbody {
+html, body {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
 	color: black;
@@ -128,7 +128,7 @@ main {
 }
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
-    border: 1px solid #9e9fa7 !important;
+    border: 1px solid #9e9fa7;
     background-color: #ffffff !important;
 }
 
@@ -139,3 +139,4 @@ a.toggle_open {
 }
 
 .course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}
+.course-content ul.ctopics li.section .content .toggle a.toggle_open h3:after {color: #28C382;}

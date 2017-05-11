@@ -1,7 +1,5 @@
-@import 'https://fonts.googleapis.com/css?family=Fjalla+One|PT+Serif';
-
 .section-title, h1, h2, h3, h4 {
-font-family: 'Fjalla One', sans-serif !important;
+font-family: 'kingsfont' !important;
 }
 
 p {
@@ -9,7 +7,7 @@ p {
 }
 
 .subtitles {
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'kingsfont';
 	color: #4e647f;
 	font-size: medium;
 	font-weight: bold;

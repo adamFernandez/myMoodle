@@ -8,6 +8,7 @@ font-family: 'kingsfont-51' !important;
 
 .sectionbody {
 	font-family: 'kingsfont-51' !important;
+	font-size: 1.1em;
 }
 
 .subtitles {
@@ -75,7 +76,7 @@ main {
 .hero-box h1 {
   font-size: 2.5em;
   color: #ffffff;
-  font-family: 'kingsfont-37';
+  font-family: 'kingsfont-37 !important';
 }
 
 .hero-box h2 {
@@ -128,7 +129,7 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
     background-color: #ffffff !important;
 }
 
-.toggle-open {
+.toggle .toggle-open {
 	color: #28C382;
 	border: 1px solid #28C382 !important;
 }

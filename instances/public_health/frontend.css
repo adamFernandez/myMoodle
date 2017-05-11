@@ -77,7 +77,7 @@ main {
 
 .hero-box {
     background-color: #FC5E72;
-    opacity: 0.9;
+    opacity: 0.7;
     left: 0px;
     padding: 0px;
     padding-left: 50px;
@@ -138,14 +138,14 @@ main {
 }
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
-    border: 1px solid #9e9fa7;
+    border: 2px solid #9e9fa7;
     background-color: #ffffff !important;
 }
 
 .course-content ul.ctopics li.section .content .sectionhead
 a.toggle_open {
 	color: #28C382;
-	border: 1px solid #28C382 !important;
+	border: 2px solid #28C382 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}

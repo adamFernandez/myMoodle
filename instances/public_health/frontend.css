@@ -14,7 +14,7 @@ font-family: 'kingsfont-51' !important;
 	color: black;
 }
 
-html, body {'kingsfont-51' !important;}
+html, body {font-family:'kingsfont-51' !important;}
 
 .subtitles {
 	font-family: 'kingsfont-37';

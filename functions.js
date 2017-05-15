@@ -99,7 +99,7 @@ function setImageByDate() {
         imageSrc = imageSrc.replace('no', '');
         $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
       } else {
-        $('.img-row a:eq(' + i + ')').attr('href', '');
+        $('.img-row a:eq(' + i + ')').css('pointer-events','none');
       }
 
     }

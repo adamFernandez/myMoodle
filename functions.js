@@ -92,10 +92,16 @@ function addProgressBar() {
 
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
-    for (var i = 0; i <= currentWeek; i++) {
+    for (var i = 0; i <= 5; i++) {
+      console.log(i);
+      if(i <= currentWeek) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
         imageSrc = imageSrc.replace('no', '');
         $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
+      } else {
+        $('.img-row a:eq(' + i + ')').attr('href', '');
+      }
+
     }
 }
 

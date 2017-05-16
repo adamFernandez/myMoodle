@@ -129,4 +129,4 @@ main {
 }
 
 .course-content ul.ctopics li.section .content .toggle {border: 1px solid #a0a0a0 !important;}
-.qn-container .smalltext {font-size: 1.7em !important;}
+.qn-container .smalltext {font-size: 1.7em !important; padding: 5px;}

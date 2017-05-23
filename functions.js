@@ -109,24 +109,29 @@ function getCurrentWeek() {
     var day = date.getDate();
     var month = date.getMonth();
 
-    return 2; // delete this line before live.
+    // return 2; // delete this line before live.
 
     switch (month) { // month is 0 starting array (Jan = 0)
         case 5:
             switch (true) {
                 case (day < 7):
+                    console.log('week 1');
                     return 0;
                 case (day < 27):
+                console.log('week 2');
                     return 1;
             }
             break;
         case 6:
             switch (true) {
                 case (day < 3):
+                console.log('week 3');
                     return 3;
                 case (day < 10):
+                console.log('week 4');
                     return 4;
                 case (day < 17):
+                console.log('week 5');
                     return 5;
             }
             break;

@@ -107,14 +107,15 @@ function setImageByDate() {
 function getCurrentWeek() {
     var date = new Date();
     var day = date.getDate();
-    var month = date.getMonth();
+    var month = date.getMonth() + 1;
+
 
     console.log('today is the ' + day + ' of ' + month);
 
     // return 2; // delete this line before live.
 
     switch (month) { // month is 0 starting array (Jan = 0)
-        case 4:
+        case 5:
             switch (true) {
                 case (day < 27):
                     console.log('week 1');
@@ -124,7 +125,7 @@ function getCurrentWeek() {
                     return 1;
             }
             break;
-        case 5:
+        case 6:
             switch (true) {
                 case (day < 3):
                 console.log('week 2');

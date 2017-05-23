@@ -119,20 +119,23 @@ function getCurrentWeek() {
                     return 0;
                 case (day < 27):
                 console.log('week 2');
-                    return 1;
+                    return 0;
             }
             break;
         case 5:
             switch (true) {
                 case (day < 3):
                 console.log('week 3');
-                    return 3;
+                    return 1;
                 case (day < 10):
                 console.log('week 4');
-                    return 4;
+                    return 2;
                 case (day < 17):
                 console.log('week 5');
-                    return 5;
+                    return 3;
+                  case (day < 17):
+                  console.log('week 6');
+                      return 4;
             }
             break;
     }

@@ -109,6 +109,8 @@ function getCurrentWeek() {
     var day = date.getDate();
     var month = date.getMonth();
 
+    console.log('today is the ' + day + ' of ' + month);
+
     // return 2; // delete this line before live.
 
     switch (month) { // month is 0 starting array (Jan = 0)

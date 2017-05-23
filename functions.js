@@ -93,7 +93,6 @@ function addProgressBar() {
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
     for (var i = 0; i <= 5; i++) {
-      console.log(i);
       if(i <= currentWeek) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
         imageSrc = imageSrc.replace('no', '');
@@ -113,30 +112,22 @@ function getCurrentWeek() {
     return 2; // delete this line before live.
 
     switch (month) { // month is 0 starting array (Jan = 0)
-        case 3:
-            switch (true) {
-                case (day < 7):
-                    return 0;
-                case (day < 14):
-                    return 1;
-                case (day < 21):
-                    return 2;
-                case (day <= 31):
-                    return 3;
-            }
-            break;
         case 5:
             switch (true) {
                 case (day < 7):
+                    return 0;
+                case (day < 27):
                     return 1;
-                case (day < 14):
-                    return 2;
-                case (day < 21):
-                    console.log('week 3');
+            }
+            break;
+        case 6:
+            switch (true) {
+                case (day < 3):
                     return 3;
-                case (day <= 31):
-                    console.log('week 4');
+                case (day < 10):
                     return 4;
+                case (day < 17):
+                    return 5;
             }
             break;
     }

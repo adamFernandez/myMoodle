@@ -105,7 +105,6 @@ function setImageByDate() {
       }
       imageSrc += '?' + randomNumber();
       $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
-      console.log(imageSrc);
     }
 }
 

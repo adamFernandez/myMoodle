@@ -96,11 +96,12 @@ function randomNumber() {
 
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
-    console.log(randomNumber());
     for (var i = 0; i <= 5; i++) {
       if(i <= currentWeek) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
         imageSrc = imageSrc.replace('no', '');
+        imageSrc += '?' + randomNumber();
+        console.log(imageSrc);
         $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
       } else {
         $('.img-row a:eq(' + i + ')').css('pointer-events','none');

@@ -111,8 +111,8 @@ function setImageByDate() {
 
 function getCurrentWeek() {
     var date = new Date();
-    var day = date.getDate();
-    var month = date.getMonth() + 1;
+    var day = date.getUTCDate();
+    var month = date.getUTCMonth() + 1;
     console.log('today is the ' + day + ' of ' + month);
 
     switch (month) { // month is 0 starting array (Jan = 0)

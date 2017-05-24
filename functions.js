@@ -120,6 +120,10 @@ function getCurrentWeek() {
 
   var test = new Date("4, 23, 2017 23:00:00");
 
+  console.log("now_utc", now_utc);
+  console.log(week14);
+  console.log(test);
+
   console.log(now_utc <= week14);
   console.log(now_utc <= test);
 

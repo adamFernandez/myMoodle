@@ -90,8 +90,13 @@ function addProgressBar() {
     $(".summary-progress-icon").css("left", percentComplete);
 }
 
+function randomNumber() {
+  return Math.floor(Math.random() * 	32768);
+}
+
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
+    console.log(randomNumber());
     for (var i = 0; i <= 5; i++) {
       if(i <= currentWeek) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');

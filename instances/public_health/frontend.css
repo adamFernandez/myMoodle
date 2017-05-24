@@ -1,11 +1,10 @@
 .section-title, h2, h3, h4 {
-font-family: 'kingsfont-37' !important;
+	font-family: 'kingsfont-37' !important;
+	font-weight: normal !important;
 }
 
-h4 {font-weight: normal !important;}
-
 h1 {
-font-family: 'kingsfont-51' !important;
+	font-family: 'kingsfont-51' !important;
 }
 
 h3.section-title {
@@ -22,13 +21,14 @@ h3.section-title {
 	color: black;
 }
 
-html, body {font-family:'kingsfont-51' !important;}
+html, body {
+	font-family:'kingsfont-51' !important;
+}
 
 .subtitles {
 	font-family: 'kingsfont-37';
 	color: #4e647f;
 	font-size: medium;
-	font-weight: bold;
 }
 
   .accordion-toggle {
@@ -43,8 +43,13 @@ html, body {font-family:'kingsfont-51' !important;}
 	margin: 0px;
 }
 
-  .accordion-content {display: none; padding-top: 10px;}
-  .accordion-content.default {display: block;}
+.accordion-content {
+	display: none; padding-top: 10px;
+}
+
+.accordion-content.default {
+	display: block;
+}
   
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {

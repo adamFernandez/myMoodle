@@ -112,6 +112,8 @@ function getCurrentWeek() {
     var date = new Date();
     var day = date.getUTCDate();
     var month = date.getUTCMonth() + 1;
+    var hour = d.getUTCHours();
+    console.log(hour);
     console.log('today is the ' + day + ' of ' + month);
 
     switch (month) { // month is 0 starting array (Jan = 0)

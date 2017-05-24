@@ -91,22 +91,21 @@ function addProgressBar() {
 }
 
 function randomNumber() {
-  return Math.floor(Math.random() * 	32768);
+  return Math.floor(Math.random() * 32768);
 }
 
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
     for (var i = 0; i <= 5; i++) {
-      if(i <= currentWeek) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
+      if(i <= currentWeek) {
         imageSrc = imageSrc.replace('no', '');
-        imageSrc += '?' + randomNumber();
-        console.log(imageSrc);
-        $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
       } else {
         $('.img-row a:eq(' + i + ')').css('pointer-events','none');
       }
-
+      imageSrc += '?' + randomNumber();
+      $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
+      console.log(imageSrc);
     }
 }
 

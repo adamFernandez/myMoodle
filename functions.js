@@ -112,14 +112,21 @@ function getCurrentWeek() {
   var date = new Date();
   console.log(date);
   var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
-  console.log(now_utc);
+
+  console.log(now_utc >= week14);
+  console.log(now_utc >= week13);
 
   now_utc = ("May 26, 2017 23:10:00");
+
+  console.log(now_utc);
 
   var week14 = new Date("May 26, 2017 23:00:00");
   var week13 = new Date("June 2, 2017 23:00:00");
   var week12 = new Date("June 9, 2017 23:00:00");
   var week11 = new Date("June 16, 2017 23:00:00");
+
+  console.log(now_utc >= week14);
+  console.log(now_utc >= week13);
 
 
   // var day = date.getUTCDate();

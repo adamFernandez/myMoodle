@@ -109,11 +109,13 @@ function setImageByDate() {
 }
 
 function getCurrentWeek() {
-    var date = new Date.UTC();
+    var date = new Date();
     console.log(date);
+    var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(),  date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
+    console.log(now_utc);
     var week1Unlock = new Date("May 26, 2017 23:00:00");
 
-    console.log(week1Unlock >= date);
+    console.log(week1Unlock <= date);
 
     var day = date.getUTCDate();
     var month = date.getUTCMonth() + 1;

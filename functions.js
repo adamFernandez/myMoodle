@@ -90,54 +90,54 @@ function addProgressBar() {
     $(".summary-progress-icon").css("left", percentComplete);
 }
 
+function randomNumber() {
+  return Math.floor(Math.random() * 32768);
+}
+
 function setImageByDate() {
     var currentWeek = this.getCurrentWeek();
-    for (var i = 0; i <= 5; i++) {
-      if(i <= currentWeek) {
+    for (var i = 0; i < 5; i++) {
         var imageSrc = $('.img-row img:eq(' + i + ')').attr('src');
+      if(i <= currentWeek) {
         imageSrc = imageSrc.replace('no', '');
-        $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
       } else {
         $('.img-row a:eq(' + i + ')').css('pointer-events','none');
       }
-
+      imageSrc += '?' + randomNumber();
+      $('.img-row img:eq(' + i + ')').attr('src', imageSrc);
     }
 }
 
 function getCurrentWeek() {
     var date = new Date();
-    var day = date.getDate();
-    var month = date.getMonth() + 1;
-
-
+    var day = date.getUTCDate();
+    var month = date.getUTCMonth() + 1;
     console.log('today is the ' + day + ' of ' + month);
-
-    // return 2; // delete this line before live.
 
     switch (month) { // month is 0 starting array (Jan = 0)
         case 5:
             switch (true) {
                 case (day < 27):
-                    console.log('week 1');
+                    console.log('week 15');
                     return 0;
                 case (day >= 27):
-                console.log('week 2');
+                console.log('week 14');
                     return 1;
             }
             break;
         case 6:
             switch (true) {
                 case (day < 3):
-                console.log('week 2');
+                console.log('week 14');
                     return 1;
                 case (day < 10):
-                console.log('week 3');
+                console.log('week 13');
                     return 2;
                 case (day < 17):
-                console.log('week 4');
+                console.log('week 12');
                     return 3;
                   case (day >= 17):
-                  console.log('week 5');
+                  console.log('week 11');
                       return 4;
             }
             break;

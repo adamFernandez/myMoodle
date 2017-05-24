@@ -111,7 +111,7 @@ function setImageByDate() {
 function getCurrentWeek() {
   var date = new Date();
   var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
-  var week14 = new Date()
+  var week14 = new Date();
 
   var week14 = new Date("4, 26, 2017 23:00:00");
   var week13 = new Date("5, 2, 2017 23:00:00");
@@ -121,7 +121,7 @@ function getCurrentWeek() {
   var test = new Date("4, 23, 2017 23:00:00");
 
   console.log(now_utc <= week14);
-  console.log(now_utc <= week13);
+  console.log(now_utc <= test);
 
 
   // var day = date.getUTCDate();

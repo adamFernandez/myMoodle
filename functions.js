@@ -118,22 +118,7 @@ function getCurrentWeek() {
   var week13 = new Date("6, 2, 2017 23:00:00");
   var week12 = new Date("6, 9, 2017 23:00:00");
   var week11 = new Date("5, 16, 2017 23:00:00");
-
-
-
   console.log("now_utc", now_utc);
-  console.log(week14);
-  console.log(test);
-
-  console.log(now_utc <= week14);
-  console.log(now_utc <= test);
-
-
-  // var day = date.getUTCDate();
-  // var month = date.getUTCMonth() + 1;
-  // var hour = date.getUTCHours();
-  // console.log(hour);
-  // console.log('today is the ' + day + ' of ' + month);
 
   switch (true) { // month is 0 starting array (Jan = 0)
 

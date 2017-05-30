@@ -130,7 +130,7 @@ function getCurrentWeek() {
     case (now_utc >= week13):
       console.log('week 13');
       return 2;
-    case (now_utc >= "Tue May 30 2017 07:37:55 GMT+0100 (BST)"):
+    case (now_utc >= week14):
       console.log('week 14');
       return 1;
     case (now_utc >= week15):

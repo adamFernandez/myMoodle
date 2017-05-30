@@ -135,10 +135,10 @@ function getCurrentWeek() {
       return 1;
     case (now_utc >= week14):
       console.log('week 14');
-      return 1;
-      case (now_utc >= week15):
-        console.log('week 15');
-        return 0;
+      return 0;
+   //   case (now_utc >= week15):
+   //     console.log('week 15');
+    //    return 0;
     case (true):
       console.log('Hasnt started');
       return 0;

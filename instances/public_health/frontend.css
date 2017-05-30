@@ -143,8 +143,12 @@ main {
 }
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
-    border: 2px solid #0a2d50 !important;
+    border: 2px solid #0a2d50;
     background-color: #ffffff !important;
+}
+
+body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a:hover {
+    border: 2px solid #0a2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .sectionhead

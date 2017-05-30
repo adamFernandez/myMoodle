@@ -143,7 +143,7 @@ main {
 }
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
-    border: 2px solid #9e9fa7;
+    border: 2px solid #0a2d50 !important;
     background-color: #ffffff !important;
 }
 

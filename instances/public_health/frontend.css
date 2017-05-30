@@ -133,7 +133,8 @@ main {
 }
 
 .course-content ul.ctopics li.section .content .toggle {
-    border-radius: 0 !important;
+	margin-bottom: 5px;
+	
 }
 
 .block {
@@ -148,8 +149,8 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
 
 .course-content ul.ctopics li.section .content .sectionhead
 a.toggle_open {
-	color: #28C382;
-	border: 2px solid #28C382 !important;
+	color: #0a2d50;
+	border: 2px solid #0a2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}

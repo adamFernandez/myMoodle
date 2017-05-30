@@ -138,7 +138,7 @@ function getCurrentWeek() {
       return 0;
     case (true):
       console.log('Hasnt started');
-      return 0;
+      return 1;
       break;
   }
 }

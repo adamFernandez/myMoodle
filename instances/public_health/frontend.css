@@ -149,12 +149,12 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a:hover {
     	border: 2px solid #28c382 !important;
-	color: #28C382;
+	color: #28C382 !important;
 }
 
 .course-content ul.ctopics li.section .content .sectionhead
 a.toggle_open {
-	color: #28C382;
+	color: #28C382 !important;
 	border: 2px solid #28c382 !important;
 }
 

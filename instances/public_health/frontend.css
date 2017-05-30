@@ -161,3 +161,4 @@ a.toggle_open {
 .course-content ul.ctopics li.section .content .toggle a:hover h3.section-title {color: #28C382 !important;}
 .course-content ul.ctopics li.section .content .toggle a.toggle_open h3:after {color: #28C382;}
 .course-content ul.ctopics li.section .content .toggle a.toggle_open h3:section-title {color: #28C382 !important;}
+.course-content ul.ctopics li.section .content .toggle a.toggle_open h3 {color: #28C382 !important;}

@@ -150,7 +150,7 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
 .course-content ul.ctopics li.section .content .sectionhead
 a.toggle_open {
 	color: #0a2d50;
-	border: 2px solid #0a2d50 !important;
+	border: 2px solid #28c382 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}

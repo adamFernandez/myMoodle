@@ -1,6 +1,7 @@
 .section-title, h2, h3, h4 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
+	letter-spacing: .3px;
 }
 
 h1 {

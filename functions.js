@@ -110,9 +110,8 @@ function setImageByDate() {
 
 function getCurrentWeek() {
   var date = new Date();
-  var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
   var e = date.toUTCString();
-    console.log(e);
+  e = new Date("Fri, 02 Jun 2017 23:50:00 GMT");
   e = Date.parse(e);
   console.log(e);
 
@@ -121,7 +120,6 @@ function getCurrentWeek() {
   var week13 = new Date("Fri, 02 Jun 2017 23:00:00 GMT");
   var week12 = new Date("Fri, 09 Jun 2017 23:00:00 GMT");
   var week11 = new Date("Fri, 16 Jun 2017 23:00:00 GMT");
-  console.log(now_utc);
 
   switch (true) { // month is 0 starting array (Jan = 0)
     case (e >= week11):

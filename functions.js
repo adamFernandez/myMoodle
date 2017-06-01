@@ -112,6 +112,8 @@ function getCurrentWeek() {
   var date = new Date();
   var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
   var e = date.toUTCString();
+    console.log(e);
+  e = Date.parse(e);
   console.log(e);
 
   var week15 = new Date("Fri, 19 May 2017 23:00:00 GMT");

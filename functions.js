@@ -1,4 +1,4 @@
-function replaceFileIcons(name, location) {
+function replaceFileIcons(name, location) { //some commit
   $(".activityinstance").each(function(index, value) {
     var instanceName = $(value).eq(0).text();
     if (instanceName.indexOf(name) !== -1) {

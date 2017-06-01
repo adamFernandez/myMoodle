@@ -123,22 +123,22 @@ function getCurrentWeek() {
 
   switch (true) { // month is 0 starting array (Jan = 0)
 
-    case (now_utc >= week11):
+    case (e >= week11):
       console.log('week 11');
       return 4;
-    case (now_utc >= week12):
+    case (e >= week12):
       console.log('week 12');
       return 3;
-    case (now_utc >= week13):
+    case (e >= week13):
       console.log('week 13');
       return 2;
-    case (now_utc >= week14):
+    case (e >= week14):
       console.log('week 14');
       return 1;
-    case (now_utc >= week14):
+    case (e >= week14):
       console.log('week 14');
       return 1;
-      case (now_utc >= week15):
+      case (e >= week15):
         console.log('week 15');
         return 0;
     case (true):

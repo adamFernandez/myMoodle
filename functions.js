@@ -140,6 +140,7 @@ function getCurrentWeek() {
     case (true):
       console.log('Hasnt started');
       return 2;
+
       break;
   }
 }

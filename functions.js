@@ -114,9 +114,9 @@ function getCurrentWeek() {
   var e = date.toUTCString();
   console.log(e);
 
-  var week15 = new Date("5, 19, 2017 23:00:00");
-  var week14 = new Date("5, 26, 2017 23:00:00");
-  var week13 = new Date("6, 2, 2017 23:00:00");
+  var week15 = new Date("Thu, 19 May 2017 23:00:00 GMT"); 
+  var week14 = new Date("Thu, 26 May 2017 23:00:00 GMT");
+  var week13 = new Date("Thu, 02 Jun 2017 23:00:00 GMT");
   var week12 = new Date("6, 9, 2017 23:00:00");
   var week11 = new Date("6, 16, 2017 23:00:00");
   console.log(now_utc);
@@ -138,7 +138,7 @@ function getCurrentWeek() {
     case (e >= week14):
       console.log('week 14');
       return 1;
-      case (e >= week15):
+    case (e >= week15):
         console.log('week 15');
         return 0;
     case (true):

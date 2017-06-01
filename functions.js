@@ -111,9 +111,9 @@ function setImageByDate() {
 function getCurrentWeek() {
   var date = new Date();
   var e = date.toUTCString();
-  e = new Date("Fri, 02 Jun 2017 23:50:00 GMT");
-  e = Date.parse(e);
   console.log(e);
+  e = Date.parse(e);
+
 
   var week15 = new Date("Fri, 19 May 2017 23:00:00 GMT");
   var week14 = new Date("Fri, 26 May 2017 23:00:00 GMT");
@@ -135,11 +135,11 @@ function getCurrentWeek() {
       console.log('week 14');
       return 1;
     case (e >= week15):
-        console.log('week 15');
-        return 0;
+      console.log('week 15');
+      return 0;
     case (true):
       console.log('Hasnt started');
-      return 0;
+      return 2;
       break;
   }
 }

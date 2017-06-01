@@ -1,4 +1,4 @@
-function replaceFileIcons(name, location) {
+function replaceFileIcons(name, location) { //some commit
   $(".activityinstance").each(function(index, value) {
     var instanceName = $(value).eq(0).text();
     if (instanceName.indexOf(name) !== -1) {
@@ -110,35 +110,37 @@ function setImageByDate() {
 
 function getCurrentWeek() {
   var date = new Date();
-  var now_utc = new Date(date.getUTCFullYear(), date.getUTCMonth(), date.getUTCDate(), date.getUTCHours(), date.getUTCMinutes(), date.getUTCSeconds());
+  var e = date.toUTCString();
+  console.log(e);
+  e = Date.parse(e);
 
-  var week15 = new Date("5, 19, 2017 23:00:00");
-  var week14 = new Date("5, 26, 2017 23:00:00");
-  var week13 = new Date("6, 2, 2017 23:00:00");
-  var week12 = new Date("6, 9, 2017 23:00:00");
-  var week11 = new Date("6, 16, 2017 23:00:00");
-  console.log(now_utc);
+
+  var week15 = new Date("Fri, 19 May 2017 23:00:00 GMT");
+  var week14 = new Date("Fri, 26 May 2017 23:00:00 GMT");
+  var week13 = new Date("Fri, 02 Jun 2017 23:00:00 GMT");
+  var week12 = new Date("Fri, 09 Jun 2017 23:00:00 GMT");
+  var week11 = new Date("Fri, 16 Jun 2017 23:00:00 GMT");
 
   switch (true) { // month is 0 starting array (Jan = 0)
-
-    case (now_utc >= week11):
+    case (e >= week11):
       console.log('week 11');
       return 4;
-    case (now_utc >= week12):
+    case (e >= week12):
       console.log('week 12');
       return 3;
-    case (now_utc >= week13):
+    case (e >= week13):
       console.log('week 13');
       return 2;
-    case (now_utc >= week14):
+    case (e >= week14):
       console.log('week 14');
       return 1;
-    case (now_utc >= week15):
+    case (e >= week15):
       console.log('week 15');
       return 0;
     case (true):
       console.log('Hasnt started');
-      return 1;
+      return 2;
+
       break;
   }
 }

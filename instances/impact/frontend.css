@@ -1,0 +1,31 @@
+a.toggle-closed {
+	background: #ffffff !important;
+	border-top: 1px solid #cdd7dc;
+	padding: 20px 40px 10px 10px !important;
+}
+
+a.toggle-open {
+	background: #ffffff !important;
+	border-top: 1px solid #cdd7dc;
+	padding: 20px 40px 10px 10px !important;
+}
+
+
+@font-face {
+  font-family: kingsfont-37;
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+@font-face {
+	font-family: kingsfont-51;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+}
+
+
+.section-title, h2, h3, h4 {
+	font-family: 'kingsfont-37' !important;
+	font-weight: normal !important;
+	letter-spacing: .3px;
+	color: #45c6d;
+}
+	

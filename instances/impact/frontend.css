@@ -52,7 +52,8 @@ h3 {
 }
 
 .activityinstance {
-	line-height: 30px;
+	line-height: 40px;
+	font-size: 15px;
 }
 
 .sectionbody {
@@ -63,4 +64,8 @@ h3 {
 
 html, body {
 	font-family:'kingscaslon' !important;
+}
+
+html a, body a {
+	color: #4d5c6d;
 }

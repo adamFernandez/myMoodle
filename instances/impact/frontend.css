@@ -1,22 +1,11 @@
-ul.ctopics li.section .content .sectionhead
-a.toggle_closed {
-	background: #ffffff !important;
-	border-top: 1px solid #cdd7dc;
-}
-
-ul.ctopics li.section .content .sectionhead
-a.toggle_open  {
-	background: #ffffff !important;
-	border-top: 1px solid #cdd7dc;
-}
-
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead {
 	padding: 20px 40px 10px 10px !important;
+	background: #ffffff !important;
+	border-top: 1px solid #cdd7dc;
 }
 
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a:hover {
-    border: 2px solid #28c382 !important;
-	color: #28C382 !important;
+    color: #8dad0e !important;
 }
 
 @font-face {

@@ -1,10 +1,12 @@
-a.toggle-closed {
+ul.ctopics li.section .content .sectionhead
+a.toggle_closed {
 	background: #ffffff !important;
 	border-top: 1px solid #cdd7dc;
 	padding: 20px 40px 10px 10px !important;
 }
 
-a.toggle-open {
+ul.ctopics li.section .content .sectionhead
+a.toggle_open  {
 	background: #ffffff !important;
 	border-top: 1px solid #cdd7dc;
 	padding: 20px 40px 10px 10px !important;
@@ -26,6 +28,10 @@ a.toggle-open {
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
 	letter-spacing: .3px;
-	color: #45c6d;
+	color: #4d5c6d !important;
+}
+
+.section-title {
+	font-size: 20px;
 }
 	

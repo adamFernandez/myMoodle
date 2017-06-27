@@ -39,16 +39,5 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead {
 }
 
 .navlist {
-	ul {
-		list-style: none !important;
-		font-family: 'kingsfont-37' !important;
-		font-weight: normal !important;
-		letter-spacing: .3px;
-		color: #4d5c6d;
-		font-size: 25px;
-		}
-	li {
-		line-height: 70px;
-		border-top: 1px solid #cdd7dc;
-		}
+	ul { color: red;}
 }

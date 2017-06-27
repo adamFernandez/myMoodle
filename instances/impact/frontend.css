@@ -8,6 +8,10 @@
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
+@font-face {
+	font-family: kingscaslon;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsCaslonDisplay.ttf');
+}
 
 .section-title, h2, h3, h4 {
 	font-family: 'kingsfont-37' !important;
@@ -52,11 +56,11 @@ h3 {
 }
 
 .sectionbody {
-	font-family: 'kingsfont-51' !important;
+	font-family: 'kingscaslon' !important;
 	font-size: 1.1em;
 	color: #575757;
 }
 
 html, body {
-	font-family:'kingsfont-51' !important;
+	font-family:'kingscaslon' !important;
 }

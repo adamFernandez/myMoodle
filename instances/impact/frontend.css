@@ -38,6 +38,4 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead {
 	background-color: #4d5c6d !important;
 }
 
-#navlist {
-	ul { list-style: none !important;}
-}
+ul#navlist { list-style: none !important;}

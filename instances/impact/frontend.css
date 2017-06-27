@@ -47,7 +47,7 @@ h3 {
 	font-size: 20px;
 }
 
-.activity-instance {
+.activityinstance {
 	line-height: 30px;
 }
 
@@ -55,4 +55,8 @@ h3 {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
 	color: #575757;
+}
+
+html, body {
+	font-family:'kingsfont-51' !important;
 }

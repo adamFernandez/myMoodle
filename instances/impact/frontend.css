@@ -42,12 +42,17 @@ ul#navlist {
 	list-style: none !important;
 	font-family: 'kingsfont-37' !important;
 	color: #4d5c6d;
-	font-size: 28px;
+	font-size: 25px;
+	border-bottom: 1px solid #cdd7dc;
 }
 
 ul#navlist li {
 	line-height: 70px;
 	border-top: 1px solid #cdd7dc;
+}
+
+ul#navlist a {
+	color: #4d5c6d;
 }
 
 ul#navlist a:hover {

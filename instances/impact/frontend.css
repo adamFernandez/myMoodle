@@ -23,13 +23,13 @@ body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a:hov
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
 	letter-spacing: .3px;
-	color: #4d5c6d !important;
+	color: #4d5c6d;
 }
 
 .section-title {
 	font-size: 25px;
 }
-	
-.section-title a:hover {
-	color: #8dad0e !important;
+
+.course-content ul.ctopics li.section .content .toggle {
+	border-radius: 0px !important;
 }

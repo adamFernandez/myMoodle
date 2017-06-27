@@ -32,6 +32,9 @@ a.toggle_open  {
 }
 
 .section-title {
-	font-size: 20px;
+	font-size: 25px;
 }
 	
+.section-title a:hover {
+	color: #8dad0e !important;
+}

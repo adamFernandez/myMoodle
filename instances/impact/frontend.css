@@ -70,6 +70,6 @@ html a, body a {
 	color: #4d5c6d;
 }
 
-p, li {
+#region-main p, #region-main li {
 	font-size: 16px;
 }

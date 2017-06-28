@@ -69,3 +69,7 @@ html, body {
 html a, body a {
 	color: #4d5c6d;
 }
+
+p, li {
+	font-size: 16px;
+}

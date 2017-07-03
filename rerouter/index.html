@@ -12,9 +12,9 @@
       var url = data[location[0]];
       for (var i = 1; i < location.length; i++) {
         url = url[location[i]];
-        if (typeof url != 'object') {
+        if (typeof url === 'string') {
           console.log('string');
-          indow.location.replace('http://www.' + url);
+          window.location.replace('http://www.' + url);
         }
       }
 

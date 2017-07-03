@@ -3,17 +3,29 @@
 
 <head>
   <meta charset="utf-8">
-  <title>JavaScript Automatic Page Redirect</title>
+  <title>Loading...</title>
+  <script type="text/javascript" src="data.js"></script>
   <script type="text/javascript">
-    function pageRedirect() {
-      window.location.replace("https://www.tutorialrepublic.com/");
+    function route(location) {
+      location = location.substr(1);
+      location = location.split("_");
+      var url = data[location[0]];
+      for (var i = 1; i < location.length; i++) {
+        url = url[location[i]];
+        if (typeof url != 'object') {
+          console.log('string');
+          indow.location.replace('http://www.' + url);
+        }
+      }
+
+      //window.location.replace('https://www.google.com');
     }
-    setTimeout("pageRedirect()", 10000);
+
+    route(window.location.hash);
   </script>
 </head>
 
 <body>
-  <p><strong>Note:</strong> You will be redirected to the tutorialrepublic.com in 10 sec. You are not able to get back to this page by clicking the browser back button.</p>
-</body>
+  Ah dang! We couldn't find that page for you.
 
 </html>

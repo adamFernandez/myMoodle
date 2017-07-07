@@ -15,10 +15,10 @@ var data = {
           }
         },
         "social": {
-          "activity1": {
+          "act1": {
             "1": "mod/forum/view.php?id=1608076"
           },
-          "activity2": {
+          "act2": {
             "1": "run 1"
           }
         }

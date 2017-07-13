@@ -149,9 +149,10 @@
         closeClickOutside : true,
 
         // Callbacks
-        beforeLoad	 : {
-            console.log('hello');
-        },
+        beforeLoad	 : function( instance, current ) {
+    			 console.info( 'Clicked element:' );
+    			 console.info( current.opts.$orig );
+    		},
         afterLoad    : $.noop,
         beforeMove 	 : $.noop,
         afterMove    : $.noop,

@@ -149,7 +149,8 @@
         closeClickOutside : true,
 
         // Callbacks
-        beforeLoad	 : function( instance, current ) {
+        beforeLoad	 : $.noop,
+        afterLoad    : function( instance, current ) {
           console.log(this);
           $('.fancybox-iframe').contents().find("#page-header").remove();
           $('.fancybox-iframe').contents().find(".navbar-inner").remove();
@@ -159,7 +160,6 @@
           $('.fancybox-iframe').contents().find(".span8").remove();
           $(".fancybox-iframe").contents().find("a").attr("onclick", "parent.location.assign(this.href);parent.$.fancybox.close();");
     		},
-        afterLoad    : $.noop,
         beforeMove 	 : $.noop,
         afterMove    : $.noop,
         onComplete	 : $.noop,

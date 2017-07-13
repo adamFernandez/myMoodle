@@ -150,8 +150,14 @@
 
         // Callbacks
         beforeLoad	 : function( instance, current ) {
-    			 console.info( 'Clicked element:' );
-    			 console.info( current.opts.$orig );
+          console.log(this);
+          $('.fancybox-iframe').contents().find("#page-header").remove();
+          $('.fancybox-iframe').contents().find(".navbar-inner").remove();
+          $('.fancybox-iframe').contents().find("#page-footer").remove();
+          $('.fancybox-iframe').contents().find(".course-content").remove();
+          $('.fancybox-iframe').contents().find("#navbar").remove();
+          $('.fancybox-iframe').contents().find(".span8").remove();
+          $(".fancybox-iframe").contents().find("a").attr("onclick", "parent.location.assign(this.href);parent.$.fancybox.close();");
     		},
         afterLoad    : $.noop,
         beforeMove 	 : $.noop,

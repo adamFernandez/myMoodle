@@ -74,7 +74,7 @@ function replaceProgressBar() {
 }
 
 function addProgressBar() {
-  var numElements = $(".progressBarCell").size();
+  var numElements = $(".progressBarCell").length;
   var completedElements = 0;
   $(".progressBarCell").each(function(index) {
     if ($(this).css("background-color") == "rgb(115, 168, 57)") {

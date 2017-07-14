@@ -12,8 +12,8 @@ function replaceFileIconsByUrl(original, replace) {
   $(".activityinstance").each(function(index, value) {
     var iconImage = $(this).find("img").first();
     if ($(iconImage).attr('src').indexOf(original) !== -1) {
-      $(this).find("img").first().css('display', 'none')
-      var icon = $("<i class=\"icon-" + replace + " iconlarge\"/>");;
+      $(this).find("img").first().css('display', 'none');
+      var icon = $("<i class=\"icon-" + replace + " iconlarge\"/>");
       $(this).find('.instancename').css('position', 'absolute');
       $(this).find('.instancename').css('top', '25px');
       $(this).prepend(icon);
@@ -21,12 +21,22 @@ function replaceFileIconsByUrl(original, replace) {
   });
 }
 
+function loadCSS(url) {
+  var head = document.getElementsByTagName('head')[0],
+    link = document.createElement('link');
+  link.type = 'text/css';
+  link.rel = 'stylesheet';
+  link.href = url;
+  head.appendChild(link);
+  return link;
+}
+
 function replaceFileIconsCSS(name, code) {
   $(".activityinstance").each(function(index, value) {
     var instanceName = $(value).eq(0).text();
     if (instanceName.indexOf(name) !== -1) {
-      $(this).find("img").css('display', 'none')
-      var icon = $("<i class=\"icon-" + code + " iconlarge\"/>");;
+      $(this).find("img").css('display', 'none');
+      var icon = $("<i class=\"icon-" + code + " iconlarge\"/>");
       $(this).find('.instancename').css('position', 'absolute');
       $(this).find('.instancename').css('top', '25px');
       $(this).prepend(icon);
@@ -62,7 +72,7 @@ function replaceProgressBar() {
   $(".progressBarProgressTable").css("background-repeat", "no-repeat");
   $(".progressBarProgressTable").css("position", "relative");
   $(".progressBarProgressTable").css("height", 70);
-  $(".progressBarHeader").css('display', "none")
+  $(".progressBarHeader").css('display', "none");
   var bus = $("<img class='completition' src='https://git.iddkingsonline.com/assets/images/progress_bus.png'/>");
   $(".progressBarProgressTable").prepend(bus);
   $(".completition").css("left", 100);
@@ -140,8 +150,6 @@ function getCurrentWeek() {
     case (true):
       console.log('Hasnt started');
       return 2;
-
-      break;
   }
 }
 

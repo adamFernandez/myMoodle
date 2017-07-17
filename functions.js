@@ -131,6 +131,15 @@ function getCurrentWeek(weeks) {
   var week12 = new Date("Fri, 09 Jun 2017 23:00:00 GMT");
   var week11 = new Date("Fri, 16 Jun 2017 23:00:00 GMT");
 
+  for(week in weeks){
+    console.log(index);
+    console.log(weeks.length);
+    if(week > e)
+    console.log("it's bigger");
+    else
+    console.log("It's smaller");
+  }
+
   switch (true) { // month is 0 starting array (Jan = 0)
     case (e >= week11):
       console.log('week 11');

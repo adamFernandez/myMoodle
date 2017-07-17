@@ -132,6 +132,7 @@ function getCurrentWeek(weeks) {
       console.log("Week " + i + " is locked. " +  weeks[i]);
       return i;
     }
+    return weeks.length;
   }
   //
   // switch (true) { // month is 0 starting array (Jan = 0)

@@ -40,8 +40,8 @@
         gutter : 30,
 
         // Should display toolbars
-        infobar : true,
-        buttons : true,
+        infobar : false,
+        buttons : false,
 
         // What buttons should appear in the toolbar
         slideShow  : false,
@@ -151,12 +151,12 @@
         // Callbacks
         beforeLoad	 : $.noop,
         afterLoad    : function( instance, current ) {
-          $(".navbar-inner").hide();
-          $("#page-header").hide();
-          $("#page-footer").hide();
-          $(".course-content").hide();
-          $("#navbar").hide();
-          $(".span8").hide();
+          $('.fancybox-iframe').contents().find("#page-header").remove();
+          $('.fancybox-iframe').contents().find(".navbar-inner").remove();
+          $('.fancybox-iframe').contents().find("#page-footer").remove();
+          $('.fancybox-iframe').contents().find(".course-content").remove();
+          $('.fancybox-iframe').contents().find("#navbar").remove();
+          $('.fancybox-iframe').contents().find(".span8").remove();
     		},
         beforeMove 	 : $.noop,
         afterMove    : $.noop,

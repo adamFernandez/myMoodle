@@ -125,41 +125,43 @@ function getCurrentWeek(weeks) {
   e = Date.parse(e);
   console.log(weeks);
 
-  var week15 = new Date("Fri, 19 May 2017 23:00:00 GMT");
-  var week14 = new Date("Fri, 26 May 2017 23:00:00 GMT");
-  var week13 = new Date("Fri, 02 Jun 2017 23:00:00 GMT");
-  var week12 = new Date("Fri, 09 Jun 2017 23:00:00 GMT");
-  var week11 = new Date("Fri, 16 Jun 2017 23:00:00 GMT");
+  var week15 = new Date("Fri, 21 Jul 2017 23:00:00 GMT");
+  var week14 = new Date("Fri, 28 Jul 2017 23:00:00 GMT");
+  var week13 = new Date("Fri, 04 Aug 2017 23:00:00 GMT");
+  var week12 = new Date("Fri, 11 Aug 2017 23:00:00 GMT");
+  var week11 = new Date("Fri, 18 Aug 2017 23:00:00 GMT");
 
-  for(var i = 0 ; i <= weeks.length ; i++){
+  for(var i = 0 ; i <= weeks.length ; i++) {
     console.log(i);
     console.log(weeks.length);
     if(weeks[i] > e)
     console.log("it's bigger");
-    else
-    console.log("It's smaller");
+    else {
+      console.log("It's smaller");
+      return i;
+    }
   }
-
-  switch (true) { // month is 0 starting array (Jan = 0)
-    case (e >= week11):
-      console.log('week 11');
-      return 4;
-    case (e >= week12):
-      console.log('week 12');
-      return 3;
-    case (e >= week13):
-      console.log('week 13');
-      return 2;
-    case (e >= week14):
-      console.log('week 14');
-      return 1;
-    case (e >= week15):
-      console.log('week 15');
-      return 0;
-    case (true):
-      console.log('Hasnt started');
-      return 2;
-  }
+  //
+  // switch (true) { // month is 0 starting array (Jan = 0)
+  //   case (e >= week11):
+  //     console.log('week 11');
+  //     return 4;
+  //   case (e >= week12):
+  //     console.log('week 12');
+  //     return 3;
+  //   case (e >= week13):
+  //     console.log('week 13');
+  //     return 2;
+  //   case (e >= week14):
+  //     console.log('week 14');
+  //     return 1;
+  //   case (e >= week15):
+  //     console.log('week 15');
+  //     return 0;
+  //   case (true):
+  //     console.log('Hasnt started');
+  //     return 2;
+  // }
 }
 
 function closeOtherAccordions(context) {

@@ -151,12 +151,15 @@
         // Callbacks
         beforeLoad	 : $.noop,
         afterLoad    : function( instance, current ) {
-          $('.fancybox-iframe').contents().find("#page-header").remove();
-          $('.fancybox-iframe').contents().find(".navbar-inner").remove();
-          $('.fancybox-iframe').contents().find("#page-footer").remove();
-          $('.fancybox-iframe').contents().find(".course-content").remove();
-          $('.fancybox-iframe').contents().find("#navbar").remove();
-          $('.fancybox-iframe').contents().find(".span8").remove();
+          $('.fancybox-iframe').contents().find("#page-header").hide();
+          $('.fancybox-iframe').contents().find(".navbar-inner").hide();
+          $('.fancybox-iframe').contents().find("#page-footer").hide();
+          $('.fancybox-iframe').contents().find(".course-content").hide();
+          $('.fancybox-iframe').contents().find("#navbar").hide();
+          $('.fancybox-iframe').contents().find(".span8").hide();
+          $('.block_settings').contents().find(".span8").hide();
+          $('.moodle-dialogue').contents().find(".span8").hide();
+
     		},
         beforeMove 	 : $.noop,
         afterMove    : $.noop,

@@ -121,28 +121,14 @@ function setImageByDate(weeks) {
 function getCurrentWeek(weeks) {
   var date = new Date();
   var e = date.toUTCString();
-  console.log(e);
-  e = new Date("Fri, 04 Aug 2017 23:20:00 GMT");
   e = Date.parse(e);
-  console.log(weeks);
-  console.log(e);
-
-
-
-  // var week15 = new Date("Fri, 21 Jul 2017 23:00:00 GMT");
-  // var week14 = new Date("Fri, 28 Jul 2017 23:00:00 GMT");
-  // var week13 = new Date("Fri, 04 Aug 2017 23:00:00 GMT");
-  // var week12 = new Date("Fri, 11 Aug 2017 23:00:00 GMT");
-  // var week11 = new Date("Fri, 18 Aug 2017 23:00:00 GMT");
 
   for(var i = 0 ; i <= weeks.length ; i++) {
-    console.log(i);
-    console.log(weeks.length);
     weeks[i] = new Date(weeks[i]);
     if(weeks[i] <= e)
-    console.log("it's bigger");
+    console.log("Unlock Week " + weeks[i]);
     else {
-      console.log("It's smaller");
+      console.log("Week " + weeks[i] + " is locked.");
       return i;
     }
   }

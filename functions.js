@@ -134,6 +134,7 @@ function getCurrentWeek(weeks) {
       return i;
     }
   }
+  console.log("All weeks are accessible.");
   return weeks.length;
 }
 

@@ -122,10 +122,12 @@ function getCurrentWeek(weeks) {
   var date = new Date();
   var e = date.toUTCString();
   console.log(e);
+  e = new Date("Fri, 04 Aug 2017 23:20:00 GMT");
   e = Date.parse(e);
   console.log(weeks);
+  console.log(e);
 
-  e = new Date("Fri, 04 Aug 2017 23:20:00 GMT");
+
 
   // var week15 = new Date("Fri, 21 Jul 2017 23:00:00 GMT");
   // var week14 = new Date("Fri, 28 Jul 2017 23:00:00 GMT");

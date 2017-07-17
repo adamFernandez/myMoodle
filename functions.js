@@ -134,7 +134,7 @@ function getCurrentWeek(weeks) {
   for(var i = 0 ; i <= weeks.length ; i++){
     console.log(i);
     console.log(weeks.length);
-    if(week > e)
+    if(weeks[i] > e)
     console.log("it's bigger");
     else
     console.log("It's smaller");

@@ -122,39 +122,19 @@ function getCurrentWeek(weeks) {
   var date = new Date();
   var e = date.toUTCString();
   e = Date.parse(e);
+
   // data example - "Fri, 21 Jul 2017 23:00:00 GMT"
 
-  for(var i = 0 ; i < weeks.length ; i++) {
+  for (var i = 0; i < weeks.length; i++) {
     weeks[i] = new Date(weeks[i]);
-    if(weeks[i] <= e)
-    console.log("Unlock Week " + i + ". " + weeks[i]);
-    else {
-      console.log("Week " + i + " is locked. " +  weeks[i]);
+    if (weeks[i] <= e) {
+      console.log("Unlock Week " + i + ". " + weeks[i]);
+    } else {
+      console.log("Week " + i + " is locked. " + weeks[i]);
       return i;
     }
-    return weeks.length;
   }
-  //
-  // switch (true) { // month is 0 starting array (Jan = 0)
-  //   case (e >= week11):
-  //     console.log('week 11');
-  //     return 4;
-  //   case (e >= week12):
-  //     console.log('week 12');
-  //     return 3;
-  //   case (e >= week13):
-  //     console.log('week 13');
-  //     return 2;
-  //   case (e >= week14):
-  //     console.log('week 14');
-  //     return 1;
-  //   case (e >= week15):
-  //     console.log('week 15');
-  //     return 0;
-  //   case (true):
-  //     console.log('Hasnt started');
-  //     return 2;
-  // }
+  return weeks.length;
 }
 
 function closeOtherAccordions(context) {

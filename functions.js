@@ -122,13 +122,14 @@ function getCurrentWeek(weeks) {
   var date = new Date();
   var e = date.toUTCString();
   e = Date.parse(e);
+  // data example - "Fri, 21 Jul 2017 23:00:00 GMT"
 
-  for(var i = 0 ; i <= weeks.length ; i++) {
+  for(var i = 0 ; i < weeks.length ; i++) {
     weeks[i] = new Date(weeks[i]);
     if(weeks[i] <= e)
-    console.log("Unlock Week " + weeks[i]);
+    console.log("Unlock Week " + i + ". " + weeks[i]);
     else {
-      console.log("Week " + weeks[i] + " is locked.");
+      console.log("Week " + i + " is locked. " +  weeks[i]);
       return i;
     }
   }

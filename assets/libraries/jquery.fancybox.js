@@ -150,15 +150,7 @@
 
         // Callbacks
         beforeLoad	 : $.noop,
-        afterLoad    : function( instance, current ) {
-          console.log(this);
-          $('.fancybox-iframe').contents().find("#page-header").remove();
-          $('.fancybox-iframe').contents().find(".navbar-inner").remove();
-          $('.fancybox-iframe').contents().find("#page-footer").remove();
-          $('.fancybox-iframe').contents().find(".course-content").remove();
-          $('.fancybox-iframe').contents().find("#navbar").remove();
-          $('.fancybox-iframe').contents().find(".span8").remove();
-    		},
+        afterLoad    : $.noop,
         beforeMove 	 : $.noop,
         afterMove    : $.noop,
         onComplete	 : $.noop,

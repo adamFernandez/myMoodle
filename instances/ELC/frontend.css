@@ -1,38 +1,38 @@
 .fancybox-slide--iframe .fancybox-content {
-	width  : 800px;
-	height : 600px;
-	max-width  : 80%;
-	max-height : 80%;
-	margin: 0;
+  width: 800px;
+  height: 600px;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0;
 }
 
 .summary h3 {
-	color: red !important;
-	font-family: 'Open Sans', sans-serif;
+  color: red !important;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .instancename {
-	top: 10px !important;
-	font-size: 1.5em;
+  top: 10px !important;
+  font-size: 1.5em;
 }
 
 .iconlarge, img.iconlarge {
- 	width: 45px;
- 	height: 30px;
-	background-image: none;
+  width: 45px;
+  height: 30px;
+  background-image: none;
 }
 
 .iconlarge::before {
- 	font-size:2.5em;
-  	color:#132c4d;
+  font-size: 2.5em;
+  color: #132c4d;
 }
 
 #page-header {
-	background-color: #06314d;
+  background-color: #06314d;
 }
 
-.coursesearchbox input, .coursesearchbox.input::-webkit-input-placeholder, .coursesearchbox.input:-moz-placeholder, .coursesearchbox.input::-moz-placeholder, .coursesearchbox.input:-ms-input-placeholder  {
-	color: #06314d;
+.coursesearchbox input, .coursesearchbox.input::-webkit-input-placeholder, .coursesearchbox.input:-moz-placeholder, .coursesearchbox.input::-moz-placeholder, .coursesearchbox.input:-ms-input-placeholder {
+  color: #06314d;
 }
 
 .summary-progress {
@@ -45,17 +45,16 @@
   margin: 0 30px;
 }
 
-
 .summary-progress-icon {
   position: absolute;
   width: 35px;
   top: 35px;
-  content:url("https://git.iddkingsonline.com/assets/images/progress_bus.png");
+  content: url("https://git.iddkingsonline.com/assets/images/progress_bus.png");
 }
 
 @media (max-width: 600px) {
   #yui_3_17_2_1_1473171512459_226 {
-    content:url("https://git.iddkingsonline.com/assets/images/banner-header-mobile.png");
+    content: url("https://git.iddkingsonline.com/assets/images/banner-header-mobile.png");
   }
   /*.instancename {
     line-height: 24px;
@@ -85,7 +84,7 @@ ul.badges {
 }
 
 .badges li .badge-name {
- display: none;
+  display: none;
 }
 
 .block .content h3.eventskey {
@@ -97,132 +96,171 @@ ul.badges {
 }
 
 @media (max-width: 500px) {
-
-	.instancename {
-		font-size: 1em;
-
-	}
+  .instancename {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 390px) {
-	.iconlarge {
-		display: none;
-	}
-	.instancename {
-		left: 0px;
-		font-size: 1em;
-	}
+  .iconlarge {
+    display: none;
+  }
+  .instancename {
+    left: 0px;
+    font-size: 1em;
+  }
 }
 
 body.format-topcoll.editing ul.ctopics .section .activity .actions {
-	position: absolute;
+  position: absolute;
 }
 
 .section .activity .actions {
-	top: 8px;
-}
-.section .activity .contentafterlink p {
-    margin: .5em 1em;
-}
-.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
-    background-color: #ffffff;
-    border-color: #dee0e1;
-    border-style: solid;
-    border-width: 1px;
-}
-.path-course-view .completionprogress {
-    margin-left: -125px !important;
-	margin-right: 30px !important;
-}
-/* Navigation buttons size*/
-.navtop.navtext a, .navbottom.navtext a {
-    display: inline-block;
-    max-width: 45%;
-    font-size: 14px;
-}
-/* Remove Black lines in video proportions*/
-.bc-player-default_default .vjs-poster {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-color: #ffffff;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-/* Book subheader position and size*/
-.book_content h3 {
-    font-size: 23px;
-    margin-top: -70px;
-    padding: 20px;
-    font-family: 'KingsBureauGrot ThreeSeven';
-    font-weight: bold;
-    font-style: normal;
-}
-/* biger dashboard icons*/
-element.style {
-    font-size: 66px;
-    height: 65px;
-    width: 65px;
-    vertical-align: middle;
-    border: 4px solid #0b5584;
-    border-radius: 5px;
-    background-image: none;
-}
-/* Video Scrollbars hiding and also dashboard icon centrening*/
-.no-overflow {
-    overflow: hidden;
-    padding-bottom: 1px;
-}
-/* Dashboard module centre position*/
-.block_html {
-    background-color: #FFF;
-    padding-bottom: 5px;
-    text-align: center;
-}
-/* Frontpage navigation*/
-ul.topnav {
-    list-style-type: none;
-    margin: 1px;
-    padding: 1px;
-    background-color: #fff;
+  top: 8px;
 }
 
-ul.topnav li {float: left;}
+.section .activity .contentafterlink p {
+  margin: .5em 1em;
+}
+
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+  background-color: #ffffff;
+  border-color: #dee0e1;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.path-course-view .completionprogress {
+  margin-left: -125px !important;
+  margin-right: 30px !important;
+}
+
+
+/* Navigation buttons size*/
+
+.navtop.navtext a, .navbottom.navtext a {
+  display: inline-block;
+  max-width: 45%;
+  font-size: 14px;
+}
+
+
+/* Remove Black lines in video proportions*/
+
+.bc-player-default_default .vjs-poster {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #ffffff;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+/* Book subheader position and size*/
+
+.book_content h3 {
+  font-size: 23px;
+  margin-top: -70px;
+  padding: 20px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* biger dashboard icons*/
+
+element.style {
+  font-size: 66px;
+  height: 65px;
+  width: 65px;
+  vertical-align: middle;
+  border: 4px solid #0b5584;
+  border-radius: 5px;
+  background-image: none;
+}
+
+
+/* Video Scrollbars hiding and also dashboard icon centrening*/
+
+.no-overflow {
+  overflow: hidden;
+  padding-bottom: 1px;
+}
+
+
+/* Dashboard module centre position*/
+
+.block_html {
+  background-color: #FFF;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+
+/* Frontpage navigation*/
+
+ul.topnav {
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  background-color: #fff;
+}
+
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 1px 1px 1px 1px;
-    text-decoration: none;
-    list-style-type: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1px 1px 1px 1px;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #eee;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #eee;
+}
 
-ul.topnav li a.active {background-color: #fdfdfd;}
+ul.topnav li a.active {
+  background-color: #fdfdfd;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+  float: right;
+}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
 }
 
 .nav-images {
-	flex-grow:1 !important;
-	width:auto !important;
-	max-width:185px !important;
-	height:auto !important;
+  flex-grow: 1 !important;
+  width: auto !important;
+  max-width: 185px !important;
+  height: auto !important;
 }
 
-.img-row{display:flex; flex-wrap:wrap; margin-left: 5px; margin-right: 5px;}
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
 /* Profile image display update*/
+
 .page-context-header .page-header-image {
-    margin-bottom: 1em;
-    margin-left: 1.5em;
-    margin-top: 1.5em;
-    z-index: 6;
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  z-index: 6;
 }

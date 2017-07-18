@@ -38,7 +38,7 @@ h2 {
 h3 {
     			margin: -20px 0px 0px -20px;
 		}
-/* Start of ELC Lesson page css */		
+/* Start of ELC Lesson page css */
 		.page {
 			background: #fff;
 			margin: 0 auto;
@@ -53,7 +53,7 @@ h3 {
 			font-weight: normal;
 			font-style: normal;
 		}
-		
+
 		#icons_r_week {
 			position: relative;
 			font-size: 14px;
@@ -61,7 +61,7 @@ h3 {
 			font-weight: normal;
 			font-style: normal;
 		}
-		
+
 		#text_week {
 			position: relative;
 			line-height: 36px;
@@ -148,7 +148,7 @@ a.s1:hover {text-decoration:underline;}
 
 .path-mod-book h2 {margin: 0px;}
 .path-mod-book .navtop {margin-top: 10px;}
-/* Navibuttons */	
+/* Navibuttons */
 .navtop.navtext a, .navbottom.navtext a {
     display: inline-block;
     max-width: 45%;
@@ -244,14 +244,14 @@ ul.topnav li a.active {background-color: #fdfdfd;}
 ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
+    ul.topnav li.right,
     ul.topnav li {float: none;}
 }
 
 .nav-images {
-	flex-grow:1 !important; 
-	width:auto !important; 
-	max-width:185px !important; 
+	flex-grow:1 !important;
+	width:auto !important;
+	max-width:185px !important;
 	height:135px !important;
 }
 
@@ -262,4 +262,10 @@ ul.topnav li.right {float: right;}
     margin-left: 1.5em;
     margin-top: 1.5em;
     z-index: 6;
-} 
+}
+
+/*Simon's Brightcove fixes*/
+
+.vjs-mouse-display {
+	display: none !important;
+}

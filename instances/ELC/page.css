@@ -355,3 +355,15 @@ ul.topnav li.right {
 .bc-player-default_default.vjs-mouse .vjs-volume-menu-button {
 	width: 48px !important;
 }
+
+.video-js .vjs-play-progress:before {
+	top: -15px !important;
+}
+
+.video-js .vjs-progress-holder {
+	top: 15px !important;
+}
+
+.video-js .vjs-time-tooltip, .video-js .vjs-mouse-display:after, .video-js .vjs-play-progress:after {
+	top: -60px !important;
+}

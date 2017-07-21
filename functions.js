@@ -64,7 +64,6 @@ function replaceProgressBar() {
       completedElements++;
     }
     $(this).css("background-color", "transparent");
-    // $(this).css("background","url('https://keats.kcl.ac.uk/pluginfile.php/2038040/mod_resource/content/3/hank.png')");
   });
   var percentComplete = (completedElements / numElements) * 160 + '%';
   $(".progressBarProgressTable").css("background", "url('https://git.iddkingsonline.com/assets/images/progress_bg.png')");
@@ -145,10 +144,6 @@ function closeOtherAccordions(context) {
       $(this).find('.toggle_open').addClass('toggle_closed').removeClass('toggle_open');
     }
   });
-}
-
-function browserType() {
-  console.log(head.browser.chrome);
 }
 
 function drawLogo(location) {

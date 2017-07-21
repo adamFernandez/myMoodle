@@ -1,7 +1,6 @@
 <script>
-	var DEVELOPMENT = "https://git.iddkingsonline.com/frontend.css";
-	var PRODUCTION = "https://git.iddkingsonline.com/frontend.css";
-	loadCSS(DEVELOPMENT);
+	var cssFile = "https://git.iddkingsonline.com/frontend.css";
+	loadCSS(cssFile);
 
 	// loads in icons to use in HTML
 	loadCSS("https://git.iddkingsonline.com/assets/fonts/ELCicons/css/ELCicons.css");
@@ -24,8 +23,6 @@
 <script>
 	// enter the location of what you want to replace the logo with
 	drawLogo("https://keats.kcl.ac.uk/pluginfile.php/2038040/mod_resource/content/3/hank.png");
-
-	browserType();
 
 	replaceFileIconsByUrl("https://keats.kcl.ac.uk/theme/image.php/keats/core/1471328846/f/png-24", "https://keats.kcl.ac.uk/pluginfile.php/2038040/mod_resource/content/3/hank.png");
 

@@ -130,7 +130,7 @@ function getCurrentWeek(weeks) {
       console.log("Unlock Week " + i + ". " + weeks[i]);
     } else {
       console.log("Week " + i + " is locked. " + weeks[i]);
-      return i;
+      return i - 1;
     }
   }
   console.log("All weeks are accessible.");

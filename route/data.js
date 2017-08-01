@@ -31,7 +31,7 @@ var data = {
         "part2": {
           "social": {
             "act1": {
-             "1": "mod/forum/view.php?id=1849515"
+             "1": "mod/forum/view.php?id=1888945"
             }
           }
         }

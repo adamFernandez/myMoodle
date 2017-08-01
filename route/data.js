@@ -26,14 +26,24 @@ var data = {
     }
   },
   "maritime": {
-    "week3": {
-      "part2": {
-        "social": {
-          "act1": {
-            "1": "mod/forum/view.php?id=1849515"
+    "module1": {
+      "week3": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=1888945"
+            }
           }
         }
-      }
+      },
+      "week5": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=1888972"
+            }
+          }
+        }
     }
   }
 };

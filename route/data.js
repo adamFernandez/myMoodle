@@ -25,19 +25,19 @@ var data = {
       }
     }
   },
-  "iccl": {}
-   "maritime": {
- 	"week1": {
- 		"part1": {
- 			"social": {
- 				"act1": {
- 					"1": "mod/forum/view.php?id=1608981"
- 				},
- 				"act2": {
- 					"1": "mod/forum/view.php?id=1608980"
- 				}
- 			}
- 		}
- 	}
+  "iccl": {},
+  "maritime": {
+ 	  "week1": {
+ 		  "part1": {
+ 		  	"social": {
+ 				  "act1": {
+ 				  	"1": "mod/forum/view.php?id=1608981"
+ 				  },
+ 				  "act2": {
+ 				  	"1": "mod/forum/view.php?id=1608980"
+ 				  }
+ 			  }
+ 		  }
+ 	  }
  },
 };

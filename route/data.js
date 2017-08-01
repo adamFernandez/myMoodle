@@ -35,6 +35,15 @@ var data = {
             }
           }
         }
+      },
+      "week5": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=1888972"
+            }
+          }
+        }
       }
     }
   }

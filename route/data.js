@@ -1,7 +1,7 @@
 // coursename_courseweek_
 // https://git.iddkingsonline.com/route/index.html#exec_week1_part1_notesManager
 var data = {
-  "exec": {
+  "maritime": {
     "week1": {
       "part1": {
         "notes": {

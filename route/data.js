@@ -1,5 +1,5 @@
 // coursename_courseweek_
-// https://git.iddkingsonline.com/rerouter/index.html#exec_week1_part1_notesManager
+// https://git.iddkingsonline.com/route/index.html#exec_week1_part1_notesManager
 var data = {
   "exec": {
     "week1": {
@@ -39,5 +39,5 @@ var data = {
  			  }
  		  }
  	  }
- },
+ }
 };

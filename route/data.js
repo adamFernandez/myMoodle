@@ -28,7 +28,7 @@ var data = {
   "maritime": {
     "global": {
       "1": "mod/forum/view.php?id=1849515"
-    }
+    },
  	  "week3": {
         "part2": {
           "social": {

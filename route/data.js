@@ -25,7 +25,6 @@ var data = {
       }
     }
   },
-  "iccl": {},
   "maritime": {
  	  "week1": {
  		  "part1": {

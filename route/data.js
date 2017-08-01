@@ -26,23 +26,27 @@ var data = {
     }
   },
   "maritime": {
-    "week3": {
-      "part2": {
-        "social": {
-          "act1": {
-            "1": "mod/forum/view.php?id=1849515"
+    "module1": {
+      "week3": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=1849515"
+            }
           }
         }
       }
     }
   },
   "iccl": {
-    "week1": {
-      "part2": {
-        "social": {
-          "act1": {
-            "1" "-"
+    "module10": {
+      "week1": {
+        "part2": {
+          "social": {
+           "act1": {
+             "1" "-"
             }
+          }
         }
       }
     }

@@ -46,5 +46,123 @@ var data = {
         }
       }
     }
+  },
+  "ph": {
+    "module1": {
+      "week1": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      },
+      "week2": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      },
+      "week3": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      },
+      "week4": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      },
+      "week5": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      },
+      "week6": {
+        "part2": {
+          "social": {
+            "comments": {
+              "1": "mod/forum"
+            }
+          }
+        },
+        "part3": {
+          "social": {
+            "act1": {
+              "1": "mod/forum"
+            },
+            "act2": {
+              "1": "mod/choice"
+            }
+          }
+        }
+      }
+    }
   }
 };

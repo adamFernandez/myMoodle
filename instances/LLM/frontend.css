@@ -13,6 +13,17 @@ p, li {
 	color: #4e647f;
 	font-size: medium;
 	font-weight: bold;
+	vertical-align: middle;
+	line-height: normal !important;
+	display: inline-block;
+}
+
+.titles {
+  position:absolute;
+  margin-left: 90px;
+  top: 0px;
+  height: 90px;
+  line-height: 90px;
 }
 
 h4  {

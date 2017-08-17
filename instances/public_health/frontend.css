@@ -134,8 +134,13 @@ main {
 }
 .course-content ul.ctopics li.section .content .toggle {
 	color: #0A2d50;
-	border: 1px solid #0A2d50;
+	border: 0px;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
 	border-radius: 0px !important;
+}
+
+.course-content ul.ctopics li.section .content .toggle span.the_toggle {
+	margin: 0px;
+	border: 1px solid #0A2d50;
 }

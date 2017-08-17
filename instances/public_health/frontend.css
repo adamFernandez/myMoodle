@@ -145,18 +145,10 @@ main {
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
 	border: 1px solid #0A2d50;
-	color: #0A2d50;
-}
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle:hover h3 {
-	color: #0A2d50;
+	color: #0A2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
 	border: 2px solid #28c382;
-	color: #28c382;
-}
-
-.course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open h3 {
-	color: #28c382;
+	color: #28c382 !important;
 }

@@ -19,9 +19,9 @@ p, li {
 }
 
 .titles {
-  position:absolute;
+  position:relative;
   margin-left: 90px;
-  top: 0px;
+  top: -100px;
   height: 90px;
   line-height: 90px;
 }

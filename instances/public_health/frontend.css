@@ -165,6 +165,6 @@ main {
 	color: #00B9E1;
 }
 
-#toggle-all .content .sectionbody h4 .on {
+#toggle-all .content .sectionbody h4 .on,#toggle-all .content .sectionbody h4 .off {
 	background: transparent url(http://git.iddkingsonline.com/assets/icons/arw-blue.png) no-repeat center left!important;
 }

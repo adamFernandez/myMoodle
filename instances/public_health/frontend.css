@@ -139,6 +139,7 @@ main {
 	-moz-border-radius: 0px !important;
 	border-radius: 0px !important;
 	margin-bottom: 2px;
+	background-color: #ffffff !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {

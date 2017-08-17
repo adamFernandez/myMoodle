@@ -138,9 +138,15 @@ main {
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
 	border-radius: 0px !important;
+	margin-bottom: 2px;
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
 	border: 1px solid #0A2d50;
 }
+
+.course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
+	border: 2px solid #28c382;
+}
+

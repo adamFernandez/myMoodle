@@ -132,29 +132,7 @@ main {
   }
 
 }
-
 .course-content ul.ctopics li.section .content .toggle {
-	margin-bottom: 5px;
-	background-color: #ffffff !important;
-	border: 2px solid #0a2d50;
+	color: #0A2d50;
+	border: 1px solid #0A2d50;
 }
-
-.block {
-    box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important
-}
-
-body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a:hover {
-    	border: 2px solid #28c382 !important;
-	color: #28C382 !important;
-}
-
-.course-content ul.ctopics li.section .content .sectionhead
-a.toggle_open {
-	border: 2px solid #28c382 !important;
-}
-
-.course-content ul.ctopics li.section .content .toggle a h3:after {color: #00B9E1}
-.course-content ul.ctopics li.section .content .toggle a:hover h3.section-title {color: #28C382 !important;}
-.course-content ul.ctopics li.section .content .toggle a.toggle_open h3:after {color: #28C382;}
-.course-content ul.ctopics li.section .content .toggle a.toggle_open h3:section-title {color: #28C382 !important;}
-.course-content ul.ctopics li.section .content .toggle a.toggle_open h3 {color: #28C382 !important;}

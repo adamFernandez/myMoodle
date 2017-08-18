@@ -177,8 +177,7 @@ main {
 }
 
 .img-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 5px;
-  margin-right: 5px;
+	display:  block;
+	width:99%;
+	margin: auto;
 }

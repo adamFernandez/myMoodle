@@ -172,7 +172,7 @@ main {
 .nav-images {
   flex-grow: 1 !important;
   width: auto !important;
-  max-width: 185px !important;
+  max-width: 120px !important;
   height: auto !important;
 }
 

@@ -152,3 +152,11 @@ blockquote {
    padding: 10px 80px 10px 10px;
    font-family: 'Fjalla One', sans-serif !important;
 }
+
+.course-content ul.ctopics li.section .content .toggle {
+	background-color: #e9e9e9 !important;
+}
+
+.course-content ul.ctopics li.section .content .toggle:hover {
+	background-color: #f6f6f6 !important;
+}

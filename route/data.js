@@ -54,6 +54,9 @@ var data = {
       },
       "quiz1": {
         "1": "mod/quiz/view.php?id=1898831"
+      },
+      "quiz2": {
+        "1": "mod/quiz/view.php?id=1898832"
       }
     },
     "module2": {

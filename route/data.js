@@ -51,6 +51,9 @@ var data = {
     "module1": {
       "comments": {
         "1": "mod/forum/view.php?id=1805965"
+      },
+      "quiz1": {
+        "1": "mod/quiz/view.php?id=1898831"
       }
     },
     "module2": {

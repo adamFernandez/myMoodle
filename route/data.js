@@ -48,6 +48,11 @@ var data = {
     }
   },
   "iccl": {
+    "module1": {
+      "comments": {
+        "1": "mod/forum/view.php?id=1805965"
+      }
+    },
     "module2": {
       "comments": {
         "1": "mod/forum/view.php?id=1790088"

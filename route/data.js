@@ -77,6 +77,7 @@ var data = {
   },
   "ph": {
     "module1": {
+      "general": "mod/forum/view.php?id=1925606"
       "week1": {
         "part2": {
           "social": {

@@ -81,10 +81,10 @@ var data = {
         "1": "mod/forum/view.php?id=1925606"
       },
       "week1": {
-        "part2": {
+        "part1": {
           "social": {
-            "comments": {
-              "1": "mod/forum"
+            "act1": {
+              "1": "https://keats.kcl.ac.uk/mod/choice/view.php?id=1892950"
             }
           }
         },

@@ -2,6 +2,7 @@
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
 	letter-spacing: .3px;
+	color: #0A2D50;
 }
 
 h1 {
@@ -185,7 +186,12 @@ main {
 	color: #404142;
 }
 
+.instancename a {
+	text-decoration: none;
+	color: #404142;
+}
+
 .contentafterlink {
-	font-size: .95em;
+	font-size: .9em;
 	font-weight: 500;
 }	

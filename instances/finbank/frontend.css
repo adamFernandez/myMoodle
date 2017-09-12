@@ -76,11 +76,10 @@ main {
 }
 
 .hero-box {
-    background-color: #fc5e72;
     left: 0px;
     padding: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     max-width: 67%;
     position: absolute;
 }
@@ -88,13 +87,15 @@ main {
 .hero-box h1 {
   font-size: 2.5em;
   color: #ffffff;
+  background-color: #fc5e72;
   font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
   font-size: 1em;
   color: #ffffff;
-  right: 0;
+  text-align: left;
+  padding-top: 10px;
 }
 
 @media all and (max-width: 650px) {
@@ -139,7 +140,6 @@ main {
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
 	border-top: 1px solid #9FA7A7;
-	border-bottom: 1px solid #9FA7A7;
 	color: #009EA0 !important;
 }
 
@@ -154,4 +154,8 @@ main {
 	font-size: 1.2em;
 	content: "\f106" !important;
 	color: #009EA0;
+}
+
+#page-header .coursesearch input[type="submit"] {
+	background-color: #009EA0;
 }

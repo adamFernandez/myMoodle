@@ -177,6 +177,10 @@ main {
 	background-color: #009EA0;
 }
 
-.block-region a, .jsenabled .block_settings .block_tree .tree_item.branch, .instancename {
+.block-region a, .jsenabled .block_settings .block_tree .tree_item.branch {
 	color: #9FA7A7;
+}
+
+.instancename {
+	color: #404142;
 }

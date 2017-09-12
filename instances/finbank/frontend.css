@@ -184,3 +184,8 @@ main {
 .instancename {
 	color: #404142;
 }
+
+.contentafterlink {
+	font-size: .95em;
+	font-weight: 500;
+}	

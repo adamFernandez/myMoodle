@@ -192,9 +192,11 @@ main {
     margin-right: 3%;
     width: 43%;
     margin-top: -76px;
+}
 
     .page-footer-staircase-inner {
       margin: 0 auto;
+}
 
       .staircase {
         background: #ffffff;
@@ -222,5 +224,3 @@ main {
         top: 0;
         left: 300px;
       }
-    }
-  }

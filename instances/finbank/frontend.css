@@ -186,3 +186,41 @@ main {
 	font-size: .9em;
 	font-weight: 500;
 }	
+
+.page-footer-staircase {
+    float: right;
+    margin-right: 3%;
+    width: 43%;
+    margin-top: -76px;
+
+    .page-footer-staircase-inner {
+      margin: 0 auto;
+
+      .staircase {
+        background: #ffffff;
+        width: 100px;
+        height: 20px;
+        position: relative;
+      }
+
+      .stair-1 {
+        top: 180px;
+        left: 0;
+      }
+
+      .stair-2 {
+        top: 120px;
+        left: 100px;
+      }
+
+      .stair-3 {
+        top: 60px;
+        left: 200px;
+      }
+
+      .stair-4 {
+        top: 0;
+        left: 300px;
+      }
+    }
+  }

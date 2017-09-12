@@ -23,12 +23,12 @@ h3.section-title {
 	color: #404142;
 }
 
-.sectionbody a {
+.sectionbody p a {
 	color: #0A2D50;
 	text-decoration: underline;
 }
 
-.sectionbody a:visited {
+.sectionbody p a:visited {
 	color: #9FA7A7;
 }
 
@@ -179,11 +179,6 @@ main {
 }
 
 .instancename {
-	color: #404142;
-}
-
-.instancename a {
-	text-decoration: none !important;
 	color: #404142;
 }
 

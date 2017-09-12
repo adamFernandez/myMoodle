@@ -217,3 +217,8 @@ main {
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
     border: 1px solid #9e9fa7 !important;
 }
+
+.course-content ul.ctopics li.section .content .toggle {
+    color: white;
+    border: 1px solid #9e9fa7;
+}

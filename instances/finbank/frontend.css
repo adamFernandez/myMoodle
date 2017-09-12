@@ -277,6 +277,7 @@ main {
 .hero-box {
     left: 0px;
     padding: 0px;
+    top: 0px;
     padding-left: 15px;
     padding-right: 15px;
     max-width: 60%;

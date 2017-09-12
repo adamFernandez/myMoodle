@@ -22,6 +22,15 @@ h3.section-title {
 	color: #404142;
 }
 
+.sectionbody a {
+	color: #0A2D50;
+	text-decoration: underline;
+}
+
+.sectionbody a:visited {
+	color: #9FA7A7;
+}
+
 html, body {
 	font-family:'Roboto' !important;
 	color: #404142;
@@ -147,6 +156,10 @@ main {
 	color: #009EA0 !important;
 }
 
+.course-content ul.ctopics {
+	border-bottom: 1px solid #9FA7A7;
+}
+
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 	font-size: 1.2em;
@@ -162,4 +175,8 @@ main {
 
 #page-header .coursesearch input[type="submit"] {
 	background-color: #009EA0;
+}
+
+.block-region a {
+	color: #9FA7A7;
 }

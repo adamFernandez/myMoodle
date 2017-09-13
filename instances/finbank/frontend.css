@@ -89,17 +89,15 @@ main {
     left: 0px;
     padding: 0px;
     padding-left: 15px;
-    padding-right: 15px;
-    max-width: 67%;
     position: absolute;
 }
 
 .hero-box h1 {
-  font-size: 2.5em;
-  color: #ffffff;
-  background-color: rgba(252, 94, 114, 0.7);
-  padding: 10px;
-  font-family: 'kingsfont-37' !important;
+	font-size: 2.5em;
+	color: #ffffff;
+	text-align: right;
+	background-color: rgba(252, 94, 114, 0.7);
+	font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
@@ -259,47 +257,6 @@ button.accordion.active, button.accordion:hover {
 }
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
-
-main {
-  overflow: hidden;
-  font-family: 'kingsfont-37';
-}
-
-.hero {
-    text-align: center;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.hero-box {
-    left: 0px;
-    padding: 0px;
-    top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 60%;
-    position: absolute;
-}
-
-.hero-box h1 {
-  font-size: 2em;
-  color: #ffffff;
-  background-color: rgba(252, 94, 114, 0.7);
-  padding: 10px;
-  font-family: 'kingsfont-37' !important;
-}
-
-.hero-box h2 {
-  font-size: 1.2em;
-  top: 0;
-  color: #ffffff;
-  text-align: left;
-  padding-top: 15px;
-  margin-bottom: 0px;
-}
 
 .page-footer-staircase {
   width: 40%;

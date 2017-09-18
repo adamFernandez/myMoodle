@@ -78,13 +78,13 @@ var data = {
   "ph": {
     "module1": {
       "general": {
-        "1": "mod/forum/view.php?id=1925606"
+        "1": "mod/forum/view.php?id=1941092"
       },
       "week1": {
         "part1": {
           "social": {
             "act1": {
-              "1": "https://keats.kcl.ac.uk/mod/choice/view.php?id=1892950"
+              "1": "mod/choice/view.php?id=1941144"
             }
           }
         },

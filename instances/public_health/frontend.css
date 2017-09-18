@@ -16,10 +16,14 @@ h3.section-title {
 	background-color: #0A2D50;
 }
 
-.sectionbody, li {
+.sectionbody {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
 	color: black;
+}
+
+.generalbox li {
+	font-size: medium; 
 }
 
 html, body {

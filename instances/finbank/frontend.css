@@ -101,11 +101,12 @@ main {
 }
 
 .hero-box h2 {
-  font-size: 1.5em;
-  color: #ffffff;
-  text-align: left;
-  padding-top: 15px;
-  margin-bottom: 0px;
+	font-size: 1.5em;
+	color: #ffffff;
+	text-align: left;
+	padding-top: 0px;
+	margin-top: -35px;
+	margin-bottom: 10px;
 }
 
 @media all and (max-width: 650px) {

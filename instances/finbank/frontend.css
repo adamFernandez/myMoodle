@@ -89,6 +89,7 @@ main {
 	left: 0px;
 	padding: 0px;
 	top: 0px;
+	max-width: 67%;
 	padding-left: 15px;
 	position: absolute;
 }

@@ -31,7 +31,8 @@ var data = {
         "part2": {
           "social": {
             "act1": {
-             "1": "mod/forum/view.php?id=1888945"
+              "1": "mod/forum/view.php?id=1888945",
+              "2": "mod/forum/view.php?id=1950106"
             }
           }
         }
@@ -40,7 +41,8 @@ var data = {
         "part2": {
           "social": {
             "act1": {
-              "1": "mod/forum/view.php?id=1888972"
+              "1": "mod/forum/view.php?id=1888972",
+              "2": "mod/forum/view.php?id=1950155"
             }
           }
         }

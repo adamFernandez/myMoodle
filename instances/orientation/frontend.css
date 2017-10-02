@@ -9,7 +9,7 @@ h1 {
 }
 
 h3.section-title {
-	color: #0A2D50 !important;
+	color: #002D53 !important;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 .sectionbody {
 	font-family: 'kingsfont-51' !important;
 	font-size: 1.1em;
-	color: black;
+	color: #4B4B4B;
 }
 
 .subtitles {
@@ -64,7 +64,7 @@ h3 {
 
 .hero-box h1 {
   font-size: 2.5em;
-  color: #ffffff;
+  color: #002D53;
   font-family: 'kingsfont-37' !important;
 }
 
@@ -127,11 +127,11 @@ h3 {
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 	font-size: 1.2em;
 	content: "\f107" !important;
-	color: #009EA0;
+	color: #002D53;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
 	font-size: 1.2em;
 	content: "\f106" !important;
-	color: #009EA0;
+	color: #002D53;
 }

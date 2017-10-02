@@ -22,10 +22,6 @@ h3.section-title {
 	color: black;
 }
 
-html, body {
-	font-family:'kingsfont-51' !important;
-}
-
 .subtitles {
 	font-family: 'kingsfont-37';
 	color: #4e647f;
@@ -41,11 +37,6 @@ html, body {
 @font-face {
 	font-family: kingsfont-51;
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
-}
-
-main {
-  overflow: hidden;
-  font-family: 'kingsfont-37';
 }
 
 .hero {

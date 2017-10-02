@@ -12,6 +12,10 @@ h3.section-title {
 	color: #0A2D50 !important;
 }
 
+h3 {
+	color: #4B4B4B !important;
+}
+
 #page-header {
 	background-color: #002D53;
 }
@@ -24,7 +28,7 @@ h3.section-title {
 
 .subtitles {
 	font-family: 'kingsfont-37';
-	color: #4e647f;
+	color: #4B4B4B;
 	font-size: medium;
 }
 

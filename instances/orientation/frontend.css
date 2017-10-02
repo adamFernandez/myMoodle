@@ -133,3 +133,7 @@ h3 {
 	content: "\f106" !important;
 	color: #002D53;
 }
+
+.instancename {
+	font-weight: bold;
+}

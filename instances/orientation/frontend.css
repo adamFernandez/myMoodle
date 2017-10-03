@@ -165,7 +165,7 @@ body {font-family: Verdana,sans-serif;}
 	right: 20px;
 }
 
-@media all and (max-width: 380px) {
+@media all and (max-width: 400px) {
 
   .text {
 	  width: 100%;

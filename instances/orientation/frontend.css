@@ -62,7 +62,7 @@ h3 {
 
 .hero-box h1 {
   font-size: 2.5em;
-  color: #002D53;
+  color: #002D53 !important;
   font-family: 'kingsfont-37' !important;
 }
 
@@ -161,6 +161,7 @@ body {font-family: Verdana,sans-serif;}
 	position: absolute;
 	padding: 20px;
 	bottom: 20px;
+	color: #002D53 !important;
 	right: 20px;
 }
 

@@ -160,6 +160,8 @@ body {font-family: Verdana,sans-serif;}
 	text-align: right !important;
 	position: absolute;
 	padding: 20px;
+	bottom: 20px;
+	right: 20px;
 }
 
 /* Number text (1/3 etc) */

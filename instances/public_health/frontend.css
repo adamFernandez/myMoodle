@@ -182,3 +182,8 @@ main {
 div.modified {
 	display: none;
 }
+
+.image-container:hover .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
+}

@@ -185,21 +185,23 @@ div.modified {
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 170px;
   height: 310px;
+  padding: 10px;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-    display: block;
-    background: rgba(252, 94, 114, .7);
+div.gallery img:hover {
+  -webkit-filter: grayscale(100%); 
+  -moz-filter: grayscale(100%); 
+  filter: grayscale(100%);  
 }
 
 div.gallery img {
-    width: 100%;
+    width: 140px;
     height: auto;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 div.desc {

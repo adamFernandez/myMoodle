@@ -186,7 +186,7 @@ div.modified {
 div.gallery {
 	margin: 5px;
 	float: left;
-	width: 170px;
+	width: 200px;
 	height: 250px;
 	padding: 10px;
 }
@@ -198,10 +198,12 @@ div.gallery img:hover {
 }
 
 div.gallery img {
-    width: 140px;
+  width: 140px;
     height: auto;
   border-radius: 50%;
-  padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div.desc {

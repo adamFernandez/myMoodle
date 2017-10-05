@@ -184,10 +184,11 @@ div.modified {
 }
 
 div.gallery {
-    margin: 5px;
-    float: left;
-    width: 170px;
-  padding: 10px;
+	margin: 5px;
+	float: left;
+	width: 170px;
+	height: 250px;
+	padding: 10px;
 }
 
 div.gallery img:hover {

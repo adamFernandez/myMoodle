@@ -178,3 +178,7 @@ main {
 .modified {
 	display: none;
 }
+
+div.modified {
+	display: none;
+}

@@ -183,7 +183,26 @@ div.modified {
 	display: none;
 }
 
-.image-container:hover .after {
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  height: 310px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
     display: block;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(252, 94, 114, .7);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }

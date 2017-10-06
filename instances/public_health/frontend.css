@@ -184,9 +184,8 @@ div.modified {
 }
 
 div.gallery {
-	margin: 5px;
 	float: left;
-	width: 230px;
+	width: 190px;
 	height: 260px;
 	padding: 10px;
 }

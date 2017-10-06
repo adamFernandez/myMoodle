@@ -90,6 +90,13 @@ var data = {
             }
           }
         }
+      },
+      "week3": {
+        "social": {
+          "act1": {
+            "1": "mod/forum/view.php?id=1965104"
+          }
+        }
       }
     }
   }

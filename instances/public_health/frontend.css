@@ -4,6 +4,10 @@
 	letter-spacing: .3px;
 }
 
+a { 
+	color:  #1259A1 !important;
+}
+
 h1 {
 	font-family: 'kingsfont-51' !important;
 }
@@ -143,7 +147,7 @@ main {
 
 }
 .course-content ul.ctopics li.section .content .toggle {
-	color: #0A2d50;
+	color: #0a2d50;
 	border: 0px;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
@@ -155,12 +159,12 @@ main {
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
 	border: 1px solid #0A2d50;
-	color: #0A2d50 !important;
+	color: #0a2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
 	border: 2px solid #28c382;
-	color: #28c382 !important;
+	color: #0a2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {

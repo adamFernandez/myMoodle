@@ -4,10 +4,6 @@
 	letter-spacing: .3px;
 }
 
-a { 
-	color:  #1259A1 !important;
-}
-
 h1 {
 	font-family: 'kingsfont-51' !important;
 }
@@ -28,6 +24,7 @@ h3.section-title {
 
 .sectionbody a {
 	font-weight: strong;
+	color: #1259A1;
 }
 
 .generalbox li {

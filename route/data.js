@@ -77,6 +77,13 @@ var data = {
       }
     }
   },
+  "ifcl": {
+    "module2": {
+      "comments": {
+        "1": "mod/forum/view.php?id=1908574"
+      }
+    }
+  },
   "ph": {
     "module1": {
       "general": {

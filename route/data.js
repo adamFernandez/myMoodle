@@ -94,7 +94,19 @@ var data = {
         },
         "w1-act4": {
           "1": "mod/forum/view.php?id=1978256"
-        }
+        },
+        "w2-act1": {
+          "1": "mod/forum/view.php?id=1978776"
+        },
+        "w2-act2": {
+          "1": "mod/forum/view.php?id=1981604"
+        },
+        "w2-act3": {
+          "1": "mod/forum/view.php?id=1981623"
+        },
+        "w2-act4": {
+          "1": "mod/forum/view.php?id=1981630"
+        },
       }
     }
   },

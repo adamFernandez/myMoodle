@@ -104,7 +104,7 @@ var data = {
         "w2_act3": {
           "1": "mod/forum/view.php?id=1981661"
         },
-        "w2_act4": {
+        "w2-act4": {
           "1": "mod/forum/view.php?id=1981630"
         }
       }

@@ -83,28 +83,28 @@ var data = {
         "1": "mod/forum/view.php?id=1908574"
       },
       "activities": {
-        "w1-act1": {
+        "w1_act1": {
           "1": "mod/forum/view.php?id=1977820"
         },
-        "w1-act2": {
+        "w1_act2": {
           "1": "mod/forum/view.php?id=1977899"
         },
-        "w1-act3": {
+        "w1_act3": {
           "1": "mod/forum/view.php?id=1977963"
         },
-        "w1-act4": {
+        "w1_act4": {
           "1": "mod/forum/view.php?id=1978256"
         },
-        "w2-act1": {
+        "w2_act1": {
           "1": "mod/forum/view.php?id=1978776"
         },
-        "w2-act2": {
+        "w2_act2": {
           "1": "mod/forum/view.php?id=1981604"
         },
-        "w2-act3": {
+        "w2_act3": {
           "1": "mod/forum/view.php?id=1981661"
         },
-        "w2-act4": {
+        "w2_act4": {
           "1": "mod/forum/view.php?id=1981630"
         }
       }

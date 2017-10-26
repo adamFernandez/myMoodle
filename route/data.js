@@ -99,16 +99,16 @@ var data = {
         },
         "w2": {
           "act1": {
-            "1": "mod/forum/view.php?id=1978776"
-          },
-          "act2": {
             "1": "mod/forum/view.php?id=1981604"
           },
-          "act3": {
+          "act2": {
             "1": "mod/forum/view.php?id=1981661"
           },
-          "act4": {
+          "act3": {
             "1": "mod/forum/view.php?id=1981630"
+          },
+          "act4": {
+            "1": "mod/forum/view.php?id=1981662"
           }
         }
       }

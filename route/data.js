@@ -106,7 +106,7 @@ var data = {
         },
         "w2-act4": {
           "1": "mod/forum/view.php?id=1981630"
-        },
+        }
       }
     }
   },

@@ -102,7 +102,7 @@ var data = {
           "1": "mod/forum/view.php?id=1981604"
         },
         "w2-act3": {
-          "1": "mod/forum/view.php?id=1981623"
+          "1": "mod/forum/view.php?id=1981661"
         },
         "w2-act4": {
           "1": "mod/forum/view.php?id=1981630"

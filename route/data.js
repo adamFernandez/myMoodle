@@ -110,6 +110,14 @@ var data = {
           "act4": {
             "1": "mod/forum/view.php?id=1981662"
           }
+        },
+        "w3": {
+          "act1": {
+            "1": "mod/choice/view.php?id=1971072"
+          },
+          "act2": {
+            "1": "mod/choice/view.php?id=1984907"
+          }
         }
       }
     }

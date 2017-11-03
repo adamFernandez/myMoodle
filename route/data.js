@@ -117,6 +117,12 @@ var data = {
           },
           "act2": {
             "1": "mod/choice/view.php?id=1984907"
+          },
+          "act3": {
+            "1": "mod/forum/view.php?id=1988607"
+          },
+          "act4": {
+            "1": "mod/forum/view.php?id=1988611"
           }
         }
       }

@@ -214,3 +214,25 @@ div.desc {
     text-align: center;
 	color: #0A2D50;
 }
+
+.container {
+}
+
+.container-left {
+  float:left;
+  width: 50%;
+}
+
+.container-right {
+  float:right;
+  width: 50%;
+}
+
+@media screen and (max-device-width: 480px) {
+  .container-left {
+    width: 100%;
+  }
+  .container-right {
+    width: 100%;
+  }
+}

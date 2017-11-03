@@ -228,7 +228,7 @@ div.desc {
   width: 50%;
 }
 
-@media screen and (max-device-width: 480px) {
+@media all and (max-device-width: 480px) {
   .container-left {
     width: 100%;
   }

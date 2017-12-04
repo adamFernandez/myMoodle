@@ -167,5 +167,17 @@ var data = {
         "1": "mod/forum/view.php?id=1987610"
       }
     }
+  },
+  "gfb": {
+    "module1": {
+      "w1": {
+        "act1": {
+          "1": "mod/choice/view.php?id=2009667"
+        },
+        "act2": {
+          "1": "mod/forum/view.php?id=1997700"
+        }
+      }
+    }
   }
 };

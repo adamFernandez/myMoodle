@@ -31,9 +31,16 @@ h3.section-title {
 	color: #404142;
 }
 
-.sectionbody p a {
+.sectionbody p {
 	color: #0A2D50;
 	text-decoration: underline;
+}
+
+/*Links differents*/
+a {
+	color: #0A2D50;
+	text-decoration: underline;
+	font-weight: 600;
 }
 
 .sectionbody p a:visited {

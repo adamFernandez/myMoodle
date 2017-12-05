@@ -172,10 +172,10 @@ var data = {
     "module1": {
       "w1": {
         "act1": {
-          "1": "mod/choice/view.php?id=2009667"
+          "1": "mod/choice/view.php?id=2011599"
         },
         "act2": {
-          "1": "mod/forum/view.php?id=1997700"
+          "1": "mod/forum/view.php?id=2011594"
         }
       }
     }

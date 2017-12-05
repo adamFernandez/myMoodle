@@ -1,8 +1,16 @@
-.section-title, h2, h3, h4 {
+.section-title, h2, h3 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
 	letter-spacing: .3px;
 	color: #0A2D50;
+}
+/*Sections in the accordion*/
+h4 {
+    font-family: 'kingsfont-37' !important;
+    font-weight: normal !important;
+    letter-spacing: .3px;
+    color: #0A2D50;
+    background: #f9f9f9;
 }
 
 h1 {
@@ -389,9 +397,4 @@ button.accordion.active, button.accordion:hover {
 	padding-top: 10px;
 	position: absolute !important;
 	z-index: 2;
-}
-/*Alex dividers*/
-.no-overflow {
-    word-wrap: break-word;
-    background: #e3e3e31f;
 }

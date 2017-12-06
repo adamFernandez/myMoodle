@@ -186,6 +186,8 @@ main {
 	font-size: 1.2em;
 	content: "\f106" !important;
 	color: #009EA0;
+	background: #f9f9f9;
+	
 }
 
 #page-header .coursesearch input[type="submit"] {

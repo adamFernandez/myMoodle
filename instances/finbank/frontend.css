@@ -404,3 +404,7 @@ button.accordion.active, button.accordion:hover {
 	position: absolute !important;
 	z-index: 2;
 }
+/*Links to blue */
+.instancename {
+    color: #0b5584;
+}

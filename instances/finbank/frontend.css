@@ -420,3 +420,8 @@ button.accordion.active, button.accordion:hover {
     text-transform: uppercase;
     font-size: 1.1em;
 }
+.label .mod-indent {
+    float: left;
+    padding-top: 20px;
+    margin-top: 20px;
+}

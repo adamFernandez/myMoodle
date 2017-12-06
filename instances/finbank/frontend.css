@@ -408,3 +408,13 @@ button.accordion.active, button.accordion:hover {
 .instancename {
     color: #0b5584;
 }
+/*h3 header*/
+.block .content h3 {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-transform: uppercase;
+    font-size: 1.1em;
+}

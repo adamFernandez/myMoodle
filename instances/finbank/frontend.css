@@ -39,7 +39,7 @@ h3.section-title {
 /*Links differents*/
 a {
 	color: #0A2D50;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	font-weight: 600;
 }
 

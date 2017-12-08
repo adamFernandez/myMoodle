@@ -39,7 +39,7 @@ h3.section-title {
 /*Links differents*/
 a {
 	color: #0B5584;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 .sectionbody p a:visited {

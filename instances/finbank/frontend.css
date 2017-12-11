@@ -422,3 +422,11 @@ button.accordion.active, button.accordion:hover {
     text-transform: uppercase;
     font-size: 1.1em;
 }
+/*Lecture name on banner*/
+h5 {
+    font-size: 1.3em;
+    text-align: left;
+    /* font-weight: 400; */
+    color: white;
+    background-color: #1aa8aaa6;
+}

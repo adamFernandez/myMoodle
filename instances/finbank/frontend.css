@@ -423,7 +423,7 @@ button.accordion.active, button.accordion:hover {
     font-size: 1.1em;
 }
 /*Lecture name on banner*/
-h5 {
+h7 {
     font-size: 1.3em;
     text-align: left;
     /* font-weight: 400; */

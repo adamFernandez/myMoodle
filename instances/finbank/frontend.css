@@ -442,8 +442,6 @@ h7 {
     width: 100px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
     font-size: 3em;
-    -moz-border-radius: .0em;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
+    line-height: 320%;
     transition: all 0.4s;
 }

@@ -454,6 +454,5 @@ h7 {
 
 // Mathjax
 .MathJax_Display {
-    text-align: left !Important;
-    position: absolute;
+    text-align: left;
 }

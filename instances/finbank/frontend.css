@@ -451,3 +451,8 @@ h7 {
     font-size: 1.1em;
     color: #9fa7a7;
 }
+
+// Mathjax
+.MathJax_Display {
+    text-align: left;
+}

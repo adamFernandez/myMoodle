@@ -430,7 +430,7 @@ h7 {
     color: white;
     background-color: #1aa8aaa6;
 }
-/*KEATS Play button*/
+/*KEATS Video Play button*/
 .video-js .vjs-big-play-button {
     background-color: rgb(0, 158, 160);
     border-radius: 100px;
@@ -444,4 +444,10 @@ h7 {
     font-size: 3em;
     line-height: 320%;
     transition: all 0.4s;
+}
+/*Video frame color*/
+.sectionbody {
+    font-family: 'Roboto','Arial' !important;
+    font-size: 1.1em;
+    color: #9fa7a7;
 }

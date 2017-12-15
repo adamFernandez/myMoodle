@@ -464,7 +464,6 @@ h7 {
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 130px;
     padding: 5px 30px;
     margin: 20px 20px 20px;
     list-style: none;

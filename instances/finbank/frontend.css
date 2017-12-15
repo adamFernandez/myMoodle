@@ -457,3 +457,26 @@ h7 {
     text-align: left;
 }
 /*Simple Popup in KEATS*/
+.dropdown-menu {
+    position: inherit;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 130px;
+    padding: 5px 30px;
+    margin: 20px 20px 20px;
+    list-style: none;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}

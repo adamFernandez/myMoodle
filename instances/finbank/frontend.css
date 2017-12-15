@@ -465,7 +465,8 @@ h7 {
     display: none;
     float: left;
     padding: 5px 30px;
-    margin: 20px 20px 20px;
+    min-width: 120px;
+    margin: 10px 200px 20px;
     list-style: none;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,.2);

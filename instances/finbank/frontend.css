@@ -453,6 +453,10 @@ h7 {
 .MathJax_Display {
     text-align: left !important;
 }
+
+div.MathJax_Display {
+	text-align: left !important;
+}
 /*Simple Popup in KEATS*/
 .dropdown-menu {
     position: inherit;

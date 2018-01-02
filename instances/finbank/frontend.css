@@ -451,7 +451,7 @@ h7 {
 
 // Mathjax
 .MathJax_Display {
-    text-align: left;
+    text-align: left !important;
 }
 /*Simple Popup in KEATS*/
 .dropdown-menu {

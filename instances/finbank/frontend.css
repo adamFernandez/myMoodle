@@ -442,6 +442,23 @@ h7 {
     line-height: 320%;
     transition: all 0.4s;
 }
+/*KEATS Video Play button for mobile*/
+@media only screen and (max-width: 500px) {
+   .video-js .vjs-big-play-button {
+    background-color: rgb(0, 158, 160);
+    border-radius: 100px;
+    border-width: 0 !Important; 
+    font-size: 2em;
+    height: 50px;
+    top: 25px;
+    left: 17px;
+    width: 50px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+    font-size: 3em;
+    line-height: 320%;
+    transition: all 0.4s;
+	}
+}
 /*Video frame color*/
 .sectionbody {
     font-family: 'Roboto','Arial' !important;

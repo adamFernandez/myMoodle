@@ -236,3 +236,7 @@ div.desc {
     width: 100%;
   }
 }
+
+.path-course-view .completionprogress {
+	display: none;
+}

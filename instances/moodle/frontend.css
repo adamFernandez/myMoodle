@@ -6,15 +6,15 @@
     z-index: 23;
     line-height: 2;
     padding: .5em 0 .5em 4%;
-    background-color: rgba(255, 255, 255, 0.53);
+    background-color: rgba(255, 255, 255, 0.75);
 }
 /*Admin gear button*/
 #admin-menu-trigger {
     width: 45px;
     height: 45px;
     margin-right: 1em;
-    border: 1px solid #999999;
     border-radius: 100%;
+    box-shadow: 1px 1px 7px 0px #999999;
 }
 /*User Profile picture*/
 .snap-my-courses-menu .userpicture {
@@ -27,5 +27,5 @@
     height: 45px;
     width: 45px;
     margin-left: 1rem;
-    border: 1px solid #0b5584;
+    border: 1px outline-color #0b5584;
 }

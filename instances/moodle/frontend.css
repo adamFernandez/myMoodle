@@ -43,7 +43,6 @@
     height: 100px;
     position: fixed;
 }
-@media (min-width: 768px)
 .breadcrumb-nav {
     margin-top: 4.5em !important;
 }

@@ -8,3 +8,11 @@
     padding: .5em 0 .5em 4%;
     background-color: rgba(255, 255, 255, 0.53);
 }
+/*Admin gear button*/
+#admin-menu-trigger {
+    width: 45px;
+    height: 45px;
+    margin-right: 1em;
+    border: 1px solid #999999;
+    border-radius: 100%;
+}

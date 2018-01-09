@@ -16,6 +16,14 @@
     border-radius: 100%;
     box-shadow: 1px 1px 7px 0px #999999;
 }
+#admin-menu-trigger:hover {
+    width: 45px;
+    height: 45px;
+    margin-right: 1em;
+    border-radius: 100%;
+    box-shadow: 1px 1px 7px 1px #999999;
+}
+    
 /*User Profile picture*/
 .snap-my-courses-menu .userpicture {
     height: 45px;
@@ -27,5 +35,5 @@
     height: 45px;
     width: 45px;
     margin-left: 1rem;
-    border: 1px outline-color #0b5584;
+    border: 1px solid #0b5584;
 }

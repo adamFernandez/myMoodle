@@ -38,3 +38,9 @@
     margin-left: 1rem;
     border: 1px solid #0b5584;
 }
+/*Kings logo*/
+#snap-home.logo, .snap-logo-sitename {
+    background-image: url(//moodle.iddkingsonline.com/pluginfile.php/1/theme_snap/logo/1515491048/king-logo.jpg);
+    height: 100px;
+    position: fixed;
+}

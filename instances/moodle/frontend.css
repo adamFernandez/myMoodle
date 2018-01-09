@@ -1,1 +1,10 @@
 
+/*Header transparency*/
+#mr-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 23;
+    line-height: 2;
+    padding: .5em 0 .5em 4%;
+    background-color: rgba(255, 255, 255, 0.53);
+}

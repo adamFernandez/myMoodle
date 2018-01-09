@@ -41,5 +41,5 @@
 /*Kings logo*/
 #snap-home.logo, .snap-logo-sitename {
     height: 100px;
-
+    position: fixed;
 }

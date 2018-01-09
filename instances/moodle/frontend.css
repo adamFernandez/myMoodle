@@ -16,3 +16,16 @@
     border: 1px solid #999999;
     border-radius: 100%;
 }
+/*User Profile picture*/
+.snap-my-courses-menu .userpicture {
+    height: 45px;
+    width: 45px;
+    margin-left: 1rem;
+    border: 1px solid #999999;
+}
+.snap-my-courses-menu:hover .userpicture:hover {
+    height: 45px;
+    width: 45px;
+    margin-left: 1rem;
+    1px solid #0b5584;
+}

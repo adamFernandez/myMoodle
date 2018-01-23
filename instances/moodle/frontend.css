@@ -51,13 +51,14 @@
     margin-top: 7.5em !important;}
 }
 /*Close button*/
-.snap-action-icon {
-    padding: .5em;
-    border: 1px, solid;
-    border: 1px solid #797979;
-    font-size: 1.5em;
-    line-height: 1;
-    text-decoration: none!important;
+.snap-action-icon small {
     display: block;
     text-align: center;
+    line-height: 1;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #797979;
+    font-weight: 500;
+    font-stretch: 700;
 }

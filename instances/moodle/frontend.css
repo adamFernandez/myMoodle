@@ -62,3 +62,12 @@
     font-weight: 500;
     font-stretch: 700;
 }
+.snap-action-icon {
+    padding: .5em;
+    border: 1px solid #797979;
+    font-size: 1.5em;
+    line-height: 1;
+    text-decoration: none!important;
+    display: block;
+    text-align: center;
+}

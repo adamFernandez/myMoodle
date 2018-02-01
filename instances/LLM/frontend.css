@@ -160,3 +160,18 @@ blockquote {
 .course-content ul.ctopics li.section .content .toggle:hover {
 	background-color: #f6f6f6 !important;
 }
+
+.topbox {
+  background: #c3d5ea;
+  padding: 10px 2px 2px 12px;
+  left: 0px;
+  right: 10px;
+  color: #37475a;
+  font-size: medium;
+  max-width: 600px;
+  margin-bottom: 10px;
+}
+
+.topbox li {
+  color: #4e647f;
+}

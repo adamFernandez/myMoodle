@@ -180,3 +180,19 @@ margin-left: 25px;
 .topbox ul {
 	margin: 0 0 10px 0;
 }
+
+.book_content table th {
+  background: #c3d5ea; 
+  border: 1px solid #4e647f; 
+  padding: 5px;
+}
+
+.book_content table {
+  border-collapse: collapse;
+  max-width: 600px;
+}
+
+.book_content table td {
+  padding: 5px;
+  border: 1px solid #4e647f; 
+}

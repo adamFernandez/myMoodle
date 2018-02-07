@@ -29,13 +29,13 @@ h3.sectionname, .block .header .title h2 {
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
-	font-size: 1.2em;
+	font-size: 1.6em;
 	content: "\f107" !important;
 	color: #FF5F05;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
-	font-size: 1.2em;
+	font-size: 1.6em;
 	content: "\f106" !important;
 	color: #FF5F05;
 }

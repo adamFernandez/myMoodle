@@ -155,16 +155,6 @@ main {
 	background-color: #ffffff !important;
 }
 
-.course-content ul.ctopics li.section .content .toggle span.the_toggle {
-	margin: 0px;
-	border-top: 1px solid #CDD7DC;
-	color: #009EA0 !important;
-}
-
-.course-content ul.ctopics {
-	border-bottom: 1px solid #CDD7DC;
-}
-
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 	font-size: 1.2em;
@@ -178,9 +168,6 @@ main {
 	color: #009EA0;
 }
 
-#page-header .coursesearch input[type="submit"] {
-	background-color: #009EA0;
-}
 
 .instancename {
 	color: #404142;
@@ -204,10 +191,6 @@ h1 {
 
 h3.section-title {
 	color: #0A2D50 !important;
-}
-
-#page-header {
-	background-color: #009EA0;
 }
 
 .sectionbody {
@@ -353,11 +336,6 @@ main {
 	background-color: #ffffff !important;
 }
 
-.course-content ul.ctopics li.section .content .toggle span.the_toggle {
-	margin: 0px;
-	border-top: 1px solid #9FA7A7;
-	color: #009EA0 !important;
-}
 
 .course-content ul.ctopics {
 	border-bottom: 1px solid #9FA7A7;
@@ -376,9 +354,6 @@ main {
 	color: #FF5F05;
 }
 
-#page-header .coursesearch input[type="submit"] {
-	background-color: #009EA0;
-}
 
 .instancename {
 	color: #404142;

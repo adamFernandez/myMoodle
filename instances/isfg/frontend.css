@@ -17,11 +17,15 @@
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsCaslonDisplay.ttf');
 }
 
+.course-content ul.ctopics li.section .content .toggle span {
+	color: #0A2d50 !important;
+}
+
 h3.sectionname, .block .header .title h2 {
     font-family: 'kingsfont-37' !important;
     font-weight: normal !important;
     letter-spacing: .3px;
-    color: #0A2D50 !important;
+    color: #0A2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
@@ -57,4 +61,9 @@ h3.sectionname, .block .header .title h2 {
 
 #page-header .coursesearch input[type="submit"] {
 	background: #ff8833 url(/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
+}
+
+body, p {
+	color: #5A6469 !important;
+	font-family: 'kingscaslon' !important;
 }

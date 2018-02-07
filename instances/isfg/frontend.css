@@ -24,12 +24,16 @@ h3.sectionname {
     background-color: #fffff;
 }
 
-.course-content ul.ctopics li.section .content div.toggle:hover {
-	background-color: #ffffff;
+.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
+	font-size: 1.2em;
+	content: "\f107" !important;
+	color: #FF5F05;
 }
 
-.course-content ul.ctopics li.section .content div.toggle {
-	background-color: #ffffff;
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
+	font-size: 1.2em;
+	content: "\f106" !important;
+	color: #FF5F05;
 }
 
 .course-content ul.ctopics li.section .content .toggle {
@@ -44,10 +48,10 @@ h3.sectionname {
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
-	border-top: 1px solid #CDD7DC;
-	color: #ffffff !important;
+	border-top: 1px solid #9FA7A7;
+	color: #009EA0 !important;
 }
 
 .course-content ul.ctopics {
-	border-bottom: 1px solid #CDD7DC;
+	border-bottom: 1px solid #9FA7A7;
 }

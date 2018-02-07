@@ -60,7 +60,7 @@ h3.sectionname, .block .header .title h2 {
 }
 
 #page-header .coursesearch input[type="submit"] {
-	background: #ff8833 url(/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
+	background: #ff8833 url(https://keats.kcl.ac.uk/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
 }
 
 body, p {
@@ -96,15 +96,6 @@ main {
 
 @media all and (max-width: 650px) {
 
-  .hero-box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    padding: 0px;
-    top: 0px;
-    justify-content: center;
-    align-items: center;
-  }
   .hero-box h1 {
     font-size: 1.7em;
   }

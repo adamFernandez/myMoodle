@@ -65,5 +65,39 @@ h3.sectionname, .block .header .title h2 {
 
 body, p {
 	color: #5A6469 !important;
-	font-family: 'kingscaslon' !important;
+}
+
+/* Hero box */
+
+main {
+  overflow: hidden;
+  font-family: 'kingsfont';
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero-box {
+  background-color: #4e647f;
+  opacity: 0.9;
+  right: 0px;
+  padding: 20px;
+  position: absolute;
+}
+
+.hero-box h1 {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.hero-box h2 {
+  font-size: 1em;
+  color: #ffffff;
+  right: 0;
 }

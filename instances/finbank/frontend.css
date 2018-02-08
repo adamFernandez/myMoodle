@@ -113,6 +113,8 @@ main {
 	text-align: left;
 	background-color: rgba(252, 94, 114, 0.7);
 	font-family: 'kingsfont-37' !important;
+	padding: 2px;
+	letter-spacing: .2px;
 }
 
 .hero-box h2 {

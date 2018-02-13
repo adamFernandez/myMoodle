@@ -176,6 +176,11 @@ var data = {
       "discussion": {
         "1": "mod/forum/view.php?id=1987610"
       }
+    },
+    "module3": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2048301"
+      }
     }
   },
   "gfb": {

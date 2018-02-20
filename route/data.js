@@ -33,6 +33,7 @@ var data = {
             "act1": {
               "1": "mod/forum/view.php?id=1888945",
               "2": "mod/forum/view.php?id=1950106"
+              "3": "mod/forum/view.php?id=2056970"
             }
           }
         }
@@ -43,6 +44,7 @@ var data = {
             "act1": {
               "1": "mod/forum/view.php?id=1888972",
               "2": "mod/forum/view.php?id=1950155"
+              "3": "mod/forum/view.php?id=2057018"
             }
           }
         }

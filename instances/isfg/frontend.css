@@ -29,7 +29,7 @@
 }
 
 .content h3 {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	font-weight: 500;
 	font-family: 'kingsfont-37';
 }
@@ -42,20 +42,24 @@ h3.sectionname, .block .header .title h2 {
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	content: "\f107" !important;
 	color: #FF5F05;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
-	font-size: 1.6em;
+	font-size: 1.3em;
 	content: "\f106" !important;
 	color: #FF5F05;
 }
 
+.course-content ul.ctopics li.section .content .toggle .the_toggle h3 {
+	line-height: 1;
+}
+
 .course-content ul.ctopics li.section .content .toggle {
 	color: #0a2d50;
-	font-size: 1.7em;
+	font-size: 1.2em;
 	border: 0px;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
@@ -87,6 +91,19 @@ h3.sectionname, .block .header .title h2 {
 
 body, p {
 	color: #5A6469 !important;
+	font-family: 'kingsfont-51 !important';
+}
+
+body a, p a {
+	color: #0a2d50 !important;
+}
+
+body a:hover, p a:hover {
+	color: #536c84 !important;
+} 
+
+.instancename {
+	font-family: 'kingsfont-37' !important;
 }
 
 /* Hero box */

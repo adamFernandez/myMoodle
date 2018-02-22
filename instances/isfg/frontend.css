@@ -1,6 +1,10 @@
 #page-header {
-	background-color: #FF5F05;
+	background-color: #8b9295;
+	border-bottom: 6px solid #ff5f05;
 }
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	background: #5a6469 url(https://git.iddkingsonline.com/assets/images/nav-bg-isfg.png) no-repeat center top;
 
 @font-face {
 	font-family: kingsfont-37;
@@ -12,19 +16,22 @@
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
-@font-face {
-	font-family: kingscaslon;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsCaslonDisplay.ttf');
-}
-
 .course-content ul.ctopics li.section .content .toggle span {
 	color: #0A2d50 !important;
 }
+
+h4.content {
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: 'kingsfont-37';
+}
+
 
 h3.sectionname, .block .header .title h2 {
     font-family: 'kingsfont-37' !important;
     font-weight: normal !important;
     letter-spacing: .3px;
+    color: #000000;
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
@@ -59,7 +66,7 @@ h3.sectionname, .block .header .title h2 {
 }
 
 #page-header .coursesearch input[type="submit"] {
-	background: #ff8833 url(https://keats.kcl.ac.uk/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
+	background: #ff5f05 url(https://keats.kcl.ac.uk/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
 }
 
 body, p {
@@ -70,7 +77,6 @@ body, p {
 
 main {
   overflow: hidden;
-  font-family: 'kingsfont-37';
 }
 
 .hero {
@@ -91,6 +97,7 @@ main {
 .hero-box h1 {
   font-size: 3.5em;
   color: #ffffff;
+  font-family: kingsfont-37;
 }
 
 @media all and (max-width: 650px) {
@@ -107,4 +114,16 @@ main {
     font-size: 1.4em;
   }
 
+}
+
+.panel .settings {
+	top: 175px;
+}
+
+#dropdowncontainer {
+	top: 223px;
+}
+
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+	margin: 7px 3px 0 5px
 }

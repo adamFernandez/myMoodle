@@ -20,6 +20,9 @@
     background-color: #7A7B7D;
 }
 
+.jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu:hover, .navbar .popover-region:hover {
+    background-color: #7A7B7D;
+}
 
 @font-face {
 	font-family: kingsfont-37;
@@ -184,4 +187,8 @@ main {
 
 #page a:hover {
 	color: #536c84;
+}
+
+.btn-primary {
+	color: #fff !important;
 }

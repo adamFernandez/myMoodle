@@ -14,10 +14,11 @@
 .custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
 	background-color: #7A7B7D;
 }
-
-.yui3-skin-sam .yui3-menuitem-active .yui3-menuitem-content, .yui3-skin-sam .yui3-menu .yui3-menu .yui3-menuitem-active .yui3-menuitem-content {
- 	background-color: #7A7B7D;
- }
+ 
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menu-label,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content {
+    background-color: #7A7B7D;
+}
 
 
 @font-face {

@@ -18,10 +18,6 @@
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
-.course-content ul.ctopics li.section .content .toggle span {
-	color: #0A2d50;
-}
-
 .content h4 {
 	font-size: 1.1em;
 	font-weight: 500;
@@ -34,11 +30,22 @@
 	font-family: 'kingsfont-37';
 }
 
-h3.sectionname, .block .header .title h2 {
+.block .header .title h2 {
     font-family: 'kingsfont-37' !important;
     font-weight: normal !important;
     letter-spacing: .3px;
     color: #000000;
+}
+
+h3.sectionname {
+	font-family: 'kingsfont-37' !important;
+    font-weight: normal !important;
+    letter-spacing: .3px;
+    color: #0A2d50;
+}
+
+h3.sectionname:hover {
+	color: #536c84;
 }
 
 .course-content ul.ctopics li.section .content div.toggle a:hover {

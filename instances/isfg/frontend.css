@@ -37,17 +37,6 @@
     color: #000000;
 }
 
-h3.sectionname:hover {
-	color: #536c84 !important;
-}
-
-h3.sectionname {
-	font-family: 'kingsfont-37' !important;
-    font-weight: normal !important;
-    letter-spacing: .3px;
-    color: #0A2d50 !important;
-}
-
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 	font-size: 1.3em;
 	content: "\f107" !important;
@@ -64,8 +53,15 @@ h3.sectionname {
 	line-height: 1;
 }
 
+.course-content ul.ctopics li.section .content .sectionhead h3:hover {
+	color: #536c84 !important;
+}
+
 .course-content ul.ctopics li.section .content .sectionhead h3 {
 	color: #0A2d50 !important;
+	font-family: 'kingsfont-37' !important;
+    font-weight: normal !important;
+    letter-spacing: .3px;
 }
 
 .course-content ul.ctopics li.section .content .toggle {

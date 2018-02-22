@@ -4,9 +4,17 @@
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-	background-color: #5a6469;
-	background: #5a6469 url(https://git.iddkingsonline.com/assets/images/nav-bg-isfg.png) no-repeat center top;
+	background: #6D6D6D url(https://git.iddkingsonline.com/assets/images/nav-bg-isfg.png) no-repeat center top;
 }
+
+.navbar .brand:hover {
+	background-color: #7A7B7D;
+}
+
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
+	background-color: #7A7B7D;
+}
+
 
 @font-face {
 	font-family: kingsfont-37;
@@ -165,10 +173,10 @@ main {
 	font-size: 1.1em;
 }
 
-.container-fluid a {
+#page a {
 	color: #0a2d50;
 }
 
-.container-fluid a:hover {
+#page a:hover {
 	color: #536c84;
 }

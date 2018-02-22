@@ -4,6 +4,7 @@
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	background-color: #5a6469;
 	background: #5a6469 url(https://git.iddkingsonline.com/assets/images/nav-bg-isfg.png) no-repeat center top;
 }
 
@@ -21,7 +22,13 @@
 	color: #0A2d50 !important;
 }
 
-h4.content {
+.content h4 {
+	font-size: 1.1em;
+	font-weight: 500;
+	font-family: 'kingsfont-37';
+}
+
+.content h3 {
 	font-size: 1.1em;
 	font-weight: 500;
 	font-family: 'kingsfont-37';
@@ -47,7 +54,8 @@ h3.sectionname, .block .header .title h2 {
 }
 
 .course-content ul.ctopics li.section .content .toggle {
-	color: #0A2d50;
+	color: #0a2d50;
+	font-size: 1.7em;
 	border: 0px;
 	-webkit-border-radius: 0px !important;
 	-moz-border-radius: 0px !important;
@@ -67,6 +75,14 @@ h3.sectionname, .block .header .title h2 {
 
 #page-header .coursesearch input[type="submit"] {
 	background: #ff5f05 url(https://keats.kcl.ac.uk/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
+}
+
+.course-content ul.weeks li.section .summary, .course-content ul.topics li.section .summary {
+	margin: 0px;
+}
+
+.course-content ul.ctopics li.section .content .toggledsection {
+	padding: 0 12px 20px;
 }
 
 body, p {
@@ -125,5 +141,5 @@ main {
 }
 
 .jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
-	margin: 7px 3px 0 5px
+	margin: 10px 3px 0 5px
 }

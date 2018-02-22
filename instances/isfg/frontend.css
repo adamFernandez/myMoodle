@@ -41,7 +41,11 @@ h3.sectionname, .block .header .title h2 {
     color: #000000;
 }
 
-.sectionname h3 a:hover {
+.sectionname {
+	color: red !important;
+}
+
+.sectionname a:hover {
 	color: #536c84 !important;
 }
 

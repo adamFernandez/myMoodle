@@ -41,11 +41,7 @@ h3.sectionname, .block .header .title h2 {
     color: #000000;
 }
 
-.sectionname {
-	color: red !important;
-}
-
-.sectionname a:hover {
+.course-content ul.ctopics li.section .content .toggle a:hover {
 	color: #536c84 !important;
 }
 

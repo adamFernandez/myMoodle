@@ -89,6 +89,11 @@ var data = {
         "1": "mod/forum/view.php?id=2038374"
       }
     },
+    "module12": {
+      "comments": {
+        "1": "mod/forum/view.php?id=2055690"
+      }
+    },
     "module4": {
       "comments": {
         "1": "mod/forum/view.php?id=2057185"

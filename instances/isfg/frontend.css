@@ -68,6 +68,10 @@ h3.sectionname:hover {
 	line-height: 1;
 }
 
+.course-content ul.ctopics li.section .content .sectionhead h3 {
+	color: initial;
+}
+
 .course-content ul.ctopics li.section .content .toggle {
 	color: #0a2d50;
 	font-size: 1.2em;

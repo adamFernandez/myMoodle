@@ -69,7 +69,7 @@ h3.sectionname:hover {
 }
 
 .course-content ul.ctopics li.section .content .sectionhead h3 {
-	color: initial;
+	color: #0A2d50 !important;
 }
 
 .course-content ul.ctopics li.section .content .toggle {

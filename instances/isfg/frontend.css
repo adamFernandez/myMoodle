@@ -41,7 +41,7 @@ h3.sectionname, .block .header .title h2 {
     color: #000000;
 }
 
-h3.sectionname a:hover {
+.sectionname h3 a:hover {
 	color: #536c84 !important;
 }
 
@@ -101,6 +101,7 @@ body, p {
 
 .instancename {
 	font-family: 'kingsfont-37' !important;
+	font-size: 1.2em;
 }
 
 /* Hero box */

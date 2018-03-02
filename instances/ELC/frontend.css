@@ -156,7 +156,7 @@ body.format-topcoll.editing ul.ctopics .section .activity .actions {
   position: absolute;
   top: 0;
   width: 100%;
-}
+}nav
 
 
 /* Book subheader position and size*/
@@ -247,7 +247,10 @@ ul.topnav li.right {
   max-width: 185px !important;
   height: auto !important;
 }
-
+.nav-images:hover {
+		background:#FF2400;
+		opacity:0;
+}
 .img-row {
   display: flex;
   flex-wrap: wrap;

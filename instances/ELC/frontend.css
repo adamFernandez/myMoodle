@@ -278,8 +278,8 @@ ul.topnav li.right {
 }
 .overlay-container > a .overlay-yellow {
   position: absolute;
-  width: 185px;
-  height: 135px;
+  width: 184px;
+  height: 134px;
   transition: background-color .3s ease-in-out;
   background-color: rgba(255, 240, 0, 0.4);
 }
@@ -289,8 +289,8 @@ ul.topnav li.right {
 }
 .overlay-container > a .overlay-blue {
   position: absolute;
-  width: 185px;
-  height: 135px;
+  width: 184px;
+  height: 134px;
   transition: background-color .3s ease-in-out;
   background-color: rgba(6, 49, 77, 0.11);
 }

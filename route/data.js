@@ -50,6 +50,11 @@ var data = {
           }
         }
       }
+    },
+    "module3": {
+      "week1": {
+        "1": "mod/forum/view.php?id=2069222"
+      }
     }
   },
   "iccl": {

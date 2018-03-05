@@ -294,7 +294,7 @@ div {
   width: 185px;
   height: 135px;
   transition: background-color .3s ease-in-out;
-  background-color: rgba(64, 219, 229, 0.4);
+  background-color: rgba(6, 49, 77, 0.11);
 }
 .overlay-container > a .overlay-blue:hover {
   background-color: rgba(64, 219, 229, 0);

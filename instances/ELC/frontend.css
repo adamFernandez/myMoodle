@@ -269,6 +269,26 @@ ul.topnav li.right {
 }
 /*Image links overlay color*/
 
+@import "compass/css3";
+
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'HelveticaNeueLight', 'Helvetica', sans-serif;
+  font-weight: 200;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
 @mixin overlay-color($overlay-class, $color) {
   & > a .overlay-#{$overlay-class} {
   @include border-radius(50%);
@@ -285,8 +305,8 @@ ul.topnav li.right {
 }
 
 // Define the colors:
-$colorone: #fff000;
-$colortwo: #40DBE5;
+$colorone:#fff000;
+$colortwo:#40DBE5;
 
 .overlay-container {
   text-align: center;

@@ -292,7 +292,7 @@ ul.topnav li.right {
   width: 184px;
   height: 134px;
   transition: background-color .3s ease-in-out;
-  background-color: rgba(6, 49, 77, 0.11);
+  background-color: #00bbff14;
 }
 .overlay-container > a .overlay-blue:hover {
   background-color: rgba(64, 219, 229, 0);

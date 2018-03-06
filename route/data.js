@@ -61,6 +61,9 @@ var data = {
         },
         "forum3": {
           "1": "mod/forum/view.php?id=2072749"
+        },
+        "forum4": {
+          "1": "mod/forum/view.php?id=2072849"
         }
       }
     }

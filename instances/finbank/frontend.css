@@ -498,7 +498,7 @@ div.MathJax_Display {
 
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
    .page-footer-staircase {display: none !important;}
-   .course-content ul.ctopics li.section .content .toggle .the_toggle:hover h3 {
+   .toggle .the_toggle:hover h3 {
    text-decoration: none;
 }
 }

@@ -495,10 +495,7 @@ div.MathJax_Display {
     font-weight: 700;
 }
 /*IE rules*/
-IE10 and IE11   (Method 2)
-==================
-@media all and (-ms-high-contrast:none){
-     .page-footer-staircase {display: none !important;} /* IE10 */
-     *::-ms-backdrop, .page-footer-staircase {display: none !important;} /* IE11 */
-}
 
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   .page-footer-staircase {display: none !important;}
+}

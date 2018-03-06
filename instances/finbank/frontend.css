@@ -498,7 +498,7 @@ div.MathJax_Display {
 IE10 and IE11   (Method 2)
 ==================
 @media all and (-ms-high-contrast:none){
-     .page-footer-staircase {float: left; position: absolute;} /* IE10 */
-     *::-ms-backdrop, .page-footer-staircase {float: left; position: absolute;} /* IE11 */
+     .page-footer-staircase {display: none;} /* IE10 */
+     *::-ms-backdrop, .page-footer-staircase {display: none;} /* IE11 */
 }
 

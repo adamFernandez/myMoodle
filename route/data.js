@@ -53,7 +53,15 @@ var data = {
     },
     "module3": {
       "week1": {
-        "1": "mod/forum/view.php?id=2069222"
+        "forum1": {
+          "1": "mod/forum/view.php?id=2069222"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=2072705"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=2072749"
+        }
       }
     }
   },

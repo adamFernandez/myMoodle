@@ -457,8 +457,8 @@ ul.topnav li.right {
 }
 .overlay-container > a .overlay-blue {
   position: absolute;
-  width: 184px;
-  height: 134px;
+  width: 253px;
+  height: 129px;
   transition: background-color .3s ease-in-out;
   background-color: #00bbff14;
 }

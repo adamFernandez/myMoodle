@@ -298,3 +298,12 @@ ul.topnav li.right {
   background-color: rgba(64, 219, 229, 0);
   cursor: pointer;
 }
+/*Image links for left sidebar*/
+#notebook {
+  background-image: url(https://git.iddkingsonline.com/instances/ELC/n1.png);
+  display: block;
+}
+#notebook:hover {
+  background-image: url(https://git.iddkingsonline.com/instances/ELC/n2.png);
+  display: block;
+}

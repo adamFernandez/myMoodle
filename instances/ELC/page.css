@@ -115,6 +115,21 @@ h3 {
   border: 0px;
 }
 
+#orange_week {
+  color: #ff9600;
+  text-align: left;
+  background-size: 30px 30px;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+}
+
 a.s1:link {
   color: #666;
   text-decoration: none;

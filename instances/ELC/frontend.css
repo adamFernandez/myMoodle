@@ -309,4 +309,13 @@ ul.topnav li.right {
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
-
+#aditionals {
+  background-image: url(https://git.iddkingsonline.com/instances/ELC/aditionals.png);
+   background-repeat: no-repeat;
+   padding-top: 91px;
+   background-position: center center;
+}
+#aditionals:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}

@@ -129,6 +129,21 @@ h3 {
   background-color: white;
   border: 0px;
 }
+#orange_week:hover {
+  color: #025187;
+  text-align: left;
+  background-size: 30px 30px;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+  text-decoration: none;
+}
 
 a.s1:link {
   color: #666;

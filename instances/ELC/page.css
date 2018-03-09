@@ -428,3 +428,41 @@ ul.topnav li.right {
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+/*Week page image links*/
+.img-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*Hover color for images*/
+
+
+.overlay-container {
+  text-align: center;
+  position: relative;
+}
+.overlay-container img {
+}
+.overlay-container > a .overlay-yellow {
+  position: absolute;
+  width: 184px;
+  height: 134px;
+  transition: background-color .3s ease-in-out;
+  background-color: rgba(255, 240, 0, 0.4);
+}
+.overlay-container > a .overlay-yellow:hover {
+  background-color: rgba(255, 240, 0, 0);
+  cursor: pointer;
+}
+.overlay-container > a .overlay-blue {
+  position: absolute;
+  width: 184px;
+  height: 134px;
+  transition: background-color .3s ease-in-out;
+  background-color: #00bbff14;
+}
+.overlay-container > a .overlay-blue:hover {
+  background-color: rgba(64, 219, 229, 0);
+  cursor: pointer;
+}

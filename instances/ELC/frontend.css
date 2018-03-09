@@ -306,8 +306,7 @@ ul.topnav li.right {
    background-position: center center;
 }
 #notebook:hover {
-  background-image: url(https://git.iddkingsonline.com/instances/ELC/n2.png);
-  background-repeat: no-repeat;
-  padding-top: 91px;
-  background-position: center center;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+

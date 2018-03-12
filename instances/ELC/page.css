@@ -466,6 +466,24 @@ ul.topnav li.right {
   transition: background-color .3s ease-in-out;
   background-color: #00bbff14;
 }
+.overlay-container > a .overlay-red {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 9px;
+  width: 248px;
+  height: 119px;
+  transition: background-color .3s ease-in-out;
+  background-color: rgba(255, 129, 0, 0.24);
+}
+.overlay-container > a .overlay-green {
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 9px;
+  width: 248px;
+  height: 119px;
+  transition: background-color .3s ease-in-out;
+  background-color: rgba(216, 255, 0, 0.24);
+}
 .overlay-container > a .overlay-blue:hover {
   background-color: rgba(64, 219, 229, 0);
   cursor: pointer;

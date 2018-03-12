@@ -446,8 +446,10 @@ ul.topnav li.right {
 }
 .overlay-container > a .overlay-yellow {
   position: absolute;
-  width: 253px;
-  height: 129px;
+  margin-top: 4px;
+  margin-left: 9px;
+  width: 248px;
+  height: 119px;
   transition: background-color .3s ease-in-out;
   background-color: rgba(255, 240, 0, 0.4);
 }
@@ -457,8 +459,10 @@ ul.topnav li.right {
 }
 .overlay-container > a .overlay-blue {
   position: absolute;
-  width: 253px;
-  height: 129px;
+  margin-top: 4px;
+  margin-left: 9px;
+  width: 248px;
+  height: 119px;
   transition: background-color .3s ease-in-out;
   background-color: #00bbff14;
 }

@@ -447,7 +447,7 @@ ul.topnav li.right {
 .overlay-container > a .overlay-yellow {
   position: absolute;
   margin-top: 4px;
-  margin-left: 11px;
+  margin-left: 10px;
   width: 193px;
   height: 119px;
   transition: background-color .3s ease-in-out;
@@ -460,7 +460,7 @@ ul.topnav li.right {
 .overlay-container > a .overlay-blue {
   position: absolute;
   margin-top: 4px;
-  margin-left: 11px;
+  margin-left: 10px;
   width: 193px;
   height: 119px;
   transition: background-color .3s ease-in-out;
@@ -469,7 +469,7 @@ ul.topnav li.right {
 .overlay-container > a .overlay-red {
   position: absolute;
   margin-top: 4px;
-  margin-left: 11px;
+  margin-left: 10px;
   width: 193px;
   height: 119px;
   transition: background-color .3s ease-in-out;
@@ -486,7 +486,7 @@ ul.topnav li.right {
 .overlay-container > a .overlay-green {
   position: absolute;
   margin-top: 4px;
-  margin-left: 11px;
+  margin-left: 10px;
   width: 193px;
   height: 119px;
   transition: background-color .3s ease-in-out;

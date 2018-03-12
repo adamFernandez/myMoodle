@@ -454,7 +454,7 @@ ul.topnav li.right {
   background-color: rgba(255, 240, 0, 0.4);
 }
 .overlay-container > a .overlay-yellow:hover {
-  background-color: rgba(255, 240, 0, 0);
+  background-color: rgba(255, 240, 0, 0.4);
   cursor: pointer;
 }
 .overlay-container > a .overlay-blue {
@@ -474,6 +474,14 @@ ul.topnav li.right {
   height: 119px;
   transition: background-color .3s ease-in-out;
   background-color: rgba(255, 129, 0, 0.24);
+}
+.overlay-container > a .overlay-red:hover {
+  background-color: rgba(255, 129, 0, 0.24);
+  cursor: pointer;
+}
+.overlay-container > a .overlay-green:hover {
+  background-color: rgba(216, 255, 0, 0.24);
+  cursor: pointer;
 }
 .overlay-container > a .overlay-green {
   position: absolute;

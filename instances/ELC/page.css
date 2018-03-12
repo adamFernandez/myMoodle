@@ -85,6 +85,20 @@ h3 {
   border: 0px;
 }
 
+#black_week {
+  color: #000;
+  text-align: left;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+}
+
 #blue_week {
   color: #092c50;
   text-align: left;

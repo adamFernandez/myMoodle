@@ -458,7 +458,7 @@ ul.topnav li.right {
 }
 .overlay-container img {
 }
-.overlay-container > a .overlay-yellow-page {
+.overlay-container > a .overlay-yellowpage {
   position: absolute;
   margin-top: 4px;
   margin-left: 10px;
@@ -467,11 +467,11 @@ ul.topnav li.right {
   transition: background-color .3s ease-in-out;
   background-color: rgba(255, 240, 0, 0.4);
 }
-.overlay-container > a .overlay-yellow-page:hover {
+.overlay-container > a .overlay-yellowpage:hover {
   background-color: rgba(255, 240, 0, 0);
   cursor: pointer;
 }
-.overlay-container > a .overlay-blue-page {
+.overlay-container > a .overlay-bluepage {
   position: absolute;
   margin-top: 4px;
   margin-left: 10px;
@@ -480,7 +480,7 @@ ul.topnav li.right {
   transition: background-color .3s ease-in-out;
   background-color: #00bbff14;
 }
-.overlay-container > a .overlay-red-page {
+.overlay-container > a .overlay-redpage {
   position: absolute;
   margin-top: 4px;
   margin-left: 10px;
@@ -489,15 +489,15 @@ ul.topnav li.right {
   transition: background-color .3s ease-in-out;
   background-color: rgba(255, 129, 0, 0.24);
 }
-.overlay-container > a .overlay-red-page:hover {
+.overlay-container > a .overlay-redpage:hover {
   background-color: rgba(255, 129, 0, 0);
   cursor: pointer;
 }
-.overlay-container > a .overlay-green-page:hover {
+.overlay-container > a .overlay-greenpage:hover {
   background-color: rgba(216, 255, 0, 0);
   cursor: pointer;
 }
-.overlay-container > a .overlay-green-page {
+.overlay-container > a .overlay-greenpage {
   position: absolute;
   margin-top: 4px;
   margin-left: 10px;
@@ -506,7 +506,7 @@ ul.topnav li.right {
   transition: background-color .3s ease-in-out;
   background-color: rgba(216, 255, 0, 0.24);
 }
-.overlay-container > a .overlay-blue-page:hover {
+.overlay-container > a .overlay-bluepage:hover {
   background-color: rgba(64, 219, 229, 0);
   cursor: pointer;
 }

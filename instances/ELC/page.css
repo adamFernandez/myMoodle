@@ -483,3 +483,32 @@ ul.topnav li.right {
   background-color: rgba(64, 219, 229, 0);
   cursor: pointer;
 }
+/*Simon's Brightcove fixes*/
+
+.vjs-mouse-display {
+  display: none !important;
+}
+
+.video-js .vjs-slider {
+	background-color: transparent !important;
+}
+
+.bc-player-default_default.vjs-mouse .vjs-volume-menu-button {
+	width: 48px !important;
+}
+
+.video-js .vjs-play-progress:before {
+	top: -15px !important;
+}
+
+.video-js .vjs-progress-holder {
+	top: 15px !important;
+}
+
+.video-js .vjs-time-tooltip, .video-js .vjs-mouse-display:after, .video-js .vjs-play-progress:after {
+	top: -60px !important;
+}
+.video-js .vjs-big-play-button {
+    line-height: 28px;
+    height: 34px;
+}

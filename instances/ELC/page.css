@@ -508,3 +508,9 @@ ul.topnav li.right {
 .video-js .vjs-time-tooltip, .video-js .vjs-mouse-display:after, .video-js .vjs-play-progress:after {
 	top: -60px !important;
 }
+/*Video player problems solver*/
+element.style {
+    display: block;
+    position: relative;
+    max-width: 99.1%;
+}

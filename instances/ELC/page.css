@@ -508,7 +508,3 @@ ul.topnav li.right {
 .video-js .vjs-time-tooltip, .video-js .vjs-mouse-display:after, .video-js .vjs-play-progress:after {
 	top: -60px !important;
 }
-.video-js .vjs-big-play-button {
-    line-height: 28px;
-    height: 34px;
-}

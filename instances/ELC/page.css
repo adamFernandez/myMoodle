@@ -520,3 +520,12 @@ element.style {
     height: 1.2em;
     width: 1.2em;
 }
+.video-js .vjs-play-control .vjs-icon-placeholder {
+    cursor: pointer;
+    -webkit-box-flex: none;
+    -moz-box-flex: none;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    display: none;
+}

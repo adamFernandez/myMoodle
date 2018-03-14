@@ -512,7 +512,7 @@ ul.topnav li.right {
 element.style {
     display: block;
     position: relative;
-    max-width: 99.1%;
+    max-width: 99.1% !important; 
 }
 .video-js .vjs-big-play-button {
     font-size: 4em;

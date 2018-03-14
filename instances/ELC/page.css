@@ -514,25 +514,3 @@ element.style {
     position: relative;
     max-width: 99.1%;
 }
-.vjs-big-play-button {
-    font-size: 4em;
-    line-height: 1em;
-    height: 1.2em;
-    width: 1.2em;
-    display: block;
-    position: absolute;
-    border: 2px;
-    border-color: #000;
-    margin-top: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    border: .06666em solid #fff;
-    background-color: rgb(107, 107, 107);
-    -webkit-border-radius: .3em;
-    -moz-border-radius: .3em;
-    border-radius: .3em;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-}

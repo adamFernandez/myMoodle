@@ -520,6 +520,14 @@ element.style {
     height: 1.2em;
     width: 1.2em;
 }
+/*squares on icons remover*/
 .video-js .vjs-play-control .vjs-icon-placeholder {
+    display: none;
+}
+.video-js .vjs-mute-control .vjs-icon-placeholder, .vjs-icon-volume-high {
+    display: none;
+}
+
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder, .vjs-icon-fullscreen-enter {
     display: none;
 }

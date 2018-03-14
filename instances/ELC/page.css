@@ -510,3 +510,27 @@ ul.topnav li.right {
   background-color: rgba(64, 219, 229, 0);
   cursor: pointer;
 }
+/*video button dualism correction*/
+.video-js .vjs-big-play-button {
+    font-size: 3em;
+    line-height: 28px;
+    height: 34px;
+    width: 3em;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0;
+    cursor: pointer;
+    opacity: 1;
+    border: .06666em solid #fff;
+    background-color: #2B333F;
+    background-color: rgba(43,51,63,.7);
+    -webkit-border-radius: .3em;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}

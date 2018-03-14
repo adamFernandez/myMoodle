@@ -514,7 +514,7 @@ element.style {
     position: relative;
     max-width: 99.1%;
 }
-.video-js .vjs-big-play-button {
+.vjs-big-play-button {
     font-size: 4em;
     line-height: 1em;
     height: 1.2em;

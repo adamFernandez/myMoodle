@@ -541,9 +541,9 @@ iframe, .no-overflow>iframe {
  width: 960px;
  height:79px;
  display:block;
- background:transparent url('https://git.iddkingsonline.com/instances/ELC/Banner_WeeklyAssesment.png') center top no-repeat;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/w44.png') center top no-repeat;
 }
 
 .Click_WA:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/Banner_WeeklyAssesment_Over.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/w44o.png');
 }

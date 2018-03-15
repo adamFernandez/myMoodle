@@ -563,6 +563,8 @@ iframe, .no-overflow>iframe {
  margin-bottom: 10px;
  width: 210px;
  height:157px;
+ margin-left: 10px;
+ margin-right: 10px;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/F.png') center top no-repeat;
 }
@@ -585,6 +587,7 @@ iframe, .no-overflow>iframe {
  margin-bottom: 10px;
  width: 210px;
  height:157px;
+ margin-left: 10px;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WD.png') center top no-repeat;
 }

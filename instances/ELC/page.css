@@ -535,3 +535,15 @@ element.style {
 iframe, .no-overflow>iframe {
     max-width: 100%;
 }
+/*ELC version of graphics*/
+.Click_WA {
+ margin-bottom: 10px;
+ width: 960px;
+ height:79px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/Banner_WeeklyAssesment.png') center top no-repeat;
+}
+
+.twitterbird:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/Banner_WeeklyAssesment_Over.png');
+}

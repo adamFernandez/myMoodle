@@ -531,3 +531,7 @@ element.style {
 .video-js .vjs-fullscreen-control .vjs-icon-placeholder, .vjs-icon-fullscreen-enter {
     display: none;
 }
+/*h5p extender*/
+iframe, .no-overflow>iframe {
+    max-width: 100%;
+}

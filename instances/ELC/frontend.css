@@ -324,8 +324,10 @@ ul.topnav li.right {
 }
 /*Side buttons*/
 .ELC_am {
- width: 247px;
- height:85px;
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/AM.png') center top no-repeat;
 }
@@ -334,8 +336,10 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/AMo.png');
 }
 .ELC_cn {
- width: 247px;
- height:85px;
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/CN.png') center top no-repeat;
 }
@@ -344,8 +348,10 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/CNo.png');
 }
 .ELC_vb {
- width: 247px;
- height:85px;
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/VB.png') center top no-repeat;
 }

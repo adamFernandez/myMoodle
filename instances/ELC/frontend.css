@@ -322,4 +322,34 @@ ul.topnav li.right {
   opacity: 0.8;
   filter: alpha(opacity=80); /* For IE8 and earlier */
 }
+/*Side buttons*/
+.ELC_am {
+ width: 247px;
+ height:85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/AM.png') center top no-repeat;
+}
 
+.ELC_am:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/AMo.png');
+}
+.ELC_cn {
+ width: 247px;
+ height:85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/CN.png') center top no-repeat;
+}
+
+.ELC_cn:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/CNo.png');
+}
+.ELC_vb {
+ width: 247px;
+ height:85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/VB.png') center top no-repeat;
+}
+
+.ELC_vb:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/VBo.png');
+}

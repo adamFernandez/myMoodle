@@ -74,14 +74,14 @@
 }
 
 .course-content ul.ctopics li.section .content .sectionhead h3 {
-	color: #0A2d50 !important;
+	color: #0d4277 !important;
 	font-family: 'kingsfont-37' !important;
     font-weight: normal !important;
     letter-spacing: .3px;
 }
 
 .course-content ul.ctopics li.section .content .toggle {
-	color: #0a2d50;
+	color: #0d4277;
 	font-size: 1.2em;
 	border: 0px;
 	-webkit-border-radius: 0px !important;
@@ -145,7 +145,7 @@ main {
 
 .hero-box h1 {
   font-size: 3.5em;
-  color: #0a2d50;
+  color: #0d4277;
   font-family: kingsfont-37;
 }
 
@@ -182,7 +182,7 @@ main {
 }
 
 #page a {
-	color: #0a2d50;
+	color: #0d4277;
 }
 
 #page a:hover {

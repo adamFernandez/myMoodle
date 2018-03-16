@@ -633,6 +633,14 @@ iframe, .no-overflow>iframe {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/VBo.png');
 }
 .infobox {
-	
+    border: 1px;
+    color: #000000c4;
+    background: #ededed;
+    box-shadow: -1px 3px 10px #6b6b6b61;
+    border-radius: 4px;
+    border-color: #000;
+    margin: 7px;
+    padding: 9px;
+    position: sticky;	
 }
 

@@ -557,12 +557,12 @@ iframe, .no-overflow>iframe {
 }
 
 /*Mobile view*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 560px) {
  .Click_WA {
  margin-bottom: 10px;
  width: 960px;
  height:79px;
- zoom: 50%;
+ zoom: 40%;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/w44.png') center top no-repeat;
 }

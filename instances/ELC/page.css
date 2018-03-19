@@ -556,6 +556,18 @@ iframe, .no-overflow>iframe {
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WT.png') center top no-repeat;
 }
 
+/*Mobile view*/
+@media only screen and (max-width: 500px) {
+ .Click_WA {
+ margin-bottom: 10px;
+ width: 960px;
+ height:79px;
+ zoom: 50%;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/w44.png') center top no-repeat;
+}
+}
+
 .ELC_webinars:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WTo.png');
 }

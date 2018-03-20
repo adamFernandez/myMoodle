@@ -157,10 +157,11 @@ main {
     padding-left: 30px;
 }
 hr {
-	height: 5px; 
-	color: #5f2143; 
-	background-color: #5f2143; 
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: #5f2143;
+    height: 4px;
+    color: #33475c;
+    background-color: #f3f3f3;
+    border-style: solid;
+    border-width: 0.8px;
+    border-color: #a0a0a0;
+    border-radius: 3px;
 }

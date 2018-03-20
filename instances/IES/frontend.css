@@ -134,3 +134,8 @@ main {
     	background-color: #f3f3f3 !important;
 }
 .qn-container .smalltext {font-size: 1.7em !important; padding: 5px;}
+
+/*Your Prograss indicator out from banner*/
+.path-course-view .completionprogress {
+    margin-top: -20px;
+}

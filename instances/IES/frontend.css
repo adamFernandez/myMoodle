@@ -165,7 +165,7 @@ hr {
     border-color: #a0a0a0;
     border-radius: 3px;
 }
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 920px) {
     .hero-box {
     opacity: 0.9;
     left: 0px;
@@ -175,7 +175,7 @@ hr {
     padding-left: 30px;
 	}
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 850px) {
     .hero-box {
     opacity: 0.9;
     left: 0px;

@@ -142,10 +142,11 @@ main {
 .hero-box h1 {
     font-size: 3em;
     color: #202f3f;
-    background-color: #954752;
+    background-color: #ffffffd4;
     text-transform: uppercase;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: left;
 }
 .hero-box {
     opacity: 0.9;

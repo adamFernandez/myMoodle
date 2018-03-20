@@ -139,3 +139,19 @@ main {
 .path-course-view .completionprogress {
     margin-top: -20px;
 }
+.hero-box h1 {
+    font-size: 3em;
+    color: #202f3f;
+    background-color: #954752;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.hero-box {
+    opacity: 0.9;
+    left: 0px;
+    padding: 20px;
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 30px;
+}

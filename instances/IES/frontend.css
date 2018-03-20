@@ -156,3 +156,11 @@ main {
     padding-top: 200px;
     padding-left: 30px;
 }
+hr {
+	height: 5px; 
+	color: #5f2143; 
+	background-color: #5f2143; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #5f2143;
+}

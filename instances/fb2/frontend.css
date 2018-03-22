@@ -283,7 +283,6 @@ button.accordion.active, button.accordion:hover {
     position: fixed;
     margin-top: 69px;
     margin-right: 335px;
-    padding-left: -6px;
 }
 
 .page-footer-staircase-inner {

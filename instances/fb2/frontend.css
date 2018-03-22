@@ -277,12 +277,13 @@ button.accordion.active, button.accordion:hover {
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .page-footer-staircase {
-  width: 40%;
-  right: 0;
-  height: 100%;
-  float: left;
-  position: absolute !important;
-  margin-top: 39px;
+    width: 20%;
+    right: 0;
+    height: 20%;
+    position: fixed;
+    margin-top: 69px;
+    margin-right: 335px;
+    padding-left: -6px;
 }
 
 .page-footer-staircase-inner {

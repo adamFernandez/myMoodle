@@ -281,7 +281,7 @@ button.accordion.active, button.accordion:hover {
     right: 0;
     height: 20%;
     position: fixed;
-    margin-top: 69px;
+    margin-top: -39px;
     margin-right: 335px;
 }
 

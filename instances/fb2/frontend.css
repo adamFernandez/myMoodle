@@ -315,7 +315,7 @@ button.accordion.active, button.accordion:hover {
 	right: 0;
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 800px) {
 
   .hero-box {
     width: 100%;

@@ -281,8 +281,8 @@ button.accordion.active, button.accordion:hover {
   right: 0;
   height: 100%;
   float: left;
-  position: absolute;
-  margin-top: 38px;
+  position: absolute !important;
+  margin-top: 39px;
 }
 
 .page-footer-staircase-inner {

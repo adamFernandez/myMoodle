@@ -164,7 +164,7 @@ hr {
     border-radius: 3px;
 }
 
-.titlesep {
+p.titlesep {
     border-bottom: solid;
     padding: 5px;
     background-color: #f3f3f3a1;

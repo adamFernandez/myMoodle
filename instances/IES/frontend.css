@@ -164,12 +164,13 @@ hr {
     border-radius: 3px;
 }
 
+/*Separators headers*/
 p.titlesep {
     border-bottom: solid;
     padding: 5px;
-    background-color: #f3f3f3a1;
     font-size: 1.4em;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     font-family: 'KingsBureauGrot' !important;
+    margin-top: 32px;
     color: #33475c !important;
 }

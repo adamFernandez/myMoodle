@@ -92,7 +92,6 @@ main {
   font-family: 'Roboto' !important;
   background-color: #f3f3f3;
   padding: 5px;
-  text-transform: uppercase;
 }
 
 @media all and (max-width: 650px) {

@@ -140,6 +140,7 @@ main {
 .hero-box h1 {
     font-size: 3em;
     color: #202f3f;
+    text-transform: inherit;
     background-color: #ffffffd4;
     padding-left: 10px;
     padding-right: 10px;

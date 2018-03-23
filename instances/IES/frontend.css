@@ -184,3 +184,7 @@ p.titlesep {
     text-transform: inherit;
     /* display: none; */
 }
+.coursesearch input[type="submit"] {
+    padding: 6px;
+    background-color: #ffbb57!important;
+}

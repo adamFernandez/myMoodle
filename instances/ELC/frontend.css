@@ -371,3 +371,15 @@ ul.topnav li.right {
 .ELC_ws:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WSo.png');
 }
+.ELC_ii {
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/II.png') center top no-repeat;
+}
+
+.ELC_ii:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/IIo.png')
+} 

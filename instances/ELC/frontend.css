@@ -365,9 +365,9 @@ ul.topnav li.right {
     margin-bottom: 7px;
     height: 85px;
  display:block;
- background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/Tab_WeeklySchedule.png') center top no-repeat;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WS.png') center top no-repeat;
 }
 
 .ELC_ws:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/Tab_WeeklySchedule_Over.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WSo.png');
 }

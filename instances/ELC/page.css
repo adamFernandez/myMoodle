@@ -542,11 +542,11 @@ iframe, .no-overflow>iframe {
  height:79px;
  zoom: 95%;
  display:block;
- background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/w44.png') center top no-repeat;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WA2.png') center top no-repeat;
 }
 
 .Click_WA:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/w44o.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WA2o.png');
 }
 .ELC_webinars {
  margin-bottom: 10px;
@@ -564,12 +564,12 @@ iframe, .no-overflow>iframe {
  height:79px;
  zoom: 70%;
  display:block;
- background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/w44.png') center top no-repeat;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WA2.png') center top no-repeat;
 }
 }
 
 .ELC_webinars:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WTo.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WA2o.png');
 }
 .ELC_forum {
  margin-bottom: 10px;

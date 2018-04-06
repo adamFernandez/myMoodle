@@ -57,3 +57,7 @@ h1, h2, h3 {
 .jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
 	margin: 8px 3px 0 5px !important;
 }
+
+.block_recent_activity {
+	text-align: left !important;
+}

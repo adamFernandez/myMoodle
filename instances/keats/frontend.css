@@ -58,6 +58,6 @@ h1, h2, h3 {
 	margin: 8px 3px 0 5px !important;
 }
 
-.block_recent_activity {
+.block_recent_activity .activitydate, .block_recent_activity .activityhead {
 	text-align: left !important;
 }

@@ -24,3 +24,16 @@ html, body, input, button, select, textarea, .footerlinks ul li a, #footer-left,
 h1, h2, h3 {
 	font-family: "BureauGrotesqueThreeSeven", Impact, Arial, Helvetica, sans-serif !important;
 }
+
+.course-content ul.ctopics li.section .content .toggle {
+	background-color: white;
+	margin-bottom: 2px;
+	border: 1px solid #d5d3d4;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+.course-content ul.ctopics li.section .content div.toggle:hover {
+	background-color: #e6e6e6;
+}

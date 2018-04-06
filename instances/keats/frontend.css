@@ -61,3 +61,12 @@ h1, h2, h3 {
 .block_recent_activity .activitydate, .block_recent_activity .activityhead {
 	text-align: left !important;
 }
+
+.block_course_overview_keats.block .content h2.title a {
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.block_course_overview_keats.block .ui-tabs .ui-tabs-nav li, .block_course_overview_keats.block #courselist_keats_tabs li,.ui-widget-content {
+	font-family:'kingsfont-51' !important;
+}

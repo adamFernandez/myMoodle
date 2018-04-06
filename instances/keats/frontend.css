@@ -42,7 +42,7 @@ h1, h2, h3 {
 	color: #0B5584 !important;
 }
 
-.block .header .block_action .block-hider-show {
+.block .header .block_action .block-hider-show, .block .header .block_action .block-hider-hide {
 	margin: 0px !important;
 }
 

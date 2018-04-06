@@ -53,3 +53,7 @@ h1, h2, h3 {
 .block .header .title h2 {
 	font-weight: 500 !important;
 }
+
+.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
+	margin: 8px 3px 0 5px !important;
+}

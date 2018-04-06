@@ -69,3 +69,7 @@ h1, h2, h3 {
 h3.categoryname {
 	font-size: 1.4em !important;
 }
+
+.block_course_overview .content h2.title, .block_course_overview_keats.block .content h2.title {
+	font-size: 1.3em !important;
+}

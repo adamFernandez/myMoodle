@@ -41,3 +41,11 @@ h1, h2, h3 {
 .course-content ul.ctopics li.section .content .sectionhead h3 {
 	color: #0B5584 !important;
 }
+
+.block .header .block_action .block-hider-show {
+	margin: 0px;
+}
+
+.block .header .block_action>* {
+	float: left;
+}

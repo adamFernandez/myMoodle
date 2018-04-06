@@ -17,10 +17,10 @@
 	border-left: 0px;
 }
 
-html, body {
+html, body, input, button, select, textarea, .footerlinks ul li a, #footer-left, #footer-middle {
 	font-family:'kingsfont-51' !important;
 }
 
 h1, h2, h3, h4 {
-	font-family:'kingsfont-37' !important;
+	font-family: "BureauGrotesqueThreeSeven", Impact, Arial, Helvetica, sans-serif !important;
 }

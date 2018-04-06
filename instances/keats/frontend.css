@@ -54,10 +54,6 @@ h1, h2, h3 {
 	font-weight: 500 !important;
 }
 
-.jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
-	margin: 8px 3px 0 5px !important;
-}
-
 .block_recent_activity .activitydate, .block_recent_activity .activityhead {
 	text-align: left !important;
 }
@@ -72,4 +68,8 @@ h3.categoryname {
 
 .block_course_overview .content h2.title, .block_course_overview_keats.block .content h2.title {
 	font-size: 1.3em !important;
+}
+
+.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+	padding-top: 4px;
 }

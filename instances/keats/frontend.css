@@ -70,3 +70,7 @@ h1, h2, h3 {
 .block_course_overview_keats.block .ui-tabs .ui-tabs-nav li, .block_course_overview_keats.block #courselist_keats_tabs li,.ui-widget-content {
 	font-family:'kingsfont-51' !important;
 }
+
+.course_category_tree .category>.info>.categoryname {
+	font-weight: 500 !important;
+}

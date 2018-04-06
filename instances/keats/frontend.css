@@ -43,9 +43,13 @@ h1, h2, h3 {
 }
 
 .block .header .block_action .block-hider-show {
-	margin: 0px;
+	margin: 0px !important;
 }
 
 .block .header .block_action>* {
 	float: left;
+}
+
+.block .header .title h2 {
+	font-weight: 500 !important;
 }

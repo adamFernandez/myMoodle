@@ -34,8 +34,18 @@ h1, h2, h3 {
 	-webkit-border-radius: 0px;
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-top-left-radius: 0px;
+	-moz-border-top-right-radius: 0px;
+	-moz-border-bottom-left-radius: 0px;
+	-moz-border-bottom-right-radius: 0px;
 }
 
 .course-content ul.ctopics li.section .content div.toggle:hover {
 	background-color: #e6e6e6 !important;
+}
+
+h3.sectionname {
+	color: #0B5584 !important;
 }

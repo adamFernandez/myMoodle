@@ -14,7 +14,7 @@
 }
 
 #page-header .toplinks a {
-	border-left: 0px;
+	border-left: 0px !important;
 }
 
 html, body, input, button, select, textarea, .footerlinks ul li a, #footer-left, #footer-middle {

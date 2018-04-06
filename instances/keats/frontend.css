@@ -26,14 +26,16 @@ h1, h2, h3 {
 }
 
 .course-content ul.ctopics li.section .content .toggle {
-	background-color: white;
+	background-color: white !important;
 	margin-bottom: 2px;
-	border: 1px solid #d5d3d4;
+	border: 1px solid #d5d3d4 !important;
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
 }
 
 .course-content ul.ctopics li.section .content div.toggle:hover {
-	background-color: #e6e6e6;
+	background-color: #e6e6e6 !important;
 }

@@ -29,17 +29,9 @@ h1, h2, h3 {
 	background-color: white !important;
 	margin-bottom: 2px;
 	border: 1px solid #d5d3d4 !important;
-	border-radius: 0px;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
-	border-bottom-left-radius: 0px;
-	border-bottom-right-radius: 0px;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
-	-moz-border-top-left-radius: 0px;
-	-moz-border-top-right-radius: 0px;
-	-moz-border-bottom-left-radius: 0px;
-	-moz-border-bottom-right-radius: 0px;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
 }
 
 .course-content ul.ctopics li.section .content div.toggle:hover {

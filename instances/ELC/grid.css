@@ -655,9 +655,9 @@ iframe, .no-overflow>iframe {
     padding: 9px;
 }
 
-h3.sectionanme {
+h3.sectionname {
   background: #6b6b6b;
-  color: white;
+  color: #FFFFFF;
   font-family: 'KingsBureauGrot ThreeSeven';
   padding: 10px 20px;
   line-height: 60px;

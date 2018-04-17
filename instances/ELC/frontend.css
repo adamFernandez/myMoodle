@@ -382,3 +382,12 @@ ul.topnav li.right {
 .ELC_ii:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/IIo.png')
 } 
+
+#gridiconcontainer ul.gridicons li {
+  padding: 0px !important;
+  width: 184px !important;
+}
+
+.course-content ul.gridicons li .image_holder {
+  width: 184px !important;
+

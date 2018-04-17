@@ -673,3 +673,7 @@ li#section-0 {
 .course-content ul.gtopics li.section .content {
 	margin: 0 20px !important;
 }
+
+.section .activity .mod-indent-outer {
+	min-width: 100%;
+}

@@ -673,3 +673,7 @@ h3.sectionname {
 .section .activity .mod-indent-outer {
 	min-width: 100%;
 }
+
+.course-content ul.gtopics h3.sectionname {
+	display: none;
+}

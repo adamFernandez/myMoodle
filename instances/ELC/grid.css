@@ -666,10 +666,6 @@ h3.sectionname {
   margin-bottom: 20px;
 }
 
-li#section-0 {
-  display: none;
- }
-
 .course-content ul.gtopics li.section .content {
 	margin: 0 20px !important;
 }

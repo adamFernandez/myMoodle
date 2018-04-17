@@ -537,10 +537,11 @@ iframe, .no-overflow>iframe {
 }
 /*ELC version of graphics*/
 .Click_WA {
+ margin-top: 10px;
  margin-bottom: 10px;
  width: 960px;
  height:79px;
- zoom: 95%;
+ zoom: 90%;
  display:block;
  background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/WA2.png') center top no-repeat;
 }

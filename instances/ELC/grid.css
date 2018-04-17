@@ -659,7 +659,7 @@ h3.sectionname {
   background: #6b6b6b;
   color: #FFFFFF;
   font-family: 'KingsBureauGrot ThreeSeven';
-  padding: 10px 20px;
+  padding: 10px 20px !important;
   line-height: 60px;
   font-size: 32px;
   margin-bottom: 20px;

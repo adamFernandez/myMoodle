@@ -403,3 +403,7 @@ ul.topnav li.right {
 .course-content ul.gridicons li .image_holder:hover {
   background-color: red !important;
 }
+
+#section-0 h3.sectionname {
+  display: none;
+}

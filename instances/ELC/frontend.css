@@ -389,8 +389,10 @@ ul.topnav li.right {
 }
 
 .course-content ul.gridicons li .image_holder {
-  width: 184px !important;
   background-color: inherit !important;
+  padding-top: 10px;
+  height: inherit;
+  padding-bottom: 10px;
 }
 
 .course-content ul.gridicons li.currentselected {

@@ -407,3 +407,13 @@ ul.topnav li.right {
 #section-0 h3.sectionname {
   display: none;
 }
+
+.course-content ul.gridicons li .image_holder.inaccessible {
+  background-color: inherit;
+  border-color: inherit;
+  opacity: .3;
+}
+  
+.course-content ul.gridicons li .image_holder.inaccessible:hover {
+  background-color: inherit;
+  }

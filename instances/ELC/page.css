@@ -692,3 +692,10 @@ iframe, .no-overflow>iframe {
     text-decoration: none !important;
 
 }
+
+.select.custom-select.autosubmit.jumpmenu {
+	    float: right;
+    font-family: 'KingsBureauGrot ThreeSeven' !important;
+    margin-top: -8px;
+    border-color: #0a2d50;
+}

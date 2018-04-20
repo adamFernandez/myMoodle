@@ -120,6 +120,7 @@ main {
 .hero-box h2 {
   font-size: 1.5em;
   color: #ffffff;
+line-height: 1em !important;
   text-align: left;
   padding-top: 15px;
   margin-bottom: 0px;

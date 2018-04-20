@@ -371,11 +371,6 @@ button.accordion.active, button.accordion:hover {
 	color: #009EA0 !important;
 }
 
-.course-content ul.ctopics {
-	border-bottom: 1px solid #9FA7A7;
-}
-
-
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 	font-size: 1.2em;
 	content: "\f107" !important;

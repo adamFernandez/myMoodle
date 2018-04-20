@@ -419,3 +419,25 @@ ul.topnav li.right {
 .course-content ul.gridicons li .image_holder.inaccessible:hover {
   background-image: none !important;
   }
+/*Week page navigation*/
+.course-content .single-section .section-navigation .mdl-left {
+    font-weight: 400;
+    float: left;
+    margin-right: 1em;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    margin-top: -13px;
+    font-family: 'KingsBureauGrot ThreeSeven';
+}
+
+.course-content .single-section .section-navigation .mdl-right {
+    font-weight: 400;
+    float: right;
+    margin-left: 1em;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    margin-top: -13px;
+    font-family: 'KingsBureauGrot ThreeSeven';
+}

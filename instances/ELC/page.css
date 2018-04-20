@@ -676,7 +676,7 @@ iframe, .no-overflow>iframe {
     margin-top: -13px;
     font-family: 'KingsBureauGrot ThreeSeven';
 }
-.select .custom-select .autosubmit .jumpmenu {
+#select custom-select autosubmit jumpmenu {
     float: right;
     font-family: 'KingsBureauGrot ThreeSeven' !important;
     margin-top: -8px;

@@ -402,8 +402,6 @@ ul.topnav li.right {
   /*background-color: #06314d !important;*/
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/BG.png')!important;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center;
   background-size: 90%;
 }

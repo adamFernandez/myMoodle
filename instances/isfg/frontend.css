@@ -96,7 +96,7 @@
 	border-top: 1px solid #cdd7dc;
 }
 
-.course-content ul.ctopics .topics {
+.course-content ul.ctopics li.section.main:last-child {
 	border-bottom: 1px solid #cdd7dc;
 }
 

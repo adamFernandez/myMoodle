@@ -96,10 +96,6 @@
 	border-top: 1px solid #cdd7dc;
 }
 
-.course-content ul.ctopics li.section .content .toggle span.the_toggle:last-child {
-	border-bottom: 1px solid #cdd7dc;
-}
-
 #page-header .coursesearch input[type="submit"] {
 	background: #ff5f05 url(https://keats.kcl.ac.uk/theme/image.php/keats/theme/1516692714/search-icon) no-repeat center center;
 }

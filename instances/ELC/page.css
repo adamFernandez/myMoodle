@@ -676,3 +676,9 @@ iframe, .no-overflow>iframe {
     margin-top: -13px;
     font-family: 'KingsBureauGrot ThreeSeven';
 }
+.jumpmenu {
+    float: right;
+    font-family: 'KingsBureauGrot ThreeSeven';
+    margin-top: -8px;
+    border-color: #0a2d50;
+}

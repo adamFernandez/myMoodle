@@ -417,5 +417,5 @@ ul.topnav li.right {
 }
   
 .course-content ul.gridicons li .image_holder.inaccessible:hover {
-  background-color: #ffffff !important;
+  background-color: inherit !important;
   }

@@ -683,12 +683,12 @@ iframe, .no-overflow>iframe {
     border-color: #0a2d50;
 }
 .course-content .single-section .section-navigation .mdl-right .rarrow {
-    font-size: 1.5em;
-    margin-left: 5px;
+    font-size: 1.5em !important;
+    margin-left: 5px !important;
 }
 .course-content .single-section .section-navigation .mdl-right .rarrow:hover {
     font-size: 1.5em;
     margin-left: 5px;
-    text-decoration: none;
+    text-decoration: none !important;
 
 }

@@ -73,7 +73,12 @@ var data = {
         "1": "mod/forum/view.php?id=2090351"
       },
       "week3": {
-        "1": "mod/forum/view.php?id=2091337"
+        "forum1": {
+          "1": "mod/forum/view.php?id=2091337"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=2091459"
+        }
       }
     }
   },

@@ -172,7 +172,7 @@ main {
 	color: #009EA0 !important;
 }
 
-.course-content ul.ctopics {
+.course-content ul.ctopics li.section:last-child .content .toggle span.the_toggle {
 	border-bottom: 1px solid #9FA7A7;
 }
 

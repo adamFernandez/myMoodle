@@ -452,6 +452,6 @@ ul.topnav li.right {
    margin-left: 5px;
 }
 .mdl-right .rarrow:hover {
-   text-decoration: none;
+   text-decoration: none !important;
 
 }

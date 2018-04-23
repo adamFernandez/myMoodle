@@ -460,3 +460,8 @@ ul.topnav li.right {
     text-decoration: none;
     background: #0a2d501c;
 }
+.mdl-left:hover {
+    color: #367BA5;
+    text-decoration: none;
+    background: #0a2d501c;
+}

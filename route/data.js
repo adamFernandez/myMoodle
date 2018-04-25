@@ -232,6 +232,24 @@ var data = {
       },
       "poll3": {
         "1": "mod/choice/view.php?id=2094092"
+      },
+      "poll4": {
+        "1": "mod/choice/view.php?id=2116771"
+      },
+      "poll5": {
+        "1": "mod/choice/view.php?id=2117036"
+      },
+      "poll6": {
+        "1": "mod/choice/view.php?id=2117037"
+      },
+      "poll7": {
+        "1": "mod/choice/view.php?id=2117039"
+      },
+      "poll8": {
+        "1": "mod/choice/view.php?id=2117041"
+      },
+      "poll9": {
+        "1": "mod/choice/view.php?id=2117046"
       }
     }
   },

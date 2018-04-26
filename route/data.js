@@ -99,6 +99,9 @@ var data = {
       "quiz4": {
         "1": "mod/quiz/view.php?id=2117685"
       },
+      "quiz5": {
+        "1": "mod/quiz/view.php?id=2117686"
+      }
     },
     "module2": {
       "comments": {

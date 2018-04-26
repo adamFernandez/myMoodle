@@ -85,7 +85,7 @@ var data = {
   "iccl": {
     "module1": {
       "comments": {
-        "1": "mod/forum/view.php?id=1805965"
+        "1": "mod/forum/view.php?id=2117516"
       },
       "quiz1": {
         "1": "mod/quiz/view.php?id=1898831"

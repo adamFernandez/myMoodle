@@ -91,7 +91,7 @@ var data = {
         "1": "mod/quiz/view.php?id=2117682"
       },
       "quiz2": {
-        "1": "mod/quiz/view.php?id=1898832"
+        "1": "mod/quiz/view.php?id=2117683"
       }
     },
     "module2": {

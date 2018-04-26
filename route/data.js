@@ -95,7 +95,10 @@ var data = {
       },
       "quiz3": {
         "1": "mod/quiz/view.php?id=2117684"
-      }
+      },
+      "quiz4": {
+        "1": "mod/quiz/view.php?id=2117685"
+      },
     },
     "module2": {
       "comments": {

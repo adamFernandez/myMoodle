@@ -123,7 +123,8 @@ var data = {
     },
     "module10": {
       "comments": {
-        "1": "mod/forum/view.php?id=1900372"
+        "1": "mod/forum/view.php?id=1900372",
+        "2": "mod/forum/view.php?id=2117740"
       }
     },
     "module11": {

@@ -281,10 +281,8 @@ var data = {
       }
     },
     "module3": {
-      "w1": {
-        "discussion": {
-          "1": "mod/forum/view.php?id=2078412"
-        }
+      "discussion": {
+        "1": "mod/forum/view.php?id=2078412"
       }
     }
   }

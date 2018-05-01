@@ -36,7 +36,6 @@ var data = {
               "2": "mod/forum/view.php?id=1950106",
               "3": "mod/forum/view.php?id=2056970",
               "4": "mod/forum/view.php?id=2091466"
-              
             }
           }
         }
@@ -286,6 +285,6 @@ var data = {
           "1": "mod/forum/view.php?id=2078412"
         }
       }
-}
+    }
   }
 };

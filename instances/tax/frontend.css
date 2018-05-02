@@ -68,3 +68,7 @@ Accordions
 .course-content ul.ctopics li.section .content .toggle:hover {
 	background-color: #f6f6f6 !important;
 }
+
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
+	color: #5E5550 !important;
+}

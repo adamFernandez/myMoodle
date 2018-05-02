@@ -19,6 +19,21 @@ Header
 	background-color: #F18758;
 }
 
+/* =========================================================== *
+Toggles and breadcrumbs
+============================================================== */
+
+#toggle-all .content .sectionbody h4 span.tc-small {
+	color: #5E5550 !important;
+}
+
+.breadcrumb a {
+	color: #5E5550 !important;
+}
+
+.breadcrumb a:hover {
+	color: #5E5550 !important;
+}
 
 /* =========================================================== *
 Accordions

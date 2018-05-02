@@ -27,12 +27,16 @@ Toggles and breadcrumbs
 	color: #5E5550 !important;
 }
 
+#toggle-all .content .sectionbody h4 span.tc-small a:hover{
+	color: #F18758 !important;
+}
+
 .breadcrumb a {
 	color: #5E5550 !important;
 }
 
 .breadcrumb a:hover {
-	color: #5E5550 !important;
+	color: #F18758 !important;
 }
 
 /* =========================================================== *

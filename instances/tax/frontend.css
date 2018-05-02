@@ -69,6 +69,10 @@ Accordions
 	background-color: #f6f6f6 !important;
 }
 
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after,.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:hover:after {
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
+	color: #5E5550 !important;
+}
+
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:hover::after {
 	color: #5E5550 !important;
 }

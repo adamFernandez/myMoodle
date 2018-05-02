@@ -1,0 +1,32 @@
+/* =========================================================== *
+Header
+============================================================== */
+
+#page-header {
+	background: #5E5550 url(/theme/image.php/keats/theme/1524494210/header-bg) no-repeat center top;
+}
+
+#page-header .coursesearch input[type="submit"] {
+	background: #F18758 url(/theme/image.php/keats/theme/1524494210/search-icon) no-repeat center center;
+}
+
+
+/* =========================================================== *
+Accordions
+============================================================== */
+
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+	border-radius: 0px !important;
+	background-color: #CDC3B9;
+	color: #5E5550;
+}
+
+.course-content ul.ctopics li.section .content div.toggle:hover {
+	background-color: #F1EDEA;
+	color: #F18758;
+}
+
+
+h3.sectionname {
+	color: #5E5550;
+}

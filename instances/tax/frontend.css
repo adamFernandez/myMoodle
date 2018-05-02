@@ -1,4 +1,13 @@
 /* =========================================================== *
+Fonts
+============================================================== */
+
+@font-face {
+  font-family: kingsfont-37;
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+/* =========================================================== *
 Header
 ============================================================== */
 
@@ -22,9 +31,12 @@ Accordions
 
 .course-content ul.ctopics li.section .content div.toggle:hover {
 	background-color: #F1EDEA !important;
-	color: #F18758 !important;
 }
 
+.course-content ul.ctopics li.section .content .toggle .the_toggle:hover h3 {
+	color: #F18758 !important;
+	font-family: 'kingsfont-37';
+}
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname {
 	color: #5E5550 !important;

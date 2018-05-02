@@ -27,7 +27,7 @@ Toggles and breadcrumbs
 	color: #5E5550 !important;
 }
 
-#toggle-all .content .sectionbody h4 span.tc-small a:hover{
+#toggle-all .content .toggle-arrow-hover h4 span.on:hover {
 	color: #F18758 !important;
 }
 

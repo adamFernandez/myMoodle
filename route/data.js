@@ -144,6 +144,11 @@ var data = {
     }
   },
   "ifcl": {
+    "module16": {
+      "comments": {
+        "1": "mod/forum/view.php?id=2100960"
+      }
+    },
     "module2": {
       "comments": {
         "1": "mod/forum/view.php?id=1908574"
@@ -198,11 +203,6 @@ var data = {
             "1": "mod/forum/view.php?id=1908639"
           }
         }
-      }
-    },
-    "module16": {
-      "comments": {
-        "1": "mod/forum/view.php?id=2100960"
       }
     }
   },

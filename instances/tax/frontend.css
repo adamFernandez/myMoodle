@@ -147,7 +147,8 @@ main {
 	  display: flex;
 	  padding: 0px !important;
 	  max-width: 100%;
-	  top: 0px;
+	  top: inherit;
+	  bottom: 0px;
 	  justify-content: center;
 	  align-items: center;
   }

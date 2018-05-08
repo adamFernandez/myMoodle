@@ -7,6 +7,11 @@ Fonts
   src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
 }
 
+@font-face {
+	font-family: kingsfont-51;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+}
+
 a {
 	color: #0A2D50;
 }
@@ -128,8 +133,7 @@ main {
 
 .hero-box h2 {
   	font-size: 2.5em;
-	font-weight: 200;
-	font-family: 'kingsfont-37' !important;
+	font-family: 'kingsfont-51' !important;
   	color: #ffffff;
   	right: 0;
 }

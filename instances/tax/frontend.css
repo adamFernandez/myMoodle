@@ -25,6 +25,17 @@ h3 {
 	color: #5A6469;
 	font-weight: 400;
 }
+/* =========================================================== *
+Toggles and breadcrumbs
+============================================================== */
+
+#toggle-all .content .sectionbody h4 span.tc-small {
+	color: #0A2D50 !important;
+}
+
+#toggle-all .content .toggle-arrow-hover h4 span.on:hover,#toggle-all .content .toggle-arrow-hover h4 span.off:hover {
+	color: #005AD2 !important;
+}
 
 /* =========================================================== *
 Header

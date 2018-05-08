@@ -16,6 +16,11 @@ html, body, p, li {
 	font-family:'kingsfont-51' !important;
 }
 
+h2 {
+	font-family: kingsfont-37 !important;
+	font-weight: 400;
+}
+
 a {
 	color: #0A2D50;
 }

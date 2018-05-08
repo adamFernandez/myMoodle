@@ -18,7 +18,7 @@ html, body, p, li {
 
 h2 {
 	font-family: 'kingsfont-37' !important;
-	font-weight: 400;
+	font-weight: 400 !important;
 }
 
 a {

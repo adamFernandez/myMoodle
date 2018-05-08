@@ -12,7 +12,7 @@ Fonts
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
-html, body, p, li {
+html, body, p, li,input, button, select, textarea {
 	font-family:'kingsfont-51' !important;
 }
 

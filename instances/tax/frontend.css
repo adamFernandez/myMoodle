@@ -153,12 +153,12 @@ main {
   .hero-box h1 {
     	font-size: 1.4em;
     	font-family: 'kingsfont-37' !important;
-	padding-left: 10px;
+	padding-left: 15px;
   }
   
   .hero-box h2 {
 	  font-size: 1.4em;
-	  padding-left: 10px;
+	  padding-left: 15px;
   }
  
 }

@@ -32,7 +32,7 @@ a:hover {
 h3 {
 	font-family: 'kingsfont-37';
 	color: #5A6469;
-	font-weight: 400;
+	font-weight: 400 !important;
 }
 /* =========================================================== *
 Toggles and breadcrumbs

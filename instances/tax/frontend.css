@@ -12,6 +12,10 @@ Fonts
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
 
+html, body, p, li {
+	font-family:'kingsfont-51' !important;
+}
+
 a {
 	color: #0A2D50;
 }

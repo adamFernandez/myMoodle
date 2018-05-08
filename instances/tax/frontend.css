@@ -149,7 +149,8 @@ main {
 	  max-width: 100%;
 	  top: inherit;
 	  bottom: 0px;
-	  text-align: center;
+	  padding-left: 10px;
+	  padding-right: 10px;
   }
   .hero-box h1 {
     font-size: 1.4em;

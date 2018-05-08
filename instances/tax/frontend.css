@@ -110,13 +110,14 @@ main {
 }
 
 .hero-box {
-    background-color:rgba(95, 85, 80,.9);
-    left: 0px;
-    padding: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 67%;
-    position: absolute;
+    	background-color:rgba(95, 85, 80,.9);
+    	left: 0px;
+	top: 15%;
+    	padding: 0px;
+    	padding-left: 50px;
+    	padding-right: 50px;
+    	max-width: 67%;
+    	position: absolute;
 }
 
 .hero-box h1 {
@@ -126,9 +127,11 @@ main {
 }
 
 .hero-box h2 {
-  font-size: 1em;
-  color: #ffffff;
-  right: 0;
+  	font-size: 2.5em;
+	font-weight: 200;
+	font-family: 'kingsfont-37' !important;
+  	color: #ffffff;
+  	right: 0;
 }
 
 @media all and (max-width: 650px) {

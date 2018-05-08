@@ -166,11 +166,11 @@ main {
 @media all and (max-width: 380px) {
 
 	.hero-box h1 {
-    		font-size: 1.2em;
+    		font-size: 1.1em;
   	}
 
 	.hero-box h2 {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
 }

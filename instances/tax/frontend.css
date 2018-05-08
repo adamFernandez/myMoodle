@@ -39,26 +39,6 @@ Header
 }
 
 /* =========================================================== *
-Toggles and breadcrumbs
-============================================================== */
-
-#toggle-all .content .sectionbody h4 span.tc-small {
-	color: #5E5550 !important;
-}
-
-#toggle-all .content .toggle-arrow-hover h4 span.on:hover,#toggle-all .content .toggle-arrow-hover h4 span.off:hover {
-	color: #F18758 !important;
-}
-
-.breadcrumb a {
-	color: #5E5550 !important;
-}
-
-.breadcrumb a:hover {
-	color: #F18758 !important;
-}
-
-/* =========================================================== *
 Accordions
 ============================================================== */
 

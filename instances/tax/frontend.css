@@ -92,10 +92,6 @@ Accordions
 	color: #F18758 !important;
 }
 
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:hover::after,.course-content ul.ctopics li.section .content .toggle .the_toggle h3:hover::after {
-	color: #5F5550 !important;
-}
-
 /* =========================================================== *
 Hero 
 ============================================================== */

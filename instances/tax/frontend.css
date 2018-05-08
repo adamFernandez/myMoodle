@@ -125,15 +125,17 @@ main {
 }
 
 .hero-box h1 {
-  font-size: 2.5em;
-  color: #ffffff;
-  font-family: 'kingsfont-37' !important;
+  	font-size: 2.5em;
+  	color: #ffffff;
+	font-weight: 400;
+  	font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
   	font-size: 2.5em;
 	font-family: 'kingsfont-51' !important;
   	color: #ffffff;
+	font-weight: 400;
   	right: 0;
 }
 

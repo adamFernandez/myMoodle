@@ -149,16 +149,16 @@ main {
 	  max-width: 100%;
 	  top: inherit;
 	  bottom: 0px;
-	  padding-left: 10px;
-	  padding-right: 10px;
   }
   .hero-box h1 {
-    font-size: 1.4em;
-    font-family: 'kingsfont-37' !important;
+    	font-size: 1.4em;
+    	font-family: 'kingsfont-37' !important;
+	padding-left: 10px;
   }
   
   .hero-box h2 {
-    font-size: 1.4em;
+	  font-size: 1.4em;
+	  padding-left: 10px;
   }
  
 }

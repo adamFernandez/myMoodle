@@ -110,7 +110,7 @@ main {
 }
 
 .hero-box {
-    background-color:rgb(95, 85, 80,.9);
+    background-color:rgba(95, 85, 80,.9);
     left: 0px;
     padding: 0px;
     padding-left: 50px;

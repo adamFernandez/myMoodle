@@ -51,7 +51,7 @@ Header
 ============================================================== */
 
 #page-header {
-	background-color: #5E5550;
+	background-color: #5E5550 !important;
 }
 
 #page-header .coursesearch input[type="submit"] {
@@ -121,14 +121,14 @@ main {
 }
 
 .hero-box h1 {
-  	font-size: 2.5em;
+  	font-size: 2.4em;
   	color: #ffffff;
 	font-weight: 400;
   	font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
-  	font-size: 2.5em;
+  	font-size: 2.3em;
 	font-family: 'kingsfont-51' !important;
   	color: #ffffff;
 	font-weight: 400;

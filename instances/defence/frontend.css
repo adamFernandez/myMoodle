@@ -135,8 +135,6 @@ main {
 }
 .qn-container .smalltext {font-size: 1.7em !important; padding: 5px;}
 
-#page-mod-lesson-view {
-	.boxaligncenter {
-   		display:none;
-	}
+#page-mod-lesson-view a {
+	color: green !important;
 }

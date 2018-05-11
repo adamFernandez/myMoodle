@@ -94,7 +94,7 @@ function addProgressBar() {
   var percentComplete = (completedElements / numElements) * 90 + '%';
   var summaryProgress = $("<div class='summary-progress'></div>");
   $(".summary").first().append(summaryProgress);
-  var progress = $("<img class='summary-progress-icon'/>");
+  var progress = $("<div class='summary-progress-icon'/>");
   $(".summary-progress").append(progress);
   $(".summary-progress-icon").css("left", percentComplete);
 }

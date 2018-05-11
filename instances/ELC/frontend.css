@@ -47,9 +47,11 @@
 
 .summary-progress-icon {
   position: absolute;
-  width: 35px;
-  top: 35px;
-  content: url("https://git.iddkingsonline.com/assets/images/progress_bus.png");
+  width: 55px;
+  height: 40px;
+  top: 24px;
+  background-repeat: no-repeat;
+  background-image: url("https://git.iddkingsonline.com/assets/images/progress_bus.png");
 }
 
 @media (max-width: 600px) {

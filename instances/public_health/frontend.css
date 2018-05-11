@@ -8,6 +8,10 @@ h1 {
 	font-family: 'kingsfont-51' !important;
 }
 
+h3 > b {
+	font-weight: 400 !important;
+}
+
 h3.section-title {
 	color: #0A2D50 !important;
 }

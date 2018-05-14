@@ -195,6 +195,6 @@ main {
 	color: #fff !important;
 }
 
-.course-content ul.ctopics li.section:last-child .content .toggle span.the_toggle toggle_open {
+.toggle_open {
 	border-bottom: 0px !important;
 }

@@ -498,3 +498,7 @@ div.MathJax_Display {
    text-decoration: none;
 }
 }
+
+.toggle_open {
+	border-bottom: 0px !important;
+}

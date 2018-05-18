@@ -127,6 +127,12 @@ var data = {
       },
       "poll1": {
         "1": "mod/choice/view.php?id=2131973"
+      },
+      "poll2": {
+        "1": "mod/choice/view.php?id=2132048"
+      },
+      "poll3": {
+        "1": "mod/choice/view.php?id=2132049"
       }
     },
     "module10": {

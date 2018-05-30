@@ -138,6 +138,12 @@ var data = {
     "module9": {
       "comments": {
         "1": "mod/forum/view.php?id=2137263"
+      },
+      "quiz1": {
+        "1": "mod/quiz/view.php?id=2137318"
+      },
+      "quiz2": {
+        "1": "mod/quiz/view.php?id=2137319"
       }
     },
     "module10": {

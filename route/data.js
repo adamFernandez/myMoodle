@@ -135,6 +135,11 @@ var data = {
         "1": "mod/choice/view.php?id=2132049"
       }
     },
+    "module9": {
+      "comments": {
+        "1": "mod/forum/view.php?id=2137263"
+      }
+    },
     "module10": {
       "comments": {
         "1": "mod/forum/view.php?id=1900372",

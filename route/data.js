@@ -116,6 +116,11 @@ var data = {
         "1": "mod/forum/view.php?id=2132168"
       }
     },
+    "module4": {
+      "comments": {
+        "1": "mod/forum/view.php?id=2057185"
+      }
+    },
     "module5": {
       "comments": {
         "1": "mod/forum/view.php?id=1987463"
@@ -160,11 +165,6 @@ var data = {
     "module12": {
       "comments": {
         "1": "mod/forum/view.php?id=2055700"
-      }
-    },
-    "module4": {
-      "comments": {
-        "1": "mod/forum/view.php?id=2057185"
       }
     }
   },

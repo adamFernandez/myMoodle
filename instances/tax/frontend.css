@@ -35,7 +35,7 @@ h3 {
 	font-weight: 400 !important;
 }
 
-h3 > b {
+h3 > b, h4 > b {
 	font-weight: 400 !important;
 }
 

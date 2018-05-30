@@ -198,3 +198,7 @@ main {
 .toggle_open {
 	border-bottom: 0px !important;
 }
+
+h3 > b  {
+	font-weight: 400 !important;
+}

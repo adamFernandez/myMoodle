@@ -297,6 +297,11 @@ var data = {
       "poll10": {
         "1": "mod/choice/view.php?id=2118053"
       }
+    },
+    "module5": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2135569"
+      }
     }
   },
   "gfb": {

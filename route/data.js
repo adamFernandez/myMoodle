@@ -29,6 +29,9 @@ var data = {
     "pubman": {
       "discussion": {
         "1": "mod/forum/view.php?id=2128534"
+      },
+      "discussion2": {
+        "1": "mod/forum/view.php?id=2128565"
       }
     }
   },

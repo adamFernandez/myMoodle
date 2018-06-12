@@ -474,3 +474,19 @@ ul.topnav li.right {
     margin-left: 13px;
     text-align: left;
 }
+/*Frontend units*/
+#gridsectionname-1:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
+}
+#gridsectionname-2:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png');
+}
+#gridsectionname-3:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3_Over.png');
+}
+#gridsectionname-4:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4_Over.png');
+}
+#gridsectionname-5:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png');
+}

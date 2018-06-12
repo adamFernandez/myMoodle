@@ -494,6 +494,7 @@ ul.topnav li.right {
   background-position: center;
   background-size: 90%;
   border: none !important;
+	height: 119px;
 }
 #gridsectionname-5:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png')!important;
@@ -501,6 +502,7 @@ ul.topnav li.right {
   background-position: center;
   background-size: 90%;
   border: none !important;
+	height: 119px;
 }
 /*grid*/
 #gridsectionname-2 {
@@ -516,6 +518,7 @@ ul.topnav li.right {
   background-position: center;
   background-size: 90%;
   border: none !important;
+	height: 119px;
 }
 #gridsectionname-4 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4.png')!important;
@@ -523,6 +526,7 @@ ul.topnav li.right {
   background-position: center;
   background-size: 90%;
   border: none !important;
+	height: 119px;
 }
 #gridsectionname-5 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5.png')!important;
@@ -530,4 +534,5 @@ ul.topnav li.right {
   background-position: center;
   background-size: 90%;
   border: none !important;
+  height: 119px;
 }

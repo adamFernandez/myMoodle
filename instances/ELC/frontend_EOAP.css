@@ -561,3 +561,9 @@ ul.topnav li.right {
     margin-left: 100px;
     display: none;
 }
+.course-content .single-section .section-navigation {
+    display: block;
+    padding: .5em;
+    margin-bottom: -.5em;
+    margin-top: -38px;
+}

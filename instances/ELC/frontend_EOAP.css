@@ -543,3 +543,10 @@ ul.topnav li.right {
 .course-content ul.gridicons li .image_holder {
     display: none;
 }
+/*Welcome header*/
+.summary h3 {
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    margin-bottom: 12px;
+}

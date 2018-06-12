@@ -468,71 +468,66 @@ ul.topnav li.right {
 }
 /*Frontend units*/
 #gridsectionname-1:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
-     background-repeat: no-repeat;
-	background-position: center;
-  background-size: 90%;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
+  background-repeat: no-repeat;
+  background-position: center;
   border: none !important;
+  height: 119px;
 }
 #gridsectionname-2:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
+  height: 119px;
 }
 #gridsectionname-3:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3_Over.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3_Over.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
+  height: 119px;
 }
 #gridsectionname-4:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4_Over.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4_Over.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
-	height: 119px;
+  height: 119px;
 }
 #gridsectionname-5:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
-	height: 119px;
+  height: 119px;
 }
 /*grid*/
 #gridsectionname-2 {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
+  height: 119px;
 }
 #gridsectionname-3 {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
-	height: 119px;
+  height: 119px;
 }
 #gridsectionname-4 {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
-	height: 119px;
+  height: 119px;
 }
 #gridsectionname-5 {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5.png')!important;
-     background-repeat: no-repeat;
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5.png')!important;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 90%;
   border: none !important;
   height: 119px;
 }

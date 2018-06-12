@@ -467,35 +467,35 @@ ul.topnav li.right {
     text-align: left;
 }
 /*Frontend units*/
-#gridsectionname-1.image_holder:hover {
+#gridsectionname-1:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
      background-repeat: no-repeat;
 	background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-2.image_holder:hover {
+#gridsectionname-2:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-3.image_holder:hover {
+#gridsectionname-3:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3_Over.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-4.image_holder:hover {
+#gridsectionname-4:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4_Over.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-5.image_holder:hover {
+#gridsectionname-5:hover {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png')!important;
      background-repeat: no-repeat;
   background-position: center;
@@ -503,28 +503,28 @@ ul.topnav li.right {
   border: none !important;
 }
 /*grid*/
-#gridsectionname-2.image_holder {
+#gridsectionname-2 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-3.image_holder {
+#gridsectionname-3 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-4.image_holder {
+#gridsectionname-4 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4.png')!important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: 90%;
   border: none !important;
 }
-#gridsectionname-5.image_holder {
+#gridsectionname-5 {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5.png')!important;
      background-repeat: no-repeat;
   background-position: center;

@@ -556,3 +556,8 @@ ul.topnav li.right {
     margin-right: 74px;
     margin-left: 20px;
 }
+.course-content ul.gridicons img.new_activity {
+    margin-top: 89px;
+    margin-left: 100px;
+    display: none;
+}

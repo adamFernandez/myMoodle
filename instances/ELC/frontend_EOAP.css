@@ -505,7 +505,7 @@ ul.topnav li.right {
 }
 /*Frontend units*/
 #gridsectionname-1:hover {
-  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png')!important;
   background-repeat: no-repeat;
   background-position: center;
   border: none !important;

@@ -539,3 +539,7 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
+/*Remove frontpage blocks*/
+.course-content ul.gridicons li .image_holder {
+    display: none;
+}

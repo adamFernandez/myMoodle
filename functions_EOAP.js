@@ -82,23 +82,6 @@ function replaceProgressBar() {
   $(".completition").css("text-align", "left");
 }
 
-function addProgressBar() {
-  var numElements = $(".progressBarCell").length; // new Jquery
-  var completedElements = 0;
-  $(".progressBarCell").each(function(index) {
-    if ($(this).css("background-color") == "rgb(115, 168, 57)") {
-      completedElements++;
-    }
-    $(this).css("background-color", "transparent");
-  });
-  var percentComplete = (completedElements / numElements) * 90 + '%';
-  var summaryProgress = $("<div class='summary-progress'></div>");
-  $(".summary").first().append(summaryProgress);
-  var progress = $("<div class='summary-progress-icon'/>");
-  $(".summary-progress").append(progress);
-  $(".summary-progress-icon").css("left", percentComplete);
-}
-
 function randomNumber() {
   return Math.floor(Math.random() * 32768);
 }

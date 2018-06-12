@@ -503,6 +503,13 @@ ul.topnav li.right {
   height: 119px;
 }
 /*grid*/
+#gridsectionname-1 {
+  background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1.png')!important;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none !important;
+  height: 119px;
+}
 #gridsectionname-2 {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
   background-repeat: no-repeat;

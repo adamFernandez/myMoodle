@@ -550,3 +550,9 @@ ul.topnav li.right {
     font-size: 23px;
     margin-bottom: 12px;
 }
+#ASM img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 74px;
+    margin-left: 20px;
+}

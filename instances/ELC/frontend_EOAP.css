@@ -567,8 +567,8 @@ ul.topnav li.right {
     margin-bottom: -.5em;
     margin-top: -23px;
 }
-.no-overflow {
-    overflow: hidden;
-    padding-bottom: 1px;
-    margin-bottom: 20px;
+.section .activity .mod-indent-outer {
+    min-width: 100%;
+    margin-bottom: 25px;
+    margin-top: -16px;
 }

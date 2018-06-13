@@ -567,3 +567,8 @@ ul.topnav li.right {
     margin-bottom: -.5em;
     margin-top: -23px;
 }
+.no-overflow {
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+}

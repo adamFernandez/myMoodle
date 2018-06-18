@@ -476,7 +476,7 @@ ul.topnav li.right {
   height: 119px;
 }
 #gridsectionname-2 {
-  display: none !important;
+  height: 0px;
 }
 #gridsectionname-3 {
   display: none !important;

@@ -475,10 +475,6 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
-#gridsectionname-2, #gridsectionname-3, #gridsectionname-4, #gridsectionname-6 {/
-    background: #000;
-    width: 1px;
-}
 #gridsectionname-5 {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
   background-repeat: no-repeat;
@@ -582,6 +578,7 @@ ul.topnav li.right {
     margin-top: -16px;
 }
 #gridsectionname-2, #gridsectionname-3, #gridsectionname-4, #gridsectionname-6, #gridsectionname-7, #gridsectionname-8, #gridsectionname-10, #gridsectionname-11, #gridsectionname-12, #gridsectionname-14, #gridsectionname-15, #gridsectionname-16, #gridsectionname-18, #gridsectionname-19, #gridsectionname-20, #gridsectionname-22 {
-   width: 0px;
-  z-index: -99;
+position: absolute;
+   top: -9999px;
+   left: -9999px;
    }

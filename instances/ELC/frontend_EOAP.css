@@ -617,3 +617,10 @@ ul.topnav li.right {
 #gridiconcontainer {
     display: none;
 }
+.img-row-front {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -31px;
+    margin-right: -27px;
+    margin-top: 32px;
+}

@@ -105,11 +105,11 @@ main {
     position: absolute;
 }
 
-.hero-box advanced {
+.advanced {
 	background-color: rgba(0, 158, 160, .7) !important;
 }
 
-.hero-box dissertation {
+.dissertation {
 	background-color: rgba(74, 90, 115, .7) !important;
 }
 

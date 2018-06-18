@@ -511,11 +511,6 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
-#gridiconcontainer ul.gridicons li {
-    padding-right: 8px;
-    padding-left: 0px;
-    width: 40px !important;
-}
 #gridsectionname-5:hover {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png')!important;
   background-repeat: no-repeat;

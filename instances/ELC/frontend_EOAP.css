@@ -572,8 +572,3 @@ ul.topnav li.right {
     margin-bottom: 25px;
     margin-top: -16px;
 }
-#gridsectionname-2, #gridsectionname-3, #gridsectionname-4, #gridsectionname-6, #gridsectionname-7, #gridsectionname-8, #gridsectionname-10, #gridsectionname-11, #gridsectionname-12, #gridsectionname-14, #gridsectionname-15, #gridsectionname-16, #gridsectionname-18, #gridsectionname-19, #gridsectionname-20, #gridsectionname-22 {
-position: absolute;
-   top: -9999px;
-   left: -9999px;
-   }

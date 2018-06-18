@@ -475,13 +475,13 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
-#gridsectionname-2 {
-  height: 0px;
-}
-#gridsectionname-3 {
+#gridsectionname-2 ul.gridicons li{
   display: none !important;
 }
-#gridsectionname-4 {
+#gridsectionname-3 ul.gridicons li{
+  display: none !important;
+}
+#gridsectionname-4 ul.gridicons li{
   display: none !important;
 }
 #gridsectionname-5 {

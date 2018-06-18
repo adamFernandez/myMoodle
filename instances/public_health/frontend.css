@@ -105,6 +105,14 @@ main {
     position: absolute;
 }
 
+.hero-box advanced {
+	background-color: rgba(0, 158, 160, .7) !important;
+}
+
+.hero-box dissertation {
+	background-color: rgba(74, 90, 115, .7) !important;
+}
+
 .hero-box h1 {
   font-size: 2.5em;
   color: #ffffff;

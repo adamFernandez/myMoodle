@@ -475,14 +475,9 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
-#gridsectionname-2 li{
-  display: none !important;
-}
-#gridsectionname-3 li{
-  display: none !important;
-}
-#gridsectionname-4 li{
-  display: none !important;
+#gridsectionname-2, #gridsectionname-3, #gridsectionname-4, #gridsectionname-6 {/
+    background: #000;
+    width: 1px;
 }
 #gridsectionname-5 {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
@@ -519,6 +514,10 @@ ul.topnav li.right {
   background-position: center;
   border: none !important;
   height: 119px;
+}
+#gridsectionname-2, #gridsectionname-3, #gridsectionname-4, #gridsectionname-6, #gridsectionname-7, #gridsectionname-8, #gridsectionname-10, #gridsectionname-11, #gridsectionname-12, #gridsectionname-14, #gridsectionname-15, #gridsectionname-16, #gridsectionname-18, #gridsectionname-19, #gridsectionname-20, #gridsectionname-22 {
+    background: #000;
+    width: 1px;
 }
 #gridsectionname-5:hover {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png')!important;

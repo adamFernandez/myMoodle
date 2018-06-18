@@ -572,3 +572,44 @@ ul.topnav li.right {
     margin-bottom: 25px;
     margin-top: -16px;
 }
+/*Frontside unit links*/
+.u1, .u2, .u3, .u4, .u5 {
+ margin-bottom: 10px;
+ width: 184px;
+ height:119px;
+ margin-left: 10px;
+ margin-right: 10px;
+ display:block;
+}
+
+.u1 {
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1.png') center top no-repeat;
+}
+.u2 {
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png') center top no-repeat;
+}
+.u3 {
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3.png') center top no-repeat;
+}
+.u4 {
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4.png') center top no-repeat;
+}
+.u5 {
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5.png') center top no-repeat;
+}
+
+.u1:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit1_Over.png');
+}
+.u2:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2_Over.png');
+}
+.u3:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit3_Over.png');
+}
+.u4:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit4_Over.png');
+}
+.u5:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit5_Over.png');
+}

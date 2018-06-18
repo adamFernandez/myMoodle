@@ -475,6 +475,9 @@ ul.topnav li.right {
   border: none !important;
   height: 119px;
 }
+#gridsectionname-2 #gridsectionname-3  {
+  display: none;
+}
 #gridsectionname-5 {
   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/EOAP/HPTab_Unit2.png')!important;
   background-repeat: no-repeat;

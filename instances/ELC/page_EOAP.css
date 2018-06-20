@@ -698,7 +698,6 @@ iframe, .no-overflow>iframe {
 }
 
 .ELC_link1, .ELC_link2, .ELC_link3 {
-  color: #449f1e;
   text-align: left;
   position: relative;
   line-height: 36px;
@@ -709,4 +708,13 @@ iframe, .no-overflow>iframe {
   font-style: normal;
   background-color: white;
   border: 0px;
+}
+.ELC_link1 {
+  color: #0a2d50;
+}
+.ELC_link2 {
+  color: #28c382;
+}
+.ELC_link3 {
+  color: #009ea0;
 }

@@ -242,13 +242,13 @@ var data = {
   "ph": {
     "module1": {
       "general": {
-        "1": "mod/forum/view.php?id=1941092"
+        "1": "mod/forum/view.php?id=2155079"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
-              "1": "mod/choice/view.php?id=1941144"
+              "1": "mod/choice/view.php?id=2155174"
             }
           }
         }
@@ -256,7 +256,7 @@ var data = {
       "week3": {
         "social": {
           "act1": {
-            "1": "mod/forum/view.php?id=1965104"
+            "1": "mod/forum/view.php?id=2155175"
           }
         }
       }

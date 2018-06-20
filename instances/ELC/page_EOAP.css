@@ -71,6 +71,34 @@ h3 {
   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
+#tasks_week {
+  color: #28c382;
+  text-align: left;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+}
+
+#lessons_week {
+  color: #009ea0;
+  text-align: left;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+}
+
 #green_week {
   color: #449f1e;
   text-align: left;

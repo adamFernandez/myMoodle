@@ -696,3 +696,17 @@ iframe, .no-overflow>iframe {
 .modified {
 	display: none;
 }
+
+#ELC_link1, #ELC_link2, #ELC_link3, {
+  color: #449f1e;
+  text-align: left;
+  position: relative;
+  line-height: 36px;
+  font-size: 26px;
+  padding: 0px;
+  font-family: 'KingsBureauGrot ThreeSeven';
+  font-weight: bold;
+  font-style: normal;
+  background-color: white;
+  border: 0px;
+}

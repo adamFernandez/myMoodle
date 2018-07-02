@@ -180,6 +180,9 @@ var data = {
     "module15": {
       "comments": {
         "1": "mod/forum/view.php?id=2143654"
+      },
+      "comments2": {
+        "1": "mod/forum/view.php?id=2238634"
       }
     },
     "module16": {

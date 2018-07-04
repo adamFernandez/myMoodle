@@ -88,6 +88,11 @@ var data = {
           "1": "mod/forum/view.php?id=2091459"
         }
       }
+    },
+    "module4": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=2271731"
+      }
     }
   },
   "iccl": {

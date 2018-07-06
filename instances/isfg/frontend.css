@@ -7,6 +7,11 @@
 	background:#5a6469 url(https://git.iddkingsonline.com/assets/images/nav-bg-pps.png) no-repeat center top;
 }
 
+.navbar .brand {
+	border-left: 0px;
+	border-right: 0px;
+}
+
 .navbar .brand:hover {
 	background-color:#82898C;
 	border-left: 0px !important;

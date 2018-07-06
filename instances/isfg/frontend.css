@@ -29,6 +29,7 @@
 
 .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu, .navbar .popover-region {
 	border: 0px !important;
+}
 	
 .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu:hover, .navbar .popover-region:hover {
     background-color: #82898C;

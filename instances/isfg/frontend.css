@@ -1,5 +1,5 @@
 #page-header {
-	background-color: #8b9295;;
+	background-color: #8b9295;
 	border-bottom: 6px solid #ff5f05;
 }
 
@@ -8,20 +8,20 @@
 }
 
 .navbar .brand:hover {
-	background-color: #5a6469;
+	background-color:#7A7B7D;
 }
 
 .custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
-	background-color: #5a6469;
+	background-color:#7A7B7D;
 }
  
 .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menu-label,
 .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content {
-    background-color: #5a6469;
+    background-color: #7A7B7D;
 }
 
 .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu:hover, .navbar .popover-region:hover {
-    background-color: #5a6469;
+    background-color: #7A7B7D;
 }
 
 @font-face {

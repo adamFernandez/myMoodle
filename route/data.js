@@ -193,6 +193,12 @@ var data = {
       },
       "comments2": {
         "1": "mod/forum/view.php?id=2238634"
+      },
+      "comments3": {
+        "1": "mod/forum/view.php?id=2340413"
+      },
+      "comments4": {
+        "1": "mod/forum/view.php?id=2340425"
       }
     },
     "module16": {

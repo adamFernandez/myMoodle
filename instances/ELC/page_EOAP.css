@@ -767,3 +767,6 @@ iframe, .no-overflow>iframe {
 .btn-link {
     padding-left: 0px!important;
 }
+.card-header {
+padding-left: -10px;
+}

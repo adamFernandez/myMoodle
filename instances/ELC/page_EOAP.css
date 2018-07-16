@@ -751,7 +751,7 @@ iframe, .no-overflow>iframe {
 .well, .card {
     min-height: 20px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 0px !important;
     overflow: auto;
     padding-left: 20px;
     padding-right: 20px;

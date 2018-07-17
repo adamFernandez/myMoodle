@@ -802,3 +802,11 @@ margin-left: -7px;
     text-decoration: none;
     vertical-align: baseline;
 }
+body.h5p-embed {
+    font-family: Sans-Serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff !important;
+}

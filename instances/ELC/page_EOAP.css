@@ -797,3 +797,8 @@ margin-left: -7px;
 #page-mod-questionnaire-complete .raterow:hover, #page-mod-questionnaire-preview .raterow:hover {
     background-color: #fafafa;
 }
+.qn-container {
+    color: black;
+    display: inherit;
+    margin-left: -44px;
+}

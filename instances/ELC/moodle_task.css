@@ -1,0 +1,21 @@
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    display: none;
+}
+#page-header {
+    display: none;
+}
+
+div#dashaction .panel {
+    display: none;
+}
+
+.breadcrumb {
+    display: none;
+}
+
+#page-footer {
+    display: none;
+}
+.block {
+    display: none;
+}

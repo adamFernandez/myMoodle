@@ -802,3 +802,23 @@ margin-left: -7px;
     display: inherit;
     margin-left: -44px;
 }
+/*H5P Styles*/
+.h5peditor .ui-dialog .h5p-joubelui-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button {
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 0 0.5em 1em;
+    padding: 0.5em 1.25em;
+    border-radius: 4px;
+    background: #012247;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    display: inline-block;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: baseline;
+}

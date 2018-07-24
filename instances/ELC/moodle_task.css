@@ -37,3 +37,6 @@ body {
 #page-mod-questionnaire-complete .message, #page-mod-questionnaire-preview .message, #page-mod-questionnaire-complete .thankbody, #page-mod-questionnaire-complete .thankhead {
     border-color: #6b6b6b82;
 }
+#page-mod-questionnaire-complete .message, #page-mod-questionnaire-preview .message, #page-mod-questionnaire-complete .thankbody, #page-mod-questionnaire-complete .thankhead {
+    border-color: #b94a48;
+}

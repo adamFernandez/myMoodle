@@ -346,6 +346,11 @@ var data = {
       "poll1": {
         "1": "mod/choice/view.php?id=2145080"
       }
+    },
+    "module6": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2339398"
+      }
     }
   },
   "gfb": {

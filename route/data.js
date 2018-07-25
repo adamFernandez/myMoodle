@@ -97,6 +97,12 @@ var data = {
     "module4": {
       "forum1": {
         "1": "mod/forum/view.php?id=2271731"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=2271769"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=2271857"
       }
     }
   },

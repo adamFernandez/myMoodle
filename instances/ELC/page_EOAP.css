@@ -822,3 +822,16 @@ margin-left: -7px;
     text-decoration: none;
     vertical-align: baseline;
 }
+.column22 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+}
+
+
+.row22:after {
+    content: "";
+    display: table;
+    clear: both;
+}

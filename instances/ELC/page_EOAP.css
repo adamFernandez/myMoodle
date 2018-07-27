@@ -571,11 +571,11 @@ iframe, .no-overflow>iframe {
  height:79px;
  zoom: 88%;
  display:block;
- background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment.png') center top no-repeat;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment2.png') center top no-repeat;
 }
 
 .Click_WA:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment_Over.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment_Over2.png');
 }
 .ELC_webinars {
  margin-bottom: 10px;

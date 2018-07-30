@@ -218,12 +218,6 @@ var data = {
       },
       "activities": {
         "w1": {
-          "act1": {
-            "1": "mod/forum/view.php?id=1977820"
-          },
-          "act2": {
-            "1": "mod/forum/view.php?id=1977899"
-          },
           "act3": {
             "1": "mod/forum/view.php?id=1977963"
           },

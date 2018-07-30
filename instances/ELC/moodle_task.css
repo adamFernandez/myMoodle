@@ -47,7 +47,7 @@ h2 {
 }
 .checklist_progress_inner {
     background-color: #0270a8;
-    /* background-image: url(/theme/image.php/keats/mod_checklist/1530701616/progress); */
+    background-image: none;
     height: 100%;
     width: 100%;
     background-repeat: repeat-x;
@@ -57,6 +57,6 @@ h2 {
     position: absolute;
     top: 0;
     left: 0;
-    /* box-shadow: 0 0 4px #229b15; */
-    /* border-radius: 2px; */
+    box-shadow: 0 0 0px #fff;
+    border-radius: 0px;
 }

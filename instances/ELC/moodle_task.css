@@ -45,3 +45,18 @@ body {
 h2 {
     display: none;
 }
+.checklist_progress_inner {
+    background-color: #0270a8;
+    /* background-image: url(/theme/image.php/keats/mod_checklist/1530701616/progress); */
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: top;
+    z-index: 10;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* box-shadow: 0 0 4px #229b15; */
+    /* border-radius: 2px; */
+}

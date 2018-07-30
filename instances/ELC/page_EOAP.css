@@ -88,6 +88,7 @@ h3 {
 #lessons_week {
   color: #009ea0;
   text-align: left;
+  margin-left: 10px;
   position: relative;
   line-height: 36px;
   font-size: 26px;

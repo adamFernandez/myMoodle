@@ -16,9 +16,7 @@ div#dashaction .panel {
 #page-footer {
     display: none;
 }
-.block {
-    display: none;
-}
+
 body {
     font-size: 13px;
     line-height: 20px;

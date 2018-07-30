@@ -1,3 +1,6 @@
+.block {
+    display: none;
+}
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     display: none;
 }

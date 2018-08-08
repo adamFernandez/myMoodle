@@ -300,6 +300,7 @@ img.icon {
 .book_content h3 {
   font-size: 23px;
   margin-top: -70px;
+  margin-left: -20px;
   padding: 20px;
   font-family: 'KingsBureauGrot ThreeSeven';
   font-weight: bold;

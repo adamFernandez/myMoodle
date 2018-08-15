@@ -629,6 +629,7 @@ iframe, .no-overflow>iframe {
 .ELC_deadlines {
  margin-bottom: 10px;
  width: 210px;
+ margin-right: 15px;
  height:157px;
  margin-left: 10px;
  display:block;

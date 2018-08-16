@@ -75,6 +75,6 @@ h2 {
     border-radius: 1px;
 }
 textarea[cols], input[size] {
-    min-height: 100px;
+    max-height: 150px;
     min-width: 98%;
 }

@@ -269,28 +269,21 @@ var data = {
   "ph": {
     "module1": {
       "general": {
-        "1": "mod/forum/view.php?id=2155079"
+        "1": "mod/forum/view.php?id=2439213"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
-              "1": "mod/choice/view.php?id=2155174"
+              "1": "mod/choice/view.php?id=2439323"
             }
-          }
-        }
-      },
-      "week3": {
-        "social": {
-          "act1": {
-            "1": "mod/forum/view.php?id=2155175"
           }
         }
       }
     },
     "module2": {
       "discussion": {
-        "1": "mod/forum/view.php?id=1987610"
+        "1": "mod/forum/view.php?id=2439381"
       }
     },
     "module3": {

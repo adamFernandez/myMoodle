@@ -449,6 +449,7 @@ ul.topnav li.right {
 /*Week page image links*/
 .img-row {
   display: flex;
+  zoom: 99.427%;
   flex-wrap: wrap;
   margin-left: 5px;
   margin-right: 5px;

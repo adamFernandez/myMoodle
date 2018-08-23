@@ -877,3 +877,12 @@ margin-left: -7px;
     margin-top: 0px;
 }
 }
+/*Feedback for Moodle H5P*/
+.h5p-question-feedback {
+    font-weight: bold;
+    color: #637284;
+    margin: 0 1em;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.15s ease, margin 0.15s ease, opacity 0.15s cubic-bezier(0,1,0,1);
+}

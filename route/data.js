@@ -358,6 +358,11 @@ var data = {
       "discussion": {
         "1": "mod/forum/view.php?id=2078412"
       }
+    },
+    "module5": {
+      "quiz": {
+        "1": "mod/quiz/view.php?id=2406492"
+      }
     }
   }
 };

@@ -948,3 +948,27 @@ margin-left: -7px;
     float: right;
     position: fixed !Important;
 }
+.ELC_g1 {
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/eoap1.png') center top no-repeat;
+}
+
+.ELC_g1:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/eoap1o.png');
+}
+.ELC_g2 {
+    width: 247px;
+    zoom: 89%;
+    margin-bottom: 7px;
+    height: 85px;
+ display:block;
+ background:transparent url('https://git.iddkingsonline.com/instances/ELC/img/eoap2.png') center top no-repeat;
+}
+
+.ELC_g2:hover {
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/eoap2o.png');
+}

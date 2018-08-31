@@ -115,6 +115,15 @@ var data = {
       },
       "forum7": {
         "1": "mod/forum/discuss.php?d=162872"
+      },
+      "forum8": {
+        "1": "mod/forum/discuss.php?d=163507"
+      },
+      "forum9": {
+        "1": "mod/forum/discuss.php?d=163509"
+      },
+      "forum10": {
+        "1": "mod/forum/discuss.php?d=163510"
       }
     }
   },

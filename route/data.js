@@ -106,6 +106,15 @@ var data = {
       },
       "forum4": {
         "1": "mod/forum/view.php?id=2429484"
+      },
+      "forum5": {
+        "1": "mod/forum/discuss.php?d=162870"
+      },
+      "forum6": {
+        "1": "mod/forum/discuss.php?d=162871"
+      },
+      "forum7": {
+        "1": "mod/forum/discuss.php?d=162872"
       }
     }
   },

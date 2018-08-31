@@ -639,3 +639,9 @@ ul.topnav li.right {
     padding-right: 15px;
     background: #fff !important;
 }
+.block .header .block_action {
+    padding: 3px 15px;
+    float: right;
+    position: fixed;
+    /* display: none; */
+}

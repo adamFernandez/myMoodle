@@ -696,9 +696,3 @@ iframe, .no-overflow>iframe {
 .modified {
 	display: none;
 }
-.block .header .block_action {
-    padding: 3px 15px;
-    float: right;
-    position: fixed;
-    /* display: none; */
-}

@@ -98,6 +98,9 @@ var data = {
       "forum1": {
         "1": "mod/forum/view.php?id=2271733"
       },
+      "forumU1": {
+        "1": "mod/forum/view.php?id=2271741"
+      },
       "forum2": {
         "1": "mod/forum/view.php?id=2271769"
       },

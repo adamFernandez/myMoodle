@@ -124,6 +124,12 @@ var data = {
       },
       "forum10": {
         "1": "mod/forum/discuss.php?d=163510"
+      },
+      "forum11": {
+        "1": "mod/forum/discuss.php?d=163555"
+      },
+      "forum12": {
+        "1": "mod/forum/discuss.php?d=163556"
       }
     }
   },

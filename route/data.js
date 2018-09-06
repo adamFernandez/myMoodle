@@ -394,8 +394,17 @@ var data = {
   },
   "ia": {
     "module3": {
-       "forum": {
-          "1": "mod/forum/view.php?id=2078412"
+       "forum1": {
+          "1": "mod/forum/view.php?id=2471441"
+        },
+       "forum2": {
+          "1": "mod/forum/view.php?id=2471447"
+        },
+       "forum3": {
+          "1": "mod/forum/view.php?id=2471472"
+        },
+       "forum4": {
+          "1": "mod/forum/view.php?id=2471500"
         }
       }
     }

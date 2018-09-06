@@ -391,7 +391,7 @@ var data = {
         "1": "mod/quiz/view.php?id=2406492"
       }
     }
-  }
+  },
   "ia": {
     "module3": {
        "forum": {

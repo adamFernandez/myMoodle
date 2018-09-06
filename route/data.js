@@ -396,7 +396,7 @@ var data = {
     "module3": {
        "forum": {
           "1": "mod/forum/view.php?id=2078412"
-        },
+        }
       }
     }
 };

@@ -393,12 +393,13 @@ var data = {
     }
   },
   "ia":" {
-      "module3": {
+     "module3": {
        "forum1": {
-        "1": "mod/forum/view.php?id=2271741"
+         "1": "mod/forum/view.php?id=2271741"
       },
        "forum2": {
         "2": "mod/forum/view.php?id=2271741"
+       }
       }
    }  
 };

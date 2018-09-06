@@ -392,4 +392,11 @@ var data = {
       }
     }
   }
+  "ia": {
+    "module1": {
+       "forum": {
+          "1": "mod/choice/view.php?id=2347563"
+        },
+      }
+    }
 };

@@ -947,6 +947,7 @@ margin-left: -7px;
     padding: 3px 15px;
     float: right;
     position: fixed !Important;
+    display: none;
 }
 .ELC_g1 {
     width: 290px;

@@ -393,7 +393,8 @@ var data = {
     }
   },
   "ia":" {
-      "forum1": {
+      "module3": {
+       "forum1": {
         "1": "mod/forum/view.php?id=2271741"
       },
        "forum2": {

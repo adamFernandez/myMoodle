@@ -393,9 +393,9 @@ var data = {
     }
   }
   "ia": {
-    "module1": {
+    "module3": {
        "forum": {
-          "1": "mod/choice/view.php?id=2347563"
+          "1": "mod/forum/view.php?id=2078412"
         },
       }
     }

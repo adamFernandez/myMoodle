@@ -372,6 +372,11 @@ var data = {
      "module8": {
       "discussion": {
         "1": "mod/forum/view.php?id=2428430"
+      },
+      "w1": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=2488717"
+        }
       }
     }
   },

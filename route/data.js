@@ -172,7 +172,7 @@ var data = {
     },
     "module4": {
       "comments": {
-        "1": "mod/forum/view.php?id=2057185"
+        "1": "mod/forum/view.php?id=2403211"
       }
     },
     "module5": {
@@ -207,8 +207,7 @@ var data = {
     },
     "module10": {
       "comments": {
-        "1": "mod/forum/view.php?id=1900372",
-        "2": "mod/forum/view.php?id=2117740"
+        "1": "mod/forum/view.php?id=2404264"
       }
     },
     "module11": {
@@ -244,7 +243,7 @@ var data = {
     },
     "module2": {
       "comments": {
-        "1": "mod/forum/view.php?id=1908574"
+        "1": "mod/forum/view.php?id=2405067"
       },
       "activities": {
         "w1": {

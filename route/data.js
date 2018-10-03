@@ -248,45 +248,45 @@ var data = {
       "activities": {
         "w1": {
           "act3": {
-            "1": "mod/forum/view.php?id=1977963"
+            "1": "mod/forum/view.php?id=2405187"
           },
           "act4": {
-            "1": "mod/forum/view.php?id=1978256"
+            "1": "mod/forum/view.php?id=2405188"
           }
         },
         "w2": {
           "act1": {
-            "1": "mod/forum/view.php?id=1981604"
+            "1": "mod/forum/view.php?id=2405192"
           },
           "act2": {
-            "1": "mod/forum/view.php?id=1981661"
+            "1": "mod/forum/view.php?id=2405194"
           },
           "act3": {
-            "1": "mod/forum/view.php?id=1981630"
+            "1": "mod/forum/view.php?id=2405193"
           },
           "act4": {
-            "1": "mod/forum/view.php?id=1981662"
+            "1": "mod/forum/view.php?id=2405195"
           }
         },
         "w3": {
           "act2": {
-            "1": "mod/choice/view.php?id=1984907"
+            "1": "mod/choice/view.php?id=2405201"
           },
           "act3": {
-            "1": "mod/forum/view.php?id=1988607"
+            "1": "mod/forum/view.php?id=2405200"
           },
           "act4": {
-            "1": "mod/forum/view.php?id=1988611"
+            "1": "mod/forum/view.php?id=2405202"
           }
         },
         "w4": {
           "assessed": {
-            "1": "mod/forum/view.php?id=1987766"
+            "1": "mod/forum/view.php?id=2405131"
           }
         },
         "w5": {
           "assessed": {
-            "1": "mod/forum/view.php?id=1908639"
+            "1": "mod/forum/view.php?id=2405145"
           }
         }
       }

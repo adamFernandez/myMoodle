@@ -176,7 +176,10 @@ main {
 .hero-box h1 {
   font-size: 3.5em;
   color: #5a6469;
+  text-align: left;
   font-family: kingsfont-37;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 @media all and (max-width: 650px) {

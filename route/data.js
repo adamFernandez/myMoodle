@@ -64,10 +64,11 @@ var data = {
       }
     },
     "module1-rcds": {
-      "part2": {
-        "social": {
-          "act1": {
-            "1": "mod/forum/view.php?id=2398532"
+      "week3": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=2398532"
           }
         }
       }

@@ -43,23 +43,15 @@ var data = {
   "maritime": {
     "module1": {
       "week3": {
-        "part2": {
-          "social": {
-            "act1": {
-              "1": "mod/forum/view.php?id=2398355",
-              "2": "mod/forum/view.php?id=2510395"
-            }
-          }
+        "discussion": {
+          "1": "mod/forum/view.php?id=2398355",
+          "2": "mod/forum/view.php?id=2510395"
         }
       },
       "week5": {
-        "part2": {
-          "social": {
-            "act1": {
-              "1": "mod/forum/view.php?id=2398401",
-              "2": "mod/forum/view.php?id=2510409"
-            }
-          }
+        "discussion": {
+          "1": "mod/forum/view.php?id=2398401",
+          "2": "mod/forum/view.php?id=2510409"
         }
       }
     },

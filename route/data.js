@@ -46,10 +46,8 @@ var data = {
         "part2": {
           "social": {
             "act1": {
-              "1": "mod/forum/view.php?id=1888945",
-              "2": "mod/forum/view.php?id=1950106",
-              "3": "mod/forum/view.php?id=2056970",
-              "4": "mod/forum/view.php?id=2091466"
+              "1": "mod/forum/view.php?id=2398355",
+              "2": "mod/forum/view.php?id=2510395"
             }
           }
         }
@@ -58,10 +56,27 @@ var data = {
         "part2": {
           "social": {
             "act1": {
-              "1": "mod/forum/view.php?id=1888972",
-              "2": "mod/forum/view.php?id=1950155",
-              "3": "mod/forum/view.php?id=2057018",
-              "4": "mod/forum/view.php?id=2091477"
+              "1": "mod/forum/view.php?id=2398401",
+              "2": "mod/forum/view.php?id=2510409"
+            }
+          }
+        }
+      }
+    },
+    "module1-rcds": {
+      "part2": {
+        "social": {
+          "act1": {
+            "1": "mod/forum/view.php?id=2398532"
+          }
+        }
+      }
+    },
+    "week5": {
+        "part2": {
+          "social": {
+            "act1": {
+              "1": "mod/forum/view.php?id=2398579"
             }
           }
         }

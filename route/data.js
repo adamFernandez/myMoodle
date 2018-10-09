@@ -57,21 +57,13 @@ var data = {
     },
     "module1-rcds": {
       "week3": {
-        "part2": {
-          "social": {
-            "act1": {
-              "1": "mod/forum/view.php?id=2398532"
-          }
+        "discussion": {
+          "1": "mod/forum/view.php?id=2398532"
         }
-      }
-    },
-    "week5": {
-        "part2": {
-          "social": {
-            "act1": {
-              "1": "mod/forum/view.php?id=2398579"
-            }
-          }
+      },
+      "week5": {
+        "discussion": {
+          "1": "mod/forum/view.php?id=2398579"
         }
       }
     },

@@ -388,6 +388,9 @@ var data = {
     "module5": {
       "quiz": {
         "1": "mod/quiz/view.php?id=2406492"
+      },
+      "quiz2": {
+        "1": "mod/quiz/view.php?id=2513674"
       }
     }
   },

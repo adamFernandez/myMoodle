@@ -276,7 +276,7 @@ h3 > b  {
 
 /* this styles the buttons for transcript download and accordion*/
 .transcript-links {
-	float: right;
+	text-align: right;
 }
 
 .transcript-links .btn-secondary {

@@ -275,6 +275,10 @@ h3 > b  {
 
 
 /* this styles the buttons for transcript download and accordion*/
+.transcript-links {
+	float: right;
+}
+
 .transcript-links .btn-secondary {
     color: #0d4277;
     background-color: white;

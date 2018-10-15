@@ -231,7 +231,7 @@ var data = {
         "1": "mod/forum/view.php?id=2100960"
       }
     },
-    "module17": {
+    "module5": {
       "forum1": {
         "1": "mod/forum/view.php?id=2518748"
       },

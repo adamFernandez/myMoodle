@@ -231,6 +231,14 @@ var data = {
         "1": "mod/forum/view.php?id=2100960"
       }
     },
+    "module17": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=2518748"
+      },
+      "comments": {
+        "1": "mod/forum/view.php?id=2482655"
+      },
+    },
     "module2": {
       "comments": {
         "1": "mod/forum/view.php?id=2405067"

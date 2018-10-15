@@ -304,7 +304,7 @@ var data = {
     },
     "module3": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2048301"
+        "1": "mod/forum/view.php?id=2316930"
       }
     },
     "module4": {
@@ -356,6 +356,11 @@ var data = {
     "module6": {
       "discussion": {
         "1": "mod/forum/view.php?id=2339398"
+      }
+    },
+    "module7": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2428382"
       }
     },
      "module8": {

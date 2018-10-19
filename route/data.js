@@ -391,7 +391,7 @@ var data = {
           "1": "mod/choice/view.php?id=2347563"
         },
         "act2": {
-          "1": "mod/forum/view.php?id=2347570"
+          "1": "mod/forum/view.php?id=2347408"
         }
       }
     },

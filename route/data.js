@@ -422,6 +422,9 @@ var data = {
        },
        "forum4": {
           "1": "mod/forum/view.php?id=2472819"
+       },
+       "forum5": {
+          "1": "mod/forum/discuss.php?d=167806"
        }
      },  
      "module2": {

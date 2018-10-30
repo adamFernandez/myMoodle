@@ -237,11 +237,6 @@ var data = {
       },
       "comments": {
         "1": "mod/forum/view.php?id=2482655"
-      },
-      "social": {
-        "act1": {
-          "1": "mod/forum/view.php?id=2518748"
-        }
       }
     },
     "module2": {

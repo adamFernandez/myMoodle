@@ -293,7 +293,7 @@ var data = {
   "ph": {
     "module1": {
       "general": {
-        "1": "mod/forum/view.php?id=2405131",
+        "1": "mod/forum/view.php?id=2405145",
         "2": "mod/forum/view.php?id=2515825"
       },
       "week1": {

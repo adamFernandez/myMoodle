@@ -237,6 +237,9 @@ var data = {
       },
       "comments": {
         "1": "mod/forum/view.php?id=2482655"
+      },
+      "poll1": {
+        "1": "mod/choice/view.php?id=2537518"
       }
     },
     "module2": {

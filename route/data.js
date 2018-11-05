@@ -3,7 +3,7 @@
 // If you make a large update you can test you didn't break it using the link below. If it doesn't re-route you may have broken it!
 // https://git.iddkingsonline.com/route/index.html#exec_week1_part1_notes_manager_1
 var data = {
-    "simonSandbox": {
+  "simonSandbox": {
     "comments": {
       "1": "mod/forum/view.php?id=1573957"
     }

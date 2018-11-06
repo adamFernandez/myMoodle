@@ -245,6 +245,12 @@ var data = {
       },
       "poll1": {
         "1": "mod/choice/view.php?id=2537518"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=2538368"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=2538490"
       }
     },
     "module2": {

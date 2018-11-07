@@ -443,16 +443,16 @@ var data = {
      },  
      "module2": {
        "forum1": {
-          "1": "#"
+          "1": "mod/forum/view.php?id=2539730"
        },
        "forum2": {
-          "1": "#"
+          "1": "mod/forum/view.php?id=2539736"
        },
        "forum3": {
-          "1": "#"
+          "1": "mod/forum/view.php?id=2539763"
        },
        "forum4": {
-          "1": "#"
+          "1": "mod/forum/view.php?id=2539793"
        }
      },
      "module3": {

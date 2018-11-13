@@ -251,6 +251,15 @@ var data = {
       },
       "forum3": {
         "1": "mod/forum/view.php?id=2538490"
+      },
+      "forum4": {
+        "1": "mod/forum/view.php?id=2545167"
+      },
+      "forum5": {
+        "1": "mod/forum/view.php?id=2545181"
+      },
+      "forum6": {
+        "1": "mod/forum/view.php?id=2539117"
       }
     },
     "module2": {

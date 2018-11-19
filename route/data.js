@@ -342,37 +342,37 @@ var data = {
     },
     "module4": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2091132"
+        "1": "mod/forum/view.php?id=2317311"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2093944"
+        "1": "mod/choice/view.php?id=2317430"
       },
       "poll2": {
-        "1": "mod/choice/view.php?id=2094090"
+        "1": "mod/choice/view.php?id=2317431"
       },
       "poll3": {
-        "1": "mod/choice/view.php?id=2094092"
+        "1": "mod/choice/view.php?id=2317432"
       },
       "poll4": {
-        "1": "mod/choice/view.php?id=2116771"
+        "1": "mod/choice/view.php?id=2317435"
       },
       "poll5": {
-        "1": "mod/choice/view.php?id=2117036"
+        "1": "mod/choice/view.php?id=2317425"
       },
       "poll6": {
-        "1": "mod/choice/view.php?id=2117037"
+        "1": "mod/choice/view.php?id=2317426"
       },
       "poll7": {
-        "1": "mod/choice/view.php?id=2117039"
+        "1": "mod/choice/view.php?id=2317427"
       },
       "poll8": {
-        "1": "mod/choice/view.php?id=2117041"
+        "1": "mod/choice/view.php?id=2317428"
       },
       "poll9": {
-        "1": "mod/choice/view.php?id=2117046"
+        "1": "mod/choice/view.php?id=2317429"
       },
       "poll10": {
-        "1": "mod/choice/view.php?id=2118053"
+        "1": "mod/choice/view.php?id=2317424"
       },
       "poll11": {
         "1": "mod/choice/view.php?id=2406212"

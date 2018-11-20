@@ -373,9 +373,6 @@ var data = {
       },
       "poll10": {
         "1": "mod/choice/view.php?id=2317424"
-      },
-      "poll11": {
-        "1": "mod/choice/view.php?id=2406212"
       }
     },
     "module5": {
@@ -389,6 +386,9 @@ var data = {
     "module6": {
       "discussion": {
         "1": "mod/forum/view.php?id=2339398"
+      },
+      "poll11": {
+        "1": "mod/choice/view.php?id=2406212"
       }
     },
     "module7": {

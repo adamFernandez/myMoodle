@@ -1037,3 +1037,8 @@ margin-left: -7px;
     text-align: center;
     display: none;
 }
+/*No logo*/
+#page-header {
+    background-color: #06314d;
+    display: none;
+}

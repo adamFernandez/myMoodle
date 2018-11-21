@@ -1087,4 +1087,14 @@ margin-left: -7px;
     font-size: 9px;
     color: inherit;
 }
+	menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    color: #fff;
+    float: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: none;
+    padding: 17px 15px 13px;
+    border: none;
+    border-right: none;
+}
 }

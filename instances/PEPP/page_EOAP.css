@@ -1115,5 +1115,5 @@ margin-left: -7px;
     border-radius: 2px;
 }
 .m-l-1 {
-    margin-left: 0px;
+    margin-left: -1px!important;
 }

@@ -1103,3 +1103,14 @@ margin-left: -7px;
     border-right: none;
 }
 }
+.que .info {
+    float: left;
+    width: 7em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #eeeeee;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}

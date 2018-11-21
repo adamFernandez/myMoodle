@@ -1080,4 +1080,11 @@ margin-left: -7px;
     background: transparent;
     cursor: pointer;
 }
+	.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1em;
+    font-size: 9px;
+    color: inherit;
+}
 }

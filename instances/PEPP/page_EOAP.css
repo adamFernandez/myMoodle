@@ -1032,3 +1032,8 @@ margin-left: -7px;
     background: #ec1d1d;
     display: none;
 }
+#coursesearch {
+    margin-top: 1em;
+    text-align: center;
+    display: none;
+}

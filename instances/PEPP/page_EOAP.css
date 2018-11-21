@@ -1073,7 +1073,7 @@ margin-left: -7px;
     -moz-border-radius: 0;
     border-radius: 0;
 }
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1151px) {
    .jsenabled .usermenu .moodle-actionmenu.show, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-content, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content {
     font-size: xx-small;
     border: none;

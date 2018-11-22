@@ -143,6 +143,7 @@ Grid
 	font-size: 18px;
 	width: 290px;
 	right: 5px;
+	border-radius: 5px;
 }
 
 .course-content ul.gridicons li img {

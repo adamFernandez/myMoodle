@@ -141,8 +141,15 @@ Grid
 	font-family: 'kingsfont-37' !important;
 	font-weight: 300;
 	font-size: 18px;
+	width: 290px;
+	right: 10px;
 }
 
 .course-content ul.gridicons li img {
-	border-radius: 5px;
+	border-radius: 15px;
+	border: 2px solid white;
+}
+
+.course-content ul.gridicons li img:hover {
+	border: 2px solid red;
 }

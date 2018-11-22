@@ -142,7 +142,7 @@ Grid
 	font-weight: 300;
 	font-size: 18px;
 	width: 290px;
-	right: 10px;
+	right: 5px;
 }
 
 .course-content ul.gridicons li img {
@@ -151,5 +151,5 @@ Grid
 }
 
 .course-content ul.gridicons li img:hover {
-	border: 2px solid red;
+	border: 2px solid black;
 }

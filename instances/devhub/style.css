@@ -140,8 +140,7 @@ Grid
 	font-family: 'kingsfont-37' !important;
 	font-weight: 300;
 	font-size: 18px;
-	width: 290px;
-	right: 3px;
+	height: initial;
 }
 
 /* =========================================================== *

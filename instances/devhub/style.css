@@ -130,3 +130,13 @@ h3.sectionname {
 .single-section h3.sectionname {
 	display: block;
 }
+
+/* =========================================================== *
+Grid
+============================================================== */
+
+.course-content ul.gridicons li .icon_content.content_inside {
+	top: 10px;
+	bottom: 10px;
+	font-family: 'kingsfont-37' !important;
+}

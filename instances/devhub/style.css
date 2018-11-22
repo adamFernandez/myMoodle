@@ -153,3 +153,20 @@ Grid
 .course-content ul.gridicons li img:hover {
 	border: 2px solid black;
 }
+
+
+/* =========================================================== *
+Page layout
+============================================================== */
+
+.modified {
+	display: none;
+}
+
+.section .activity.modtype_label.label {
+	padding-top: 15px;
+}
+
+.section .label .mod-indent-outer {
+	padding-left: 0px;
+}

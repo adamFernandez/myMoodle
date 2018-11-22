@@ -136,25 +136,14 @@ Grid
 ============================================================== */
 
 .course-content ul.gridicons li .icon_content.content_inside {
-	top: 25px;
-	padding-top: 16px;
+	top: 8px;
 	font-family: 'kingsfont-37' !important;
 	font-weight: 300;
 	font-size: 18px;
 	width: 290px;
-	right: 5px;
+	right: 3px;
 	border-radius: 5px;
 }
-
-.course-content ul.gridicons li img {
-	border-radius: 15px;
-	border: 2px solid white;
-}
-
-.course-content ul.gridicons li img:hover {
-	border: 2px solid black;
-}
-
 
 /* =========================================================== *
 Page layout

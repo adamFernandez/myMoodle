@@ -3,13 +3,15 @@ Fonts
 ============================================================== */
 
 @font-face {
-  font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+    font-family: kingsfont-51;
+    src: url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-eot.eot) format("eot");
+    src: url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-eot.eot?#iefix) format("embedded-opentype"), url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-woff.woff) format("woff"), url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-ttf.ttf) format("truetype")
 }
 
 @font-face {
-	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+    font-family: kingsfont-37;
+    src: url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-eot.eot) format("eot");
+    src: url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-eot.eot?#iefix) format("embedded-opentype"), url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-woff.woff) format("woff"), url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-ttf.ttf) format("truetype"), url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-svg.svg) format("svg")
 }
 
 html, body, p, li,input, button, select, textarea {

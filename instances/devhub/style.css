@@ -143,6 +143,10 @@ Grid
 	height: initial !important;
 }
 
+.course-content ul.gridicons li img {
+	border-radius: 15px;
+}
+
 /* =========================================================== *
 Page layout
 ============================================================== */

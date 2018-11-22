@@ -141,4 +141,10 @@ Grid
 	font-family: 'kingsfont-37' !important;
 	font-weight: 300;
 	font-size: 18px;
+	background-color: inherit;
+	color: #ffffff;
+}
+
+.course-content ul.gridicons li img {
+	border-radius: 5px;
 }

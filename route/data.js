@@ -260,6 +260,21 @@ var data = {
       },
       "forum6": {
         "1": "mod/forum/view.php?id=2539117"
+      },
+      "forum7": {
+        "1": "mod/forum/view.php?id=2554735"
+      },
+      "forum8": {
+        "1": "mod/forum/view.php?id=2554741"
+      },
+      "forum9": {
+        "1": "mod/forum/view.php?id=2554745"
+      },
+      "forum10": {
+        "1": "mod/forum/view.php?id=2554749"
+      },
+      "forum11": {
+        "1": "mod/forum/view.php?id=2554751"
       }
     },
     "module2": {

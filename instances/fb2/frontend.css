@@ -26,7 +26,6 @@ h3.section-title {
 }
 
 .sectionbody {
-	font-family: 'Roboto','Arial' !important;
 	font-size: 1.1em;
 	color: #404142;
 }
@@ -46,7 +45,6 @@ a {
 }
 
 html, body {
-	font-family:'Roboto','Arial' !important;
 	color: #404142;
 }
 

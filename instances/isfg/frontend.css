@@ -198,6 +198,7 @@ main {
 
 }
 
+@media (min-width: 1000px) {
 .panel .settings {
 	top: 175px;
 }
@@ -205,7 +206,7 @@ main {
 #dropdowncontainer {
 	top: 223px;
 }
-
+}
 .jsenabled .moodle-actionmenu[data-enhance] .toggle-display.textmenu .caret {
 	margin: 10px 3px 0 5px
 }

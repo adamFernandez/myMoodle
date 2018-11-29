@@ -80,7 +80,7 @@ button.accordion.active, button.accordion:hover {
   src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
 
 main {
   overflow: hidden;
@@ -221,7 +221,6 @@ h3.section-title {
 }
 
 .sectionbody {
-	font-family: 'Roboto','Arial' !important;
 	font-size: 1.1em;
 	color: #404142;
 }
@@ -236,7 +235,6 @@ h3.section-title {
 }
 
 html, body {
-	font-family:'Roboto','Arial' !important;
 	color: #404142;
 }
 
@@ -462,7 +460,6 @@ h7 {
 }
 /*Video frame color*/
 .sectionbody {
-    font-family: 'Roboto','Arial' !important;
     font-size: 1.1em;
     color: #9fa7a7;
 }

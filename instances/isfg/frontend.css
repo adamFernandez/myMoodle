@@ -94,6 +94,9 @@
 	.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
 		right: 0px;
 	}
+	.course-content ul.ctopics li.section .content .toggle .the_toggle h3 {
+		padding-right: 20px;
+	}
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {

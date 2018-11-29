@@ -90,6 +90,12 @@
 	color: #FF5F05;
 }
 
+@media (max-width: 600px) {
+	.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
+		right: 0px;
+	}
+}
+
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
 	font-size: 1.3em;
 	content: "\f106" !important;

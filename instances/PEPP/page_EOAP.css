@@ -1177,3 +1177,6 @@ a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.
 table {
     background: aliceblue;
 }
+.navbar .popover-region {
+    border-left: 1px solid #fff;
+}

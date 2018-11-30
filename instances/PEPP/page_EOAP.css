@@ -6,14 +6,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'ELCicons';
-  src: url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons-new.eot');
-  src: url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons-new.eot?#iefix') format('embedded-opentype'), url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons-new.woff') format('woff'), url('https://git.iddkingsonline.com/assets/fonts/ELCicons/fonts/ELCicons-new.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
 [role=main] h2 {
     background: #6b6b6b00;
     color: #0f2f42;

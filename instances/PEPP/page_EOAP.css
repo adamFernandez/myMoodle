@@ -1168,3 +1168,9 @@ a {
 a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
     color: #46282a;
 }
+.course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname, .course-content ul.ctopics li.section .content.sectionhidden h3.sectionname {
+    margin: 4px;
+    color: #6b6b6b;
+    color: inherit;
+    font-family: 'KingsBureauGrot ThreeSeven';
+}

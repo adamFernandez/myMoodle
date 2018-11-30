@@ -1037,11 +1037,6 @@ margin-left: -7px;
     text-align: center;
     display: none;
 }
-/*No logo*/
-#page-header {
-    background-color: #06314d;
-    display: none;
-}
 /*Top menu bg*/
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: none;

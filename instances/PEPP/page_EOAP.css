@@ -1096,6 +1096,9 @@ margin-left: -7px;
     -moz-border-radius: 2px;
     border-radius: 2px;
 }
+.que .formulation, .que .outcome, .que .comment {
+    border-radius: 0px;
+}
 .m-l-1 {
     margin-left: -1px!important;
 }

@@ -1180,3 +1180,8 @@ table {
 .navbar .popover-region {
     border-left: 1px solid #fff;
 }
+.nav.pull-right {
+    color: #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}

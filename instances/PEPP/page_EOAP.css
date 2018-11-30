@@ -1160,3 +1160,8 @@ a {
 .course-content ul li.section.main {
     border-bottom: 3px solid #fff0;
 }
+.course-content ul.ctopics li.section .content .toggle, .course-content ul.ctopics li.section .content.sectionhidden {
+    -webkit-border-radius: 0px!important;
+    -moz-border-radius: 0px!important;
+    border-radius: 0px!important;
+}

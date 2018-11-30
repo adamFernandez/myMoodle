@@ -1157,3 +1157,6 @@ a {
     border-left: 1px solid #ffffff;
     border-right: 1px solid #ffffff;
 }
+.course-content ul li.section.main {
+    border-bottom: 3px solid #fff0;
+}

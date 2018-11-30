@@ -1150,3 +1150,6 @@ a {
     margin-top: -5px;
     height: 52px;
 }
+.custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border-right: 1px solid #fff;
+}

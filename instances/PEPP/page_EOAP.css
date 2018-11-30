@@ -20,15 +20,15 @@
 }
 
 h2 {
-  position: relative;
-  line-height: 60px;
-  font-size: 32px;
-  color: #6b6b6b;
-  padding: 10px 20px;
-  font-family: 'KingsBureauGrot ThreeSeven';
-  font-weight: bold;
-  margin-top: 0px;
-  font-style: normal;
+    position: relative;
+    /* line-height: 60px; */
+    font-size: 32px;
+    /* color: #6b6b6b; */
+    padding: 0px 0px;
+    font-family: 'KingsBureauGrot ThreeSeven';
+    font-weight: bold;
+    margin-top: 0px;
+    font-style: normal;
 }
 
 h3 {

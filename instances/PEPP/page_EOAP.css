@@ -202,10 +202,6 @@ a.s1:hover {
   text-decoration: underline;
 }
 
-.activity img.activityicon {
-  display: none;
-}
-
 .instancename {
   position: relative;
   line-height: 36px;

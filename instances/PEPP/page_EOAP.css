@@ -1128,10 +1128,9 @@ margin-left: -7px;
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
-    /* background: aqua; */
     background-color: #1fc8db;
-    background-image: linear-gradient(141deg, #bd5b9f 4%, #1fd2db 57%, #2cb5e8 89%);
-    color: white;
+    background-image: linear-gradient(141deg, #bd5b9f 4%, #247f84 57%, #000000 89%);
+    color: #290909;
     opacity: 0.95;
 }
 

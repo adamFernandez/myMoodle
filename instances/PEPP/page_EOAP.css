@@ -1044,20 +1044,7 @@ margin-left: -7px;
     box-shadow: none;
     background: #333333;
 }
-/*Settings button to up*/
-.panel .settings {
-    width: 50px;
-    height: 48px;
-    background: rgba(0,0,0,.6);
-    position: fixed;
-    top: 164px;
-    right: 0;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-    margin-top: -114px;
-}
+
 /*Pathway place*/
 .breadcrumb {
     font-size: .95em;
@@ -1092,7 +1079,7 @@ margin-left: -7px;
     border: none;
     border-right: none;
 }
-	.nav.pull-right {
+    .nav.pull-right {
     color: #fff;
     border-left: none;
     border-right: none;

@@ -280,6 +280,30 @@ var data = {
     "module6": {
       "comments": {
         "1": "mod/forum/view.php?id=2565067"
+      },
+      "forum1": {
+        "1": "mod/forum/view.php?id=2566670"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=2566683"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=2568335"
+      },
+      "forum4": {
+        "1": "mod/forum/view.php?id=2568012"
+      },
+      "forum5": {
+        "1": "mod/forum/view.php?id=2568016"
+      },
+      "forum6": {
+        "1": "mod/forum/view.php?id=2568018"
+      },
+      "forum7": {
+        "1": "mod/forum/view.php?id=2568023"
+      },
+      "forum8": {
+        "1": "mod/forum/view.php?id=2568025"
       }
     },
     "module2": {

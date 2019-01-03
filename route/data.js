@@ -482,6 +482,17 @@ var data = {
       "quiz2": {
         "1": "mod/quiz/view.php?id=2513674"
       }
+    },
+    "module6": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=2521774"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=2572601"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=2572604"
+      }
     }
   },
   "ia": {

@@ -304,6 +304,9 @@ var data = {
       },
       "forum8": {
         "1": "mod/forum/view.php?id=2568025"
+      },
+      "forum9": {
+        "1": "mod/forum/view.php?id=2568925"
       }
     },
     "module2": {

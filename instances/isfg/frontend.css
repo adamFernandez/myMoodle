@@ -157,12 +157,7 @@ body, p {
 	font-family: 'kingsfont-51' !important;
 }
 
-/* Just the text within pages size */
-.no-overflow {
-	body, p {
-		font-size: 1.2em !important;
-	}
-}
+
 
 .instancename {
 	font-family: 'kingsfont-51' !important;
@@ -319,4 +314,11 @@ h3 > b  {
     font-family: 'kingsfont-51';
     font-weight: 700;
     font-size: 1.1em;
+}
+
+/* Just the text within pages size */
+.no-overflow {
+	body, p {
+		font-size: 1.2em !important;
+	}
 }

@@ -155,7 +155,13 @@
 body, p {
 	color: #5a6469 !important;
 	font-family: 'kingsfont-51' !important;
-	font-size: 1.2em;
+}
+
+/* Just the text within pages size */
+.no-overflow {
+	body, p {
+		font-size: 1.2em;
+	}
 }
 
 .instancename {

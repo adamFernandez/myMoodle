@@ -160,7 +160,7 @@ body, p {
 /* Just the text within pages size */
 .no-overflow {
 	body, p {
-		font-size: 1.2em;
+		font-size: 1.2em !important;
 	}
 }
 

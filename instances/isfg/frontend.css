@@ -77,10 +77,6 @@
 	padding-bottom: 5px;
 }
 
-.no-overflow p, .no-overflow li {
-	font-size: medium;
-}
-
 .block .header .title h2 {
     font-family: 'kingsfont-37' !important;
     font-weight: normal !important;

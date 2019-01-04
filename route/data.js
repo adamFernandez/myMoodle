@@ -307,6 +307,15 @@ var data = {
       },
       "forum9": {
         "1": "mod/forum/view.php?id=2568925"
+      },
+      "forum10": {
+        "1": "mod/forum/view.php?id=2572160"
+      },
+      "forum11": {
+        "1": "mod/forum/view.php?id=2572173"
+      },
+      "forum12": {
+        "1": "mod/forum/view.php?id=2572178"
       }
     },
     "module2": {

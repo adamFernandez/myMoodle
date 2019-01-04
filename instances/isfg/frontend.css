@@ -318,6 +318,6 @@ h3 > b  {
 
 /* Just the text within pages size */
 
-.no-overflow p {
+.no-overflow {
 	font-size: 1.2em !important;
 }

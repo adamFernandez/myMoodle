@@ -1,4 +1,9 @@
 /*KCL Logo*/
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    border: none;
+    background: #35597E url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;
+    box-shadow: none;
+}
 .navbar .brand {
     color: #fff0;
     width: 120px;

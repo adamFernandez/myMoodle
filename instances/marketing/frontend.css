@@ -1,3 +1,15 @@
+/*Header*/
+#page-header {
+    margin: -36px 0 5px;
+}
+
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    border: none;
+    background: #35597E;
+    max-height: 52px;
+}
+
 /*KCL Logo*/
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: none;

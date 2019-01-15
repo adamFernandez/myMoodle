@@ -1,5 +1,10 @@
 /*Header*/
 #page-header {
+    margin: 0 0 5px;
+    background: #35597E url(https://git.iddkingsonline.com/instances/marketing/blank.gif) no-repeat center top;
+}
+
+#page-header {
     margin: -36px 0 5px;
 }
 
@@ -84,10 +89,6 @@ Toggles and breadcrumbs
 /* =========================================================== *
 Header
 ============================================================== */
-
-#page-header {
-	background-color: #5E5550 !important;
-}
 
 #page-header .coursesearch input[type="submit"] {
 	background-color: #F18758;

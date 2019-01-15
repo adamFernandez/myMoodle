@@ -1,4 +1,9 @@
 /*Bg*/
+#page-footer .row-fluid {
+    margin: 0 auto;
+    padding: 15px 0 0;
+    background: #3c6389;
+}
 body {
     font-size: 13px;
     line-height: 20px;

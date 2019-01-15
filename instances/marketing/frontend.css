@@ -12,6 +12,9 @@
     padding: 15px 15px 14px;
     background: transparent url(https://git.iddkingsonline.com/instances/marketing/KCL_logo.svg) center top no-repeat;
 }
+#page-header .logo {
+    display: none;
+}
 
 /* =========================================================== *
 Fonts

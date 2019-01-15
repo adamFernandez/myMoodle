@@ -1,3 +1,10 @@
+h3 {
+    font-family: 'kingsfont-37';
+    color: #ffffff;
+    font-weight: 300 !important;
+    font-size: xx-large;
+}
+
 /*Top menu*/
 .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-active .yui3-menuitem-content {
 	border-color: #ffffff00;

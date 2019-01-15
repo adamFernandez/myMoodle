@@ -1,3 +1,11 @@
+/*Top menu*/
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
+    color: #fff;
+    text-shadow: none;
+    background-color: #53545500;
+}
+
+
 /*Bg*/
 @media (min-width: 980px) {
 .custom-menu {

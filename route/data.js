@@ -472,10 +472,10 @@ var data = {
     "module1": {
       "w1": {
         "act1": {
-          "1": "mod/choice/view.php?id=2347563"
+          "1": "mod/choice/view.php?id=2583794"
         },
         "act2": {
-          "1": "mod/forum/view.php?id=2347408"
+          "1": "mod/forum/view.php?id=2583591"
         }
       }
     },

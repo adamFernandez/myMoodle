@@ -373,14 +373,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2552110",
-        "2": "mod/forum/view.php?id=2515825"
+        "2": "mod/forum/view.php?id=2590676"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2552126",
-              "2": "mod/choice/view.php?id=2515841"
+              "2": "mod/choice/view.php?id=2590692"
             }
           }
         }

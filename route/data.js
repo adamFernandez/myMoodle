@@ -548,6 +548,12 @@ var data = {
         },
        "forum4": {
           "1": "mod/forum/view.php?id=2471500"
+                 },
+       "forum5": {
+          "1": "mod/forum/view.php?id=2594290"
+                 },
+       "forum6": {
+          "1": "mod/forum/view.php?id=2594293"
         }
       }
     }

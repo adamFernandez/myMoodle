@@ -164,3 +164,7 @@ Page layout
 .section .label .mod-indent-outer {
 	padding-left: 0px;
 }
+
+.block .content ul {
+	margin-left: 0px;
+}

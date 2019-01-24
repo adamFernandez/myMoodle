@@ -16,6 +16,7 @@ Fonts
 
 html, body, p, li,input, button, select, textarea {
 	font-family:'kingsfont-51' !important;
+	font-size: 14px;
 }
 
 h2,h3 {

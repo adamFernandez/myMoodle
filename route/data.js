@@ -175,6 +175,11 @@ var data = {
         "1": "mod/forum/view.php?id=2403474"
       }
     },
+    "module6": {
+      "comments": {
+        "1": "mod/forum/view.php?id=2422973"
+      }
+    },
     "module7": {
       "comments": {
         "1": "mod/forum/view.php?id=2131963"

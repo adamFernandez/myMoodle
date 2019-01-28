@@ -393,7 +393,7 @@ var data = {
     },
     "module2": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2439381"
+        "1": "mod/forum/view.php?id=2596860"
       }
     },
     "module3": {

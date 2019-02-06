@@ -1,0 +1,76 @@
+* {
+	font-family: helvetica, Arial, sans-serif
+	}
+
+h3 {
+	font-size: 18px;
+  margin: 10px;	
+}
+
+h2 {
+	  margin: 10px;
+}
+	
+label{
+	display: block;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  background-color: #FF9900;  
+  width: 300px;
+  margin: 10px;
+  text-align: left;
+  padding: 10px;
+}
+
+.scenario {
+  width: 600px;
+  margin: 10px;  
+}
+
+#calculator {
+	font-size: 110%;
+	background-color: #336699;
+	color: white;
+	padding: 5px 10px 5px 10px;
+}
+
+.step-number {
+	float: left;
+	margin-right: 18px;
+	}
+	
+.step {
+	margin-top: 20px;
+}
+
+input {
+	font-size: 110%
+}
+
+select {
+  padding: 5px;
+  font-size: 110%;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+
+select::-ms-expand { 
+    display: none; /* remove default arrow in IE 10 and 11 */
+}
+
+/* target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    }
+}

@@ -471,6 +471,11 @@ var data = {
       "discussion": {
         "1": "mod/forum/view.php?id=2549793"
       }
+    },
+    "module10": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2590807"
+      }
     }
   },
   "gfb": {

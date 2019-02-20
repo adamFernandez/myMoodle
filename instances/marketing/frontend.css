@@ -313,12 +313,7 @@ h2 {
   
     -webkit-font-smoothing: antialiased;
 }
-#page-header .coursesearch {
-    float: right;
-    clear: right;
-    margin: 10px 15px 0 0;
-    display: none;
-}
+
 .breadcrumb {
 	margin: 7px 181px 9px;
 

@@ -512,6 +512,11 @@ var data = {
       "forum3": {
         "1": "mod/forum/view.php?id=2572604"
       }
+    },
+    "module8": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=2511622"
+      }
     }
   },
   "ia": {

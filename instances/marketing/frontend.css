@@ -394,6 +394,9 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.mdl-right a, .mdl-left a {
+.mdl-left a {
+    color: #ffffff;
+}
+.mdl-right a {
     color: #ffffff;
 }

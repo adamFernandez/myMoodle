@@ -367,3 +367,7 @@ h2 {
     list-style: disc;
     background: white;
 }
+#week_header_content {
+    font-family: 'Roboto';
+    color: #ffffff !important;
+}

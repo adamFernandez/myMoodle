@@ -344,3 +344,6 @@ h2 {
     text-align: left !important;
     text-overflow: inherit;
 }
+.course-content ul.gtopics li.section .content {
+    margin: 0 0px !important;
+}

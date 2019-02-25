@@ -144,7 +144,7 @@ h2 {
 }
 
 a {
-	color: #0A2D50;
+	color: #fff;
 }
 
 a:hover {
@@ -396,7 +396,4 @@ hr {
 }
 .instancename a {
     color: #000;
-}
-a {
-    color: #fff!important;
 }

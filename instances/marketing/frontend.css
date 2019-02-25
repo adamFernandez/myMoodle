@@ -364,3 +364,7 @@ h2 {
     padding: .5em;
     margin-bottom: -.5em;
 }
+.course-content li.section ul {
+    list-style: disc;
+    background: white;
+}

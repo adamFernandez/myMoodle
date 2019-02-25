@@ -379,3 +379,10 @@ h2 {
     text-align: justify;
 
 /*Header borders style*/
+ #week_header_hr {
+    margin: 20px 0;
+    border-top: 1px solid #eee;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-bottom: 4px solid #fff;
+}

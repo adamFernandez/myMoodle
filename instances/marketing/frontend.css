@@ -129,9 +129,13 @@ Fonts
 	font-family: kingsfont-51;
 	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
 }
+@font-face {
+	font-family: Roboto-Light;
+	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto_Light.ttf');
+}
 
 html, body, p, li,input, button, select, textarea {
-	font-family:'kingsfont-51' !important;
+	font-family:'Roboto-Light' !important;
 }
 
 h2 {

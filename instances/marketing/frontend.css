@@ -394,6 +394,6 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.course-content a {
-    color: #000;
+.instancename a {
+    color: #000 !important;
 }

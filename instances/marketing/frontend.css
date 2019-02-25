@@ -352,3 +352,8 @@ h2 {
     margin-left: -2px;
     width: 100%;
 }
+.single-section h3.sectionname {
+    text-align: left;
+    padding: 10px 0 0;
+    display: none;
+}

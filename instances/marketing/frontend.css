@@ -411,3 +411,6 @@ hr {
     font-family: 'KingsBureauGrot ThreeSeven';
     display: none;
 }
+.instancename a {
+	color: #ffffff;
+} 

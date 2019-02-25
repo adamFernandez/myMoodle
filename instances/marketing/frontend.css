@@ -318,3 +318,26 @@ h2 {
 	margin: 7px 181px 9px;
 
 }
+/*Weekly activites*/
+ #week_header {
+    height: auto;
+    margin: 0;
+    white-space: normal;
+    font-weight: 700;
+    position: absolute;
+    text-align: left !important;
+    font-size: x-large;
+    font-family: 'kingsfont-37';
+    color: #ffffff;
+    background: #ff3c39c9;
+    z-index: 100;
+    margin-top: 27px;
+    display: inline;
+    cursor: default !important;
+    line-height: normal;
+    margin-left: 14px;
+    max-width: 157px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: inherit;
+}

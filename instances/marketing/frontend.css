@@ -359,3 +359,8 @@ h2 {
     padding: 10px 0 0;
     display: none;
 }
+.course-content .single-section .section-navigation {
+    display: unset;
+    padding: .5em;
+    margin-bottom: -.5em;
+}

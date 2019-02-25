@@ -372,6 +372,8 @@ h2 {
     background: white;
 }
 #week_header_content {
-    font-family: 'Roboto';
     color: #ffffff !important;
-}
+    font-size: medium;
+    margin-left: 7px;
+    margin-right: 10px;
+    text-align: justify;

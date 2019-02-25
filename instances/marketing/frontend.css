@@ -144,7 +144,7 @@ h2 {
 }
 
 a {
-	color: #fff;
+	color: #454946;
 }
 
 a:hover {
@@ -394,6 +394,6 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.instancename a:link {
-    color: #000 !important;
+.mdl-right a, .mdl-left a {
+    color: #ffffff;
 }

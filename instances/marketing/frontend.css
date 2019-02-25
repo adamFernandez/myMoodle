@@ -379,14 +379,3 @@ h2 {
     text-align: justify;
 
 /*Header borders style*/
-.path-course-view .section .summary {
-    line-height: 20px;
-    border: #fff!important;
-    border-top-style: solid !important;
-    border-top-width: 5px!important;
-    border-bottom-style: solid!important;
-    border-bottom-width: 5px!important;
-    padding-top: 10px!important;
-    padding-bottom: 10px!important;
-    margin-bottom: 15px!important;
-}

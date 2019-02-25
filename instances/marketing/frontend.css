@@ -381,12 +381,12 @@ h2 {
 /*Header borders style*/
 .path-course-view .section .summary {
     line-height: 20px;
-    border: #fff;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
+    border: #fff!important;
+    border-top-style: solid !important;
+    border-top-width: 5px!important;
+    border-bottom-style: solid!important;
+    border-bottom-width: 5px!important;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    margin-bottom: 15px!important;
 }

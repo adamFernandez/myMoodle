@@ -321,23 +321,26 @@ h2 {
 /*Weekly activites*/
  #week_header {
     height: auto;
-    margin: 0;
     white-space: normal;
     font-weight: 700;
     position: absolute;
     text-align: left !important;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'kingsfont-37';
-    color: #ffffff;
+    color: #ffffff !important;
     background: #ff3c39c9;
     z-index: 100;
-    margin-top: 27px;
+    margin-top: -73px;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     display: inline;
     cursor: default !important;
     line-height: normal;
-    margin-left: 14px;
-    max-width: 157px;
+    margin-left: 23px;
+    max-width: 80%;
     overflow: hidden;
-    text-align: left;
+    text-align: left !important;
     text-overflow: inherit;
 }

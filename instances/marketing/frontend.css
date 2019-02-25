@@ -347,3 +347,8 @@ h2 {
 .course-content ul.gtopics li.section .content {
     margin: 0 0px !important;
 }
+.course-content ul.gtopics li.section .content {
+    margin-top: 26px;
+    margin-left: -2px;
+    width: 100%;
+}

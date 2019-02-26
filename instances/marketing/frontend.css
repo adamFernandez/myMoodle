@@ -1,3 +1,7 @@
+.jsenabled a .block_settings a .block_tree a .tree_item.branch, a .jsenabled a .block_navigation a .block_tree a .tree_item.branch {
+    color: #fff;
+}
+
 #block-region-side-post .block .header .block_action {
     display: none;
 }

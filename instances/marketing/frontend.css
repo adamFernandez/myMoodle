@@ -1,4 +1,7 @@
-  #block-region-side-post .block .header .title h2 {
+#block-region-side-post .block .header .block_action {
+    display: none;
+}
+#block-region-side-post .block .header .title h2 {
     font-family: "BureauGrotesqueThreeSeven",Impact,Arial,Helvetica,sans-serif;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;

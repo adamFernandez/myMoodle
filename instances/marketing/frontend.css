@@ -1,6 +1,11 @@
+#navbar {
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 3000;
+}
+
 .breadcrumb {
     margin: 47px 181px 9px;
-    z-index: 9999;
 }
 
 #page-header .toplinks {

@@ -1,3 +1,11 @@
+#page-header .toplinks {
+    float: right;
+    display: none;
+}
+#coursesearch {
+    display: none;
+}
+
 .jsenabled .block_settings .block_tree .tree_item.branch, .jsenabled .block_navigation .block_tree .tree_item.branch {
     color: #ffffff;
     font-weight: 700;
@@ -20,7 +28,7 @@
     border-bottom: 2px solid #fff;
     text-shadow: none;
     word-wrap: normal;
-}  
+}
 #block-region-side-post .block {
     background-color: #35597E;
     border-radius: 0px 0px 0px 0px;
@@ -30,7 +38,7 @@
     border-top-style: none;
     border-bottom: 2px solid #fff;
 }
-  
+
 
 .activityinstance a {
 	color: #35597E;
@@ -260,7 +268,7 @@ Accordions
 }
 
 /* =========================================================== *
-Hero 
+Hero
 ============================================================== */
 
 main {
@@ -319,12 +327,12 @@ main {
     	font-family: 'kingsfont-37' !important;
 	padding-left: 15px;
   }
-  
+
   .hero-box h2 {
 	  font-size: 1.4em;
 	  padding-left: 15px;
   }
- 
+
 }
 
 @media all and (max-width: 380px) {
@@ -356,7 +364,7 @@ h2 {
     margin-left: 4.1em;
 }
 .custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
-  
+
     -webkit-font-smoothing: antialiased;
 }
 
@@ -437,4 +445,3 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-

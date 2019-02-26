@@ -396,5 +396,5 @@ hr {
 }
 .breadcrumb>li a {
     text-shadow: none;
-    color: aqua;
+    color: #fff !important;
 }

@@ -1,5 +1,6 @@
-.jsenabled a .block_settings a .block_tree a .tree_item.branch, a .jsenabled a .block_navigation a .block_tree a .tree_item.branch {
-    color: #fff;
+.jsenabled .block_settings .block_tree .tree_item.branch, .jsenabled .block_navigation .block_tree .tree_item.branch {
+    color: #ffffff;
+    font-weight: 700;
 }
 
 #block-region-side-post .block .header .block_action {

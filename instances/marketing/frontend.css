@@ -2,6 +2,10 @@
     color: #ffffff;
     font-weight: 700;
 }
+.jsenabled:hover .block_settings:hover .block_tree:hover .tree_item.branch:hover, .jsenabled:hover .block_navigation:hover .block_tree:hover .tree_item.branch:hover {
+    color: #ffffff;
+    font-weight: 700;
+}
 
 #block-region-side-post .block .header .block_action {
     display: none;

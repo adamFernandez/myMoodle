@@ -1,11 +1,19 @@
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    margin-bottom: 0;
+}
 #navbar {
     padding-left: 15px;
     padding-right: 15px;
-    z-index: 3000;
+    z-index: 1;
 }
 
 .breadcrumb {
     margin: 47px 181px 9px;
+    z-index: 100;
 }
 
 #page-header .toplinks {

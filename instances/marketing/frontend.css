@@ -1,3 +1,12 @@
+.activityinstance a {
+	color: #fff;
+}
+
+.instancename a:hover {
+	color: red;
+}
+
+
 .navbar-fixed-top, .navbar-fixed-bottom {
     position: absolute;
     right: 0;
@@ -393,11 +402,4 @@ hr {
     margin-left: 6px;
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
-}
-.instancename a {
-	color: #fff;
-}
-
-.instancename a:hover {
-	color: red;
 }

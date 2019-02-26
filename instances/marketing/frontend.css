@@ -394,14 +394,10 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.activity a:link, .activity a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+.activity a {
+	color: #fff;
 }
 
-.activity a:hover, .activity a:active {
-  background-color: red;
+.activity a:hover {
+	color: red;
+}

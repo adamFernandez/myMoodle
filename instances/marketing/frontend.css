@@ -1,3 +1,11 @@
+.activityinstance a {
+	color: #35597E;
+}
+
+.activityinstance a:hover {
+	color: #35597E;
+	text-decoration: underline;
+}
 .navbar-fixed-top, .navbar-fixed-bottom {
     position: absolute;
     right: 0;
@@ -395,11 +403,4 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.activityinstance a {
-	color: #35597E;
-}
 
-.activityinstance a:hover {
-	color: #35597E;
-	text-decoration: underline;
-}

@@ -394,9 +394,6 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-a.mdl-left {
-    color: #ffffff;
-}
-a.mdl-right {
-    color: #ffffff;
+.breadcrumb a {
+    color: #fff;
 }

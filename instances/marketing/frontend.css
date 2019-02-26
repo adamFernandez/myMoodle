@@ -394,7 +394,7 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
-.breadcrumb  a:link, .breadcrumb a:visited {
+.activity a:link, .activity a:visited {
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -403,5 +403,5 @@ hr {
   display: inline-block;
 }
 
-.breadcrumb  a:hover, .breadcrumb a:active {
+.activity a:hover, .activity a:active {
   background-color: red;

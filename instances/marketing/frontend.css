@@ -1,3 +1,8 @@
+.breadcrumb {
+    margin: 7px 181px 9px;
+    z-index: 9999;
+}
+
 #page-header .toplinks {
     float: right;
     display: none;

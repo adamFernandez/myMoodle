@@ -1,14 +1,8 @@
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-    border: none;
-    background: #3b6389;
-    box-shadow: none;
-}
-
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
     height: 5px;
-    /* background: aqua; */
+    background: #3b6389;
     z-index: 1;
 }
 .navbar-fixed-top, .navbar-fixed-bottom {

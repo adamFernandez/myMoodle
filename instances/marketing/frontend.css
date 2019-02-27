@@ -4,7 +4,11 @@
     box-shadow: none;
     max-height: 52px;
 }
-
+.nav.pull-right {
+    color: #fff;
+    border-left: 0px solid #436e94;
+    border-right: 0px solid #436e94;
+}
 #block-region-side-post .block {
     background-color: #3b6389;
     border-radius: 0px 0px 0px 0px;

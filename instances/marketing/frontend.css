@@ -162,7 +162,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 .custom-menu {
     float: left;
     margin-left: 30px !important;
-    margin-top: 26px !important;
+    margin-top: 0px !important;
 	}}
 #container {
     position: relative;

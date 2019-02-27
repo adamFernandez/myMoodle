@@ -8,7 +8,8 @@
 #navbar {
     padding-left: 15px;
     padding-right: 15px;
-    z-index: 1;
+    z-index: 30000;
+    order: 2;
 }
 
 .breadcrumb {

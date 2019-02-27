@@ -1,3 +1,25 @@
+input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 12px;
+    text-shadow: none;
+    border: none;
+    background: #ff4441;
+    box-shadow: 0;
+    border-radius: 1px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.5s;
+}
+button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, #page-user-profile .messagebox a:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover {
+    color: #fff;
+    background: #E9322B;
+}
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;

@@ -4,6 +4,9 @@
     box-shadow: none;
     max-height: 52px;
 }
+.navbar .popover-region {
+    border-left: 0px solid #436e94;
+}
 .nav.pull-right {
     color: #fff;
     border-left: 0px solid #436e94;

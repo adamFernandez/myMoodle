@@ -1,3 +1,13 @@
+#block-region-side-post .block {
+    background-color: #3b6389;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0 0px 0px rgb(66, 110, 148);
+    border-right-style: none;
+    border-left-style: none;
+    border-top-style: none;
+    border-bottom: 2px solid #fff;
+}
+
 input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
     color: #fff;
     font-size: 1em;
@@ -80,15 +90,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     text-shadow: none;
     word-wrap: normal;
 }
-#block-region-side-post .block {
-    background-color: #35597E;
-    border-radius: 0px 0px 0px 0px;
-    box-shadow: 0 2px 2px rgba(0,0,0,.05);
-    border-right-style: none;
-    border-left-style: none;
-    border-top-style: none;
-    border-bottom: 2px solid #fff;
-}
+
 
 
 .activityinstance a {

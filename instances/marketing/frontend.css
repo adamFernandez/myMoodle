@@ -258,6 +258,7 @@ h3 {
     	color: #ffffff !important;
         font-weight: 300 !important;
     	font-size: xx-large;
+      -webkit-font-smoothing: antialiased;
 }
 
 h3 > b  {

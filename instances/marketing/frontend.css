@@ -1,3 +1,7 @@
+.block_settings .block_tree [aria-expanded="true"] {
+    background-image: url(/theme/image.php/keats/core/1549968718/t/expanded);
+}
+
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: none;
     background: #3b6389 url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;
@@ -195,7 +199,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 body {
     font-size: 13px;
     line-height: 20px;
-    background: #3b6389;
+    background: #23496d;
 }
 
 /*Header*/

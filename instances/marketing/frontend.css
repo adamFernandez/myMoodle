@@ -1,6 +1,7 @@
 .course-content ul.gridicons li.currentselected {
     background-color: #2e638c;
 }
+
 .course-content ul.gridicons li .image_holder {
     width: 256px;
     height: 256px;

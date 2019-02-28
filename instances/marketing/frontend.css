@@ -1,3 +1,7 @@
+#block-region-side-post .block::after {
+  margin-bottom: 200px;
+}
+
 #back-top .chevron-up {
     z-index: 99999;
 }

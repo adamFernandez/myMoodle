@@ -1,3 +1,17 @@
+#back-top .chevron-up {
+    z-index: 99999;
+}
+
+#page-footer .footer-lower {
+    min-height: 95px;
+    background: #231f20;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {
     height: auto;

@@ -1,3 +1,11 @@
+@media (max-width: 979px) {
+  .navbar .nav-collapse.in {
+      border-top: 1px solid #2e638c;
+      background: #0f283cfa;
+}
+}
+
+
 @media (max-width: 1182px) {
   .breadcrumb {
       /* margin: 27px 181px 9px; */

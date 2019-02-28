@@ -5,9 +5,8 @@
       z-index: 100;
   }
   .navbar .nav.pull-right {
-      float: left;
-      /* margin-right: 0; */
-      margin: -13px 0px 0px 28px;
+      float: right;
+      margin: -5px 227px 0px 28px;
   }}
 
 /*Grid text format*/

@@ -1,3 +1,5 @@
+
+
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {
     height: auto;
@@ -25,6 +27,7 @@
     overflow: hidden;
     text-align: left;
     text-overflow: inherit;
+    -webkit-font-smoothing: antialiased;
 }
 .course-content ul.gridicons li.currentselected .icon_content {
     color: #ffffff!important ;

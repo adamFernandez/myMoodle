@@ -35,12 +35,12 @@
 }
 
 .course-content ul.gridicons li .image_holder {
-    width: 256px;
-    height: 256px;
+    width: 256px!important;
+    height: 256px !important;
     border-color: #2e638c !important;
     background-color: #2e638c !important;
-    border-width: 2px;
-    border-radius: 0px;
+    border-width: 2px !important;
+    border-radius: 0px !important;
 }
 
 .block_settings .block_tree [aria-expanded="true"] {

@@ -1,4 +1,14 @@
-
+@media (max-width: 1182px) {
+  .breadcrumb {
+      /* margin: 27px 181px 9px; */
+      margin: 65px 168px -22px 178px;
+      z-index: 100;
+  }
+  .navbar .nav.pull-right {
+      float: left;
+      /* margin-right: 0; */
+      margin: -13px 0px 0px 28px;
+  }}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {

@@ -117,7 +117,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     padding-left: 15px;
     padding-right: 15px;
     z-index: 30000;
-    order: 2;
+    /*order: 2;*/
 }
 
 .breadcrumb {

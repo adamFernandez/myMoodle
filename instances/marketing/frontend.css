@@ -1,7 +1,5 @@
-@media only screen and (max-width: 767px) {
-  .row-fluid {
-    float: left;d
-  }
+#page-content {
+    padding-bottom: 220px;
 }
 
 #block-region-side-post .block::after {

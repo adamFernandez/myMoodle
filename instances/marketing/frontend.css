@@ -1,3 +1,7 @@
+.course-content ul.gridicons li.currentselected .icon_content {
+    color: #ffffff;
+}
+
 .course-content ul.gridicons li.currentselected {
     background-color: #2e638c !important;
 }

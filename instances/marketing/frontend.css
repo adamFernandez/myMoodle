@@ -1,6 +1,7 @@
-@media (max-width: 767px)
-[class*="span"], .row-fluid [class*="span"] {
-    float: left;
+@media only screen and (max-width: 767px) {
+  .row-fluid {
+    float: left;d
+  }
 }
 
 #block-region-side-post .block::after {

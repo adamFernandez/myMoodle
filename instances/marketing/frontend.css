@@ -90,6 +90,10 @@ body {
 
 }
 /*Desktop version*/
+.no-overflow {
+    word-wrap: break-word;
+    color: white;
+}
 .course-content .single-section .section-navigation .mdl-left a{
     color: #fff !important;
 }

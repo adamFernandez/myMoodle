@@ -90,8 +90,14 @@ body {
 
 }
 /*Desktop version*/
-.course-content a, .course-content .activity.label, .course-content .activity.label td a {
-    color: #37618b !important;
+.course-content .single-section .section-navigation .mdl-left a{
+    color: #fff !important;
+}
+.course-content .single-section .section-navigation .mdl-right a{
+    color: #fff !important;
+}
+.course-content a {
+    color: #0070a8 !important;
 }
 
 .navbar .nav-collapse.in {

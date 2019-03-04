@@ -1,4 +1,11 @@
 /*Mobil view*/
+@media (max-width: 541px) {
+#week_header {
+    margin-top: -145px;
+    zoom: 65%;
+    max-width: 90%;
+}
+}
 @media (max-width: 767px) {
   #page-footer .footerlogo {
       display: none;

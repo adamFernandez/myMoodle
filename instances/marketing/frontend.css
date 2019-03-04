@@ -119,10 +119,13 @@ user agent stylesheet
 
 @media (max-width: 1182px) {
   .breadcrumb {
-      /* margin: 27px 181px 9px; */
-      margin: 65px 168px -22px 178px;
-      z-index: 100;
-  }
+    margin: 27px 181px 9px;
+    z-index: 100;
+    white-space: nowrap;
+    width: 201px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
   .navbar .nav.pull-right {
       float: right;
       margin: -5px 227px 0px 28px;

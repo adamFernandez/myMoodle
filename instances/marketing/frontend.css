@@ -10,6 +10,10 @@
 .course-content .single-section {
     margin-top: -3em;
 }
+.path-course-view .section .summary {
+    line-height: 20px;
+    zoom: 78%;
+}
 }
 @media (max-width: 669px) {
   .container-fluid {

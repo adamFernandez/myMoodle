@@ -2,7 +2,7 @@
 @media (max-width: 541px) {
 #week_header {
     margin-top: -145px;
-    zoom: 65%;
+    zoom: 65%!important;
     max-width: 90%;
 }
 }

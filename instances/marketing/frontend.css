@@ -59,10 +59,6 @@ body {
   #week_header {
       zoom: 84%;
   }
-  .navbar .nav-collapse.in {
-    border-top: 1px solid #d4d4d4;
-    background: #444444;
-}
 #page-footer .footer-lower .row-fluid {
     padding-bottom: 10px;
 }
@@ -94,6 +90,10 @@ body {
 
 }
 /*Desktop version*/
+.navbar .nav-collapse.in {
+  border-top: 1px solid #d4d4d4;
+  background: #444444;
+}
 #page-footer .footer-lower {
     min-height: 95px;
     background: #231f20;

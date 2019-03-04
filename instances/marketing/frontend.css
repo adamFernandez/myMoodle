@@ -4,13 +4,35 @@
       display: none;
 }
 #page-footer .footer-lower .row-fluid {
+    padding-bottom: 10px;
+}
+#page-footer .footerlogo {
+    padding-bottom: 15px;
+    display: none;
+}
+#page-footer .footer-lower .row-fluid {
+    min-height: 80px;
+    background: #221f20 !important;
+}
+#page-footer .footer-lower .row-fluid {
     padding-bottom: 0px;
     margin-top: -19px;
     background: #221f20;
 }
-
+#page-footer .footer-lower {
+    min-height: 95px;
+    background: #231f20;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: none;
 }
 
+}
+/*Desktop version*/
 #page-footer .footer-lower {
     min-height: 95px;
     background: #231f20;

@@ -90,6 +90,10 @@ body {
 
 }
 /*Desktop version*/
+.course-content p, .course-content .activity.label, .course-content .activity.label td a{
+    color: #37618b !important;
+}
+
 .navbar .nav-collapse.in {
   border-top: 1px solid #d4d4d4;
   background: #444444;

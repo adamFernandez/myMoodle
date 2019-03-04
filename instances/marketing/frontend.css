@@ -1,4 +1,13 @@
 /*Mobil view*/
+/*418px*/
+@media (max-width: 418px) {
+.course-content .single-section .section-navigation .mdl-left {
+    display: none;
+}
+.course-content .single-section .section-navigation .mdl-right {
+    display: none;
+}
+}
 @media (max-width: 669px) {
 #week_header {
     margin-top: -85px!important;

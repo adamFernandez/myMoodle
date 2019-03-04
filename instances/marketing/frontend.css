@@ -90,7 +90,7 @@ body {
 
 }
 /*Desktop version*/
-.course-content p, .course-content .activity.label, .course-content .activity.label td a{
+.course-content a, .course-content .activity.label, .course-content .activity.label td a {
     color: #37618b !important;
 }
 

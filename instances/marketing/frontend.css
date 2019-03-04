@@ -3,6 +3,9 @@
   #page-footer .footerlogo {
       display: none;
 }
+.navbar .brand {
+    zoom: 57%;
+  }
 #page-footer .footer-lower .row-fluid {
     padding-bottom: 10px;
 }

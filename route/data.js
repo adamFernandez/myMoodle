@@ -556,7 +556,7 @@ var data = {
           "1": "mod/forum/view.php?id=2471447"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=2471472"
+          "1": "mod/forum/view.php?id=2608736"
         },
        "forum4": {
           "1": "mod/forum/view.php?id=2471500"

@@ -10,19 +10,13 @@
 .course-content .single-section {
     margin-top: -3em;
 }
-#week_header {
-    margin-top: -113px!important;
-    zoom: 55%!important;
-    margin-left: 19px !important;
-    max-width: 63%!important;
-}
 }
 @media (max-width: 669px) {
-#week_header {
-    margin-top: -85px!important;
-    zoom: 65%!important;
-    max-width: 90%!important;
-}
+  #week_header {
+      margin-top: -112px!important;
+      zoom: 56%!important;
+      max-width: 76%!important;
+  }
 }
 @media (max-width: 767px) {
   #page-footer .footerlogo {

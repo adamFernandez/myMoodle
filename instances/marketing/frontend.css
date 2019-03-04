@@ -7,6 +7,15 @@
 .course-content .single-section .section-navigation .mdl-right {
     display: none;
 }
+.course-content .single-section {
+    margin-top: -3em;
+}
+#week_header {
+    margin-top: -113px!important;
+    zoom: 55%!important;
+    margin-left: 19px !important;
+    max-width: 63%!important;
+}
 }
 @media (max-width: 669px) {
 #week_header {

@@ -14,6 +14,11 @@
     line-height: 20px;
     zoom: 78%;
 }
+.course-content li.section ul {
+    list-style: disc;
+    background: white;
+    zoom: 82%;
+}
 }
 @media (max-width: 669px) {
   .container-fluid {

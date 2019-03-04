@@ -17,6 +17,10 @@
   #week_header {
       zoom: 84%;
   }
+  .navbar .nav-collapse.in {
+    border-top: 1px solid #d4d4d4;
+    background: #39628a;
+}
 #page-footer .footer-lower .row-fluid {
     padding-bottom: 10px;
 }

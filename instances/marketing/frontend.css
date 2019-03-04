@@ -78,7 +78,7 @@ body {
 #page-footer .footer-lower {
     min-height: 95px;
     background: #231f20;
-    position: fixed;
+    position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -107,7 +107,7 @@ body {
 #page-footer .footer-lower {
     min-height: 95px;
     background: #231f20;
-    position: fixed;
+    position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;

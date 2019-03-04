@@ -7,7 +7,7 @@
     zoom: 57%;
   }
 .breadcrumb {
-      margin: 51px 0px -15px 8px;
+      margin: 51px 0px -15px 8px !important;
       z-index: 100;
       text-overflow: ellipsis;
       white-space: nowrap;

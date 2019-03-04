@@ -73,7 +73,7 @@ body {
     width: 100%;
     color: white;
     text-align: center;
-    z-index: 9999;
+    z-index: 9999 !important;
 }
 
 user agent stylesheet

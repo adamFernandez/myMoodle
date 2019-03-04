@@ -1,7 +1,7 @@
 /*Mobil view*/
 @media (max-width: 669px) {
 #week_header {
-    margin-top: -145px!important;
+    margin-top: -85px!important;
     zoom: 65%!important;
     max-width: 90%!important;
 }

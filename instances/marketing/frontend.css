@@ -10,6 +10,11 @@
   #page-footer .footerlogo {
       display: none;
 }
+body {
+    font-size: 13px;
+    line-height: 20px;
+    background: #39628a !important;
+}
 .navbar .brand {
     zoom: 57%;
   }

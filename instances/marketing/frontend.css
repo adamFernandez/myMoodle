@@ -12,6 +12,15 @@
 }
 }
 @media (max-width: 669px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: -3px;
+    margin-left: -1px;
+    height: 5px;
+    background: #3b6389;
+    z-index: 1;
+}
   #week_header {
       margin-top: -112px!important;
       zoom: 56%!important;

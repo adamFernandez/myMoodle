@@ -103,6 +103,7 @@ body {
 
 }
 /*Desktop version*/
+
 .course-content .single-section .section-navigation .mdl-left a{
     color: #fff !important;
 }
@@ -136,6 +137,13 @@ user agent stylesheet
   .navbar .nav-collapse.in {
       border-top: 1px solid #2e638c;
       background: #4b4b4b;
+}
+.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
+    margin-top: 10px;
+    margin-right: 26px;
+    border: 1px solid #fff;
+    background: transparent;
+    box-shadow: none;
 }
 }
 

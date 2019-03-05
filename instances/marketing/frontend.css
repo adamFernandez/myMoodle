@@ -1,3 +1,26 @@
+.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 46%;
+}
+
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    display: block;
+    margin: 0;
+    width: 117px;
+}
+
+.navbar .popover-region, .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu {
+    padding: 6px 3px 0px 11px;
+    /* width: 52px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* width: 75%; */
+    /* overflow: hidden; */
+}
+
 .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
     margin-top: 10px;
     margin-right: 26px;

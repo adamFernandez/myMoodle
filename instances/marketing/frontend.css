@@ -63,7 +63,7 @@
     zoom: 82%;
 }
 }
-@media (max-width: 669px) {
+@media (max-width: 979px) {
   .container-fluid {
     padding-left: 0;
     padding-right: 0;

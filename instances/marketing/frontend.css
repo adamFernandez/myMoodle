@@ -138,6 +138,8 @@ user agent stylesheet
       border-top: 1px solid #2e638c;
       background: #4b4b4b;
 }
+}
+@media (min-width: 979px) {
 .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
     margin-top: 10px;
     margin-right: 26px;

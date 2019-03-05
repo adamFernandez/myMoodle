@@ -29,8 +29,8 @@
 }
 
 .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
-    margin-top: 10px;
-    margin-right: 26px;
+    margin-top: 23px;
+    margin-right: 16px;
     border: 1px solid #fff;
     background: transparent;
     box-shadow: none;

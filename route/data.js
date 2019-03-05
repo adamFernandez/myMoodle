@@ -65,27 +65,24 @@ var data = {
     "module3": {
       "week1": {
         "forum1": {
-          "1": "mod/forum/view.php?id=2069222"
+          "1": "mod/forum/view.php?id=2605955"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=2069181"
+          "1": "mod/forum/view.php?id=2605946"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=2072749"
-        },
-        "forum4": {
-          "1": "mod/forum/view.php?id=2072849"
+          "1": "mod/forum/view.php?id=2605966"
         }
       },
       "week2": {
-        "1": "mod/forum/view.php?id=2090351"
+        "1": "mod/forum/view.php?id=2605986"
       },
       "week3": {
         "forum1": {
-          "1": "mod/forum/view.php?id=2091337"
+          "1": "mod/forum/view.php?id=2606019"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=2091459"
+          "1": "mod/forum/view.php?id=2606030"
         }
       }
     },
@@ -559,10 +556,10 @@ var data = {
           "1": "mod/forum/view.php?id=2471447"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=2471472"
+          "1": "mod/forum/view.php?id=2608736"
         },
        "forum4": {
-          "1": "mod/forum/view.php?id=2471500"
+          "1": "mod/forum/view.php?id=2608770"
         },
        "forum5": {
           "1": "mod/forum/view.php?id=2594290"

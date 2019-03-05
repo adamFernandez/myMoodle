@@ -388,7 +388,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: none;
-    padding: 17px 15px 13px;
+    padding: 17px 7px 13px;
     border: none;
     border-right: 1px solid #6660;
 }

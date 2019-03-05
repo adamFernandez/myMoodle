@@ -79,7 +79,7 @@
       max-width: 76%!important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 950px) {
   #page-footer .footerlogo {
       display: none;
 }

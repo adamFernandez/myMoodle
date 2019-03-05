@@ -62,13 +62,6 @@
     background: white;
     zoom: 82%;
 }
-#gridiconcontainer {
-    height: auto;
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    zoom: 64%;
-}
 }
 @media (max-width: 979px) {
   .container-fluid {

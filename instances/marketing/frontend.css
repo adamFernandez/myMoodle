@@ -1,3 +1,12 @@
+@media (max-width: 1152px) {
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    display: block;
+    margin: 0;
+    width: 37px;
+    overflow: hidden;
+}
+}
+
 .navbar .nav.pull-right {
     float: right;
     margin-right: 10px;

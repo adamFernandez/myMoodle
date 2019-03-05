@@ -169,7 +169,16 @@ user agent stylesheet
 }
 
 
-
+@media (max-width: 1182px) {
+  .breadcrumb {
+    margin: 27px 181px 9px;
+    z-index: 100;
+    white-space: nowrap;
+    width: 201px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {

@@ -139,15 +139,6 @@ user agent stylesheet
       background: #4b4b4b;
 }
 }
-@media (min-width: 979px) {
-.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
-    margin-top: 10px;
-    margin-right: 26px;
-    border: 1px solid #fff;
-    background: transparent;
-    box-shadow: none;
-}
-}
 
 
 @media (max-width: 1182px) {

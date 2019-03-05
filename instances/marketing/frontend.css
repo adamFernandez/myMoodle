@@ -47,6 +47,10 @@
 .course-content .single-section .section-navigation .mdl-left {
     display: none;
 }
+input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
+  
+    zoom: 81%;
+}
 .course-content .single-section .section-navigation .mdl-right {
     display: none;
 }

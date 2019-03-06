@@ -1,5 +1,51 @@
 
+/* =========================================================== *
+Fonts
+============================================================== */
 
+@font-face {
+  font-family: kingsfont-37;
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+@font-face {
+	font-family: kingsfont-51;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+}
+@font-face {
+	font-family: Roboto-Light;
+	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto_Light.ttf');
+}
+
+html, body, p, li,input, button, select, textarea {
+	font-family:'Roboto-Light' !important;
+}
+
+h2 {
+	font-family: 'kingsfont-37' !important;
+	font-weight: 400 !important;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+h3 {
+	font-family: 'kingsfont-37';
+    	color: #ffffff !important;
+        font-weight: 300 !important;
+    	font-size: xx-large;
+      -webkit-font-smoothing: antialiased;
+}
+
+h3 > b  {
+	font-weight: 400 !important;
+}
 .navbar .nav.pull-right {
     float: right;
     margin-right: 10px;
@@ -48,7 +94,7 @@
     display: none;
 }
 input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
-  
+
     zoom: 81%;
 }
 .course-content .single-section .section-navigation .mdl-right {
@@ -448,53 +494,7 @@ body {
     display: none;
 }
 
-/* =========================================================== *
-Fonts
-============================================================== */
 
-@font-face {
-  font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
-}
-
-@font-face {
-	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
-}
-@font-face {
-	font-family: Roboto-Light;
-	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto_Light.ttf');
-}
-
-html, body, p, li,input, button, select, textarea {
-	font-family:'Roboto-Light' !important;
-}
-
-h2 {
-	font-family: 'kingsfont-37' !important;
-	font-weight: 400 !important;
-}
-
-a {
-	color: #fff;
-}
-
-a:hover {
-	color: #fff;
-	text-decoration: underline;
-}
-
-h3 {
-	font-family: 'kingsfont-37';
-    	color: #ffffff !important;
-        font-weight: 300 !important;
-    	font-size: xx-large;
-      -webkit-font-smoothing: antialiased;
-}
-
-h3 > b  {
-	font-weight: 400 !important;
-}
 
 /* =========================================================== *
 Toggles and breadcrumbs

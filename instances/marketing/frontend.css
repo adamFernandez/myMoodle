@@ -46,6 +46,13 @@ h3 {
 h3 > b  {
 	font-weight: 400 !important;
 }
+
+/*Mobile view look*/
+.block .content {
+    padding: 4px 14px;
+    word-wrap: break-word;
+    color: white;
+}
 .navbar .nav.pull-right {
     float: right;
     margin-right: 10px;

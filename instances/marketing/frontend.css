@@ -1,8 +1,55 @@
+
+
+.navbar .nav.pull-right {
+    float: right;
+    margin-right: 10px;
+}
+
+.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 46%;
+}
+
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    display: block;
+    margin: 0;
+    width: 117px;
+}
+
+.navbar .popover-region, .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu {
+    padding: 6px 3px 0px 11px;
+    /* width: 52px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* width: 75%; */
+    /* overflow: hidden; */
+}
+
+.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
+    margin-top: 23px;
+    margin-right: 16px;
+    border: 1px solid #fff;
+    background: transparent;
+    box-shadow: none;
+}
+#container {
+    -webkit-box-shadow: 0 0 0px rgb(43, 98, 141);
+    -moz-box-shadow: 0 0 10px rgba(43, 98, 141);
+    box-shadow: 0 0 0px rgb(43, 98, 141);
+}
+
 /*Mobil view*/
 /*418px*/
 @media (max-width: 418px) {
 .course-content .single-section .section-navigation .mdl-left {
     display: none;
+}
+input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
+  
+    zoom: 81%;
 }
 .course-content .single-section .section-navigation .mdl-right {
     display: none;
@@ -20,7 +67,7 @@
     zoom: 82%;
 }
 }
-@media (max-width: 669px) {
+@media (max-width: 979px) {
   .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -36,7 +83,7 @@
       max-width: 76%!important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 979px) {
   #page-footer .footerlogo {
       display: none;
 }
@@ -89,7 +136,17 @@ body {
 }
 
 }
+
 /*Desktop version*/
+@media (max-width: 1156px) {
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    display: block;
+    margin: 0;
+    width: 37px;
+    overflow: hidden;
+}
+}
+
 .course-content .single-section .section-navigation .mdl-left a{
     color: #fff !important;
 }
@@ -129,17 +186,14 @@ user agent stylesheet
 
 @media (max-width: 1182px) {
   .breadcrumb {
-    margin: 27px 181px 9px;
+    margin: 27px 173px 9px;
     z-index: 100;
     white-space: nowrap;
     width: 201px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-  .navbar .nav.pull-right {
-      float: right;
-      margin: -5px 227px 0px 28px;
-  }}
+}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {
@@ -262,7 +316,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 }
 
 .breadcrumb {
-    margin: 27px 181px 9px;
+    margin: 27px 173px 9px;
     z-index: 100;
 }
 
@@ -338,7 +392,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: none;
-    padding: 17px 15px 13px;
+    padding: 17px 7px 13px;
     border: none;
     border-right: 1px solid #6660;
 }
@@ -356,7 +410,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     margin: 0 auto;
     padding: 50px 0 0;
     background: #35597E;
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
+    box-shadow: 0 0 0px rgb(43, 98, 141);
 }
 
 #page-footer .row-fluid {

@@ -611,7 +611,7 @@ h2 {
 }
 
 /*make orange underline*/
-.section-0 h3 {
+.section .main h3 {
     border-bottom: 5px solid #FF5F05;
 }
 

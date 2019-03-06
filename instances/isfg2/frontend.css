@@ -367,7 +367,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 body {
     font-size: 13px;
     line-height: 20px;
-    background: #23496d;
+    background: #eef1f2;
 }
 
 /*Header*/
@@ -602,9 +602,9 @@ h2 {
 }
 
 /*main page remove "General" heading*/
-.gtopics-0 h3 {
+/*.gtopics-0 h3 {
     display:none;
-}
+}*/
 
 
 /*Weekly activites*/

@@ -656,11 +656,13 @@ h2 {
     margin-right:  0px;
     width: 100%;
 }
+.single-section{
+    background: #ffffff;
+}
 .single-section h3.sectionname {
     text-align: left;
     padding: 10px 0 0;
     display: block;
-    background: #ffffff;
 }
 .course-content .single-section .section-navigation {
     display: unset;

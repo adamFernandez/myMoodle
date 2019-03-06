@@ -647,8 +647,8 @@ h2 {
     background-color: #ffffff;
 }
 
-.course-content ul.gtopics li .section .main{
-    background-color: #ffffff;
+.course-content ul.gtopics li #section-0{
+    background-color: #eef1f2;
 }
 
 

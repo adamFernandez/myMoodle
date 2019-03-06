@@ -677,12 +677,6 @@ h2 {
 }
 
 
-/*make week heading go in paper*/
-.single-section h3.sectionname{
-    padding:21px;
-    background:#ffffff;
-    margin-bottom:-21px;
-}
 
 /*get rid of white border at bottom of content*/
 .course-content ul li.section.main {
@@ -697,6 +691,13 @@ h2 {
     text-align: left;
     padding: 10px 0 0;
     display: block;
+}
+
+/*make week heading go in paper*/
+.single-section h3.sectionname{
+    padding:21px;
+    background:#ffffff;
+    margin-bottom:-21px;
 }
 
 

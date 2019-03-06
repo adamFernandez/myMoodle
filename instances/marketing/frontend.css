@@ -48,9 +48,7 @@ h3 > b  {
 }
 
 /*Mobile view look*/
-.block .content {
-    padding: 4px 14px;
-    word-wrap: break-word;
+.block .content a {
     color: white;
 }
 .navbar .nav.pull-right {

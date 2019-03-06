@@ -679,7 +679,7 @@ h2 {
 }
 
 /*exception*/
-.section .main {
+.section:not(.main) {
     background:#eef1f2;
 }
 

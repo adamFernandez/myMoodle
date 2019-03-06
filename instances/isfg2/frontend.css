@@ -601,6 +601,11 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
+/*main page remove "General" heading*/
+.gtopics-0 h3 {
+    display:none;
+}
+
 
 /*Weekly activites*/
  #week_header {

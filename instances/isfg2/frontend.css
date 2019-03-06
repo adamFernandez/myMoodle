@@ -275,7 +275,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 }
 
 .jsenabled .block_settings .block_tree .tree_item.branch, .jsenabled .block_navigation .block_tree .tree_item.branch {
-    color: #ffffff;
+    color: #0A2D50;
     font-weight: 700;
 }
 .jsenabled:hover .block_settings:hover .block_tree:hover .tree_item.branch:hover, .jsenabled:hover .block_navigation:hover .block_tree:hover .tree_item.branch:hover {
@@ -413,7 +413,7 @@ Fonts
 }
 
 html, body, p, li,input, button, select, textarea {
-	font-family:'Roboto-Light' !important;
+	font-family:'kingsfont-51' !important;
 }
 
 h2 {

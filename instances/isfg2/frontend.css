@@ -522,8 +522,7 @@ main {
     align-items: center;
     margin: 0 auto;
     border:0px;
-    border-bottom: 5px solid #FF5F05;
-}
+    }
 
 .hero-box {
     	background-color:rgba(0, 0, 0, 0);
@@ -611,10 +610,10 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
-/*main page remove "General" heading*/
-/*.gtopics-0 h3 {
-    display:none;
-}*/
+/*make orange underline*/
+.gtopics h3 {
+    border-bottom: 5px solid #FF5F05;
+}
 
 
 /*Weekly activites*/

@@ -279,7 +279,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-weight: 700;
 }
 .jsenabled:hover .block_settings:hover .block_tree:hover .tree_item.branch:hover, .jsenabled:hover .block_navigation:hover .block_tree:hover .tree_item.branch:hover {
-    color: #ffffff;
+    color: #4F759B;
     font-weight: 700;
 }
 
@@ -301,11 +301,11 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 
 
 .activityinstance a {
-	color: #35597E;
+	color: #0A2D50;
 }
 
 .activityinstance a:hover {
-	color: #35597E;
+	color: #4F759B;
 	text-decoration: underline;
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
@@ -426,7 +426,7 @@ a {
 }
 
 a:hover {
-	color: #fff;
+	color: #4F759B;
 	text-decoration: underline;
 }
 

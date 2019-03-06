@@ -511,7 +511,7 @@ Hero
 ============================================================== */
 
 main {
-  overflow: hidden;
+  /*overflow: hidden;*/
   font-family: 'kingsfont-37';
 }
 
@@ -611,9 +611,9 @@ h2 {
 }
 
 /*make orange underline*/
-.section .main h3 {
+/*.section .main h3 {
     border-bottom: 5px solid #FF5F05;
-}
+}*/
 
 
 /*Weekly activites*/

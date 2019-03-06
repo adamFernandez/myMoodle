@@ -90,6 +90,10 @@ body {
 
 }
 /*Desktop version*/
+
+#page-content{
+    padding-top:30px;
+}
 .course-content .single-section .section-navigation .mdl-left a{
     color: #0A2D50 !important;
     padding-top:5px;
@@ -511,8 +515,13 @@ Hero
 ============================================================== */
 
 main {
-  /*overflow: hidden;*/
+  overflow: hidden;
   font-family: 'kingsfont-37';
+}
+
+/*hide all hero*/
+.summary{
+    display:none;
 }
 
 .hero {
@@ -610,10 +619,6 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
-/*make orange underline*/
-/*.section .main h3 {
-    border-bottom: 5px solid #FF5F05;
-}*/
 
 
 /*Weekly activites*/
@@ -642,6 +647,24 @@ h2 {
     text-align: left !important;
     text-overflow: inherit;
 }
+
+.course-content .single-section ul.gtopics li{
+    background-color: #ffffff;
+}
+
+/*setting orange underline*/
+
+.course-content ul.gtopics h3.sectionname{
+    border-bottom: 5px solid #FF5F05;
+    font-size: 48px;
+}
+
+.course-content ul.gtopics-0 h3.sectionname{
+    border-bottom: 5px solid #FF5F05;
+    font-size: 48px;
+}
+
+
 .course-content ul.gtopics li.section .content {
     margin: 0 0px !important;
 }
@@ -652,11 +675,23 @@ h2 {
     margin-right:  0px;
     width: 100%;
 }
+
+/*get rid of white border at bottom of content*/
+.course-content ul li.section.main {
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+   border-bottom: 3px solid #eef1f2;
+}
+
+
+
 .single-section h3.sectionname {
     text-align: left;
     padding: 10px 0 0;
     display: block;
 }
+
+
 .course-content .single-section .section-navigation {
     display: unset;
     padding: .5em;

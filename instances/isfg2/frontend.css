@@ -334,7 +334,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 .custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
     color: #fff;
     text-shadow: none;
-    background-color: green;
+    background-color: #53545500;
 }
 .custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
     color: #fff;
@@ -500,12 +500,18 @@ Accordions
 	color: #5F5550 !important;
 }
 
+
+/*setting h3 for subheadings within weeks*/
+.no-overflow h3{
+    font-size: 1.5em;
+}
+
 /* =========================================================== *
 Hero
 ============================================================== */
 
 main {
-  overflow: hidden;
+  /*overflow: hidden;*/
   font-family: 'kingsfont-37';
 }
 
@@ -516,8 +522,7 @@ main {
     align-items: center;
     margin: 0 auto;
     border:0px;
-    border-bottom: 5px solid #FF5F05;
-}
+    }
 
 .hero-box {
     	background-color:rgba(0, 0, 0, 0);
@@ -605,9 +610,9 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
-/*main page remove "General" heading*/
-/*.gtopics-0 h3 {
-    display:none;
+/*make orange underline*/
+/*.section .main h3 {
+    border-bottom: 5px solid #FF5F05;
 }*/
 
 
@@ -650,7 +655,7 @@ h2 {
 .single-section h3.sectionname {
     text-align: left;
     padding: 10px 0 0;
-    display: none;
+    display: block;
 }
 .course-content .single-section .section-navigation {
     display: unset;

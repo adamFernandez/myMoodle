@@ -171,11 +171,11 @@ user agent stylesheet
     -webkit-font-smoothing: antialiased;
 }
 .course-content ul.gridicons li.currentselected .icon_content {
-    color: #ffffff!important ;
+    color: #0A2D50!important ;
 }
 
 .course-content ul.gridicons li.currentselected {
-    background-color: #2e638c !important;
+    background-color: #cdd7dc !important;
 }
 
 .course-content ul.gridicons li .image_holder {

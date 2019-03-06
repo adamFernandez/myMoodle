@@ -511,7 +511,7 @@ Hero
 ============================================================== */
 
 main {
-  /*overflow: hidden;*/
+  overflow: hidden;
   font-family: 'kingsfont-37';
 }
 
@@ -642,6 +642,10 @@ h2 {
     text-align: left !important;
     text-overflow: inherit;
 }
+
+.course-content ul.gtopics{
+    background-color: #ffffff;
+}
 .course-content ul.gtopics li.section .content {
     margin: 0 0px !important;
 }
@@ -656,6 +660,7 @@ h2 {
     text-align: left;
     padding: 10px 0 0;
     display: block;
+    background: #ffffff;
 }
 .course-content .single-section .section-navigation {
     display: unset;

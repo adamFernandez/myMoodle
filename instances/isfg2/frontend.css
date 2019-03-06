@@ -643,13 +643,10 @@ h2 {
     text-overflow: inherit;
 }
 
-.course-content ul.gtopics li{
+.course-content .single-section ul.gtopics li{
     background-color: #ffffff;
 }
 
-.course-content ul.gtopics li #section-0{
-    background-color: #eef1f2;
-}
 
 
 .course-content ul.gtopics li.section .content {

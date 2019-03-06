@@ -90,6 +90,10 @@ body {
 
 }
 /*Desktop version*/
+
+#page-content{
+    padding-top:30px;
+}
 .course-content .single-section .section-navigation .mdl-left a{
     color: #0A2D50 !important;
     padding-top:5px;
@@ -615,10 +619,6 @@ h2 {
     -webkit-font-smoothing: antialiased;
 }
 
-/*make orange underline*/
-/*.section .main h3 {
-    border-bottom: 5px solid #FF5F05;
-}*/
 
 
 /*Weekly activites*/
@@ -656,10 +656,12 @@ h2 {
 
 .course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #FF5F05;
+    font-size: 2em;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
+    font-size: 2em;
 }
 
 

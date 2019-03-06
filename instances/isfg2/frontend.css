@@ -643,7 +643,7 @@ h2 {
     text-overflow: inherit;
 }
 
-.course-content ul.gtopics{
+.course-content ul.gtopics li{
     background-color: #ffffff;
 }
 .course-content ul.gtopics li.section .content {
@@ -658,18 +658,16 @@ h2 {
 }
 
 /*set white paper color*/
-.course-content .single-section{
+/*.course-content .single-section{
     background: #ffffff;
     padding:10px;
-}
+}*/
 
 /*set exceptions to white paper*/
-.section-navigation span{
+/*.section-navigation span{
     background:#eef1f2;
-}
-.section-navigation span{
-    background:#eef1f2;
-}
+}*/
+
 
 
 .single-section h3.sectionname {

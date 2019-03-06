@@ -292,10 +292,6 @@ user agent stylesheet
     border-radius: 0px !important;
 }
 
-.block_settings .block_tree [aria-expanded="true"] {
-    background-image: url(/theme/image.php/keats/core/1549968718/t/expanded.svg);
-}
-
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: none;
     background: #3b6389 url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;

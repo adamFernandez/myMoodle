@@ -88,43 +88,13 @@ var data = {
     },
     "module4": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2271733"
-      },
-      "forumU1": {
-        "1": "mod/forum/view.php?id=2271741"
+        "1": "mod/forum/view.php?id=2572811"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=2271769"
+        "1": "mod/forum/view.php?id=2572836"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2271857"
-      },
-      "forum4": {
-        "1": "mod/forum/view.php?id=2429484"
-      },
-      "forum5": {
-        "1": "mod/forum/discuss.php?d=162870"
-      },
-      "forum6": {
-        "1": "mod/forum/discuss.php?d=162871"
-      },
-      "forum7": {
-        "1": "mod/forum/discuss.php?d=162872"
-      },
-      "forum8": {
-        "1": "mod/forum/discuss.php?d=163507"
-      },
-      "forum9": {
-        "1": "mod/forum/discuss.php?d=163509"
-      },
-      "forum10": {
-        "1": "mod/forum/discuss.php?d=163510"
-      },
-      "forum11": {
-        "1": "mod/forum/discuss.php?d=163555"
-      },
-      "forum12": {
-        "1": "mod/forum/discuss.php?d=163556"
+        "1": "mod/forum/view.php?id=2572865"
       }
     }
   },

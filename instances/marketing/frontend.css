@@ -293,7 +293,7 @@ user agent stylesheet
 }
 
 .block_settings .block_tree [aria-expanded="true"] {
-    background-image: url(/theme/image.php/keats/core/1549968718/t/expanded);
+    background-image: url(/theme/image.php/keats/core/1549968718/t/expanded.svg);
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {

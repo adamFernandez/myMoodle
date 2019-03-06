@@ -97,7 +97,7 @@ body {
     color: #fff !important;
 }
 .course-content a {
-    color: #0070a8 !important;
+    color: #0A2D50 !important;
 }
 
 .navbar .nav-collapse.in {
@@ -655,7 +655,7 @@ h2 {
 }
 .course-content li.section ul {
     list-style: disc;
-    background: white;
+    background: transparent;
 }
 #week_header_content {
     color: #ffffff !important;

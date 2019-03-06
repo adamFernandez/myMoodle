@@ -678,7 +678,7 @@ h2 {
 
 
 /*make week heading go in paper*/
-.single-section .section-navigation .navigationtitle h3.sectionname{
+.single-section h3.sectionname{
     padding:21px;
     background:#ffffff;
     margin-bottom:-21px;

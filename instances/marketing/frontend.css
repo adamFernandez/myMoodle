@@ -14,7 +14,7 @@ Fonts
 }
 @font-face {
 	font-family: Roboto-Light;
-	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto_Light.ttf');
+	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto-Light.woff');
 }
 
 html, body, p, li,input, button, select, textarea {

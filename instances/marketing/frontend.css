@@ -48,7 +48,7 @@ h3 > b  {
 }
 
 /*Mobile view look*/
-.post, .activityhead, .block a .content a{
+.post, .activityhead, .message, .block a .content a{
     color: white;
 }
 .navbar .nav.pull-right {

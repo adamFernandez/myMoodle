@@ -656,9 +656,22 @@ h2 {
     margin-right:  0px;
     width: 100%;
 }
-.single-section{
+
+/*set white paper color*/
+/*.single-section{
     background: #ffffff;
+    padding:10px;
+}*/
+
+/*set exceptions to white paper*/
+/*.section-navigation span{
+    background:#eef1f2;
 }
+.section-navigation span{
+    background:#eef1f2;
+}*/
+
+
 .single-section h3.sectionname {
     text-align: left;
     padding: 10px 0 0;

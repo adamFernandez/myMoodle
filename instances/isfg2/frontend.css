@@ -91,10 +91,10 @@ body {
 }
 /*Desktop version*/
 .course-content .single-section .section-navigation .mdl-left a{
-    color: #fff !important;
+    color: #0A2D50 !important;
 }
 .course-content .single-section .section-navigation .mdl-right a{
-    color: #fff !important;
+    color: #0A2D50 !important;
 }
 .course-content a {
     color: #0A2D50 !important;
@@ -193,7 +193,7 @@ user agent stylesheet
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
     border: none;
-    background: #3b6389 url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;
+    background: #5a6469 url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;
     box-shadow: none;
     max-height: 52px;
 }

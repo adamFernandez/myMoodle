@@ -215,13 +215,13 @@ user agent stylesheet
     border-right: 0px solid #436e94;
 }
 #block-region-side-post .block {
-    background-color: #3b6389;
+    background-color: transparent;
     border-radius: 0px 0px 0px 0px;
-    box-shadow: 0 0px 0px rgb(66, 110, 148);
+    /*box-shadow: 0 0px 0px rgb(66, 110, 148);*/
     border-right-style: none;
     border-left-style: none;
     border-top-style: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: none;
 }
 
 input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
@@ -300,7 +300,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
     font-weight: 700;
-    color: #fff;
+    color: #241f20;
     padding-bottom: 22px;
     border-bottom: 2px solid #fff;
     text-shadow: none;

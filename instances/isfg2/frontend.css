@@ -653,9 +653,12 @@ h2 {
 }
 
 .course-content ul.gtopics h3.sectionname{
-    border-bottom: 5px solid #FF5F05;
+    border:none;
 }
 
+.course-content ul.gtopics-0 h3.sectionname{
+    border-bottom: 5px solid #FF5F05;
+}
 
 .course-content ul.gtopics li.section .content {
     margin: 0 0px !important;

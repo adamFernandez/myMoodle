@@ -677,6 +677,12 @@ h2 {
     padding: 10px 0 0;
     display: block;
 }
+
+/*exception*/
+.section .main {
+    background:#eef1f2;
+}
+
 .course-content .single-section .section-navigation {
     display: unset;
     padding: .5em;

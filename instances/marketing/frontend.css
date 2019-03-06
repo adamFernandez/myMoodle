@@ -46,6 +46,11 @@ h3 {
 h3 > b  {
 	font-weight: 400 !important;
 }
+
+/*Mobile view look*/
+.post, .activityhead, .block a .content a{
+    color: white;
+}
 .navbar .nav.pull-right {
     float: right;
     margin-right: 10px;

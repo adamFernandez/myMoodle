@@ -658,18 +658,18 @@ h2 {
 }
 
 /*set white paper color*/
-/*.single-section{
+.course-content .single-section{
     background: #ffffff;
     padding:10px;
-}*/
+}
 
 /*set exceptions to white paper*/
-/*.section-navigation span{
+.section-navigation span{
     background:#eef1f2;
 }
 .section-navigation span{
     background:#eef1f2;
-}*/
+}
 
 
 .single-section h3.sectionname {
@@ -678,10 +678,6 @@ h2 {
     display: block;
 }
 
-/*exception*/
-.section:not(.main) {
-    background:#eef1f2;
-}
 
 .course-content .single-section .section-navigation {
     display: unset;

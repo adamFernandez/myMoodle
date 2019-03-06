@@ -652,13 +652,6 @@ h2 {
     background-color: #ffffff;
 }
 
-/*make week heading go in paper*/
-.section-navigation .navigationtitle h3.sectionname{
-    padding:21px;
-    background:#ffffff;
-    margin-bottom:-21px;
-}
-
 /*setting orange underline*/
 
 .course-content ul.gtopics h3.sectionname{
@@ -681,6 +674,14 @@ h2 {
     margin-bottom:  0px;
     margin-right:  0px;
     width: 100%;
+}
+
+
+/*make week heading go in paper*/
+.section-navigation .navigationtitle h3.sectionname{
+    padding:21px;
+    background:#ffffff;
+    margin-bottom:-21px;
 }
 
 /*get rid of white border at bottom of content*/

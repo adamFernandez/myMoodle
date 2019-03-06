@@ -217,7 +217,7 @@ user agent stylesheet
 #block-region-side-post .block {
     background-color: transparent;
     border-radius: 0px 0px 0px 0px;
-    /*box-shadow: 0 0px 0px rgb(66, 110, 148);*/
+    box-shadow: none;
     border-right-style: none;
     border-left-style: none;
     border-top-style: none;

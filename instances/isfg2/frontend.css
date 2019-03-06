@@ -300,7 +300,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
     font-weight: 700;
-    color: #241f20;
+    color: #241f20 !important;
     padding-bottom: 22px;
     border-bottom: none;
     text-shadow: none;

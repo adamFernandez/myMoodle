@@ -515,6 +515,11 @@ main {
   font-family: 'kingsfont-37';
 }
 
+/*hide all hero*/
+.summary{
+    display:none;
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -660,16 +665,12 @@ h2 {
     width: 100%;
 }
 
-/*set white paper color*/
-/*.course-content .single-section{
-    background: #ffffff;
-    padding:10px;
-}*/
-
-/*set exceptions to white paper*/
-/*.section-navigation span{
-    background:#eef1f2;
-}*/
+/*get rid of white border at bottom of content*/
+.course-content ul li.section.main {
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+   border-bottom: 3px solid #eef1f2;
+}
 
 
 

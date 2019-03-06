@@ -302,7 +302,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-weight: 700;
     color: #241f20;
     padding-bottom: 22px;
-    border-bottom: 2px solid #fff;
+    border-bottom: none;
     text-shadow: none;
     word-wrap: normal;
 }

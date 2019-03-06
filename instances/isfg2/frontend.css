@@ -646,6 +646,12 @@ h2 {
 .course-content ul.gtopics li{
     background-color: #ffffff;
 }
+
+.course-content ul.gtopics li .section .main{
+    background-color: #ffffff;
+}
+
+
 .course-content ul.gtopics li.section .content {
     margin: 0 0px !important;
 }

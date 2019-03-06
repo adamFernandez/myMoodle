@@ -187,12 +187,13 @@ user agent stylesheet
 }
 
 .course-content ul.gridicons li .image_holder {
-    width: 256px!important;
-    height: 150px !important;
+    width: 280px!important;
+    height: 100px !important;
     border-color: #cdd7dc !important;
     background-color: #cdd7dc !important;
     border-width: 0px !important;
     border-radius: 0px !important;
+    padding:0px;
 }
 
 .block_settings .block_tree [aria-expanded="true"] {

@@ -355,7 +355,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     max-width: 1280px;
     margin: 0 auto;
     padding: 50px 0 0;
-    background: #35597E;
+    background: #eef1f2;
     -moz-box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 
@@ -373,7 +373,7 @@ body {
 /*Header*/
 #page-header {
     margin: 0 0 5px;
-    background: #35597E url(https://git.iddkingsonline.com/instances/marketing/blank.gif) no-repeat center top;
+    background: #eef1f2 url(https://git.iddkingsonline.com/instances/marketing/blank.gif) no-repeat center top;
 }
 
 #page-header {

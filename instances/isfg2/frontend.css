@@ -652,6 +652,9 @@ h2 {
     background-color: #ffffff;
 }
 
+.course-content ul.gtopics h3.sectionname{
+    border-bottom: 5px solid #FF5F05;
+}
 
 
 .course-content ul.gtopics li.section .content {

@@ -5,12 +5,12 @@ Fonts
 
 @font-face {
   font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff');
 }
 
 @font-face {
 	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.woff');
 }
 @font-face {
 	font-family: Roboto-Light;

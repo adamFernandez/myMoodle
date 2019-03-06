@@ -116,6 +116,7 @@ input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submi
     list-style: disc;
     background: white;
     zoom: 82%;
+    color: #21486e;
 }
 }
 @media (max-width: 979px) {
@@ -702,6 +703,7 @@ h2 {
 .course-content li.section ul {
     list-style: disc;
     background: white;
+    color: #21486e;
 }
 #week_header_content {
     color: #ffffff !important;

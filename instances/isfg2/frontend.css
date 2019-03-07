@@ -748,4 +748,34 @@ hr {
     border-bottom: 4px solid #fff !important;
 }
 
+/* this styles the buttons for transcript download and accordion*/
+.transcript-links {
+    text-align: right;
+}
+
+.transcript-links .btn-secondary {
+    color: #0d4277;
+    background-color: white;
+    background-image: none;
+    border: white;
+    margin: 30px;
+    text-shadow: none;
+    box-shadow: none;
+    font-family: 'kingsfont-51';
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.transcript-links .btn-secondary:hover {
+    background-color: white;
+    background-image: none;
+    border: white;
+    margin: 30px;
+    text-shadow: none;
+    box-shadow: none;
+    font-family: 'kingsfont-51';
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
 

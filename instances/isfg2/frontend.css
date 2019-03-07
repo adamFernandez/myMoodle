@@ -428,6 +428,7 @@ html, body, p, li,input, button, select, textarea {
 h2 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
+    color: #241f20;
 }
 
 a {
@@ -518,6 +519,7 @@ Hero
 main {
   overflow: hidden;
   font-family: 'kingsfont-37';
+  background: #ffffff;
 }
 
 /*hide all hero*/

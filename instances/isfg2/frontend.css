@@ -182,13 +182,14 @@ user agent stylesheet
     color: #0A2D50!important ;
 }
 
-/*.course-content ul.gridicons li.currentselected {
-    background-color: #cdd7dc !important;
-}*/
-
-.course-content ul.gridicons li a #gridsection-1{
+.course-content ul.gridicons li.currentselected {
+    /*background-color: #cdd7dc !important;*/
     background-image: url("information.png");
 }
+
+/*.course-content ul.gridicons li a #gridsection-1{
+    background-image: url("information.png");
+}*/
 
 .course-content ul.gridicons li .image_holder {
     width: 256px!important;

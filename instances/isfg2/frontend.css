@@ -183,8 +183,7 @@ user agent stylesheet
 }
 
 .course-content ul.gridicons li.currentselected {
-    /*background-color: #cdd7dc !important;*/
-    background-image: url("information.png");
+    background-color: #cdd7dc !important;
 }
 
 /*.course-content ul.gridicons li a #gridsection-1{
@@ -666,11 +665,13 @@ h2 {
 .course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    background-image: url("information.png");
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    background-image: url("information.png");
 }
 
 

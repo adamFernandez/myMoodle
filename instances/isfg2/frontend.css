@@ -754,7 +754,7 @@ hr {
 }
 
 .transcript-links .btn-secondary {
-    color: #0d4277;
+    color: #0A2D50;
     background-color: white;
     background-image: none;
     border: white;
@@ -776,6 +776,8 @@ hr {
     font-family: 'kingsfont-51';
     font-weight: 700;
     font-size: 1.1em;
+    color:#4F759B;
+    text-decoration: underline;
 }
 
 

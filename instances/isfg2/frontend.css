@@ -183,14 +183,14 @@ user agent stylesheet
 }
 
 .course-content ul.gridicons li.currentselected {
-    background-color: #cdd7dc !important;
+    background-color: #eef1f2 !important;
 }
 
 .course-content ul.gridicons li .image_holder {
     width: 256px!important;
     height: 256px !important;
-    border-color: #cdd7dc !important;
-    background-color: #cdd7dc !important;
+    border-color: #eef1f2 !important;
+    background-color: #eef1f2 !important;
     border-width: 0px !important;
     border-radius: 0px !important;
     padding:0px;

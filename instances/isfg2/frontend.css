@@ -680,7 +680,7 @@ h2 {
 }
 
 /*onpage, make white bg*/
-.box .generalbox {
+.box .generalbox .center {
   background: #ffffff !important;
   padding:20px;
 }

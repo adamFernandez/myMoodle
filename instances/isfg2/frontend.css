@@ -42,8 +42,11 @@
         max-width: 300px;
         padding-left: 40px !important;
     }
-        .course-content ul.gridicons li img{
+    .course-content ul.gridicons li img{
         display:none;
+    }
+    .course-content ul.gridicons li .image_holder {
+        width: 300px;
     }
 }
 @media (max-width: 669px) {

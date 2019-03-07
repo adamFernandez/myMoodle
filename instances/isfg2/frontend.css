@@ -442,7 +442,7 @@ a:hover {
 
 h3 {
 	font-family: 'kingsfont-37';
-    	color: #000000 !important;
+    	color: #241f20 !important;
         font-weight: 300 !important;
     	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
@@ -660,11 +660,13 @@ h2 {
 .course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    color:green!important;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    color:green!important;
 }
 
 

@@ -186,18 +186,26 @@ user agent stylesheet
     background-color: #cdd7dc !important;
 }
 
-/*.course-content ul.gridicons li a #gridsection-1{
-    background-image: url("information.png");
-}*/
 
 .course-content ul.gridicons li .image_holder {
-    width: 256px!important;
-    height: 256px !important;
+    /*width: 256px!important;
+    height: 256px !important;*/
+    width: auto;
+    height: auto;
     border-color: #cdd7dc !important;
     /*background-color: #cdd7dc !important;*/
     border-width: 0px !important;
     border-radius: 0px !important;
     padding:0px;
+}
+
+#gridsection-1 .image-holder{
+    background-image: url("information.png");
+}
+
+#gridiconcontainer ul.gridicons li {
+    padding:0px;
+    margin:10px;
 }
 
 .block_settings .block_tree [aria-expanded="true"] {
@@ -665,13 +673,11 @@ h2 {
 .course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
-    background-image: url("information.png");
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
-    background-image: url("information.png");
 }
 
 

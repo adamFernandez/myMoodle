@@ -680,14 +680,7 @@ h2 {
     width: 100%;
 }
 
-/*onpage, make white bg*/
-.box .generalbox .center .clearfix .no-overflow {
-  background: #ffffff !important;
-  padding:20px;
-}
-.span8.pull-right h2{
-    color: #241f20;
-}
+
 
 /*get rid of white border at bottom of content*/
 .course-content ul li.section.main {
@@ -744,4 +737,13 @@ hr {
     margin-left: 6px;
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
+}
+
+/*onpage, make white bg*/
+.box .generalbox .center .clearfix .no-overflow {
+  background: #ffffff !important;
+  padding:20px;
+}
+.span8.pull-right h2{
+    color: #241f20;
 }

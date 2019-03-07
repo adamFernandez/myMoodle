@@ -11,6 +11,11 @@
 .usermenu .login a {
     color: #FFF;
 }
+.usermenu .login a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
 /* =========================================================== *
 Fonts
 ============================================================== */

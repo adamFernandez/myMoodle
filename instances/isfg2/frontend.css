@@ -56,7 +56,12 @@
     .course-content ul.gridicons li .image_holder {
         width: 300px;
     }
+    #back-top {
+        bottom: 20px;
+        right:20px;
+    }
 }
+
 @media (max-width: 669px) {
   .container-fluid {
     padding-left: 0;

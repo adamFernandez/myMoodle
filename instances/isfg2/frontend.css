@@ -681,7 +681,7 @@ h2 {
 
 /*onpage, make white bg*/
 .no-overflow {
-  background: #ffffff;
+  background: #ffffff !important;
   padding:20px;
 }
 .span8.pull-right h2{
@@ -726,6 +726,7 @@ h2 {
     margin-left: 7px;
     margin-right: 10px;
     text-align: justify;
+}
 
 /*Header borders style*/
 

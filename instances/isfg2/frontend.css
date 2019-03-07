@@ -680,10 +680,10 @@ h2 {
 }
 
 /*onpage, make white bg*/
-/*.span8.pull-right {
+.no-overflow {
   background: #ffffff;
   padding:20px;
-}*/
+}
 .span8.pull-right h2{
     color: #241f20;
 }

@@ -39,8 +39,8 @@
     }
 
     .course-content ul.gridicons li .icon_content {
-        width: 300px;
-        padding-left: 40px;
+        max-width: 300px;
+        padding-left: 40px !important;
     }
 }
 @media (max-width: 669px) {

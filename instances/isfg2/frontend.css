@@ -1,3 +1,21 @@
+/*Login*/
+.coursebox {
+    background-color: #436e9400;
+}
+#notice {
+    color: white;
+}
+.breadcrumb {
+    color: white;
+}
+.usermenu .login a {
+    color: #FFF;
+}
+.usermenu .login a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
 /*Mobil view*/
 /*418px*/
 @media (max-width: 418px) {
@@ -677,6 +695,7 @@ h2 {
 .course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    padding-bottom:20px;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{

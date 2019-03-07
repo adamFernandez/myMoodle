@@ -41,7 +41,7 @@
     .course-content ul.gridicons li .icon_content {
         max-width: 250px !important;
         padding-left: 40px !important;
-        font-size: large; 
+        font-size: small; 
     }
     .course-content ul.gridicons li img{
         display:none;
@@ -242,9 +242,6 @@ user agent stylesheet
     vertical-align: bottom;
 }*/
 
-#gridsection-1 .image-holder{
-    background-image: url("information.png");
-}
 
 #gridiconcontainer ul.gridicons li {
     padding:0px;

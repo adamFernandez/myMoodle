@@ -186,11 +186,15 @@ user agent stylesheet
     background-color: #cdd7dc !important;
 }
 
+.course-content ul.gridicons li [aria-labelledby=gridsectionname-1]{
+    background-image: url("information.png");
+}
+
 .course-content ul.gridicons li .image_holder {
     width: 256px!important;
     height: 256px !important;
     border-color: #cdd7dc !important;
-    background-color: #cdd7dc !important;
+    /*background-color: #cdd7dc !important;*/
     border-width: 0px !important;
     border-radius: 0px !important;
     padding:0px;

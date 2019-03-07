@@ -6,7 +6,7 @@
     color: white;
 }
 .breadcrumb {
-    color: white;
+    color: #0d4277;
 }
 .usermenu .login a {
     color: #FFF;
@@ -123,7 +123,7 @@ body {
     padding-bottom:5px;
 }
 .course-content a {
-    color: #0A2D50 !important;
+    color: #0d4277 !important;
 }
 
 .navbar .nav-collapse.in {
@@ -344,7 +344,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 
 
 .activityinstance a {
-	color: #0A2D50;
+	color: #0d4277;
 }
 
 .activityinstance a:hover {
@@ -467,7 +467,7 @@ h2 {
 }
 
 a {
-	color: #0a2d50;
+	color: #0d4277;
 }
 
 a:hover {
@@ -701,6 +701,7 @@ h2 {
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
+    padding-bottom:20px;
 }
 
 

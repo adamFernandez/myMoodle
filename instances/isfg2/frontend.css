@@ -113,7 +113,7 @@ body {
     padding-top:30px;
 }
 .course-content .single-section .section-navigation .mdl-left a{
-    color: #0A2D50 !important;
+    color: #0D4277 !important;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -121,7 +121,7 @@ body {
     color: #4F759B !important;
 }
 .course-content .single-section .section-navigation .mdl-right a{
-    color: #0A2D50 !important;
+    color: #0D4277 !important;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -184,7 +184,7 @@ user agent stylesheet
     font-weight: 700;
     position: absolute;
     text-align: left !important;
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'kingsfont-37';
     color: #0A2D50;
     background: transparent;

@@ -719,10 +719,10 @@ h2 {
     width: 100%;
 }
 
-.course-content ul.gtopics h3>a {
+.course-content ul.gtopics h3.sectionname a {
     color: #241f20 !important;
 }
-.course-content ul.gtopics h3>a:hover {
+.course-content ul.gtopics h3.sectionname a:hover {
     color: #241f20 !important;
     text-decoration: none;
 }

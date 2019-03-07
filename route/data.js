@@ -405,7 +405,7 @@ var data = {
     },
     "module5": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2135569"
+        "1": "mod/forum/view.php?id=2469235"
       },
       "poll1": {
         "1": "mod/choice/view.php?id=2469337"

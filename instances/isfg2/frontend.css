@@ -198,9 +198,9 @@ user agent stylesheet
     border-radius: 0px !important;
     padding:0px;
 }
-.course-content ul.gridicons li .image_holder img{
+/*.course-content ul.gridicons li .image_holder img{
     vertical-align: bottom;
-}
+}*/
 
 #gridsection-1 .image-holder{
     background-image: url("information.png");
@@ -438,6 +438,7 @@ Fonts
 
 html, body, p, li,input, button, select, textarea {
 	font-family:'kingsfont-51' !important;
+    font-size:13pt;
 }
 
 h2 {

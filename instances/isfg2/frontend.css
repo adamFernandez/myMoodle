@@ -409,16 +409,16 @@ Fonts
 
 @font-face {
   font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff');
 }
 
 @font-face {
 	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.woff');
 }
 @font-face {
 	font-family: Roboto-Light;
-	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto_Light.ttf');
+	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto-Light.woff');
 }
 
 html, body, p, li,input, button, select, textarea {
@@ -429,6 +429,7 @@ h2 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
     color: #241f20 !important;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -680,7 +681,7 @@ h2 {
 }
 
 /*onpage, make white bg*/
-.box .generalbox .center .no-overflow {
+.box .generalbox .center .clearfix {
   background: #ffffff !important;
   padding:20px;
 }

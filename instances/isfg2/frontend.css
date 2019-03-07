@@ -159,7 +159,7 @@ user agent stylesheet
     text-align: left !important;
     font-size: x-large;
     font-family: 'kingsfont-37';
-    color: red;
+    color: #0A2D50;
     background: transparent;
     z-index: 100;
     margin-top: 21px;
@@ -172,7 +172,7 @@ user agent stylesheet
     padding-right: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
-    max-width: 400px; 
+    max-width: 400px;
     overflow: hidden;
     text-align: left;
     text-overflow: inherit;
@@ -180,6 +180,7 @@ user agent stylesheet
 }
 .course-content ul.gridicons li.currentselected .icon_content {
     color: #0A2D50!important ;
+    max-width: 400px;
 }
 
 .course-content ul.gridicons li.currentselected {

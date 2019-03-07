@@ -428,7 +428,7 @@ html, body, p, li,input, button, select, textarea {
 h2 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
-    color: #241f20;
+    color: #241f20 !important;
 }
 
 a {

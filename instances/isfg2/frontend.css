@@ -658,12 +658,12 @@ h2 {
 /*setting orange underline*/
 
 .course-content ul.gtopics h3.sectionname{
-    border-bottom: 5px solid green;
+    border-bottom: 5px solid #FF5F05;
     font-size: 48px;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
-    border-bottom: 5px solid green;
+    border-bottom: 5px solid #FF5F05;
     font-size: 48px;
 }
 
@@ -682,6 +682,7 @@ h2 {
 /*onpage, make white bg*/
 .span8.pull-right {
   background: #ffffff;
+  padding:20px;
 }
 .span8.pull-right h2{
     color: #241f20;

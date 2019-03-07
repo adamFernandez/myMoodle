@@ -54,7 +54,7 @@
     border: 1px solid #fff;
     background: transparent;
     box-shadow: none;
-}
+} 
 #container {
     -webkit-box-shadow: 0 0 0px rgb(43, 98, 141);
     -moz-box-shadow: 0 0 10px rgba(43, 98, 141);

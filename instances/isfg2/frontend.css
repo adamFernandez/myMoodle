@@ -740,7 +740,7 @@ hr {
 }
 
 /*onpage, make white bg*/
-.box .generalbox .center .clearfix .no-overflow {
+.box .generalbox .center .clearfix {
   background: #ffffff !important;
   padding:20px;
 }

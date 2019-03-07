@@ -658,15 +658,13 @@ h2 {
 /*setting orange underline*/
 
 .course-content ul.gtopics h3.sectionname{
-    border-bottom: 5px solid #FF5F05;
+    border-bottom: 5px solid green;
     font-size: 48px;
-    color:green!important;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
-    border-bottom: 5px solid #FF5F05;
+    border-bottom: 5px solid green;
     font-size: 48px;
-    color:green!important;
 }
 
 

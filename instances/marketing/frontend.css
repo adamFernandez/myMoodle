@@ -1,4 +1,16 @@
-
+/*Login*/
+.coursebox {
+    background-color: #436e9400;
+}
+#notice {
+    color: white;
+}
+.breadcrumb {
+    color: white;
+}
+.usermenu .login a {
+    color: #FFF;
+}
 /* =========================================================== *
 Fonts
 ============================================================== */

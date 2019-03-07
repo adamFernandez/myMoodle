@@ -19,24 +19,29 @@
 /*Mobil view*/
 /*418px*/
 @media (max-width: 418px) {
-.course-content .single-section .section-navigation .mdl-left {
-    display: none;
-}
-.course-content .single-section .section-navigation .mdl-right {
-    display: none;
-}
-.course-content .single-section {
-    margin-top: -3em;
-}
-.path-course-view .section .summary {
-    line-height: 20px;
-    zoom: 78%;
-}
-.course-content li.section ul {
-    list-style: disc;
-    background: white;
-    zoom: 82%;
-}
+    .course-content .single-section .section-navigation .mdl-left {
+        display: none;
+    }
+    .course-content .single-section .section-navigation .mdl-right {
+        display: none;
+    }
+    .course-content .single-section {
+        margin-top: -3em;
+    }
+    .path-course-view .section .summary {
+        line-height: 20px;
+        zoom: 78%;
+    }
+    .course-content li.section ul {
+        list-style: disc;
+        background: white;
+        zoom: 82%;
+    }
+
+    .course-content ul.gridicons li .icon_content {
+        width: 300px;
+        padding-left: 40px;
+    }
 }
 @media (max-width: 669px) {
   .container-fluid {

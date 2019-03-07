@@ -117,10 +117,16 @@ body {
     padding-top:5px;
     padding-bottom:5px;
 }
+.course-content .single-section .section-navigation .mdl-left a:hover{
+    color: #4F759B !important;
+}
 .course-content .single-section .section-navigation .mdl-right a{
     color: #0A2D50 !important;
     padding-top:5px;
     padding-bottom:5px;
+}
+.course-content .single-section .section-navigation .mdl-right a:hover{
+    color: #4F759B !important;
 }
 .course-content a {
     color: #0d4277 !important;

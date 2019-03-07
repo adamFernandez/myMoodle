@@ -125,6 +125,9 @@ body {
 .course-content a {
     color: #0d4277 !important;
 }
+.course-content a:hover {
+    color: #4F759B !important;
+}
 
 .navbar .nav-collapse.in {
   border-top: 1px solid #d4d4d4;
@@ -722,10 +725,7 @@ h2 {
 .course-content ul.gtopics .sectionname a {
     color: #241f20 !important;
 }
-.course-content ul.gtopics h3.sectionname a:hover {
-    color: #241f20 !important;
-    text-decoration: none;
-}
+
 
 
 

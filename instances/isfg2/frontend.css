@@ -519,6 +519,9 @@ Hero
 main {
   overflow: hidden;
   font-family: 'kingsfont-37';
+}
+
+.main {
   background: #ffffff;
 }
 
@@ -611,7 +614,7 @@ h2 {
     font-size: 1.6em;
     margin: 5px 0 15px;
     -webkit-font-smoothing: antialiased;
-    color: #FF3C39;
+    color: #241f20;
 }
 .section .activity .activityinstance, .section .activity .activityinstance div {
     display: inline-block;

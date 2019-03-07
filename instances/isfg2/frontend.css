@@ -41,6 +41,7 @@
     .course-content ul.gridicons li .icon_content {
         max-width: 250px !important;
         padding-left: 40px !important;
+        font-size: x-large;
     }
     .course-content ul.gridicons li img{
         display:none;

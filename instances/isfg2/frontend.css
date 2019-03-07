@@ -521,9 +521,6 @@ main {
   font-family: 'kingsfont-37';
 }
 
-.main {
-  background: #ffffff;
-}
 
 /*hide all hero*/
 .summary{
@@ -682,7 +679,13 @@ h2 {
     width: 100%;
 }
 
-
+/*onpage, make white bg*/
+.span8 {
+  background: #ffffff;
+}
+.span8 h2{
+    color: #241f20;
+}
 
 /*get rid of white border at bottom of content*/
 .course-content ul li.section.main {

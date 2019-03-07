@@ -680,10 +680,10 @@ h2 {
 }
 
 /*onpage, make white bg*/
-.span8 {
+.span8.pull-right {
   background: #ffffff;
 }
-.span8 h2{
+.span8.pull-right h2{
     color: #241f20;
 }
 

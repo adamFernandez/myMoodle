@@ -6,7 +6,7 @@
     color: white;
 }
 .breadcrumb {
-    color: #0d4277;
+    color: #0d4277 !important;
 }
 .usermenu .login a {
     color: #FFF;
@@ -521,12 +521,13 @@ Accordions
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname {
-	color: #5E5550 !important;
+	color: #241f20 !important;
 	font-family: 'kingsfont-37';
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname:hover {
-	color: #F18758 !important;
+	color: #241f20 !important;
+    text-decoration: none;
 }
 
 .course-content ul.ctopics li.section .content .toggle {

@@ -438,7 +438,6 @@ Fonts
 
 html, body, p, li,input, button, select, textarea {
 	font-family:'kingsfont-51' !important;
-    font-size:13pt;
 }
 
 h2 {
@@ -729,6 +728,7 @@ h2 {
 .course-content li.section ul {
     list-style: disc;
     background: transparent;
+    font-size:13pt;
 }
 #week_header_content {
     color: #ffffff !important;
@@ -745,6 +745,9 @@ h2 {
 }
 .span8.pull-right h2{
     color: #241f20;
+}
+#page-mod-page-view .span8.pull-right p {
+    font-size: 13pt;
 }
 
 /*Header borders style*/

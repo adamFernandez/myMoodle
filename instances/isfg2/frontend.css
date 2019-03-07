@@ -186,7 +186,7 @@ user agent stylesheet
     background-color: #cdd7dc !important;
 }
 
-.course-content ul.gridicons li [aria-labelledby=gridsectionname-1]{
+.course-content ul.gridicons li a #gridsection-1{
     background-image: url("information.png");
 }
 

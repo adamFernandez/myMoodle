@@ -17,12 +17,50 @@
 }
 
 /*Mobil view*/
+.post, .content, .activityhead, .message, .block a .content a{
+    color: white;
+}
+.navbar .nav.pull-right {
+    float: right;
+    margin-right: 10px;
+}
 
+.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+    color: #FFF;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 46%;
+}
+
+.jsenabled .usermenu .moodle-actionmenu>.menubar {
+    display: block;
+    margin: 0;
+    width: 117px;
+}
+
+.navbar .popover-region, .jsenabled .usermenu .moodle-actionmenu .toggle-display.textmenu {
+    padding: 6px 3px 0px 11px;
+    /* width: 52px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* width: 75%; */
+    /* overflow: hidden; */
+}
+
+.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
+    margin-top: 23px;
+    margin-right: 16px;
+    border: 1px solid #fff;
+    background: transparent;
+    box-shadow: none;
+}
 #container {
     -webkit-box-shadow: 0 0 0px rgb(43, 98, 141);
     -moz-box-shadow: 0 0 10px rgba(43, 98, 141);
     box-shadow: 0 0 0px rgb(43, 98, 141);
 } 
+
 /*418px*/
 @media (max-width: 418px) {
     .course-content .single-section .section-navigation .mdl-left {

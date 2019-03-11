@@ -886,7 +886,7 @@ hr {
     font-family: kingsfont-37;
     font-size: 16pt;
 }
-#page-mod-forum-view p{
+#page-mod-forum-view .forum-post .posting p{
     font-size: 13pt;
 }
 

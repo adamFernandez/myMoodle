@@ -797,7 +797,7 @@ h2 {
     text-align: justify;
 }
 
-/*onpage, make white bg*/
+/*on page, make white bg*/
 #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
@@ -807,6 +807,19 @@ h2 {
     font-size: 18pt;
 }
 #page-mod-page-view .span8.pull-right p {
+    font-size: 13pt;
+}
+
+/*on forum, make white bg*/
+#ppage-mod-forum-view .span8.pull-right {
+  background: #ffffff !important; 
+  padding:20px;
+}
+.span8.pull-right h2{
+    color: #241f20;
+    font-size: 18pt;
+}
+#page-mod-forum-view .span8.pull-right p {
     font-size: 13pt;
 }
 

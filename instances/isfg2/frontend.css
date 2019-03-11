@@ -89,7 +89,7 @@ body {
     background: #eef1f2 !important;
 }
 
-.navbar .btn-navbar{
+.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
     border: 2px solid #fff;
 }
 .navbar .brand {

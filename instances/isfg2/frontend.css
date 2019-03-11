@@ -886,12 +886,10 @@ hr {
     font-family: kingsfont-37;
     font-size: 16pt;
 }
-#page-mod-forum-view .forum-post .posting p {
-    font-size: 13pt;
+#page-mod-forum-view .forum-post .posting .fullpost p {
+    font-size: 13pt !important;
 }
-#page-mod-forum-view .span8.pull-right p {
-    font-size: 13pt;
-}
+
 
 
 

@@ -296,7 +296,7 @@ input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submi
     padding: 5px 12px;
     text-shadow: none;
     border: none;
-    background: #0D4277!important;
+    background: #0D4277!important; 
     box-shadow: 0;
     border-radius: 1px;
     -webkit-transition: 0.5s;

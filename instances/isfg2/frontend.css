@@ -89,9 +89,7 @@ body {
     background: #eef1f2 !important;
 }
 
-.navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
-    border: 2px solid #fff;
-}
+
 .navbar .brand {
     zoom: 57%;
   }
@@ -180,6 +178,7 @@ body {
     z-index: 9999 !important;
 }
 
+
 user agent stylesheet
 
 
@@ -187,7 +186,7 @@ user agent stylesheet
   .navbar .nav-collapse.in {
       border-top: 1px solid #2e638c;
       background: #4b4b4b;
-}
+    }
 }
 
 
@@ -199,11 +198,15 @@ user agent stylesheet
     width: 201px;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+    }
   .navbar .nav.pull-right {
       float: right;
       margin: -5px 227px 0px 28px;
-  }}
+  }
+  .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
+    border: 2px solid #fff;
+}
+}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {

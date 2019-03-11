@@ -811,7 +811,7 @@ h2 {
 }
 
 /*on forum, make white bg*/
-#ppage-mod-forum-view .span8.pull-right {
+#page-mod-forum-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }

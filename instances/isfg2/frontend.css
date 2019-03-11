@@ -876,4 +876,8 @@ hr {
 .forumpost .row {
     background:#ffffff;
 }
+.forumpost .row .subject{
+    color:#241f20;
+    font-family: ingsfont-37;
+}
 

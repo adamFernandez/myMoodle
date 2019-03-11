@@ -873,6 +873,11 @@ hr {
 }
 
 /*forum posts*/
+.forumpost {
+    border:none;
+    box-shadow: none;
+}
+
 .forumpost .row {
     background:#ffffff;
 }

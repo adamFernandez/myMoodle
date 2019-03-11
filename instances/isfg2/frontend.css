@@ -872,4 +872,8 @@ hr {
     text-decoration: underline;
 }
 
+/*forum posts*/
+.forumpost .row {
+    background:#ffffff;
+}
 

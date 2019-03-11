@@ -26,6 +26,11 @@
 
 /*418px*/
 @media (max-width: 418px) {
+
+    .navbar .nav.pull-right {
+    float: right;
+    margin-right: 10px;
+}
     .course-content .single-section .section-navigation .mdl-left {
         display: none;
     }

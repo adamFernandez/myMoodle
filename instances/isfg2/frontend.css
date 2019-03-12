@@ -194,7 +194,7 @@ body {
   .breadcrumb {
     margin: 27px 181px 9px;
     z-index: 100;
-    white-space: nowrap;
+    white-space: normal;
     width: 201px;
     overflow: hidden;
     text-overflow: ellipsis;

@@ -841,6 +841,19 @@ h2 {
     font-size: 13pt;
 } 
 
+/*on book, make white bg*/
+#page-mod-book-view .span8.pull-right {
+  background: #ffffff !important; 
+  padding:20px;
+}
+.span8.pull-right h2{
+    color: #241f20;
+    font-size: 18pt;
+}
+#page-mod-forum-view .span8.pull-right p {
+    font-size: 13pt;
+} 
+
 /*Header borders style*/
 
 hr {

@@ -347,6 +347,10 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     z-index: 100;
 }
 
+.breadcrumb>li:after {
+    color: #0D4277;
+}
+
 #page-header .toplinks {
     float: right;
     display: none;

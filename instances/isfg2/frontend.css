@@ -805,7 +805,7 @@ h2 {
 .course-content li.section ul {
     list-style: disc;
     background: transparent;
-    font-size:13pt;
+    font-size:17px;
 }
 #week_header_content {
     color: #ffffff !important;
@@ -822,10 +822,10 @@ h2 {
 }
 .span8.pull-right h2{
     color: #241f20;
-    font-size: 18pt;
+    font-size: 24px;
 }
 #page-mod-page-view .span8.pull-right p {
-    font-size: 13pt;
+    font-size: 17px;
 }
 
 /*on forum, make white bg*/
@@ -835,10 +835,10 @@ h2 {
 }
 .span8.pull-right h2{
     color: #241f20;
-    font-size: 18pt;
+    font-size: 24px;
 }
 #page-mod-forum-view .span8.pull-right p {
-    font-size: 13pt;
+    font-size: 17px;
 } 
 
 /*on book, make white bg*/
@@ -851,7 +851,7 @@ h2 {
     font-size: 18pt;
 }
 #page-mod-book-view .span8.pull-right p {
-    font-size: 13pt;
+    font-size: 17px;
     margin-top: 20px;
 } 
 
@@ -916,7 +916,7 @@ hr {
 .forumpost .row .subject{
     color:#241f20;
     font-family: kingsfont-37;
-    font-size: 16pt;
+    font-size: 22px;
     padding-top:6px;
 }
 

@@ -184,7 +184,7 @@ body {
 
 @media (max-width: 979px) {
   .navbar .nav-collapse.in {
-      border-top: 1px solid #2e638c;
+      border-top: none;
       background: #4b4b4b;
     }
 }
@@ -458,7 +458,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 body {
     font-size: 13px;
     line-height: 20px;
-    background: #eef1f2;
+    background: #cdd7dc;
 }
 
 /*Header*/

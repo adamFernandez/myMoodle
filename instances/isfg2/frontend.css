@@ -826,6 +826,7 @@ h2 {
 }
 #page-mod-page-view .span8.pull-right p {
     font-size: 17px;
+    line-height: 27px;
 }
 
 /*on forum, make white bg*/
@@ -839,6 +840,7 @@ h2 {
 }
 #page-mod-forum-view .span8.pull-right p {
     font-size: 17px;
+    line-height: 27px;
 } 
 
 /*on book, make white bg*/
@@ -848,10 +850,11 @@ h2 {
 }
 .span8.pull-right h2{
     color: #241f20;
-    font-size: 18pt;
+    font-size: 24px;
 }
 #page-mod-book-view .span8.pull-right p {
     font-size: 17px;
+    line-height: 27px;
     margin-top: 20px;
 } 
 

@@ -347,3 +347,9 @@ h3 > b  {
 .no-overflow ul li {
 	font-size: 1.2em !important;
 }
+
+.no-overflow h5 {
+    font-size: 1.5em;
+    margin-top: 55px;
+    margin-bottom: 22px;
+}

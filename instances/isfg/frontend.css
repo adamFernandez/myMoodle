@@ -343,3 +343,7 @@ h3 > b  {
 .no-overflow p {
 	font-size: 1.2em !important;
 }
+
+.no-overflow ul li {
+	font-size: 1.2em !important;
+}

@@ -444,6 +444,11 @@ var data = {
         "1": "mod/forum/view.php?id=2590807",
         "2": "mod/forum/view.php?id=2637341"
       }
+    },
+    "module11": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2637860"
+      }
     }
   },
   "gfb": {

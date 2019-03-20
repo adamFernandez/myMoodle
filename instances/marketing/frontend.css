@@ -746,6 +746,11 @@ tr.discussion a:hover {
     text-decoration: underline;
 } 
 
+#page-mod-label-mod .span8.pull-right {
+  background: #ffffff !important; 
+  padding:20px;
+}
+
 
 .single-section h3.sectionname {
     text-align: left;

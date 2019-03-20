@@ -324,7 +324,7 @@ user agent stylesheet
     border-left: 0px solid #436e94;
     border-right: 0px solid #436e94;
 }
-#block-region-side-post .block {
+#block-region-side-post .block, .block {
     background-color: #3b6389;
     border-radius: 0px 0px 0px 0px;
     box-shadow: 0 0px 0px rgb(66, 110, 148);

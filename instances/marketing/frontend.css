@@ -731,18 +731,12 @@ h2 {
     border-bottom:0px;
 }
 
-.course-content ul.gtopics h3.sectionname{
-    border-bottom: 5px solid #FF5F05;
-    font-size: 48px;
-    padding-bottom:20px;
-    color:#241f20;
-}
+/*.course-content ul.gtopics h3.sectionname{
+    border-bottom: 5px solid #ffffff;
+}*/
 
 .course-content ul.gtopics-0 h3.sectionname{
-    border-bottom: 5px solid #FF5F05;
-    font-size: 48px;
-    padding-bottom:20px;
-    color:#241f20;
+    border-bottom: 5px solid #ffffff;
 }
 
 

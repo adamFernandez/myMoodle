@@ -294,9 +294,12 @@ user agent stylesheet
     -webkit-font-smoothing: antialiased;
 }
 
-/*edit links*/
+/*links in edit view*/
 .course-content ul.gridicons li a{
     color:#ffffff !important;
+}
+.gtopics-0 a {
+    background-color:#ffffff;
 }
 
 .course-content ul.gridicons li.currentselected .icon_content {

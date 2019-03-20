@@ -157,8 +157,8 @@ input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submi
       display: none;
 }
 body {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 21px;
     background: #39628a !important;
 }
 .navbar .brand {
@@ -494,8 +494,8 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     background: #3c6389;
 }
 body {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 21px;
     background: #23496d;
 }
 

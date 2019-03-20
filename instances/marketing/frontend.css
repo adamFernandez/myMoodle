@@ -720,8 +720,9 @@ h2 {
 }
 .single-section h3.sectionname {
     text-align: left;
-    padding: 10px 0 0;
+    padding: 10px;
     color: #ffffff;
+    background-color: #ff4441;
 }
 .course-content .single-section .section-navigation {
     display: unset;

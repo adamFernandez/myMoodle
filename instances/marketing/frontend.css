@@ -293,6 +293,12 @@ user agent stylesheet
     text-overflow: inherit;
     -webkit-font-smoothing: antialiased;
 }
+
+/*edit links*/
+.course-content ul.gridicons li a{
+    color:#ffffff;
+}
+
 .course-content ul.gridicons li.currentselected .icon_content {
     color: #ffffff!important ;
 }

@@ -300,6 +300,7 @@ user agent stylesheet
 }
 .gtopics-0 a {
     background-color:#ffffff;
+    padding:2px;
 }
 
 .course-content ul.gridicons li.currentselected .icon_content {
@@ -585,6 +586,7 @@ Hero
 main {
   overflow: hidden;
   font-family: 'kingsfont-37';
+  display:none;
 }
 
 .hero {

@@ -720,8 +720,8 @@ h2 {
 }
 
 /*make course header in week view white*/
-.course-content ul.gtopics .sectionname a{
-    color:#ffffff;
+.course-content ul.gtopics h3.sectionname a{
+    color:#ffffff!important;
 }
 
 .single-section h3.sectionname {

@@ -724,7 +724,7 @@ h2 {
 /*make course header in week view white*/
 .course-content ul.gtopics h3.sectionname a{
     color: #ffffff !important;
-    padding-top:40px;
+    /*padding-top:40px;*/
 }
 /*remove bottom border*/
 .course-content ul.gtopics h3.sectionname{

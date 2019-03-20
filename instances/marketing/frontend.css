@@ -756,9 +756,9 @@ tr.discussion a:hover {
 } 
 
 
-.single-section h3.sectionname {
+.single-section h3.sectionname span{
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     color: #ffffff;
     background-color: #ff4441;
 }

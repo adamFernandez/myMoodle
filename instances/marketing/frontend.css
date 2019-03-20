@@ -718,6 +718,12 @@ h2 {
     margin-right:  0px;
     width: 100%;
 }
+
+/*make course header in week view white*/
+.course-content ul.gtopics .sectionname a{
+    color:#ffffff;
+}
+
 .single-section h3.sectionname {
     text-align: left;
     padding: 10px;

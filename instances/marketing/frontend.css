@@ -723,6 +723,10 @@ h2 {
 .course-content ul.gtopics h3.sectionname a{
     color: #ffffff !important;
 }
+/*remove bottom border*/
+.course-content ul.gtopics-0 h3.sectionname{
+    border:none;
+}
 
 .single-section h3.sectionname {
     text-align: left;

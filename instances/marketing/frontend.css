@@ -727,6 +727,11 @@ h2 {
     padding-top:40px;
 }
 /*remove bottom border*/
+.course-content ul.gtopics h3.sectionname{
+    border-bottom:0px;
+}
+
+/*add bottom border*/
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom:3px;
     border-color:#ffffff;

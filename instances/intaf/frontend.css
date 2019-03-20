@@ -247,3 +247,5 @@ div.desc {
 .path-course-view .completionprogress {
 	display: none;
 }
+
+#page-mod-lesson-view .boxaligncenter { display: none;}

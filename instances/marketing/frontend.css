@@ -296,7 +296,7 @@ user agent stylesheet
 
 /*edit links*/
 .course-content ul.gridicons li a{
-    color:#ffffff;
+    color:#ffffff !important;
 }
 
 .course-content ul.gridicons li.currentselected .icon_content {

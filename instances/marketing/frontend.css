@@ -729,7 +729,7 @@ h2 {
 }
 
 
-/*on forum, make white bg*/
+/*on forum*/
 #page-mod-forum-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
@@ -737,6 +737,13 @@ h2 {
 #page-mod-forum-post .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
+}
+tr.discussion a{
+   color:#0070a8 
+}
+tr.discussion a:hover {
+    color: #35597E;
+    text-decoration: underline;
 }
 
 

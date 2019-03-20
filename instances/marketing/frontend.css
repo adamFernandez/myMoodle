@@ -157,8 +157,8 @@ input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submi
       display: none;
 }
 body {
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 13px;
+    line-height: 20px;
     background: #39628a !important;
 }
 .navbar .brand {
@@ -725,7 +725,7 @@ h2 {
 }
 /*remove bottom border*/
 .course-content ul.gtopics h3.sectionname{
-    bottom-border:none;
+    border-bottom:0px;
 }
 
 .single-section h3.sectionname {

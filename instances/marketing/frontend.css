@@ -726,17 +726,21 @@ h2 {
     color: #ffffff !important;
     padding-top:40px;
 }
-/*remove bottom border*/
+/*fix heading bottom borders*/
 .course-content ul.gtopics h3.sectionname{
     border-bottom:0px;
 }
 
-/*.course-content ul.gtopics h3.sectionname{
+.course-content ul.gtopics h3.sectionname{
     border-bottom: 5px solid #ffffff;
-}*/
+}
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #ffffff;
+}
+
+.course-content ul li.section.main {
+    border-bottom: 0px solid #FFF;
 }
 
 

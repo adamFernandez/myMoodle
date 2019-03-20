@@ -772,10 +772,10 @@ tr.discussion a:hover {
     background: white;
     color: #21486e;
 }
-/*.course-content ul li.section.main {
+.course-content ul li.section.main {
     margin-top:40px;
-    margin-bottom:0px;
-}*/
+    margin-bottom:50px;
+}
 
 #week_header_content {
     color: #ffffff !important;

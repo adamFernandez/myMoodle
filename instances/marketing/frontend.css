@@ -730,14 +730,15 @@ h2 {
 
 
 /*on forum*/
-#page-mod-forum-view .span8.pull-right {
+/*#page-mod-forum-view */
+.span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }
-#page-mod-forum-post .span8.pull-right {
+/*#page-mod-forum-post .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
-}
+}*/
 tr.discussion a{
    color:#0070a8 
 }

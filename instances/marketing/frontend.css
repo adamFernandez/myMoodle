@@ -759,7 +759,7 @@ h2 {
 .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
-}
+}  
 
 
 /*forum items*/
@@ -771,7 +771,7 @@ tr.discussion a:hover {
     text-decoration: underline;
 } 
  
-
+/*1*/
 
 .single-section h3.sectionname span{
     text-align: left;

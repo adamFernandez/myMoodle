@@ -812,6 +812,6 @@ hr {
 }
 
 
-label{
-    color: black!important;
+#region-main .mform:not(.unresponsive) .fitem .fitemtitle label{
+    color: #333;
 }

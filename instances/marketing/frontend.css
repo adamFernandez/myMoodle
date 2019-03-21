@@ -761,15 +761,17 @@ h2 {
 }
 /*exception for main page*/
 #page-course-view-grid.span9 {
-  background: #ffffff !important; 
-  padding:20px;
+  background: #35597E !important; 
 }
 /*#page-mod-forum-view,#page-mod-forum-post, #page-mod-page-view */
 .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }  
-
+/*exception for main page*/
+#page-course-view-grid.span9 {
+  background: #35597E !important; 
+}
 
 /*forum items*/
 tr.discussion a{

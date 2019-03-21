@@ -771,12 +771,14 @@ tr.discussion a:hover {
  
 
 
-/*.single-section h3.sectionname span{
+/*.single-section */
+h3.sectionname span{
     text-align: left;
     padding: 10px;
     color: #ffffff;
     background-color: #ff4441;
-}*/
+}
+
 .course-content .single-section .section-navigation {
     display: unset;
     padding: .5em;

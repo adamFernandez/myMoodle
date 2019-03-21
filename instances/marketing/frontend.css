@@ -760,7 +760,7 @@ h2 {
   padding:20px;
 }
 /*exception for main page*/
-#page-course-view-grid.span9 {
+#page-course-view-grid .span9 {
   background: #35597E !important; 
 }
 /*#page-mod-forum-view,#page-mod-forum-post, #page-mod-page-view */
@@ -769,7 +769,7 @@ h2 {
   padding:20px;
 }  
 /*exception for main page*/
-#page-course-view-grid.span9 {
+#page-course-view-grid .span9 {
   background: #35597E !important; 
 }
 

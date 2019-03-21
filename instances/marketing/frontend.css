@@ -746,7 +746,7 @@ h2 {
 
 
 /*white on various vews*/
-#page-course-edit .span9, #page-mod-label-mod.span9, #page-mod-book-mod .span9, #page-mod-book-edit .span9, #page-course-edit .span9, #page-mod-page-mod .span9, #page-mod-forum-mod .span9, #page-mod-turnitintooltwo-mod .span9 {
+#page-course-edit .span9, #page-mod-url-mod .span9, #page-mod-quiz-mod .span9, #page-mod-kalvidres-mod .span9 #page-mod-label-mod.span9, #page-mod-book-mod .span9, #page-mod-book-edit .span9, #page-course-edit .span9, #page-mod-page-mod .span9, #page-mod-forum-mod .span9, #page-mod-turnitintooltwo-mod .span9 {
   background: #ffffff !important; 
   padding:20px;
 }

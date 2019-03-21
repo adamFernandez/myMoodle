@@ -746,15 +746,7 @@ h2 {
 
 
 /*white on various vews*/
-#page-course-edit, #page-mod-label-mod, #page-mod-book-mod, #page-mod-book-edit .span9 {
-  background: #ffffff !important; 
-  padding:20px;
-}
-#page-course-edit, #page-mod-page-mod, #page-mod-forum-mod .span9 {
-  background: #ffffff !important; 
-  padding:20px;
-}
-#page-mod-turnitintooltwo-mod .span9 {
+#page-course-edit .span9, #page-mod-label-mod.span9, #page-mod-book-mod .span9, #page-mod-book-edit .span9, #page-course-edit .span9, #page-mod-page-mod .span9, #page-mod-forum-mod .span9, #page-mod-turnitintooltwo-mod .span9 {
   background: #ffffff !important; 
   padding:20px;
 }
@@ -762,7 +754,7 @@ h2 {
 /*#page-course-view-grid .span9 {
   background: #35597E !important; 
 }*/
-#page-mod-forum-view,#page-mod-forum-post, #page-mod-page-view .span8.pull-right {
+#page-mod-forum-view .span8.pull-right,#page-mod-forum-post.span8.pull-right, #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }  

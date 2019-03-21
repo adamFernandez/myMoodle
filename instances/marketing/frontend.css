@@ -746,11 +746,11 @@ h2 {
 
 
 /*white on various vews*/
-#page-course-edit, #page-mod-label-mod, #page-mod-book-mod, #page-mod-book-edit, #page-mod-page-mod, #page-mod-forum-mod .span9 {
+#page-course-edit, #page-mod-label-mod, #page-mod-book-mod, #page-mod-book-edit .span9 {
   background: #ffffff !important; 
   padding:20px;
 }
-#page-course-edit .span9 {
+#page-course-edit, #page-mod-page-mod, #page-mod-forum-mod .span9 {
   background: #ffffff !important; 
   padding:20px;
 }

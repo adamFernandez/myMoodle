@@ -779,7 +779,7 @@ tr.discussion a:hover {
 .course-content li.section ul {
     list-style: disc;
     background: white;
-    color: #21486e;
+    color: #21486e; 
 }
 .course-content ul li.section.main {
     margin-top:40px;
@@ -811,6 +811,4 @@ hr {
 }
 
 
-#region-main .mform .fitem .fitemtitle label{
-    color: #333 !important;
-}
+

@@ -745,7 +745,7 @@ h2 {
 
 
 /*on forum*/
-#page-mod-forum-view,#page-mod-forum-post .span8.pull-right {
+#page-mod-forum-view,#page-mod-forum-post, #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }
@@ -760,7 +760,7 @@ tr.discussion a:hover {
 } 
 
 /*white on various vews*/
-#page-mod-label-mod, #page-mod-book-mod, #page-mod-book-edit .span9 {
+#page-mod-label-mod, #page-mod-book-mod, #page-mod-book-edit, #page-mod-page-mod .span9 {
   background: #ffffff !important; 
   padding:20px;
 } 

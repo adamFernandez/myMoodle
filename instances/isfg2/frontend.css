@@ -817,7 +817,7 @@ h2 {
 
 /*margins around white*/
 .course-content {
-    margin-left:35px;
+    margin-left:100px !important;
 }
 
 /*on page, make white bg*/

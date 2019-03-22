@@ -87,6 +87,7 @@ body {
     font-size: 13px; 
     line-height: 20px;
     background: #eef1f2 !important;
+    color: #5a6469 !important;
 }
 
 
@@ -384,7 +385,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
     font-weight: 700;
-    color: #241f20 !important;
+    color: #171717 !important;
     padding-bottom: 22px;
     border-bottom: none;
     text-shadow: none;
@@ -512,7 +513,7 @@ html, body, p, li,input, button, select, textarea {
 h2 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
-    color: #241f20 !important;
+    color: #171717 !important;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -527,7 +528,7 @@ a:hover {
 
 h3 {
 	font-family: 'kingsfont-37';
-    	color: #241f20 !important;
+    	color: #171717 !important;
         font-weight: 300 !important;
     	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
@@ -571,12 +572,12 @@ Accordions
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname {
-	color: #241f20 !important;
+	color: #171717 !important;
 	font-family: 'kingsfont-37';
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname:hover {
-	color: #241f20 !important;
+	color: #171717 !important;
     text-decoration: none;
 }
 
@@ -697,7 +698,7 @@ h2 {
     font-size: 1.4em !important;
     margin: 5px 0 15px;
     -webkit-font-smoothing: antialiased;
-    color: #241f20;
+    color: #171717;
 }
 .section .activity .activityinstance, .section .activity .activityinstance div {
     display: inline-block;
@@ -747,14 +748,14 @@ h2 {
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
     padding-bottom:20px;
-    color:#241f20;
+    color:#171717;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
     padding-bottom:20px;
-    color:#241f20;
+    color:#171717;
 }
 
 
@@ -770,7 +771,7 @@ h2 {
 }
 
 .course-content ul.gtopics .sectionname a {
-    color: #241f20 !important;
+    color: #171717 !important;
 }
 
 
@@ -830,7 +831,7 @@ h2 {
   padding:20px;
 }
 .span8.pull-right h2{
-    color: #241f20;
+    color: #171717;
     font-size: 24px;
 }
 #page-mod-page-view .span8.pull-right p {
@@ -844,7 +845,7 @@ h2 {
   padding:20px;
 }
 .span8.pull-right h2{
-    color: #241f20;
+    color: #171717;
     font-size: 24px;
 }
 #page-mod-forum-view .span8.pull-right p {
@@ -858,7 +859,7 @@ h2 {
   padding:20px;
 }
 .span8.pull-right h2{
-    color: #241f20;
+    color: #171717;
     font-size: 24px;
 }
 #page-mod-book-view .span8.pull-right p {
@@ -926,7 +927,7 @@ hr {
     background:#ffffff;
 }
 .forumpost .row .subject{
-    color:#241f20;
+    color:#171717;
     font-family: kingsfont-37;
     font-size: 22px;
     padding-top:6px;

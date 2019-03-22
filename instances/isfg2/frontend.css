@@ -815,6 +815,11 @@ h2 {
     text-align: justify;
 }
 
+/*margins around white*/
+.span8.pull-right {
+    margin-left:35px;
+}
+
 /*on page, make white bg*/
 #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 

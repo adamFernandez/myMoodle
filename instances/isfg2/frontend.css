@@ -940,5 +940,8 @@ hr {
 }
 
 
-
+/*book table of contents*/
+.book_toc_numbered ul li {
+    font-size: 14px;
+}
 

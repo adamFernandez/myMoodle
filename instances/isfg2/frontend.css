@@ -142,7 +142,7 @@ body {
 .course-content .single-section .section-navigation .mdl-left a{
     color: #0D4277 !important;
     padding-top:5px;
-    padding-bottom:5px;
+    padding-bottom:8px;
     font-size: 14px !important;
 }
 .course-content .single-section .section-navigation .mdl-left a:hover{
@@ -151,7 +151,7 @@ body {
 .course-content .single-section .section-navigation .mdl-right a{
     color: #0D4277 !important;
     padding-top:5px;
-    padding-bottom:5px;
+    padding-bottom:8px;
     font-size: 14px !important;
 }
 .course-content .single-section .section-navigation .mdl-right a:hover{
@@ -694,7 +694,7 @@ main {
     padding-left: 10px;
 }
 h2 {
-    font-size: 1.6em;
+    font-size: 1.4em !important;
     margin: 5px 0 15px;
     -webkit-font-smoothing: antialiased;
     color: #241f20;

@@ -815,9 +815,11 @@ h2 {
     text-align: justify;
 }
 
-/*margins around white*/
-.course-content {
-    margin-left:60px !important;
+/*margins around white increase on desktop*/
+@media only screen and (min-width: 900px) {
+    .course-content {
+        margin-left:60px !important;
+    }
 }
 
 /*on page, make white bg*/

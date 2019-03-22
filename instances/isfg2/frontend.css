@@ -84,7 +84,7 @@
       display: none;
 }
 body {
-    font-size: 13px; 
+    font-size: 14px; 
     line-height: 20px;
     background: #eef1f2 !important;
     color: #5a6469 !important;
@@ -460,7 +460,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     background: #eef1f2;
 }
 body {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
     background: #cdd7dc;
 }

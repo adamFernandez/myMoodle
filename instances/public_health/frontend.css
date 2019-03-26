@@ -249,3 +249,7 @@ div.desc {
 .path-course-view .completionprogress {
 	display: none;
 }
+
+table tr td {
+	border: 2px solid #0A2d50;
+}

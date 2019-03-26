@@ -203,6 +203,8 @@ body {
   .navbar .nav.pull-right {
       float: right;
       margin: -5px 227px 0px 28px;
+      border:none;
+      background-color: #5a6469;
   }
   .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
     border: 2px solid #fff;

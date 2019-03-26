@@ -291,7 +291,7 @@ body {
 }
 
 .navbar .popover-region:hover{
-    background:red;
+    background:transparent;
 }
 
 #block-region-side-post .block {

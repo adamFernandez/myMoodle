@@ -483,6 +483,7 @@ body {
     height: 87px;
     margin: 0;
     padding: 15px 15px 14px;
+    border:none;
     background: transparent url(https://git.iddkingsonline.com/instances/marketing/KCL_logo.svg) center top no-repeat;
 }
 #page-header .logo {

@@ -329,7 +329,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     padding-left: 0;
     padding-right: 0;
     height: 5px;
-    background: #5a6469;
+    background: #5a6469; 
     z-index: 1;
 }
 .navbar-fixed-top, .navbar-fixed-bottom {

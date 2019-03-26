@@ -293,6 +293,9 @@ body {
 .navbar .popover-region:hover{
     background:transparent;
 }
+.usermenu:hover{
+    background:transparent;
+}
 
 #block-region-side-post .block {
     background-color: transparent;

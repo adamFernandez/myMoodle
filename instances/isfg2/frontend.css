@@ -290,7 +290,7 @@ body {
     border-right: 0px solid #436e94;
 }
 
-.nav.pull-right ul li:hover{
+.navbar .popover-region:hover{
     background:red;
 }
 

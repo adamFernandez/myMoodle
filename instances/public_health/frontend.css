@@ -250,6 +250,6 @@ div.desc {
 	display: none;
 }
 
-table tr td {
-	border: 2px solid #0A2d50;
+#region-main table tr td {
+	border: 2px;
 }

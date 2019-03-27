@@ -446,6 +446,10 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     border-right: 1px solid #6660;
 }
 
+#action-menu-toggle-0:hover{
+    background-color: #5B6469;
+}
+
 /*Bg*/
 @media (min-width: 980px) {
 .custom-menu {

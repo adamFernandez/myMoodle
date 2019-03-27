@@ -29,3 +29,7 @@
 .k-duration {
 	display: block !important;
 }
+
+.sideBarContainerReminder.left {
+	background-color:#ff5f05;
+}

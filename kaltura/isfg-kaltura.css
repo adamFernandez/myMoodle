@@ -1,6 +1,6 @@
-/*.chapters > .k-chapters-container.k-vertical .mediaBox {
+.chapters > .k-chapters-container.k-vertical .mediaBox {
         height: 90px !important;
-}*/
+}
 
 .chapters > .k-chapters-container .boxImg img {
         display: none;
@@ -18,17 +18,17 @@
 	max-height: 50px;
 }
 
-/*.k-description-container {
+.k-description-container {
 	display: none;
-}*/
+}
 
-/*.k-chapter-time {
+.k-chapter-time {
 	display: none;
-}*/
+}
 
-/*.k-duration {
+.k-duration {
 	display: block !important;
-}*/
+}
 
 .sideBarContainerReminder.left {
 	background-color:#ff5f05;

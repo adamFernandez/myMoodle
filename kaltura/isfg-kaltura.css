@@ -36,7 +36,11 @@
 }
 
 .chapters > .k-chapters-container .k-chapter-title {
-    font-size: 10px!important;
+    font-size: 13px!important;
+}
+
+.chapters > .k-chapters-container .k-description-container{
+	font-size: 11px!important;
 }
 
 .footer{

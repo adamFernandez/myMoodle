@@ -15,7 +15,7 @@
 }
 
 .k-title-container {
-	max-height: 5px;
+	max-height: 50px;
 }
 
 /*.k-description-container {
@@ -48,6 +48,6 @@
 }
 
 .sideBarContainer{
-	top:1px!important;
+	top:0.5px!important;
 	border: 2px solid black;
 }

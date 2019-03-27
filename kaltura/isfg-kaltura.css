@@ -46,3 +46,7 @@
 .footer{
 	display:none!important;
 }
+
+.sideBarContainer .left .hover .openBtn{
+	top:3px!important;
+}

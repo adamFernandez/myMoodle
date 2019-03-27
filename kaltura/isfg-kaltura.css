@@ -30,7 +30,11 @@
 	display: block !important;
 }
 
-.sideBarContainerReminder.left {
+/*.sideBarContainerReminder.left {
 	background-color:#ff5f05;
 	border-left: 4px solid black;
+}*/
+
+#sideBarContainerReminderContainer{
+	color:#ff5f05;
 }

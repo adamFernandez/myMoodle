@@ -2,33 +2,33 @@
         height: 90px !important;
 }*/
 
-.chapters > .k-chapters-container .boxImg img {
+/*.chapters > .k-chapters-container .boxImg img {
         display: none;
-}
+}*/
 
-.topBarContainer {
+/*.topBarContainer {
         display: none;
-}
+}*/
 
 /*.sideBarContainerReminder {
         top: 3px !important;
 }*/
 
-.k-title-container {
+/*.k-title-container {
 	max-height: 50px;
-}
+}*/
 
-.k-description-container {
+/*.k-description-container {
 	display: none;
-}
+}*/
 
-.k-chapter-time {
+/*.k-chapter-time {
 	display: none;
-}
+}*/
 
-.k-duration {
+/*.k-duration {
 	display: block !important;
-}
+}*/
 
 .sideBarContainerReminder.left {
 	background-color:#ff5f05;

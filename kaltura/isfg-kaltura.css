@@ -47,6 +47,7 @@
 	display:none!important;
 }
 
-.sideBarContainer .left .hover .openBtn{
-	top:3px!important;
+.sideBarContainer{
+	top:1px!important;
+	border: 2px solid black;
 }

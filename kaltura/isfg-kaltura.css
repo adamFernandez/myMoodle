@@ -36,7 +36,5 @@
 }
 
 .chapters > .k-chapters-container .k-chapter-title {
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 1.2;
+    font-size: 10px!important;
 }

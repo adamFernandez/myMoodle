@@ -10,13 +10,13 @@
         display: none;
 }
 
-/*.sideBarContainerReminder {
+.sideBarContainerReminder {
         top: 3px !important;
-}*/
+}
 
-/*.k-title-container {
+.k-title-container {
 	max-height: 50px;
-}*/
+}
 
 /*.k-description-container {
 	display: none;

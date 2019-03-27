@@ -34,3 +34,7 @@
 	background-color:#ff5f05;
 	left:3px!important;
 }
+
+.sideBarContainer .left .hover .openBtn{
+	top:60px;
+}

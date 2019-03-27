@@ -38,3 +38,7 @@
 .chapters > .k-chapters-container .k-chapter-title {
     font-size: 10px!important;
 }
+
+.chapters > .footer > .footerWrapper{
+	display:none;
+}

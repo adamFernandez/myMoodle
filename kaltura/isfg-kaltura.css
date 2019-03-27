@@ -2,13 +2,13 @@
         height: 90px !important;
 }*/
 
-/*.chapters > .k-chapters-container .boxImg img {
+.chapters > .k-chapters-container .boxImg img {
         display: none;
-}*/
+}
 
-/*.topBarContainer {
+.topBarContainer {
         display: none;
-}*/
+}
 
 /*.sideBarContainerReminder {
         top: 3px !important;

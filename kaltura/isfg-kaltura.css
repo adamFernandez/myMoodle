@@ -1,6 +1,6 @@
-.chapters > .k-chapters-container.k-vertical .mediaBox {
+/*.chapters > .k-chapters-container.k-vertical .mediaBox {
         height: 90px !important;
-}
+}*/
 
 .chapters > .k-chapters-container .boxImg img {
         display: none;
@@ -10,9 +10,9 @@
         display: none;
 }
 
-.sideBarContainerReminder {
+/*.sideBarContainerReminder {
         top: 3px !important;
-}
+}*/
 
 .k-title-container {
 	max-height: 50px;

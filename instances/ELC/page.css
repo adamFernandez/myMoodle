@@ -512,7 +512,7 @@ ul.topnav li.right {
 element.style {
     display: block;
     position: relative;
-    max-width: 99.1% !important; 
+    max-width: 99.1% !important;
 }
 .video-js .vjs-big-play-button {
     font-size: 4em;
@@ -546,7 +546,7 @@ iframe, .no-overflow>iframe {
 }
 
 .Click_WA:hover {
-   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment_Over.png');
+   background-image: url('https://git.iddkingsonline.com/instances/ELC/img/Banner_WeeklyAssesment_Over2.png');
 }
 .ELC_webinars {
  margin-bottom: 10px;

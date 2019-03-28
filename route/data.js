@@ -365,7 +365,7 @@ var data = {
     },
     "module3": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2316930"
+        "1": "mod/forum/view.php?id=2637737"
       }
     },
     "module4": {
@@ -413,10 +413,10 @@ var data = {
     },
     "module6": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2339398"
+        "1": "mod/forum/view.php?id=2637439"
       },
       "poll11": {
-        "1": "mod/choice/view.php?id=2406212"
+        "1": "mod/choice/view.php?id=2637552"
       }
     },
     "module7": {
@@ -441,7 +441,13 @@ var data = {
     },
     "module10": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2590807"
+        "1": "mod/forum/view.php?id=2590807",
+        "2": "mod/forum/view.php?id=2637341"
+      }
+    },
+    "module11": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2637860"
       }
     }
   },

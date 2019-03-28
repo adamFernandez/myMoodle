@@ -58,6 +58,8 @@ h3 {
         font-weight: 300 !important;
     	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
+      padding-top:40px;
+      padding-bottom:40px;
 }
 
 h3 > b  {
@@ -157,8 +159,8 @@ input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submi
       display: none;
 }
 body {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 21px;
     background: #39628a !important;
 }
 .navbar .brand {
@@ -293,6 +295,16 @@ user agent stylesheet
     text-overflow: inherit;
     -webkit-font-smoothing: antialiased;
 }
+
+/*links in edit view*/
+.course-content ul.gridicons li a{
+    color:#ffffff !important;
+}
+.gtopics-0 a {
+    background-color:#ffffff;
+    padding:2px;
+}
+
 .course-content ul.gridicons li.currentselected .icon_content {
     color: #ffffff!important ;
 }
@@ -324,7 +336,7 @@ user agent stylesheet
     border-left: 0px solid #436e94;
     border-right: 0px solid #436e94;
 }
-#block-region-side-post .block {
+#block-region-side-post .block, .block {
     background-color: #3b6389;
     border-radius: 0px 0px 0px 0px;
     box-shadow: 0 0px 0px rgb(66, 110, 148);
@@ -405,7 +417,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 #block-region-side-post .block .header .block_action {
     display: none;
 }
-#block-region-side-post .block .header .title h2 {
+#block-region-side-post .block .header .title h2, .block .header .title h2 {
     font-family: "BureauGrotesqueThreeSeven",Impact,Arial,Helvetica,sans-serif;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
@@ -484,8 +496,8 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     background: #3c6389;
 }
 body {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 21px;
     background: #23496d;
 }
 
@@ -576,6 +588,7 @@ Hero
 main {
   overflow: hidden;
   font-family: 'kingsfont-37';
+  /*display:none;*/ 
 }
 
 .hero {
@@ -659,7 +672,7 @@ h2 {
     font-size: 1.6em;
     margin: 5px 0 15px;
     -webkit-font-smoothing: antialiased;
-    color: #FF3C39;
+    color: #0A2D50;
 }
 .section .activity .activityinstance, .section .activity .activityinstance div {
     display: inline-block;
@@ -707,11 +720,68 @@ h2 {
     margin-right:  0px;
     width: 100%;
 }
-.single-section h3.sectionname {
-    text-align: left;
-    padding: 10px 0 0;
-    display: none;
+
+/*make course header in week view white*/
+.course-content ul.gtopics h3.sectionname a{
+    color: #ffffff !important;
+    padding-top:40px;
 }
+
+/*fix heading bottom borders*/
+.course-content ul.gtopics h3.sectionname{
+    border-bottom:0px;
+}
+
+.course-content ul.gtopics h3.sectionname{
+    border-bottom: 5px solid #ffffff;
+}
+
+.course-content ul.gtopics-0 h3.sectionname{
+    border-bottom: 5px solid #ffffff;
+}
+
+.course-content ul li.section.main {
+    border-bottom: 0px solid #FFF;
+}
+
+
+/*white on various vews*/
+#page-course-edit .span9, #page-mod-url-mod .span9, #page-mod-quiz-mod .span9, #page-mod-kalvidres-mod .span9 #page-mod-label-mod.span9, #page-mod-book-mod .span9, #page-mod-book-edit .span9, #page-course-edit .span9, #page-mod-page-mod .span9, #page-mod-forum-mod .span9, #page-mod-turnitintooltwo-mod .span9 {
+  background: #ffffff !important; 
+  padding:20px;
+}
+/*exception for main page*/
+/*#page-course-view-grid .span9 {
+  background: #35597E !important; 
+}*/
+#page-mod-forum-view .span8.pull-right,#page-mod-forum-post.span8.pull-right, #page-mod-page-view .span8.pull-right {
+  background: #ffffff !important; 
+  padding:20px;
+}  
+/*exception for main page*/
+/*#page-course-view-grid .span9 {
+  background: #35597E !important; 
+}*/
+
+/*forum items*/
+tr.discussion a{
+   color:#0070a8;
+}
+tr.discussion a:hover {
+    color: #35597E;
+    text-decoration: underline;
+} 
+ 
+
+
+/*.single-section */
+h3.sectionname span{
+    text-align: left;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #ff4441;
+}
+
 .course-content .single-section .section-navigation {
     display: unset;
     padding: .5em;
@@ -720,8 +790,13 @@ h2 {
 .course-content li.section ul {
     list-style: disc;
     background: white;
-    color: #21486e;
+    color: #21486e; 
 }
+.course-content ul li.section.main {
+    margin-top:40px;
+    margin-bottom:50px;
+}
+
 #week_header_content {
     color: #ffffff !important;
     font-size: medium;
@@ -745,3 +820,6 @@ hr {
     margin-right: 6px;
     border-bottom: 4px solid #fff !important;
 }
+
+
+

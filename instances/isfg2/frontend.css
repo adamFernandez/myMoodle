@@ -26,6 +26,7 @@
 
 /*418px*/
 @media (max-width: 418px) {
+
     .course-content .single-section .section-navigation .mdl-left {
         display: none;
     }
@@ -69,7 +70,7 @@
     margin-top: -3px;
     margin-left: -1px;
     height: 5px;
-    background: #3b6389;
+    background: #5a6469;
     z-index: 1;
 }
   #week_header {
@@ -83,10 +84,13 @@
       display: none;
 }
 body {
-    font-size: 13px; 
+    font-size: 14px; 
     line-height: 20px;
     background: #eef1f2 !important;
+    color: #5a6469 !important;
 }
+
+
 .navbar .brand {
     zoom: 57%;
   }
@@ -139,7 +143,7 @@ body {
 .course-content .single-section .section-navigation .mdl-left a{
     color: #0D4277 !important;
     padding-top:5px;
-    padding-bottom:5px;
+    font-size: 14px !important;
 }
 .course-content .single-section .section-navigation .mdl-left a:hover{
     color: #4F759B !important;
@@ -147,7 +151,7 @@ body {
 .course-content .single-section .section-navigation .mdl-right a{
     color: #0D4277 !important;
     padding-top:5px;
-    padding-bottom:5px;
+    font-size: 14px !important;
 }
 .course-content .single-section .section-navigation .mdl-right a:hover{
     color: #4F759B !important;
@@ -175,14 +179,15 @@ body {
     z-index: 9999 !important;
 }
 
-user agent stylesheet
+
+/*user agent stylesheet*/
 
 
 @media (max-width: 979px) {
   .navbar .nav-collapse.in {
-      border-top: 1px solid #2e638c;
+      border-top: none;
       background: #4b4b4b;
-}
+    }
 }
 
 
@@ -190,15 +195,21 @@ user agent stylesheet
   .breadcrumb {
     margin: 27px 181px 9px;
     z-index: 100;
-    white-space: nowrap;
+    white-space: normal;
     width: 201px;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+    }
   .navbar .nav.pull-right {
       float: right;
       margin: -5px 227px 0px 28px;
-  }}
+      border:none;
+      background-color: #5a6469;
+  }
+  .navbar .btn-navbar, .navbar .btn-navbar:active, .navbar .btn-navbar.active, .navbar .btn-navbar:focus, .navbar .btn-navbar:hover {
+    border: 2px solid #fff;
+}
+}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {
@@ -278,6 +289,14 @@ user agent stylesheet
     border-left: 0px solid #436e94;
     border-right: 0px solid #436e94;
 }
+
+.navbar .popover-region:hover{
+    background:transparent;
+}
+.usermenu:hover{
+    background:transparent;
+}
+
 #block-region-side-post .block {
     background-color: transparent;
     border-radius: 0px 0px 0px 0px;
@@ -286,6 +305,12 @@ user agent stylesheet
     border-left-style: none;
     border-top-style: none;
     border-bottom: none;
+}
+
+#block-region-side-pre .block {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
 }
 
 input[type="submit"], input[type="reset"], input#id_submitbutton, input#id_submitbutton2, #page-user-profile .messagebox a, .path-admin .buttons input[type="submit"], td.submit input {
@@ -314,7 +339,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     padding-left: 0;
     padding-right: 0;
     height: 5px;
-    background: #3b6389;
+    background: #5a6469; 
     z-index: 1;
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
@@ -337,11 +362,16 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 .breadcrumb {
     margin: 27px 181px 9px;
     z-index: 100;
+    font-size:14px !important;
+}
+
+.breadcrumb>li:after {
+    color: #0D4277;
 }
 
 #page-header .toplinks {
     float: right;
-    display: none;
+    /*display: none;*/
 }
 #coursesearch {
     display: none;
@@ -364,7 +394,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
     font-weight: 700;
-    color: #241f20 !important;
+    color: #171717 !important;
     padding-bottom: 22px;
     border-bottom: none;
     text-shadow: none;
@@ -403,7 +433,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 .custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
     color: #fff;
     text-shadow: none;
-    background-color: #53545500;
+    background-color: #5B6469;
 }
 .custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
     color: #fff;
@@ -414,6 +444,10 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     padding: 17px 15px 13px;
     border: none;
     border-right: 1px solid #6660;
+}
+
+#action-menu-toggle-0:hover{
+    background-color: #5B6469;
 }
 
 /*Bg*/
@@ -438,9 +472,9 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     background: #eef1f2;
 }
 body {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 20px;
-    background: #eef1f2;
+    background: #cdd7dc;
 }
 
 /*Header*/
@@ -461,6 +495,7 @@ body {
     height: 87px;
     margin: 0;
     padding: 15px 15px 14px;
+    border:none;
     background: transparent url(https://git.iddkingsonline.com/instances/marketing/KCL_logo.svg) center top no-repeat;
 }
 #page-header .logo {
@@ -492,7 +527,7 @@ html, body, p, li,input, button, select, textarea {
 h2 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
-    color: #241f20 !important;
+    color: #171717 !important;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -507,7 +542,7 @@ a:hover {
 
 h3 {
 	font-family: 'kingsfont-37';
-    	color: #241f20 !important;
+    	color: #171717 !important;
         font-weight: 300 !important;
     	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
@@ -551,12 +586,12 @@ Accordions
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname {
-	color: #241f20 !important;
+	color: #171717 !important;
 	font-family: 'kingsfont-37';
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle h3.sectionname:hover {
-	color: #241f20 !important;
+	color: #171717 !important;
     text-decoration: none;
 }
 
@@ -674,10 +709,10 @@ main {
     padding-left: 10px;
 }
 h2 {
-    font-size: 1.6em;
+    font-size: 1.4em !important;
     margin: 5px 0 15px;
     -webkit-font-smoothing: antialiased;
-    color: #241f20;
+    color: #171717;
 }
 .section .activity .activityinstance, .section .activity .activityinstance div {
     display: inline-block;
@@ -727,14 +762,14 @@ h2 {
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
     padding-bottom:20px;
-    color:#241f20;
+    color:#171717;
 }
 
 .course-content ul.gtopics-0 h3.sectionname{
     border-bottom: 5px solid #FF5F05;
     font-size: 48px;
     padding-bottom:20px;
-    color:#241f20;
+    color:#171717;
 }
 
 
@@ -750,7 +785,7 @@ h2 {
 }
 
 .course-content ul.gtopics .sectionname a {
-    color: #241f20 !important;
+    color: #171717 !important;
 }
 
 
@@ -787,7 +822,7 @@ h2 {
 .course-content li.section ul {
     list-style: disc;
     background: transparent;
-    font-size:13pt;
+    font-size:17px;
 }
 #week_header_content {
     color: #ffffff !important;
@@ -797,17 +832,25 @@ h2 {
     text-align: justify;
 }
 
+/*margins around white increase on desktop*/
+@media only screen and (min-width: 900px) {
+    .course-content {
+        margin-left:50px !important;
+    }
+}
+
 /*on page, make white bg*/
 #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }
 .span8.pull-right h2{
-    color: #241f20;
-    font-size: 18pt;
+    color: #171717;
+    font-size: 24px;
 }
 #page-mod-page-view .span8.pull-right p {
-    font-size: 13pt;
+    font-size: 17px;
+    line-height: 27px;
 }
 
 /*on forum, make white bg*/
@@ -816,11 +859,27 @@ h2 {
   padding:20px;
 }
 .span8.pull-right h2{
-    color: #241f20;
-    font-size: 18pt;
+    color: #171717;
+    font-size: 24px;
 }
 #page-mod-forum-view .span8.pull-right p {
-    font-size: 13pt;
+    font-size: 17px;
+    line-height: 27px;
+} 
+
+/*on book, make white bg*/
+#page-mod-book-view .span8.pull-right {
+  background: #ffffff !important; 
+  padding:20px;
+}
+.span8.pull-right h2{
+    color: #171717;
+    font-size: 24px;
+}
+#page-mod-book-view .span8.pull-right p {
+    font-size: 17px;
+    line-height: 27px;
+    margin-top: 20px;
 } 
 
 /*Header borders style*/
@@ -882,9 +941,9 @@ hr {
     background:#ffffff;
 }
 .forumpost .row .subject{
-    color:#241f20;
+    color:#171717;
     font-family: kingsfont-37;
-    font-size: 16pt;
+    font-size: 22px;
     padding-top:6px;
 }
 
@@ -894,5 +953,8 @@ hr {
 }
 
 
-
+/*book table of contents*/
+.book_toc_numbered ul li {
+    font-size: 14px;
+}
 

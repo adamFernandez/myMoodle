@@ -66,8 +66,8 @@
 }
 
 .block {
-	border-right-style: 1px solid #e3e3e3 !important;
-	border-left-style: 1px solid #e3e3e3 !important;
-	border-top-style: 1px solid #e3e3e3 !important;
-	border-bottom-style: 1px solid #e3e3e3 !important;
+	border-right: 1px solid #e3e3e3 !important;
+	border-left: 1px solid #e3e3e3 !important;
+	border-top: 1px solid #e3e3e3 !important;
+	border-bottom: 1px solid #e3e3e3 !important;
 }

@@ -2,7 +2,7 @@
 
 
 .navbar-inner, #page-footer .row-fluid, .container-fluid {
-	background: #ffffff !important	;
+	background: #ffffff;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
@@ -11,6 +11,7 @@
 	box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
 	-moz-box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
 	-webkit-box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
+	background: #ffffff;
 }
 
 .breadcrumb {

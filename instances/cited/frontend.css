@@ -42,9 +42,10 @@
 
 .course-content ul.gtopics-0 h3.sectionname {
 	position: absolute;
-	width: 96%;
 	padding-bottom: 15px;
 	font-size: 42px;
+	left: 35px;
+	right: 35px;
 }
 
 #gridiconcontainer {
@@ -64,6 +65,11 @@
 
 #block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
 	margin-top: 123px;
+}
+
+.block-region {
+	right: 30px;
+	margin-left: 10px;
 }
 
 .block {

@@ -29,8 +29,10 @@
 	color: #000000;
 }
 
-@media only screen and (min-width: 900px) .course-content {
+@media only screen and (min-width: 900px) {
+	.course-content {
 	margin-left: 0px !important;
+	}
 }
 
 #page-content {

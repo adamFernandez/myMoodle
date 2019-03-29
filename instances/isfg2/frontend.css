@@ -433,7 +433,7 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
 .custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
     color: #fff;
     text-shadow: none;
-    background-color: #53545500;
+    background-color: #5B6469;
 }
 .custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
     color: #fff;
@@ -444,6 +444,10 @@ button:hover, .more-link a:hover, input.form-submit:hover, input[type="button"]:
     padding: 17px 15px 13px;
     border: none;
     border-right: 1px solid #6660;
+}
+
+#action-menu-toggle-0:hover{
+    background-color: #5B6469;
 }
 
 /*Bg*/

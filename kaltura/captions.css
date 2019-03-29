@@ -1,0 +1,4 @@
+.captionsContainer .track .caption {
+  top: inherit !important;
+  bottom: 50px;
+  }

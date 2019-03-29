@@ -2,7 +2,7 @@
 
 
 .navbar-inner, #page-footer .row-fluid, .container-fluid {
-	background: #ffffff;
+	background: #ffffff !important	;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
@@ -29,7 +29,7 @@
 	color: #000000;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px) .course-content {
 	margin-left: 0px !important;
 }
 
@@ -44,14 +44,14 @@
 	font-size: 42px;
 }
 
-#gridiconicontainer {
+#gridiconcontainer {
 	padding-top: 80px;
 	font-size: 28px !important;
 }
 
 .course-content ul.gridicons li .image_holder {
-	width: 295px;
-	height: 295px;
+	width: 295px !important;
+	height: 295px !important;
 }
 
 .course-content ul.gridicons li .icon_content {

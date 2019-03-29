@@ -61,9 +61,12 @@
 	
 
 #block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
-	margin-to: 123px;
+	margin-top: 123px;
 }
 
 .block {
-	border: 1px solid #e3e3e3 !important;
+	border-right-style: 1px solid #e3e3e3 !important;
+	border-left-style: 1px solid #e3e3e3 !important;
+	border-top-style: 1px solid #e3e3e3 !important;
+	border-bottom-style: 1px solid #e3e3e3 !important;
 }

@@ -70,7 +70,7 @@ a {
 }
 	
 
-page-course-view-grid #block-region-side-pre.span3, page-course-view-grid #block-region-side-pre.span4, page-course-view-grid #block-region-side-post.span4 {
+#page-course-view-grid #block-region-side-pre.span3, page-course-view-grid #block-region-side-pre.span4, page-course-view-grid #block-region-side-post.span4 {
 	margin-top: 123px;
 }
 

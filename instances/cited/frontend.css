@@ -1,1 +1,67 @@
 @import "https://git.iddkingsonline.com/instances/isfg2/frontend.css";
+
+
+.navbar-inner, #page-footer .row-fluid, .container-fluid {
+	background: #ffffff;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	max-height: 100px;
+	border-bottom: 1px solid #f6f6f6;
+	box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
+	-moz-box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
+	-webkit-box-shadow: 0px 1px 9px 1px rgba(211,211,211,1);
+}
+
+.breadcrumb {
+	margin: 67px 20px 9px;
+} 
+
+.custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content,.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+	color: blue;
+	}
+	
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle,#action-menu-toggle-0:hover {
+	background-color: #ffffff;
+}
+
+.navbar .popover-region .popover-region-toggle:before {
+	color: #000000;
+}
+
+@media only screen and (min-width: 900px) {
+	margin-left: 0px !important;
+}
+
+#page-content {
+	padding-top: 0px !important;
+}
+
+.course-content ul.gtopics-0 h3.sectionname {
+	position: absolute;
+	width: 96%;
+	padding-bottom: 15px;
+	font-size: 42px;
+}
+
+#gridiconicontainer {
+	padding-top: 80px;
+	font-size: 28px !important;
+}
+
+.course-content ul.gridicons li .image_holder {
+	width: 295px;
+	height: 295px;
+}
+
+.course-content ul.gridicons li .icon_content {
+	font-weight: 500;
+	
+
+#block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
+	margin-to: 123px;
+}
+
+.block {
+	border: 1px solid #e3e3e3 !important;
+}

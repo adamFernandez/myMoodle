@@ -53,8 +53,12 @@ a {
 	border-bottom: 5px solid #E2213A;
 }
 
-.single-section .content h3.sectionname {
-	padding-top: 100px;
+.course-content ul.gtopics h3.sectionname {
+	margin-top: -115px;
+}
+
+.single-section h3.sectionname {
+	margin-top: 100px;
 }
 
 #gridiconcontainer {

@@ -502,3 +502,7 @@ div.MathJax_Display {
 .toggle_open {
 	border-bottom: 0px !important;
 }
+
+@media print {
+	.block {display: none;}
+}	

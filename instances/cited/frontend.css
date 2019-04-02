@@ -43,7 +43,7 @@ a {
 	padding-top: 0px !important;
 }
 
-.course-content ul.gtopics-0 h3.sectionname {
+.course-content ul.gtopics-0 h3.sectionname,.course-content ul.gtopics h3.sectionname  {
 	position: absolute;
 	padding-bottom: 15px;
 	font-size: 41.5px !important;
@@ -53,23 +53,12 @@ a {
 	border-bottom: 5px solid #E2213A;
 }
 
-.course-content ul.gtopics h3.sectionname {
-	margin-top: -115px;
-	color: #0D4277;
-	border-bottom: 5px solid #E2213A;
-	font-size: 41.5px !important;
-}
-
 .course-content ul.gtopics .sectionname a {
 	color: #0D4277;
 }
 
 .course-content .single-section {
-	margin-top: 125px;
-}
-
-.single-section h3.sectionname {
-	margin-top: 100px;
+	margin-top: 115px;
 }
 
 #gridiconcontainer {

@@ -203,3 +203,12 @@ p.titlesep {
     text-align: left;
     margin-left: 19px;
 }
+.course-content ul li.section.main {
+    border-bottom: 1px solid #dddddd !important;
+    margin-top: 0;
+}
+.course-content ul li.section.main {
+    border-bottom: 0 none;
+    background: none !important;
+    padding: 0px 0!important;
+}

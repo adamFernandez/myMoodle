@@ -54,7 +54,10 @@ a {
 }
 
 .course-content ul.gtopics h3.sectionname {
-	margin-top: -115px;
+	margin-top: 15px;
+	color: #0D4277;
+	border-bottom: 5px solid #E2213A;
+	font-size: 41.5px !important;
 }
 
 .single-section h3.sectionname {

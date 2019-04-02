@@ -212,3 +212,11 @@ p.titlesep {
     background: none !important;
     padding: 0px 0!important;
 }
+.collapse {
+    margin-left: 16px;
+}
+.section-title, h1, h2, h3, h4 {
+    font-family: 'KingsBureauGrot' !important;
+    color: #082a4f !important;
+    font-size: inherit;
+}

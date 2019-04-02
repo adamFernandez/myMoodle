@@ -233,3 +233,6 @@ p.titlesep {
     height: 40px;
     border-radius: 5px;
 }
+.course-content ul.collapsibletopics .content .summarytext {
+    margin: -31px 5px 5px;
+}

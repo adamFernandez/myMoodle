@@ -101,25 +101,25 @@ var data = {
   "iccl": {
     "module1": {
       "comments": {
-        "1": "mod/forum/view.php?id=2117516"
+        "1": "mod/forum/view.php?id=2402771"
       },
       "quiz1": {
-        "1": "mod/quiz/view.php?id=2117682"
+        "1": "mod/quiz/view.php?id=2402787"
       },
       "quiz2": {
-        "1": "mod/quiz/view.php?id=2117683"
+        "1": "mod/quiz/view.php?id=2402790"
       },
       "quiz3": {
-        "1": "mod/quiz/view.php?id=2117684"
+        "1": "mod/quiz/view.php?id=2402825"
       },
       "quiz4": {
-        "1": "mod/quiz/view.php?id=2117685"
+        "1": "mod/quiz/view.php?id=2402844"
       },
       "quiz5": {
-        "1": "mod/quiz/view.php?id=2117686"
+        "1": "mod/quiz/view.php?id=2402851"
       },
       "quiz6": {
-        "1": "mod/quiz/view.php?id=2117687"
+        "1": "mod/quiz/view.php?id=2402900"
       }
     },
     "module2": {

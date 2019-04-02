@@ -236,3 +236,13 @@ p.titlesep {
 .course-content {
     margin: -31px 5px 5px;
 }
+.jsenabled .breadcrumb-button .moodle-actionmenu[data-enhance] {
+    display: inline-block;
+    background: #101064;
+    margin-left: 12px;
+    width: 20px;
+    min-height: 20px;
+    padding: 5px 14px 2px 8px;
+    border-radius: 5px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, .1) inset;
+}

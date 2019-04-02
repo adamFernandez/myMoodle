@@ -43,10 +43,10 @@ a {
 	padding-top: 0px !important;
 }
 
-.course-content ul.gtopics-0 h3.sectionname {
+.course-content ul.gtopics-0 h3.sectionname, .course-content ul.gtopics h3.sectionname {
 	position: absolute;
 	padding-bottom: 15px;
-	font-size: 41.5px;
+	font-size: 41.5px !important;
 	left: 35px;
 	right: 35px;
 	color: #0D4277

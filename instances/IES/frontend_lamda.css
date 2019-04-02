@@ -238,7 +238,7 @@ p.titlesep {
 }
 .jsenabled .breadcrumb-button .moodle-actionmenu[data-enhance] {
     display: inline-block;
-    background: #101064;
+    background: #202f3f;
     margin-left: 12px;
     width: 20px;
     min-height: 20px;

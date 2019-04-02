@@ -54,12 +54,14 @@ a {
 }
 
 .course-content ul.gtopics .sectionname a {
-	color: #0D4277;
+	color: #0D4277 !important;
 }
 
 .course-content .single-section {
 	margin-top: 115px;
 }
+
+.accesshide {display: none;}
 
 #gridiconcontainer {
 	padding-top: 80px;

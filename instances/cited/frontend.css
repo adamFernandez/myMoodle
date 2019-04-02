@@ -16,8 +16,17 @@ body {
 	background: transparent url(https://git.iddkingsonline.com/instances/cited/logo.jpg) center top no-repeat;
 }
 
+.navbar .brand:hover {
+	background-color: transparent;
+}
+
 .navbar-inner, #page-footer .row-fluid, .container-fluid {
 	background: #ffffff;
+}
+
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
+	color: #000;
+	text-decoration: none;
 }
 
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {

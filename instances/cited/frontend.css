@@ -53,6 +53,10 @@ a {
 	border-bottom: 5px solid #E2213A;
 }
 
+.single-section .content h3.sectionname {
+	padding-top: 100px;
+}
+
 #gridiconcontainer {
 	padding-top: 80px;
 	font-size: 28px !important;

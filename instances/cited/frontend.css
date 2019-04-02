@@ -49,12 +49,12 @@ a {
 	font-size: 41.5px !important;
 	left: 35px;
 	right: 35px;
-	color: #0D4277;
+	color: #0A2D50 !important;
 	border-bottom: 5px solid #E2213A;
 }
 
 .course-content ul.gtopics .sectionname a {
-	color: #0D4277 !important;
+	color: #0A2D50 !important;
 }
 
 .course-content .single-section {

@@ -53,6 +53,11 @@ a {
 	border-bottom: 5px solid #E2213A;
 }
 
+.course-content ul.gtopics h3.sectionname {
+	font-size: 41.5px !important;
+	border-bottom: 5px solid #E2213A;
+	}
+
 #gridiconcontainer {
 	padding-top: 80px;
 	font-size: 28px !important;

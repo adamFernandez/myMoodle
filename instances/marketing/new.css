@@ -215,24 +215,6 @@ h2 {
     width: 100%;
 }
 
-
-/*fix heading bottom borders*/
-.course-content ul.gtopics h3.sectionname{
-    border-bottom:0px;
-}
-
-.course-content ul.gtopics h3.sectionname{
-    border-bottom: 5px solid #ffffff;
-}
-
-.course-content ul.gtopics-0 h3.sectionname{
-    border-bottom: 5px solid #ffffff;
-}
-
-.course-content ul li.section.main {
-    border-bottom: 0px solid #FFF;
-}
-
 .course-content ul.gridicons li.currentselected .icon_content {
     color: #ffffff!important ;
 }
@@ -241,6 +223,9 @@ h2 {
     background-color: #ffffff !important;
 }
 
+.course-content ul li.section.main {
+	background: none;
+}
 
 .course-content .single-section .section-navigation {
     display: unset;
@@ -251,9 +236,6 @@ h2 {
     list-style: disc;
     background: white;
     color: #21486e; 
-}
-.course-content ul li.section.main {
-    margin-bottom:50px;
 }
 
 #week_header_content {

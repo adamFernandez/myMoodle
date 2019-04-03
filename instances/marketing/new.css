@@ -60,11 +60,11 @@ h3 > b  {
 }
 
 .course-content ul.gridicons li.currentselected .icon_content {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .course-content ul.gridicons li.currentselected {
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }
 
 .course-content ul.gridicons li img:hover {

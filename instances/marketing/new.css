@@ -19,6 +19,7 @@ h3, #block_course_discuss_posts_container h3 {
 
 #block_course_discuss_posts_container h3 {
 	font-size: 1.4em !important;
+}
 
 h3 > b  {
 	font-weight: 400 !important;

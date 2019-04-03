@@ -59,9 +59,6 @@ h3 > b  {
     border-radius: 0px !important;
 }
 
-#block-region-side-post .block .header .block_action {
-    display: none;
-}
 #block-region-side-post .block .header .title h2, .block .header .title h2 {
     font-family: "BureauGrotesqueThreeSeven";
     font-size: 1.4em;
@@ -78,9 +75,7 @@ Hero
 ============================================================== */
 
 main {
-  overflow: hidden;
   font-family: 'KingsBureauGrotThreeSeven';
-  /*display:none;*/ 
 }
 
 .hero {
@@ -153,96 +148,6 @@ main {
 	}
 
 }
-/*Content BG*/
-.course-content {
-    margin-top: 0;
-    padding-bottom: 44px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-h2 {
-    font-size: 1.6em;
-    margin: 5px 0 15px;
-    -webkit-font-smoothing: antialiased;
-    color: #0A2D50;
-}
-.section .activity .activityinstance, .section .activity .activityinstance div {
-    display: inline-block;
-    margin-left: 4.1em;
-}
-.custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
-
-    -webkit-font-smoothing: antialiased;
-}
-
-
-/*Weekly activites*/
- #week_header {
-    height: auto;
-    white-space: normal;
-    font-weight: 700;
-    position: absolute;
-    text-align: left !important;
-    font-size: xx-large;
-    font-family: 'KingsBureauGrotThreeSeven';
-    color: #ffffff !important;
-    background: #ff3c39c9;
-    z-index: 100;
-    margin-top: -73px;
-    padding-left: 5px;
-    padding-right: 10px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    display: inline;
-    cursor: default !important;
-    line-height: normal;
-    margin-left: 23px;
-    max-width: 80%;
-    overflow: hidden;
-    text-align: left !important;
-    text-overflow: inherit;
-}
-.course-content ul.gtopics li.section .content {
-    margin: 0 0px !important;
-}
-.course-content ul.gtopics li.section .content {
-    margin-top: 26px;
-    margin-left: -2px;
-    margin-bottom:  0px;
-    margin-right:  0px;
-    width: 100%;
-}
-
-.course-content ul.gridicons li.currentselected .icon_content {
-    color: #ffffff!important ;
-}
-
-.course-content ul.gridicons li.currentselected {
-    background-color: #ffffff !important;
-}
-
-.course-content ul li.section.main {
-	background: none;
-}
-
-.course-content .single-section .section-navigation {
-    display: block;
-    padding: .5em;
-    margin-bottom: -.5em;
-    margin-top: -50px;
-}
-.course-content li.section ul {
-    list-style: disc;
-    background: white;
-    color: #21486e; 
-}
-
-#week_header_content {
-    color: #ffffff !important;
-    font-size: medium;
-    margin-left: 7px;
-    margin-right: 10px;
-    text-align: justify;
 
 /*Header borders style*/
 

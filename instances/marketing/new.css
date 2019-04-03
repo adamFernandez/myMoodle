@@ -240,43 +240,14 @@ h2 {
     border-bottom: 0px solid #FFF;
 }
 
-
-/*white on various vews*/
-#page-course-edit .span9, #page-mod-url-mod .span9, #page-mod-quiz-mod .span9, #page-mod-kalvidres-mod .span9 #page-mod-label-mod.span9, #page-mod-book-mod .span9, #page-mod-book-edit .span9, #page-course-edit .span9, #page-mod-page-mod .span9, #page-mod-forum-mod .span9, #page-mod-turnitintooltwo-mod .span9 {
-  background: #ffffff !important; 
-  padding:20px;
+.course-content ul.gridicons li.currentselected .icon_content {
+    color: #ffffff!important ;
 }
-/*exception for main page*/
-/*#page-course-view-grid .span9 {
-  background: #35597E !important; 
-}*/
-#page-mod-forum-view .span8.pull-right,#page-mod-forum-post.span8.pull-right, #page-mod-page-view .span8.pull-right {
-  background: #ffffff !important; 
-  padding:20px;
-}  
-/*exception for main page*/
-/*#page-course-view-grid .span9 {
-  background: #35597E !important; 
-}*/
 
-/*forum items*/
-tr.discussion a{
-   color:#0070a8;
+.course-content ul.gridicons li.currentselected {
+    background-color: #2e638c !important;
 }
-tr.discussion a:hover {
-    color: #35597E;
-    text-decoration: underline;
-} 
- 
 
-
-/*.single-section */
-h3.sectionname span{
-    text-align: left;
-    padding: 10px;
-    color: #ffffff;
-    background-color: #ff4441;
-}
 
 .course-content .single-section .section-navigation {
     display: unset;

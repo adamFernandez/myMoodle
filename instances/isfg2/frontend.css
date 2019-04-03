@@ -958,3 +958,6 @@ hr {
     font-size: 14px;
 }
 
+.settings{
+	z-index: 5;
+}

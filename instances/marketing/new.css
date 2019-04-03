@@ -6,24 +6,13 @@
 Fonts
 ============================================================== */
 
-@font-face {
-  font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff');
-}
-
-@font-face {
-	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.woff');
-}
-
 h2 {
-	font-family: 'kingsfont-37' !important;
+	font-family: 'KingsBureauGrotThreeSeven' !important;
 	font-weight: 400 !important;
 }
 
 h3 {
-	font-family: 'kingsfont-37';
-    	color: #ffffff !important;
+	font-family: 'KingsBureauGrotThreeSeven';
         font-weight: 300 !important;
     	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
@@ -43,7 +32,7 @@ h3 > b  {
     position: absolute;
     text-align: left !important;
     font-size: x-large;
-    font-family: 'kingsfont-37';
+    font-family: 'KingsBureauGrotThreeSeven';
     color: #ffffff;
     background: #ff3c39c9;
     z-index: 100;
@@ -73,25 +62,6 @@ h3 > b  {
     border-radius: 0px !important;
 }
 
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
-    border: none;
-    background: #3b6389 url(/theme/image.php/keats/theme/1547134149/nav-bg) no-repeat center top;
-    box-shadow: none;
-    max-height: 52px;
-}
-.navbar .popover-region {
-    border-left: 0px solid #436e94;
-}
-
-.jsenabled .block_settings .block_tree .tree_item.branch, .jsenabled .block_navigation .block_tree .tree_item.branch {
-    color: #ffffff;
-    font-weight: 700;
-}
-.jsenabled:hover .block_settings:hover .block_tree:hover .tree_item.branch:hover, .jsenabled:hover .block_navigation:hover .block_tree:hover .tree_item.branch:hover {
-    color: #ffffff;
-    font-weight: 700;
-}
-
 #block-region-side-post .block .header .block_action {
     display: none;
 }
@@ -100,7 +70,6 @@ h3 > b  {
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1.4em;
     font-weight: 700;
-    color: #fff;
     padding-bottom: 22px;
     border-bottom: 2px solid #fff;
     text-shadow: none;
@@ -114,7 +83,7 @@ Hero
 
 main {
   overflow: hidden;
-  font-family: 'kingsfont-37';
+  font-family: 'KingsBureauGrotThreeSeven';
   /*display:none;*/ 
 }
 
@@ -141,12 +110,12 @@ main {
   	font-size: 2.4em;
   	color: #ffffff;
 	font-weight: 400;
-  	font-family: 'kingsfont-37' !important;
+  	font-family: 'KingsBureauGrotThreeSeven' !important;
 }
 
 .hero-box h2 {
   	font-size: 2.3em;
-	font-family: 'kingsfont-51' !important;
+	font-family: 'KingsBureauGrotThreeSeven' !important;
   	color: #ffffff;
 	font-weight: 400;
   	right: 0;
@@ -166,7 +135,7 @@ main {
   }
   .hero-box h1 {
     	font-size: 1.4em;
-    	font-family: 'kingsfont-37' !important;
+    	font-family: 'KingsBureauGrotThreeSeven' !important;
 	padding-left: 15px;
   }
 

@@ -11,11 +11,14 @@ h2 {
 	font-weight: 400 !important;
 }
 
-h3,#block_course_discuss_posts_container h3 {
-	font-family: 'KingsBureauGrotThreeSeven';
+h3, #block_course_discuss_posts_container h3 {
+	font-family: 'KingsBureauGrotThreeSeven' !important;
         font-weight: 300 !important;
       -webkit-font-smoothing: antialiased;
 }
+
+#block_course_discuss_posts_container h3 {
+	font-size: 1.4em !important;
 
 h3 > b  {
 	font-weight: 400 !important;

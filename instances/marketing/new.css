@@ -14,7 +14,6 @@ h2 {
 h3 {
 	font-family: 'KingsBureauGrotThreeSeven';
         font-weight: 300 !important;
-    	font-size: xx-large;
       -webkit-font-smoothing: antialiased;
 }
 
@@ -228,9 +227,10 @@ h2 {
 }
 
 .course-content .single-section .section-navigation {
-    display: unset;
+    display: block;
     padding: .5em;
     margin-bottom: -.5em;
+    margin-top: -50px;
 }
 .course-content li.section ul {
     list-style: disc;

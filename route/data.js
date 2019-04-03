@@ -495,16 +495,20 @@ var data = {
   "ia": {
      "module1": {
        "forum1": {
-          "1": "mod/forum/view.php?id=2472760"
+          "1": "mod/forum/view.php?id=2472760",
+          "2": "mod/forum/view.php?id=2646499"
        },
        "forum2": {
-          "1": "mod/forum/view.php?id=2472766"
+          "1": "mod/forum/view.php?id=2472766",
+          "2": "mod/forum/view.php?id=2646505"
        },
        "forum3": {
-          "1": "mod/forum/view.php?id=2472791"
+          "1": "mod/forum/view.php?id=2472791",
+          "2": "mod/forum/view.php?id=2646531"
        },
        "forum4": {
-          "1": "mod/forum/view.php?id=2472819"
+          "1": "mod/forum/view.php?id=2472819",
+          "2": "mod/forum/view.php?id=2646561"
        },
        "forum5": {
           "1": "mod/forum/discuss.php?d=167806"

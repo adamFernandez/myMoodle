@@ -188,7 +188,7 @@ h2 {
     position: absolute;
     text-align: left !important;
     font-size: xx-large;
-    font-family: 'kingsfont-37';
+    font-family: 'KingsBureauGrotThreeSeven';
     color: #ffffff !important;
     background: #ff3c39c9;
     z-index: 100;
@@ -219,7 +219,6 @@ h2 {
 
 /*make course header in week view white*/
 .course-content ul.gtopics h3.sectionname a{
-    color: #ffffff !important;
     padding-top:40px;
 }
 
@@ -260,7 +259,6 @@ h2 {
     color: #21486e; 
 }
 .course-content ul li.section.main {
-    margin-top:40px;
     margin-bottom:50px;
 }
 

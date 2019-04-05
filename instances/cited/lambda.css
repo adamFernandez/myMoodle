@@ -1,0 +1,136 @@
+/*@import "https://git.iddkingsonline.com/instances/isfg2/frontend.css";*/
+
+a {
+	color: #0D4277;
+}
+
+body {
+	background: #eef1f2;
+}
+
+.navbar .brand {
+	width: 110px;
+	height: 80px;
+	margin-left: 10px;
+	margin-top: 30px;
+	background: transparent url(https://git.iddkingsonline.com/instances/cited/logo.jpg) center top no-repeat;
+}
+
+.navbar .brand:hover {
+	background-color: transparent;
+}
+
+.navbar-inner, #page-footer .row-fluid, .container-fluid {
+	background: #ffffff;
+}
+
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle {
+	color: #000;
+	text-decoration: none;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	max-height: 100px;
+	box-shadow: 0px 3px 3px .5px rgba(0,0,0,0.07);
+	-moz-box-shadow: 0px 3px 3px .5px rgba(0,0,0,0.07);
+	-webkit-box-shadow: 0px 3px 3px .5px rgba(0,0,0,0.07);
+	background: #ffffff;
+}
+
+.breadcrumb {
+	margin: 67px 20px 9px;
+} 
+
+.custom-menu .first-of-type>li>a, .custom-menu .first-of-type>li>.realuser, .custom-menu .first-of-type>li>.guestuser, .yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label, .yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content,.usermenu .moodle-actionmenu .toggle-display .userbutton .usertext {
+	color: #0D4277;
+	}
+	
+.custom-menu .first-of-type>li>a:hover, .custom-menu .first-of-type>li>a:focus, .custom-menu .first-of-type li.dropdown.open>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.active>.dropdown-toggle, .custom-menu .first-of-type li.dropdown.open.active>.dropdown-toggle,#action-menu-toggle-0:hover {
+	background-color: #ffffff;
+}
+
+.navbar .popover-region .popover-region-toggle:before {
+	color: #000000;
+}
+
+@media only screen and (min-width: 900px) {
+	.course-content {
+	margin-left: 0px !important;
+	}
+}
+
+#page-content {
+	padding-top: 0px !important;
+}
+
+.course-content ul.gtopics-0 h3.sectionname,.course-content ul.gtopics h3.sectionname  {
+	position: absolute;
+	padding-bottom: 15px;
+	font-size: 41.5px !important;
+	left: 35px;
+	right: 35px;
+	color: #0A2D50 !important;
+	border-bottom: 5px solid #E2213A;
+}
+
+.course-content ul.gtopics .sectionname a {
+	color: #0A2D50 !important;
+}
+
+.course-content .single-section {
+	margin-top: 115px;
+}
+
+.accesshide {display: none !important;}
+
+#gridiconcontainer {
+	padding-top: 80px;
+	font-size: 28px !important;
+}
+
+.course-content ul.gridicons li .image_holder {
+	width: 295px !important;
+	height: 295px !important;
+}
+
+.course-content ul.gridicons li .image_holder img {
+	width: 100%;
+	height: 100%;
+}
+
+.course-content ul.gridicons li .icon_content {
+	font-weight: 500;
+	font-size: 24px;
+	color: #0A2D50!important;
+	background: rgba(255,255,255,.75);
+	margin-top: 62.5px;
+}
+	
+
+#page-course-view-grid .span3 {
+	margin-top: 123px;
+}
+
+#page-mod-page-view .span3 {
+	margin-top: 0px;
+}
+
+.block-region {
+	right: 30px;
+	margin-left: 10px !important;
+}
+
+.block {
+	border-right: 1px solid #e3e3e3 !important;
+	border-left: 1px solid #e3e3e3 !important;
+	border-top: 1px solid #e3e3e3 !important;
+	border-bottom: 1px solid #e3e3e3 !important;
+}
+
+#page-footer .footer-lower {
+	text-align: left;
+}
+
+.course-content ul li.section.main {
+	border-bottom: 0px;
+}

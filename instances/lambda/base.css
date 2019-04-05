@@ -1,3 +1,11 @@
+
+/* Section Name */
+
+#section-0 .content>h3.sectionname {
+	width: 92%;
+	position: absolute;
+}
+
 /* Grid */ 
 
 .course-content ul.gridicons li .icon_content {
@@ -33,7 +41,7 @@
 }
 
 .course-content ul.gridicons li.currentselected .icon_content a:hover {
-	color: inherit;
+	color: inherit !important;
 }
 
 .course-content ul.gridicons li img:hover {
@@ -55,4 +63,10 @@
 
 .course-content ul.gridicons li.currentselected {
 	background-color: #ffffff !important;
+}
+
+/* Blocks */
+
+#block-region-side-post, #blok-region-side-pre {
+	margin-top: 125px;
 }

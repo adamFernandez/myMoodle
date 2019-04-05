@@ -25,6 +25,10 @@ a {
 	margin-top: 115px;
 }
 
+#block-region-side-post, #block-region-side-pre {
+	margin-top: 125px;
+}
+
 .accesshide {display: none !important;}
 
 #gridiconcontainer {

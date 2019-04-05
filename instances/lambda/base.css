@@ -32,7 +32,7 @@
 	color: inherit;
 }
 
-.course-content ul.gridicons li.currentselected .icon_content:hover {
+.course-content ul.gridicons li.currentselected .icon_content a:hover {
 	color: inherit;
 }
 

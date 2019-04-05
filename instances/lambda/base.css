@@ -12,6 +12,7 @@
     z-index: 100;
     margin-top: 21px;
     display: inline;
+    background: rgba(255,255,255,.75);
     cursor: default !important;
     line-height: normal;
     margin-left: 14px;
@@ -34,4 +35,12 @@
     border-width: 0px !important;
     border-radius: 0px !important;
     padding:0px;
+}
+
+.new_activity {
+	display: none;
+}
+
+.course-content ul.gridicons li.currentselected {
+	background-color: #ffffff;
 }

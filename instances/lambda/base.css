@@ -8,11 +8,11 @@
     text-align: left !important;
     font-size: x-large;
     font-family: 'KingsBureauGrotThreeSeven';
-    background: transparent;
     z-index: 100;
     margin-top: 21px;
     display: inline;
     background: rgba(255,255,255,.75);
+    font-weight: 500;
     cursor: default !important;
     line-height: normal;
     margin-left: 14px;
@@ -26,6 +26,14 @@
     text-align: left;
     text-overflow: inherit;
     -webkit-font-smoothing: antialiased;
+}
+
+.course-content ul.gridicons li.currentselected .icon_content {
+	color: inherit;
+}
+
+.course-content ul.gridicons li.currentselected .icon_content:hover {
+	color: inherit;
 }
 
 .course-content ul.gridicons li .image_holder {

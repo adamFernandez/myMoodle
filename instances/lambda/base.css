@@ -7,6 +7,10 @@
 	right: 2%;
 }
 
+.course-content ul li.section.main {
+	background: none !important;
+}
+
 /* Grid */ 
 
 .course-content ul.gridicons li .icon_content {
@@ -70,4 +74,10 @@
 
 #block-region-side-post, #block-region-side-pre {
 	margin-top: 85px;
+}
+
+/* Section navigation */
+
+.single-section .section-navigation a {
+	font-weight: 500;
 }

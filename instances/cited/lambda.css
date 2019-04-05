@@ -5,15 +5,17 @@ a {
 }
 
 
-.course-content ul.gtopics-0 h3.sectionname,.course-content ul.gtopics h3.sectionname  {
-	position: absolute;
+
+#section-0 .content>h3.sectionname {
+	background: none !important;
 	padding-bottom: 15px;
 	font-size: 41.5px !important;
-	left: 35px;
-	right: 35px;
 	color: #0A2D50 !important;
 	border-bottom: 5px solid #E2213A;
 }
+
+#section-0 .content>h3.sectionname:after {
+	background: none !important;
 
 .course-content ul.gtopics .sectionname a {
 	color: #0A2D50 !important;

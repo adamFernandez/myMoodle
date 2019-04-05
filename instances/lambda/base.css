@@ -21,7 +21,7 @@
     padding-right: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
-    max-width: 400px;
+    max-width: 215px;
     overflow: hidden;
     text-align: left;
     text-overflow: inherit;
@@ -34,6 +34,10 @@
 
 .course-content ul.gridicons li.currentselected .icon_content:hover {
 	color: inherit;
+}
+
+.course-content ul.gridicons li img:hover {
+	transform: none;
 }
 
 .course-content ul.gridicons li .image_holder {
@@ -50,5 +54,5 @@
 }
 
 .course-content ul.gridicons li.currentselected {
-	background-color: #ffffff;
+	background-color: #ffffff !important;
 }

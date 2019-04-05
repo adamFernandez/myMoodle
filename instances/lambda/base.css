@@ -2,8 +2,9 @@
 /* Section Name */
 
 #section-0 .content>h3.sectionname {
-	width: 92%;
 	position: absolute;
+	left: 2%;
+	right: 2%;
 }
 
 /* Grid */ 
@@ -68,5 +69,5 @@
 /* Blocks */
 
 #block-region-side-post, #block-region-side-pre {
-	margin-top: 50px;
+	margin-top: 85px;
 }

@@ -855,6 +855,9 @@ h2 {
 .span8.pull-right ul li{
     font-size: 17px;
 }
+.span8.pull-right ol li{
+    font-size: 17px;
+}
 
 /*on forum, make white bg*/
 #page-mod-forum-view .span8.pull-right {

@@ -848,15 +848,17 @@ h2 {
     color: #171717;
     font-size: 24px;
 }
-#page-mod-page-view .span8.pull-right p {
+.span8.pull-right p {
     font-size: 17px;
     line-height: 27px;
 }
 .span8.pull-right ul li{
     font-size: 17px;
+    line-height: 24px;
 }
 .span8.pull-right ol li{
     font-size: 17px; 
+    line-height: 27px;
 }
 
 /*on forum, make white bg*/

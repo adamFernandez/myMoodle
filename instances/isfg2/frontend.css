@@ -50,6 +50,7 @@
         max-width: 250px !important;
         padding-left: 40px !important;
         font-size: x-large !important; 
+        word-wrap: normal;
     }
     .course-content ul.gridicons li img{
         display:none;

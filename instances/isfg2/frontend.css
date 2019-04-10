@@ -51,6 +51,8 @@
         padding-left: 40px !important;
         font-size: x-large !important; 
     }
+
+
     .course-content ul.gridicons li img{
         display:none;
     }
@@ -234,7 +236,7 @@ body {
     padding-right: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
-    max-width: 400px;
+    max-width: 380px;
     overflow: hidden;
     text-align: left;
     text-overflow: inherit;

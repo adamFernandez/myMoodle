@@ -502,3 +502,13 @@ div.MathJax_Display {
 .toggle_open {
 	border-bottom: 0px !important;
 }
+
+.panel ul {
+	list-style: disc !important;
+	background: none;
+	padding: 0px;
+}
+
+.panel ul li {
+	background: none !important;
+}

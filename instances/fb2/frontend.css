@@ -509,6 +509,7 @@ div.MathJax_Display {
 
 .panel-title {
 	padding: 25px;
+	font-weight: 500 !important;
 }
 
 .panel ul {

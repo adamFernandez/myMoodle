@@ -503,10 +503,19 @@ div.MathJax_Display {
 	border-bottom: 0px !important;
 }
 
+.panel {
+	padding: 0px;
+}
+
+.panel-title {
+	padding: 25px;
+}
+
 .panel ul {
 	list-style: disc !important;
 	background: none;
 	padding: 0px;
+	margin:20px;
 }
 
 .panel ul li {

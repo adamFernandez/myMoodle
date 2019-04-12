@@ -82,6 +82,10 @@
 	text-align: center;
 }
 
+.accordion .btn .collapsed: before {
+	content: "\f105";
+}
+
 /* Colors */
 
 .text-white {

@@ -47,7 +47,27 @@
 
 /* Collapse */
 
+.accordion .card-header {
+	padding: 0px !important;
+}
 
+.accordion .card-header:before {
+	background: #185582;
+	color: #fff;
+	content: "\f107";
+	float: left;
+	font-family: 'FontAwesome';
+	font-size: 1.2em;
+	margin: -1px 5px 0 -8px;
+	padding: 1px;
+	text-align: center;
+	width: 33px;
+}
+
+.accordion .card-header h2 {
+	font-size: 1.2em;
+	margin: 0px !important;
+}
 
 /* Colors */
 

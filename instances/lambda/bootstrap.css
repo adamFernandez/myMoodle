@@ -68,12 +68,12 @@
 	margin: 0px;
 }
 
-.accordion btn:hover {
+.accordion .btn.btn-link:hover {
 	text-decoration: none;
 	margin: 0px !important;
 }
 
-.accordion btn:before {
+.accordion .btn:before {
 	background-color: #0a2d50 !important;
 	color: #fff;
 	content: "\f107";

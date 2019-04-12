@@ -82,8 +82,8 @@
 	text-align: center;
 }
 
-.accordion .btn .collapsed:before {
-	content: "\f105" !important;
+.accordion .btn.collapsed:before {
+	content: "\f105";
 }
 
 /* Colors */

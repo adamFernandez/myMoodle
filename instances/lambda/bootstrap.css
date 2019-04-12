@@ -80,6 +80,7 @@
 	font-family: 'FontAwesome';
 	font-size: 1.2em;
 	text-align: center;
+	width:20px;
 }
 
 .accordion .btn.collapsed:before {

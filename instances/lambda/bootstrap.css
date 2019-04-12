@@ -64,7 +64,20 @@
 }
 
 .accordion h2 .btn {
-	width: 100% !important;
+	width: 99% !important;
+	margin: 0px;
+}
+
+.accordion .card-header:before {
+	background-color: #0a2d50 !important;
+	color: #fff;
+	content: "\f107";
+	float:left;
+	font-family: 'FontAwesome';
+	font-size: 1.2em;
+	margin: -1px 5px 0 -8px;
+	padding: 1px;
+	text-align: center;
 }
 
 /* Colors */

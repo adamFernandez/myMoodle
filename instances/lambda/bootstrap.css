@@ -50,15 +50,29 @@
 }
 
 .bg-primary, .bg-primary h5 {
-	background-color: #185582 !important;
+	background-color: #0a2d50 !important;
 	color: #fff !important;
 }
 
 .border-primary {
-	border-color: #185582 !important;
+	border-color: #0a2d50 !important;
 }
 
 .border-primary .card-header {
-	background-color: #185582 !important;
+	background-color: #0a2d50 !important;
+	color: #fff !important;
+}
+
+.bg-secondary, .bg-secondary h5 {
+	background-color: #5a6369 !important;
+	color: #fff !importantl
+}
+
+.border-secondary {
+	border-color: #5a6369 !important;
+}
+
+.border-secondary .card-header {
+	background-color: #5a6369 !important;
 	color: #fff !important;
 }

@@ -78,3 +78,11 @@
 	border-color: #e22319 !important;
 }
 
+.bg-success, .bg-success h5, .border-success .card-header {
+	background-color: #28C382 !important;
+	color: #fff !important;
+}
+
+.border-success {
+	border-color: #28C382 !important;
+}

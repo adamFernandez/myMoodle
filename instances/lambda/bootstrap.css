@@ -53,3 +53,12 @@
 	background-color: #185582 !important;
 	color: #fff !important;
 }
+
+.border-primary {
+	border-color: #185582 !important;
+}
+
+.border-primary .card-header {
+	background-color: #185582 !important;
+	color: #fff !important;
+}

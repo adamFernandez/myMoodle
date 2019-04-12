@@ -46,15 +46,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-.course-content ul.gridicons li.currentselected .icon_content {
-	color: inherit;
-}
-
-.course-content ul.gridicons li.currentselected .icon_content a:hover {
-	color: inherit !important;
-}
-
-.gridicon_link a:hover {
+.course-content ul.gridicons li.currentselected .icon_content a:hover,.course-content .gridcursor .gridicon_link a:hover,.course-content ul.gridicons li.currentselected .icon_content {
 	color: inherit !important;
 }
 

@@ -47,9 +47,24 @@
 
 /* Collapse */
 
+.accordion .card {
+	border: none !important;
+}
+
 .accordion .card-header {
 	padding: 0px;
 	margin: 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.accordion h2 {
+	padding: 0px;
+	margin: 0px;
+	font-size: 1.2em;
+}
+
+.accordion h2 .btn {
+	width: 100% !important;
 }
 
 /* Colors */

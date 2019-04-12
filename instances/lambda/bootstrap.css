@@ -68,7 +68,7 @@
 	margin: 0px;
 }
 
-.accordion .card-header btn:before {
+.accordion btn:before {
 	background-color: #0a2d50 !important;
 	color: #fff;
 	content: "\f107";

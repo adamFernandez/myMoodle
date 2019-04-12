@@ -47,7 +47,10 @@
 
 /* Collapse */
 
-
+.accordion .card-header {
+	padding: 0px;
+	margin: 0px;
+}
 
 /* Colors */
 

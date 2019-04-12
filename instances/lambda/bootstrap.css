@@ -107,18 +107,22 @@
 
 .table-primary, .table-primary>td, .table-primary>th {
 	background-color: #0a2d50 !important;
+	color: #fff;
 }
 
 .table-secondary, .table-secondary>td, .table-secondary>th {
 	background-color: #5a6369 !important;
+	color: #fff;
 }
 
 .table-danger, .table-danger>td, .table-danger>th {
 	background-color: #e22319 !important;
+	color: #fff;
 }
 
 .table-success, .table-success>td, .table-success>th {
 	background-color:  #28C382 !important;
+	color: #fff;
 }
 
 .table-warning, .table-warning>td, .table-warning>th {
@@ -127,4 +131,5 @@
 
 .table-info, .table-info>td, .table-info>th {
 	background-color:  #00B9E1 !important;
+	color: #fff;
 }

@@ -68,7 +68,7 @@
 	margin: 0px;
 }
 
-.accordion .card-header:before {
+.accordion .card-header h2:before {
 	background-color: #0a2d50 !important;
 	color: #fff;
 	content: "\f107";

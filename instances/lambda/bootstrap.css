@@ -169,11 +169,16 @@
 
 .table-warning, .table-warning>td, .table-warning>th, .alert-warning, .btn-warning {
 	background-color:  #F5B90F !important;
+	color: #000;
 }
 
 .table-info, .table-info>td, .table-info>th, .alert-info, .btn-info {
 	background-color:  #00B9E1 !important;
 	color: #fff;
+}
+
+.alert {
+	text-shadow: none !important;
 }
 
 /* Grid */
@@ -2429,4 +2434,8 @@ html {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
+}
+
+.carousel-caption h5 {
+	color: #fff;
 }

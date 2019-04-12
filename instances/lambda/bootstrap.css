@@ -45,6 +45,35 @@
 	border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
+/* Collapse */
+
+.accordion>.card {
+	background-color: #f5f5f5;
+	border-color: #ddd;
+	color: #777 !important;
+}
+
+.accordion>.card h2 {
+	font-size: 1.15em;
+}
+
+.accordion>.card-header {
+	padding: 0px !important;
+}	
+
+.accordion>.card-header:before {
+	background: #185582;
+	color: #fff;
+	content: "\f107";
+	float: left;
+	font-family: 'FontAwesome';
+	font-size: 1.2em;
+	margin: -1px 5px 0 -8px;
+	padding: 1px; 
+	text-align: center;
+	width: 33px;
+}
+
 /* Colors */
 
 .text-white {

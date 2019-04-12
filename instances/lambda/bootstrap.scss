@@ -1,0 +1,191 @@
+/* Card */
+
+.card {
+	position: relative;
+	display: flexbox;
+	display: -ms-flexbox;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0.125);
+	border-radius: .25rem;
+}
+
+.card-img-top {
+	width: 100%;
+	border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+
+.card-title {
+	margin-bottom: .75rem;
+}
+
+.card-text:last-child {
+	margin-bottom: 0;
+}
+
+.card-header:first-child {
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.card-header {
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.03);
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/* Colors */
+
+.text-white {
+	color: #fff;
+}
+
+.bg-primary, .bg-primary h5,.border-primary .card-header {
+	background-color: #0a2d50 !important;
+	color: #fff !important;
+}
+
+.border-primary {
+	border-color: #0a2d50 !important;
+}
+
+.bg-secondary, .bg-secondary h5,.border-secondary .card-header {
+	background-color: #5a6369 !important;
+	color: #fff !important;
+}
+
+.border-secondary {
+	border-color: #5a6369 !important;
+}
+
+.bg-danger, .bg-danger h5,.border-danger .card-header {
+	background-color: #e22319 !important;
+	color: #fff !important;
+}
+
+.border-danger {
+	border-color: #e22319 !important;
+}
+
+.bg-success, .bg-success h5, .border-success .card-header {
+	background-color: #28C382 !important;
+	color: #fff !important;
+}
+
+.border-success {
+	border-color: #28C382 !important;
+}
+
+.bg-warning, .bg-warning h5, .border-warning .card-header {
+	background-color: #F5B90F !important;
+	color: #000 !important;
+}
+
+.border-warning {
+	border-color: #F5B90F !important;
+}
+
+.bg-info, .bg-info h5, .border-info .card-header {
+	background-color: #00B9E1 !important;
+	color: #fff !important;
+}
+
+.border-info {
+	border-color: #00B9E1 !important;
+}
+
+.table-primary, .table-primary>td, .table-primary>th {
+	background-color: #0a2d50 !important;
+	color: #fff;
+}
+
+.table-secondary, .table-secondary>td, .table-secondary>th {
+	background-color: #5a6369 !important;
+	color: #fff;
+}
+
+.table-danger, .table-danger>td, .table-danger>th {
+	background-color: #e22319 !important;
+	color: #fff;
+}
+
+.table-success, .table-success>td, .table-success>th {
+	background-color:  #28C382 !important;
+	color: #fff;
+}
+
+.table-warning, .table-warning>td, .table-warning>th {
+	background-color:  #F5B90F !important;
+}
+
+.table-info, .table-info>td, .table-info>th {
+	background-color:  #00B9E1 !important;
+	color: #fff;
+}
+
+/* Grid */
+
+// Container widths
+//
+// Set the container width, and override it for fixed navbars in media queries.
+
+@if $enable-grid-classes {
+  .container {
+    @include make-container();
+    @include make-container-max-widths();
+  }
+}
+
+// Fluid container
+//
+// Utilizes the mixin meant for fixed width containers, but with 100% width for
+// fluid, full width layouts.
+
+@if $enable-grid-classes {
+  .container-fluid {
+    @include make-container();
+  }
+}
+
+// Row
+//
+// Rows contain and clear the floats of your columns.
+
+@if $enable-grid-classes {
+  .row {
+    @include make-row();
+  }
+
+  // Remove the negative margin from default .row, then the horizontal padding
+  // from all immediate children columns (to prevent runaway style inheritance).
+  .no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+// Columns
+//
+// Common styles for small and large grid columns
+
+@if $enable-grid-classes {
+  @include make-grid-columns();
+}
+

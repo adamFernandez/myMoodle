@@ -98,6 +98,10 @@
 	color: #fff !important;
 }
 
+.card-header h3 {
+	color: #fff !important;
+}
+
 .border-primary {
 	border-color: #0a2d50 !important;
 }
@@ -169,6 +173,10 @@
 
 .table-warning, .table-warning>td, .table-warning>th, .alert-warning, .btn-warning {
 	background-color:  #F5B90F !important;
+	color: #000;
+}
+
+.btn-warning:hover {
 	color: #000;
 }
 

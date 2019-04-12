@@ -51,17 +51,22 @@
 	background-color: #f5f5f5;
 	border-color: #ddd;
 	color: #777 !important;
+	height: 35px;
 }
 
 .accordion .card h2 {
 	font-size: 1.15em;
+	padding: 0px !important;
+	margin: 0px !important;
 }
 
 .accordion .card-header {
 	padding: 0px !important;
+	background-color: inherit;
+	border-bottom: inherit;
 }	
 
-.accordion .card-header:before {
+.accordion .card:before {
 	background: #185582;
 	color: #fff;
 	content: "\f107";

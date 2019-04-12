@@ -81,3 +81,7 @@
 .single-section .section-navigation a {
 	font-weight: 500;
 }
+
+/* Bootstrap */
+
+@import "https://git.iddkingsonline.com/instances/lambda/bootstrap.css";

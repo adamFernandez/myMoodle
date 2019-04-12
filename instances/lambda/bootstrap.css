@@ -104,3 +104,27 @@
 .border-info {
 	border-color: #00B9E1 !important;
 }
+
+.table-primary, .table-primary>td, .table-primary>th {
+	background-color: #0a2d50 !important;
+}
+
+.table-secondary, .table-secondary>td, .table-secondary>th {
+	background-color: #5a6369 !important;
+}
+
+.table-danger, .table-danger>td, .table-danger>th {
+	background-color: #e22319 !important;
+}
+
+.table-success, .table-success>td, .table-success>th {
+	background-color:  #28C382 !important;
+}
+
+.table-warning, .table-warning>td, .table-warning>th {
+	background-color:  #F5B90F !important;
+}
+
+.table-info, .table-info>td, .table-info>th {
+	background-color:  #00B9E1 !important;
+}

@@ -627,7 +627,7 @@ main {
 
 /*hide all hero*/
 .summary{
-    display:block;
+    display:none;
 }
 
 .hero {

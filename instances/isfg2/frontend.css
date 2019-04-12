@@ -626,9 +626,9 @@ main {
 
 
 /*hide all hero*/
-/*.summary{
+.summary{
     display:block;
-}*/
+}
 
 .hero {
     position: relative;

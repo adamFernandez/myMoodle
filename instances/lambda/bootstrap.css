@@ -49,7 +49,7 @@
 	color: #fff;
 }
 
-.bg-primary {
+.bg-primary, .bg-primary h5 {
 	background-color: #185582 !important;
 	color: #fff !important;
 }

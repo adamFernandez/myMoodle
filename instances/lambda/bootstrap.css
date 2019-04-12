@@ -86,3 +86,12 @@
 .border-success {
 	border-color: #28C382 !important;
 }
+
+.bg-warning, .bg-warning h5, .border-warning .card-header {
+	background-color: #F5B90F !important;
+	color: #000 !important;
+}
+
+.border-warning {
+	border-color: #F5B90F !important;
+}

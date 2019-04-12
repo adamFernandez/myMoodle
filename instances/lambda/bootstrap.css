@@ -105,31 +105,31 @@
 	border-color: #00B9E1 !important;
 }
 
-.table-primary, .table-primary>td, .table-primary>th, .alert-primary {
+.table-primary, .table-primary>td, .table-primary>th, .alert-primary, .btn-primary {
 	background-color: #0a2d50 !important;
 	color: #fff;
 }
 
-.table-secondary, .table-secondary>td, .table-secondary>th, .alert-secondary {
+.table-secondary, .table-secondary>td, .table-secondary>th, .alert-secondary, .btn-secondary {
 	background-color: #5a6369 !important;
 	color: #fff;
 }
 
-.table-danger, .table-danger>td, .table-danger>th, .alert-danger {
+.table-danger, .table-danger>td, .table-danger>th, .alert-danger, .btn-danger {
 	background-color: #e22319 !important;
 	color: #fff;
 }
 
-.table-success, .table-success>td, .table-success>th, .alert-success {
+.table-success, .table-success>td, .table-success>th, .alert-success, .btn-success {
 	background-color:  #28C382 !important;
 	color: #fff;
 }
 
-.table-warning, .table-warning>td, .table-warning>th, .alert-warning {
+.table-warning, .table-warning>td, .table-warning>th, .alert-warning, .btn-warning {
 	background-color:  #F5B90F !important;
 }
 
-.table-info, .table-info>td, .table-info>th, .alert-info {
+.table-info, .table-info>td, .table-info>th, .alert-info, .btn-info {
 	background-color:  #00B9E1 !important;
 	color: #fff;
 }

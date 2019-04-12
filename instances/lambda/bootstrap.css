@@ -95,3 +95,12 @@
 .border-warning {
 	border-color: #F5B90F !important;
 }
+
+.bg-info, .bg-info h5, .border-info .card-header {
+	background-color: #00B9E1 !important;
+	color: #fff !important;
+}
+
+.border-info {
+	border-color: #00B9E1 !important;
+}

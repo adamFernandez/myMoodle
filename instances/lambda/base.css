@@ -1,4 +1,9 @@
 
+/* Bootstrap */
+
+@import "https://git.iddkingsonline.com/instances/lambda/bootstrap.css";
+
+
 /* Section Name */
 
 #section-0 .content>h3.sectionname {
@@ -81,7 +86,3 @@
 .single-section .section-navigation a {
 	font-weight: 500;
 }
-
-/* Bootstrap */
-
-@import "https://git.iddkingsonline.com/instances/lambda/bootstrap.css";

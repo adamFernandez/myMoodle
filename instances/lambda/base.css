@@ -54,6 +54,10 @@
 	color: inherit !important;
 }
 
+.gridicon_link a:hover {
+	color: inherit !important;
+}
+
 .course-content ul.gridicons li img:hover {
 	transform: none;
 }

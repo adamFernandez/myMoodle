@@ -51,7 +51,7 @@
 	padding: 0px !important;
 }
 
-.accordion .card-header btn:before {
+.accordion .card-header .btn:before {
 	background: #185582;
 	color: #fff;
 	content: "\f107";

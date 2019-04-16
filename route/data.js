@@ -442,7 +442,7 @@ var data = {
     "module10": {
       "discussion": {
         "1": "mod/forum/view.php?id=2590807",
-        "2": "mod/forum/view.php?id=2637341"
+        "2": "mod/forum/view.php?id=2647557"
       }
     },
     "module11": {

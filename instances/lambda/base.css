@@ -16,6 +16,10 @@
 	background: none !important;
 }
 
+.path-course-view .section .summary {
+	padding-top: 30px;
+}
+
 /* Grid */ 
 
 .course-content ul.gridicons li .icon_content {

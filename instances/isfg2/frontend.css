@@ -841,11 +841,16 @@ h2 {
     }
 }
 
+/* turnitin summary */
+.introduction{
+	font-family:'kingsfont-37';
+}
 /*on page, make white bg*/
 #page-mod-page-view .span8.pull-right {
   background: #ffffff !important; 
   padding:20px;
 }
+
 .span8.pull-right h2{
     color: #171717;
     font-size: 24px;

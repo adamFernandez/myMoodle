@@ -981,9 +981,10 @@ hr {
 
 /* Extras/one-offs */
 .card-template table{
-	-webkit-box-shadow: 0px 0px 9px -1px rgba(33,33,33,0.31);
-	-moz-box-shadow: 0px 0px 9px -1px rgba(33,33,33,0.31);
-	box-shadow: 0px 0px 9px -1px rgba(33,33,33,0.31);
+	-webkit-box-shadow: 0px 0px 9px 4px rgba(33,33,33,0.28);
+	-moz-box-shadow: 0px 0px 9px 4px rgba(33,33,33,0.28);
+	box-shadow: 0px 0px 9px 4px rgba(33,33,33,0.28);
+
 }
 .card-template table td {
 	text-align:center;

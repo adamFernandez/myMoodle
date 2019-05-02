@@ -562,7 +562,13 @@ var data = {
           "1": "mod/forum/view.php?id=2584316"
         },
        "forum4": {
+          "1": "mod/forum/view.php?id=2655288"
+        },
+       "forum5": {
           "1": "mod/forum/view.php?id=2584352"
+        },
+       "forum6": {
+          "1": "mod/forum/view.php?id=2674273"
         }
       }
     }

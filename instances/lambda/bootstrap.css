@@ -2482,3 +2482,21 @@ html {
   padding-left: 0.6em;
   border-radius: 10rem;
 }
+
+/* Borders */ 
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6 !important;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}

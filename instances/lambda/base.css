@@ -1,7 +1,7 @@
 
 /* Bootstrap */
 
-@import "https://git.iddkingsonline.com/instances/lambda/bootstrap.css";
+@import "https://git.iddkingsonline.com/instances/lambda/bootstrap-test.css";
 
 
 /* Section Name */
@@ -85,4 +85,106 @@
 
 .single-section .section-navigation a {
 	font-weight: 500;
+}
+
+/* Colours */ 
+
+.text-white {
+	color: #fff;
+}
+
+.bg-primary, .bg-primary h5,.border-primary .card-header {
+	background-color: #0a2d50 !important;
+	color: #fff !important;
+}
+
+.card-header h3 {
+	color: #fff !important;
+}
+
+.border-primary {
+	border-color: #0a2d50 !important;
+}
+
+.bg-secondary, .bg-secondary h5,.border-secondary .card-header {
+	background-color: #5a6369 !important;
+	color: #fff !important;
+}
+
+.border-secondary {
+	border-color: #5a6369 !important;
+}
+
+.bg-danger, .bg-danger h5,.border-danger .card-header {
+	background-color: #e22319 !important;
+	color: #fff !important;
+}
+
+.border-danger {
+	border-color: #e22319 !important;
+}
+
+.bg-success, .bg-success h5, .border-success .card-header {
+	background-color: #28C382 !important;
+	color: #fff !important;
+}
+
+.border-success {
+	border-color: #28C382 !important;
+}
+
+.bg-warning, .bg-warning h5, .border-warning .card-header {
+	background-color: #F5B90F !important;
+	color: #000 !important;
+}
+
+.border-warning {
+	border-color: #F5B90F !important;
+}
+
+.bg-info, .bg-info h5, .border-info .card-header {
+	background-color: #00B9E1 !important;
+	color: #fff !important;
+}
+
+.border-info {
+	border-color: #00B9E1 !important;
+}
+
+.table-primary, .table-primary>td, .table-primary>th, .alert-primary, .btn-primary {
+	background-color: #0a2d50 !important;
+	color: #fff;
+}
+
+.table-secondary, .table-secondary>td, .table-secondary>th, .alert-secondary, .btn-secondary {
+	background-color: #5a6369 !important;
+	color: #fff;
+}
+
+.table-danger, .table-danger>td, .table-danger>th, .alert-danger, .btn-danger {
+	background-color: #e22319 !important;
+	color: #fff;
+}
+
+.table-success, .table-success>td, .table-success>th, .alert-success, .btn-success {
+	background-color:  #28C382 !important;
+	color: #fff;
+}
+
+.table-warning, .table-warning>td, .table-warning>th, .alert-warning, .btn-warning {
+	background-color:  #F5B90F !important;
+	color: #000;
+}
+
+.btn-warning:hover {
+	color: #000;
+}
+
+.table-info, .table-info>td, .table-info>th, .alert-info, .btn-info {
+	background-color:  #00B9E1 !important;
+	color: #fff;
+}
+
+.alert {
+	text-shadow: none !important;
 }

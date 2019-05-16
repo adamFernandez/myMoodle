@@ -696,3 +696,12 @@ iframe, .no-overflow>iframe {
 .modified {
 	display: none;
 }
+
+#accordion {
+	.card-header {
+		padding: 0px;
+		}
+	.card-header h5 {
+		padding: 0px;
+		}
+}

@@ -697,11 +697,10 @@ iframe, .no-overflow>iframe {
 	display: none;
 }
 
-#accordion {
-	.card-header {
+#accordion .card-header {
 		padding: 0px;
-		}
-	.card-header h5 {
-		padding: 0px;
-		}
 }
+
+#accordion h5 {
+		padding: 0px;
+		}

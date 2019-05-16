@@ -697,10 +697,15 @@ iframe, .no-overflow>iframe {
 	display: none;
 }
 
-#accordion .card-header {
-		padding: 0px;
+#accordion h5 {
+	margin: 0px;
 }
 
-#accordion h5 {
-		padding: 0px;
-		}
+.card {
+	padding: 0px;
+	margin-bottom: 2px;
+}
+
+.card-body {
+	padding: 10px;
+}

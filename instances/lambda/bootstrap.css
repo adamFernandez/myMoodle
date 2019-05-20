@@ -47,7 +47,7 @@
 
 /* Collapse */
 
-.accordion .card {
+/*.accordion .card {
 	border: none !important;
 }
 
@@ -85,7 +85,7 @@
 
 .accordion .btn.collapsed:before {
 	content: "\f105";
-}
+}*/
 
 /* Colors */
 

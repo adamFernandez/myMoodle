@@ -234,7 +234,7 @@ p.titlesep {
     border-radius: 5px;
 }
 .course-content {
-    margin: -31px 5px 5px;
+//    margin: -31px 5px 5px;
 }
 .jsenabled .breadcrumb-button .moodle-actionmenu[data-enhance] {
     display: inline-block;

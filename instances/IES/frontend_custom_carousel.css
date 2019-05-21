@@ -35,6 +35,12 @@
   }
 }
 
+.carousel-control {
+  background: none;
+  border: none;
+  color: #fefefe !important;
+}
+
 /*
 @media only screen and (max-width: 480px) {
   .carousel-inner > .item > img {

@@ -474,3 +474,12 @@ ul.topnav li.right {
     margin-left: 13px;
     text-align: left;
 }
+
+#accordion {
+	.card-header {
+		padding: 0px;
+		}
+	.card-header h5 {
+		padding: 0px;
+		}
+}

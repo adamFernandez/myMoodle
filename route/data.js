@@ -124,7 +124,7 @@ var data = {
     },
     "module2": {
       "comments": {
-        "1": "mod/forum/view.php?id=2137422"
+        "1": "mod/forum/view.php?id=2402980"
       }
     },
     "module3": {
@@ -345,14 +345,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2637951",
-        "2": "mod/forum/view.php?id=2590676"
+        "2": "mod/forum/view.php?id=2681023"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2637967",
-              "2": "mod/choice/view.php?id=2590692"
+              "2": "mod/choice/view.php?id=2681039"
             }
           }
         }
@@ -370,37 +370,37 @@ var data = {
     },
     "module4": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2317311"
+        "1": "mod/forum/view.php?id=2681290"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2317430"
+        "1": "mod/choice/view.php?id=2681371"
       },
       "poll2": {
-        "1": "mod/choice/view.php?id=2317431"
+        "1": "mod/choice/view.php?id=2681372"
       },
       "poll3": {
-        "1": "mod/choice/view.php?id=2317432"
+        "1": "mod/choice/view.php?id=2681373"
       },
       "poll4": {
-        "1": "mod/choice/view.php?id=2317435"
+        "1": "mod/choice/view.php?id=2681374"
       },
       "poll5": {
-        "1": "mod/choice/view.php?id=2317425"
+        "1": "mod/choice/view.php?id=2681365"
       },
       "poll6": {
-        "1": "mod/choice/view.php?id=2317426"
+        "1": "mod/choice/view.php?id=2681366"
       },
       "poll7": {
-        "1": "mod/choice/view.php?id=2317427"
+        "1": "mod/choice/view.php?id=2681367"
       },
       "poll8": {
-        "1": "mod/choice/view.php?id=2317428"
+        "1": "mod/choice/view.php?id=2681368"
       },
       "poll9": {
-        "1": "mod/choice/view.php?id=2317429"
+        "1": "mod/choice/view.php?id=2681369"
       },
       "poll10": {
-        "1": "mod/choice/view.php?id=2317424"
+        "1": "mod/choice/view.php?id=2681324"
       }
     },
     "module5": {
@@ -421,12 +421,12 @@ var data = {
     },
     "module7": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2428382"
+        "1": "mod/forum/view.php?id=2681142"
       }
     },
      "module8": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2428430"
+        "1": "mod/forum/view.php?id=2681420"
       },
       "w1": {
         "forum1": {
@@ -441,13 +441,14 @@ var data = {
     },
     "module10": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2590807",
+        "1": "mod/forum/view.php?id=2681619",
         "2": "mod/forum/view.php?id=2647557"
       }
     },
     "module11": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2637860"
+        "1": "mod/forum/view.php?id=2637860",
+        "2": "mod/forum/view.php?id=2681689"
       }
     }
   },

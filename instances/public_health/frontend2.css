@@ -126,7 +126,7 @@ main {
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle.tc-small {
-	padding: 16px;
+	padding: 10px;
 }
 
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
@@ -160,8 +160,16 @@ main {
 	background-image: none !important;
 }
 
+.course-content ul li.section.main {
+	margin-bottom:5px;
+}
+
 #toggle-all .content .sectionbody h4 .on,#toggle-all .content .sectionbody h4 .off {
-	background: transparent url(http://git.iddkingsonline.com/assets/icons/arw-blue.png) no-repeat center left!important;
+	background: transparent url(https://git.iddkingsonline.com/assets/icons/arw-blue.png) no-repeat center left!important;
+}
+
+.block ul.block_tree a, .breadcrumb a, .instancename, .block_book_toc li a, .block_site_main_menu li a, .navbottom .booknext, .navbottom .bookprev, .navbottom .bookexit {
+	color: #1259A1;
 }
 
 .modified {

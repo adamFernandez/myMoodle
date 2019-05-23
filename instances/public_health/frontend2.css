@@ -161,7 +161,7 @@ main {
 }
 
 .course-content ul li.section.main {
-	margin-bottom:5px;
+	margin-bottom:5px !important;
 }
 
 #toggle-all .content .sectionbody h4 .on,#toggle-all .content .sectionbody h4 .off {

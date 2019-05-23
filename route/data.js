@@ -450,6 +450,11 @@ var data = {
         "1": "mod/forum/view.php?id=2637860",
         "2": "mod/forum/view.php?id=2681689"
       }
+    },
+    "module12": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2682720",
+      }
     }
   },
   "gfb": {

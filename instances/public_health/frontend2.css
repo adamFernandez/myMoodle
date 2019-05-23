@@ -100,7 +100,6 @@ main {
   }
   .hero-box h1 {
     font-size: 1.7em;
-    font-family: 'kingsfont-37' !important;
   }
   
   .hero-box h2 {
@@ -126,6 +125,10 @@ main {
 	background-color: #ffffff !important;
 }
 
+.course-content ul.ctopics li.section .content .toggle span.the_toggle.tc-small {
+	padding: 16px;
+}
+
 .course-content ul.ctopics li.section .content .toggle span.the_toggle {
 	margin: 0px;
 	border: 1px solid #0A2d50;
@@ -139,6 +142,7 @@ main {
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:before {
 	font-size: 1.2em;
+	padding-right: 10px;
 	content: "\f107" !important;
 	color: #00B9E1;
 	font-family: "FontAwesome";
@@ -146,6 +150,7 @@ main {
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:before {
 	font-size: 1.2em;
+	padding-right: 10px;
 	content: "\f106" !important;
 	color: #00B9E1;
 	font-family: "FontAwesome";

@@ -709,3 +709,7 @@ iframe, .no-overflow>iframe {
 .card-body {
 	padding: 10px;
 }
+
+.collapse.in {
+	max-height:200px !important;
+}

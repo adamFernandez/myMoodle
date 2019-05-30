@@ -521,3 +521,7 @@ div.MathJax_Display {
 .panel ul li {
 	background: none !important;
 }
+
+.mathjax {
+	font-size: 110% !important;
+}

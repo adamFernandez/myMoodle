@@ -247,18 +247,17 @@ p.titlesep {
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .1) inset;
 }
 
-.panel-heading a:before {
+//override default collapse icon styling
+.panel .panel-heading a:before {
   color: #686868! important;
   background: none;
   margin-left: 5px;
 }
 
-//override default button margin on block level buttons as it pushes the width over 100%
+//override default button margin on block level buttons as it pushes the width over 100
 .btn .btn-block {
   margin: unset;
 }
-
-//override default collapse icon styling
 
 //make videos responsive
 embed-responsive embed-responsive-608by420 {

@@ -1,11 +1,14 @@
-//make videos responsive
-embed-responsive embed-responsive-608by420 {
-  padding-top: (calc(420%/6.08));
+.embed-responsive {
   position: relative;
   overflow: hidden;
 }
 
-embed-responsive > iframe {
+.embed-responsive-608by420 {
+  padding-top: 69%;
+  //padding-top: calc(420%/6.08);
+}
+
+.embed-responsive > iframe {
   position: absolute;
   top: 0;
   left: 0;

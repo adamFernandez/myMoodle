@@ -247,7 +247,7 @@ p.titlesep {
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .1) inset;
 }
 
-//override default collapse icon styling
+/*override default collapse icon styling
 .panel .panel-heading a:before {
   color: #686868 !important;
   background: none;
@@ -261,7 +261,7 @@ p.titlesep {
 
 //make videos responsive
 .embed-responsive .embed-responsive-608by420 {
-  padding-top: (calc(420%/6.08));
+  padding-top: calc(420%/6.08);
   position: relative;
   overflow: hidden;
 }
@@ -274,3 +274,4 @@ p.titlesep {
   height: 100%;
   border: 0;
 }
+*/

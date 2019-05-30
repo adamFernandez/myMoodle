@@ -1,4 +1,4 @@
 .fullScreenBtn, .icon-fullscreen-alt, .div.topBarContainer {
-  display: none;
+  display: none !important;
 }
 

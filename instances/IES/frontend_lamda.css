@@ -246,3 +246,8 @@ p.titlesep {
     border-radius: 5px;
     box-shadow: 0 -1px 0 rgba(0, 0, 0, .1) inset;
 }
+
+//override default button margin on block level buttons as it pushes the width over 100%
+.btn-block {
+  margin: unset;
+}

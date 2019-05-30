@@ -251,3 +251,10 @@ p.titlesep {
 .btn-block {
   margin: unset;
 }
+
+//override default collapse icon styling
+.panel .panel-heading a:before {
+  color: #686868!important;
+  background: none;
+  margin-left: 5px;
+}

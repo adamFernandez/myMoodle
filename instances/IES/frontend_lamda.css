@@ -260,13 +260,13 @@ p.titlesep {
 }
 
 //make videos responsive
-embed-responsive embed-responsive-608by420 {
+.embed-responsive .embed-responsive-608by420 {
   padding-top: (calc(420%/6.08));
   position: relative;
   overflow: hidden;
 }
 
-embed-responsive > iframe {
+.embed-responsive > iframe {
   position: absolute;
   top: 0;
   left: 0;

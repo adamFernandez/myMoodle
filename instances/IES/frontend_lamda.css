@@ -255,18 +255,22 @@ p.titlesep {
 }
 
 //override default button margin on block level buttons
-.btn .btn-block {
+.btn.btn-block {
   margin: unset;
 }
 
 //make videos responsive
+<<<<<<< HEAD
 .embed-responsive .embed-responsive-608by420 {
+=======
+.embed-responsive-608by420 {
+>>>>>>> b61369d7d07658e691f7b91b8fa9cc5729f10995
   padding-top: calc(420%/6.08);
   position: relative;
   overflow: hidden;
 }
 
-.embed-responsive > iframe {
+.embed-responsive-608by420 > iframe {
   position: absolute;
   top: 0;
   left: 0;

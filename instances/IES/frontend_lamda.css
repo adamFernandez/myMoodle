@@ -249,12 +249,12 @@ p.titlesep {
 
 //override default collapse icon styling
 .panel .panel-heading a:before {
-  color: #686868! important;
+  color: #686868 !important;
   background: none;
   margin-left: 5px;
 }
 
-//override default button margin on block level buttons as it pushes the width over 100
+//override default button margin on block level buttons
 .btn .btn-block {
   margin: unset;
 }

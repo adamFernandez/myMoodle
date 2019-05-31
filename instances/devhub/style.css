@@ -32,14 +32,6 @@ h3 > b  {
 Header
 ============================================================== */
 
-#page-header {
-	background-color: rgba(10,45,80,.8) !important;
-}
-
-#page-header .coursesearch input[type="submit"] {
-	background-color: rgba(10,45,80,.8);
-}
-
 
 /* =========================================================== *
 Hero 

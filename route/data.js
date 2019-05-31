@@ -193,6 +193,9 @@ var data = {
       "comments": {
         "1": "mod/forum/view.php?id=2404925"
       },
+      "comments2": {
+        "1": "mod/forum/view.php?id=2404925"
+      },
       "comments3": {
         "1": "mod/forum/view.php?id=2405014"
       },

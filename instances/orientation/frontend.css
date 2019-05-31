@@ -118,7 +118,7 @@ h3 {
 	border-bottom: 1px solid #9FA7A7;
 }
 
-
+/*
 .course-content ul.ctopics li.section .content .toggle .the_toggle h3:before {
 	font-size: 1.2em;
 	content: "\f107" !important;
@@ -132,6 +132,7 @@ h3 {
 	font-family: 'FontAwesome';
 	color: #002D53;
 }
+*/
 
 .instancename {
 	font-weight: bold;

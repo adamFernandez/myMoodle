@@ -119,14 +119,14 @@ h3 {
 }
 
 
-.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
+.course-content ul.ctopics li.section .content .toggle .the_toggle h3:before {
 	font-size: 1.2em;
 	content: "\f107" !important;
 	font-family: 'FontAwesome';
 	color: #002D53;
 }
 
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:before {
 	font-size: 1.2em;
 	content: "\f106" !important;
 	font-family: 'FontAwesome';

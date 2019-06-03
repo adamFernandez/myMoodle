@@ -55,6 +55,8 @@
 
 
 */
+
+//starts here
 @media only screen and (max-width: 480px) {
   .carousel-inner > .item > img {
     width: 100%;
@@ -67,11 +69,11 @@
 }
 @media only screen and (min-width: 481px) {
   .carousel-caption {
-    width: calc(100% - 500px);
+    width: calc(100% - 460px);
     right: 0;
     top: 0;
     left: unset;
-    padding: 30px 70px 30px 30px;
+    padding: 30px;
   }
 }
 /*@media only screen and (max-width: 480px) {
@@ -88,4 +90,9 @@
   background: none;
   border: none;
   color: #fefefe !important;
+}
+
+.carousel-control.right {
+    left: 380px;
+    right: 0;
 }

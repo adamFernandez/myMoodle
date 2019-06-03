@@ -1,5 +1,12 @@
 //Carousel changes to mimic adapt iLesson slider
 
+@media only screen and (max-width: 1023px) {
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
   .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 400px;
@@ -8,13 +15,14 @@
   }
 }
 
-/*@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 400px;
     height: auto;
     margin-left: 0;
   }
-}*/
+}
+
 .carousel-caption {
   position: unset;
 }
@@ -64,12 +72,5 @@
   .carousel-control.right {
     left: unset;
     right: 15px;
-  }
-}
-
-@media only screen and (max-width: 1023px) {
-  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
-    height: auto;
   }
 }

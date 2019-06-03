@@ -1,71 +1,16 @@
 //Carousel changes to mimic adapt iLesson slider
-/*.carousel-inner img {
-  width: 100%;
-  height: auto;
-}
 
-.carousel-caption {
-  position: unset;
-}
-
-.carousel-caption h3 {
-  color: #fefefe !important;
-}
-
-.carousel-control {
-  background: none;
-  border: none;
-  color: #fefefe !important;
-}
-
-@media only screen and (min-width: 1200px) {
-  
-}
-
-@media only screen and (min-width: 481px) {
-  .carousel-inner > .item > img {
-    height: 400px;
-    width: auto;
-    margin-left: -300px;
-  }
-}
-
-.carousel-caption {
-  position: unset
-}
-
-@media only screen and (min-width: 481px) {
-  .carousel-caption {
-    position: absolute;
-    width: calc(100% - 180px);
-    right: 0;
-    top: 0;
-    left: unset;
-    padding: 30px 60px 30px 20px;
-  }
-}
-.carousel-caption h3 {
-    color: #fefefe !important;
-}
-@media only screen and (max-width: 481px) {
-  .carousel-control {
-    top: 250px;
-  }
-}
-
-
-*/
-
-//starts here
-.carousel-inner .item img {
-  width: 100%;
-  height: auto;
-}
 @media only screen and (min-width: 1024px) {
   .carousel-inner > .item > img {
     width: 400px;
     height: auto;
     margin-left: -60px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel-inner > .item > img {
+    margin-left: 0;
   }
 }
 .carousel-caption {
@@ -82,6 +27,14 @@
     padding: 30px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .carousel-caption {
+    width: calc(100% - 500px);
+    padding: 30px 70px 30px 30px;
+  }
+}
+
 @media only screen and (max-width: 1023px) {
   .carousel-control {
     top: 220px;
@@ -98,10 +51,17 @@
   color: #fefefe !important;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .carousel-control.right {
     left: 320px;
     right: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .carousel-control.right {
+    left: unset;
+    right: 15px;
   }
 }
 

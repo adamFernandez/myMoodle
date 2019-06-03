@@ -57,7 +57,7 @@
 */
 
 //starts here
-.carousel-inner>.item>img, {
+.carousel-inner > img, {
   width: 100%;
   height: auto;
 }

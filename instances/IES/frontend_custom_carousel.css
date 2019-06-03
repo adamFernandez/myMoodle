@@ -67,7 +67,7 @@
   .carousel-inner > .item > img {
     width: 400px;
     height: auto;
-    margin-left: 160px;
+    margin-left: -60px;
   }
 }
 .carousel-caption {

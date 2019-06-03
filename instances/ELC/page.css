@@ -715,6 +715,6 @@ iframe, .no-overflow>iframe {
 	overflow:scroll !important;
 }
 
-.collapse.in.full {
+.full .collapse.in {
 	max-height: 100% !important;
 }

@@ -29,9 +29,9 @@
   margin: -1px 5px 0 5px;
   padding: 1px;
   text-align: center;
-  width: 33px; {
+  width: 33px;
 }
 
-button.btn-block {
+.btn-block {
   margin: unset;
 }

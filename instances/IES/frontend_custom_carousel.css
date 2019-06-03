@@ -1,8 +1,5 @@
 //Carousel changes to mimic adapt iLesson slider
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  height: 100px;
-}
-.carousel-inner img {
+/*.carousel-inner img {
   width: 100%;
   height: auto;
 }
@@ -24,7 +21,7 @@
 @media only screen and (min-width: 1200px) {
   
 }
-/*
+
 @media only screen and (min-width: 481px) {
   .carousel-inner > .item > img {
     height: 400px;
@@ -57,7 +54,7 @@
 }
 
 
-//
+*/
 @media only screen and (max-width: 480px) {
   .carousel-inner > .item > img {
     width: 100%;
@@ -82,4 +79,3 @@
     top: 220px;
   }
 }
-*/

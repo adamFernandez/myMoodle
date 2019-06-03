@@ -51,21 +51,21 @@
   color: #fefefe !important;
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .carousel-control.right {
     left: 320px;
     right: 0;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .carousel-control.right {
     left: unset;
     right: 15px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
     height: auto;

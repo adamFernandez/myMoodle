@@ -1,7 +1,11 @@
 //Carousel changes to mimic adapt iLesson slider
-.carousel-inner .item img {
+.carousel-inner img {
   width: 100%;
   height: auto;
+}
+
+img {
+  height: 50px;
 }
 
 .carousel-caption {

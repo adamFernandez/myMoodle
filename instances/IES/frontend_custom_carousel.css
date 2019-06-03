@@ -74,8 +74,18 @@
     padding: 30px 70px 30px 30px;
   }
 }
-@media only screen and (max-width: 480px) {
+/*@media only screen and (max-width: 480px) {
   .carousel-control {
     top: 220px;
   }
+}*/
+
+.carousel-caption h3 {
+  color: #fefefe !important;
+}
+
+.carousel-control {
+  background: none;
+  border: none;
+  color: #fefefe !important;
 }

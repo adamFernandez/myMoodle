@@ -65,7 +65,9 @@
   }
 }
 
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-  width: 100%;
-  height: auto;
+@media screen and (max-width: 1023px) {
+  .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+    height: auto;
+  }
 }

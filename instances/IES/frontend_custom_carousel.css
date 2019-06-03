@@ -58,7 +58,7 @@
 
 //starts here
 @media only screen and (max-width: 1023px) {
-  .carousel-inner > .item > img {
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
     height: auto;
   }
@@ -84,7 +84,7 @@
     padding: 30px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1023px) {
   .carousel-control {
     top: 220px;
   }

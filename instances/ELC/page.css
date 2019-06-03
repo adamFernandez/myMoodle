@@ -714,3 +714,7 @@ iframe, .no-overflow>iframe {
 	max-height:200px !important;
 	overflow:scroll !important;
 }
+
+.full .collapse.in {
+	max-height: 100% !important;
+}

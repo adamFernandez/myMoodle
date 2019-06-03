@@ -4,7 +4,6 @@
 }
 
 .embed-responsive-608by420 {
-//  padding-top: 69%;
   padding-top: calc(420%/6.08);
 }
 
@@ -18,9 +17,19 @@
 }
 
 .panel .panel-heading a:before {
-  color: #686868!important;
-  background: none;
-  margin-left: 5px;
+  display: none !important;
+}
+
+.panel .panel-title:before {
+  color: #082a4f !important;
+  content: "\f107";
+  float: left;
+  font-family: 'FontAwesome';
+  font-size: 1.2em;
+  margin: -1px 5px 0 5px;
+  padding: 1px;
+  text-align: center;
+  width: 33px; {
 }
 
 .btn-block {

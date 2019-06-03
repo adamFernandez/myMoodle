@@ -8,13 +8,13 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1200px) {
   .carousel-inner > .item > img {
     width: 400px;
     height: auto;
     margin-left: 0;
   }
-}
+}*/
 .carousel-caption {
   position: unset;
 }

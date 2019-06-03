@@ -1,5 +1,7 @@
 //Carousel changes to mimic adapt iLesson slider
-.carousel-inner > .item > img {
+
+
+/*.carousel-inner > .item > img {
   width: 100%;
   height: auto;
 }
@@ -40,8 +42,7 @@
   border: none;
   color: #fefefe !important;
 }
-
-/*
+//
 @media only screen and (max-width: 480px) {
   .carousel-inner > .item > img {
     width: 100%;

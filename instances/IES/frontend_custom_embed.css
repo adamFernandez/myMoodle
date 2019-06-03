@@ -32,6 +32,6 @@
   width: 33px; {
 }
 
-.btn-block {
+button.btn-block {
   margin: unset;
 }

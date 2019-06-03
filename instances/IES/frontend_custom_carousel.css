@@ -57,11 +57,9 @@
 */
 
 //starts here
-@media only screen and (max-width: 1023px) {
-.carousel-inner>.item>img, .carousel-inner>.item>a>img {
-    width: 100%;
-    height: auto;
-  }
+.carousel-inner>.item>img, {
+  width: 100%;
+  height: auto;
 }
 @media only screen and (min-width: 1024px) {
   .carousel-inner > .item > img {

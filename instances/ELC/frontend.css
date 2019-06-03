@@ -320,7 +320,7 @@ ul.topnav li.right {
 }
 /*Side buttons*/
 .ELC_am {
-    width: 247px;
+    width: 100%;
     zoom: 88%;
     margin-bottom: 7px;
     height: 85px;
@@ -332,7 +332,7 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/AMo.png');
 }
 .ELC_cn {
-    width: 247px;
+    width: 100%;
     zoom: 88%;
     margin-bottom: 7px;
     height: 85px;
@@ -344,7 +344,7 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/CNo.png');
 }
 .ELC_vb {
-    width: 247px;
+    width: 100%;
     zoom: 88%;
     margin-bottom: 7px;
     height: 85px;
@@ -356,7 +356,7 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/VBo.png');
 }
 .ELC_ws {
-    width: 247px;
+    width: 100%;
     zoom: 88%;
     margin-bottom: 7px;
     height: 85px;
@@ -368,7 +368,7 @@ ul.topnav li.right {
    background-image: url('https://git.iddkingsonline.com/instances/ELC/img/WSo.png');
 }
 .ELC_ii {
-    width: 247px;
+    width: 100%;
     zoom: 88%;
     margin-bottom: 7px;
     height: 85px;

@@ -129,7 +129,7 @@ var data = {
     },
     "module3": {
       "comments": {
-        "1": "mod/forum/view.php?id=2608120"
+        "1": "mod/forum/view.php?id=2696760"
       }
     },
     "module4": {
@@ -163,13 +163,13 @@ var data = {
     },
     "module9": {
       "comments": {
-        "1": "mod/forum/view.php?id=2137263"
+        "1": "mod/forum/view.php?id=2696880"
       },
       "quiz1": {
-        "1": "mod/quiz/view.php?id=2137318"
+        "1": "mod/quiz/view.php?id=2696936"
       },
       "quiz2": {
-        "1": "mod/quiz/view.php?id=2137319"
+        "1": "mod/quiz/view.php?id=2696937"
       }
     },
     "module10": {
@@ -191,16 +191,16 @@ var data = {
   "ifcl": {
     "module15": {
       "comments": {
-        "1": "mod/forum/view.php?id=2143654"
+        "1": "mod/forum/view.php?id=2404925"
       },
       "comments2": {
-        "1": "mod/forum/view.php?id=2238634"
+        "1": "mod/forum/view.php?id=2404925"
       },
       "comments3": {
-        "1": "mod/forum/view.php?id=2340413"
+        "1": "mod/forum/view.php?id=2405014"
       },
       "comments4": {
-        "1": "mod/forum/view.php?id=2340425"
+        "1": "mod/forum/view.php?id=2405010"
       }
     },
     "module16": {

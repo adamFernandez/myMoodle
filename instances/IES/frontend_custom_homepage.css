@@ -1,0 +1,15 @@
+#gridiconcontainer ul.gridicons li {
+  position: relative;
+}
+.course-content ul.gridicons li .icon_content {
+  font-size: 20px;
+  margin-bottom: 30px;
+  background: rgba(11, 85, 132, .75);
+  margin-left: unset;
+  padding: 6px 12px;
+  max-width: 256px;
+  bottom: 0;
+  color: #fefefe !important;
+  height: 108px;
+  line-height: 1.2;
+}

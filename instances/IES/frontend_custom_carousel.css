@@ -30,7 +30,7 @@
 @media only screen and (min-width: 1024px) {
   .carousel-caption {
     position: absolute;
-    width: calc(100% - 400px);
+    width: calc(100% - 340px);
     right: 0;
     top: 0;
     bottom: unset;
@@ -38,12 +38,13 @@
     padding: 30px;
     text-align: start;
     z-index: auto;
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .carousel-caption {
-    /*width: calc(100% - 500px);*/
+    width: calc(100% - 400px);
     padding: 30px 70px 30px 30px;
   }
 }

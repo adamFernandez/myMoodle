@@ -24,6 +24,7 @@
 
 .carousel-caption {
   position: unset;
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -32,14 +33,17 @@
     width: calc(100% - 400px);
     right: 0;
     top: 0;
+    bottom: unset;
     left: unset;
     padding: 30px;
+    text-align: start;
+    z-index: auto;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .carousel-caption {
-    width: calc(100% - 500px);
+    /*width: calc(100% - 500px);*/
     padding: 30px 70px 30px 30px;
   }
 }

@@ -279,3 +279,58 @@ p.titlesep {
   border: 0;
 }
 */
+
+/* Grid */
+
+.course-content ul.gridicons li .icon_content {
+    height: auto;
+    white-space: normal;
+    font-weight: 700;
+    position: absolute;
+    text-align: left !important;
+    font-size: x-large;
+    font-family: 'KingsBureauGrotThreeSeven';
+    z-index: 100;
+    margin-top: 21px;
+    display: inline;
+    background: rgba(255,255,255,.75);
+    font-weight: 500;
+    cursor: default !important;
+    line-height: normal;
+    margin-left: 14px;
+    padding: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    max-width: 215px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.course-content ul.gridicons li.currentselected .icon_content a:hover,.course-content .gridcursor .gridicon_link a:hover,.course-content ul.gridicons li.currentselected .icon_content {
+	color: inherit !important;
+}
+
+.course-content ul.gridicons li img:hover {
+	transform: none;
+}
+
+.course-content ul.gridicons li .image_holder {
+    width: auto;
+    height: auto;
+    border-color: #cdd7dc !important;
+    border-width: 0px !important;
+    border-radius: 0px !important;
+    padding:0px;
+}
+
+.new_activity {
+	display: none;
+}
+
+.course-content ul.gridicons li.currentselected {
+	background-color: #ffffff !important;
+}

@@ -581,6 +581,26 @@ var data = {
        "forum6": {
           "1": "mod/forum/view.php?id=2674273"
         }
+      },
+         "module5": {
+       "forum1": {
+          "1": "mod/forum/view.php?id=2584281"
+        },
+       "forum2": {
+          "1": "mod/forum/view.php?id=2584287"
+        },
+       "forum3": {
+          "1": "mod/forum/view.php?id=2584316"
+        },
+       "forum4": {
+          "1": "mod/forum/view.php?id=2655288"
+        },
+       "forum5": {
+          "1": "mod/forum/view.php?id=2584352"
+        },
+       "forum6": {
+          "1": "mod/forum/view.php?id=2674273"
+        }
       }
     }
 };

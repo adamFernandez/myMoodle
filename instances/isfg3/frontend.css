@@ -110,11 +110,14 @@ h3 > b  {
     background: #FF5F05 none repeat scroll 0 0;
     }
 
+.content h3.sectionname{
+    font-size:48px;
+}
+
 .single-section h3.sectionname {
     text-align: left;
     margin-left: 25px;
     clear: both;
-    font-size:48px;
 }
 .single-section .sectionname:after {
      background: none; 

@@ -106,6 +106,15 @@ h3 > b  {
 	background: #eef1f2;
 }
 
-.content>h3.sectionname:after {
+#section-0 .content>h3.sectionname:after {
     background: #FF5F05 none repeat scroll 0 0;
+    }
+
+.single-section h3.sectionname {
+    text-align: left;
+    margin-left: 25px;
+    clear: both;
+}
+.single-section .sectionname:after {
+     background: none; 
     }

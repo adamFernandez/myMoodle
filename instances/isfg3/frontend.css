@@ -5,7 +5,10 @@ body{
     background:#eef1f2;
 }
 #block-region-side-post{
-    border-left:2px solid #eef1f2;
+    /*border-left:2px solid #eef1f2;*/
+    -webkit-box-shadow: -4px 0px 6px 0px rgba(0,0,0,0.23);
+-moz-box-shadow: -4px 0px 6px 0px rgba(0,0,0,0.23);
+box-shadow: -4px 0px 6px 0px rgba(0,0,0,0.23);
 }
 #page-navbar {
     margin-top: 0;

@@ -48,16 +48,16 @@ a:hover {
 }
 
 h3 {
-	/*font-family: 'kingsfont-37';*/
+	font-family: 'kingsfont-37';
     	color: #171717 !important;
-        /*font-weight: 300 !important;*/
+        font-weight: 300 !important;
     	/*font-size: xx-large;*/
-      /*-webkit-font-smoothing: antialiased;*/
+      -webkit-font-smoothing: antialiased;
 }
 
-/*h3 > b  {
+h3 > b  {
 	font-weight: 400 !important;
-}*/
+}
 
 /*Grid text format*/
 .course-content ul.gridicons li .icon_content {
@@ -132,14 +132,14 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
     clear: both;
-    /*font-size: 2em;*/
+    font-size: 2em;
 }
 .single-section .sectionname:after {
      background: none; 
     }
-/*.no-overflow h3, .no-overflow h4{
+.no-overflow h3, .no-overflow h4{
     font-size: 1.5em;
-}*/
+}
 
 #block-region-side-post .block .header, #block-region-side-pre .block .header, .hidden-blocks .block .header{
 	background:transparent;

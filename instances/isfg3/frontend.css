@@ -86,7 +86,7 @@ h3 > b  {
 }
 
 .course-content ul.gridicons li.currentselected {
-    background-color: #cdd7dc !important;
+    background-color: transparent !important;
 }
 
 

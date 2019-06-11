@@ -114,6 +114,7 @@ h3 > b  {
     text-align: left;
     margin-left: 25px;
     clear: both;
+    font-size:48px;
 }
 .single-section .sectionname:after {
      background: none; 

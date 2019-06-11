@@ -106,6 +106,10 @@ h3 > b  {
 	background: #eef1f2;
 }
 
+.course-content ul.gtopics li.section .content {
+    margin: 10px 40px;
+}
+
 #section-0 .content>h3.sectionname:after {
     background: #FF5F05 none repeat scroll 0 0;
     }
@@ -116,9 +120,9 @@ h3 > b  {
 
 .single-section h3.sectionname {
     text-align: left;
-    margin-left: 25px;
+    margin-left: 40px;
     clear: both;
-    font-size: 36px
+    font-size: 2em;
 }
 .single-section .sectionname:after {
      background: none; 

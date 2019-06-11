@@ -111,6 +111,7 @@ h3 > b  {
     }
 .course-content ul.gtopics .sectionname h3{
 	font-size:48px;
+	margin-top:50px;
 }
 .course-content ul.gtopics .sectionname a {
     color: #171717 !important;

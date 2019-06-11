@@ -4,6 +4,9 @@ body{
 #container{
     background:#eef1f2;
 }
+#block-region-side-post{
+    border-left:2px solid #eef1f2;
+}
 
 @font-face {
   font-family: kingsfont-37;
@@ -137,5 +140,4 @@ h3 > b  {
 	background:transparent;
 	border:none;
 	box-shadow: none;
-	text-transform: uppercase;
 }

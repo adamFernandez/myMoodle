@@ -132,3 +132,7 @@ h3 > b  {
 .no-overflow h3, .no-overflow h4{
     font-size: 1.5em;
 }
+
+.single-section .section-navigation .mdl-right a:after{
+	background-color: #FF5F05;
+}

@@ -101,3 +101,11 @@ h3 > b  {
     border-radius: 0px !important;
     padding:0px;
 }
+
+#page-header{
+	background: #eef1f2;
+}
+
+.content>h3.sectionname:after {
+    background: #FF5F05 none repeat scroll 0 0;
+    }

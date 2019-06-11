@@ -5,8 +5,7 @@ body{
     background:#eef1f2;
 }
 #block-region-side-post{
-    /*border-left:2px solid #eef1f2;*/
-    background:#FAF9F8;
+    border-left:2px solid #eef1f2;
 }
 #page-navbar {
     margin-top: 0;

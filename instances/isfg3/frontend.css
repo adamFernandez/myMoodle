@@ -133,3 +133,9 @@ h3 > b  {
     font-size: 1.5em;
 }
 
+#block-region-side-post .block .header, #block-region-side-pre .block .header, .hidden-blocks .block .header{
+	background:transparent;
+	border:none;
+	box-shadow: none;
+	text-transform: uppercase;
+}

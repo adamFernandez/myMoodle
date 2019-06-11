@@ -136,3 +136,6 @@ h3 > b  {
 .single-section .section-navigation .mdl-right a:after{
 	background-color: #FF5F05;
 }
+.single-section .section-navigation .mdl-left a:after{
+	background-color: #FF5F05;
+}

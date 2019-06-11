@@ -50,3 +50,54 @@ h3 {
 h3 > b  {
 	font-weight: 400 !important;
 }
+
+/*Grid text format*/
+.course-content ul.gridicons li .icon_content {
+    height: auto;
+    /* margin: 0; */
+    white-space: normal;
+    font-weight: 700;
+    position: absolute;
+    text-align: left !important;
+    font-size: x-large;
+    font-family: 'kingsfont-37';
+    color: #0A2D50;
+    background: transparent;
+    z-index: 100;
+    margin-top: 21px;
+    display: inline;
+    cursor: default !important;
+    line-height: normal;
+    margin-left: 14px;
+    padding: 6px;
+    padding-top: 6px;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    padding-left: 4px;
+    max-width: 368px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+.course-content ul.gridicons li.currentselected .icon_content {
+    color: #0A2D50!important ;
+    max-width: 400px;
+}
+
+.course-content ul.gridicons li.currentselected {
+    background-color: #cdd7dc !important;
+}
+
+
+.course-content ul.gridicons li .image_holder {
+    /*width: 256px!important;
+    height: 256px !important;*/
+    width: auto;
+    height: auto;
+    border-color: #cdd7dc !important;
+    /*background-color: #cdd7dc !important;*/
+    border-width: 0px !important;
+    border-radius: 0px !important;
+    padding:0px;
+}

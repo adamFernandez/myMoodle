@@ -47,15 +47,15 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*h3 {
-	font-family: 'kingsfont-37';
+h3 {
+	/*font-family: 'kingsfont-37';*/
     	color: #171717 !important;
-        font-weight: 300 !important;
-    	font-size: xx-large;
-      -webkit-font-smoothing: antialiased;
+        /*font-weight: 300 !important;*/
+    	/*font-size: xx-large;*/
+      /*-webkit-font-smoothing: antialiased;*/
 }
 
-h3 > b  {
+/*h3 > b  {
 	font-weight: 400 !important;
 }*/
 

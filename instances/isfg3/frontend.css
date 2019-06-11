@@ -109,9 +109,11 @@ h3 > b  {
 #section-0 .content>h3.sectionname:after {
     background: #FF5F05 none repeat scroll 0 0;
     }
-
-.content h3.sectionname{
-    font-size:48px;
+.course-content ul.gtopics .sectionname{
+	font-size:48px;
+}
+.course-content ul.gtopics .sectionname a {
+    color: #171717 !important;
 }
 
 .single-section h3.sectionname {

@@ -13,15 +13,6 @@ body{
     padding: 1px 0 10px 10px;
 }
 
-.breadcrumb {
-    margin: 27px 181px 9px;
-    z-index: 100;
-    white-space: normal;
-    width: 201px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    }
-
 @font-face {
   font-family: kingsfont-37;
   src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff');

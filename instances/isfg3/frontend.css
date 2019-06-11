@@ -109,18 +109,15 @@ h3 > b  {
 #section-0 .content>h3.sectionname:after {
     background: #FF5F05 none repeat scroll 0 0;
     }
-.course-content ul.gtopics .sectionname h3{
-	font-size:48px;
-	margin-top:50px;
-}
+
 .course-content ul.gtopics .sectionname a {
     color: #171717 !important;
-    font-size:48px;
 }
 
 .single-section h3.sectionname {
     text-align: left;
     margin-left: 25px;
+    font-size: 36px
     clear: both;
 }
 .single-section .sectionname:after {

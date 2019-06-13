@@ -587,10 +587,10 @@ var data = {
           "1": "mod/forum/view.php?id=2605737"
         },
        "forum2": {
-          "1": "mod/forum/view.php?id=2697826"
+          "1": "mod/forum/view.php?id=2697832"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=2697832"
+          "1": "mod/forum/view.php?id=2698329"
         }
       }
     }

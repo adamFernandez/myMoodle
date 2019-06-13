@@ -584,7 +584,7 @@ var data = {
       },
          "module5": {
        "forum1": {
-          "1": "mod/forum/view.php?id=2605737"
+          "1": "mod/forum/view.php?id=2697826"
         },
        "forum2": {
           "1": "mod/forum/view.php?id=2697832"

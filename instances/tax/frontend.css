@@ -55,13 +55,6 @@ Toggles and breadcrumbs
 Header
 ============================================================== */
 
-#page-header {
-	background-color: #5E5550 !important;
-}
-
-#page-header .coursesearch input[type="submit"] {
-	background-color: #F18758;
-}
 
 /* =========================================================== *
 Accordions

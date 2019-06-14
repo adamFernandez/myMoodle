@@ -503,3 +503,7 @@ div.MathJax_Display {
 .MathJax {
 	font-size: 110% !important;
 }
+
+body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_closed, .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
+	display: none !important;
+}

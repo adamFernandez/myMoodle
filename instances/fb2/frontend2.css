@@ -339,33 +339,6 @@ button.accordion.active, button.accordion:hover {
   }
 
 }
-.course-content ul.ctopics li.section .content .toggle {
-	color: #0A2d50;
-	border: 0px;
-	-webkit-border-radius: 0px !important;
-	-moz-border-radius: 0px !important;
-	border-radius: 0px !important;
-	margin-bottom: 2px;
-	background-color: #ffffff !important;
-}
-
-.course-content ul.ctopics li.section .content .toggle span.the_toggle {
-	margin: 0px;
-	border-top: 1px solid #9FA7A7;
-	color: #009EA0 !important;
-}
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
-	font-size: 1.2em;
-	content: "\f107" !important;
-	color: #009EA0;
-}
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
-	font-size: 1.2em;
-	content: "\f106" !important;
-	color: #009EA0;
-}
 
 .instancename {
 	color: #404142;

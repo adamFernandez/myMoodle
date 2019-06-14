@@ -164,6 +164,9 @@ var data = {
     "module8": {
       "comments": {
         "1": "mod/forum/view.php?id=2403889"
+      },
+      "poll1": {
+        "1": "mod/choice/view.php?id=2403908"
       }
     },
     "module9": {

@@ -562,35 +562,35 @@ var data = {
           "1": "mod/forum/view.php?id=2616377"
         }
       },
-         "module4": {
-       "forum1": {
+      "module4": {
+        "forum1": {
           "1": "mod/forum/view.php?id=2584281"
         },
-       "forum2": {
+        "forum2": {
           "1": "mod/forum/view.php?id=2584287"
         },
-       "forum3": {
+        "forum3": {
           "1": "mod/forum/view.php?id=2584316"
         },
-       "forum4": {
+        "forum4": {
           "1": "mod/forum/view.php?id=2655288"
         },
-       "forum5": {
+        "forum5": {
           "1": "mod/forum/view.php?id=2584352"
         },
-       "forum6": {
+        "forum6": {
           "1": "mod/forum/view.php?id=2674273"
         }
       },
-         "module5": {
-       "forum1": {
+      "module5": {
+        "forum1": {
           "1": "mod/forum/view.php?id=2697826"
         },
-       "forum2": {
+        "forum2": {
           "1": "mod/forum/view.php?id=2697832"
-        },
+         },
        "forum3": {
-          "1": "mod/forum/view.php?id=2698329"
+         "1": "mod/forum/view.php?id=2698329"
         }
       }
     }

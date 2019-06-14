@@ -214,10 +214,6 @@ main {
     padding: 5px;
 }
 
-#page-header {
-    background-color: #000000 !important;
-}
-
 body.jsenabled .course-content ul.ctopics li.section .content .sectionhead a {
     border: 1px solid #9e9fa7 !important;
 }

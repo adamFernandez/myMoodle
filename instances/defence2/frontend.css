@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'KingsBureauGrot';
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+#page-header {
+	background-color: #33475c;
+}
+
+.coursesearch input[type="submit"] {
+	background-color: #ffbb57 !important;
+}
+
+.section-title, h1, h2, h3, h4 {
+	font-family: 'KingsBureauGrot' !important;
+	color: #33475c !important;
+}
+
+.block {
+	border-color: #777;
+}
+
+.subtitles {
+	font-family: 'KingsBureauGrot', sans-serif;
+	color: #000000;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+  .accordion-toggle {
+	cursor: pointer;
+	background-color: #ccc;
+	cursor: pointer;
+	padding: 15px;
+	width: 99%;
+	text-align: left;
+	outline: none;
+        color: #000;
+	margin: 0px;
+}
+
+  .accordion-content {display: none; padding-top: 10px;}
+  .accordion-content.default {display: block;}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+main {
+  overflow: hidden;
+  font-family: 'KingsBureauGrot' !important;
+}
+
+.hero {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.hero-box {
+  opacity: 0.9;
+  left: 0px;
+  padding: 20px;
+  max-width: 50%;
+  position: absolute;
+}
+
+.hero-box h1 {
+  font-size: 3em;
+  color: #202f3f;
+  background-color: #f3f3f3;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.hero-box h2 {
+  font-size: 1.1em;
+  color: #000000;
+  right: 0;
+  font-family: 'Roboto' !important;
+  background-color: #f3f3f3;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+@media all and (max-width: 650px) {
+
+  .hero-box {
+    width: 100%;
+    height: 100%;
+	max-width: 100% !important;
+    padding: 0px !important;
+    top: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-box h1 {
+    font-size: 1.7em;
+	margin-bottom: 1px !important;
+  }
+  
+  .hero-box h2 {
+	font-size: 0.9em;
+	margin: 0px !important;
+  }
+
+ 
+}
+
+@media all and (max-width: 380px) {
+
+  .hero-box h1 {
+    font-size: 1.4em;
+  }
+
+}
+
+.course-content ul.ctopics li.section .content .toggle {
+	border: 1px solid #a0a0a0 !important;
+    	color: #202f3f !important;
+    	background-color: #f3f3f3 !important;
+}
+.qn-container .smalltext {font-size: 1.7em !important; padding: 5px;}
+
+body#page-mod-lesson-view a {
+	color: green !important;
+}

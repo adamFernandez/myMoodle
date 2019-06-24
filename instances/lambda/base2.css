@@ -1,1 +1,10 @@
+html, body {
+    line-height: 25px;
+}
+.row-fluid .span4 {
+    display: none;
+}
 
+.navimages>a>img {
+    zoom: 250%;
+}

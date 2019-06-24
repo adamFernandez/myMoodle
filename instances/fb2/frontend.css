@@ -527,7 +527,7 @@ div.MathJax_Display {
 }
 
 @media print {
-	.navbar {
+	.navbar, #navbar {
 		display:none;
 	}
 	#page-header {
@@ -535,5 +535,8 @@ div.MathJax_Display {
 	}
 	#block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
 		display: none;
+	}
+	#region-main {
+		width:100%;
 	}
 }

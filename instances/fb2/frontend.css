@@ -525,3 +525,15 @@ div.MathJax_Display {
 .MathJax {
 	font-size: 110% !important;
 }
+
+@media print {
+	.navbar {
+		display:none;
+	}
+	#page-header {
+		display:none;
+	}
+	#block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
+		display: none;
+	}
+}

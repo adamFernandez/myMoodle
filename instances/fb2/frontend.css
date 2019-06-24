@@ -527,7 +527,7 @@ div.MathJax_Display {
 }
 
 @media print {
-	.navbar, #navbar {
+	.navbar, #navbar, #dropdowncontainer {
 		display:none;
 	}
 	#page-header {

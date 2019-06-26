@@ -3,8 +3,14 @@
   overflow: hidden;
 }
 
-.embed-responsive-608by420 {
-  padding-top: calc(420%/6.08);
+.embed-responsive-608by402 {
+  padding-top: calc(402%/6.08);
+}
+.embed-responsive-400by285 {
+  padding-top: calc(285%/4);
+}
+.embed-responsive-304by231 {
+  padding-top: calc(231%/3.04);
 }
 
 .embed-responsive > iframe {

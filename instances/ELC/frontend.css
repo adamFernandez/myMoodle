@@ -27,10 +27,6 @@
   color: #132c4d;
 }
 
-#page-header {
-  background-color: #06314d;
-}
-
 .coursesearchbox input, .coursesearchbox.input::-webkit-input-placeholder, .coursesearchbox.input:-moz-placeholder, .coursesearchbox.input::-moz-placeholder, .coursesearchbox.input:-ms-input-placeholder {
   color: #06314d;
 }

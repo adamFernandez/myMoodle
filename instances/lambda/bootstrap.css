@@ -2561,34 +2561,3 @@ html {
 .embed-responsive-304by231 {
   padding-top: calc(231%/3.04);
 }
-
-.fade {
-  transition: opacity 0.15s linear;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .fade {
-    transition: none;
-  }
-}
-
-.fade:not(.show) {
-  opacity: 0;
-}
-
-.collapse:not(.show) {
-  display: none;
-}
-
-.collapsing {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  transition: height 0.35s ease;
-}
-
-@media screen and (prefers-reduced-motion: reduce) {
-  .collapsing {
-    transition: none;
-  }
-}

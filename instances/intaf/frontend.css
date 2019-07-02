@@ -1,3 +1,5 @@
+@import url("https://git.iddkingsonline.com/instances/lambda/bootstrap.css");
+
 .section-title, h2, h3, h4 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
@@ -14,10 +16,6 @@ h3 > b {
 
 h3.section-title {
 	color: #0A2D50 !important;
-}
-
-#page-header {
-	background-color: #0A2D50;
 }
 
 .sectionbody {

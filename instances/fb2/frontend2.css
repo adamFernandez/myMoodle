@@ -424,18 +424,7 @@ h7 {
 div.MathJax_Display {
 	text-align: left !important;
 }
-/*Simple Popup in KEATS*/
-.dropdown-menu {
-    position: inherit;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    float: left;
-    padding: 5px 28px;
-    min-width: 120px;
-    margin: 10px 200px 20px;
-    list-style: none;
-}
+
 /*Your progress correction */
 .path-course-view .completionprogress {
     margin-right: 10px;

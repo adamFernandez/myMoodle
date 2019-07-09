@@ -1,3 +1,5 @@
+@import url("https://git.iddkingsonline.com/instances/lambda/bootstrap.css");
+
 .section-title, h2, h3 {
 	font-family: 'kingsfont-37' !important;
 	font-weight: normal !important;
@@ -19,10 +21,6 @@ h1 {
 
 h3.section-title {
 	color: #0A2D50 !important;
-}
-
-#page-header {
-	background-color: #009EA0;
 }
 
 .sectionbody {
@@ -169,23 +167,20 @@ main {
 	color: #009EA0 !important;
 }
 
-.course-content ul.ctopics {
-	border-bottom: 1px solid #9FA7A7;
-}
-
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
+.course-content ul.ctopics li.section .content .toggle .the_toggle h3:before {
 	font-size: 1.2em;
 	content: "\f107" !important;
+	font-family: "FontAwesome";
 	color: #009EA0;
+	padding-right: 10px;
 }
 
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
+.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:before {
 	font-size: 1.2em;
 	content: "\f106" !important;
+	font-family: "FontAwesome";
 	color: #009EA0;
-	
-	
+	padding-right: 10px;
 }
 
 #page-header .coursesearch input[type="submit"] {
@@ -213,10 +208,6 @@ h1 {
 
 h3.section-title {
 	color: #0A2D50 !important;
-}
-
-#page-header {
-	background-color: #009EA0;
 }
 
 .sectionbody {
@@ -350,42 +341,6 @@ button.accordion.active, button.accordion:hover {
   }
 
 }
-.course-content ul.ctopics li.section .content .toggle {
-	color: #0A2d50;
-	border: 0px;
-	-webkit-border-radius: 0px !important;
-	-moz-border-radius: 0px !important;
-	border-radius: 0px !important;
-	margin-bottom: 2px;
-	background-color: #ffffff !important;
-}
-
-.course-content ul.ctopics li.section .content .toggle span.the_toggle {
-	margin: 0px;
-	border-top: 1px solid #9FA7A7;
-	color: #009EA0 !important;
-}
-
-.course-content ul.ctopics {
-	border-bottom: 1px solid #9FA7A7;
-}
-
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle h3:after {
-	font-size: 1.2em;
-	content: "\f107" !important;
-	color: #009EA0;
-}
-
-.course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:after {
-	font-size: 1.2em;
-	content: "\f106" !important;
-	color: #009EA0;
-}
-
-#page-header .coursesearch input[type="submit"] {
-	background-color: #009EA0;
-}
 
 .instancename {
 	color: #404142;
@@ -471,18 +426,7 @@ h7 {
 div.MathJax_Display {
 	text-align: left !important;
 }
-/*Simple Popup in KEATS*/
-.dropdown-menu {
-    position: inherit;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    float: left;
-    padding: 5px 28px;
-    min-width: 120px;
-    margin: 10px 200px 20px;
-    list-style: none;
-}
+
 /*Your progress correction */
 .path-course-view .completionprogress {
     margin-right: 10px;
@@ -526,17 +470,6 @@ div.MathJax_Display {
 	font-size: 110% !important;
 }
 
-@media print {
-	.navbar, #navbar, #dropdowncontainer {
-		display:none;
-	}
-	#page-header {
-		display:none;
-	}
-	#block-region-side-pre.span3, #block-region-side-pre.span4, #block-region-side-post.span3, #block-region-side-post.span4 {
-		display: none;
-	}
-	#region-main {
-		width:100%;
-	}
+body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_closed, .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
+	background:initial !important;
 }

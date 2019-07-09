@@ -251,6 +251,16 @@ ul.topnav li.right {
   margin-right: 5px;
 }
 
+
+/* Profile image display update*/
+
+.page-context-header .page-header-image {
+  margin-bottom: 1em;
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  z-index: 6;
+}
+
 /*Hover color for images*/
 
 
@@ -373,7 +383,7 @@ ul.topnav li.right {
 
 .course-content ul.gridicons li .image_holder {
   background-color: inherit !important;
-  width: 210px !important;
+  width: inherit !important;
   height: inherit !important;
 }
 
@@ -456,23 +466,6 @@ ul.topnav li.right {
 .course-content ul.gridicons li:hover .image_holder {
   box-shadow: none !important;
 }
-
-.course-content ul.gridicons li img {
-  transition: none;
-}
-
- #gridiconcontainer ul.gridicons li {
-  width: 195px;
- }
- 
- .course-content ul.gridicons li img:hover {
-  transform: none;
-  }
-  
-.course-content ul.gridicons li .image_holder:hover {
-  background-image: none;
- }
- 
 .block .content ul {
     margin-left: 13px;
     text-align: left;

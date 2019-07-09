@@ -15,26 +15,8 @@ body{
     padding: 1px 0 10px 10px;
 }
 
-@font-face {
-  font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.woff');
-}
-
-@font-face {
-	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.woff');
-}
-@font-face {
-	font-family: Roboto-Light;
-	src: url('https://git.iddkingsonline.com/assets/fonts/Roboto-Light.woff');
-}
-
-/* html, body, p, li,input, button, select, textarea {
-	font-family:'kingsfont-51' !important;
-} */
 
 h2 {
-/* 	font-family: 'kingsfont-37' !important; */
 	font-weight: 400 !important;
     color: #171717 !important;
     -webkit-font-smoothing: antialiased;
@@ -50,7 +32,6 @@ a:hover {
 }
 
 h3 {
-/* 	font-family: 'kingsfont-37'; */
     	color: #171717 !important;
         font-weight: 300 !important;
     	/*font-size: xx-large;*/
@@ -70,7 +51,6 @@ h3 > b  {
     position: absolute;
     text-align: left !important;
     font-size: x-large;
-/*     font-family: 'kingsfont-37'; */
     color: #0A2D50;
     background: transparent;
     z-index: 100;
@@ -159,7 +139,6 @@ h3 > b  {
     margin: 30px;
     text-shadow: none;
     box-shadow: none;
-/*     font-family: 'kingsfont-51'; */
     font-weight: 700;
     font-size: 1.1em;
 }
@@ -171,7 +150,6 @@ h3 > b  {
     margin: 30px;
     text-shadow: none;
     box-shadow: none;
-/*     font-family: 'kingsfont-51'; */
     font-weight: 700;
     font-size: 1.1em;
 }

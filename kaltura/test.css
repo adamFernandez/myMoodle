@@ -5,4 +5,5 @@
 .track > .caption {
   background-color: red;
   top: unset;
+  bottom: 50px;
 }

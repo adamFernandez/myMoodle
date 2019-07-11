@@ -127,6 +127,10 @@ h3 > b  {
 	box-shadow: none;
 }
 
+.transcript-links {
+	text-align: right;
+}
+
 
 
 @media only screen and (max-width: 418px){

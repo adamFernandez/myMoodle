@@ -28,3 +28,6 @@
 .embed-responsive-304by231 {
   padding-top: calc(231%/3.04);
 }
+.embed-responsive-test {
+  padding-top: 59%;
+}

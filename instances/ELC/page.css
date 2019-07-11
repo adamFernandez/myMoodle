@@ -21,11 +21,11 @@
 
 h2 {
   position: relative;
-  background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top;
+  background: #f0f1f3 url("https://git.iddkingsonline.com/assets/images/taustelcheader.png") no-repeat left top !important;
   border: 1px solid #ececec;
   line-height: 60px;
   font-size: 32px;
-  color: #6b6b6b;
+  color: #6b6b6b !important;
   padding: 10px 20px;
   font-family: 'KingsBureauGrot ThreeSeven';
   font-weight: bold;
@@ -35,6 +35,10 @@ h2 {
 
 h3 {
   margin: -20px 0px 0px -20px;
+}
+
+h6 {
+	text-transform: none !important;
 }
 
 
@@ -72,7 +76,7 @@ h3 {
 }
 
 #green_week {
-  color: #449f1e;
+  color: #449f1e !important;
   text-align: left;
   position: relative;
   line-height: 36px;
@@ -86,7 +90,7 @@ h3 {
 }
 
 #black_week {
-  color: #000;
+  color: #000 !important;
   text-align: left;
   position: relative;
   line-height: 36px;
@@ -100,7 +104,7 @@ h3 {
 }
 
 #blue_week {
-  color: #092c50;
+  color: #092c50 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -115,7 +119,7 @@ h3 {
 }
 
 #red_week {
-  color: #e1221a;
+  color: #e1221a !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -130,7 +134,7 @@ h3 {
 }
 
 #orange_week {
-  color: #ff9600;
+  color: #ff9600 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -144,7 +148,7 @@ h3 {
   border: 0px;
 }
 #orange_week:hover {
-  color: #025187;
+  color: #025187 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;

@@ -1,11 +1,10 @@
+@import url("https://git.iddkingsonline.com/instances/lambda/embed-responsive.css");
+
 /*Colours from marketing:
 Grey: #8b9295 , #5a6469 , #82898C
 Orange: #ff5f05
 Blue (grey-sh) #536c84
 Dark blue: 0d4277*/
-
-
-
 
 #page-header {
 	background-color: #8b9295;
@@ -355,5 +354,3 @@ h3 > b  {
     margin-top: 55px;
     margin-bottom: 22px;
 }
-
-@import url("https://git.iddkingsonline.com/instances/lambda/embed-responsive.css");

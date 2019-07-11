@@ -600,6 +600,23 @@ var data = {
        "forum3": {
          "1": "mod/forum/view.php?id=2698329"
         }
+      },
+      "module6a": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=2900525"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=2900532"
+        },
+        "forum5": {
+          "1": "mod/forum/view.php?id=2900540"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=2900555"
+        },
+        "forum4": {
+          "1": "mod/forum/view.php?id=2900584"
+        }
       }
     }
 };

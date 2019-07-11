@@ -1,0 +1,8 @@
+.captionContainer.block {
+  background-color: blue;
+}
+
+.track > .caption {
+  background-color: red;
+  top: unset;
+}

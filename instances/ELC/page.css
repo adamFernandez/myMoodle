@@ -37,6 +37,10 @@ h3 {
   margin: -20px 0px 0px -20px;
 }
 
+h6 {
+	text-transform: none !important;
+}
+
 
 /* Start of ELC Lesson page css */
 

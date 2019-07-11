@@ -76,7 +76,7 @@ h6 {
 }
 
 #green_week {
-  color: #449f1e;
+  color: #449f1e !important;
   text-align: left;
   position: relative;
   line-height: 36px;
@@ -90,7 +90,7 @@ h6 {
 }
 
 #black_week {
-  color: #000;
+  color: #000 !important;
   text-align: left;
   position: relative;
   line-height: 36px;
@@ -104,7 +104,7 @@ h6 {
 }
 
 #blue_week {
-  color: #092c50;
+  color: #092c50 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -119,7 +119,7 @@ h6 {
 }
 
 #red_week {
-  color: #e1221a;
+  color: #e1221a !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -134,7 +134,7 @@ h6 {
 }
 
 #orange_week {
-  color: #ff9600;
+  color: #ff9600 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;
@@ -148,7 +148,7 @@ h6 {
   border: 0px;
 }
 #orange_week:hover {
-  color: #025187;
+  color: #025187 !important;
   text-align: left;
   background-size: 30px 30px;
   position: relative;

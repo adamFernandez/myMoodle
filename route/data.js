@@ -617,6 +617,27 @@ var data = {
         "forum4": {
           "1": "mod/forum/view.php?id=2900584"
         }
+       },
+      "module6b": {
+        "week1_forum1":  {
+          "1": "mod/forum/view.php?id=2900525"
+        },
+        "week1_forum2": {
+          "1": "mod/forum/view.php?id=2900532"
+        },
+        "week1_forum3": {
+          "1": "mod/forum/view.php?id=2900540"
+        },
+        "week1_forum4": {
+          "1": "mod/forum/view.php?id=2900555"
+        },
+        "week2": {
+          "1": "mod/forum/view.php?id=2900584"
+        },
+        "week3_forum1": {
+          "1": "mod/forum/view.php?id=2900584"
+        }
       }
     }
 };
+

@@ -455,7 +455,7 @@ var data = {
     "module10": {
       "discussion": {
         "1": "mod/forum/view.php?id=2681619",
-        "2": "mod/forum/view.php?id=2647557"
+        "2": "mod/forum/view.php?id=2942155"
       }
     },
     "module11": {

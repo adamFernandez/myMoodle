@@ -468,6 +468,11 @@ var data = {
       "discussion": {
         "1": "mod/forum/view.php?id=2682720",
       }
+    },
+    "module13": {
+      "discussion": {
+        "1": "mod/forum/view.php?id=2948091",
+      }
     }
   },
   "gfb": {

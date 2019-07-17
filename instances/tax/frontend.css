@@ -3,22 +3,7 @@ import url("https://git.iddkingsonline.com/instances/lambda/embed-responsive.css
 Fonts
 ============================================================== */
 
-@font-face {
-  font-family: kingsfont-37;
-  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
-}
-
-@font-face {
-	font-family: kingsfont-51;
-	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
-}
-
-html, body, p, li,input, button, select, textarea {
-	font-family:'kingsfont-51' !important;
-}
-
 h2 {
-	font-family: 'kingsfont-37' !important;
 	font-weight: 400 !important;
 }
 
@@ -31,7 +16,6 @@ a:hover {
 }
 
 h3 {
-	font-family: 'kingsfont-37';
 	color: #5A6469;
 	font-weight: 400 !important;
 }
@@ -97,7 +81,6 @@ Hero
 
 main {
   overflow: hidden;
-  font-family: 'kingsfont-37';
 }
 
 .hero {
@@ -123,12 +106,10 @@ main {
   	font-size: 2.4em;
   	color: #ffffff;
 	font-weight: 400;
-  	font-family: 'kingsfont-37' !important;
 }
 
 .hero-box h2 {
   	font-size: 2.3em;
-	font-family: 'kingsfont-51' !important;
   	color: #ffffff;
 	font-weight: 400;
   	right: 0;
@@ -148,7 +129,6 @@ main {
   }
   .hero-box h1 {
     	font-size: 1.4em;
-    	font-family: 'kingsfont-37' !important;
 	padding-left: 15px;
   }
   

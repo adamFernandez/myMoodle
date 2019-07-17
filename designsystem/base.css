@@ -47,6 +47,7 @@
   font-size: 32px;
 }
 .carousel-indicators {
+  top: unset;
   bottom: -32px;
   margin: 0;
   width: 100%;

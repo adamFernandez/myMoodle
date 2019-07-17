@@ -1,4 +1,14 @@
 /* Card */
+.card-deck {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  margin: 0 -15px;
+}
+
+.card-deck card {
+  margin: 0 15px;  
+}
 
 .card {
 	position: relative;

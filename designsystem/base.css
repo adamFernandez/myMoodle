@@ -65,8 +65,13 @@
 }
 .carousel-control {
   background-color: rgba(11, 45, 80, 0.5);
-  padding: 0 15px;
+  padding: 0 15px !important;
   border-radius: 4px;
+  position: unset;
+  border: none;
+  width: auto !importnat;
+  height: auto !important;
+  opacity: unset;
 }
 .carousel-control:hover {
   background-color: rgba(11, 45, 80, 1);

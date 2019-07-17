@@ -197,3 +197,7 @@ margin-left: 25px;
   padding: 5px;
   border: 1px solid #4e647f; 
 }
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}

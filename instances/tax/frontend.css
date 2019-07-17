@@ -149,3 +149,7 @@ main {
 	}
 
 }
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}

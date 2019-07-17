@@ -238,3 +238,7 @@ div.desc {
 .table1 table tr td {
 	border: 2px solid #4e647f;
 }
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}

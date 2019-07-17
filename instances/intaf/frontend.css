@@ -247,3 +247,7 @@ div.desc {
 }
 
 #page-mod-lesson-view .boxaligncenter { display: none;}
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}

@@ -141,3 +141,8 @@ h3 > b  {
     margin: 10px 10px;
 }
 }
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}
+

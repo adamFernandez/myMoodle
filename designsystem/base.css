@@ -47,7 +47,7 @@
   font-size: 32px;
 }
 .carousel-indicators {
-  bottom: -32;
+  bottom: -32px;
   margin: 0;
   width: 100%;
   background-color: rgba(11, 45, 80, 1);

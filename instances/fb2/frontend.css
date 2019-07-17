@@ -474,3 +474,7 @@ div.MathJax_Display {
 body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_closed, .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open {
 	background:initial !important;
 }
+
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: inherit;
+}

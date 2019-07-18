@@ -1,0 +1,16 @@
+/* embed styles */
+
+/* brightcove caption positioning */
+.track > .caption {
+  top: unset !important;
+  bottom: 9vh !important;
+}
+
+/* play icon */
+.icon-play {
+  rgba(255,255,255,0.6) !important;
+}
+
+.icon-play:before {
+  rgba(226,35,26,0.7)
+}

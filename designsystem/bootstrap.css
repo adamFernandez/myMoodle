@@ -2561,3 +2561,6 @@ html {
 .embed-responsive-304by231 {
   padding-top: calc(231%/3.04);
 }
+.embed-responsive-audio {
+  padding-top: calc(260%/9.76);
+}

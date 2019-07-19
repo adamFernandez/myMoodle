@@ -12,9 +12,12 @@
 .embed-responsive-304by231 {
   padding-top: calc(231%/3.04);
 }
+
+/* audio */
 .embed-responsive-audio {
   padding-top: calc(260%/9.76);
 }
+
 .embed-responsive {
   position: relative;
   display: block;

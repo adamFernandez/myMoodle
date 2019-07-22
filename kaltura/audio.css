@@ -7,10 +7,10 @@
 }
 
 /* play icon */
-.icon-play {
+.videoHolder .icon-play {
   background-color: rgba(255,255,255,0.6) !important;
 }
 
-.icon-play:before {
+.videoHolder .icon-play:before {
   color: rgba(226,35,26,0.7);
 }

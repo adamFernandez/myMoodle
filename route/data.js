@@ -410,7 +410,7 @@ var data = {
         "1": "mod/choice/view.php?id=2681368"
       },
       "poll9": {
-        "1": "mod/forum/view.php?id=2954323"
+        "1": "mod/choice/view.php?id=2681369"
       },
       "poll10": {
         "1": "mod/choice/view.php?id=2681324"
@@ -449,7 +449,7 @@ var data = {
     },
     "module9": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2549793"
+        "1": "mod/forum/view.php?id=2954323"
       }
     },
     "module10": {

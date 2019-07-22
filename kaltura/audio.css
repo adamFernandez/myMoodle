@@ -1,9 +1,18 @@
-/* embed styles */
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
 
 /* brightcove caption positioning */
 .track > .caption {
   top: unset !important;
   bottom: 9vh !important;
+}
+
+.track > .span {
+  font-family: 'KingsBureauGrot' !important;
 }
 
 .playerPoster.fill-height {

@@ -357,14 +357,14 @@ var data = {
   "ph": {
     "module1": {
       "general": {
-        "1": "mod/forum/view.php?id=2637951",
+        "1": "mod/forum/view.php?id=2951321",
         "2": "mod/forum/view.php?id=2681023"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
-              "1": "mod/choice/view.php?id=2637967",
+              "1": "mod/choice/view.php?id=2951338",
               "2": "mod/choice/view.php?id=2681039"
             }
           }

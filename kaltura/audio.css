@@ -8,9 +8,12 @@
 
 /* play icon */
 .videoHolder .icon-play {
-  background-color: rgba(255,255,255,0.6) !important;
+  padding: 12px 0;
 }
 
 .videoHolder .icon-play:before {
+  background-color: rgba(255,255,255,0.6) !important;
   color: rgba(226,35,26,0.7);
+  padding: 12px 20px 12px 25px;
+  border-radius: 3.9px;
 }

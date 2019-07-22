@@ -4,19 +4,15 @@
   bottom: 9vh !important;
 }
 
-.track > .span {
-  font-family: 'KingsBureauGrot' !important;
-}
-
 .playerPoster.fill-height {
   min-height: unset;
 }
 
 /* play icon */
 .videoHolder .icon-play {
-  background-color: rgba(255,255,255,0.6) !important;
+//  background-color: rgba(255,255,255,0.6) !important;
 }
 
 .videoHolder .icon-play:before {
-  color: rgba(226,35,26,0.7);
+// color: rgba(226,35,26,0.7);
 }

@@ -410,7 +410,7 @@ var data = {
         "1": "mod/choice/view.php?id=2681368"
       },
       "poll9": {
-        "1": "mod/choice/view.php?id=2681369"
+        "1": "mod/forum/view.php?id=2954323"
       },
       "poll10": {
         "1": "mod/choice/view.php?id=2681324"

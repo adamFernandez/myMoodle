@@ -4,6 +4,11 @@
   font-weight: bold;
   font-style: normal;
 }
+
+.modified {
+  display: none;
+}
+
 .carousel {
   margin-bottom: 4rem;
 }

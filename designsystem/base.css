@@ -84,3 +84,41 @@
 .carousel-control i {
   font-size: 60px;
 }
+
+/* embed styles */
+.embed-responsive {
+  position: relative;
+  overflow: hidden;
+}
+.embed-responsive-608by402 {
+  padding-top: calc(402%/6.08);
+}
+.embed-responsive-400by285 {
+  padding-top: calc(285%/4);
+}
+.embed-responsive-304by231 {
+  padding-top: calc(231%/3.04);
+}
+.embed-responsive-audio {
+  padding-top: calc(350%/9.76);
+}
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+/*  padding: 0; */
+  overflow: hidden;
+}
+.embed-responsive::before {
+  display: block;
+  content: "";
+ }
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

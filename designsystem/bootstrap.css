@@ -2546,21 +2546,3 @@ html {
 .m-0 {
   margin: 0 !important;
 }
-
-/* embed styles */
-.embed-responsive {
-  position: relative;
-  overflow: hidden;
-}
-.embed-responsive-608by402 {
-  padding-top: calc(402%/6.08);
-}
-.embed-responsive-400by285 {
-  padding-top: calc(285%/4);
-}
-.embed-responsive-304by231 {
-  padding-top: calc(231%/3.04);
-}
-.embed-responsive-audio {
-  padding-top: calc(260%/9.76);
-}

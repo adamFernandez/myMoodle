@@ -467,6 +467,7 @@ var data = {
     "module12": {
       "discussion": {
         "1": "mod/forum/view.php?id=2682720",
+        "2": "mod/forum/view.php?id=2960026"
       }
     },
     "module13": {

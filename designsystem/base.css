@@ -4,9 +4,71 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'KingsBureauGrotFiveOne';
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf') format('truetype');
+  font-style: normal;
+}
 
 .modified {
   display: none;
+}
+
+.alert-success, .alert-warning, .alert-danger, .alert-feedback {
+  color: #000;
+  border-radius: 6px;
+  border: none;
+}
+.alert h5 {
+  font-family: 'KingsBureauGrot' !important;
+  font-size: 1.2rem;
+}
+.alert p {
+  font-family: 'KingsBureauGrotFiveOne';
+}
+.alert-success > :first-child::before,
+.alert-instructional > :first-child::before,
+.alert-danger > :first-child::before,
+.alert-feedback > :first-child::before {
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  position: absolute;
+  top: 20px;
+  left: 24px;
+}
+.alert.alert-success, .alert-feedback.correct-answer {
+  background-color: rgba(40,195,130,0.2);
+}
+.alert.alert-success > :first-child::before {
+  content: '\f164';
+  color: #28c382;
+  padding: 0 4px;
+}
+.alert-feedback.correct-answer > :first-child::before {
+  content: '\f058';
+  color: #28c382;
+  padding: 0 4px;
+}
+.alert.alert-instructional, .alert-feedback.model-answer {
+  background-color: rgba(245,185,15,0.2);
+}
+.alert.alert-instructional > :first-child::before {
+  content: '\f086';
+  color: #8262ae;
+  padding: 0 3px;
+}
+.alert-feedback.model-answer > :first-child::before {
+  content: '\f27a';
+  color: #f5b90f;
+  padding: 0 4px;
+}
+.alert.alert-danger, .alert-feedback.incorrect-answer {
+  background-color: rgba(226,35,26,0.2);
+}
+.alert.alert-danger > :first-child::before {
+  content: '\f071';
+  color: #e2231a;
+  padding: 0 3px;
 }
 
 .carousel {

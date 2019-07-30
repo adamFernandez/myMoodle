@@ -625,7 +625,7 @@ var data = {
         }
        },
       "module6b": {
-        "week1_forum1":  {
+        "week1_forum1": {
           "1": "mod/forum/view.php?id=2634741"
         },
         "week1_forum2": {
@@ -633,9 +633,6 @@ var data = {
         },
         "week1_forum3": {
           "1": "mod/forum/view.php?id=2645540"
-        },
-        "week1_forum4": {
-          "1": "mod/forum/view.php?id="
         },
         "week2": {
           "1": "mod/forum/view.php?id=2634769"

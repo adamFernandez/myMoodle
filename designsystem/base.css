@@ -18,10 +18,12 @@
   color: #000;
   border-radius: 6px;
   border: none;
+  position: relative;
 }
 .alert h5 {
   font-family: 'KingsBureauGrot' !important;
   font-size: 1.2rem;
+  color: #000 !important;
 }
 .alert p {
   font-family: 'KingsBureauGrotFiveOne';
@@ -37,7 +39,7 @@
   left: 24px;
 }
 .alert.alert-success, .alert-feedback.correct-answer {
-  background-color: rgba(40,195,130,0.2);
+  background-color: rgba(40,195,130,0.2) !important;
 }
 .alert.alert-success > :first-child::before {
   content: '\f164';
@@ -50,7 +52,7 @@
   padding: 0 4px;
 }
 .alert.alert-instructional, .alert-feedback.model-answer {
-  background-color: rgba(245,185,15,0.2);
+  background-color: rgba(245,185,15,0.2) !important;
 }
 .alert.alert-instructional > :first-child::before {
   content: '\f086';
@@ -63,12 +65,23 @@
   padding: 0 4px;
 }
 .alert.alert-danger, .alert-feedback.incorrect-answer {
-  background-color: rgba(226,35,26,0.2);
+  background-color: rgba(226,35,26,0.2) !important;
 }
 .alert.alert-danger > :first-child::before {
   content: '\f071';
   color: #e2231a;
   padding: 0 3px;
+}
+.alert-feedback.incorrect-answer > :first-child::before {
+  content: '\f057';
+  color: #e2231a;
+  padding: 0 4px;
+}
+.alert-success > :first-child,
+.alert-instructional > :first-child,
+.alert-danger > :first-child,
+.alert-feedback > :first-child {
+  margin: 8px 4px 8px 50px;
 }
 
 .carousel {

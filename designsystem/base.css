@@ -14,8 +14,7 @@
   display: none;
 }
 
-.alert-success, .alert-warning, .alert-danger, .alert-feedback {
-  color: #000;
+.alert-success, .alert-instructional, .alert-danger, .alert-feedback {
   border-radius: 6px;
   border: none;
   position: relative;
@@ -27,6 +26,7 @@
 }
 .alert p {
   font-family: 'KingsBureauGrotFiveOne';
+  color: #000 !important;
 }
 .alert-success > :first-child::before,
 .alert-instructional > :first-child::before,

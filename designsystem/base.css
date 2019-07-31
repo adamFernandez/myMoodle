@@ -10,10 +10,26 @@
   font-style: normal;
 }
 
-.modified {
-  display: none;
+/* max-width for extra large screens */
+@media only screen and (min-width: 1440px) {
+  #page-header-nav, #page-content {
+    max-width: 1312px;
+    margin: 0 auto;
+  }
+  #region-bs-main-and-pre {
+    max-width: 979px;
+  }
+  #block-region-side-post {
+    max-width: 330px;
+    margin-left: 23px;
+  }
+
+  .modified {
+    display: none;
+  }
 }
 
+/* alert */
 .alert-success, .alert-instructional, .alert-danger, .alert-feedback {
   border-radius: 6px;
   border: none;
@@ -84,6 +100,7 @@
   margin: 8px 4px 8px 50px;
 }
 
+/* carousel */
 .carousel {
   margin-bottom: 4rem;
 }
@@ -160,7 +177,7 @@
   font-size: 60px;
 }
 
-/* embed styles */
+/* embed */
 .embed-responsive {
   position: relative;
   overflow: hidden;

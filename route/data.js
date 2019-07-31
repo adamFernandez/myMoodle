@@ -625,21 +625,9 @@ var data = {
         }
        },
       "module6b": {
-        "week1_forum1": {
+        "forum1": {
           "1": "mod/forum/view.php?id=2634741"
-        },
-        "week1_forum2": {
-          "1": "mod/forum/view.php?id=2634732"
-        },
-        "week1_forum3": {
-          "1": "mod/forum/view.php?id=2645540"
-        },
-        "week2": {
-          "1": "mod/forum/view.php?id=2634769"
-        },
-        "week3_forum1": {
-          "1": "mod/forum/view.php?id=2634798"
-        }
+         }
       }
     }
 };

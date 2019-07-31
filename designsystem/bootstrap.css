@@ -87,6 +87,10 @@
 	content: "\f105";
 }*/
 
+.collapse:not(.show) {
+    display: none;
+}
+
 /* Colors */
 
 .text-white {

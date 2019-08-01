@@ -91,7 +91,9 @@
     display: none;
 }
 */
-
+.collapse:not(.in) {
+  border: none;
+}
 /* Colors */
 
 .text-white {

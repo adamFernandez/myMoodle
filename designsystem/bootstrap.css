@@ -86,14 +86,12 @@
 .accordion .btn.collapsed:before {
 	content: "\f105";
 }
-
-.collapse:not(.show) {
-    display: none;
-}
 */
-.collapse:not(.in) {
-  border: none;
+
+.transcript-card.collapse:not(.in) {
+  display: none;
 }
+
 /* Colors */
 
 .text-white {

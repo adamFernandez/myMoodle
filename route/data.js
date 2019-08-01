@@ -181,6 +181,9 @@ var data = {
       },
       "forum1": {
         "1": "mod/forum/view.php?id=2696930"
+      },
+      "poll1": {
+        "1": "mod/choice/view.php?id=2696973"
       }
     },
     "module10": {

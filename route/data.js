@@ -178,6 +178,9 @@ var data = {
       },
       "quiz2": {
         "1": "mod/quiz/view.php?id=2696937"
+      },
+      "forum1": {
+        "1": "mod/forum/view.php?id=2696930"
       }
     },
     "module10": {

@@ -118,7 +118,7 @@
   }
 }
 .carousel-caption {
-  font-family: 'KingsBureauGrotFiveOne' !important;
+  font-family: 'KingsBureauGrot' !important;
   font-size: 23px;
   text-align: left;
   background-color: rgba(11, 45, 80, 0.85);
@@ -142,6 +142,11 @@
 }
 .carousel-caption h5 {
   font-size: 32px;
+  line-height: 1.2;
+}
+.carousel-caption p {
+  line-height: 1.4;
+  margin-bottom: 0;
 }
 .carousel-indicators {
   top: unset;

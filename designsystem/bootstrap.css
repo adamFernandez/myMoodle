@@ -89,7 +89,7 @@
 */
 
 .transcript-card.collapse:not(.in) {
-  display: none;
+  border: none;
 }
 
 /* Colors */

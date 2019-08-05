@@ -545,7 +545,7 @@ var data = {
           "1": "mod/forum/discuss.php?d=167806"
        }
      },  
-     "module2": {
+ "module2": {
        "forum1": {
           "1": "mod/forum/view.php?id=2539730"
        },

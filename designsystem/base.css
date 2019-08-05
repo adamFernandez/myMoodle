@@ -47,6 +47,7 @@
 .alert-success > :first-child::before,
 .alert-instructional > :first-child::before,
 .alert-danger > :first-child::before,
+.alert-lo > :first-child::before,
 .alert-feedback > :first-child::before {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -93,9 +94,58 @@
   color: #e2231a;
   padding: 0 4px;
 }
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
+.alert.alert-lo {
+  background-color: #edf1f2;
+}
+.alert.alert-lo > :first-child::before {
+  content: '\f091';
+  color: #009ea0;
+  padding: 0 4px;
+}
 .alert-success > :first-child,
 .alert-instructional > :first-child,
 .alert-danger > :first-child,
+.alert-lo > :first-child,
 .alert-feedback > :first-child {
   margin: 8px 4px 8px 50px;
 }

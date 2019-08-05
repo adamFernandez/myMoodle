@@ -119,6 +119,7 @@ main {
   text-align: left;
   padding-top: 15px;
   margin-bottom: 0px;
+  line-height: 1.4;
 }
 
 @media all and (max-width: 650px) {

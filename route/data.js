@@ -547,16 +547,16 @@ var data = {
      },  
  "module2": {
        "forum1": {
-          "1": "mod/forum/view.php?id=2539730"
+          "1": "mod/forum/view.php?id=2964509"
        },
        "forum2": {
-          "1": "mod/forum/view.php?id=2539736"
+          "1": "mod/forum/view.php?id=2964515"
        },
        "forum3": {
-          "1": "mod/forum/view.php?id=2539763"
+          "1": "mod/forum/view.php?id=2964545"
        },
        "forum4": {
-          "1": "mod/forum/view.php?id=2539793"
+          "1": "mod/forum/view.php?id=2964581"
        }
      },
      "module3": {

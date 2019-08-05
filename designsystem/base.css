@@ -29,6 +29,14 @@
   }
 }
 
+/* typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'KingsBureauGrot'
+}
+body, select, option {
+  font-family: 'KingsBureauGrotFiveOne'
+}
+
 /* alert */
 .alert-success, .alert-instructional, .alert-danger, .alert-feedback {
   border-radius: 6px;

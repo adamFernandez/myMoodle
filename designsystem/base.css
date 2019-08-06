@@ -300,3 +300,10 @@ td {
   line-height: 1.375;
   color: #333333;
 }
+.row-fluid.rtl-compatible {
+	display: block;
+}
+
+.row-fluid.rtl-compatible .urlselect {
+	display: none;
+}

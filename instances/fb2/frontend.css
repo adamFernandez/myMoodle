@@ -479,3 +479,11 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 #next-activity-link:visited, #prev-activity-link:visited {
   color: inherit;
 }
+
+.row-fluid.rtl-compatible {
+	display: block;
+}
+
+.mt2 .span4 {
+	width: 48%;
+}

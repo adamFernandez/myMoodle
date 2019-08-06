@@ -38,10 +38,11 @@ body, select, option {
 }
 
 /* alert */
-.alert-success, .alert-instructional, .alert-danger, .alert-feedback {
+.alert-success, .alert-instructional, .alert-danger, .alert-lo, .alert-feedback {
   border-radius: 6px;
   border: none;
   position: relative;
+  color: #000 !important;
 }
 .alert h5 {
   font-family: 'KingsBureauGrot' !important;

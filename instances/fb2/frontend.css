@@ -488,4 +488,6 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 	display: none;
 }
 
+@media (min-width: 768px) {
 .m-t-2 .span4 {width: 48% }
+}

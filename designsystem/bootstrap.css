@@ -1,4 +1,27 @@
 /* Card */
+.card-deck {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-deck .card {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 576px) {
+  .card-deck {
+  	flex-flow: row wrap;
+  	margin-left: -15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+    flex: 1 0 0%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
 
 .card {
 	position: relative;

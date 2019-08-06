@@ -150,6 +150,10 @@ h3 > b  {
 	display: block;
 }
 
-.row-fluid.rtl-compatible .urlselect {
+.m-t-2 .span4:nth-of-type(2) {
 	display: none;
+}
+
+@media (min-width: 768px) {
+.m-t-2 .span4 {width: 48% }
 }

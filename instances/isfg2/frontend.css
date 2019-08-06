@@ -146,3 +146,10 @@ h3 > b  {
   color: inherit;
 }
 
+.row-fluid.rtl-compatible {
+	display: block;
+}
+
+.row-fluid.rtl-compatible .urlselect {
+	display: none;
+}

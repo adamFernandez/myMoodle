@@ -487,3 +487,7 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 .mt2 .span4 {
 	width: 48%;
 }
+
+.mt2 .urlselect {
+	display: none;
+}

@@ -153,3 +153,11 @@ main {
 #next-activity-link:visited, #prev-activity-link:visited {
   color: inherit;
 }
+
+.row-fluid.rtl-compatible {
+	display: block;
+}
+
+.row-fluid.rtl-compatible .urlselect {
+	display: none;
+}

@@ -484,10 +484,6 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 	display: block;
 }
 
-.row-fluid.rtl-compatible .span4 {
-	width: 48%;
-}
-
 .row-fluid.rtl-compatible .urlselect {
 	display: none;
 }

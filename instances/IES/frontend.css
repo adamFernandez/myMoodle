@@ -209,3 +209,11 @@ p.titlesep {
   height: 100%;
   border: 0;
 }
+
+.row-fluid.rtl-compatible {
+	display: block;
+}
+
+.row-fluid.rtl-compatible .urlselect {
+	display: none;
+}

@@ -508,13 +508,13 @@ var data = {
     },
     "module6": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2521774"
+        "1": "mod/forum/view.php?id=2772471"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=2572601"
+        "1": "mod/forum/view.php?id=2772275"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2572604"
+        "1": "mod/forum/view.php?id=2772279"
       }
     },
     "module8": {

@@ -256,7 +256,4 @@ div.desc {
 .m-t-2 .span4 {width: 48% }
 }
 
-/* Hides "modified on" date */
-div.modified {
-	display:none;
-}
+

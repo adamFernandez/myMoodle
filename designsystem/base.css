@@ -9,14 +9,46 @@
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
   font-style: normal; }
 
+html, body {
+  font-size: 16px; }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'KingsBureauGrot'; }
+  font-family: 'KingsBureauGrot';
+  color: #171717;
+  margin-bottom: 1.5rem; }
 
 body, select, option {
   font-family: 'KingsBureauGrotFiveOne'; }
 
+h1, .h1 {
+  font-size: 2.375rem;
+  line-height: 1.1rem; }
+
+h2, .h2 {
+  font-size: 1.875rem;
+  line-height: 1.25rem; }
+
+h3, .h3 {
+  font-size: 1.5rem;
+  line-height: 1.25rem; }
+
+h4, .h4 {
+  font-size: 1.25rem;
+  line-height: 1.4rem; }
+
+h5, .h5 {
+  font-size: 1.125rem;
+  line-height: 1.4rem; }
+
+h6, .h6 {
+  font-size: 1rem;
+  line-height: 1.4rem; }
+
+p {
+  margin-bottom: 1.5rem;
+  color: #333; }
+
 .alert {
-  border-radius: 6px;
   border: none;
   position: relative;
   color: #000 !important; }

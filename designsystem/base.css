@@ -49,6 +49,7 @@ p {
   color: #333; }
 
 .alert {
+  border-radius: unset;
   border: none;
   position: relative;
   color: #000 !important; }

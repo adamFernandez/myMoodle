@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'KingsBureauGrot';
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
@@ -12,97 +13,132 @@
 html, body {
   font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
   margin-bottom: 1.5rem; }
 
 body, select, option {
-  font-family: 'KingsBureauGrotFiveOne'; }
+  font-family: 'Open Sans', sans-serif; }
 
 h1, .h1 {
   font-size: 2.375rem;
-  line-height: 1.1rem; }
+  line-height: 1.1; }
 
 h2, .h2 {
   font-size: 1.875rem;
-  line-height: 1.25rem; }
+  line-height: 1.25; }
 
 h3, .h3 {
   font-size: 1.5rem;
-  line-height: 1.25rem; }
+  line-height: 1.25; }
 
 h4, .h4 {
   font-size: 1.25rem;
-  line-height: 1.4rem; }
+  line-height: 1.4; }
 
 h5, .h5 {
   font-size: 1.125rem;
-  line-height: 1.4rem; }
+  line-height: 1.4; }
 
 h6, .h6 {
   font-size: 1rem;
-  line-height: 1.4rem; }
+  line-height: 1.4; }
 
 p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: Open Sans;
   margin-bottom: 1.5rem;
   color: #333; }
 
-.alert {
+.caption {
+  font-size: 0.833rem;
+  line-height: 1.5;
+  font-family: Open Sans; }
+
+.quote-body {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-family: KingsCaslonDisplay;
+  margin-bottom: 1.75rem;
+  font-style: italic; }
+
+.quote-attribution {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  margin-bottom: 0; }
+
+.stand-out {
+  font-size: 1.125rem;
+  line-height: 1.25;
+  font-family: KingsCaslonDisplay; }
+
+.ds-box, .alert, .quotation {
   border-radius: unset;
   border: none;
+  padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .alert > :first-child {
-    margin: 8px 4px 8px 50px; }
-  .alert h5 {
+  .ds-box > :first-child, .alert > :first-child, .quotation > :first-child {
+    padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
+  .ds-box h5, .alert h5, .quotation h5 {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
+    color: #000 !important;
+    margin-top: 0; }
+  .ds-box p, .alert p, .quotation p {
     color: #000 !important; }
-  .alert p {
-    font-family: 'KingsBureauGrotFiveOne';
-    color: #000 !important; }
-  .alert:first-child::before {
+  .ds-box > :first-child::before, .alert > :first-child::before, .quotation > :first-child::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
-    top: 20px;
-    left: 24px; }
-  .alert.alert-success, .alert.alert-feedback.correct-answer {
-    background-color: rgba(40, 195, 130, 0.2) !important; }
-    .alert.alert-success:first-child::before, .alert.alert-feedback.correct-answer:first-child::before {
-      color: #28c382;
-      padding: 0 4px; }
-  .alert.alert-success > :first-child::before {
-    content: '\f164'; }
-  .alert.alert-feedback.correct-answer > :first-child::before {
-    content: '\f058'; }
-  .alert.alert-instructional, .alert .alert-feedback.model-answer {
-    background-color: rgba(245, 185, 15, 0.2) !important; }
-    .alert.alert-instructional:first-child::before, .alert .alert-feedback.model-answer:first-child::before {
-      content: '\f086';
-      color: #8262ae;
-      padding: 0 3px; }
-  .alert.alert-feedback.model-answer > :first-child::before {
-    content: '\f27a';
-    color: #f5b90f;
+    top: 1.25rem;
+    left: 1.5rem; }
+
+.alert.alert-success, .alert.alert-feedback.correct-answer {
+  background-color: rgba(40, 195, 130, 0.2) !important; }
+  .alert.alert-success > :first-child::before, .alert.alert-feedback.correct-answer > :first-child::before {
+    color: #28c382;
     padding: 0 4px; }
-  .alert.alert-danger, .alert .alert-feedback.incorrect-answer {
-    background-color: rgba(226, 35, 26, 0.2) !important; }
-    .alert.alert-danger:first-child::before, .alert .alert-feedback.incorrect-answer:first-child::before {
-      color: #e2231a; }
-  .alert.alert-danger > :first-child::before {
-    content: '\f071';
+
+.alert.alert-success > :first-child::before {
+  content: '\f164'; }
+
+.alert.alert-feedback.correct-answer > :first-child::before {
+  content: '\f058'; }
+
+.alert.alert-instructional, .alert.alert-feedback.model-answer {
+  background-color: rgba(245, 185, 15, 0.2) !important; }
+  .alert.alert-instructional > :first-child::before, .alert.alert-feedback.model-answer > :first-child::before {
+    content: '\f086';
+    color: #8262ae;
     padding: 0 3px; }
-  .alert.alert-feedback.incorrect-answer > :first-child::before {
-    content: '\f057';
+
+.alert.alert-feedback.model-answer > :first-child::before {
+  content: '\f27a';
+  color: #f5b90f;
+  padding: 0 4px; }
+
+.alert.alert-danger, .alert.alert-feedback.incorrect-answer {
+  background-color: rgba(226, 35, 26, 0.2) !important; }
+  .alert.alert-danger > :first-child::before, .alert.alert-feedback.incorrect-answer > :first-child::before {
+    color: #e2231a; }
+
+.alert.alert-danger > :first-child::before {
+  content: '\f071';
+  padding: 0 3px; }
+
+.alert.alert-feedback.incorrect-answer > :first-child::before {
+  content: '\f057';
+  padding: 0 4px; }
+
+.alert.alert-lo {
+  background-color: #edf1f2; }
+  .alert.alert-lo > :first-child::before {
+    content: '\f091';
+    color: #009ea0;
     padding: 0 4px; }
-  .alert.alert-lo {
-    background-color: #edf1f2; }
-    .alert.alert-lo:first-child::before {
-      content: '\f091';
-      color: #009ea0;
-      padding: 0 4px; }
 
 .carousel {
   margin-bottom: 4rem; }
@@ -129,11 +165,11 @@ p {
     .carousel .carousel-caption p {
       line-height: 1.4;
       margin-bottom: 0; }
-  .carousel .text-only .carousel-item {
+  .carousel.text-only .carousel-item {
     position: relative;
     background-color: rgba(11, 45, 80, 0.85);
     padding-top: 33.3333%; }
-  .carousel .text-only .carousel-caption {
+  .carousel.text-only .carousel-caption {
     position: absolute;
     background-color: unset;
     top: 25%;
@@ -199,6 +235,17 @@ p {
 
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
+
+.quotation {
+  background-color: #edf1f2; }
+  .quotation > :first-child::before {
+    content: '“';
+    padding: 0;
+    color: #ff5f05;
+    font-family: 'KingsCaslonDisplay';
+    font-style: italic;
+    font-size: 4.5rem;
+    top: 2.25rem; }
 
 .table.table-bordered {
   border: 1px solid #889296; }

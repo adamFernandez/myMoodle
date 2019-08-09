@@ -48,14 +48,14 @@ h6, .h6 {
 p {
   font-size: 1rem;
   line-height: 1.5;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   margin-bottom: 1.5rem;
   color: #333; }
 
 .caption {
   font-size: 0.833rem;
   line-height: 1.5;
-  font-family: Open Sans; }
+  font-family: Open Sans, sans-serif; }
 
 .quote-body {
   font-size: 1.5rem;

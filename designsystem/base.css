@@ -96,6 +96,19 @@ p {
     top: 1.25rem;
     left: 1.5rem; }
 
+.modified {
+  display: none; }
+
+@media only screen and (min-width: 1440px) {
+  #page-header-nav, #page-content {
+    max-width: 1312px;
+    margin: 0 auto; }
+  #region-bs-main-and-pre {
+    max-width: 979px; }
+  #block-region-side-post {
+    max-width: 330px;
+    margin-left: 23px; } }
+
 .alert.alert-success, .alert.alert-feedback.correct-answer {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before, .alert.alert-feedback.correct-answer > :first-child::before {

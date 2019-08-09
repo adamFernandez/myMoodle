@@ -74,22 +74,46 @@ p {
   line-height: 1.25;
   font-family: KingsCaslonDisplay; }
 
-.ds-box, .alert, .quotation {
+@media only screen and (max-width: 767px) {
+  h1, .h1 {
+    font-size: 1.175rem;
+    line-height: 1.12; }
+  h2, .h2 {
+    font-size: 1.5rem;
+    line-height: 1.25; }
+  h3, .h3 {
+    font-size: 1.25rem;
+    line-height: 1.25; }
+  h4, .h4 {
+    font-size: 1.125rem;
+    line-height: 1.4; }
+  h5, .h5, h6, .h6 {
+    font-size: 1rem;
+    line-height: 1.4; }
+  .quote-body {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    font-family: KingsCaslonDisplay; }
+  .quote-attribution {
+    font-size: 1rem;
+    line-height: 1.25; } }
+
+.ds-box, .alert, .quote-box {
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .ds-box > :first-child, .alert > :first-child, .quotation > :first-child {
+  .ds-box > :first-child, .alert > :first-child, .quote-box > :first-child {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .ds-box h5, .alert h5, .quotation h5 {
+  .ds-box h5, .alert h5, .quote-box h5 {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #000 !important;
     margin-top: 0; }
-  .ds-box p, .alert p, .quotation p {
+  .ds-box p, .alert p, .quote-box p {
     color: #000 !important; }
-  .ds-box > :first-child::before, .alert > :first-child::before, .quotation > :first-child::before {
+  .ds-box > :first-child::before, .alert > :first-child::before, .quote-box > :first-child::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
@@ -249,9 +273,9 @@ p {
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
 
-.quotation {
+.quote-box {
   background-color: #edf1f2; }
-  .quotation > :first-child::before {
+  .quote-box > :first-child::before {
     content: '“';
     padding: 0;
     color: #ff5f05;

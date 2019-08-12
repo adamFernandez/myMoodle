@@ -136,7 +136,7 @@ p {
 .alert.alert-success, .alert.alert-feedback.correct-answer {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before, .alert.alert-feedback.correct-answer > :first-child::before {
-    color: #28c382;
+    color: #28C382;
     padding: 0 4px; }
 
 .alert.alert-success > :first-child::before {
@@ -278,27 +278,32 @@ p {
   .quote-box > :first-child::before {
     content: '“';
     padding: 0;
-    color: #ff5f05;
+    color: #FF5F05;
     font-family: 'KingsCaslonDisplay';
     font-style: italic;
     font-size: 4.5rem;
     top: 2.25rem; }
 
 .table.table-bordered {
-  border: 1px solid #889296; }
+  border: 1px solid #889296;
+  border-radius: unset; }
 
 .table.default-width {
   width: unset; }
 
 .table th, .table td {
-  padding: 0.75rem 1.25rem; }
+  padding: 0.75rem 1.25rem;
+  border-top: 1px solid #889296; }
+  .table th:not(:first-child), .table td:not(:first-child) {
+    border-left: 1px solid #889296; }
 
 .table th {
   background-color: edf1f2;
   font-family: 'KingsBureauGrot';
   font-size: 1.125rem;
   line-height: 1.4;
-  color: #171717; }
+  color: #171717;
+  border-radius: unset !important; }
 
 .table td {
   line-height: 1.375;
@@ -312,7 +317,8 @@ p {
     border: 8px solid #009ea0 !important;
     height: 1.5rem;
     width: 1.5rem;
-    padding: unset; }
+    padding: unset;
+    background-color: unset; }
     .timeline-container .timeline-badge-pill.fill {
       background-color: #009ea0; }
     .timeline-container .timeline-badge-pill::after {
@@ -328,6 +334,9 @@ p {
     border-right: 3px solid #8b9296 !important; }
   .timeline-container .timeline-row .border-left {
     border-left: 3px solid #8b9296 !important; }
+  .timeline-container .timeline-row .timeline-content {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
   .timeline-container .timeline-row .timeline-card {
     border: none;
     border-radius: 0 6px 6px 6px;
@@ -357,7 +366,8 @@ p {
       color: #171717; }
     .timeline-container .timeline-row .timeline-card .img-reference {
       font-size: 0.8125rem;
-      margin-top: 1.25rem; }
+      margin-top: 1.25rem;
+      margin-bottom: 0; }
   .timeline-container .timeline-row.highlighted .date-tab {
     background-color: ff5f05; }
   .timeline-container .timeline-row.highlighted .card-body {

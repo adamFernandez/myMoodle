@@ -98,22 +98,24 @@ p {
     font-size: 1rem;
     line-height: 1.25; } }
 
-.ds-box, .alert, .quote-box {
+.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box {
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .ds-box > :first-child, .alert > :first-child, .quote-box > :first-child {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .ds-box h5, .alert h5, .quote-box h5 {
+  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5 {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #000 !important;
     margin-top: 0; }
-  .ds-box p, .alert p, .quote-box p {
+  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p {
     color: #000 !important; }
-  .ds-box > :first-child::before, .alert > :first-child::before, .quote-box > :first-child::before {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child {
+      margin-bottom: 0; }
+  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
@@ -133,50 +135,60 @@ p {
     max-width: 330px;
     margin-left: 23px; } }
 
-.alert.alert-success, .alert.alert-feedback.correct-answer {
-  background-color: rgba(40, 195, 130, 0.2) !important; }
-  .alert.alert-success > :first-child::before, .alert.alert-feedback.correct-answer > :first-child::before {
-    color: #28C382;
-    padding: 0 4px; }
+/*
+.alert {
+  @extend .ds-box; 
+  &.alert-success, &.alert-feedback.correct-answer {
+    background-color: rgba(40,195,130,0.2) !important;
+    & > :first-child::before {
+      color: $pea-green;
+      padding: 0 4px;
+    }
+  }
+  &.alert-success > :first-child::before {
+    content: '\f164';
+  }
+  &.alert-feedback.correct-answer > :first-child::before {
+    content: '\f058';
+  }
+  &.alert-instructional, &.alert-feedback.model-answer {
+    background-color: rgba(245,185,15,0.2) !important;
+    & > :first-child::before {
+      content: '\f086';
+      color: #8262ae;
+      padding: 0 3px;
+    }
+  }
+  &.alert-feedback.model-answer > :first-child::before {
+    content: '\f27a';
+    color: #f5b90f;
+    padding: 0 4px;
+  }
+  &.alert-danger, &.alert-feedback.incorrect-answer {
+    background-color: rgba(226,35,26,0.2) !important;
+    & > :first-child::before {
+      color: #e2231a;
+    }
+  }
+  &.alert-danger > :first-child::before {
+    content: '\f071';
+    padding: 0 3px;
+  }
+  &.alert-feedback.incorrect-answer > :first-child::before {
+    content: '\f057';
+    padding: 0 4px;
+  }
+  &.alert-lo {
+    background-color: #edf1f2;
+    & > :first-child::before {
+      content: '\f091';
+      color: #009ea0;
+      padding: 0 4px;
+    }
+  }
+}
 
-.alert.alert-success > :first-child::before {
-  content: '\f164'; }
-
-.alert.alert-feedback.correct-answer > :first-child::before {
-  content: '\f058'; }
-
-.alert.alert-instructional, .alert.alert-feedback.model-answer {
-  background-color: rgba(245, 185, 15, 0.2) !important; }
-  .alert.alert-instructional > :first-child::before, .alert.alert-feedback.model-answer > :first-child::before {
-    content: '\f086';
-    color: #8262ae;
-    padding: 0 3px; }
-
-.alert.alert-feedback.model-answer > :first-child::before {
-  content: '\f27a';
-  color: #f5b90f;
-  padding: 0 4px; }
-
-.alert.alert-danger, .alert.alert-feedback.incorrect-answer {
-  background-color: rgba(226, 35, 26, 0.2) !important; }
-  .alert.alert-danger > :first-child::before, .alert.alert-feedback.incorrect-answer > :first-child::before {
-    color: #e2231a; }
-
-.alert.alert-danger > :first-child::before {
-  content: '\f071';
-  padding: 0 3px; }
-
-.alert.alert-feedback.incorrect-answer > :first-child::before {
-  content: '\f057';
-  padding: 0 4px; }
-
-.alert.alert-lo {
-  background-color: #edf1f2; }
-  .alert.alert-lo > :first-child::before {
-    content: '\f091';
-    color: #009ea0;
-    padding: 0 4px; }
-
+*/
 .carousel {
   margin-bottom: 4rem; }
   .carousel::before {
@@ -272,6 +284,79 @@ p {
 
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
+
+.alert.alert-success {
+  background-color: rgba(40, 195, 130, 0.2) !important; }
+  .alert.alert-success > :first-child::before {
+    content: '\f164';
+    color: #28C382;
+    padding: 0 4px; }
+
+.alert.alert-instructional {
+  background-color: rgba(245, 185, 15, 0.2) !important; }
+  .alert.alert-instructional > :first-child::before {
+    content: '\f086';
+    color: #8262ae;
+    padding: 0 3px; }
+
+.alert.alert-danger {
+  background-color: rgba(226, 35, 26, 0.2) !important; }
+  .alert.alert-danger > :first-child::before {
+    color: #e2231a;
+    content: '\f071';
+    padding: 0 3px; }
+
+.definition-box {
+  background-color: #edf1f2; }
+  .definition-box > :first-child::before {
+    content: '\f518';
+    padding: 0;
+    color: #8262ae; }
+
+.feedback-box.correct-answer {
+  background-color: rgba(40, 195, 130, 0.2) !important; }
+  .feedback-box.correct-answer > :first-child::before {
+    color: #28C382;
+    padding: 0 4px;
+    content: '\f058'; }
+
+.feedback-box.model-answer {
+  background-color: rgba(245, 185, 15, 0.2) !important; }
+  .feedback-box.model-answer > :first-child::before {
+    content: '\f27a';
+    color: #f5b90f;
+    padding: 0 4px; }
+
+.feedback-box.incorrect-answer {
+  background-color: rgba(226, 35, 26, 0.2) !important; }
+  .feedback-box.incorrect-answer > :first-child::before {
+    color: #e2231a;
+    content: '\f057';
+    padding: 0 4px; }
+
+.key-concept-box {
+  background-color: edf1f2;
+  padding: 1.5rem; }
+  .key-concept-box p:last-child {
+    margin-bottom: 0; }
+
+.learning-outcome-box {
+  background-color: #edf1f2; }
+  .learning-outcome-box > :first-child::before {
+    content: '\f091';
+    color: #009ea0;
+    padding: 0 4px; }
+
+.quote-box {
+  background-color: #edf1f2; }
+  .quote-box > :first-child::before {
+    content: '“';
+    padding: 0;
+    color: #FF5F05;
+    font-family: 'KingsCaslonDisplay';
+    font-style: italic;
+    font-size: 4.5rem;
+    top: 2.25rem; }
 
 .quote-box {
   background-color: #edf1f2; }

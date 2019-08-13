@@ -10,16 +10,17 @@
 
 @media (min-width: 576px) {
   .card-deck {
-  	flex-flow: row wrap;
-  	margin-left: -15px;
+    flex-flow: row wrap;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
   }
 }
 
 @media (min-width: 576px) {
   .card-deck .card {
     flex: 1 0 0%;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
   }
 }
 

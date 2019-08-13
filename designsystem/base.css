@@ -442,7 +442,6 @@ p {
   #gridiconcontainer .gridicon_link {
     position: relative; }
     #gridiconcontainer .gridicon_link .icon_content {
-      bottom: -310px;
       color: #FFFFFF;
       z-index: 50;
       padding: 1rem;

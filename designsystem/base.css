@@ -444,13 +444,14 @@ p {
     #gridiconcontainer .gridicon_link .icon_content {
       color: #FFFFFF;
       text-align: left;
-      z-index: 50;
+      z-index: 1;
       padding: 1rem;
       width: 309.5px;
-      height: 84px;
+      height: 100px;
       font-family: 'KingsBureauGrot';
       font-size: 1.25rem;
-      line-height: 1.4; }
+      line-height: 1.4;
+      white-space: unset; }
     #gridiconcontainer .gridicon_link .image_holder {
       border: none;
       width: 309.5px;

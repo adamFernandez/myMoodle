@@ -443,6 +443,7 @@ p {
     position: relative; }
     #gridiconcontainer .gridicon_link .icon_content {
       color: #FFFFFF;
+      text-align: left;
       z-index: 50;
       padding: 1rem;
       width: 309.5px;

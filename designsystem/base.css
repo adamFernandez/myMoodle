@@ -72,7 +72,7 @@ p {
 .stand-out {
   font-size: 1.125rem;
   line-height: 1.25;
-  font-family: KingsCaslonDisplay; }
+  font-family: Open Sans, sans-serif; }
 
 @media only screen and (max-width: 767px) {
   h1, .h1 {

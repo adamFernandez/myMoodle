@@ -217,14 +217,20 @@ p {
     .btn i:first-child {
       margin-right: 0.375rem; }
 
-.bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navbottom a.booknext:after {
+.bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
+  font-family: 'FontAwesome';
   font-size: 1.25rem;
+  color: #FFFFFF;
   border-radius: 0.25rem;
   position: absolute;
   top: 0;
   margin: 0;
   padding: 4px 12px;
+  background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
+  .bookbutton:hover, .navtext.navtop a.bookprev:hover:before, .navtext.navbottom a.bookprev:hover:before, .navtext.navtop a.booknext:hover:after, .navtext.navtop a.bookexit:hover:after, .navtext.navbottom a.booknext:hover:after, .navtext.navbottom a.bookexit:hover:after {
+    background-color: #526C84;
+    box-shadow: 0 2px 0 0 #43566B; }
 
 .navtext.navtop, .navtext.navbottom {
   position: relative;
@@ -243,10 +249,20 @@ p {
       left: 7.125rem; }
       .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before {
         left: -3.125rem; }
-    .navtext.navtop a.booknext, .navtext.navbottom a.booknext {
+    .navtext.navtop a.booknext, .navtext.navtop a.bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a.bookexit {
       right: 7.125rem; }
-      .navtext.navtop a.booknext:after, .navtext.navbottom a.booknext:after {
+      .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
         right: -3.125rem; }
+    .navtext.navtop a.bookexit .chaptername, .navtext.navbottom a.bookexit .chaptername {
+      display: none; }
+    .navtext.navtop a.bookexit:before, .navtext.navbottom a.bookexit:before {
+      font-family: 'KingsBureauGrotFiveOne';
+      content: 'Exit book'; }
+    .navtext.navtop a.bookexit:after, .navtext.navbottom a.bookexit:after {
+      font-family: 'Font Awesome 5 Pro';
+      content: '\f2f5';
+      font-weight: 900;
+      padding: 0.25rem 0.375rem; }
     .navtext.navtop a .chaptername, .navtext.navbottom a .chaptername {
       font-family: 'KingsBureauGrotFiveOne';
       font-size: 1.25rem;

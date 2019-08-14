@@ -99,6 +99,7 @@ p {
     line-height: 1.25; } }
 
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box {
+  margin-bottom: 1.5rem;
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
@@ -289,7 +290,7 @@ p {
   margin-bottom: 1.5rem; }
 
 .carousel {
-  margin-bottom: 4rem; }
+  margin-bottom: 3.5rem; }
   .carousel::before {
     content: "";
     position: absolute;
@@ -346,6 +347,7 @@ p {
     position: unset; } }
 
 .embed-responsive {
+  margin-bottom: 1.5rem;
   position: relative;
   display: block;
   width: 100%;
@@ -374,9 +376,11 @@ p {
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
 
-.hero .hero-caption h2 {
-  color: #FFFFFF;
-  margin: unset; }
+.hero {
+  margin-bottom: 1.5rem; }
+  .hero .hero-caption h2 {
+    color: #FFFFFF;
+    margin: unset; }
 
 .definition-box {
   background-color: #EDF1F2; }
@@ -432,30 +436,28 @@ p {
     font-size: 4.5rem;
     top: 2.25rem; }
 
-.table.table-bordered {
-  border: 1px solid #889296;
-  border-radius: unset; }
-
-.table.default-width {
-  width: unset; }
-
-.table th, .table td {
-  padding: 0.75rem 1.25rem;
-  border-top: 1px solid #889296; }
-  .table th:not(:first-child), .table td:not(:first-child) {
-    border-left: 1px solid #889296; }
-
-.table th {
-  background-color: edf1f2;
-  font-family: 'KingsBureauGrot';
-  font-size: 1.125rem;
-  line-height: 1.4;
-  color: #171717;
-  border-radius: unset !important; }
-
-.table td {
-  line-height: 1.375;
-  color: #333333; }
+.table {
+  margin-bottom: 1.5rem; }
+  .table.table-bordered {
+    border: 1px solid #889296;
+    border-radius: unset; }
+  .table.default-width {
+    width: unset; }
+  .table th, .table td {
+    padding: 0.75rem 1.25rem;
+    border-top: 1px solid #889296; }
+    .table th:not(:first-child), .table td:not(:first-child) {
+      border-left: 1px solid #889296; }
+  .table th {
+    background-color: edf1f2;
+    font-family: 'KingsBureauGrot';
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: #171717;
+    border-radius: unset !important; }
+  .table td {
+    line-height: 1.375;
+    color: #333333; }
 
 .timeline-container {
   margin-left: 64px;

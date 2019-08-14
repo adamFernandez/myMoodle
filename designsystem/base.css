@@ -217,6 +217,15 @@ p {
     .btn i:first-child {
       margin-right: 0.375rem; }
 
+.bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navbottom a.booknext:after {
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 4px 12px;
+  box-shadow: 0 2px 0 0 #05192e; }
+
 .navtext.navtop, .navtext.navbottom {
   position: relative;
   margin-top: 0.825rem;
@@ -242,25 +251,10 @@ p {
       font-family: 'KingsBureauGrotFiveOne';
       font-size: 1.25rem;
       font-weight: normal; }
+    .navtext.navtop a:hover, .navtext.navbottom a:hover {
+      color: #526C84;
+      text-decoration: underline; }
 
-.bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navbottom a.booknext:after {
-  font-size: 1.25rem;
-  border-radius: 0.25rem;
-  position: absolute;
-  top: 0;
-  margin: 0;
-  padding: 4px 12px; }
-
-/*
-.navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before {
-  @extend .bookbutton;
-  left: -3.125rem;
-}
-.navtext.navtop a.booknext:after, .navtext.navbottom a.booknext:after {
-  @extend .bookbutton;
-  right: -3.125rem;
-}
-*/
 .card {
   display: flex;
   flex-direction: unset;

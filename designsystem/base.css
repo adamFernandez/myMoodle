@@ -256,7 +256,7 @@ p {
     .navtext.navtop a.bookexit .chaptername, .navtext.navbottom a.bookexit .chaptername {
       display: none; }
     .navtext.navtop a.bookexit:before, .navtext.navbottom a.bookexit:before {
-      font-family: 'KingsBureauGrotFiveOne';
+      font-family: 'KingsBureauGrot';
       content: 'Exit book'; }
     .navtext.navtop a.bookexit:after, .navtext.navbottom a.bookexit:after {
       font-family: 'Font Awesome 5 Pro';

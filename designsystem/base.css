@@ -258,7 +258,7 @@ p {
       display: none; }
     .navtext.navtop a.bookexit:before, .navtext.navbottom a.bookexit:before {
       font-family: 'KingsBureauGrot';
-      content: 'Exit book'; }
+      content: 'Exit lesson'; }
     .navtext.navtop a.bookexit:after, .navtext.navbottom a.bookexit:after {
       font-family: 'Font Awesome 5 Pro';
       content: '\f2f5';

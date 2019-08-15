@@ -344,6 +344,40 @@ p {
   .carousel-caption {
     position: unset; } }
 
+.collapse-card {
+  border-bottom: 2px solid #CDD7DC; }
+  .collapse-card:first-child {
+    border-top: 2px solid #CDD7DC; }
+  .collapse-card .collapse-header {
+    padding: 1rem 1rem 1rem 0; }
+    .collapse-card .collapse-header button {
+      margin: unset;
+      padding: unset;
+      width: 100%;
+      text-align: left; }
+      .collapse-card .collapse-header button .h4 {
+        position: relative;
+        margin: unset;
+        color: #0A2D50; }
+      .collapse-card .collapse-header button .h4::after {
+        content: '\f106';
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 900;
+        position: absolute;
+        right: 0; }
+    .collapse-card .collapse-header button.collapsed h5::after {
+      content: '\f107'; }
+  .collapse-card .collapse-body {
+    padding-right: 5rem;
+    margin-bottom: 1rem; }
+    .collapse-card .collapse-body.highlighted {
+      padding: 1rem;
+      background-color: #EDF1F2; }
+    .collapse-card .collapse-body p {
+      margin-bottom: 1rem; }
+      .collapse-card .collapse-body p:last-child {
+        margin-bottom: unset; }
+
 .embed-responsive {
   margin-bottom: 1.5rem;
   position: relative;

@@ -376,6 +376,8 @@ p {
   .hero .hero-caption h2 {
     color: #FFFFFF;
     margin: unset; }
+  .hero .hero-caption img {
+    width: 100%; }
 
 .definition-box {
   background-color: #EDF1F2; }
@@ -560,3 +562,6 @@ p {
       #gridiconcontainer .gridicon_link .image_holder img {
         width: 100%;
         height: 100%; }
+
+.course-content .single-section .section-navigation {
+  display: none; }

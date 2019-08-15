@@ -267,6 +267,9 @@ p {
       color: #526C84;
       text-decoration: underline; }
 
+#next-activity-link:visited, #prev-activity-link:visited {
+  color: #555; }
+
 .card {
   display: flex;
   flex-direction: unset;

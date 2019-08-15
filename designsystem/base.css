@@ -422,6 +422,8 @@ p {
     content: '\f091';
     color: #009EA0;
     padding: 0 4px; }
+  .learning-outcome-box ol, .learning-outcome-box ul {
+    margin: 0 0 0 1.25rem; }
 
 .quote-box {
   background-color: #EDF1F2; }

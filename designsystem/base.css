@@ -371,6 +371,23 @@ p {
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
 
+.transcript-container {
+  margin-bottom: 1.5rem; }
+  .transcript-container .transcript-button-group a::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-right: 0.375rem; }
+  .transcript-container .transcript-button-group a.view-close-transcript.collapsed::before {
+    content: '\f06e'; }
+  .transcript-container .transcript-button-group a.view-close-transcript:not(.oollapsed)::before {
+    content: '\f070'; }
+  .transcript-container .transcript-button-group a.download-transcript::before {
+    content: '\f019'; }
+  .transcript-container .transcript-card .card-body {
+    border-left: 4px solid #CDD7DC;
+    padding: 0 0 0 1.5rem;
+    margin-top: 1.5rem; }
+
 .hero {
   margin-bottom: 1.5rem; }
   .hero .hero-caption h2 {

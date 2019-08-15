@@ -375,6 +375,8 @@ p {
       .collapse-container .collapse-card .collapse-body.highlighted {
         padding: 1rem;
         background-color: #EDF1F2; }
+      .collapse-container .collapse-card .collapse-body .collapse-subheading {
+        margin-bottom: 1rem; }
       .collapse-container .collapse-card .collapse-body p {
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {

@@ -379,7 +379,7 @@ p {
     margin-right: 0.375rem; }
   .transcript-container .transcript-button-group a.view-close-transcript.collapsed::before {
     content: '\f06e'; }
-  .transcript-container .transcript-button-group a.view-close-transcript:not(.oollapsed)::before {
+  .transcript-container .transcript-button-group a.view-close-transcript::before {
     content: '\f070'; }
   .transcript-container .transcript-button-group a.download-transcript::before {
     content: '\f019'; }

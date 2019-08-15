@@ -69,11 +69,6 @@ p {
   line-height: 1.25;
   margin-bottom: 0; }
 
-.stand-out {
-  font-size: 1.125rem;
-  line-height: 1.25;
-  font-family: Open Sans, sans-serif; }
-
 @media only screen and (max-width: 767px) {
   h1, .h1 {
     font-size: 1.175rem;
@@ -414,7 +409,10 @@ p {
   background-color: #EDF1F2;
   padding: 1.5rem; }
   .key-concept-box p {
-    font-family: 'KingsBureauGrot'; }
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold; }
   .key-concept-box p:last-child {
     margin-bottom: 0; }
 

@@ -162,14 +162,14 @@ p {
   display: none; }
 
 #block-region-side-post .block:not(.block_fake) .title h2::after {
-  content: '\f067';
+  content: '\f068';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   position: absolute;
   right: 0; }
 
 #block-region-side-post .block.hidden:not(.block_fake) .title h2::after {
-  content: '\f068'; }
+  content: '\f067'; }
 
 #block-region-side-post .block .header {
   background-color: #DCE3E6;

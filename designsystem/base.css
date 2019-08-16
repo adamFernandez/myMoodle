@@ -152,6 +152,12 @@ p {
     max-width: 330px;
     margin-left: 23px; } }
 
+.course-content ul.gtopics li.section .content {
+  margin: unset; }
+
+.course-content ul.gtopics li.section .right {
+  display: none; }
+
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before {

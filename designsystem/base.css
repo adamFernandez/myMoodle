@@ -161,6 +161,16 @@ p {
 .course-content ul.gtopics li.section .right {
   display: none; }
 
+#block-region-side-post .block:not(.block_fake) .title h2::after {
+  content: '\f067';
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  position: absolute;
+  right: 0; }
+
+#block-region-side-post .block.hidden:not(.block_fake) .title h2::after {
+  content: '\f068'; }
+
 #block-region-side-post .block .header {
   background-color: #DCE3E6;
   padding: 0.5rem 0.75rem;
@@ -174,7 +184,7 @@ p {
       padding: unset;
       font-size: 1.125rem;
       line-height: 1.4; }
-    #block-region-side-post .block .header .title input.moveto.customcommand.requiresjs {
+    #block-region-side-post .block .header .title .block_action {
       display: none; }
 
 #block-region-side-post .block .content {

@@ -158,6 +158,30 @@ p {
 .course-content ul.gtopics li.section .right {
   display: none; }
 
+#block-region-side-post .block .header {
+  background-color: #DCE3E6;
+  padding: 0.5rem 0.75rem;
+  height: auto;
+  margin: unset;
+  box-shadow: unset; }
+  #block-region-side-post .block .header .title {
+    padding: unset; }
+    #block-region-side-post .block .header .title h2 {
+      color: #0A2D50;
+      padding: unset;
+      font-size: 1.125rem;
+      line-height: 1.4; }
+
+#block-region-side-post .block .content {
+  background-color: #EDF1F2;
+  padding: 1.125rem; }
+  #block-region-side-post .block .content li a, #block-region-side-post .block .content li p {
+    color: #0A2D50;
+    font-size: 1rem;
+    line-height: 1.5; }
+  #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
+    color: #536C84; }
+
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before {

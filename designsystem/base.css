@@ -178,6 +178,7 @@ p {
   margin: unset;
   box-shadow: unset; }
   #block-region-side-post .block .header .title {
+    position: relative;
     padding: unset; }
     #block-region-side-post .block .header .title h2 {
       color: #0A2D50;

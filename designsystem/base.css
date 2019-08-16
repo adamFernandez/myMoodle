@@ -175,12 +175,17 @@ p {
 #block-region-side-post .block .content {
   background-color: #EDF1F2;
   padding: 1.125rem; }
-  #block-region-side-post .block .content li a, #block-region-side-post .block .content li p {
-    color: #0A2D50;
-    font-size: 1rem;
-    line-height: 1.5; }
-  #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
-    color: #536C84; }
+  #block-region-side-post .block .content li {
+    font-family: 'KingsBureauGrotFiveOne';
+    margin: unset; }
+    #block-region-side-post .block .content li a, #block-region-side-post .block .content li p, #block-region-side-post .block .content li span {
+      font-family: 'KingsBureauGrotFiveOne';
+      color: #0A2D50;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: unset; }
+    #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
+      color: #536C84; }
 
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }

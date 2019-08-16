@@ -166,7 +166,9 @@ p {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   position: absolute;
-  right: 0; }
+  right: 0;
+  cursor: pointer;
+  pointer-events: all; }
 
 #block-region-side-post .block.hidden:not(.block_fake) .title h2::after {
   content: '\f067'; }
@@ -184,7 +186,8 @@ p {
       color: #0A2D50;
       padding: unset;
       font-size: 1.125rem;
-      line-height: 1.4; }
+      line-height: 1.4;
+      pointer-events: none; }
     #block-region-side-post .block .header .title .block_action {
       display: none; }
 

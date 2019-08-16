@@ -142,6 +142,9 @@ p {
 .modified {
   display: none; }
 
+#jump-to-activity {
+  display: none; }
+
 @media only screen and (min-width: 1440px) {
   #page-header-nav, #page-content {
     max-width: 1312px;

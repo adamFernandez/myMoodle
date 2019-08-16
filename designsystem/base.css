@@ -171,6 +171,8 @@ p {
       padding: unset;
       font-size: 1.125rem;
       line-height: 1.4; }
+    #block-region-side-post .block .header .title input.moveto.customcommand.requiresjs {
+      display: none; }
 
 #block-region-side-post .block .content {
   background-color: #EDF1F2;

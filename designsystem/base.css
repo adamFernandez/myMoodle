@@ -69,6 +69,14 @@ p {
   line-height: 1.25;
   margin-bottom: 0; }
 
+.sidebar-header, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
+  padding: unset;
+  margin: unset;
+  color: #0A2D50;
+  font-family: 'KingsBureauGrot' !important;
+  font-size: 1.125rem;
+  line-height: 1.4; }
+
 @media only screen and (max-width: 767px) {
   h1, .h1 {
     font-size: 1.175rem;
@@ -175,18 +183,17 @@ p {
 
 #block-region-side-post .block .header {
   background-color: #DCE3E6;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0.75rem !important;
   height: auto;
   margin: unset;
   box-shadow: unset; }
+  #block-region-side-post .block .header.block_course_discuss_header_section {
+    border: 1px solid #8B9296;
+    border-bottom: unset; }
   #block-region-side-post .block .header .title {
     position: relative;
     padding: unset; }
     #block-region-side-post .block .header .title h2 {
-      color: #0A2D50;
-      padding: unset;
-      font-size: 1.125rem;
-      line-height: 1.4;
       pointer-events: none; }
     #block-region-side-post .block .header .title .block_action {
       display: none; }
@@ -205,6 +212,28 @@ p {
       margin: unset; }
     #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
       color: #536C84; }
+
+#block_course_discuss_posts_container {
+  padding: 0.75rem; }
+  #block_course_discuss_posts_container #block_course_discuss_reply_container {
+    margin-top: unset;
+    padding-top: unset; }
+    #block_course_discuss_posts_container #block_course_discuss_reply_container #block_course_discuss_form_message {
+      border: 1px solid #8B9296;
+      border-top: unset;
+      padding: 0.75rem;
+      font-family: 'KingsBureauGrotFiveOne';
+      font-size: 1rem;
+      margin-bottom: unset; }
+    #block_course_discuss_posts_container #block_course_discuss_reply_container #block_course_discuss_form_message_feedback {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      font-family: 'KingsBureauGrotFiveOne';
+      font-size: 0.833rem;
+      line-height: 1.5;
+      color: #333333; }
+    #block_course_discuss_posts_container #block_course_discuss_reply_container .btn.course-discuss-reply-button {
+      margin-left: unset; }
 
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
@@ -234,17 +263,17 @@ p {
   padding: 0.625rem 0.75rem;
   margin-right: 0.75rem;
   border-radius: 4px; }
-  .btn.btn-primary {
+  .btn.btn-primary, .btn.course-discuss-reply-button {
     background-color: #0A2D50 !important;
     color: #FFFFFF; }
-    .btn.btn-primary:hover {
+    .btn.btn-primary:hover, .btn.course-discuss-reply-button:hover {
       background-color: #536c84 !important; }
-  .btn.btn-secondary {
+  .btn.btn-secondary, .btn#id_cancel {
     background-color: #FFFFFF !important;
     color: #0A2D50;
     padding: 0.5rem 0.625rem;
     border: 2px solid #0A2D50; }
-    .btn.btn-secondary:hover {
+    .btn.btn-secondary:hover, .btn#id_cancel:hover {
       border-color: #536c84;
       background-color: #536c84 !important;
       color: white; }
@@ -559,15 +588,15 @@ p {
 .table {
   margin-bottom: 1.5rem; }
   .table.table-bordered {
-    border: 1px solid #889296;
+    border: 1px solid #8B9296;
     border-radius: unset; }
   .table.default-width {
     width: unset; }
   .table th, .table td {
     padding: 0.75rem 1.25rem;
-    border-top: 1px solid #889296; }
+    border-top: 1px solid #8B9296; }
     .table th:not(:first-child), .table td:not(:first-child) {
-      border-left: 1px solid #889296; }
+      border-left: 1px solid #8B9296; }
   .table th {
     background-color: edf1f2;
     font-family: 'KingsBureauGrot';

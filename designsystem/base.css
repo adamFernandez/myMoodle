@@ -101,25 +101,25 @@ p {
     font-size: 1rem;
     line-height: 1.25; } }
 
-.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .deferredfeedback .outcome, .manualgraded .outcome, .deferredfeedback.correct .outcome, .manualgraded.correct .outcome, .deferredfeedback.incorrect .outcome, .manualgraded.incorrect .outcome {
+.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .deferredfeedback .content .outcome, .manualgraded .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child, .deferredfeedback .outcome > :first-child, .manualgraded .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .deferredfeedback .outcome .info-box-inner, .manualgraded .outcome .info-box-inner, .info-box .deferredfeedback .content .feedback, .deferredfeedback .content .info-box .feedback, .alert .deferredfeedback .content .feedback, .deferredfeedback .content .alert .feedback, .definition-box .deferredfeedback .content .feedback, .deferredfeedback .content .definition-box .feedback, .feedback-box .deferredfeedback .content .feedback, .deferredfeedback .content .feedback-box .feedback, .learning-outcome-box .deferredfeedback .content .feedback, .deferredfeedback .content .learning-outcome-box .feedback, .quote-box .deferredfeedback .content .feedback, .deferredfeedback .content .quote-box .feedback, .deferredfeedback .outcome .content .feedback, .deferredfeedback .content .outcome .feedback, .info-box .manualgraded .content .feedback, .manualgraded .content .info-box .feedback, .alert .manualgraded .content .feedback, .manualgraded .content .alert .feedback, .definition-box .manualgraded .content .feedback, .manualgraded .content .definition-box .feedback, .feedback-box .manualgraded .content .feedback, .manualgraded .content .feedback-box .feedback, .learning-outcome-box .manualgraded .content .feedback, .manualgraded .content .learning-outcome-box .feedback, .quote-box .manualgraded .content .feedback, .manualgraded .content .quote-box .feedback, .manualgraded .outcome .content .feedback, .manualgraded .content .outcome .feedback {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child, .deferredfeedback .content .outcome > :first-child, .manualgraded .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .deferredfeedback .content .outcome .info-box-inner, .manualgraded .content .outcome .info-box-inner, .deferredfeedback .content .outcome .feedback, .manualgraded .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5, .deferredfeedback .outcome h5, .manualgraded .outcome h5, .deferredfeedback.correct .outcome h5, .manualgraded.correct .outcome h5, .deferredfeedback.incorrect .outcome h5, .manualgraded.incorrect .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, .learning-outcome-box .info-box-title, .quote-box .info-box-title, .deferredfeedback .outcome .info-box-title, .manualgraded .outcome .info-box-title, .info-box .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .info-box .specificfeedback, .alert .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .alert .specificfeedback, .definition-box .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .definition-box .specificfeedback, .feedback-box .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .feedback-box .specificfeedback, .learning-outcome-box .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .learning-outcome-box .specificfeedback, .quote-box .deferredfeedback .content .feedback .specificfeedback, .deferredfeedback .content .feedback .quote-box .specificfeedback, .deferredfeedback .outcome .content .feedback .specificfeedback, .deferredfeedback .content .feedback .outcome .specificfeedback, .info-box .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .info-box .specificfeedback, .alert .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .alert .specificfeedback, .definition-box .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .definition-box .specificfeedback, .feedback-box .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .feedback-box .specificfeedback, .learning-outcome-box .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .learning-outcome-box .specificfeedback, .quote-box .manualgraded .content .feedback .specificfeedback, .manualgraded .content .feedback .quote-box .specificfeedback, .manualgraded .outcome .content .feedback .specificfeedback, .manualgraded .content .feedback .outcome .specificfeedback {
+  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5, .deferredfeedback .content .outcome h5, .manualgraded .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, .learning-outcome-box .info-box-title, .quote-box .info-box-title, .deferredfeedback .content .outcome .info-box-title, .manualgraded .content .outcome .info-box-title, .deferredfeedback .content .outcome .feedback .specificfeedback, .deferredfeedback .content .outcome .feedback .specificfeedback p, .manualgraded .content .outcome .feedback .specificfeedback, .manualgraded .content .outcome .feedback .specificfeedback p {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #000 !important;
     margin-top: 0; }
-  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .deferredfeedback .outcome p, .manualgraded .outcome p, .deferredfeedback.correct .outcome p, .manualgraded.correct .outcome p, .deferredfeedback.incorrect .outcome p, .manualgraded.incorrect .outcome p {
+  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .deferredfeedback .content .outcome p, .manualgraded .content .outcome p {
     color: #000 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .deferredfeedback .outcome p:last-child, .manualgraded .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .deferredfeedback .content .outcome p:last-child, .manualgraded .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .deferredfeedback .outcome > :first-child::before, .manualgraded .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .deferredfeedback .outcome .info-box-inner::before, .manualgraded .outcome .info-box-inner::before, .info-box .deferredfeedback .content .feedback::before, .deferredfeedback .content .info-box .feedback::before, .alert .deferredfeedback .content .feedback::before, .deferredfeedback .content .alert .feedback::before, .definition-box .deferredfeedback .content .feedback::before, .deferredfeedback .content .definition-box .feedback::before, .feedback-box .deferredfeedback .content .feedback::before, .deferredfeedback .content .feedback-box .feedback::before, .learning-outcome-box .deferredfeedback .content .feedback::before, .deferredfeedback .content .learning-outcome-box .feedback::before, .quote-box .deferredfeedback .content .feedback::before, .deferredfeedback .content .quote-box .feedback::before, .deferredfeedback .outcome .content .feedback::before, .deferredfeedback .content .outcome .feedback::before, .info-box .manualgraded .content .feedback::before, .manualgraded .content .info-box .feedback::before, .alert .manualgraded .content .feedback::before, .manualgraded .content .alert .feedback::before, .definition-box .manualgraded .content .feedback::before, .manualgraded .content .definition-box .feedback::before, .feedback-box .manualgraded .content .feedback::before, .manualgraded .content .feedback-box .feedback::before, .learning-outcome-box .manualgraded .content .feedback::before, .manualgraded .content .learning-outcome-box .feedback::before, .quote-box .manualgraded .content .feedback::before, .manualgraded .content .quote-box .feedback::before, .manualgraded .outcome .content .feedback::before, .manualgraded .content .outcome .feedback::before {
+  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .deferredfeedback .content .outcome > :first-child::before, .manualgraded .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .deferredfeedback .content .outcome .info-box-inner::before, .manualgraded .content .outcome .info-box-inner::before, .deferredfeedback .content .outcome .feedback::before, .manualgraded .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
@@ -726,23 +726,29 @@ p {
     font-family: 'KingsBureauGrotFiveOne'; }
   .deferredfeedback .content .formulation .ablock .answer, .manualgraded .content .formulation .ablock .answer {
     font-family: 'KingsBureauGrot'; }
+    .deferredfeedback .content .formulation .ablock .answer .r0, .deferredfeedback .content .formulation .ablock .answer .r1, .manualgraded .content .formulation .ablock .answer .r0, .manualgraded .content .formulation .ablock .answer .r1 {
+      margin-bottom: 0.625rem; }
+      .deferredfeedback .content .formulation .ablock .answer .r0 label, .deferredfeedback .content .formulation .ablock .answer .r1 label, .manualgraded .content .formulation .ablock .answer .r0 label, .manualgraded .content .formulation .ablock .answer .r1 label {
+        font-size: 1rem; }
+      .deferredfeedback .content .formulation .ablock .answer .r0 img, .deferredfeedback .content .formulation .ablock .answer .r1 img, .manualgraded .content .formulation .ablock .answer .r0 img, .manualgraded .content .formulation .ablock .answer .r1 img {
+        display: none; }
+    .deferredfeedback .content .formulation .ablock .answer .correct, .manualgraded .content .formulation .ablock .answer .correct {
+      background-color: rgba(40, 195, 130, 0.2) !important; }
+    .deferredfeedback .content .formulation .ablock .answer .incorrect, .manualgraded .content .formulation .ablock .answer .incorrect {
+      background-color: rgba(226, 35, 26, 0.2) !important; }
 
-.deferredfeedback .content .feedback, .manualgraded .content .feedback {
-  margin-bottom: unset; }
-  .deferredfeedback .content .feedback .specificfeedback, .manualgraded .content .feedback .specificfeedback {
-    margin-bottom: 1rem; }
-  .deferredfeedback .content .feedback .rightanswer, .manualgraded .content .feedback .rightanswer {
-    margin-bottom: unset; }
-
-.deferredfeedback .outcome, .manualgraded .outcome {
+.deferredfeedback .content .outcome, .manualgraded .content .outcome {
   background-color: rgba(245, 185, 15, 0.2) !important; }
-  .deferredfeedback .outcome > .feedback::before, .manualgraded .outcome > .feedback::before {
+  .deferredfeedback .content .outcome > .feedback::before, .manualgraded .content .outcome > .feedback::before {
     content: '\f27a';
     color: #F5B90F;
     padding: 0 4px; }
-
-.deferredfeedback.correct .formulation .correct, .manualgraded.correct .formulation .correct {
-  background-color: rgba(40, 195, 130, 0.2) !important; }
+  .deferredfeedback .content .outcome .feedback, .manualgraded .content .outcome .feedback {
+    margin-bottom: unset; }
+    .deferredfeedback .content .outcome .feedback .specificfeedback, .deferredfeedback .content .outcome .feedback .specificfeedback p, .manualgraded .content .outcome .feedback .specificfeedback, .manualgraded .content .outcome .feedback .specificfeedback p {
+      margin-bottom: 1rem; }
+    .deferredfeedback .content .outcome .feedback .rightanswer, .manualgraded .content .outcome .feedback .rightanswer {
+      margin-bottom: unset; }
 
 .deferredfeedback.correct .outcome, .manualgraded.correct .outcome {
   background-color: rgba(40, 195, 130, 0.2) !important; }
@@ -750,9 +756,6 @@ p {
     color: #28C382;
     padding: 0 4px;
     content: '\f058'; }
-
-.deferredfeedback.incorrect .formulation .incorrect, .manualgraded.incorrect .formulation .incorrect {
-  background-color: rgba(226, 35, 26, 0.2) !important; }
 
 .deferredfeedback.incorrect .outcome, .manualgraded.incorrect .outcome {
   background-color: rgba(226, 35, 26, 0.2) !important; }

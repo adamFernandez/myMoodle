@@ -2,12 +2,16 @@
 	p, #page-mod-book-print, li {font-family: "Open Sans" !important;}
 
 	img {
-		max-width:50%;
+		max-width:50% !important;
 	}
 
 	.carousel-item {
 		display: block;
 		margin-bottom: 20px;
+	}
+
+	.carousel-item img {
+		width:15% !important;
 	}
 
 	.carousel-control-prev, .carousel-control-next {
@@ -48,11 +52,23 @@
 		float:right;
 	}
 
-	.card-img-* {
+	.card-deck .card-body {
+		width:100%;
+	}
+
+	.card-img-left, .card-img-top {
 		width: 15% !important;
 	}
 
 	.collapse {
 		height:auto !important;
+	}
+
+	.transcript-button-group {
+		display: none;
+	}
+
+	.transcript-card .card-body {
+		width:100%;
 	}
 }

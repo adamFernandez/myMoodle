@@ -1,4 +1,4 @@
-@media print {
+@media print, #page-mod-book-print {
 	p, #page-mod-book-print, li {font-family: "Open Sans" !important;}
 
 	img {
@@ -48,8 +48,6 @@
 
 	.card-body {
 		border:0px;
-		width:80%;
-		float:right;
 	}
 
 	.card-deck .card-body {

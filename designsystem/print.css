@@ -1,4 +1,4 @@
-@media print, #page-mod-book-print {
+@media print {
 	p, #page-mod-book-print, li {font-family: "Open Sans" !important;}
 
 	img {

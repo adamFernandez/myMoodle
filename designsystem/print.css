@@ -1,5 +1,5 @@
 @media print {
-	p {font-family: "Open Sans" !important;}
+	p, #page-mod-book-print, li {font-family: "Open Sans" !important;}
 
 	img {
 		max-width:50%;
@@ -15,8 +15,6 @@
 	}
 
 	.carousel-caption {
-		width: 50%;
-		left: 50%;
 		padding: 0px;
 		position: relative;
 	}
@@ -40,12 +38,17 @@
 		display: none;
 	}
 
+	.card {
+		border: 0px !important;
+	}
+
 	.card-body {
 		border:0px;
 		width:80%;
+		float:right;
 	}
 
-	.card-image {
+	.card-img-* {
 		width: 15% !important;
 	}
 

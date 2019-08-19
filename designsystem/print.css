@@ -1,5 +1,11 @@
 @media print {
-	p, #page-mod-book-print, li {font-family: "Open Sans" !important;}
+	p, #page-mod-book-print, li {
+		font-family: "Open Sans" !important;
+	}
+
+	#block-region-side-post, #block-region-side-pre, #page-header, .navbar, .back-to-top, #page-footer {
+		display: none;
+	}
 
 	img {
 		max-width:50% !important;

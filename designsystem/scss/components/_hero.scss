@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// hero banner
+// -----------------------------------------------------------------------------
+
+.hero {
+  @extend .top-bar;
+  margin-bottom: $component-margin-bottom;
+  .hero-caption {
+    @extend .caption-overlay;
+    h2 {
+      color: $white;
+      margin: unset;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+.info-box {
+  margin-bottom: $component-margin-bottom;
+  border-radius: unset;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  color: #000 !important;
+  & > :first-child {
+    padding: 0.5rem 0.25rem 0.5rem 3.125rem;
+  }
+  h5 {
+    font-family: 'KingsBureauGrot' !important;
+    font-size: 1.2rem;
+    color: #000 !important;
+    margin-top: 0;
+  }
+  p {
+    color: #000 !important;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  & > :first-child::before {
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.5rem;
+  }
+}
+
+.top-bar {
+  position: relative;
+   &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
+}
+
+.caption-overlay {
+  position: absolute;
+  background-color: rgba(10, 45, 80, 0.85);
+  bottom: 0;
+  left: unset;
+  right: unset;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+}

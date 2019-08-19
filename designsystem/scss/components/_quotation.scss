@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// quotation box
+// -----------------------------------------------------------------------------
+
+.quote-box {
+  @extend .info-box;
+  background-color: $block-background;
+  & > :first-child::before {
+    content: '“';
+    padding: 0;
+    color: $orange;     
+    font-family: 'KingsCaslonDisplay'; 
+    font-style: italic;
+    font-size: 4.5rem;
+    top: 2.25rem;
+  }
+}

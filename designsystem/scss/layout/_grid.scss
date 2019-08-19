@@ -1,0 +1,24 @@
+// max-width for extra large screens
+@media only screen and (min-width: 1440px) {
+  #page-header-nav, #page-content {
+    max-width: 1312px;
+    margin: 0 auto;
+  }
+  #region-bs-main-and-pre {
+    max-width: 979px;
+  }
+  #block-region-side-post {
+    max-width: 330px;
+    margin-left: 23px;
+  }
+}
+
+// override theme margins
+.course-content ul.gtopics li.section {
+  .content {
+    margin: unset;
+  }
+  .right {
+    display: none;
+  }
+}

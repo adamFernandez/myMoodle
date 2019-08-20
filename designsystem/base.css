@@ -732,12 +732,17 @@ p {
 .course-content .single-section .section-navigation {
   display: none; }
 
-#mod_quiz_navblock a.qnbutton {
-  height: 1.75rem;
-  width: 1.75rem;
-  font-size: 1.25rem;
-  padding: 0.25rem; }
-  #mod_quiz_navblock a.qnbutton span.trafficlight {
+#mod_quiz_navblock .content a.qnbutton {
+  height: 1.25rem;
+  width: 1.25rem;
+  font-size: 1rem;
+  padding: unset;
+  margin: 0 0.625rem 0.625rem 0;
+  background-color: #CDD7DC;
+  color: #000000; }
+  #mod_quiz_navblock .content a.qnbutton span.thispageholder {
+    border: unset; }
+  #mod_quiz_navblock .content a.qnbutton span.trafficlight {
     display: none; }
 
 .deferredfeedback .content .formulation, .manualgraded .content .formulation {

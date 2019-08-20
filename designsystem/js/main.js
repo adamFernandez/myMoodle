@@ -11,7 +11,9 @@ $(document).on("click", blockHide, function(event) {
 
 // collapse override
 $(document).on("click", ".collapse-header button", function(event) {
+  event.preventDefault();
   event.stopPropagation();
+  return false;
   alert("foo");
   console.log("bar");
 });

@@ -159,15 +159,30 @@ p {
     margin: 0 auto; }
   #region-bs-main-and-pre {
     max-width: 979px; }
+    #region-bs-main-and-pre .single-section {
+      margin-top: unset; }
   #block-region-side-post {
     max-width: 330px;
-    margin-left: 23px; } }
+    margin-left: 23px;
+    padding-top: 4.125rem; } }
 
 .course-content ul.gtopics li.section .content {
   margin: unset; }
 
 .course-content ul.gtopics li.section .right {
   display: none; }
+
+.course-content ul li.section.main {
+  margin-bottom: 0 !important; }
+
+#section-0 .content > h3.sectionname {
+  font-size: 2.375rem;
+  line-height: 1.1;
+  background: unset;
+  margin-bottom: 1.5rem;
+  padding-bottom: unset; }
+  #section-0 .content > h3.sectionname:after {
+    display: none; }
 
 #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';

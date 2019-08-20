@@ -485,8 +485,10 @@ p {
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: unset; }
-  .collapse-container.collapsed button .h4::after {
+  .collapse-container.collapsed .collapse-header button .h4::after {
     content: '\f107'; }
+  .collapse-container.collapsed .collapse-body {
+    display: none; }
 
 .embed-responsive {
   margin-bottom: 1.5rem;

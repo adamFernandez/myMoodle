@@ -8,4 +8,9 @@ const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-p
 $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
-  
+
+// collapse override
+$(document).on("click", ".collapse-header button", function(event) {
+  event.preventDefault();
+});
+      

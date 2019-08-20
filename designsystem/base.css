@@ -473,8 +473,6 @@ p {
           font-weight: 900;
           position: absolute;
           right: 0; }
-      .collapse-container .collapse-card .collapse-header button.collapsed h5::after {
-        content: '\f107'; }
     .collapse-container .collapse-card .collapse-body {
       padding-right: 5rem;
       margin-bottom: 1rem; }
@@ -487,6 +485,8 @@ p {
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: unset; }
+  .collapse-container.collapsed button .h4::after {
+    content: '\f107'; }
 
 .embed-responsive {
   margin-bottom: 1.5rem;

@@ -738,12 +738,21 @@ p {
   font-size: 1rem;
   padding: unset;
   margin: 0 0.625rem 0.625rem 0;
-  background-color: #CDD7DC;
+  background-color: #CDD7DC !important;
   color: #000000; }
   #mod_quiz_navblock .content a.qnbutton span.thispageholder {
     border: unset; }
   #mod_quiz_navblock .content a.qnbutton span.trafficlight {
     display: none; }
+  #mod_quiz_navblock .content a.qnbutton.correct {
+    background-color: rgba(65, 195, 130, 0.5) !important; }
+  #mod_quiz_navblock .content a.qnbutton.incorrect {
+    background-color: rgba(234, 100, 94, 0.5) !important; }
+  #mod_quiz_navblock .content a.qnbutton.notanswered {
+    background-color: rgba(65, 185, 225, 0.5) !important; }
+    #mod_quiz_navblock .content a.qnbutton.notanswered span.thispageholder {
+      border: 2px solid #f5b90d;
+      border-radius: 4px; }
 
 .deferredfeedback .content .formulation, .manualgraded .content .formulation {
   background-color: unset;

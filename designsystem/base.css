@@ -732,7 +732,16 @@ p {
 .course-content .single-section .section-navigation {
   display: none; }
 
+#mod_quiz_navblock a.qnbutton {
+  height: 1.75rem;
+  width: 1.75rem;
+  font-size: 1.25rem;
+  padding: 0.25rem; }
+  #mod_quiz_navblock a.qnbutton span.trafficlight {
+    display: none; }
+
 .deferredfeedback .content .formulation, .manualgraded .content .formulation {
+  background-color: unset;
   margin-top: 1rem;
   padding: unset; }
   .deferredfeedback .content .formulation .qtext, .deferredfeedback .content .formulation .qtext p, .manualgraded .content .formulation .qtext, .manualgraded .content .formulation .qtext p {

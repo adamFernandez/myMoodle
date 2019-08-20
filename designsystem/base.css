@@ -172,6 +172,13 @@ p {
 .course-content ul.gtopics li.section .right {
   display: none; }
 
+.breadcrumb-nav ul.breadcrumb {
+  font-family: 'KingsBureauGrotFiveOne'; }
+  .breadcrumb-nav ul.breadcrumb a {
+    color: #0d3254; }
+  .breadcrumb-nav ul.breadcrumb::after {
+    color: #aaa; }
+
 .course-content ul li.section.main {
   margin-bottom: 0 !important; }
 

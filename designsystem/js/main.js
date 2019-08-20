@@ -10,7 +10,7 @@ $(document).on("click", blockHide, function(event) {
 });
 
 // hide and show collapse card
-$(document).on("click", ".collpase-card .collapse-header button", function(event) {
+$(document).on("click", ".collapse-card .collapse-header button", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
       

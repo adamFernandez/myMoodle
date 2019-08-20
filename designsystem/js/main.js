@@ -4,7 +4,8 @@ $(document).on("click", ".view-close-transcript", function(event) {
 });
 
 // toggle side bar menus
-$(document).on("click", "#block-region-side-post .block .title h2", function(event) {
+const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";
+$(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
   

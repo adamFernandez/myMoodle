@@ -69,7 +69,7 @@ p {
   line-height: 1.25;
   margin-bottom: 0; }
 
-.sidebar-header, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
+.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
   padding: unset;
   margin: unset;
   color: #0A2D50;
@@ -184,7 +184,7 @@ p {
   #section-0 .content > h3.sectionname:after {
     display: none; }
 
-#block-region-side-post .block:not(.block_fake) .title h2::after {
+#block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -193,41 +193,41 @@ p {
   cursor: pointer;
   pointer-events: all; }
 
-#block-region-side-post .block.hidden:not(.block_fake) .title h2::after {
+#block-region-side-pre .block.hidden:not(.block_fake) .title h2::after, #block-region-side-post .block.hidden:not(.block_fake) .title h2::after {
   content: '\f067'; }
 
-#block-region-side-post .block .header {
+#block-region-side-pre .block .header, #block-region-side-post .block .header {
   background-color: #DCE3E6;
   padding: 0.5rem 0.75rem !important;
   height: auto;
   margin: unset;
   box-shadow: unset; }
-  #block-region-side-post .block .header.block_course_discuss_header_section {
+  #block-region-side-pre .block .header.block_course_discuss_header_section, #block-region-side-post .block .header.block_course_discuss_header_section {
     border: 1px solid #8B9296;
     border-bottom: unset; }
-  #block-region-side-post .block .header .title {
+  #block-region-side-pre .block .header .title, #block-region-side-post .block .header .title {
     position: relative;
     padding: unset; }
-    #block-region-side-post .block .header .title h2 {
+    #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
       line-height: 1.4;
       color: #0A2D50;
       pointer-events: none; }
-    #block-region-side-post .block .header .title .block_action {
+    #block-region-side-pre .block .header .title .block_action, #block-region-side-post .block .header .title .block_action {
       display: none; }
 
-#block-region-side-post .block .content {
+#block-region-side-pre .block .content, #block-region-side-post .block .content {
   background-color: #EDF1F2;
   padding: 1.125rem; }
-  #block-region-side-post .block .content li {
+  #block-region-side-pre .block .content li, #block-region-side-post .block .content li {
     font-family: 'KingsBureauGrotFiveOne';
     margin: unset; }
-    #block-region-side-post .block .content li a, #block-region-side-post .block .content li p, #block-region-side-post .block .content li span {
+    #block-region-side-pre .block .content li a, #block-region-side-pre .block .content li p, #block-region-side-pre .block .content li span, #block-region-side-post .block .content li a, #block-region-side-post .block .content li p, #block-region-side-post .block .content li span {
       font-family: 'KingsBureauGrotFiveOne';
       color: #0A2D50;
       font-size: 1rem;
       line-height: 1.5;
       margin: unset; }
-    #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
+    #block-region-side-pre .block .content li strong, #block-region-side-pre .block .content li a:hover, #block-region-side-pre .block .content li p:hover, #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
       color: #536C84; }
 
 #block_course_discuss_posts_container {

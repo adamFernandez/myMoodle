@@ -757,17 +757,18 @@ p {
 #mod_quiz_navblock .content .othernav {
   text-align: right; }
   #mod_quiz_navblock .content .othernav a.endtestlink {
-    display: inline; }
+    display: inline;
+    margin-right: unset; }
   #mod_quiz_navblock .content .othernav #quiz-timer {
     font-family: 'KingsBureauGrotFiveOne';
     font-size: 1.125rem; }
     #mod_quiz_navblock .content .othernav #quiz-timer #quiz-time-left {
       font-family: 'KingsBureauGrot'; }
-      #mod_quiz_navblock .content .othernav #quiz-timer #quiz-time-left::before {
-        content: '\f017';
-        font-family: 'Font Awesome 5 Pro';
-        font-weight: 900;
-        margin-right: 4px; }
+    #mod_quiz_navblock .content .othernav #quiz-timer::before {
+      content: '\f017';
+      font-family: 'Font Awesome 5 Pro';
+      font-weight: 900;
+      margin-right: 4px; }
 
 .deferredfeedback .content .formulation, .manualgraded .content .formulation {
   background-color: unset;

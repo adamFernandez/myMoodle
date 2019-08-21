@@ -480,18 +480,6 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
   color: inherit;
 }
 
-.row-fluid.rtl-compatible {
-	display: block;
-}
-
-.m-t-2 .span4:nth-of-type(2) {
-	display: none;
-}
-
-@media (min-width: 768px) {
-.m-t-2 .span4 {width: 48% }
-}
-
 /* fixes style for lists directly in section area */
 .course-content ul.ctopics .content .summary ul,
 .course-content ul.ctopics .content .summary ol {
@@ -499,3 +487,5 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
   font-size: 1rem;
   color: #0A2D50;
 }
+
+#region-main > div.m-t-2.m-b-1 > div {display: none;}

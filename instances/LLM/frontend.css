@@ -209,3 +209,5 @@ margin-left: 25px;
 .row-fluid.rtl-compatible .urlselect {
 	display: none;
 }
+
+#region-main > div.m-t-2.m-b-1 > div {display: none;}

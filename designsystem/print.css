@@ -3,12 +3,16 @@
 		font-family: "Open Sans" !important;
 	}
 
-	#block-region-side-post, #block-region-side-pre, #page-header, .navbar, .back-to-top, #page-footer {
-		display: none;
+	#block-region-side-post, #block-region-side-pre, #page-header, .navbar, .back-to-top, #page-footer, .navbottom {
+		display: none !important;
 	}
 
 	img {
 		max-width:50% !important;
+	}
+
+	.hero img {
+		width:100% !important;
 	}
 
 	.carousel-item {
@@ -72,7 +76,11 @@
 		display: none;
 	}
 
-	.transcript-card .card-body {
-		width:100%;
+	.collapsed {
+		display:block !importan t;
 	}
+}
+
+.editing .collapsed {
+	display: block;
 }

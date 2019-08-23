@@ -256,7 +256,7 @@ p {
       font-size: 0.833rem;
       line-height: 1.5;
       color: #333333; }
-    #block_course_discuss_posts_container #block_course_discuss_reply_container .btn.course-discuss-reply-button, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink {
+    #block_course_discuss_posts_container #block_course_discuss_reply_container .btn.course-discuss-reply-button, #block_course_discuss_posts_container #block_course_discuss_reply_container .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, .forumaddnew div #block_course_discuss_posts_container #block_course_discuss_reply_container input.course-discuss-reply-button[type="submit"]:first-child, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink {
       margin-left: unset; }
 
 .alert.alert-success {
@@ -280,44 +280,44 @@ p {
     content: '\f071';
     padding: 0 3px; }
 
-.btn, #mod_quiz_navblock .content .othernav a.endtestlink {
+.btn, .forumaddnew div input[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink {
   font-family: 'KingsBureauGrot';
   font-size: 1.125rem;
   line-height: 1.25;
   padding: 0.625rem 0.75rem;
   margin-right: 0.75rem;
   border-radius: 4px; }
-  .btn.btn-primary, #mod_quiz_navblock .content .othernav a.endtestlink, .btn.course-discuss-reply-button, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink {
+  .btn.btn-primary, .forumaddnew div input[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink, .btn.course-discuss-reply-button, .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink {
     background-color: #0A2D50 !important;
     color: #FFFFFF; }
-    .btn.btn-primary:hover, #mod_quiz_navblock .content .othernav a.endtestlink:hover, .btn.course-discuss-reply-button:hover, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink:hover {
+    .btn.btn-primary:hover, .forumaddnew div input:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink:hover, .btn.course-discuss-reply-button:hover, .forumaddnew div input.course-discuss-reply-button:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink:hover {
       background-color: #536c84 !important; }
-  .btn.btn-secondary, #mod_quiz_navblock .content .othernav a.btn-secondary.endtestlink, .btn#id_cancel, #mod_quiz_navblock .content .othernav a#id_cancel.endtestlink {
+  .btn.btn-secondary, .forumaddnew div input.btn-secondary[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.btn-secondary.endtestlink, .btn#id_cancel, .forumaddnew div input#id_cancel[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a#id_cancel.endtestlink {
     background-color: #FFFFFF !important;
     color: #0A2D50;
     padding: 0.5rem 0.625rem;
     border: 2px solid #0A2D50; }
-    .btn.btn-secondary:hover, #mod_quiz_navblock .content .othernav a.btn-secondary.endtestlink:hover, .btn#id_cancel:hover, #mod_quiz_navblock .content .othernav a#id_cancel.endtestlink:hover {
+    .btn.btn-secondary:hover, .forumaddnew div input.btn-secondary:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.btn-secondary.endtestlink:hover, .btn#id_cancel:hover, .forumaddnew div input#id_cancel:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a#id_cancel.endtestlink:hover {
       border-color: #536c84;
       background-color: #536c84 !important;
       color: white; }
-  .btn.btn-lg, #mod_quiz_navblock .content .othernav a.btn-lg.endtestlink {
+  .btn.btn-lg, .forumaddnew div input.btn-lg[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.btn-lg.endtestlink {
     font-size: 1.25rem;
     line-height: 1.5;
     padding: 0.5625rem 1.5rem;
     min-width: 9.6875rem;
     box-shadow: 0 5px 0 0 #05192e; }
-    .btn.btn-lg:hover, #mod_quiz_navblock .content .othernav a.btn-lg.endtestlink:hover {
+    .btn.btn-lg:hover, .forumaddnew div input.btn-lg:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.btn-lg.endtestlink:hover {
       background-color: #526C84;
       box-shadow: 0 5px 0 0 #43566B; }
-  .btn[disabled], #mod_quiz_navblock .content .othernav a.endtestlink[disabled] {
+  .btn[disabled], .forumaddnew div input[disabled][type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink[disabled] {
     background-color: #cdd7dc !important;
     color: #5a6469; }
-    .btn[disabled]:hover, #mod_quiz_navblock .content .othernav a.endtestlink[disabled]:hover {
+    .btn[disabled]:hover, .forumaddnew div input[disabled]:hover[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink[disabled]:hover {
       background-color: #cdd7dc !important; }
-  .btn i, #mod_quiz_navblock .content .othernav a.endtestlink i {
+  .btn i, .forumaddnew div input[type="submit"]:first-child i, #mod_quiz_navblock .content .othernav a.endtestlink i {
     font-size: 1.25rem; }
-    .btn i:first-child, #mod_quiz_navblock .content .othernav a.endtestlink i:first-child {
+    .btn i:first-child, .forumaddnew div input[type="submit"]:first-child i:first-child, #mod_quiz_navblock .content .othernav a.endtestlink i:first-child {
       margin-right: 0.375rem; }
 
 .bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
@@ -706,6 +706,18 @@ p {
     border-color: #FF5F05 !important; }
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
+
+.forumaddnew div {
+  margin: unset; }
+  .forumaddnew div input[type="submit"]:first-child {
+    margin: unset; }
+
+.path-mod-forum .forumheaderlist thead .header {
+  font-family: 'KingsBureauGrot'; }
+
+.path-mod-forum .forumheaderlist tr {
+  font-family: 'KingsBureauGrotFiveOne';
+  background-color: unset !important; }
 
 #gridiconcontainer {
   width: 103%; }

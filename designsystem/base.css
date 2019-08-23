@@ -905,7 +905,8 @@ p {
       display: none; }
     .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before {
       content: '\f024';
-      color: #F5B90F; }
+      color: #F5B90F;
+      font-weight: 500; }
 
 .que.deferredfeedback .content .formulation, .que.manualgraded .content .formulation {
   background-color: unset;
@@ -920,7 +921,7 @@ p {
   .que.deferredfeedback .content .formulation .ablock .answer, .que.manualgraded .content .formulation .ablock .answer {
     font-family: 'KingsBureauGrot'; }
     .que.deferredfeedback .content .formulation .ablock .answer .r0, .que.deferredfeedback .content .formulation .ablock .answer .r1, .que.manualgraded .content .formulation .ablock .answer .r0, .que.manualgraded .content .formulation .ablock .answer .r1 {
-      margin-bottom: 0.625rem; }
+      margin-bottom: unset; }
       .que.deferredfeedback .content .formulation .ablock .answer .r0 label, .que.deferredfeedback .content .formulation .ablock .answer .r1 label, .que.manualgraded .content .formulation .ablock .answer .r0 label, .que.manualgraded .content .formulation .ablock .answer .r1 label {
         font-size: 1rem; }
       .que.deferredfeedback .content .formulation .ablock .answer .r0 img, .que.deferredfeedback .content .formulation .ablock .answer .r1 img, .que.manualgraded .content .formulation .ablock .answer .r0 img, .que.manualgraded .content .formulation .ablock .answer .r1 img {

@@ -76,11 +76,11 @@
 		display: none;
 	}
 
-	.collapsed {
-		display:block !importan t;
+	.transcript-container.collapsed .transcript-card  {
+		display:block !important;
 	}
 }
 
-.editing .collapsed {
-	display: block;
+body.editing .transcript-container.collapsed .transcript-card  {
+	display: block !important;
 }

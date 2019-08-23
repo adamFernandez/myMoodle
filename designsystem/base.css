@@ -259,7 +259,7 @@ p {
     #block_course_discuss_posts_container #block_course_discuss_reply_container .btn.course-discuss-reply-button, #block_course_discuss_posts_container #block_course_discuss_reply_container .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, .forumaddnew div #block_course_discuss_posts_container #block_course_discuss_reply_container input.course-discuss-reply-button[type="submit"]:first-child, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink {
       margin-left: unset; }
 
-.singleselect form, .singleselect select {
+.singleselect form, .singleselect select, .singleselect select option {
   font-family: 'KingsBureauGrotFiveOne'; }
 
 .alert.alert-success {

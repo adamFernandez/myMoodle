@@ -76,11 +76,11 @@
 		display: none;
 	}
 
-	.transcript-container.collapsed .transcript-card  {
+	.transcript-container.collapsed .transcript-card, .collapse-container .collapse-card.collapsed .collapse-body {
 		display:block !important;
 	}
 }
 
-#fitem_id_introeditor .transcript-container.collapsed .transcript-card  {
+#fitem_id_introeditor .transcript-container.collapsed .transcript-card, #fitem_id_introeditor .collapse-container .collapse-card.collapsed .collapse-body  {
 		display:block !important;
 	}

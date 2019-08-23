@@ -739,12 +739,15 @@ p {
 
 .forumpost {
   margin-bottom: unset;
+  background-color: unset;
   border: unset;
-  border-top: 1px solid red; }
-  .forumpost .subject, .forumpost .author > a {
+  border-top: 1px solid #8B9296; }
+  .forumpost .subject, .forumpost .author > a, .forumpost .commands > a {
     font-family: 'KingsBureauGrot'; }
   .forumpost .author {
     font-family: 'KingsBureauGrotFiveOne'; }
+  .forumpost .maincontent .content {
+    margin-left: 3rem; }
 
 .indent > a:first-child {
   display: none; }

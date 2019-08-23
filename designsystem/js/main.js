@@ -15,7 +15,7 @@ $(document).on("click", ".collapse-card .collapse-header button", function(event
 });
 
 // hide and show transcript card
-$(document).on("click", ".transcript-button-group button.view-close-transcript", function(event) {
+$(document).on("click", ".transcript-button-group a.view-close-transcript", function(event) {
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
       

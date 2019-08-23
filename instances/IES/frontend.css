@@ -214,14 +214,4 @@ p.titlesep {
   color: inherit;
 }
 
-.row-fluid.rtl-compatible {
-	display: block;
-}
-
-#region-main .m-t-2 .row-fluid .span4:nth-of-type(2) {
-	display: none;
-}
-
-@media (min-width: 768px) {
-.m-t-2 .span4 {width: 48% }
-}
+#region-main > div.m-t-2.m-b-1 > div {display: none;}

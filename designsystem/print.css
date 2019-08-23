@@ -81,6 +81,6 @@
 	}
 }
 
-body.editing .transcript-container.collapsed .transcript-card  {
-	display: block !important;
-}
+#fitem_id_introeditor .transcript-container.collapsed .transcript-card  {
+		display:block !important;
+	}

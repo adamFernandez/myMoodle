@@ -259,6 +259,9 @@ p {
     #block_course_discuss_posts_container #block_course_discuss_reply_container .btn.course-discuss-reply-button, #block_course_discuss_posts_container #block_course_discuss_reply_container .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, .forumaddnew div #block_course_discuss_posts_container #block_course_discuss_reply_container input.course-discuss-reply-button[type="submit"]:first-child, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink {
       margin-left: unset; }
 
+.singleselect form, .singleselect select {
+  font-family: 'KingsBureauGrotFiveOne'; }
+
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before {
@@ -713,7 +716,8 @@ p {
     margin: unset; }
 
 .path-mod-forum .forumheaderlist thead .header {
-  font-family: 'KingsBureauGrot'; }
+  font-family: 'KingsBureauGrot';
+  border-top: inherit; }
 
 .path-mod-forum .forumheaderlist tr {
   font-family: 'KingsBureauGrotFiveOne';
@@ -722,9 +726,28 @@ p {
     border-bottom: 1px solid #8B9296; }
   .path-mod-forum .forumheaderlist tr td {
     background-color: unset !important;
-    border: inherit; }
-    .path-mod-forum .forumheaderlist tr td.author img.userpicture {
-      border-radius: 50%; }
+    border: inherit;
+    vertical-align: middle; }
+    .path-mod-forum .forumheaderlist tr td.author .media:first-child {
+      display: flex;
+      align-items: center; }
+      .path-mod-forum .forumheaderlist tr td.author .media:first-child img.userpicture {
+        border-radius: 50%; }
+
+.path-mod-forum .discussion-nav {
+  font-family: 'KingsBureauGrot'; }
+
+.forumpost {
+  margin-bottom: unset;
+  border: unset;
+  border-top: 1px solid red; }
+  .forumpost .subject, .forumpost .author > a {
+    font-family: 'KingsBureauGrot'; }
+  .forumpost .author {
+    font-family: 'KingsBureauGrotFiveOne'; }
+
+.indent > a:first-child {
+  display: none; }
 
 #gridiconcontainer {
   width: 103%; }

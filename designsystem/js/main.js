@@ -13,4 +13,9 @@ $(document).on("click", blockHide, function(event) {
 $(document).on("click", ".collapse-card .collapse-header button", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
+
+// hide and show transcript card
+$(document).on("click", ".transcript-button-group button.view-close-transcript", function(event) {
+  $(this).parents(".transcript-container").toggleClass("collapsed");
+});
       

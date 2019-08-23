@@ -541,7 +541,7 @@ p {
     border-left: 4px solid #CDD7DC;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }
-  .transcript-container.collapsed .transcript-button-group a.view-close-transcript.collapsed::before {
+  .transcript-container.collapsed .transcript-button-group a.view-close-transcript::before {
     content: '\f06e'; }
   .transcript-container.collapsed .transcript-card {
     display: none; }

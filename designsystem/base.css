@@ -806,12 +806,12 @@ p {
     font-family: 'KingsBureauGrot';
     background-color: #01b9e1;
     color: #171717; }
+    #page-mod-quiz-view .quizattemptsummary thead .header.lastcol {
+      color: #01b9e1 !important; }
   #page-mod-quiz-view .quizattemptsummary tr td {
     font-family: 'KingsBureauGrotFiveOne';
     background-color: unset;
     color: #333333; }
-    #page-mod-quiz-view .quizattemptsummary tr td.lastcol {
-      color: #01b9e1 !important; }
 
 #page-mod-quiz-view .generalbox#feedback {
   margin: unset;
@@ -823,6 +823,22 @@ p {
     margin-left: unset; }
     #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child {
       margin-left: unset; }
+
+#page-mod-quiz-review .quizreviewsummary {
+  border: 1px solid #8B9296; }
+  #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-review .quizreviewsummary tr td {
+    border-top: 1px solid green; }
+  #page-mod-quiz-review .quizreviewsummary tr th {
+    font-family: 'KingsBureauGrot';
+    color: #171717;
+    text-align: left !important; }
+  #page-mod-quiz-review .quizreviewsummary tr td {
+    font-family: 'KingsBureauGrotFiveOne';
+    color: #333333; }
+  #page-mod-quiz-review .quizreviewsummary tr:nth-child(odd) > th, #page-mod-quiz-review .quizreviewsummary th-child(odd) > td {
+    background-color: unset !important; }
+  #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td {
+    background-color: #f8fafa !important; }
 
 #mod_quiz_navblock .content a.qnbutton {
   height: 1.25rem;

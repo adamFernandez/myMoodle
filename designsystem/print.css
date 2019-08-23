@@ -84,3 +84,8 @@
 .editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body  {
 		display:block !important;
 	}
+
+.editor_atto_content .carousel-item {
+		display: block;
+		margin-bottom: 20px;
+	}

@@ -81,6 +81,6 @@
 	}
 }
 
-#fitem_id_introeditor .transcript-container.collapsed .transcript-card, #fitem_id_introeditor .collapse-container .collapse-card.collapsed .collapse-body  {
+.editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body  {
 		display:block !important;
 	}

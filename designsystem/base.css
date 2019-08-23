@@ -717,7 +717,14 @@ p {
 
 .path-mod-forum .forumheaderlist tr {
   font-family: 'KingsBureauGrotFiveOne';
-  background-color: unset !important; }
+  border-top: 1px solid #8B9296; }
+  .path-mod-forum .forumheaderlist tr:last-child {
+    border-bottom: 1px solid #8B9296; }
+  .path-mod-forum .forumheaderlist tr td {
+    background-color: unset !important;
+    border: inherit; }
+    .path-mod-forum .forumheaderlist tr td.author img.userpicture {
+      border-radius: 50%; }
 
 #gridiconcontainer {
   width: 103%; }

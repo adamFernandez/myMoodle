@@ -717,7 +717,7 @@ p {
     .table th:not(:first-child), .table td:not(:first-child) {
       border-left: 1px solid #8B9296; }
   .table th {
-    background-color: edf1f2;
+    background-color: #EDF1F2;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
     line-height: 1.4;

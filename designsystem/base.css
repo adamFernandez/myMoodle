@@ -576,6 +576,9 @@ p {
 
 .hero {
   margin-bottom: 1.5rem; }
+  @media only screen and (max-width: 767px) {
+    .hero .hero-caption {
+      position: unset; } }
   .hero .hero-caption h2 {
     color: #FFFFFF;
     margin: unset; }

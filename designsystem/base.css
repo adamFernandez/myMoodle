@@ -315,6 +315,8 @@ p {
   padding: 0.625rem 0.75rem;
   margin-right: 0.75rem;
   border-radius: 4px; }
+  .btn:not(:last-child), .forumaddnew div input:not(:last-child)[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a:not(:last-child), #page-mod-quiz-view .quizstartbuttondiv form div input:not(:last-child)[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink:not(:last-child) {
+    margin-bottom: 0.5rem; }
   .btn.btn-primary, .forumaddnew div input[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink, .btn.course-discuss-reply-button, .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a.course-discuss-reply-button, #page-mod-quiz-view .quizstartbuttondiv form div input.course-discuss-reply-button[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink {
     background-color: #0A2D50 !important;
     color: #FFFFFF; }

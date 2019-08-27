@@ -158,14 +158,22 @@ p {
 #jump-to-activity {
   display: none; }
 
+/*
 .single-section .section-navigation.mdl-bottom {
   font-family: 'KingsBureauGrot';
-  font-size: 1.25rem; }
-  .single-section .section-navigation.mdl-bottom a {
-    color: #0A2D50; }
-    .single-section .section-navigation.mdl-bottom a:hover {
-      color: #526C84; }
+  font-size: 1.25rem;
+  a {
+    color: $midnight-blue;
+    &:hover {
+      color: #526C84;
+    }
+  }
+  .mdl-left a:before, .mdl-right a:after {
+    @extend .navbutton;
+  }
+}
 
+*/
 @media only screen and (min-width: 1440px) {
   #page-header-nav, #page-content {
     max-width: 1312px;
@@ -301,9 +309,8 @@ p {
   line-height: 1.25;
   padding: 0.625rem 0.75rem;
   margin-right: 0.75rem;
+  margin-bottom: 0.5rem;
   border-radius: 4px; }
-  .btn:not(:last-child), .forumaddnew div input:not(:last-child)[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a:not(:last-child), #page-mod-quiz-view .quizstartbuttondiv form div input:not(:last-child)[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink:not(:last-child) {
-    margin-bottom: 0.5rem; }
   .btn.btn-primary, .forumaddnew div input[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink, .btn.course-discuss-reply-button, .forumaddnew div input.course-discuss-reply-button[type="submit"]:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a.course-discuss-reply-button, #page-mod-quiz-view .quizstartbuttondiv form div input.course-discuss-reply-button[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink {
     background-color: #0A2D50 !important;
     color: #FFFFFF; }
@@ -337,7 +344,7 @@ p {
     .btn i:first-child, .forumaddnew div input[type="submit"]:first-child i:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a i:first-child, #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child i:first-child, #mod_quiz_navblock .content .othernav a.endtestlink i:first-child {
       margin-right: 0.375rem; }
 
-.navbutton, .single-section .section-navigation.mdl-bottom .mdl-left a:before, .single-section .section-navigation.mdl-bottom .mdl-right a:after, .section-navigation.mdl-bottom .mdl-left a:before, .section-navigation.mdl-bottom.mdl-right a:after, .navtext.navtop a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit:after {
+.navbutton, .section-navigation.mdl-bottom .mdl-left a:before, .section-navigation.mdl-bottom.mdl-right a:after, .navtext.navtop a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit:after {
   font-family: 'FontAwesome';
   font-size: 1.25rem;
   color: #FFFFFF;
@@ -348,7 +355,7 @@ p {
   padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after, .section-navigation.mdl-bottom .mdl-left a:hover:before, .section-navigation.mdl-bottom.mdl-right a:hover:after, .navtext.navtop a.bookprev:hover:before, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev:hover:before, .navtext.navbottom a.bookprev:hover:before, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev:hover:before, .navtext.navtop a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext:hover:after, .navtext.navtop a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit:hover:after, .navtext.navbottom a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext:hover:after, .navtext.navbottom a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit:hover:after {
+  .navbutton:hover, .section-navigation.mdl-bottom .mdl-left a:hover:before, .section-navigation.mdl-bottom.mdl-right a:hover:after, .navtext.navtop a.bookprev:hover:before, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev:hover:before, .navtext.navbottom a.bookprev:hover:before, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev:hover:before, .navtext.navtop a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext:hover:after, .navtext.navtop a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit:hover:after, .navtext.navbottom a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext:hover:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext:hover:after, .navtext.navbottom a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit:hover:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
 
@@ -366,35 +373,46 @@ p {
     font-size: 1.25rem;
     line-height: 1.2;
     color: #0a2d50; }
-  @media only screen and (max-width: 767px) {
-    .navcontainer, .section-navigation.mdl-bottom, .navtext.navtop, .section-navigation.mdl-bottom .mdl-left a.navtop, .section-navigation.mdl-bottom .mdl-right a.navtop, .navtext.navtop a.navtop, .navtext.navbottom a.navtop, .navtext.navbottom, .section-navigation.mdl-bottom .mdl-left a.navbottom, .section-navigation.mdl-bottom .mdl-right a.navbottom, .navtext.navtop a.navbottom, .navtext.navbottom a.navbottom {
-      min-height: 12.5rem; }
+    @media only screen and (max-width: 767px) {
       .navcontainer .navtext, .section-navigation.mdl-bottom .navtext, .navtext.navtop .navtext, .section-navigation.mdl-bottom .mdl-left a.navtop .navtext, .section-navigation.mdl-bottom .mdl-right a.navtop .navtext, .navtext.navtop a.navtop .navtext, .navtext.navbottom a.navtop .navtext, .navtext.navbottom .navtext, .section-navigation.mdl-bottom .mdl-left a.navbottom .navtext, .section-navigation.mdl-bottom .mdl-right a.navbottom .navtext, .navtext.navtop a.navbottom .navtext, .navtext.navbottom a.navbottom .navtext, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-left a.navtop a, .section-navigation.mdl-bottom .mdl-left a.navbottom a, .section-navigation.mdl-bottom .mdl-right a, .section-navigation.mdl-bottom .mdl-right a.navtop a, .section-navigation.mdl-bottom .mdl-right a.navbottom a, .navtext.navtop a, .navtext.navtop a.navtop a, .navtext.navtop a.navbottom a, .navtext.navbottom a.navtop a, .navtext.navbottom a, .navtext.navbottom a.navbottom a {
         width: calc(50% - 5rem); }
-        .navcontainer .navtext.bookprev, .section-navigation.mdl-bottom .navtext.bookprev, .navtext.navtop .navtext.bookprev, .navtext.navbottom .navtext.bookprev, .section-navigation.mdl-bottom .mdl-left a.bookprev, .section-navigation.mdl-bottom .mdl-right a.bookprev, .navtext.navtop a.bookprev, .navtext.navtop a.navtop a.bookprev, .navtext.navtop a.navbottom a.bookprev, .navtext.navbottom a.navtop a.bookprev, .navtext.navbottom a.bookprev, .navtext.navbottom a.navbottom a.bookprev {
-          left: 4rem; }
         .navcontainer .navtext.booknext, .section-navigation.mdl-bottom .navtext.booknext, .navtext.navtop .navtext.booknext, .navtext.navbottom .navtext.booknext, .section-navigation.mdl-bottom .mdl-left a.booknext, .section-navigation.mdl-bottom .mdl-right a.booknext, .navtext.navtop a.booknext, .navtext.navtop a.navtop a.booknext, .navtext.navtop a.navbottom a.booknext, .navtext.navbottom a.navtop a.booknext, .navtext.navbottom a.booknext, .navtext.navbottom a.navbottom a.booknext, .navcontainer .navtext.bookexit, .section-navigation.mdl-bottom .navtext.bookexit, .navtext.navtop .navtext.bookexit, .navtext.navbottom .navtext.bookexit, .section-navigation.mdl-bottom .mdl-left a.bookexit, .section-navigation.mdl-bottom .mdl-right a.bookexit, .navtext.navtop a.bookexit, .navtext.navtop a.navtop a.bookexit, .navtext.navtop a.navbottom a.bookexit, .navtext.navbottom a.navtop a.bookexit, .navtext.navbottom a.bookexit, .navtext.navbottom a.navbottom a.bookexit {
           right: 4rem; } }
+  @media only screen and (max-width: 767px) {
+    .navcontainer, .section-navigation.mdl-bottom, .navtext.navtop, .section-navigation.mdl-bottom .mdl-left a.navtop, .section-navigation.mdl-bottom .mdl-right a.navtop, .navtext.navtop a.navtop, .navtext.navbottom a.navtop, .navtext.navbottom, .section-navigation.mdl-bottom .mdl-left a.navbottom, .section-navigation.mdl-bottom .mdl-right a.navbottom, .navtext.navtop a.navbottom, .navtext.navbottom a.navbottom {
+      min-height: 12.5rem; } }
 
 .section-navigation.mdl-bottom .mdl-left a {
   left: 7.125rem; }
+  @media only screen and (max-width: 767px) {
+    .section-navigation.mdl-bottom .mdl-left a {
+      left: 4rem; } }
   .section-navigation.mdl-bottom .mdl-left a:before {
     left: -3.125rem; }
 
 .section-navigation.mdl-bottom.mdl-right a {
   text-align: right;
   right: 7.125rem; }
+  @media only screen and (max-width: 767px) {
+    .section-navigation.mdl-bottom.mdl-right a {
+      right: 4rem; } }
   .section-navigation.mdl-bottom.mdl-right a:after {
     right: -3.125rem; }
 
 .navtext.navtop a.bookprev, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookprev, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev, .navtext.navtop a.navtop a.bookprev, .navtext.navbottom a.navtop a.bookprev, .navtext.navbottom a.bookprev, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookprev, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev, .navtext.navtop a.navbottom a.bookprev, .navtext.navbottom a.navbottom a.bookprev {
   left: 7.125rem; }
+  @media only screen and (max-width: 767px) {
+    .navtext.navtop a.bookprev, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookprev, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev, .navtext.navtop a.navtop a.bookprev, .navtext.navbottom a.navtop a.bookprev, .navtext.navbottom a.bookprev, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookprev, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev, .navtext.navtop a.navbottom a.bookprev, .navtext.navbottom a.navbottom a.bookprev {
+      left: 4rem; } }
   .navtext.navtop a.bookprev:before, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookprev:before, .navtext.navbottom a.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookprev:before, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookprev:before, .navtext.navtop a.navbottom a.bookprev:before {
     left: -3.125rem; }
 
 .navtext.navtop a.booknext, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext, .navtext.navtop a.navtop a.booknext, .navtext.navbottom a.navtop a.booknext, .navtext.navtop a.bookexit, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit, .navtext.navtop a.navtop a.bookexit, .navtext.navbottom a.navtop a.bookexit, .navtext.navbottom a.booknext, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext, .navtext.navtop a.navbottom a.booknext, .navtext.navbottom a.navbottom a.booknext, .navtext.navbottom a.bookexit, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit, .navtext.navtop a.navbottom a.bookexit, .navtext.navbottom a.navbottom a.bookexit {
   text-align: right;
   right: 7.125rem; }
+  @media only screen and (max-width: 767px) {
+    .navtext.navtop a.booknext, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext, .navtext.navtop a.navtop a.booknext, .navtext.navbottom a.navtop a.booknext, .navtext.navtop a.bookexit, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit, .navtext.navtop a.navtop a.bookexit, .navtext.navbottom a.navtop a.bookexit, .navtext.navbottom a.booknext, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext, .navtext.navtop a.navbottom a.booknext, .navtext.navbottom a.navbottom a.booknext, .navtext.navbottom a.bookexit, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit, .navtext.navtop a.navbottom a.bookexit, .navtext.navbottom a.navbottom a.bookexit {
+      right: 4rem; } }
   .navtext.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.booknext:after, .navtext.navbottom a.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navtop a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navtop a.bookexit:after, .navtext.navbottom a.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.booknext:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.booknext:after, .navtext.navtop a.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-left a.navbottom a.bookexit:after, .section-navigation.mdl-bottom .mdl-right a.navbottom a.bookexit:after, .navtext.navtop a.navbottom a.bookexit:after {
     right: -3.125rem; }
 

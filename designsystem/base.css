@@ -497,6 +497,9 @@ p {
     .carousel .carousel-caption p {
       line-height: 1.5;
       margin-bottom: 0; }
+    @media only screen and (max-width: 767px) {
+      .carousel .carousel-caption {
+        position: unset; } }
   .carousel.text-only .carousel-item {
     position: relative;
     background-color: rgba(10, 45, 80, 0.85);
@@ -507,9 +510,6 @@ p {
     top: 25%;
     z-index: 1;
     padding: 2.4% 12%; }
-    @media only screen and (max-width: 767px) {
-      .carousel.text-only .carousel-caption {
-        position: unset; } }
   .carousel .carousel-indicators {
     top: unset;
     bottom: -32px;

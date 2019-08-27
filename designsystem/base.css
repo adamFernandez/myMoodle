@@ -371,15 +371,6 @@ p {
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
-  @media only screen and (max-width: 767px) {
-    .navtext.navtop, .navtext.navbottom {
-      min-height: 10rem; }
-      .navtext.navtop a, .navtext.navbottom a {
-        width: calc(50% - 5rem); }
-        .navtext.navtop a.bookprev, .navtext.navbottom a.bookprev {
-          left: 4rem; }
-        .navtext.navtop a.booknext, .navtext.navtop a .bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a .bookexit {
-          right: 4rem; } }
   .navtext.navtop a, .navtext.navbottom a {
     position: absolute;
     max-width: 18rem;
@@ -414,6 +405,15 @@ p {
     .navtext.navtop a:hover, .navtext.navbottom a:hover {
       color: #526C84;
       text-decoration: underline; }
+  @media only screen and (max-width: 767px) {
+    .navtext.navtop, .navtext.navbottom {
+      min-height: 10rem; }
+      .navtext.navtop a, .navtext.navbottom a {
+        width: calc(50% - 5rem); }
+        .navtext.navtop a.bookprev, .navtext.navbottom a.bookprev {
+          left: 4rem; }
+        .navtext.navtop a.booknext, .navtext.navtop a .bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a .bookexit {
+          right: 4rem; } }
 
 #next-activity-link:visited, #prev-activity-link:visited {
   color: #555; }

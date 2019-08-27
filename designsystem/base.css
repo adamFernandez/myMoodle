@@ -173,7 +173,7 @@ p {
 .single-section .section-navigation.mdl-bottom {
   font-family: 'KingsBureauGrot';
   font-size: 1.25rem;
-  color: #0A2D50; }
+  color: #0A2D50 !important; }
   .single-section .section-navigation.mdl-bottom:hover {
     color: #526C84; }
 

@@ -476,6 +476,8 @@ p {
       margin-left: unset; }
     .card-deck .card:last-child {
       margin-right: unset; }
+    .card-deck .card .card-img-top, .card-deck .card .card-img-left {
+      width: 100%; }
 
 .carousel {
   margin-bottom: 3.5rem; }

@@ -168,15 +168,16 @@ p {
   box-shadow: 0 2px 0 0 #05192e; }
   .navbutton:hover, .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
     background-color: #526C84;
-    box-shadow: 0 2px 0 0 #43566B; }
+    box-shadow: 0 2px 0 0 #43566B;
+    text-decoration: unset; }
 
 .single-section .section-navigation.mdl-bottom {
   font-family: 'KingsBureauGrot';
   font-size: 1.25rem; }
-  .single-section .section-navigation.mdl-bottom:hover {
-    color: #526C84; }
   .single-section .section-navigation.mdl-bottom a {
     color: #0A2D50; }
+    .single-section .section-navigation.mdl-bottom a:hover {
+      color: #526C84; }
 
 @media only screen and (min-width: 1440px) {
   #page-header-nav, #page-content {

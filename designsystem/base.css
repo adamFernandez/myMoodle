@@ -205,6 +205,7 @@ p {
     width: 50%;
     margin-top: unset; }
   .row-fluid.rtl-compatible a#prev-activity-link {
+    text-align: left;
     left: 0; }
     .row-fluid.rtl-compatible a#prev-activity-link:before {
       left: -3.125rem;
@@ -696,7 +697,9 @@ p {
     top: 2.25rem; }
 
 .table {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  border-collapse: separate;
+  border-spacing: unset; }
   .table.table-bordered {
     border: 1px solid #8B9296;
     border-radius: unset; }

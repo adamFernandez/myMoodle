@@ -366,10 +366,20 @@ p {
     box-shadow: 0 2px 0 0 #43566B; }
 
 .navtext.navtop, .navtext.navbottom {
+  min-height: 6rem;
   position: relative;
   margin-top: 0.825rem;
-  margin-bottom: 8rem;
+  margin-bottom: 1.5rem;
   padding: 0; }
+  @media only screen and (max-width: 767px) {
+    .navtext.navtop, .navtext.navbottom {
+      min-height: 10rem; }
+      .navtext.navtop a, .navtext.navbottom a {
+        width: calc(50% - 5rem); }
+        .navtext.navtop a.bookprev, .navtext.navbottom a.bookprev {
+          left: 4rem; }
+        .navtext.navtop a.booknext, .navtext.navtop a .bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a .bookexit {
+          right: 4rem; } }
   .navtext.navtop a, .navtext.navbottom a {
     position: absolute;
     max-width: 18rem;
@@ -383,6 +393,7 @@ p {
       .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before {
         left: -3.125rem; }
     .navtext.navtop a.booknext, .navtext.navtop a.bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a.bookexit {
+      text-align: right;
       right: 7.125rem; }
       .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
         right: -3.125rem; }

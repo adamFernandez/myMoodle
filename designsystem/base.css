@@ -1041,17 +1041,20 @@ ul.gtopics-0 {
 .moodle-dialogue .moodle-dialogue-wrap {
   padding: 1rem; }
   .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
-    background-color: unset;
-    border-bottom: unset; }
+    background-color: unset !important;
+    border-bottom: unset !important; }
 
-.moodle-dialogue .moodle-dialoge-bd {
+.moodle-dialogue .moodle-dialogue-bd {
   padding: unset; }
-  .moodle-dialogue .moodle-dialoge-bd .confirmation-message {
+  .moodle-dialogue .moodle-dialogue-bd .confirmation-message {
     font-family: 'KingsBureauGrotFiveOne';
     font-size: 1rem; }
-  .moodle-dialogue .moodle-dialoge-bd .btn, .moodle-dialogue .moodle-dialoge-bd .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizattemptsummary tr td.lastcol .moodle-dialogue .moodle-dialoge-bd a, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #page-mod-quiz-view .quizstartbuttondiv form div .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialoge-bd #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue .moodle-dialoge-bd a.endtestlink, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-summary .controls .singlebutton input[type="submit"]:first-child, #page-mod-quiz-summary .controls .singlebutton .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child {
+  .moodle-dialogue .moodle-dialogue-bd .btn, .moodle-dialogue .moodle-dialogue-bd .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .moodle-dialogue .moodle-dialogue-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizattemptsummary tr td.lastcol .moodle-dialogue .moodle-dialogue-bd a, .moodle-dialogue .moodle-dialogue-bd #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #page-mod-quiz-view .quizstartbuttondiv form div .moodle-dialogue .moodle-dialogue-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue .moodle-dialogue-bd a.endtestlink, .moodle-dialogue .moodle-dialogue-bd #page-mod-quiz-summary .controls .singlebutton input[type="submit"]:first-child, #page-mod-quiz-summary .controls .singlebutton .moodle-dialogue .moodle-dialogue-bd input[type="submit"]:first-child {
     font-size: 1rem;
     padding: 0.5rem 0.625rem;
     border: unset;
     background-color: #0A2D50 !important;
     color: white; }
+
+.moodle-dialogue .moodle-dialogue-ft {
+  margin: unset !important; }

@@ -201,6 +201,8 @@ p {
   display: flex; }
   .row-fluid.rtl-compatible .span4:nth-child(2) {
     display: none; }
+  .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
+    width: 50%; }
   .row-fluid.rtl-compatible a#prev-activity-link {
     left: 0; }
     .row-fluid.rtl-compatible a#prev-activity-link:before {

@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6, .quote-attribution {
 body, select, option {
   font-family: 'Open Sans', sans-serif; }
 
-h1, .h1 {
+h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 2.375rem;
   line-height: 1.1; }
 
@@ -78,7 +78,7 @@ p {
   line-height: 1.4; }
 
 @media only screen and (max-width: 767px) {
-  h1, .h1 {
+  h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.175rem;
     line-height: 1.12; }
   h2, .h2 {
@@ -1038,16 +1038,20 @@ ul.gtopics-0 {
     content: '\f057';
     padding: 0 4px; }
 
-.moodle-dialogue h1 {
-  font-size: 2.375rem; }
+.moodle-dialogue .moodle-dialogue-wrap {
+  padding: 1rem; }
+  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
+    background-color: unset;
+    border-bottom: unset; }
 
-.moodle-dialogue .confirmation-message {
-  font-family: 'KingsBureauGrotFiveOne';
-  font-size: 1rem; }
-
-.moodle-dialogue .btn, .moodle-dialogue .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .moodle-dialogue input[type="submit"]:first-child, .moodle-dialogue #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizattemptsummary tr td.lastcol .moodle-dialogue a, .moodle-dialogue #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #page-mod-quiz-view .quizstartbuttondiv form div .moodle-dialogue input[type="submit"]:first-child, .moodle-dialogue #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue a.endtestlink, .moodle-dialogue #page-mod-quiz-summary .controls .singlebutton input[type="submit"]:first-child, #page-mod-quiz-summary .controls .singlebutton .moodle-dialogue input[type="submit"]:first-child {
-  font-size: 1rem;
-  padding: 0.5rem 0.625rem;
-  border: unset;
-  background-color: #0A2D50 !important;
-  color: white; }
+.moodle-dialogue .moodle-dialoge-bd {
+  padding: unset; }
+  .moodle-dialogue .moodle-dialoge-bd .confirmation-message {
+    font-family: 'KingsBureauGrotFiveOne';
+    font-size: 1rem; }
+  .moodle-dialogue .moodle-dialoge-bd .btn, .moodle-dialogue .moodle-dialoge-bd .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizattemptsummary tr td.lastcol .moodle-dialogue .moodle-dialoge-bd a, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #page-mod-quiz-view .quizstartbuttondiv form div .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child, .moodle-dialogue .moodle-dialoge-bd #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue .moodle-dialoge-bd a.endtestlink, .moodle-dialogue .moodle-dialoge-bd #page-mod-quiz-summary .controls .singlebutton input[type="submit"]:first-child, #page-mod-quiz-summary .controls .singlebutton .moodle-dialogue .moodle-dialoge-bd input[type="submit"]:first-child {
+    font-size: 1rem;
+    padding: 0.5rem 0.625rem;
+    border: unset;
+    background-color: #0A2D50 !important;
+    color: white; }

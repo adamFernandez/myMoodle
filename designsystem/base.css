@@ -158,7 +158,7 @@ p {
 #jump-to-activity {
   display: none; }
 
-.navbutton, .single-section .section-navigation .mdl-bottom .mdl-left a:before, .single-section .section-navigation .mdl-bottom .mdl-right a:after {
+.navbutton, .single-section .section-navigation.mdl-bottom .mdl-left a:before, .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';
   font-size: 1.25rem;
   color: #FFFFFF;
@@ -166,15 +166,15 @@ p {
   padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .single-section .section-navigation .mdl-bottom .mdl-left a:hover:before, .single-section .section-navigation .mdl-bottom .mdl-right a:hover:after {
+  .navbutton:hover, .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
 
-.single-section .section-navigation .mdl-bottom {
+.single-section .section-navigation.mdl-bottom {
   font-family: 'KingsBureauGrot';
   font-size: 1.25rem;
   color: #0A2D50; }
-  .single-section .section-navigation .mdl-bottom:hover {
+  .single-section .section-navigation.mdl-bottom:hover {
     color: #526C84; }
 
 @media only screen and (min-width: 1440px) {

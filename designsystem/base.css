@@ -757,6 +757,9 @@ p {
 .indent > a:first-child {
   display: none; }
 
+ul.gtopics-0 {
+  margin: unset; }
+
 #gridiconcontainer {
   width: 103%; }
   #gridiconcontainer ul.gridicons {

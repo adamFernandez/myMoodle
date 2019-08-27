@@ -158,19 +158,6 @@ p {
 #jump-to-activity {
   display: none; }
 
-.navbutton, .single-section .section-navigation.mdl-bottom .mdl-left a:before, .single-section .section-navigation.mdl-bottom .mdl-right a:after {
-  font-family: 'FontAwesome';
-  font-size: 1.25rem;
-  color: #FFFFFF;
-  border-radius: 0.25rem;
-  padding: 4px 12px;
-  background-color: #0A2D50;
-  box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
-    background-color: #526C84;
-    box-shadow: 0 2px 0 0 #43566B;
-    text-decoration: unset; }
-
 .single-section .section-navigation.mdl-bottom {
   font-family: 'KingsBureauGrot';
   font-size: 1.25rem; }
@@ -350,28 +337,28 @@ p {
     .btn i:first-child, .forumaddnew div input[type="submit"]:first-child i:first-child, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a i:first-child, #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child i:first-child, #mod_quiz_navblock .content .othernav a.endtestlink i:first-child {
       margin-right: 0.375rem; }
 
-.bookbutton, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
+.navbutton, .single-section .section-navigation.mdl-bottom .mdl-left a:before, .single-section .section-navigation.mdl-bottom .mdl-right a:after, .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .section-navigation.mdl-bottom a.bookprev:before, .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after, .section-navigation.mdl-bottom a.booknext:after, .section-navigation.mdl-bottom a.bookexit:after {
   font-family: 'FontAwesome';
   font-size: 1.25rem;
   color: #FFFFFF;
   border-radius: 0.25rem;
   position: absolute;
-  top: 0;
+  top: calc(50% - 1rem);
   margin: 0;
   padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .bookbutton:hover, .navtext.navtop a.bookprev:hover:before, .navtext.navbottom a.bookprev:hover:before, .navtext.navtop a.booknext:hover:after, .navtext.navtop a.bookexit:hover:after, .navtext.navbottom a.booknext:hover:after, .navtext.navbottom a.bookexit:hover:after {
+  .navbutton:hover, .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after, .navtext.navtop a.bookprev:hover:before, .navtext.navbottom a.bookprev:hover:before, .section-navigation.mdl-bottom a.bookprev:hover:before, .navtext.navtop a.booknext:hover:after, .navtext.navtop a.bookexit:hover:after, .navtext.navbottom a.booknext:hover:after, .navtext.navbottom a.bookexit:hover:after, .section-navigation.mdl-bottom a.booknext:hover:after, .section-navigation.mdl-bottom a.bookexit:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
 
-.navtext.navtop, .navtext.navbottom {
+.navcontainer, .navtext.navtop, .navtext.navtop a.navtop, .navtext.navbottom a.navtop, .section-navigation.mdl-bottom a.navtop, .navtext.navbottom, .navtext.navtop a.navbottom, .navtext.navbottom a.navbottom, .section-navigation.mdl-bottom a.navbottom, .section-navigation.mdl-bottom {
   min-height: 6rem;
   position: relative;
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
-  .navtext.navtop a, .navtext.navbottom a {
+  .navcontainer .navtext, .navtext.navtop .navtext, .navtext.navtop a.navtop .navtext, .navtext.navbottom a.navtop .navtext, .section-navigation.mdl-bottom a.navtop .navtext, .navtext.navbottom .navtext, .navtext.navtop a.navbottom .navtext, .navtext.navbottom a.navbottom .navtext, .section-navigation.mdl-bottom a.navbottom .navtext, .section-navigation.mdl-bottom .navtext, .navtext.navtop a, .navtext.navtop a.navtop a, .navtext.navtop a.navbottom a, .navtext.navbottom a.navtop a, .navtext.navbottom a, .navtext.navbottom a.navbottom a, .section-navigation.mdl-bottom a.navtop a, .section-navigation.mdl-bottom a.navbottom a, .section-navigation.mdl-bottom a {
     position: absolute;
     max-width: 18rem;
     margin: 2.125rem 0;
@@ -379,41 +366,48 @@ p {
     font-size: 1.25rem;
     line-height: 1.2;
     color: #0a2d50; }
-    .navtext.navtop a.bookprev, .navtext.navbottom a.bookprev {
-      left: 7.125rem; }
-      .navtext.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before {
-        left: -3.125rem; }
-    .navtext.navtop a.booknext, .navtext.navtop a.bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a.bookexit {
-      text-align: right;
-      right: 7.125rem; }
-      .navtext.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after {
-        right: -3.125rem; }
-    .navtext.navtop a.bookexit .chaptername, .navtext.navbottom a.bookexit .chaptername {
-      display: none; }
-    .navtext.navtop a.bookexit:before, .navtext.navbottom a.bookexit:before {
-      font-family: 'KingsBureauGrot';
-      content: 'Exit lesson'; }
-    .navtext.navtop a.bookexit:after, .navtext.navbottom a.bookexit:after {
-      font-family: 'Font Awesome 5 Pro';
-      content: '\f2f5';
-      font-weight: 900;
-      padding: 0.25rem 0.375rem; }
-    .navtext.navtop a .chaptername, .navtext.navbottom a .chaptername {
-      font-family: 'KingsBureauGrotFiveOne';
-      font-size: 1.25rem;
-      font-weight: normal; }
-    .navtext.navtop a:hover, .navtext.navbottom a:hover {
-      color: #526C84;
-      text-decoration: underline; }
   @media only screen and (max-width: 767px) {
-    .navtext.navtop, .navtext.navbottom {
-      min-height: 10rem; }
-      .navtext.navtop a, .navtext.navbottom a {
+    .navcontainer, .navtext.navtop, .navtext.navtop a.navtop, .navtext.navbottom a.navtop, .section-navigation.mdl-bottom a.navtop, .navtext.navbottom, .navtext.navtop a.navbottom, .navtext.navbottom a.navbottom, .section-navigation.mdl-bottom a.navbottom, .section-navigation.mdl-bottom {
+      min-height: 12.5rem; }
+      .navcontainer .navtext, .navtext.navtop .navtext, .navtext.navtop a.navtop .navtext, .navtext.navbottom a.navtop .navtext, .section-navigation.mdl-bottom a.navtop .navtext, .navtext.navbottom .navtext, .navtext.navtop a.navbottom .navtext, .navtext.navbottom a.navbottom .navtext, .section-navigation.mdl-bottom a.navbottom .navtext, .section-navigation.mdl-bottom .navtext, .navtext.navtop a, .navtext.navtop a.navtop a, .navtext.navtop a.navbottom a, .navtext.navbottom a.navtop a, .navtext.navbottom a, .navtext.navbottom a.navbottom a, .section-navigation.mdl-bottom a.navtop a, .section-navigation.mdl-bottom a.navbottom a, .section-navigation.mdl-bottom a {
         width: calc(50% - 5rem); }
-        .navtext.navtop a.bookprev, .navtext.navbottom a.bookprev {
+        .navcontainer .navtext.bookprev, .navtext.navtop .navtext.bookprev, .navtext.navbottom .navtext.bookprev, .section-navigation.mdl-bottom .navtext.bookprev, .navtext.navtop a.bookprev, .navtext.navtop a.navtop a.bookprev, .navtext.navtop a.navbottom a.bookprev, .navtext.navbottom a.navtop a.bookprev, .navtext.navbottom a.bookprev, .navtext.navbottom a.navbottom a.bookprev, .section-navigation.mdl-bottom a.navtop a.bookprev, .section-navigation.mdl-bottom a.navbottom a.bookprev, .section-navigation.mdl-bottom a.bookprev {
           left: 4rem; }
-        .navtext.navtop a.booknext, .navtext.navtop a .bookexit, .navtext.navbottom a.booknext, .navtext.navbottom a .bookexit {
+        .navcontainer .navtext.booknext, .navtext.navtop .navtext.booknext, .navtext.navbottom .navtext.booknext, .section-navigation.mdl-bottom .navtext.booknext, .navtext.navtop a.booknext, .navtext.navtop a.navtop a.booknext, .navtext.navtop a.navbottom a.booknext, .navtext.navbottom a.navtop a.booknext, .navtext.navbottom a.booknext, .navtext.navbottom a.navbottom a.booknext, .section-navigation.mdl-bottom a.navtop a.booknext, .section-navigation.mdl-bottom a.navbottom a.booknext, .section-navigation.mdl-bottom a.booknext, .navcontainer .navtext.bookexit, .navtext.navtop .navtext.bookexit, .navtext.navbottom .navtext.bookexit, .section-navigation.mdl-bottom .navtext.bookexit, .navtext.navtop a.bookexit, .navtext.navtop a.navtop a.bookexit, .navtext.navtop a.navbottom a.bookexit, .navtext.navbottom a.navtop a.bookexit, .navtext.navbottom a.bookexit, .navtext.navbottom a.navbottom a.bookexit, .section-navigation.mdl-bottom a.navtop a.bookexit, .section-navigation.mdl-bottom a.navbottom a.bookexit, .section-navigation.mdl-bottom a.bookexit {
           right: 4rem; } }
+
+.navtext.navtop a.bookprev, .navtext.navtop a.navtop a.bookprev, .navtext.navbottom a.navtop a.bookprev, .section-navigation.mdl-bottom a.navtop a.bookprev, .navtext.navbottom a.bookprev, .navtext.navtop a.navbottom a.bookprev, .navtext.navbottom a.navbottom a.bookprev, .section-navigation.mdl-bottom a.navbottom a.bookprev, .section-navigation.mdl-bottom a.bookprev {
+  left: 7.125rem; }
+  .navtext.navtop a.bookprev:before, .navtext.navbottom a.navtop a.bookprev:before, .section-navigation.mdl-bottom a.navtop a.bookprev:before, .navtext.navbottom a.bookprev:before, .navtext.navtop a.navbottom a.bookprev:before, .section-navigation.mdl-bottom a.navbottom a.bookprev:before, .section-navigation.mdl-bottom a.bookprev:before {
+    left: -3.125rem; }
+
+.navtext.navtop a.booknext, .navtext.navtop a.navtop a.booknext, .navtext.navbottom a.navtop a.booknext, .section-navigation.mdl-bottom a.navtop a.booknext, .navtext.navtop a.bookexit, .navtext.navtop a.navtop a.bookexit, .navtext.navbottom a.navtop a.bookexit, .section-navigation.mdl-bottom a.navtop a.bookexit, .navtext.navbottom a.booknext, .navtext.navtop a.navbottom a.booknext, .navtext.navbottom a.navbottom a.booknext, .section-navigation.mdl-bottom a.navbottom a.booknext, .navtext.navbottom a.bookexit, .navtext.navtop a.navbottom a.bookexit, .navtext.navbottom a.navbottom a.bookexit, .section-navigation.mdl-bottom a.navbottom a.bookexit, .section-navigation.mdl-bottom a.booknext, .section-navigation.mdl-bottom a.bookexit {
+  text-align: right;
+  right: 7.125rem; }
+  .navtext.navtop a.booknext:after, .navtext.navbottom a.navtop a.booknext:after, .section-navigation.mdl-bottom a.navtop a.booknext:after, .navtext.navtop a.bookexit:after, .navtext.navbottom a.navtop a.bookexit:after, .section-navigation.mdl-bottom a.navtop a.bookexit:after, .navtext.navbottom a.booknext:after, .navtext.navtop a.navbottom a.booknext:after, .section-navigation.mdl-bottom a.navbottom a.booknext:after, .navtext.navbottom a.bookexit:after, .navtext.navtop a.navbottom a.bookexit:after, .section-navigation.mdl-bottom a.navbottom a.bookexit:after, .section-navigation.mdl-bottom a.booknext:after, .section-navigation.mdl-bottom a.bookexit:after {
+    right: -3.125rem; }
+
+.navtext.navtop a.bookexit .chaptername, .navtext.navbottom a.navtop a.bookexit .chaptername, .section-navigation.mdl-bottom a.navtop a.bookexit .chaptername, .navtext.navbottom a.bookexit .chaptername, .navtext.navtop a.navbottom a.bookexit .chaptername, .section-navigation.mdl-bottom a.navbottom a.bookexit .chaptername, .section-navigation.mdl-bottom a.bookexit .chaptername {
+  display: none; }
+
+.navtext.navtop a.bookexit:before, .navtext.navbottom a.navtop a.bookexit:before, .section-navigation.mdl-bottom a.navtop a.bookexit:before, .navtext.navbottom a.bookexit:before, .navtext.navtop a.navbottom a.bookexit:before, .section-navigation.mdl-bottom a.navbottom a.bookexit:before, .section-navigation.mdl-bottom a.bookexit:before {
+  font-family: 'KingsBureauGrot';
+  content: 'Exit lesson'; }
+
+.navtext.navtop a.bookexit:after, .navtext.navbottom a.navtop a.bookexit:after, .section-navigation.mdl-bottom a.navtop a.bookexit:after, .navtext.navbottom a.bookexit:after, .navtext.navtop a.navbottom a.bookexit:after, .section-navigation.mdl-bottom a.navbottom a.bookexit:after, .section-navigation.mdl-bottom a.bookexit:after {
+  font-family: 'Font Awesome 5 Pro';
+  content: '\f2f5';
+  font-weight: 900;
+  padding: 0.25rem 0.375rem; }
+
+.navtext.navtop a .chaptername, .navtext.navtop a.navtop a .chaptername, .navtext.navbottom a.navtop a .chaptername, .section-navigation.mdl-bottom a.navtop a .chaptername, .navtext.navbottom a .chaptername, .navtext.navtop a.navbottom a .chaptername, .navtext.navbottom a.navbottom a .chaptername, .section-navigation.mdl-bottom a.navbottom a .chaptername, .section-navigation.mdl-bottom a .chaptername {
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1.25rem;
+  font-weight: normal; }
+
+.navtext.navtop a:hover, .navtext.navtop a.navtop a:hover, .navtext.navbottom a.navtop a:hover, .section-navigation.mdl-bottom a.navtop a:hover, .navtext.navbottom a:hover, .navtext.navtop a.navbottom a:hover, .navtext.navbottom a.navbottom a:hover, .section-navigation.mdl-bottom a.navbottom a:hover, .section-navigation.mdl-bottom a:hover {
+  color: #526C84;
+  text-decoration: underline; }
 
 #next-activity-link:visited, #prev-activity-link:visited {
   color: #555; }

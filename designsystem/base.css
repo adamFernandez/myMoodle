@@ -1037,3 +1037,17 @@ ul.gtopics-0 {
     color: #E2231A;
     content: '\f057';
     padding: 0 4px; }
+
+.moodle-dialogue h1 {
+  font-size: 2.375rem; }
+
+.moodle-dialogue .confirmation-message {
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1rem; }
+
+.moodle-dialogue .btn, .moodle-dialogue .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .moodle-dialogue input[type="submit"]:first-child, .moodle-dialogue #page-mod-quiz-view .quizattemptsummary tr td.lastcol a, #page-mod-quiz-view .quizattemptsummary tr td.lastcol .moodle-dialogue a, .moodle-dialogue #page-mod-quiz-view .quizstartbuttondiv form div input[type="submit"]:first-child, #page-mod-quiz-view .quizstartbuttondiv form div .moodle-dialogue input[type="submit"]:first-child, .moodle-dialogue #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue a.endtestlink, .moodle-dialogue #page-mod-quiz-summary .controls .singlebutton input[type="submit"]:first-child, #page-mod-quiz-summary .controls .singlebutton .moodle-dialogue input[type="submit"]:first-child {
+  font-size: 1rem;
+  padding: 0.5rem 0.625rem;
+  border: unset;
+  background-color: #0A2D50 !important;
+  color: white; }

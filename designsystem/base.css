@@ -197,6 +197,9 @@ p {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
 
+.row-fluid.rtl-compatible .span4:nth-child(2) {
+  display: none; }
+
 .row-fluid.rtl-compatible a#prev-activity-link {
   left: 7.125rem; }
   @media only screen and (max-width: 767px) {

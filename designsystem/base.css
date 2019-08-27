@@ -295,6 +295,9 @@ p {
 .course-content ul.gtopics li.section .right {
   display: none; }
 
+.row {
+  background-color: unset; }
+
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne'; }
   .breadcrumb-nav ul.breadcrumb a {

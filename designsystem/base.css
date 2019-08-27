@@ -466,9 +466,16 @@ p {
     .card .card-body h4 {
       margin-top: unset; }
 
-.card-deck > .card {
-  display: block;
-  margin-bottom: 1.5rem; }
+.card-deck {
+  margin-left: unset;
+  margin-right: unset; }
+  .card-deck .card {
+    display: block;
+    margin-bottom: 1.5rem; }
+    .card-deck .card:first-child {
+      margin-left: unset; }
+    .card-deck .card:last-child {
+      margin-right: unset; }
 
 .carousel {
   margin-bottom: 3.5rem; }

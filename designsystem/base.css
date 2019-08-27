@@ -168,8 +168,7 @@ p {
       margin-top: unset; }
   #block-region-side-post {
     max-width: 330px;
-    margin-left: 23px;
-    padding-top: 4.125rem; } }
+    margin-left: 23px; } }
 
 .course-content ul.gtopics li.section .content {
   margin: unset; }
@@ -750,7 +749,7 @@ p {
   border-top: 1px solid #8B9296; }
   .forumpost .subject, .forumpost .author > a, .forumpost .commands > a {
     font-family: 'KingsBureauGrot'; }
-  .forumpost .author {
+  .forumpost .author, .forumpost .maincontent .content {
     font-family: 'KingsBureauGrotFiveOne'; }
   .forumpost .maincontent .content {
     margin-left: 3rem; }

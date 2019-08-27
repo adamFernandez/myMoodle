@@ -20,6 +20,9 @@
       line-height: 1.5;
       margin-bottom: 0;
     }
+    @media only screen and (max-width: $neo-breakpoint) {
+      position: unset;
+    }
   }
   &.text-only {
     .carousel-item {
@@ -69,9 +72,3 @@
     }
   }
 }  
-
-@media only screen and (max-width: 600px) {
-  .carousel-caption {
-    position: unset;
-  }
-}

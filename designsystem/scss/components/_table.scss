@@ -4,6 +4,8 @@
 
 .table {
   margin-bottom: $component-margin-bottom;
+  border-collapse: separate;
+  border-spacing: unset;
   &.table-bordered {
     border: 1px solid $table-border;
     border-radius: unset;
@@ -19,7 +21,7 @@
     }  
   }
   th {
-    background-color: edf1f2;
+    background-color: $block-background;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
     line-height: 1.4;

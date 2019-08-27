@@ -29,9 +29,6 @@
           right: 0;
         }
       }
-      button.collapsed h5::after {
-        content: '\f107';
-      }
     }
     .collapse-body {
       padding-right: 5rem;
@@ -48,6 +45,14 @@
         &:last-child {
           margin-bottom: unset;
         }
+      }
+    }
+    &.collapsed {
+      .collapse-header button .h4::after {
+        content: '\f107';
+      }
+      .collapse-body {
+        display: none;
       }
     }
   }

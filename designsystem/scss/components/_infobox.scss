@@ -45,6 +45,7 @@
 //key concept box
 .key-concept-box {
   background-color: $block-background;
+  margin-bottom: $component-margin-bottom;
   padding: 1.5rem;
   p {
     @include font-scale(key-concept, $font-os);

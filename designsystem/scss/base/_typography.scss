@@ -4,10 +4,11 @@
 
 html, body {
   font-size: 16px;
+  color: $body-text;
 }
 h1, h2, h3, h4, h5, h6, .quote-attribution {
   font-family: 'KingsBureauGrot';
-  color: #171717;
+  color: $headings;
   margin-bottom: 1.5rem;
 }
 body, select, option {
@@ -78,7 +79,7 @@ h6, .h6 { @include font-scale(h6) ;}
 p {
   @include font-scale(p, $font-os);
   margin-bottom: 1.5rem;
-  color: #333;
+  color: $body-text;
 }
 .caption {
   @include font-scale(caption, $font-os);
@@ -111,4 +112,12 @@ p {
   h5, .h5, h6, .h6 { @include font-scale(h56-sm) ;}
   .quote-body { @include font-scale(quote-body-sm, $font-kcd); }
   .quote-attribution { @include font-scale(quote-attribution-sm); }
+}
+
+// hide page title underline
+.path-mod-book .generalbox.book_content>h3 {
+  background: unset;
+  &:after {
+    display: none;
+  }
 }

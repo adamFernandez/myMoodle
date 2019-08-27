@@ -28,7 +28,20 @@
 }
 
 // horizontal card deck
-.card-deck > .card {
-  display: block;
-  margin-bottom: 1.5rem;
+.card-deck {
+  margin-left: unset;
+  margin-right: unset;
+  .card {
+    display: block;
+    margin-bottom: 1.5rem;
+    &:first-child {
+      margin-left: unset;
+    }
+    &:last-child {
+      margin-right: unset;
+    }
+    .card-img-top, .card-img-left {
+      width: 100%;
+    }
+  }
 }

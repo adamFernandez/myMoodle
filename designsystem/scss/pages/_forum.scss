@@ -1,0 +1,63 @@
+// -----------------------------------------------------------------------------
+// forum
+// -----------------------------------------------------------------------------
+
+.forumaddnew {
+  div {
+    margin: unset;
+    input[type="submit"]:first-child {
+      @extend .btn, .btn-primary;
+      margin: unset;
+    }
+  }
+}
+
+.path-mod-forum {
+  .forumheaderlist {
+    thead .header {
+      font-family: 'KingsBureauGrot';
+      border-top: inherit;
+    }
+    tr {
+      font-family: 'KingsBureauGrotFiveOne';
+      border-top: 1px solid $table-border;
+      &:last-child {
+        border-bottom: 1px solid $table-border;
+      }
+      td {
+        background-color: unset !important;
+        border: inherit;
+        vertical-align: middle;
+        &.author .media:first-child {
+          display: flex;
+          align-items: center;
+          img.userpicture {
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+  .discussion-nav {
+    font-family: 'KingsBureauGrot';
+  }
+}
+
+.forumpost {
+  margin-bottom: unset;
+  background-color: unset;
+  border: unset;
+  border-top: 1px solid $table-border;
+  .subject, .author > a, .commands > a {
+    font-family: 'KingsBureauGrot';
+  }
+  .author, .maincontent .content {
+    font-family: 'KingsBureauGrotFiveOne';
+  }
+  .maincontent .content {
+    margin-left: 3rem;
+  }
+}
+.indent > a:first-child {
+  display:none;
+}

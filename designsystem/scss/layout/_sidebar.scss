@@ -1,4 +1,4 @@
-#block-region-side-post .block {
+#block-region-side-pre .block, #block-region-side-post .block {
   &:not(.block_fake) .title h2::after {
     content: '\f068';
     font-family: 'Font Awesome 5 Pro';
@@ -28,6 +28,8 @@
       position: relative;
       padding: unset;
       h2 {
+        line-height: 1.4;
+        color: $midnight-blue;
         pointer-events: none;
       }
       // hide block action buttons

@@ -12,10 +12,10 @@
 
 @import 'layout/navigation';
 @import 'layout/grid';
-//@import 'layout/header';
+@import 'layout/header';
 //@import 'layout/footer';
 @import 'layout/sidebar';
-//@import 'layout/forms';
+@import 'layout/forms';
 
 //@import 'components/buttons';
 @import 'components/alert';
@@ -30,8 +30,10 @@
 @import 'components/table';
 @import 'components/timeline';
 
+@import 'pages/forum';
 @import 'pages/home';
 @import 'pages/modinfo';
+@import 'pages/quiz';
 
 //@import 'themes/theme';
 //@import 'themes/admin';

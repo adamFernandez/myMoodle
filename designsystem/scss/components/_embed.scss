@@ -43,10 +43,7 @@
         font-weight: 900;
         margin-right: 0.375rem
     }
-    a.view-close-transcript.collapsed::before {
-        content: '\f06e';
-    }
-    a.view-close-transcript::before {
+  a.view-close-transcript::before {
         content: '\f070';
     }
     a.download-transcript::before {
@@ -57,5 +54,13 @@
     border-left: 4px solid $pearl-grey;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem;
+  }
+  &.collapsed {
+    .transcript-button-group a.view-close-transcript::before {
+        content: '\f06e';
+    }
+    .transcript-card {
+      display: none;
+    }
   }
 }

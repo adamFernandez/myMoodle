@@ -6,10 +6,15 @@
   }
   #region-bs-main-and-pre {
     max-width: 979px;
+    .single-section {
+      margin-top: unset;
+    }
   }
   #block-region-side-post {
     max-width: 330px;
     margin-left: 23px;
+    // align to top of hero banner
+    // padding-top: 4.125rem;
   }
 }
 
@@ -21,4 +26,9 @@
   .right {
     display: none;
   }
+}
+
+// all of a sudden rows are now grey. not on my watch!
+.row {
+  background-color: unset;
 }

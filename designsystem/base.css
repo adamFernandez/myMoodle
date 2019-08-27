@@ -119,7 +119,8 @@ p {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #000 !important;
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 1rem; }
   .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .que.deferredfeedback .content .outcome p, .que.manualgraded .content .outcome p {
     color: #000 !important; }
     .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .que.deferredfeedback .content .outcome p:last-child, .que.manualgraded .content .outcome p:last-child {

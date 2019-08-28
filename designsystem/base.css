@@ -26,7 +26,7 @@ h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 2.375rem;
   line-height: 1.1; }
 
-h2, .h2 {
+h2, .h2, #page-mod-forum-discuss .forumpost .header .subject {
   font-size: 1.875rem;
   line-height: 1.25; }
 
@@ -82,7 +82,7 @@ p {
   h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.175rem;
     line-height: 1.12; }
-  h2, .h2 {
+  h2, .h2, #page-mod-forum-discuss .forumpost .header .subject {
     font-size: 1.5rem;
     line-height: 1.25; }
   h3, .h3 {
@@ -841,19 +841,28 @@ table, .table {
 .path-mod-forum .discussion-nav {
   font-family: 'KingsBureauGrot'; }
 
-.forumpost {
+#page-mod-forum-discuss .forumpost {
   margin-bottom: unset;
   background-color: unset;
   border: unset;
   border-top: 1px solid #8B9296; }
-  .forumpost .subject, .forumpost .author > a, .forumpost .commands > a {
-    font-family: 'KingsBureauGrot'; }
-  .forumpost .author, .forumpost .maincontent .content {
+  #page-mod-forum-discuss .forumpost .header {
+    background: unset;
+    margin-bottom: unset;
+    padding: unset; }
+    #page-mod-forum-discuss .forumpost .header .author {
+      font-family: 'KingsBureauGrot'; }
+      #page-mod-forum-discuss .forumpost .header .author::before {
+        display: none; }
+  #page-mod-forum-discuss .forumpost .maincontent .content {
+    margin-left: 3rem;
     font-family: 'KingsBureauGrotFiveOne'; }
-  .forumpost .maincontent .content {
-    margin-left: 3rem; }
+  #page-mod-forum-discuss .forumpost .commands > a {
+    font-family: 'KingsBureauGrot'; }
+  #page-mod-forum-discuss .forumpost.firstpost .maincontent .content {
+    margin-left: unset; }
 
-.indent > a:first-child {
+#page-mod-forum-discuss .indent > a:first-child {
   display: none; }
 
 ul.gtopics-0 {

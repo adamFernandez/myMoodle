@@ -16,7 +16,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6,
 .h1,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -43,7 +43,7 @@ h4, .h4 {
   font-size: 1.25rem;
   line-height: 1.4; }
 
-h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno {
+h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno {
   font-size: 1.125rem;
   line-height: 1.4; }
 
@@ -98,7 +98,7 @@ p {
   h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4; }
-  h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
   .quote-body {
@@ -847,6 +847,24 @@ table, .table {
 
 .path-mod-forum .discussion-nav {
   font-family: 'KingsBureauGrot'; }
+
+#page-mod-forum-discuss .notifications .alert.alert-success > :first-child::before, #page-mod-forum-view .notifications .alert.alert-success > :first-child::before, #page-mod-forum-post .notifications .alert.alert-success > :first-child::before {
+  display: none; }
+
+#page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type {
+  margin: 0.5rem 0.25rem 1rem 3.125rem; }
+  #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type::before, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type::before, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type::before {
+    content: '\f164';
+    font-family: 'Font Awesome 5 Pro';
+    color: #28C382;
+    padding: 0 4px;
+    font-weight: 900;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.5rem; }
+
+#page-mod-forum-discuss .notifications .alert.alert-success p, #page-mod-forum-view .notifications .alert.alert-success p, #page-mod-forum-post .notifications .alert.alert-success p {
+  margin: 0 0.25rem 1rem 3.125rem; }
 
 #page-mod-forum-discuss .forummode .custom-select.forummode, #page-mod-forum-view .forummode .custom-select.forummode, #page-mod-forum-post .forummode .custom-select.forummode {
   font-family: 'KingsBureauGrotFiveOne';

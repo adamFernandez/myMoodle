@@ -107,6 +107,9 @@ p {
   .path-mod-book .generalbox.book_content > h3:after {
     display: none; }
 
+li {
+  line-height: inherit; }
+
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;

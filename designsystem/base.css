@@ -16,7 +16,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6,
 .h1,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost .header .author, #page-mod-forum-view.forumtype-single .forumpost .header .author, #page-mod-forum-post.forumtype-single .forumpost .header .author,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -47,7 +47,7 @@ h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que
   font-size: 1.125rem;
   line-height: 1.4; }
 
-h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost .header .author, #page-mod-forum-view.forumtype-single .forumpost .header .author, #page-mod-forum-post.forumtype-single .forumpost .header .author {
+h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
   font-size: 1rem;
   line-height: 1.4; }
 
@@ -98,7 +98,7 @@ p {
   h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4; }
-  h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost .header .author, #page-mod-forum-view.forumtype-single .forumpost .header .author, #page-mod-forum-post.forumtype-single .forumpost .header .author {
+  h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
   .quote-body {
@@ -887,14 +887,14 @@ table, .table {
 #page-mod-forum-discuss .indent > a:first-child, #page-mod-forum-view .indent > a:first-child, #page-mod-forum-post .indent > a:first-child {
   display: none; }
 
-#page-mod-forum-discuss.forumtype-single .forumpost .header .subject, #page-mod-forum-view.forumtype-single .forumpost .header .subject, #page-mod-forum-post.forumtype-single .forumpost .header .subject {
-  display: none; }
-
-#page-mod-forum-discuss.forumtype-single .forumpost .header .author, #page-mod-forum-view.forumtype-single .forumpost .header .author, #page-mod-forum-post.forumtype-single .forumpost .header .author {
-  color: #5A6469; }
-
 #page-mod-forum-discuss.forumtype-single .forumpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost .maincontent .content {
   margin-left: 6rem; }
+
+#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .subject {
+  display: none; }
+
+#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+  color: #5A6469; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost.firstpost .maincontent .content {
   margin-left: unset; }

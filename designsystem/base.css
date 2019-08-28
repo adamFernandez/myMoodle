@@ -896,13 +896,13 @@ table, .table {
 #page-mod-forum-discuss.forumtype-single .forumpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost .maincontent .content {
   margin-left: 6rem; }
 
-#page-mod-forum-discuss.forumtype-single .forumpost .row.side .left, #page-mod-forum-view.forumtype-single .forumpost .row.side .left, #page-mod-forum-post.forumtype-single .forumpost .row.side .left {
-  display: none; }
-
-#page-mod-forum-discuss.forumtype-single .forumpost .row.side .options, #page-mod-forum-view.forumtype-single .forumpost .row.side .options, #page-mod-forum-post.forumtype-single .forumpost .row.side .options {
+#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost.firstpost .maincontent .content {
   margin-left: unset; }
 
-#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost.firstpost .maincontent .content {
+#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .row.side .left, #page-mod-forum-view.forumtype-single .forumpost.firstpost .row.side .left, #page-mod-forum-post.forumtype-single .forumpost.firstpost .row.side .left {
+  display: none; }
+
+#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-view.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-post.forumtype-single .forumpost.firstpost .row.side .options {
   margin-left: unset; }
 
 #page-mod-forum-post .forumpost .header .topic {

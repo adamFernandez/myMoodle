@@ -16,7 +16,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6,
 .h1,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, #page-mod-forum-discuss .forumpost .header .subject, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, #page-mod-forum-discuss .forumpost .header .subject, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss .forumpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -47,7 +47,7 @@ h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que
   font-size: 1.125rem;
   line-height: 1.4; }
 
-h6, .h6 {
+h6, .h6, #page-mod-forum-discuss .forumpost .header .author {
   font-size: 1rem;
   line-height: 1.4; }
 
@@ -98,7 +98,7 @@ p {
   h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4; }
-  h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6 {
+  h5, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss .forumpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
   .quote-body {
@@ -857,10 +857,7 @@ table, .table {
     background: unset;
     margin-bottom: unset;
     padding: unset; }
-    #page-mod-forum-discuss .forumpost .header .subject {
-      font-family: 'KingsBureaGrot'; }
     #page-mod-forum-discuss .forumpost .header .author {
-      font-family: 'KingsBureauGrot';
       color: #5A6469; }
       #page-mod-forum-discuss .forumpost .header .author::before {
         display: none; }
@@ -869,8 +866,12 @@ table, .table {
     font-family: 'KingsBureauGrotFiveOne'; }
     #page-mod-forum-discuss .forumpost .maincontent .content p {
       font-family: inherit; }
-  #page-mod-forum-discuss .forumpost .commands > a {
-    font-family: 'KingsBureauGrot'; }
+  #page-mod-forum-discuss .forumpost .row.side .left {
+    display: none; }
+  #page-mod-forum-discuss .forumpost .row.side .options {
+    margin-left: unset; }
+    #page-mod-forum-discuss .forumpost .row.side .options .commands > a {
+      font-family: 'KingsBureauGrot'; }
   #page-mod-forum-discuss .forumpost.firstpost .maincontent .content {
     margin-left: unset; }
 

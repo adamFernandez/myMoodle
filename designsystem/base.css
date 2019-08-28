@@ -828,9 +828,6 @@ table, .table {
   margin-bottom: 1.5rem; }
   .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.icon, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.iconhelp {
     padding: unset; }
-  .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .helptooltip {
-    margin: unset;
-    margin-right: 1rem; }
   .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#search {
     height: 2.625rem;
     border-radius: 5px; }

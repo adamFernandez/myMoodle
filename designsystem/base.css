@@ -893,9 +893,6 @@ table, .table {
 #page-mod-forum-discuss.forumtype-single .forumpost .header .author, #page-mod-forum-view.forumtype-single .forumpost .header .author, #page-mod-forum-post.forumtype-single .forumpost .header .author {
   color: #5A6469; }
 
-#page-mod-forum-discuss.forumtype-single .forumpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost .maincontent .content {
-  margin-left: 6rem; }
-
 #page-mod-forum-discuss.forumtype-single .forumpost .row.side .left, #page-mod-forum-view.forumtype-single .forumpost .row.side .left, #page-mod-forum-post.forumtype-single .forumpost .row.side .left {
   display: none; }
 
@@ -904,6 +901,12 @@ table, .table {
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost.firstpost .maincontent .content {
   margin-left: unset; }
+
+#page-mod-forum-post .forumpost .header .topic {
+  flex: 1; }
+
+#page-mod-forum-post .forumpost .maincontent .content {
+  margin-left: 6rem; }
 
 ul.gtopics-0 {
   margin: unset; }

@@ -6,7 +6,9 @@ html, body {
   font-size: 16px;
   color: $body-text;
 }
-h1, h2, h3, h4, h5, h6, .quote-attribution {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+.quote-attribution {
   font-family: 'KingsBureauGrot';
   color: $headings;
   margin-bottom: 1.5rem;
@@ -120,4 +122,9 @@ p {
   &:after {
     display: none;
   }
+}
+
+//override theme list font style
+li {
+  line-height: inherit;
 }

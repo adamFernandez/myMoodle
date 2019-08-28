@@ -45,7 +45,8 @@
   color: $white;
   border-radius: 0.25rem;
   position: absolute;
-  top: calc(50% - 1rem);
+  top: 0;
+//  top: calc(50% - 1rem);
   margin: 0;
   padding: 4px 12px;
   background-color: $midnight-blue;
@@ -53,6 +54,10 @@
   &:hover {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B;
+  }
+  @media only screen and (max-width: $neo-breakpoint) {
+    padding: 5px 16.5px;
+    font-size: 1.5625rem;
   }
 }
 
@@ -120,54 +125,62 @@
 }
 
 // book navigation
-.navtext.navtop, .navtext.navbottom {
-  @extend .navcontainer;
-  a {
-    @extend .navtext;
-    &.bookprev {
-      left: $lg-nav-margin;
-      @media only screen and (max-width: $neo-breakpoint) {
-        left: $sm-nav-margin;
+#page-mod-book-view {
+  .navtext.navtop, .navtext.navbottom {
+    @extend .navcontainer;
+    a {
+      @extend .navtext;
+      &.bookprev {
+        left: $lg-nav-margin;
+        @media only screen and (max-width: $neo-breakpoint) {
+          left: $sm-nav-margin;
+        }
+        &:before {
+          @extend .navbutton;
+          left: -3.125rem;
+        }
       }
-      &:before {
-        @extend .navbutton;
-        left: -3.125rem;
+      &.booknext, &.bookexit {
+        text-align: right;
+        right: $lg-nav-margin;
+        @media only screen and (max-width: $neo-breakpoint) {
+          right: $sm-nav-margin;
+        }
+        &:after {
+          @extend .navbutton;
+          right: -3.125rem;
+        }
+      }
+      &.bookexit {
+        .chaptername {
+          display: none;
+        }
+        &:before {
+          font-family: 'KingsBureauGrot';
+          content: 'Exit lesson';
+        }
+        &:after {
+          font-family: 'Font Awesome 5 Pro';
+          content: '\f2f5';
+          font-weight: 900;
+          padding: 0.25rem 0.375rem;
+          @media only screen and (max-width: $neo-breakpoint) {
+            padding: 5px 8.5px;
+          }
+        }
+      }
+      .chaptername{
+        font-family: 'KingsBureauGrotFiveOne';
+        font-size: 1.25rem;
+        font-weight: normal;
+      }
+      &:hover {
+        color: #526C84;
+        text-decoration: underline;
       }
     }
-    &.booknext, &.bookexit {
-      text-align: right;
-      right: $lg-nav-margin;
-      @media only screen and (max-width: $neo-breakpoint) {
-        right: $sm-nav-margin;
-      }
-      &:after {
-        @extend .navbutton;
-        right: -3.125rem;
-      }
-    }
-    &.bookexit {
-      .chaptername {
-        display: none;
-      }
-      &:before {
-        font-family: 'KingsBureauGrot';
-        content: 'Exit lesson';
-      }
-      &:after {
-        font-family: 'Font Awesome 5 Pro';
-        content: '\f2f5';
-        font-weight: 900;
-        padding: 0.25rem 0.375rem;
-      }
-    }
-    .chaptername{
-      font-family: 'KingsBureauGrotFiveOne';
-      font-size: 1.25rem;
-      font-weight: normal;
-    }
-    &:hover {
-      color: #526C84;
-      text-decoration: underline;
-    }
+  }
+  .row-fluid.rtl-compatible {
+    display: none;
   }
 }

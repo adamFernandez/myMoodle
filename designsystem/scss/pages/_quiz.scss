@@ -19,6 +19,7 @@
   } 
   .quizattemptsummary {
     border: 1px solid $table-border;
+    border-collapse: separate;
     thead .header {
       font-family: 'KingsBureauGrot';
       background-color: #01b9e1;
@@ -82,6 +83,17 @@
   }
 }
 
+//quiz attempt page
+#page-mod-quiz-attempt {
+  .submitbtns {
+    .mod_quiz-prev-nav.btn.btn-secondary {
+      @extend .btn, .btn-secondary;
+    }
+    .mod_quiz-next-nav.btn.btn-primary {
+      @extend .btn, .btn-primary;
+    }
+  }
+}
 // quiz navigation block
 #mod_quiz_navblock .content {
   a.qnbutton {
@@ -131,6 +143,16 @@
         font-family: 'Font Awesome 5 Pro';
         font-weight: 900;
         margin-right: 4px;
+      }
+    }
+    .singlebutton {
+      div {
+        margin-right: unset;
+        input[type="submit"] {
+          @extend .btn, .btn-primary;
+          margin-right: unset;
+          margin-top: 1rem;
+        }
       }
     }
   }

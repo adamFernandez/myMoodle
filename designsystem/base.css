@@ -848,6 +848,10 @@ table, .table {
 .path-mod-forum .discussion-nav {
   font-family: 'KingsBureauGrot'; }
 
+#page-mod-forum-discuss .forummode .custom-select.forummode {
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1rem; }
+
 #page-mod-forum-discuss .forumpost {
   margin-bottom: unset;
   background-color: unset;
@@ -864,6 +868,8 @@ table, .table {
   #page-mod-forum-discuss .forumpost .maincontent .content {
     margin-left: 3rem;
     font-family: 'KingsBureauGrotFiveOne'; }
+    #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost {
+      margin-top: unset; }
     #page-mod-forum-discuss .forumpost .maincontent .content p {
       font-family: inherit; }
   #page-mod-forum-discuss .forumpost .row.side .left {

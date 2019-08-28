@@ -819,7 +819,9 @@ table, .table {
 
 .path-mod-forum .forumheaderlist thead .header {
   font-family: 'KingsBureauGrot';
-  border-top: inherit; }
+  border-top: inherit;
+  border-left: unset !important;
+  background-color: unset; }
 
 .path-mod-forum .forumheaderlist tr {
   font-family: 'KingsBureauGrotFiveOne';

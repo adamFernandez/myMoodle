@@ -299,7 +299,7 @@ li {
   color: #526C84;
   text-decoration: underline; }
 
-#page-mod-book-view .row-fluid rtl-compatible {
+#page-mod-book-view .row-fluid.rtl-compatible {
   display: none; }
 
 @media only screen and (min-width: 1440px) {

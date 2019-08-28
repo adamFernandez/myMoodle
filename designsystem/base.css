@@ -14,7 +14,10 @@ html, body {
   font-size: 16px;
   color: #333333; }
 
-h1, h2, h3, h4, h5, h6, .quote-attribution {
+h1, h2, h3, h4, h5, h6,
+.h1,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, #page-mod-forum-discuss .forumpost .header .subject, .h3, .h4, .h5, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6,
+.quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
   margin-bottom: 1.5rem; }
@@ -22,7 +25,9 @@ h1, h2, h3, h4, h5, h6, .quote-attribution {
 body, select, option {
   font-family: 'Open Sans', sans-serif; }
 
-h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+h1,
+.h1,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 2.375rem;
   line-height: 1.1; }
 
@@ -79,7 +84,9 @@ p {
   line-height: 1.4; }
 
 @media only screen and (max-width: 767px) {
-  h1, .h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+  h1,
+  .h1,
+  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.175rem;
     line-height: 1.12; }
   h2, .h2, #page-mod-forum-discuss .forumpost .header .subject {
@@ -850,13 +857,18 @@ table, .table {
     background: unset;
     margin-bottom: unset;
     padding: unset; }
+    #page-mod-forum-discuss .forumpost .header .subject {
+      font-family: 'KingsBureaGrot'; }
     #page-mod-forum-discuss .forumpost .header .author {
-      font-family: 'KingsBureauGrot'; }
+      font-family: 'KingsBureauGrot';
+      color: #5A6469; }
       #page-mod-forum-discuss .forumpost .header .author::before {
         display: none; }
   #page-mod-forum-discuss .forumpost .maincontent .content {
     margin-left: 3rem;
     font-family: 'KingsBureauGrotFiveOne'; }
+    #page-mod-forum-discuss .forumpost .maincontent .content p {
+      font-family: inherit; }
   #page-mod-forum-discuss .forumpost .commands > a {
     font-family: 'KingsBureauGrot'; }
   #page-mod-forum-discuss .forumpost.firstpost .maincontent .content {

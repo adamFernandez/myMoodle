@@ -329,6 +329,9 @@ li {
 .row {
   background-color: unset; }
 
+.book_content {
+  padding-top: unset; }
+
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne'; }
   .breadcrumb-nav ul.breadcrumb a {

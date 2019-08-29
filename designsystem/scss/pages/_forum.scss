@@ -189,4 +189,10 @@
       @extend .btn, .btn-primary;
     }
   }
+  #notice.modal {
+    .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+    input[type="submit"]:first-child {
+      @extend .btn-secondary;
+    }
+  }
 }

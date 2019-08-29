@@ -20,13 +20,14 @@
           position: relative;
           margin: unset;
           color: $midnight-blue;
+          width: calc(100% - 1rem);
         }
         .h4::after {
           content: '\f106';
           font-family: 'Font Awesome 5 Pro';
           font-weight: 900;
           position: absolute;
-          right: 0;
+          right: -1rem;
           top: 0;
         }
       }

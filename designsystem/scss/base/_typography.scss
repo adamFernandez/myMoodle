@@ -26,7 +26,7 @@ $font-kbg: (
   h4: ( font-size: 1.25rem, line-height: 1.4 ),
   h5: ( font-size: 1.125rem, line-height: 1.4 ),
   h6: ( font-size: 1rem, line-height: 1.4 ),
-  h1-sm: ( font-size: 1.175rem, line-height: 1.12),
+  h1-sm: ( font-size: 1.75rem, line-height: 1.2),
   h2-sm: ( font-size: 1.5rem, line-height: 1.25 ),
   h3-sm: ( font-size: 1.25rem, line-height: 1.25 ),
   h4-sm: ( font-size: 1.125rem, line-height: 1.4 ),
@@ -127,4 +127,22 @@ p {
 //override theme list font style
 li {
   line-height: inherit;
+}
+
+//override book headings
+.path-mod-book {
+  #region-main>div>h2 {
+    @extend .h1;
+  }
+  .generalbox.book_content>h3 {
+    @extend .h2;
+  }
+}
+
+//override module week page link
+.instancename {
+  color: $midnight-blue;
+  &:hover {
+    color: #003d5c;
+  }
 }

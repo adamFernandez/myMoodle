@@ -55,3 +55,30 @@
     padding: 0.6875rem 1rem;
   }
 }
+
+.singlebutton > form > div {
+  margin: unset;
+  input[type="submit"]:first-child {
+    @extend .btn, .btn-primary;
+    margin-left: unset;
+  }
+}
+
+// restrict access button
+.pagelayout-admin {
+  .moodle-dialogue .moodle-dialogue-bd .col-6 {
+    max-width: unset;
+    button#availability_addrestriction_date,
+    button#availability_addrestriction_grade,
+    button#availability_addrestriction_profile,
+    button#availability_addrestriction_list_ {
+      width: auto !important;
+    }
+  }
+}
+
+
+// override white visited button text
+button a.btn-secondary:visited, .btn a.btn-secondary:visited, a.btn.btn-secondary:visited {
+  color: $midnight-blue;
+}

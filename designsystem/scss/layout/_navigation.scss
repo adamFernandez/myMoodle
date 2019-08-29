@@ -23,8 +23,11 @@
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0;
+  @media only screen and (max-width: $lg-breakpoint) {
+    min-height: 10rem;
+  }
   @media only screen and (max-width: $neo-breakpoint) {
-    min-height: 12.5rem;
+    min-height: 14.5rem;
   }
   .navtext {
     position: absolute;
@@ -34,6 +37,12 @@
     font-size: 1.25rem;
     line-height: 1.2;
     color: #0a2d50;
+    @media only screen and (max-width: $xl-breakpoint) {
+      max-width: 16rem;
+    }
+    @media only screen and (max-width: $lg-breakpoint) {
+      max-width: 8rem;
+    }
     @media only screen and (max-width: $neo-breakpoint) {
       width: calc(50% - 5rem);
     }

@@ -17,7 +17,7 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 #notice.modal .modal-content .modal-header h4,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .h3, .path-mod-book .generalbox.book_content > h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -37,7 +37,7 @@ h2, .h2 {
   font-size: 1.875rem;
   line-height: 1.25; }
 
-h3, .h3 {
+h3, .h3, .path-mod-book .generalbox.book_content > h3 {
   font-size: 1.5rem;
   line-height: 1.25; }
 
@@ -95,7 +95,7 @@ p {
   h2, .h2 {
     font-size: 1.5rem;
     line-height: 1.25; }
-  h3, .h3 {
+  h3, .h3, .path-mod-book .generalbox.book_content > h3 {
     font-size: 1.25rem;
     line-height: 1.25; }
   h4, .h4 {
@@ -119,9 +119,6 @@ p {
 
 li {
   line-height: inherit; }
-
-.path-mod-book .generalbox.book_content > h3 {
-  color: #171717; }
 
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome {
   margin-bottom: 1.5rem;

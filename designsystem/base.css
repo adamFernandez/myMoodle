@@ -683,6 +683,12 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .float-box .img-right {
     margin: unset;
     margin-left: 1rem; }
+  @media only screen and (max-width: 767px) {
+    .float-box {
+      display: block; }
+      .float-box img, .float-box .img-left {
+        margin-right: unset;
+        margin-bottom: 1rem; } }
 
 .carousel {
   margin-bottom: 3.5rem; }

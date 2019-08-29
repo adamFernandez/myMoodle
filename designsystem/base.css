@@ -599,6 +599,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .
   .singlebutton > form > div input[type="submit"]:first-child {
     margin-left: unset; }
 
+button#availability_addrestriction_grade {
+  width: auto; }
+
 .card {
   display: flex;
   flex-direction: unset;

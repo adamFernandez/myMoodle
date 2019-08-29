@@ -648,6 +648,16 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .
     .card-deck .card .card-img-top, .card-deck .card .card-img-left {
       width: 100%; }
 
+.float-box {
+  display: flex;
+  margin-bottom: 1.5rem; }
+  .float-box img, .float-box .img-left {
+    margin: unset;
+    margin-right: 1rem; }
+  .float-box img-right {
+    margin: unset;
+    margin-left: 1rem; }
+
 .carousel {
   margin-bottom: 3.5rem; }
   .carousel::before {

@@ -681,14 +681,17 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     margin: unset;
     margin-right: 1rem; }
   .float-box .img-right {
-    margin: unset;
     margin-left: 1rem; }
   @media only screen and (max-width: 767px) {
     .float-box {
       display: block; }
       .float-box img, .float-box .img-left {
         margin-right: unset;
-        margin-bottom: 1rem; } }
+        margin-bottom: 1rem;
+        width: 100%;
+        height: auto; }
+      .float-box .img-right {
+        margin-left: unset; } }
 
 .carousel {
   margin-bottom: 3.5rem; }

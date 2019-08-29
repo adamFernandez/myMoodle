@@ -414,7 +414,8 @@ li {
       margin-left: unset; }
 
 .singleselect form, .singleselect select, .singleselect select option {
-  font-family: 'KingsBureauGrotFiveOne'; }
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1rem; }
 
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }

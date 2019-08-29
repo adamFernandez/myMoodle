@@ -123,6 +123,11 @@ p {
 li {
   line-height: inherit; }
 
+.instancename {
+  color: #0A2D50; }
+  .instancename:hover {
+    color: #003d5c; }
+
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;

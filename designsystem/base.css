@@ -599,12 +599,12 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .
   .singlebutton > form > div input[type="submit"]:first-child {
     margin-left: unset; }
 
-.payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 {
+.pagelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 {
   max-width: unset; }
-  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_date,
-  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_grade,
-  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_profile,
-  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_list_ {
+  .pagelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_date,
+  .pagelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_grade,
+  .pagelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_profile,
+  .pagelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_list_ {
     width: auto !important; }
 
 .card {

@@ -599,8 +599,11 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .
   .singlebutton > form > div input[type="submit"]:first-child {
     margin-left: unset; }
 
-button#availability_addrestriction_grade {
-  width: auto; }
+button#availability_addrestriction_date,
+button#availability_addrestriction_grade,
+button#availability_addrestriction_profile,
+button#availability_addrestriction_list_ {
+  width: auto !important; }
 
 .card {
   display: flex;

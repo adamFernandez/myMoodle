@@ -1155,7 +1155,7 @@ ul.gtopics-0 {
   background-color: unset;
   margin-top: 1rem;
   padding: unset; }
-  .que.deferredfeedback .content .formulation .qtext, .que.deferredfeedback .content .formulation .qtext p, .que.manualgraded .content .formulation .qtext, .que.manualgraded .content .formulation .qtext p {
+  .que.deferredfeedback .content .formulation .qtext b, .que.manualgraded .content .formulation .qtext b {
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.4; }

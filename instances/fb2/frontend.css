@@ -353,8 +353,6 @@ button.accordion.active, button.accordion:hover {
 }	
 
 .completionprogress {
-	right: 10px;
-	padding-top: 10px;
 	position: absolute !important;
 	z-index: 2;
 }
@@ -431,7 +429,8 @@ div.MathJax_Display {
 
 /*Your progress correction */
 .path-course-view .completionprogress {
-    margin-right: 10px;
+    margin-right: 100px;
+margin-top: 20px;
     color: white;
     font-weight: 700;
 }

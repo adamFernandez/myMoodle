@@ -329,6 +329,15 @@ li {
     max-width: 330px;
     margin-left: 23px; } }
 
+@media only screen and (max-width: 979px) {
+  #page {
+    padding: 10px 0; }
+  #region-bs-main-and-pre {
+    width: 100%; }
+  #block-region-side-post {
+    width: 100%;
+    margin-left: unset; } }
+
 .course-content ul.gtopics li.section .content {
   margin: unset; }
 

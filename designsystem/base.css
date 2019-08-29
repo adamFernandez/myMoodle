@@ -597,13 +597,14 @@ li {
         .collapse-container .collapse-card .collapse-header button .h4 {
           position: relative;
           margin: unset;
-          color: #0A2D50; }
+          color: #0A2D50;
+          width: calc(100% - 1rem); }
         .collapse-container .collapse-card .collapse-header button .h4::after {
           content: '\f106';
           font-family: 'Font Awesome 5 Pro';
           font-weight: 900;
           position: absolute;
-          right: 0;
+          right: -1rem;
           top: 0; }
     .collapse-container .collapse-card .collapse-body {
       padding-right: 5rem;

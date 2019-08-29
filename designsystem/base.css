@@ -93,8 +93,8 @@ p {
   .path-mod-book #region-main > div > h2,
   #notice.modal .modal-content .modal-header h4,
   .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
-    font-size: 1.175rem;
-    line-height: 1.12; }
+    font-size: 1.75rem;
+    line-height: 1.2; }
   h2, .h2, .path-mod-book .generalbox.book_content > h3 {
     font-size: 1.5rem;
     line-height: 1.25; }

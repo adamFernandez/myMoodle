@@ -599,11 +599,13 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .
   .singlebutton > form > div input[type="submit"]:first-child {
     margin-left: unset; }
 
-button#availability_addrestriction_date,
-button#availability_addrestriction_grade,
-button#availability_addrestriction_profile,
-button#availability_addrestriction_list_ {
-  width: auto !important; }
+.payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 {
+  max-width: unset; }
+  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_date,
+  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_grade,
+  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_profile,
+  .payelayout-admin .moodle-dialogue .moodle-dialogue-bd .col-6 button#availability_addrestriction_list_ {
+    width: auto !important; }
 
 .card {
   display: flex;

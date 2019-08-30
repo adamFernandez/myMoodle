@@ -492,4 +492,6 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 @media print {
 	#block-region-side-pre {display:none;}
 	.breadcrumb-nav {display:none;}
+	#loggedin-user {display:none}
+	#page-footer {display:none}
 }

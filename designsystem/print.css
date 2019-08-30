@@ -86,6 +86,12 @@
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
     border: 1px solid #CDD7DC;
   }
+  .key-concept-box {
+    padding: 1rem;
+  }
+  .key-concept-box :last-child {
+    margin-bottom: unset !important;
+  }
 }
 
 .editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body  {

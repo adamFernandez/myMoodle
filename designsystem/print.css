@@ -72,6 +72,9 @@
   .collapse {
     height:auto !important;
   }
+  .collapse-header button > :first-child:after {
+    display: none;
+  }
 
   .transcript-button-group {
     display: none;
@@ -81,7 +84,7 @@
   }
 
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
-    border: 1px solid #333;
+    border: 1px solid #CDD7DC;
   }
 }
 

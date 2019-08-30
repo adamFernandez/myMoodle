@@ -1190,13 +1190,13 @@ ul.gtopics-0 {
 .path-mod-questionnaire .qn-container .qn-question {
   background: unset; }
 
-.path-mod-questionnaire #page-mod-questionnaire-complete .c1, .path-mod-questionnaire #page-mod-questionnaire-complete .c0 {
+.path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {
   border-bottom: unset;
   border-right: unset;
   border-top: 1px solid #8B9296;
   border-left: 1px solid #8B9296; }
 
-.path-mod-questionnaire #page-mod-questionnaire-complete tr:last-child td {
+.path-mod-questionnaire#page-mod-questionnaire-complete tr:last-child td {
   border-bottom: 1px solid #8B9296; }
 
 #page-mod-quiz-view .box.quizinfo p {

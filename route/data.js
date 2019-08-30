@@ -640,6 +640,34 @@ var data = {
         "forum3": {
           "1": "mod/forum/view.php?id=2634798"
         }
+       },
+      "module7a": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=3037842"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=3037850"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=3037887"
+        },
+        "forum4": {
+          "1": "mod/forum/view.php?id=3037928"
+        }
+       },
+      "module7b": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=3037976"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=3037984"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=3038021"
+        },
+        "forum4": {
+          "1": "mod/forum/view.php?id=3038062"
+        }
       }
     }
 };

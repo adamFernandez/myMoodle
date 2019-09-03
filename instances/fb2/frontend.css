@@ -433,6 +433,7 @@ div.MathJax_Display {
 margin-top: 20px;
     color: white;
     font-weight: 700;
+	display:none;
 }
 /*IE rules*/
 

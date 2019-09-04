@@ -653,8 +653,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .card .card-img-top, .card .card-img-left {
     width: 310px;
     border-radius: unset; }
+_::-webkit-full-page-media, _:future, :root .safari_only {
 .card .card-img-left {
       height:100%;
+}
 }
     @media only screen and (max-width: 767px) {
       .card .card-img-top, .card .card-img-left {

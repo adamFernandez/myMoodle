@@ -652,8 +652,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       display: block; } }
   .card .card-img-top, .card .card-img-left {
     width: 310px;
-    height:100%;
     border-radius: unset; }
+.card .card-img-left {
+      height:100%;
+}
     @media only screen and (max-width: 767px) {
       .card .card-img-top, .card .card-img-left {
         width: 100%; } }

@@ -655,7 +655,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       display: block; } }
   .card .card-img-top, .card .card-img-left {
     width: 310px;
-    border-radius: unset; }
+    height: 100%;
+    border-radius: unset;
+    /*
+    @media not all and (min-resolution:.001dpcm) {
+      @supports (-webkit-appearance:none) {
+        height: 100%;
+      }
+    }
+*/ }
     @media only screen and (max-width: 767px) {
       .card .card-img-top, .card .card-img-left {
         width: 100%; } }

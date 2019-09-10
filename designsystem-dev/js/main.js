@@ -4,6 +4,11 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
+// hide carousel controls on first and last slide
+if ($(".carousel-item:first-child").hasClass("active")) {
+  $(this).parents(".carousel).toggleClass("start");
+}
+
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header button", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");

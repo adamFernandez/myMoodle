@@ -740,7 +740,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin: 10px 11px; }
   .carousel .carousel-control-prev, .carousel .carousel-control-next {
     opacity: 1; }
-  .carousel .carousel.start .carousel-control-prev, .carousel .carousel.finish .carousel-control-next {
+  .carousel.start .carousel-control-prev, .carousel.finish .carousel-control-next {
     display: none; }
   .carousel .carousel-control {
     background-color: rgba(10, 45, 80, 0.5);

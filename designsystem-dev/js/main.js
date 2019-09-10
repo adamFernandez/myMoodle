@@ -6,7 +6,7 @@ $(document).on("click", blockHide, function(event) {
 
 // hide carousel controls on first and last slide
 if ($(".carousel-item:first-child").hasClass("active")) {
-  $(this).parents(".carousel).toggleClass("start");
+  $(this).parents(".carousel").toggleClass("start");
 }
 
 // hide and show collapse card

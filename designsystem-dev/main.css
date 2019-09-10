@@ -683,7 +683,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .card-deck .card:last-child {
       margin-right: unset; }
     .card-deck .card .card-img-top, .card-deck .card .card-img-left {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
 
 .float-box {
   display: flex;

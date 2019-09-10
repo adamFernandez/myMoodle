@@ -656,14 +656,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .card .card-img-top, .card .card-img-left {
     width: 310px;
     height: 100%;
-    border-radius: unset;
-    /*
-    @media not all and (min-resolution:.001dpcm) {
-      @supports (-webkit-appearance:none) {
-        height: 100%;
-      }
-    }
-*/ }
+    border-radius: unset; }
     @media only screen and (max-width: 767px) {
       .card .card-img-top, .card .card-img-left {
         width: 100%; } }
@@ -747,6 +740,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin: 10px 11px; }
   .carousel .carousel-control-prev, .carousel .carousel-control-next {
     opacity: 1; }
+  .carousel .carousel.start .carousel-control-prev, .carousel .carousel.finish .carousel-control-next {
+    display: none; }
   .carousel .carousel-control {
     background-color: rgba(10, 45, 80, 0.5);
     padding: 0 15px !important;

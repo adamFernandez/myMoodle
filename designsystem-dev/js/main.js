@@ -5,9 +5,14 @@ $(document).on("click", blockHide, function(event) {
 });
 
 // hide carousel controls on first and last slide
-if ($(".carousel-item:first-child").hasClass("active")) {
-  $(this).parents(".carousel").toggleClass("start");
-}
+$(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
+  $(this).parents(".carousel").removeClass("start").removeClass("finish");
+  if ($(this).hasClass("carousel-control-prev") && $(".carousel-item:nth-child(2)").hasClass("active")) {
+    $(this).parents(".carousel").addClass("start");
+  } else if ($(this).hasClass("carousel-control-next") && $(".carousel-item:nth-last-child(2)").hasClass("active")) {
+    $(this).parents(".carousel").addClass("finish");
+  }
+});
 
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header button", function(event) {

@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6,
 .h1,
 .path-mod-book #region-main > div > h2,
 #notice.modal .modal-content .modal-header h4,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .path-mod-book .generalbox.book_content > h3, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .path-mod-book .generalbox.book_content > h3, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .que.multiplechoice .info .no, .que.multiplechoice .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -47,7 +47,7 @@ h4, .h4 {
   font-size: 1.25rem;
   line-height: 1.4; }
 
-h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno {
+h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .que.multiplechoice .info .no, .que.multiplechoice .info .qno {
   font-size: 1.125rem;
   line-height: 1.4; }
 
@@ -104,7 +104,7 @@ p {
   h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4; }
-  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .que.multiplechoice .info .no, .que.multiplechoice .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
   .quote-body {
@@ -131,26 +131,26 @@ li {
 #region-main p a {
   text-decoration: underline; }
 
-.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome {
+.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome, .que.multiplechoice .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child, .que.deferredfeedback .content .outcome > :first-child, .que.manualgraded .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .que.deferredfeedback .content .outcome .info-box-inner, .que.manualgraded .content .outcome .info-box-inner, .que.deferredfeedback .content .outcome .feedback, .que.manualgraded .content .outcome .feedback {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child, .que.deferredfeedback .content .outcome > :first-child, .que.manualgraded .content .outcome > :first-child, .que.multiplechoice .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .que.deferredfeedback .content .outcome .info-box-inner, .que.manualgraded .content .outcome .info-box-inner, .que.multiplechoice .content .outcome .info-box-inner, .que.deferredfeedback .content .outcome .feedback, .que.manualgraded .content .outcome .feedback, .que.multiplechoice .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5, .que.deferredfeedback .content .outcome h5, .que.manualgraded .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, .learning-outcome-box .info-box-title, .quote-box .info-box-title, .que.deferredfeedback .content .outcome .info-box-title, .que.manualgraded .content .outcome .info-box-title, .que.deferredfeedback .content .outcome .feedback .specificfeedback, .que.deferredfeedback .content .outcome .feedback .specificfeedback p, .que.manualgraded .content .outcome .feedback .specificfeedback, .que.manualgraded .content .outcome .feedback .specificfeedback p {
+  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5, .que.deferredfeedback .content .outcome h5, .que.manualgraded .content .outcome h5, .que.multiplechoice .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, .learning-outcome-box .info-box-title, .quote-box .info-box-title, .que.deferredfeedback .content .outcome .info-box-title, .que.manualgraded .content .outcome .info-box-title, .que.multiplechoice .content .outcome .info-box-title, .que.deferredfeedback .content .outcome .feedback .specificfeedback, .que.deferredfeedback .content .outcome .feedback .specificfeedback p, .que.manualgraded .content .outcome .feedback .specificfeedback, .que.manualgraded .content .outcome .feedback .specificfeedback p, .que.multiplechoice .content .outcome .feedback .specificfeedback, .que.multiplechoice .content .outcome .feedback .specificfeedback p {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #000 !important;
     margin-top: 0;
     margin-bottom: 1rem; }
-  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .que.deferredfeedback .content .outcome p, .que.manualgraded .content .outcome p {
+  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .que.deferredfeedback .content .outcome p, .que.manualgraded .content .outcome p, .que.multiplechoice .content .outcome p {
     color: #000 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .que.deferredfeedback .content .outcome p:last-child, .que.manualgraded .content .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .que.deferredfeedback .content .outcome p:last-child, .que.manualgraded .content .outcome p:last-child, .que.multiplechoice .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .que.deferredfeedback .content .outcome > :first-child::before, .que.manualgraded .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .que.deferredfeedback .content .outcome .info-box-inner::before, .que.manualgraded .content .outcome .info-box-inner::before, .que.deferredfeedback .content .outcome .feedback::before, .que.manualgraded .content .outcome .feedback::before {
+  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .que.deferredfeedback .content .outcome > :first-child::before, .que.manualgraded .content .outcome > :first-child::before, .que.multiplechoice .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .que.deferredfeedback .content .outcome .info-box-inner::before, .que.manualgraded .content .outcome .info-box-inner::before, .que.multiplechoice .content .outcome .info-box-inner::before, .que.deferredfeedback .content .outcome .feedback::before, .que.manualgraded .content .outcome .feedback::before, .que.multiplechoice .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
@@ -178,7 +178,7 @@ li {
   width: 100%;
   padding: 1.25rem 1.5rem; }
 
-.icon-before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before {
+.icon-before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before, .que.multiplechoice .info .questionflag.editable .questionflagtext::before {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   margin-right: 0.375rem; }
@@ -1298,13 +1298,13 @@ ul.gtopics-0 {
       margin-right: unset;
       margin-top: 1rem; }
 
-.que.deferredfeedback .info, .que.manualgraded .info {
+.que.deferredfeedback .info, .que.manualgraded .info, .que.multiplechoice .info {
   background-color: unset;
   padding: unset;
   border: unset; }
-  .que.deferredfeedback .info .no, .que.manualgraded .info .no {
+  .que.deferredfeedback .info .no, .que.manualgraded .info .no, .que.multiplechoice .info .no {
     width: 100%; }
-  .que.deferredfeedback .info div.state, .que.deferredfeedback .info div.grade, .que.manualgraded .info div.state, .que.manualgraded .info div.grade {
+  .que.deferredfeedback .info div.state, .que.deferredfeedback .info div.grade, .que.manualgraded .info div.state, .que.manualgraded .info div.grade, .que.multiplechoice .info div.state, .que.multiplechoice .info div.grade {
     line-height: normal;
     padding: 0.375rem;
     font-size: 1rem;
@@ -1312,69 +1312,69 @@ ul.gtopics-0 {
     border-radius: 0.125rem;
     margin: unset;
     margin-right: 0.5rem; }
-  .que.deferredfeedback .info div.state, .que.manualgraded .info div.state {
+  .que.deferredfeedback .info div.state, .que.manualgraded .info div.state, .que.multiplechoice .info div.state {
     background-color: #01b9e1;
     text-transform: uppercase;
     color: #FFFFFF; }
-  .que.deferredfeedback .info div.grade, .que.manualgraded .info div.grade {
+  .que.deferredfeedback .info div.grade, .que.manualgraded .info div.grade, .que.multiplechoice .info div.grade {
     background-color: #e6ebed;
     color: #171717; }
-  .que.deferredfeedback .info .questionflag.editable, .que.manualgraded .info .questionflag.editable {
+  .que.deferredfeedback .info .questionflag.editable, .que.manualgraded .info .questionflag.editable, .que.multiplechoice .info .questionflag.editable {
     line-height: normal;
     font-family: 'KingsBureauGrotFiveOne'; }
-    .que.deferredfeedback .info .questionflag.editable .questionflagimage, .que.manualgraded .info .questionflag.editable .questionflagimage {
+    .que.deferredfeedback .info .questionflag.editable .questionflagimage, .que.manualgraded .info .questionflag.editable .questionflagimage, .que.multiplechoice .info .questionflag.editable .questionflagimage {
       display: none; }
-    .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before {
+    .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before, .que.multiplechoice .info .questionflag.editable .questionflagtext::before {
       content: '\f024';
       color: #F5B90F;
       font-weight: 500; }
 
-.que.deferredfeedback .content .formulation, .que.manualgraded .content .formulation {
+.que.deferredfeedback .content .formulation, .que.manualgraded .content .formulation, .que.multiplechoice .content .formulation {
   background-color: unset;
   margin-top: 1rem;
   padding: unset; }
-  .que.deferredfeedback .content .formulation .qtext b, .que.manualgraded .content .formulation .qtext b {
+  .que.deferredfeedback .content .formulation .qtext b, .que.manualgraded .content .formulation .qtext b, .que.multiplechoice .content .formulation .qtext b {
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.4; }
-  .que.deferredfeedback .content .formulation .ablock .prompt, .que.deferredfeedback .content .formulation .ablock .readonly, .que.deferredfeedback .content .formulation .ablock .readonly p, .que.manualgraded .content .formulation .ablock .prompt, .que.manualgraded .content .formulation .ablock .readonly, .que.manualgraded .content .formulation .ablock .readonly p {
+  .que.deferredfeedback .content .formulation .ablock .prompt, .que.deferredfeedback .content .formulation .ablock .readonly, .que.deferredfeedback .content .formulation .ablock .readonly p, .que.manualgraded .content .formulation .ablock .prompt, .que.manualgraded .content .formulation .ablock .readonly, .que.manualgraded .content .formulation .ablock .readonly p, .que.multiplechoice .content .formulation .ablock .prompt, .que.multiplechoice .content .formulation .ablock .readonly, .que.multiplechoice .content .formulation .ablock .readonly p {
     font-family: 'KingsBureauGrotFiveOne'; }
-  .que.deferredfeedback .content .formulation .ablock .answer, .que.manualgraded .content .formulation .ablock .answer {
+  .que.deferredfeedback .content .formulation .ablock .answer, .que.manualgraded .content .formulation .ablock .answer, .que.multiplechoice .content .formulation .ablock .answer {
     font-family: 'KingsBureauGrot'; }
-    .que.deferredfeedback .content .formulation .ablock .answer .r0, .que.deferredfeedback .content .formulation .ablock .answer .r1, .que.manualgraded .content .formulation .ablock .answer .r0, .que.manualgraded .content .formulation .ablock .answer .r1 {
+    .que.deferredfeedback .content .formulation .ablock .answer .r0, .que.deferredfeedback .content .formulation .ablock .answer .r1, .que.manualgraded .content .formulation .ablock .answer .r0, .que.manualgraded .content .formulation .ablock .answer .r1, .que.multiplechoice .content .formulation .ablock .answer .r0, .que.multiplechoice .content .formulation .ablock .answer .r1 {
       margin-bottom: unset; }
-      .que.deferredfeedback .content .formulation .ablock .answer .r0 label, .que.deferredfeedback .content .formulation .ablock .answer .r1 label, .que.manualgraded .content .formulation .ablock .answer .r0 label, .que.manualgraded .content .formulation .ablock .answer .r1 label {
+      .que.deferredfeedback .content .formulation .ablock .answer .r0 label, .que.deferredfeedback .content .formulation .ablock .answer .r1 label, .que.manualgraded .content .formulation .ablock .answer .r0 label, .que.manualgraded .content .formulation .ablock .answer .r1 label, .que.multiplechoice .content .formulation .ablock .answer .r0 label, .que.multiplechoice .content .formulation .ablock .answer .r1 label {
         font-size: 1rem; }
-      .que.deferredfeedback .content .formulation .ablock .answer .r0 img, .que.deferredfeedback .content .formulation .ablock .answer .r1 img, .que.manualgraded .content .formulation .ablock .answer .r0 img, .que.manualgraded .content .formulation .ablock .answer .r1 img {
+      .que.deferredfeedback .content .formulation .ablock .answer .r0 img, .que.deferredfeedback .content .formulation .ablock .answer .r1 img, .que.manualgraded .content .formulation .ablock .answer .r0 img, .que.manualgraded .content .formulation .ablock .answer .r1 img, .que.multiplechoice .content .formulation .ablock .answer .r0 img, .que.multiplechoice .content .formulation .ablock .answer .r1 img {
         display: none; }
-    .que.deferredfeedback .content .formulation .ablock .answer .correct, .que.manualgraded .content .formulation .ablock .answer .correct {
+    .que.deferredfeedback .content .formulation .ablock .answer .correct, .que.manualgraded .content .formulation .ablock .answer .correct, .que.multiplechoice .content .formulation .ablock .answer .correct {
       background-color: rgba(40, 195, 130, 0.2) !important; }
-    .que.deferredfeedback .content .formulation .ablock .answer .incorrect, .que.manualgraded .content .formulation .ablock .answer .incorrect {
+    .que.deferredfeedback .content .formulation .ablock .answer .incorrect, .que.manualgraded .content .formulation .ablock .answer .incorrect, .que.multiplechoice .content .formulation .ablock .answer .incorrect {
       background-color: rgba(226, 35, 26, 0.2) !important; }
 
-.que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome {
+.que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome, .que.multiplechoice .content .outcome {
   background-color: rgba(245, 185, 15, 0.2) !important; }
-  .que.deferredfeedback .content .outcome > .feedback::before, .que.manualgraded .content .outcome > .feedback::before {
+  .que.deferredfeedback .content .outcome > .feedback::before, .que.manualgraded .content .outcome > .feedback::before, .que.multiplechoice .content .outcome > .feedback::before {
     content: '\f27a';
     color: #F5B90F;
     padding: 0 4px; }
-  .que.deferredfeedback .content .outcome .feedback, .que.manualgraded .content .outcome .feedback {
+  .que.deferredfeedback .content .outcome .feedback, .que.manualgraded .content .outcome .feedback, .que.multiplechoice .content .outcome .feedback {
     margin-bottom: unset; }
-    .que.deferredfeedback .content .outcome .feedback .specificfeedback, .que.deferredfeedback .content .outcome .feedback .specificfeedback p, .que.manualgraded .content .outcome .feedback .specificfeedback, .que.manualgraded .content .outcome .feedback .specificfeedback p {
+    .que.deferredfeedback .content .outcome .feedback .specificfeedback, .que.deferredfeedback .content .outcome .feedback .specificfeedback p, .que.manualgraded .content .outcome .feedback .specificfeedback, .que.manualgraded .content .outcome .feedback .specificfeedback p, .que.multiplechoice .content .outcome .feedback .specificfeedback, .que.multiplechoice .content .outcome .feedback .specificfeedback p {
       margin-bottom: 1rem; }
-    .que.deferredfeedback .content .outcome .feedback .rightanswer, .que.manualgraded .content .outcome .feedback .rightanswer {
+    .que.deferredfeedback .content .outcome .feedback .rightanswer, .que.manualgraded .content .outcome .feedback .rightanswer, .que.multiplechoice .content .outcome .feedback .rightanswer {
       margin-bottom: unset; }
 
-.que.deferredfeedback.correct .outcome, .que.manualgraded.correct .outcome {
+.que.deferredfeedback.correct .outcome, .que.manualgraded.correct .outcome, .que.multiplechoice.correct .outcome {
   background-color: rgba(40, 195, 130, 0.2) !important; }
-  .que.deferredfeedback.correct .outcome > .feedback::before, .que.manualgraded.correct .outcome > .feedback::before {
+  .que.deferredfeedback.correct .outcome > .feedback::before, .que.manualgraded.correct .outcome > .feedback::before, .que.multiplechoice.correct .outcome > .feedback::before {
     color: #28C382;
     padding: 0 4px;
     content: '\f058'; }
 
-.que.deferredfeedback.incorrect .outcome, .que.manualgraded.incorrect .outcome {
+.que.deferredfeedback.incorrect .outcome, .que.manualgraded.incorrect .outcome, .que.multiplechoice.incorrect .outcome {
   background-color: rgba(226, 35, 26, 0.2) !important; }
-  .que.deferredfeedback.incorrect .outcome > .feedback::before, .que.manualgraded.incorrect .outcome > .feedback::before {
+  .que.deferredfeedback.incorrect .outcome > .feedback::before, .que.manualgraded.incorrect .outcome > .feedback::before, .que.multiplechoice.incorrect .outcome > .feedback::before {
     color: #E2231A;
     content: '\f057';
     padding: 0 4px; }

@@ -13,7 +13,7 @@ html, body {
   color: #333333;
   font-family: 'Open Sans', sans-serif; }
 body {
-  padding: 0 1px;
+  padding: 0 1px !important;
 }
 #page {
   max-width: unset !important;

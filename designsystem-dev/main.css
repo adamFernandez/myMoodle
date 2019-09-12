@@ -1307,7 +1307,7 @@ table, .table {
     font-weight: 900;
     margin-right: 0.375rem;
     content: '\f070'; }
-  .view-answer-container .view-hide-card .card-body {
+  .view-answer-container .view-answer-card .card-body {
     border-left: 4px solid #CDD7DC;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }

@@ -1300,6 +1300,22 @@ table, .table {
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
 
+.view-answer-container {
+  margin-bottom: 1.5rem; }
+  .view-answer-container a.view-hide-answer::before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    margin-right: 0.375rem;
+    content: '\f070'; }
+  .view-answer-container .view-hide-card .card-body {
+    border-left: 4px solid #CDD7DC;
+    padding: 0 0 0 1.5rem;
+    margin-top: 1.5rem; }
+  .view-answer-container.collapsed a.view-hide-answer::before {
+    content: '\f06e'; }
+  .view-answer-container.collapsed .transcript-card {
+    display: none; }
+
 .forumaddnew div {
   margin: unset; }
   .forumaddnew div input[type="submit"]:first-child {

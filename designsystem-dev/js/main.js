@@ -24,4 +24,10 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
+
+// toggle view answer button text and answer card
+$(document).on("click", "a.view-hide-answer", function(event) {
+  $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
+  $(this).parents(".view-answer-container").toggleClass("collapsed");
+});
       

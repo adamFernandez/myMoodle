@@ -1,3 +1,17 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'KingsBureauGrot';
+  src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'KingsBureauGrotFiveOne';
+  src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
+  font-style: normal; }
+html, body {
+  font-size: 16px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif; }
 body {
   padding: 0 1px;
 }
@@ -29,10 +43,10 @@ body {
 .que .info div.state {
   background-color: #01b9e1;
   text-transform: uppercase;
-  color: $white; }
+  color: #fff; }
 .que .info div.grade {
   background-color: #e6ebed;
-  color: $headings; }
+  color: #171717; }
 .que .info .questionflag.editable {
   line-height: normal;
   font-family: 'KingsBureauGrotFiveOne'; }
@@ -43,7 +57,7 @@ body {
   font-weight: 900;
   margin-right: 0.375rem;
   content: '\f024';
-  color: $yellow;
+  color: $f5b90f;
   font-weight: 500; }
 .que .content .formulation {
   background-color: unset;
@@ -69,11 +83,11 @@ body {
   background-color: rgba(226,35,26,0.2) !important; }
 .que .content .formulation input[type="submit"].btn {
   background-color: #0A2D50 !important;
-  color: $white; }
+  color: #fff; }
 .que .content .formulation input[type="submit"].btn:hover {
   background-color: #536c84 !important; }
 .que .content .outcome {
-  margin-bottom: $component-margin-bottom;
+  margin-bottom: 1.5rem;
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
@@ -103,7 +117,7 @@ body {
   margin-bottom: unset; }
 .que .content .outcome .feedback::before {
   content: '\f27a';
-  color: $yellow;
+  color: #f5b90f;
   padding: 0 4px;
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
@@ -121,13 +135,13 @@ body {
 .que.correct .outcome {
   background-color: rgba(40,195,130,0.2) !important; }
  .que.correct .outcome > .feedback::before {
-  color: $pea-green;
+  color: #28c382;
   padding: 0 4px;
   content: '\f058'; }
 .que.incorrect .outcome {
   background-color: rgba(226,35,26,0.2) !important; }
 .que.incorrect .outcome > .feedback::before {
-  color: $kings-red;
+  color: #e2231a;
   content: '\f057';
   padding: 0 4px; }
 

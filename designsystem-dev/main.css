@@ -1313,7 +1313,7 @@ table, .table {
     margin-top: 1.5rem; }
   .view-answer-container.collapsed a.view-hide-answer::before {
     content: '\f06e'; }
-  .view-answer-container.collapsed .transcript-card {
+  .view-answer-container.collapsed .view-answer-card {
     display: none; }
 
 .forumaddnew div {

@@ -71,7 +71,7 @@ body {
 .que .content .formulation .ablock .answer {
   font-family: 'KingsBureauGrot'; }
 .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
-  margin-bottom: unset;
+  margin-bottom: unset; }
 .que .content .formulation .ablock .answer .r0 .label, .que .content .formulation .ablock .answer .r1 .label {
   font-size: 1rem; }
 .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {

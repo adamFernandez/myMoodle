@@ -162,9 +162,9 @@ li {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .card .card-img-top, .card .card-img-left, .hero, #gridiconcontainer ul.gridicons li {
+.top-bar, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left, .hero, #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .card .card-img-top::before, .card .card-img-left::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .card .card-img-top::before, .card .card-img-left::before, .card .img-top::before, .card .img-left::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -923,17 +923,18 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   @media only screen and (max-width: 767px) {
     .card {
       display: block; } }
-  .card .card-img-top, .card .card-img-left {
+  .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
     width: 310px;
     height: 100%;
     border-radius: unset; }
     @media only screen and (max-width: 767px) {
-      .card .card-img-top, .card .card-img-left {
+      .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
         width: 100%; } }
   .card .card-body {
     background-color: #EDF1F2; }
     .card .card-body h4 {
-      margin-top: unset; }
+      margin-top: unset;
+      margin-bottom: 0.75rem; }
 
 .card-deck {
   margin-left: unset;
@@ -945,7 +946,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin-left: unset; }
     .card-deck .card:last-child {
       margin-right: unset; }
-    .card-deck .card .card-img-top, .card-deck .card .card-img-left {
+    .card-deck .card .card-img-top, .card-deck .card .card-img-left, .card-deck .card .img-top, .card-deck .card .img-left {
       width: 100%;
       height: auto; }
 
@@ -969,6 +970,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
         width: 100%; }
       .float-box .img-right {
         margin-left: unset; } }
+  .float-box .float-box-body h4 {
+    margin-bottom: 0.75rem; }
 
 .carousel {
   margin-bottom: 3.5rem; }

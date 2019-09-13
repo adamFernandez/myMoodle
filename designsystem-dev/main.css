@@ -128,12 +128,12 @@ li {
   .instancename:hover {
     color: #003d5c; }
 
-#region-main p a, #region-main li a {
+#region-main p a:not(.btn), #region-main li a:not(.btn) {
   text-decoration: underline;
   color: #002395; }
-  #region-main p a:hover, #region-main li a:hover {
+  #region-main p a:not(.btn):hover, #region-main li a:not(.btn):hover {
     color: #005AD2; }
-  #region-main p a:visited, #region-main li a:visited {
+  #region-main p a:not(.btn):visited, #region-main li a:not(.btn):visited {
     color: #0A2D50; }
 
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome, .que.multichoice .content .outcome, .que.singlechoice .content .outcome {

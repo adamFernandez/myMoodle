@@ -952,6 +952,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .float-box {
   display: flex;
   margin-bottom: 1.5rem; }
+  .float-box img {
+    height: 100%; }
   .float-box img, .float-box .img-left {
     margin: unset;
     margin-right: 1rem; }
@@ -964,8 +966,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       .float-box img, .float-box .img-left {
         margin-right: unset;
         margin-bottom: 1rem;
-        width: 100%;
-        height: auto; }
+        width: 100%; }
       .float-box .img-right {
         margin-left: unset; } }
 

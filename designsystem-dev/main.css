@@ -122,6 +122,8 @@ p {
 
 li {
   line-height: inherit; }
+  li p {
+    margin-bottom: unset; }
 
 .instancename {
   color: #0A2D50; }

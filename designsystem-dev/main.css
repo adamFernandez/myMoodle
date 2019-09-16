@@ -1250,7 +1250,7 @@ table, .table {
 
 .timeline-container {
   margin-left: 64px;
-  padding: 0 20px; }
+  padding: 0.5rem 1.25rem 0 1.25rem; }
   .timeline-container .timeline-badge-pill {
     border-radius: 50%;
     border: 8px solid #009EA0 !important;

@@ -1309,7 +1309,8 @@ table, .table {
     .timeline-container .timeline-row .timeline-card .img-reference {
       font-size: 0.8125rem;
       margin-top: 1.25rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      text-align: right; }
   .timeline-container .timeline-row.highlighted .date-tab {
     background-color: #FF5F05; }
   .timeline-container .timeline-row.highlighted .card-body {

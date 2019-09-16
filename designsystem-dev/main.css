@@ -363,6 +363,9 @@ li {
 .book_content {
   padding-top: unset; }
 
+section:not(:last-of-type) {
+  margin-bottom: calc(2 * 1.5rem); }
+
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne'; }
   .breadcrumb-nav ul.breadcrumb a {

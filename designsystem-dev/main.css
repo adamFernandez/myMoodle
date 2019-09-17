@@ -1520,9 +1520,10 @@ ul.gtopics-0 {
     margin-top: 1.5rem; }
   .course-content ul.section li.activity.label p {
     margin-bottom: 1rem; }
+  .course-content ul.section li.activity > div {
+    max-width: calc(100% - 105px); }
   .course-content ul.section li.activity .activityinstance {
     min-height: unset;
-    max-width: 250px;
     margin-bottom: 1rem; }
     .course-content ul.section li.activity .activityinstance img {
       display: none; }

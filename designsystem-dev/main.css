@@ -1134,14 +1134,14 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 
 .hero {
   margin-bottom: 1.5rem; }
+  .hero img {
+    width: 100%; }
   @media only screen and (max-width: 767px) {
     .hero .hero-caption {
       position: unset; } }
   .hero .hero-caption h2 {
     color: #FFFFFF;
     margin: unset; }
-  .hero .hero-caption img {
-    width: 100%; }
 
 .definition-box {
   background-color: #EDF1F2; }

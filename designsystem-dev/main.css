@@ -1498,7 +1498,7 @@ ul.gtopics-0 {
 
 .course-content ul.section li.activity {
   display: flex;
-  padding: unset; }
+  padding: unset !important; }
   .course-content ul.section li.activity::before {
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
@@ -1516,8 +1516,10 @@ ul.gtopics-0 {
     content: 'Participate';
     background-color: #FF5F05; }
   .course-content ul.section li.activity.label h2 {
-    margin-bottom: unset;
+    margin-bottom: 1rem;
     margin-top: 1.5rem; }
+  .course-content ul.section li.activity.label p {
+    margin-bottom: 1rem; }
   .course-content ul.section li.activity .activityinstance {
     min-height: unset;
     margin-bottom: 1rem; }

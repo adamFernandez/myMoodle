@@ -1497,7 +1497,8 @@ ul.gtopics-0 {
         height: 100%; }
 
 .course-content ul.section li.activity {
-  display: flex; }
+  display: flex;
+  padding: unset; }
   .course-content ul.section li.activity::before {
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
@@ -1514,8 +1515,16 @@ ul.gtopics-0 {
   .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
     content: 'Participate';
     background-color: #FF5F05; }
-  .course-content ul.section li.activity .activityinstance img {
-    display: none; }
+  .course-content ul.section li.activity.label h2 {
+    margin-bottom: unset;
+    margin-top: 1.5rem; }
+  .course-content ul.section li.activity .activityinstance {
+    min-height: unset;
+    margin-bottom: 1rem; }
+    .course-content ul.section li.activity .activityinstance img {
+      display: none; }
+  .course-content ul.section li.activity .no-overflow {
+    padding: unset; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

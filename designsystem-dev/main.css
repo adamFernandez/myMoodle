@@ -1514,6 +1514,8 @@ ul.gtopics-0 {
   .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
     content: 'Participate';
     background-color: #FF5F05; }
+  .course-content ul.section li.activity .activityinstance img {
+    display: none; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

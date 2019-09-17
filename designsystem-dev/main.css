@@ -1522,6 +1522,7 @@ ul.gtopics-0 {
     margin-bottom: 1rem; }
   .course-content ul.section li.activity .activityinstance {
     min-height: unset;
+    max-width: 250px;
     margin-bottom: 1rem; }
     .course-content ul.section li.activity .activityinstance img {
       display: none; }

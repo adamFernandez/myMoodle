@@ -1496,9 +1496,9 @@ ul.gtopics-0 {
         width: 100%;
         height: 100%; }
 
-.course-content ul.section.img-text li.activity {
+.course-content ul.section li.activity {
   display: flex; }
-  .course-content ul.section.img-text li.activity::before {
+  .course-content ul.section li.activity::before {
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
     text-align: center;
@@ -1508,12 +1508,12 @@ ul.gtopics-0 {
     border-radius: 2px;
     margin-right: 1rem;
     color: white; }
-    .course-content ul.section.img-text li.activity::before.book, .course-content ul.section.img-text li.activity::before .page {
-      content: 'Study';
-      background-color: #005AD2; }
-    .course-content ul.section.img-text li.activity::before.forum, .course-content ul.section.img-text li.activity::before .lesson, .course-content ul.section.img-text li.activity::before .questionnaire, .course-content ul.section.img-text li.activity::before .quiz, .course-content ul.section.img-text li.activity::before .scorm {
-      content: 'Participate';
-      background-color: #FF5F05; }
+  .course-content ul.section li.activity.book::before, .course-content ul.section li.activity.page::before {
+    content: 'Study';
+    background-color: #005AD2; }
+  .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
+    content: 'Participate';
+    background-color: #FF5F05; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

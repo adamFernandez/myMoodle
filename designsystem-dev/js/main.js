@@ -30,4 +30,6 @@ $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
-      
+
+// home page add forum class to activtiy title containing 'discussion'
+$("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");      

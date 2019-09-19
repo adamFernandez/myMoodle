@@ -1253,10 +1253,10 @@ ul.gtopics-0 {
   .course-content ul.section li.activity .activityinstance {
     min-height: unset;
     margin-bottom: 1rem; }
+    .course-content ul.section li.activity .activityinstance:not(:last-child) {
+      margin-bottom: unset; }
     .course-content ul.section li.activity .activityinstance img {
       display: none; }
-  .course-content ul.section li.activity:not(:last-child) {
-    margin-bottom: unset; }
   .course-content ul.section li.activity .no-overflow {
     padding: unset; }
   .course-content ul.section li.activity .activityinstance ~ .ishidden {

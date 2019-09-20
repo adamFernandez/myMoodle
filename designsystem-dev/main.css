@@ -124,8 +124,6 @@ li {
   line-height: inherit; }
   li p {
     margin-bottom: unset; }
-  li:last-child {
-    margin-bottom: 1.5rem; }
 
 .instancename {
   color: #0A2D50; }
@@ -139,6 +137,9 @@ li {
     color: #005AD2; }
   #region-main p a:visited, #region-main li p a:visited {
     color: #0A2D50; }
+
+#region-main li:last-child {
+  margin-bottom: 1.5rem; }
 
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que.deferredfeedback .content .outcome, .que.manualgraded .content .outcome, .que.multichoice .content .outcome, .que.singlechoice .content .outcome {
   margin-bottom: 1.5rem;

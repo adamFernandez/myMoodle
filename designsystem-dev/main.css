@@ -124,6 +124,8 @@ li {
   line-height: inherit; }
   li p {
     margin-bottom: unset; }
+  li:last-child {
+    margin-bottom: 1.5rem; }
 
 .instancename {
   color: #0A2D50; }
@@ -922,6 +924,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     padding: 0 4px; }
   .learning-outcome-box ol, .learning-outcome-box ul {
     margin: 0 0 0 1.25rem; }
+    .learning-outcome-box ol li:last-child, .learning-outcome-box ul li:last-child {
+      margin-bottom: unset; }
 
 #notice.modal {
   border: unset;

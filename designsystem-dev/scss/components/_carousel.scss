@@ -55,6 +55,10 @@
   .carousel-control-prev, .carousel-control-next {
     opacity: 1;
   }
+  // hide carousel controls on first and last slide
+  &.start .carousel-control-prev, &.finish .carousel-control-next {
+    display: none;
+  }
   .carousel-control {
     background-color: rgba(10, 45, 80, 0.5);
     padding: 0 15px !important;

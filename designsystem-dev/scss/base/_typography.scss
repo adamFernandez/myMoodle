@@ -127,6 +127,9 @@ p {
 //override theme list font style
 li {
   line-height: inherit;
+  p {
+    margin-bottom: unset;
+  }
 }
 
 //override book headings
@@ -144,5 +147,18 @@ li {
   color: $midnight-blue;
   &:hover {
     color: #003d5c;
+  }
+}
+
+#region-main {
+  p a, li p a {
+    text-decoration: underline;
+    color: $reflex-blue;
+    &:hover {
+      color: $sea-blue;
+    }
+    &:visited {
+      color: $midnight-blue;
+    }
   }
 }

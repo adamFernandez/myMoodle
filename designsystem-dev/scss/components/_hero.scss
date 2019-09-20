@@ -5,6 +5,9 @@
 .hero {
   @extend .top-bar;
   margin-bottom: $component-margin-bottom;
+  img {
+    width: 100%;
+  }
   .hero-caption {
     @extend .caption-overlay;
     @media only screen and (max-width: $neo-breakpoint) {
@@ -13,9 +16,6 @@
     h2 {
       color: $white;
       margin: unset;
-    }
-    img {
-      width: 100%;
     }
   }
 }

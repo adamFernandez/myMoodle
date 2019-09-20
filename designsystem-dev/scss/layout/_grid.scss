@@ -52,3 +52,7 @@
 .book_content {
   padding-top: unset;
 }
+
+section:not(:last-of-type) {
+  margin-bottom: calc(2 * #{$component-margin-bottom});
+}

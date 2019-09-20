@@ -46,3 +46,60 @@ ul.gtopics-0 {
     }
   }
 }
+
+// activity type labels
+.course-content ul.section {
+  li.activity {
+    display: flex;
+    padding: unset !important;
+    &::before {
+      font-family: 'KingsBureauGrot';
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      width: 5.5rem;
+      height: 1.5rem;
+      border-radius: 2px;
+      margin-right: 1rem;
+      color: white;
+    }
+    &.book::before, &.page::before, &.resource::before {
+      content: 'Study';
+      background-color: $sea-blue;
+    }
+    &.forum::before, &.lesson::before, &.questionnaire::before,
+    &.quiz::before, &.scorm::before {
+      content: 'Participate';
+      background-color: $orange;
+    }
+    &.label {
+      h2 {
+        margin-bottom: 1rem;
+        margin-top: 1.5rem
+      }
+      p {
+        margin-bottom: 1rem;
+      }
+    }
+    // hide icon
+    & > div {
+      max-width: calc(100% - 105px);
+    }
+    .activityinstance {
+      min-height: unset;
+      margin-bottom: 1rem;
+      &:not(:last-child) {
+        margin-bottom: unset;
+      }
+      img {
+        display: none;
+      }
+    }
+    .no-overflow {
+      padding: unset;
+    }
+    .activityinstance ~ .ishidden {
+      margin: 0 0 1rem 0;
+    }
+  }
+}

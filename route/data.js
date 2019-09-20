@@ -670,6 +670,14 @@ var data = {
         "forum4": {
           "1": "mod/forum/view.php?id=3038062"
         }
+       },
+      "module7c": {
+        "forum3": {
+          "1": "mod/forum/view.php?id=2979036"
+        },
+        "forum5": {
+          "1": "mod/forum/view.php?id=2979078"
+        }
       }
     }
 };

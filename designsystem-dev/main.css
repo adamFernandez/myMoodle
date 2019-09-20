@@ -491,11 +491,11 @@ button, .btn, input[type="submit"], #notice.modal .modal-content .modal-footer .
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .singlebutton div input[type="submit"], #page-mod-connecthosted-view .chosted-button-row input {
   font-family: 'KingsBureauGrot';
-  font-size: 1.125rem;
-  line-height: 1.25;
-  padding: 0.625rem 0.75rem;
+  font-size: 1.125rem !important;
+  line-height: 1.25 !important;
+  padding: 0.625rem 0.75rem !important;
   margin: 0 0.75rem 0.5rem 0;
-  border-radius: 4px; }
+  border-radius: 4px !important; }
   button.btn-primary, button.course-discuss-reply-button, .btn.btn-primary, input[type="submit"], input.btn-secondary[type="submit"], #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns input.mod_quiz-prev-nav.btn.btn-secondary[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input.btn-secondary[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton > form > div > input.mod_quiz-prev-nav.btn.btn-secondary[type="submit"]:first-child, .forumaddnew div input.btn-secondary[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons .forumaddnew .singlebutton:nth-child(2) > form > div >
 input[type="submit"]:first-child, .forumaddnew div #page-mod-quiz-attempt .submitbtns input.mod_quiz-prev-nav.btn.btn-secondary[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns .forumaddnew div input.mod_quiz-prev-nav.btn.btn-secondary[type="submit"]:first-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input.btn-secondary#searchforums[type="submit"], #page-mod-forum-post #notice.modal .modal-footer .buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch .singlebutton:nth-child(2) > form > div >
@@ -572,8 +572,8 @@ input#id_cancel.mod_quiz-prev-nav.btn:hover[type="submit"]:first-child, #mod_qui
   button.btn-lg, .btn.btn-lg, input.btn-lg[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input.btn-lg[type="submit"]:first-child, .forumaddnew div input.btn-lg[type="submit"]:first-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input.btn-lg#searchforums, #page-mod-forum-post #fgroup_id_buttonar .fgroup input.btn-lg, .path-mod-questionnaire .mod_questionnaire_viewpage .complete a.btn-lg, .path-mod-questionnaire .mod_questionnaire_viewpage .all-responses a.btn-lg, #page-mod-quiz-view .quizattemptsummary tr td.lastcol a.btn-lg, #page-mod-quiz-attempt .submitbtns .btn-lg.mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input.btn-lg.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
 input.btn-lg.mod_quiz-prev-nav.btn[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.btn-lg.endtestlink, #mod_quiz_navblock .content .othernav .singlebutton div input.btn-lg[type="submit"], #page-mod-connecthosted-view .chosted-button-row input.btn-lg {
-    font-size: 1.25rem;
-    line-height: 1.5;
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
     padding: 0.5625rem 1.5rem;
     min-width: 9.6875rem;
     box-shadow: 0 5px 0 0 #05192e; }

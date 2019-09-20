@@ -51,14 +51,16 @@ var data = {
         "discussion": {
           "1": "mod/forum/view.php?id=2398355",
           "2": "mod/forum/view.php?id=2510395",
-          "3": "mod/forum/view.php?id=2398532"
+          "3": "mod/forum/view.php?id=2398532",
+          "4": "mod/forum/view.php?id=2979036"
         }
       },
       "week5": {
         "discussion": {
           "1": "mod/forum/view.php?id=2398401",
           "2": "mod/forum/view.php?id=2510409",
-          "3": "mod/forum/view.php?id=2398579"
+          "3": "mod/forum/view.php?id=2398579",
+          "4": "mod/forum/view.php?id=2979078"
         }
       }
     },

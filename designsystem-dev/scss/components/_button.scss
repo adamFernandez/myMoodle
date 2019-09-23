@@ -6,9 +6,9 @@
 button, .btn {
   font-family: 'KingsBureauGrot';
   @include font-scale(btn);
-  padding: 0.625rem 0.75rem;
+  padding: 0.625rem 0.75rem !important;
   margin: 0 0.75rem 0.5rem 0;
-  border-radius: 4px;
+  border-radius: 4px !important;
   &.btn-primary, &.course-discuss-reply-button {
     background-color: $midnight-blue !important;
     color: $white !important;

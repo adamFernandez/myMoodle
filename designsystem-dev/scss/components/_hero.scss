@@ -4,7 +4,7 @@
 
 .hero {
   @extend .top-bar;
-  margin-bottom: $component-margin-bottom;
+  margin-bottom: $component-margin-bottom-lg;
   img {
     width: 100%;
   }

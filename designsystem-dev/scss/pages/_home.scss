@@ -51,7 +51,9 @@ ul.gtopics-0 {
 .course-content ul.section {
   li.activity {
     display: flex;
+    margin-bottom: $component-margin-bottom-sm;
     padding: unset !important;
+    // activity labels
     &::before {
       font-family: 'KingsBureauGrot';
       font-size: 1rem;
@@ -74,11 +76,12 @@ ul.gtopics-0 {
     }
     &.label {
       h2 {
-        margin-bottom: 1rem;
-        margin-top: 1.5rem
+        margin-bottom: unset;
       }
-      p {
-        margin-bottom: 1rem;
+      // section titles use the same activity class as labels 
+      // but need extra margin
+      &:not(:first-of-type) h2.section-title {
+        margin-top: 0.75rem;
       }
     }
     // hide icon
@@ -87,10 +90,10 @@ ul.gtopics-0 {
     }
     .activityinstance {
       min-height: unset;
-      margin-bottom: 1rem;
       &:not(:last-child) {
         margin-bottom: unset;
       }
+      // hide icon
       img {
         display: none;
       }
@@ -99,7 +102,7 @@ ul.gtopics-0 {
       padding: unset;
     }
     .activityinstance ~ .ishidden {
-      margin: 0 0 1rem 0;
+      margin: unset;
     }
   }
 }

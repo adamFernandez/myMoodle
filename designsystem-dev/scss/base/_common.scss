@@ -13,7 +13,7 @@
     font-size: 1.2rem;
     color: $headings !important;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: $component-margin-bottom-sm;
   }
   p {
     color: $body-text !important;

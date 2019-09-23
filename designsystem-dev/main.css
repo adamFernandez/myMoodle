@@ -1253,6 +1253,10 @@ ul.gtopics-0 {
   .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
     content: 'Participate';
     background-color: #FF5F05; }
+  .course-content ul.section li.activity.label h2 {
+    margin-bottm: unset; }
+  .course-content ul.section li.activity.label:not(:first-of-type) h2.section-title {
+    margin-top: 0.75rem; }
   .course-content ul.section li.activity > div {
     max-width: calc(100% - 105px); }
   .course-content ul.section li.activity .activityinstance {

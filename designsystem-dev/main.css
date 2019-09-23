@@ -16,12 +16,13 @@ html, body {
 
 h1, h2, h3, h4, h5, h6,
 .h1,
-.path-mod-book #region-main > div > h2,
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type,
 #notice.modal .modal-content .modal-header h4,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .path-mod-book .generalbox.book_content > h3, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que.deferredfeedback .info .no, .que.deferredfeedback .info .qno, .que.manualgraded .info .no, .que.manualgraded .info .qno, .que.multichoice .info .no, .que.multichoice .info .qno, .que.singlechoice .info .no, .que.singlechoice .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
+  margin-top: unset;
   margin-bottom: 1.5rem; }
 
 body, select, option {
@@ -29,7 +30,7 @@ body, select, option {
 
 h1,
 .h1,
-.path-mod-book #region-main > div > h2,
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type,
 #notice.modal .modal-content .modal-header h4,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 2.375rem;
@@ -90,7 +91,7 @@ p {
 @media only screen and (max-width: 767px) {
   h1,
   .h1,
-  .path-mod-book #region-main > div > h2,
+  .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
   #notice.modal .modal-content .modal-header h4,
   .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.75rem;
@@ -124,6 +125,9 @@ li {
   line-height: inherit; }
   li p {
     margin-bottom: unset; }
+
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type {
+  margin-bottom: 2.25rem; }
 
 .instancename {
   color: #0A2D50; }
@@ -867,7 +871,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     display: none; }
 
 .hero {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 2.25rem; }
   .hero img {
     width: 100%; }
   @media only screen and (max-width: 767px) {
@@ -1231,6 +1235,7 @@ ul.gtopics-0 {
 
 .course-content ul.section li.activity {
   display: flex;
+  margin-bottom: 1rem;
   padding: unset !important; }
   .course-content ul.section li.activity::before {
     font-family: 'KingsBureauGrot';
@@ -1248,16 +1253,10 @@ ul.gtopics-0 {
   .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
     content: 'Participate';
     background-color: #FF5F05; }
-  .course-content ul.section li.activity.label h2 {
-    margin-bottom: 1rem;
-    margin-top: 1.5rem; }
-  .course-content ul.section li.activity.label p {
-    margin-bottom: 1rem; }
   .course-content ul.section li.activity > div {
     max-width: calc(100% - 105px); }
   .course-content ul.section li.activity .activityinstance {
-    min-height: unset;
-    margin-bottom: 1rem; }
+    min-height: unset; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: unset; }
     .course-content ul.section li.activity .activityinstance img {
@@ -1265,7 +1264,7 @@ ul.gtopics-0 {
   .course-content ul.section li.activity .no-overflow {
     padding: unset; }
   .course-content ul.section li.activity .activityinstance ~ .ishidden {
-    margin: 0 0 1rem 0; }
+    margin: unset; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

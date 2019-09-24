@@ -1202,6 +1202,9 @@ table, .table {
 ul.gtopics-0 {
   margin: unset; }
 
+.content h3.sectionname {
+  color: #171717; }
+
 #gridiconcontainer {
   width: 103%; }
   #gridiconcontainer ul.gridicons {
@@ -1402,7 +1405,8 @@ ul.gtopics-0 {
     color: #171717; }
   .que.deferredfeedback .info .questionflag.editable, .que.manualgraded .info .questionflag.editable, .que.multichoice .info .questionflag.editable, .que.singlechoice .info .questionflag.editable {
     line-height: normal;
-    font-family: 'KingsBureauGrotFiveOne'; }
+    font-family: 'KingsBureauGrotFiveOne';
+    margin: 0 0.5rem 0 0; }
     .que.deferredfeedback .info .questionflag.editable .questionflagimage, .que.manualgraded .info .questionflag.editable .questionflagimage, .que.multichoice .info .questionflag.editable .questionflagimage, .que.singlechoice .info .questionflag.editable .questionflagimage {
       display: none; }
     .que.deferredfeedback .info .questionflag.editable .questionflagtext::before, .que.manualgraded .info .questionflag.editable .questionflagtext::before, .que.multichoice .info .questionflag.editable .questionflagtext::before, .que.singlechoice .info .questionflag.editable .questionflagtext::before {

@@ -1415,7 +1415,8 @@ ul.gtopics-0 {
         .que .content .formulation .ablock .answer input[type="text"] {
           margin-left: 0.5rem; }
         .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
-          padding: unset !important;
+          padding-top: unset;
+          padding-bottom: unset;
           margin-bottom: 0.5rem !important; }
           .que .content .formulation .ablock .answer .r0 label, .que .content .formulation .ablock .answer .r1 label {
             font-size: 1rem; }

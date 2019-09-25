@@ -171,9 +171,9 @@ li {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left, .hero, #gridiconcontainer ul.gridicons li {
+.top-bar, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left, .hero, .full-width-img, #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .card .card-img-top::before, .card .card-img-left::before, .card .img-top::before, .card .img-left::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .card .card-img-top::before, .card .card-img-left::before, .card .img-top::before, .card .img-left::before, .hero::before, .full-width-img::before, #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -897,6 +897,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .hero .hero-caption h2 {
     color: #FFFFFF;
     margin: unset; }
+
+.full-width-img {
+  margin-bottom: 1.5rem; }
+  .full-width-img img {
+    width: 100%; }
+    .full-width-img img:not(:last-child) {
+      margin-bottom: 1rem; }
+  .full-width-img .caption {
+    margin-bottom: unset; }
 
 .definition-box {
   background-color: #EDF1F2; }

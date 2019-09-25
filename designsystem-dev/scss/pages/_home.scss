@@ -6,6 +6,11 @@ ul.gtopics-0 {
   margin: unset
 }
 
+//override theme course name header color
+.content h3.sectionname {
+  color: $headings;
+}
+
 #gridiconcontainer {
 // for some reason a right margin cant be overidden
   width: 103%;

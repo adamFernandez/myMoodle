@@ -146,8 +146,11 @@
   }
 }
 
-.que.deferredfeedback, .que.manualgraded, .que.multichoice, .que.singlechoice {
+// quiz question
+.que {
+  margin: 0 0 $component-margin-bottom-lg;
   .info {
+    margin-bottom: $component-margin-bottom;
     background-color: unset;
     padding: unset;
     border: unset;
@@ -156,17 +159,19 @@
     }.no, .qno {
       @extend .h5;
     }
-    div.state, div.grade {
+    div {
+      margin: 0 $component-margin-bottom-xs 0 0;
       line-height: normal;
-      padding: 0.375rem;
       font-size: 1rem;
+      padding: 0.375rem;
+      margin: 0 $component-margin-bottom-xs 0 0;
+    }
+    div.state, div.grade {
       font-family: 'KingsBureauGrot';
       border-radius: 0.125rem;
-      margin: unset;
-      margin-right: 0.5rem;
     }
     div.state {
-      background-color: #01b9e1;
+      background-color: $sky-blue;
       text-transform: uppercase;
       color: $white;
     }
@@ -175,7 +180,6 @@
       color: $headings;
     }
     .questionflag.editable {
-      line-height: normal;
       font-family: 'KingsBureauGrotFiveOne';
       .questionflagimage {
         display: none;
@@ -188,25 +192,36 @@
       }
     }
   }
-// quiz feedback box
+  // quiz question and feedback box
   .content {
     .formulation {
       background-color: unset;
-      margin-top: 1rem;
+      margin: unset;
       padding: unset;
-      .qtext b {
-        font-family: 'KingsBureauGrot';
-        font-size: 1.25rem;
-        line-height: 1.4;
+      .qtext {
+        margin-bottom: $component-margin-bottom;
+        p {
+          margin-bottom: $component-margin-bottom-sm;
+       }
       }
       .ablock {
+        margin: unset;
         .prompt, .readonly, .readonly p {
-          font-family: 'KingsBureauGrotFiveOne';
+          margin-bottom: $component-margin-bottom-sm;
         }
         .answer {
-          font-family: 'KingsBureauGrot';
-          .r0, .r1 {
+          padding: unset !important;
+          margin-bottom: $component-margin-bottom-xs !important;
+          label {
             margin-bottom: unset;
+          }
+          input[type="text"] {
+            margin-left: $component-margin-bottom-xs; 
+          }
+          .r0, .r1 {
+            padding-top: unset;
+            padding-bottom: unset;
+            margin-bottom: $component-margin-bottom-xs !important;
             label {
               font-size: 1rem;
             }
@@ -265,6 +280,16 @@
       content: '\f057';
       padding: 0 4px;
     }
+  }
+}
+
+// submit button
+#page-mod-quiz-attempt, #page-mod-quiz-review {
+  .submitbtns {
+    padding: unset;
+  }
+  .mod_quiz-next-nav {
+    margin-bottom: $component-margin-bottom-xl;
   }
 }
 

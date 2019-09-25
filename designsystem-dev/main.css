@@ -409,6 +409,9 @@ li {
 section:not(:last-of-type) {
   margin-bottom: calc(2 * 1.5rem); }
 
+#region-main .no-overflow {
+  overflow: hidden; }
+
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne'; }
   .breadcrumb-nav ul.breadcrumb a {

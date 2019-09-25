@@ -907,6 +907,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .full-width-img .caption {
     margin-bottom: unset; }
 
+.atto_image_button_text-bottom {
+  margin: unset;
+  max-width: 100% !important; }
+
 .definition-box {
   background-color: #EDF1F2; }
   .definition-box > :first-child::before {

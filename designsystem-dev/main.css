@@ -1020,7 +1020,7 @@ table, .table {
     border-bottom: 1px solid #8B9296;
     border-radius: unset; }
     table.table-bordered th, table.table-bordered td, .table.table-bordered th, .table.table-bordered td {
-      border-top: 1px solid #8B9296;
+      border-top: 1px solid #8B9296 !important;
       border-left: 1px solid #8B9296; }
   table.default-width, .table.default-width {
     width: unset; }

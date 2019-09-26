@@ -1037,6 +1037,8 @@ table, .table {
   table td, .table td {
     line-height: 1.375;
     color: #333333; }
+  table.vertical-align-middle td, .table.vertical-align-middle td {
+    vertical-align: middle; }
 
 .timeline-container {
   margin-left: 64px;

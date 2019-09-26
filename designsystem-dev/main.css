@@ -1033,11 +1033,12 @@ table, .table {
     font-size: 1.125rem;
     line-height: 1.4;
     color: #171717;
-    border-radius: unset !important; }
+    border-radius: unset !important;
+    vertical-align: top; }
   table td, .table td {
     line-height: 1.375;
     color: #333333; }
-  table.vertical-align-middle td, .table.vertical-align-middle td {
+  table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .table.vertical-align-middle td {
     vertical-align: middle; }
 
 .timeline-container {

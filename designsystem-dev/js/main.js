@@ -35,7 +35,11 @@ $(document).on("click", "a.view-hide-answer", function(event) {
 $("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
 
 // copy chapterlist to book nav and remove .action-list
-$(".book_toc_indented ul").clone().find(".action-list").remove().end().insertAfter(".navbottom.clearfix.navtext a.bookprev");
+booknav = $(".book_toc_indented ul").clone().find(".action-list").remove().end();
+$(".navbottom.clearfix.navtext a.bookprev").length
+  ? booknav.insertAfter(".navbottom.clearfix.navtext a.bookprev")
+  : booknav.insertBefore(".navbottom.clearfix.navtext a.booknext");
+//$(".book_toc_indented ul").clone().find(".action-list").remove().end().insertAfter(".navbottom.clearfix.navtext a.bookprev");
 $(".navbottom.clearfix.navtext ul li").removeClass("clearfix").addClass("chapter");
 $(".navbottom.clearfix.navtext ul li a, .navbottom.clearfix.navtext ul li strong").each(function(i) {
   $(this).text(i+1);

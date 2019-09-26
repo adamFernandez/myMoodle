@@ -419,16 +419,14 @@ li {
   display: none; }
 
 .row {
-  background-color: unset; }
+  background-color: unset;
+  overflow: hidden; }
 
 .book_content {
   padding-top: unset; }
 
 section:not(:last-of-type) {
   margin-bottom: 4.5rem; }
-
-#region-main .no-overflow {
-  overflow: hidden; }
 
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne'; }
@@ -1010,6 +1008,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     font-family: 'KingsCaslonDisplay';
     font-size: 4.5rem;
     top: 2.25rem; }
+
+.table-scroll {
+  overflow: auto; }
 
 table, .table {
   margin-bottom: 1.5rem;

@@ -425,6 +425,9 @@ li {
   .container .row {
     background-color: unset; }
 
+.row {
+  background-color: unset; }
+
 .book_content {
   padding-top: unset; }
 

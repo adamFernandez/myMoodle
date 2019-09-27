@@ -418,9 +418,12 @@ li {
 .course-content ul.gtopics li.section .right {
   display: none; }
 
-.row {
-  background-color: unset;
+.container {
+  padding: unset;
+  margin: unset;
   overflow: hidden; }
+  .container .row {
+    background-color: unset; }
 
 .book_content {
   padding-top: unset; }

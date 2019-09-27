@@ -1108,7 +1108,7 @@ table, .table {
   table th, table td, .table th, .table td {
     padding: 0.75rem 1.25rem;
     border-radius: unset !important; }
-  table th, .table th {
+  table thead th, table th, .table thead th, .table th {
     background-color: #EDF1F2;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;

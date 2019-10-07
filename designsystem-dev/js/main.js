@@ -9,9 +9,7 @@ $(document).on("click", ".carousel-control-prev", function(event) {
   $(this).parents(".carousel").removeClass("finish");
   if ($(".carousel-item:nth-child(2)").hasClass("active")) {
     $(this).parents(".carousel").addClass("start");
-/*  if ($(this).hasClass("carousel-control-next") && $(".carousel-item:first-child").hasClass("active")) {
-    $(".carousel-indicators li:nth-child(2)").addClass("active");
-  }*/
+  }
 });
 // hide carousel controls on last slide
 $(document).on("click", ".carousel-control-next", function(event) {
@@ -19,10 +17,10 @@ $(document).on("click", ".carousel-control-next", function(event) {
   if ($(".carousel-item:nth-last-child(2)").hasClass("active")) {
     $(this).parents(".carousel").addClass("finish");
   }
+});
 /*  if ($(this).hasClass("carousel-control-next") && $(".carousel-item:first-child").hasClass("active")) {
     $(".carousel-indicators li:nth-child(2)").addClass("active");
   }*/
-});
 
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header button", function(event) {

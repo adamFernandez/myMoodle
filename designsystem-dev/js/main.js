@@ -4,6 +4,16 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
+// hide carousel controls on first and last slide
+$(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
+  $(this).parents(".carousel").removeClass("start").removeClass("finish");
+  if ($(this).hasClass("carousel-control-prev") && $(".carousel-item:nth-child(2)").hasClass("active")) {
+    $(this).parents(".carousel").addClass("start");
+  } else if ($(this).hasClass("carousel-control-next") && $(".carousel-item:nth-last-child(2)").hasClass("active")) {
+    $(this).parents(".carousel").addClass("finish");
+  }
+});
+/*
 // hide carousel controls on first slide
 $(document).on("click", ".carousel-control-prev", function(event) {
   $(this).parents(".carousel").removeClass("finish");
@@ -20,7 +30,7 @@ $(document).on("click", ".carousel-control-next", function(event) {
     $(".carousel-indicators li:nth-child(2)").addClass("active");
   }
 });
-/*  if ($(this).hasClass("carousel-control-next") && $(".carousel-item:first-child").hasClass("active")) {
+  if ($(this).hasClass("carousel-control-next") && $(".carousel-item:first-child").hasClass("active")) {
     $(".carousel-indicators li:nth-child(2)").addClass("active");
   }*/
 

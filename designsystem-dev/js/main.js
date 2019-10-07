@@ -35,7 +35,7 @@ $(document).on("click", "a.view-hide-answer", function(event) {
 $("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
 
 // copy chapterlist to book nav and remove .action-list
-booknav = $(".book_toc_indented ul").clone().find(".action-list").remove().end();
+booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length
   ? booknav.insertAfter(".navbottom.clearfix.navtext a.bookprev")
   : booknav.insertBefore(".navbottom.clearfix.navtext a.booknext");

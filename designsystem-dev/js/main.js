@@ -12,9 +12,9 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   } else if ($(this).hasClass("carousel-control-next") && $(".carousel-item:nth-last-child(2)").hasClass("active")) {
     $(this).parents(".carousel").addClass("finish");
   }
-//  if ($(".carousel-item:first-child").hasClass("active")) {
-//    $(".carousel-indicators li:nth-child(2)").addClass("active");
-//  }
+  if ($(this).hasClass("carousel-control-next") && $$(".carousel-item:first-child").hasClass("active")) {
+    $(".carousel-indicators li:nth-child(2)").addClass("active");
+  }
 });
 
 // hide and show collapse card

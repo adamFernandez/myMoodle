@@ -1394,7 +1394,7 @@ ul.gtopics-0 {
     background-color: #FF5F05; }
   .course-content ul.section li.activity.label h2 {
     margin-bottom: unset; }
-  .course-content ul.section li.activity.label:not(:first-of-type) h2.section-title {
+  .course-content ul.section li.activity.label:not(:first-of-type) h2 {
     margin-top: 0.75rem; }
   .course-content ul.section li.activity > div {
     max-width: calc(100% - 105px); }

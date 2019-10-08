@@ -46,6 +46,9 @@ $(document).on("click", "a.view-hide-answer", function(event) {
 // home page add forum class to activtiy title containing 'discussion'
 $("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
 
+//forums and webinars page
+$(".hero#forums-and-webinars").parents("#region-main").addClass("forums-and-webinars-region-main");
+
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length

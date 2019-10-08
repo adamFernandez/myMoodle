@@ -15,12 +15,17 @@ $(document).on("click", blockHide, function(event) {
 });*/
 $(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
   var crsl = $(this).parent(".carousel");
-  var first = crsl.find(".carousel-item:nth-child(2)")
-  var last = crsl.find(".carousel-item:nth-last-child(2)")
+  var first = crsl.find(".carousel-item:first-child")
+  var indicator = crsl.find(".carousel-indicators li:nth-child(2)")
+  var start = crsl.find(".carousel-item:nth-child(2)")
+  var finish = crsl.find(".carousel-item:nth-last-child(2)")
   crsl.removeClass("start").removeClass("finish");
-  if ($(this).hasClass("carousel-control-next") && last.hasClass("active")) {
+  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
+   indicator.addClass("active");
+  }
+  if ($(this).hasClass("carousel-control-next") && finish.hasClass("active")) {
    crsl.addClass("finish");
-  } else if ($(this).hasClass("carousel-control-prev") && first.hasClass("active")) {
+  } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
    crsl.addClass("start");
   }
 });

@@ -20,15 +20,15 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   var start = crsl.find(".carousel-item:nth-child(2)")
   var finish = crsl.find(".carousel-item:nth-last-child(2)")
   crsl.removeClass("start").removeClass("finish");
-  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
-   indicator.css("background-color","red");
-  }
   if ($(this).hasClass("carousel-control-next") && finish.hasClass("active")) {
    crsl.addClass("finish");
   } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
    crsl.addClass("start");
   }
-});
+  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
+   indicator.addClass"active");
+  }
+ });
 
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header button", function(event) {

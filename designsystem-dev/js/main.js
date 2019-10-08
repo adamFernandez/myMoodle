@@ -5,19 +5,8 @@ $(document).on("click", blockHide, function(event) {
 });
 
 // hide carousel controls on first and last slide
-/*$(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
-  $(this).parents(".carousel").removeClass("start").removeClass("finish");
-  if ($(this).hasClass("carousel-control-prev") && $(".carousel-item:nth-child(2)").hasClass("active")) {
-    $(this).parents(".carousel").addClass("start");
-  } else if ($(this).hasClass("carousel-control-next") && $(".carousel-item:nth-last-child(2)").hasClass("active")) {
-    $(this).parents(".carousel").addClass("finish");
-  }
-});*/
 $(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
   var crsl = $(this).parent(".carousel");
-  var first = crsl.find(".carousel-item:first-child")
-  var third = crsl.find(".carousel-item:nth-child(3)")
-  var indicator = crsl.find(".carousel-indicators li:nth-child(2)")
   var start = crsl.find(".carousel-item:nth-child(2)")
   var finish = crsl.find(".carousel-item:nth-last-child(2)")
   crsl.removeClass("start").removeClass("finish");
@@ -26,6 +15,10 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
    crsl.addClass("start");
   }
+  // override moodleism causing the second carousel indicator to not be active on the first cycle
+  var first = crsl.find(".carousel-item:first-child")
+  var third = crsl.find(".carousel-item:nth-child(3)")
+  var indicator = crsl.find(".carousel-indicators li:nth-child(2)")
   if (($(this).hasClass("carousel-control-next") && first.hasClass("active")) || ($(this).hasClass("carousel-control-prev") && third.hasClass("active"))) {
    indicator.css("background-color","white");
   } else {

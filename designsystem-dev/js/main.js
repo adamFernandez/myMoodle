@@ -16,6 +16,7 @@ $(document).on("click", blockHide, function(event) {
 $(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
   var crsl = $(this).parent(".carousel");
   var first = crsl.find(".carousel-item:first-child")
+  var third = crsl.find(".carousel-item:nth-child(3)")
   var indicator = crsl.find(".carousel-indicators li:nth-child(2)")
   var start = crsl.find(".carousel-item:nth-child(2)")
   var finish = crsl.find(".carousel-item:nth-last-child(2)")
@@ -25,8 +26,10 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
    crsl.addClass("start");
   }
-  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
-   indicator.addClass("active");
+  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) || ($(this).hasClass("carousel-control-prev") && third.hasClass("active"))  {
+   indicator.css("background-color","white");
+  } else {
+   indicator.css("background-color","rgba(255, 255, 255, 0.5)");
   }
  });
 

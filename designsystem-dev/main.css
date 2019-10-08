@@ -1003,7 +1003,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     margin-bottom: unset; }
 
 .circular-img {
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-bottom: 1.5rem; }
 
 .atto_image_button_text-bottom {
   margin: unset;

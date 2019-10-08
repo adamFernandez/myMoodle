@@ -26,7 +26,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
    crsl.addClass("start");
   }
-  if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) || ($(this).hasClass("carousel-control-prev") && third.hasClass("active"))  {
+  if (($(this).hasClass("carousel-control-next") && first.hasClass("active")) || ($(this).hasClass("carousel-control-prev") && third.hasClass("active"))) {
    indicator.css("background-color","white");
   } else {
    indicator.css("background-color","rgba(255, 255, 255, 0.5)");

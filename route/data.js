@@ -518,9 +518,14 @@ var data = {
         "1": "mod/forum/view.php?id=2772279"
       }
     },
+    "module7": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=2772478"
+      }
+    },
     "module8": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2511622"
+        "1": "mod/forum/view.php?id=2772478"
       }
     }
   },

@@ -26,7 +26,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
    crsl.addClass("start");
   }
   if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
-   indicator.addClass"active");
+   indicator.addClass("active");
   }
  });
 

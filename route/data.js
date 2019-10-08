@@ -525,7 +525,7 @@ var data = {
     },
     "module8": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2511622"
+        "1": "mod/forum/view.php?id=2772478"
       }
     }
   },

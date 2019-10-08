@@ -21,7 +21,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   var finish = crsl.find(".carousel-item:nth-last-child(2)")
   crsl.removeClass("start").removeClass("finish");
   if ($(this).hasClass("carousel-control-next") && first.hasClass("active")) {
-   indicator.addClass("active");
+   indicator.css("background-color","red");
   }
   if ($(this).hasClass("carousel-control-next") && finish.hasClass("active")) {
    crsl.addClass("finish");

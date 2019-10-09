@@ -1291,7 +1291,8 @@ table, .table {
     #page-mod-forum-discuss .forumpost .header .topic, #page-mod-forum-view .forumpost .header .topic, #page-mod-forum-post .forumpost .header .topic {
       flex: 1; }
       #page-mod-forum-discuss .forumpost .header .topic .subject, #page-mod-forum-view .forumpost .header .topic .subject, #page-mod-forum-post .forumpost .header .topic .subject {
-        font-family: 'KingsBureauGrot'; }
+        font-family: 'KingsBureauGrot';
+        color: #171717; }
       #page-mod-forum-discuss .forumpost .header .topic .author, #page-mod-forum-view .forumpost .header .topic .author, #page-mod-forum-post .forumpost .header .topic .author {
         font-family: 'KingsBureauGrotFiveOne';
         margin-bottom: unset; }

@@ -1411,7 +1411,7 @@ ul.gtopics-0 {
   display: none; }
 
 .hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
-  display: block; }
+  display: inline; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

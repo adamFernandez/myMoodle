@@ -1300,8 +1300,7 @@ table, .table {
         #page-mod-forum-discuss .forumpost .header .topic .author::before, #page-mod-forum-view .forumpost .header .topic .author::before, #page-mod-forum-post .forumpost .header .topic .author::before {
           display: none; }
   #page-mod-forum-discuss .forumpost .maincontent .content, #page-mod-forum-view .forumpost .maincontent .content, #page-mod-forum-post .forumpost .maincontent .content {
-    margin-left: 3rem;
-    font-family: 'KingsBureauGrotFiveOne'; }
+    margin-left: 6rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
       margin-top: unset; }
     #page-mod-forum-discuss .forumpost .maincontent .content p, #page-mod-forum-view .forumpost .maincontent .content p, #page-mod-forum-post .forumpost .maincontent .content p {

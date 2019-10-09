@@ -1407,8 +1407,11 @@ ul.gtopics-0 {
   .course-content ul.section li.activity .activityinstance ~ .ishidden {
     margin: unset; }
 
-.forums-and-webinars-region-main li.activity::before, .hide-activity-labels li.activity::before {
+.hide-activity-labels li.activity::before {
   display: none; }
+
+.hide-activity-labels li.activity.resource img {
+  display: block; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

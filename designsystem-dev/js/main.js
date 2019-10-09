@@ -46,8 +46,7 @@ $(document).on("click", "a.view-hide-answer", function(event) {
 // home page add forum class to activtiy title containing 'discussion'
 $("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
 
-//forums and webinars page
-$(".hero#forums-and-webinars").parents("#region-main").addClass("forums-and-webinars-region-main");
+// hide activity labels on certain pages
 $(".hero.hide-activity-labels").parents("#region-main").addClass("hide-activity-labels");
 
 // copy chapterlist to book nav and remove .action-list

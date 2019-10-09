@@ -1303,8 +1303,6 @@ table, .table {
     margin-left: 6rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
       margin-top: unset; }
-    #page-mod-forum-discuss .forumpost .maincontent .content p, #page-mod-forum-view .forumpost .maincontent .content p, #page-mod-forum-post .forumpost .maincontent .content p {
-      font-family: inherit; }
   #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
     text-align: left; }
     #page-mod-forum-discuss .forumpost .row.side .options .commands a, #page-mod-forum-view .forumpost .row.side .options .commands a, #page-mod-forum-post .forumpost .row.side .options .commands a {
@@ -1312,9 +1310,6 @@ table, .table {
 
 #page-mod-forum-discuss .indent > a:first-child, #page-mod-forum-view .indent > a:first-child, #page-mod-forum-post .indent > a:first-child {
   display: none; }
-
-#page-mod-forum-discuss.forumtype-single .forumpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost .maincontent .content {
-  margin-left: 6rem; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .subject {
   display: none; }

@@ -1410,7 +1410,7 @@ ul.gtopics-0 {
 .hide-activity-labels li.activity::before {
   display: none; }
 
-.hide-activity-labels li.activity.resource img {
+.hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
   display: block; }
 
 .course-content .single-section .section-navigation.navigationtitle {

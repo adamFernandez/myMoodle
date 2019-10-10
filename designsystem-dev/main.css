@@ -1282,8 +1282,8 @@ table, .table {
 #page-mod-forum-discuss .forumpost, #page-mod-forum-view .forumpost, #page-mod-forum-post .forumpost {
   margin-bottom: unset;
   background-color: unset;
-  border: unset;
-  border-top: 1px solid #8B9296;
+  border-radius: unset;
+  border-bottom: 1px solid #8B9296;
   padding: 1rem; }
   #page-mod-forum-discuss .forumpost .header, #page-mod-forum-view .forumpost .header, #page-mod-forum-post .forumpost .header {
     background: unset;
@@ -1317,8 +1317,10 @@ table, .table {
   #page-mod-forum-discuss .forumpost.firstpost .header .author::before, #page-mod-forum-view .forumpost.firstpost .header .author::before, #page-mod-forum-post .forumpost.firstpost .header .author::before {
     display: none; }
 
-#page-mod-forum-discuss .indent > a:first-child, #page-mod-forum-view .indent > a:first-child, #page-mod-forum-post .indent > a:first-child {
-  display: none; }
+#page-mod-forum-discuss .indent, #page-mod-forum-view .indent, #page-mod-forum-post .indent {
+  margin-left: 1rem; }
+  #page-mod-forum-discuss .indent > a:first-child, #page-mod-forum-view .indent > a:first-child, #page-mod-forum-post .indent > a:first-child {
+    display: none; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .subject, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .subject {
   display: none; }

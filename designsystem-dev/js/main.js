@@ -66,9 +66,9 @@ $(".chapter.current").prev("li").addClass("prev");
 $(".chapter.current").next("li").addClass("next");
 // show one more page if first or last page on mobile
 if ($(".navbottom a.bookprev").length == 0) {
-  $("li.chapter:nth-child(3)").addClass("next");
+  $("li.chapter:nth-child(3), li.chapter:nth-child(4)").addClass("next");
 } else if ($(".navbottom a.booknext").length == 0) {
-  $("li.chapter:nth-last-child(3)").addClass("prev");
+  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4)").addClass("prev");
 }
 // remove text from previous and next buttons
 $(".navbottom.clearfix.navtext > a").empty();

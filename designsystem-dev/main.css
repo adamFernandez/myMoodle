@@ -295,8 +295,8 @@ li {
     top: 0; }
 
 #page-mod-book-view .navtext.navtop, #page-mod-book-view .row-fluid.rtl-compatible a.navtop#prev-activity-link, .row-fluid.rtl-compatible #page-mod-book-view a.navtop#prev-activity-link, #page-mod-book-view .row-fluid.rtl-compatible a.navtop#next-activity-link, .row-fluid.rtl-compatible #page-mod-book-view a.navtop#next-activity-link, #page-mod-book-view .section-navigation.mdl-bottom .mdl-left a.navtop, .section-navigation.mdl-bottom .mdl-left #page-mod-book-view a.navtop, #page-mod-book-view .section-navigation.mdl-bottom .mdl-right a.navtop, .section-navigation.mdl-bottom .mdl-right #page-mod-book-view a.navtop, #page-mod-book-view .navtext.navbottom, #page-mod-book-view .row-fluid.rtl-compatible a.navbottom#prev-activity-link, .row-fluid.rtl-compatible #page-mod-book-view a.navbottom#prev-activity-link, #page-mod-book-view .row-fluid.rtl-compatible a.navbottom#next-activity-link, .row-fluid.rtl-compatible #page-mod-book-view a.navbottom#next-activity-link, #page-mod-book-view .section-navigation.mdl-bottom .mdl-left a.navbottom, .section-navigation.mdl-bottom .mdl-left #page-mod-book-view a.navbottom, #page-mod-book-view .section-navigation.mdl-bottom .mdl-right a.navbottom, .section-navigation.mdl-bottom .mdl-right #page-mod-book-view a.navbottom {
-  padding: 1.5rem 0;
-  margin: unset;
+  padding: 0 0 2.25rem 0;
+  margin: 2.25rem 0;
   text-align: center;
   border-top: unset;
   border-bottom: 1px solid #8B9296; }

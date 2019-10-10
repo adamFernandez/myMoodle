@@ -61,5 +61,8 @@ $(".navbottom.clearfix.navtext ul li a, .navbottom.clearfix.navtext ul li strong
 });
 // add current class to current page
 $(".navbottom.clearfix.navtext ul li :not(a)").parents("li").addClass("current");
+// add prev and next class to li before and after current
+$(".chapter.current").prev("li").addClass("prev");
+$(".chapter.current").next("li").addClass("next");
 // remove text from previous and next buttons
 $(".navbottom.clearfix.navtext > a").empty();

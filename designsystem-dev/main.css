@@ -1273,41 +1273,49 @@ table, .table {
   margin: 0 0.25rem 1rem 3.125rem;
   font-family: 'KingsBureauGrotFiveOne'; }
 
-#page-mod-forum-discuss .forummode .custom-select.forummode, #page-mod-forum-view .forummode .custom-select.forummode, #page-mod-forum-post .forummode .custom-select.forummode {
-  font-family: 'KingsBureauGrotFiveOne';
-  font-size: 1rem; }
-  #page-mod-forum-discuss .forummode .custom-select.forummode option, #page-mod-forum-view .forummode .custom-select.forummode option, #page-mod-forum-post .forummode .custom-select.forummode option {
-    font-family: inherit; }
+#page-mod-forum-discuss div.forummode, #page-mod-forum-view div.forummode, #page-mod-forum-post div.forummode {
+  margin-bottom: 1rem; }
+  #page-mod-forum-discuss div.forummode .custom-select.forummode, #page-mod-forum-view div.forummode .custom-select.forummode, #page-mod-forum-post div.forummode .custom-select.forummode {
+    font-size: 1rem;
+    height: auto; }
 
 #page-mod-forum-discuss .forumpost, #page-mod-forum-view .forumpost, #page-mod-forum-post .forumpost {
   margin-bottom: unset;
   background-color: unset;
   border: unset;
-  border-top: 1px solid #8B9296; }
+  border-top: 1px solid #8B9296;
+  padding: 1rem; }
   #page-mod-forum-discuss .forumpost .header, #page-mod-forum-view .forumpost .header, #page-mod-forum-post .forumpost .header {
     background: unset;
     margin-bottom: unset;
     padding: unset; }
+    #page-mod-forum-discuss .forumpost .header .picture, #page-mod-forum-view .forumpost .header .picture, #page-mod-forum-post .forumpost .header .picture {
+      position: absolute; }
+      #page-mod-forum-discuss .forumpost .header .picture img.userpicture, #page-mod-forum-view .forumpost .header .picture img.userpicture, #page-mod-forum-post .forumpost .header .picture img.userpicture {
+        margin: unset; }
     #page-mod-forum-discuss .forumpost .header .topic, #page-mod-forum-view .forumpost .header .topic, #page-mod-forum-post .forumpost .header .topic {
       flex: 1; }
       #page-mod-forum-discuss .forumpost .header .topic .subject, #page-mod-forum-view .forumpost .header .topic .subject, #page-mod-forum-post .forumpost .header .topic .subject {
         font-family: 'KingsBureauGrot';
-        color: #171717; }
+        color: #171717;
+        margin-bottom: 1rem; }
       #page-mod-forum-discuss .forumpost .header .topic .author, #page-mod-forum-view .forumpost .header .topic .author, #page-mod-forum-post .forumpost .header .topic .author {
         font-family: 'KingsBureauGrotFiveOne';
-        margin-bottom: unset; }
+        margin-bottom: 1.5rem; }
         #page-mod-forum-discuss .forumpost .header .topic .author a, #page-mod-forum-view .forumpost .header .topic .author a, #page-mod-forum-post .forumpost .header .topic .author a {
           font-family: 'KingsBureauGrot'; }
         #page-mod-forum-discuss .forumpost .header .topic .author::before, #page-mod-forum-view .forumpost .header .topic .author::before, #page-mod-forum-post .forumpost .header .topic .author::before {
           display: none; }
   #page-mod-forum-discuss .forumpost .maincontent .content, #page-mod-forum-view .forumpost .maincontent .content, #page-mod-forum-post .forumpost .maincontent .content {
-    margin-left: 6rem; }
+    margin-left: 3.75rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
       margin-top: unset; }
   #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
     text-align: left; }
     #page-mod-forum-discuss .forumpost .row.side .options .commands a, #page-mod-forum-view .forumpost .row.side .options .commands a, #page-mod-forum-post .forumpost .row.side .options .commands a {
       font-family: 'KingsBureauGrot'; }
+  #page-mod-forum-discuss .forumpost.firstpost .header .author::before, #page-mod-forum-view .forumpost.firstpost .header .author::before, #page-mod-forum-post .forumpost.firstpost .header .author::before {
+    display: none; }
 
 #page-mod-forum-discuss .indent > a:first-child, #page-mod-forum-view .indent > a:first-child, #page-mod-forum-post .indent > a:first-child {
   display: none; }
@@ -1325,10 +1333,10 @@ table, .table {
   display: none; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-view.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-post.forumtype-single .forumpost.firstpost .row.side .options {
-  margin-left: unset; }
+  margin-left: 0.75rem; }
 
 #page-mod-forum-post .forumpost .maincontent .content {
-  margin-left: 6rem; }
+  margin-left: 3.75rem; }
 
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: unset; }

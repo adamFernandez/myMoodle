@@ -914,7 +914,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       padding: 1rem 1rem 1rem 0; }
       .collapse-container .collapse-card .collapse-header button {
         margin: unset;
-        padding: unset;
+        padding: unset !important;
         width: 100%;
         text-align: left; }
         .collapse-container .collapse-card .collapse-header button .h4 {

@@ -1429,10 +1429,10 @@ ul.gtopics-0 {
     border-radius: 2px;
     margin-right: 1rem;
     color: white; }
-  .course-content ul.section li.activity.book::before, .course-content ul.section li.activity.page::before, .course-content ul.section li.activity.resource::before {
+  .course-content ul.section li.activity.book .activityinstance a::before, .course-content ul.section li.activity.page .activityinstance a::before, .course-content ul.section li.activity.resource .activityinstance a::before {
     content: 'Study';
     background-color: #005AD2; }
-  .course-content ul.section li.activity.forum::before, .course-content ul.section li.activity.lesson::before, .course-content ul.section li.activity.questionnaire::before, .course-content ul.section li.activity.quiz::before, .course-content ul.section li.activity.scorm::before {
+  .course-content ul.section li.activity.forum .activityinstance a::before, .course-content ul.section li.activity.lesson .activityinstance a::before, .course-content ul.section li.activity.questionnaire .activityinstance a::before, .course-content ul.section li.activity.quiz .activityinstance a::before, .course-content ul.section li.activity.scorm .activityinstance a::before {
     content: 'Participate';
     background-color: #FF5F05; }
   .course-content ul.section li.activity.label h2, .course-content ul.section li.activity.label h3 {
@@ -1445,7 +1445,17 @@ ul.gtopics-0 {
     min-height: unset; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: unset; }
-    .course-content ul.section li.activity .activityinstance img {
+    .course-content ul.section li.activity .activityinstance a::before {
+      font-family: 'KingsBureauGrot';
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+      width: 5.5rem;
+      height: 1.5rem;
+      border-radius: 2px;
+      margin-right: 1rem;
+      color: white; }
+    .course-content ul.section li.activity .activityinstance a img {
       display: none; }
   .course-content ul.section li.activity .no-overflow {
     padding: unset; }

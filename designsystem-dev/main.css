@@ -501,18 +501,26 @@ section:not(:last-of-type) {
 
 #block-region-side-pre .block .content, #block-region-side-post .block .content {
   background-color: #EDF1F2;
-  padding: 1.125rem; }
-  #block-region-side-pre .block .content li, #block-region-side-post .block .content li {
+  padding: 1.5rem 1rem; }
+  #block-region-side-pre .block .content ul.fa-ul, #block-region-side-post .block .content ul.fa-ul {
+    margin: 0 0 0.125rem 2rem; }
+  #block-region-side-pre .block .content ul li, #block-region-side-post .block .content ul li {
     font-family: 'KingsBureauGrotFiveOne';
     margin: unset; }
-    #block-region-side-pre .block .content li a, #block-region-side-pre .block .content li p, #block-region-side-pre .block .content li span, #block-region-side-post .block .content li a, #block-region-side-post .block .content li p, #block-region-side-post .block .content li span {
+    #block-region-side-pre .block .content ul li a, #block-region-side-pre .block .content ul li p, #block-region-side-pre .block .content ul li span, #block-region-side-post .block .content ul li a, #block-region-side-post .block .content ul li p, #block-region-side-post .block .content ul li span {
       font-family: 'KingsBureauGrotFiveOne';
       color: #0A2D50;
       font-size: 1rem;
       line-height: 1.5;
       margin: unset; }
-    #block-region-side-pre .block .content li strong, #block-region-side-pre .block .content li a:hover, #block-region-side-pre .block .content li p:hover, #block-region-side-post .block .content li strong, #block-region-side-post .block .content li a:hover, #block-region-side-post .block .content li p:hover {
+    #block-region-side-pre .block .content ul li strong, #block-region-side-pre .block .content ul li a:hover, #block-region-side-pre .block .content ul li p:hover, #block-region-side-post .block .content ul li strong, #block-region-side-post .block .content ul li a:hover, #block-region-side-post .block .content ul li p:hover {
       color: #536C84; }
+
+#block-region-side-pre .block.block_book_toc .content li:not(:last-child), #block-region-side-post .block.block_book_toc .content li:not(:last-child) {
+  margin-bottom: 0.75rem; }
+
+#block-region-side-pre .block.block_book_toc .content li strong, #block-region-side-post .block.block_book_toc .content li strong {
+  font-family: 'KingsBureauGrot'; }
 
 #block_course_discuss_posts_container {
   padding: 0.75rem; }
@@ -539,9 +547,6 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns #block_course_discuss_posts_container #block_course_discuss_reply_container .singlebutton:nth-child(2) > form > div >
 input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-child, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink, #block_course_discuss_posts_container #block_course_discuss_reply_container #page-mod-connecthosted-view .chosted-button-row input.course-discuss-reply-button, #page-mod-connecthosted-view .chosted-button-row #block_course_discuss_posts_container #block_course_discuss_reply_container input.course-discuss-reply-button {
       margin-left: unset; }
-
-.block_book_toc .content li strong {
-  font-family: 'KingsBureauGrot'; }
 
 .singleselect form, .singleselect select, .singleselect select option {
   font-family: 'KingsBureauGrotFiveOne';

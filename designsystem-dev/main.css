@@ -1487,7 +1487,8 @@ ul.gtopics-0 {
     content: '\f091'; }
 
 #page-mod-quiz-view .quizattemptsummary {
-  border: 1px solid #8B9296;
+  border-left: 1px solid #8B9296;
+  border-right: 1px solid #8B9296;
   border-collapse: separate; }
   #page-mod-quiz-view .quizattemptsummary thead .header {
     font-family: 'KingsBureauGrot';
@@ -1498,7 +1499,10 @@ ul.gtopics-0 {
   #page-mod-quiz-view .quizattemptsummary tr td {
     font-family: 'KingsBureauGrotFiveOne';
     background-color: unset;
-    color: #333333; }
+    color: #333333;
+    padding: 0.75rem 1.25rem; }
+  #page-mod-quiz-view .quizattemptsummary tr:last-child th, #page-mod-quiz-view .quizattemptsummary tr:last-child td {
+    border-bottom: 1px solid #8B9296; }
 
 #page-mod-quiz-view .generalbox#feedback {
   margin: unset;

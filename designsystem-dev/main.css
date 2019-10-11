@@ -1308,7 +1308,7 @@ table, .table {
       #page-mod-forum-discuss .forumpost .header .picture img.userpicture, #page-mod-forum-view .forumpost .header .picture img.userpicture, #page-mod-forum-post .forumpost .header .picture img.userpicture {
         margin: unset; }
     #page-mod-forum-discuss .forumpost .header .topic, #page-mod-forum-view .forumpost .header .topic, #page-mod-forum-post .forumpost .header .topic {
-      flex: 1; }
+      margin-left: 3.75rem; }
       #page-mod-forum-discuss .forumpost .header .topic .subject, #page-mod-forum-view .forumpost .header .topic .subject, #page-mod-forum-post .forumpost .header .topic .subject {
         font-family: 'KingsBureauGrot';
         color: #171717;
@@ -1324,10 +1324,12 @@ table, .table {
     margin-left: 3.75rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
       margin-top: unset; }
-  #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
-    text-align: left; }
-    #page-mod-forum-discuss .forumpost .row.side .options .commands a, #page-mod-forum-view .forumpost .row.side .options .commands a, #page-mod-forum-post .forumpost .row.side .options .commands a {
-      font-family: 'KingsBureauGrot'; }
+  #page-mod-forum-discuss .forumpost .row.side .options, #page-mod-forum-view .forumpost .row.side .options, #page-mod-forum-post .forumpost .row.side .options {
+    margin-left: 0.75rem; }
+    #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
+      text-align: left; }
+      #page-mod-forum-discuss .forumpost .row.side .options .commands a, #page-mod-forum-view .forumpost .row.side .options .commands a, #page-mod-forum-post .forumpost .row.side .options .commands a {
+        font-family: 'KingsBureauGrot'; }
   #page-mod-forum-discuss .forumpost.firstpost .header .author::before, #page-mod-forum-view .forumpost.firstpost .header .author::before, #page-mod-forum-post .forumpost.firstpost .header .author::before {
     display: none; }
 

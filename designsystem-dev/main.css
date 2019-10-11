@@ -1348,7 +1348,7 @@ table, .table {
       #page-mod-forum-discuss .forumpost .row.side .options .commands a, #page-mod-forum-view .forumpost .row.side .options .commands a, #page-mod-forum-post .forumpost .row.side .options .commands a {
         font-family: 'KingsBureauGrot'; }
   #page-mod-forum-discuss .forumpost.firstpost, #page-mod-forum-view .forumpost.firstpost, #page-mod-forum-post .forumpost.firstpost {
-    padding-left: unset; }
+    padding: 0 1rem 1rem 0; }
     #page-mod-forum-discuss .forumpost.firstpost .header .author::before, #page-mod-forum-view .forumpost.firstpost .header .author::before, #page-mod-forum-post .forumpost.firstpost .header .author::before {
       display: none; }
     #page-mod-forum-discuss .forumpost.firstpost .row.side .options, #page-mod-forum-view .forumpost.firstpost .row.side .options, #page-mod-forum-post .forumpost.firstpost .row.side .options {
@@ -1363,16 +1363,13 @@ table, .table {
   display: none; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
-  color: #171717; }
+  color: #5A6469; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-view.forumtype-single .forumpost.firstpost .maincontent .content, #page-mod-forum-post.forumtype-single .forumpost.firstpost .maincontent .content {
   margin-left: unset; }
 
 #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .row.side .left, #page-mod-forum-view.forumtype-single .forumpost.firstpost .row.side .left, #page-mod-forum-post.forumtype-single .forumpost.firstpost .row.side .left {
   display: none; }
-
-#page-mod-forum-discuss.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-view.forumtype-single .forumpost.firstpost .row.side .options, #page-mod-forum-post.forumtype-single .forumpost.firstpost .row.side .options {
-  margin-left: 0.75rem; }
 
 #page-mod-forum-post .forumpost .maincontent .content {
   margin-left: 3.75rem; }

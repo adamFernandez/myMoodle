@@ -523,7 +523,8 @@ section:not(:last-of-type) {
   margin-bottom: 0.75rem; }
 
 #block-region-side-pre .block.block_book_toc .content li strong, #block-region-side-post .block.block_book_toc .content li strong {
-  font-family: 'KingsBureauGrot'; }
+  font-family: 'KingsBureauGrot';
+  color: #0A2D50; }
 
 #block_course_discuss_posts_container {
   padding: 0.75rem; }

@@ -1295,6 +1295,15 @@ table, .table {
   margin: 0 0.25rem 1rem 3.125rem;
   font-family: 'KingsBureauGrotFiveOne'; }
 
+#page-mod-forum-discuss .discussioncontrols, #page-mod-forum-view .discussioncontrols, #page-mod-forum-post .discussioncontrols {
+  margin: unset; }
+  #page-mod-forum-discuss .discussioncontrols .controlscontainer .discussioncontrol, #page-mod-forum-view .discussioncontrols .controlscontainer .discussioncontrol, #page-mod-forum-post .discussioncontrols .controlscontainer .discussioncontrol {
+    float: unset; }
+    #page-mod-forum-discuss .discussioncontrols .controlscontainer .discussioncontrol.nullcontrol, #page-mod-forum-view .discussioncontrols .controlscontainer .discussioncontrol.nullcontrol, #page-mod-forum-post .discussioncontrols .controlscontainer .discussioncontrol.nullcontrol {
+      display: none; }
+    #page-mod-forum-discuss .discussioncontrols .controlscontainer .discussioncontrol.displaymode, #page-mod-forum-view .discussioncontrols .controlscontainer .discussioncontrol.displaymode, #page-mod-forum-post .discussioncontrols .controlscontainer .discussioncontrol.displaymode {
+      width: fit-content; }
+
 #page-mod-forum-discuss div.forummode, #page-mod-forum-view div.forummode, #page-mod-forum-post div.forummode {
   margin-bottom: 1rem; }
   #page-mod-forum-discuss div.forummode .custom-select.forummode, #page-mod-forum-view div.forummode .custom-select.forummode, #page-mod-forum-post div.forummode .custom-select.forummode {

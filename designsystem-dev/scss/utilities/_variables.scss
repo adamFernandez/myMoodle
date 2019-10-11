@@ -41,7 +41,7 @@ $footer-dark: #464E52;
 $rules-and-outlines: #8B9296;
 $block-header: #DCE3E6;
 $block-background: #EDF1F2;
-$table-border: #8B9296;
+$table-border: $rules-and-outlines;
 
 // -----------------------------------------------------------------------------
 // layout
@@ -53,11 +53,16 @@ $lg-breakpoint: 979px;
 $neo-breakpoint: 767px;
 
 //spacing
-$component-margin-bottom-xs: 0.5rem;
-$component-margin-bottom-sm: 1rem;
-$component-margin-bottom: 1.5rem;
-$component-margin-bottom-lg: 2.25rem;
-$component-margin-bottom-xl: 4.5rem;
+$component-margin-xs: 0.5rem;
+$component-margin-sm: 1rem;
+$component-margin: 1.5rem;
+$component-margin-lg: 2.25rem;
+$component-margin-xl: 4.5rem;
+$component-margin-bottom-xs: $component-margin-xs;
+$component-margin-bottom-sm: $component-margin-sm;
+$component-margin-bottom: $component-margin;
+$component-margin-bottom-lg: $component-margin-lg;
+$component-margin-bottom-xl: $component-margin-xl;
 
 //nav button margins
 $lg-nav-margin: 3rem;

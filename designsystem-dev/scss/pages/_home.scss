@@ -80,12 +80,12 @@ ul.gtopics-0 {
       background-color: $orange;
     }
     &.label {
-      h2 {
+      h2, h3 {
         margin-bottom: unset;
       }
       // section titles use the same activity class as labels 
       // but need extra margin
-      &:not(:first-of-type) h2.section-title {
+      &:not(:first-of-type) h2, &:not(:first-of-type) h3 {
         margin-top: 0.75rem;
       }
     }
@@ -109,5 +109,17 @@ ul.gtopics-0 {
     .activityinstance ~ .ishidden {
       margin: unset;
     }
+  }
+}
+
+// hide activity labels on module information, forums and webinars, and
+// assessment pages
+.hide-activity-labels {
+  li.activity::before {
+    display: none;
+  }
+  // show resource icon
+  .course-content ul.section li.activity.resource .activityinstance img {
+    display: inline;
   }
 }

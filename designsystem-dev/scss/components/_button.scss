@@ -17,10 +17,10 @@ button, .btn {
       text-decoration: unset;
     }
   }
-  &.btn-secondary, &#id_cancel {
+  &.btn-secondary {
     background-color: $white !important;
     color: $midnight-blue !important;
-    padding: 0.5rem 0.625rem;
+    padding: 0.5rem 0.625rem !important;
     border: 2px solid $midnight-blue;
     &:hover {
       border-color: #536c84;
@@ -88,4 +88,8 @@ input[type="submit"] {
 // override white visited button text
 button a.btn-secondary:visited, .btn a.btn-secondary:visited, a.btn.btn-secondary:visited {
   color: $midnight-blue !important;
+}
+
+.btn#id_cancel {
+ @extend .btn-secondary;
 }

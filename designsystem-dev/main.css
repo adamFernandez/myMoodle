@@ -1446,6 +1446,7 @@ ul.gtopics-0 {
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: unset; }
     .course-content ul.section li.activity .activityinstance a::before {
+      display: inline-block;
       font-family: 'KingsBureauGrot';
       font-size: 1rem;
       text-align: center;

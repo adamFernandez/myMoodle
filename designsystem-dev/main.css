@@ -501,9 +501,12 @@ section:not(:last-of-type) {
 
 #block-region-side-pre .block .content, #block-region-side-post .block .content {
   background-color: #EDF1F2;
-  padding: 1.5rem 1rem; }
+  padding: 1.5rem; }
   #block-region-side-pre .block .content ul.fa-ul, #block-region-side-post .block .content ul.fa-ul {
-    margin: 0 0 0.125rem 2rem; }
+    margin: 0 0 0 2rem; }
+    #block-region-side-pre .block .content ul.fa-ul .fa-li, #block-region-side-post .block .content ul.fa-ul .fa-li {
+      top: 0;
+      left: -2.25rem; }
   #block-region-side-pre .block .content ul li, #block-region-side-post .block .content ul li {
     font-family: 'KingsBureauGrotFiveOne';
     margin: unset; }

@@ -1703,14 +1703,15 @@ ul.gtopics-0 {
     font-family: 'KingsBureauGrot';
     color: #171717;
     text-align: left !important; }
-  #page-mod-quiz-summary .quizsummaryofattempt tr td {
+  #page-mod-quiz-summary .quizsummaryofattempt tr td.cell {
     background-color: #FFFFFF;
-    color: #333333; }
+    color: #333333;
+    padding: 1px; }
+    #page-mod-quiz-summary .quizsummaryofattempt tr td.cell:first-child {
+      padding: 1px 0.5rem 1px 1rem; }
+    #page-mod-quiz-summary .quizsummaryofattempt tr td.cell:last-child {
+      padding: 1px 1rem 1px 0.5rem; }
+  #page-mod-quiz-summary .quizsummaryofattempt tr:last-child td {
+    border-bottom: 1px solid #8B9296; }
   #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > td {
     background-color: #f8fafa !important; }
-  #page-mod-quiz-summary .quizsummaryofattempt tbody th.cell {
-    padding: 1px 0.5rem 1px 1rem; }
-  #page-mod-quiz-summary .quizsummaryofattempt tbody td.cell {
-    padding: 1px 1rem 1px 0.5rem; }
-  #page-mod-quiz-summary .quizsummaryofattempt tr:last-child th, #page-mod-quiz-summary .quizsummaryofattempt tr:last-child td {
-    border-bottom: 1px solid #8B9296; }

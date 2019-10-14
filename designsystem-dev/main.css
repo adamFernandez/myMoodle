@@ -1525,16 +1525,17 @@ ul.gtopics-0 {
     margin-left: unset; }
 
 #page-mod-quiz-review .quizreviewsummary {
-  border: 1px solid #8B9296; }
+  border-top: 1px solid #8B9296;
+  border-left: 1px solid #8B9296; }
   #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-review .quizreviewsummary tr td {
-    border-top: 1px solid #8B9296;
+    border-right: 1px solid #8B9296;
+    border-bottom: 1px solid #8B9296;
     background-color: #FFFFFF; }
   #page-mod-quiz-review .quizreviewsummary tr th {
     font-family: 'KingsBureauGrot';
     color: #171717;
     text-align: left !important; }
   #page-mod-quiz-review .quizreviewsummary tr td {
-    font-family: 'KingsBureauGrotFiveOne';
     color: #333333; }
   #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td {
     background-color: #f8fafa !important; }

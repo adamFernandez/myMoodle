@@ -1545,7 +1545,7 @@ ul.gtopics-0 {
   font-size: 1rem !important;
   padding: unset !important;
   margin: 0 0.625rem 0.625rem 0;
-  background-color: #CDD7DC !important;
+  background-color: #CDD7DC;
   color: #171717 !important; }
   #mod_quiz_navblock .content a.qnbutton span.thispageholder {
     border: unset; }

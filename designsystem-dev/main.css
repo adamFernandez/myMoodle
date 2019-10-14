@@ -1698,19 +1698,19 @@ ul.gtopics-0 {
   border-left: 1px solid #8B9296; }
   #page-mod-quiz-summary .quizsummaryofattempt tr th, #page-mod-quiz-summary .quizsummaryofattempt tr td {
     border-right: 1px solid #8B9296;
-    border-top: 1px solid #8B9296; }
+    border-top: 1px solid #8B9296;
+    padding: 1px; }
   #page-mod-quiz-summary .quizsummaryofattempt tr th {
     font-family: 'KingsBureauGrot';
     color: #171717;
     text-align: left !important; }
   #page-mod-quiz-summary .quizsummaryofattempt tr td.cell {
     background-color: #FFFFFF;
-    color: #333333;
-    padding: 1px; }
-    #page-mod-quiz-summary .quizsummaryofattempt tr td.cell:first-child {
-      padding: 1px 0.5rem 1px 1rem; }
-    #page-mod-quiz-summary .quizsummaryofattempt tr td.cell:last-child {
-      padding: 1px 1rem 1px 0.5rem; }
+    color: #333333; }
+  #page-mod-quiz-summary .quizsummaryofattempt tr > :first-child {
+    padding: 1px 0.5rem 1px 1rem; }
+  #page-mod-quiz-summary .quizsummaryofattempt tr > :last-child {
+    padding: 1px 1rem 1px 0.5rem; }
   #page-mod-quiz-summary .quizsummaryofattempt tr:last-child td {
     border-bottom: 1px solid #8B9296; }
   #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > td {

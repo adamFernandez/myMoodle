@@ -1445,19 +1445,23 @@ ul.gtopics-0 {
     min-height: unset; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: unset; }
-    .course-content ul.section li.activity .activityinstance a::before {
-      display: inline-block;
-      font-family: 'KingsBureauGrot';
-      font-size: 1rem;
-      text-align: center;
-      text-transform: uppercase;
-      width: 5.5rem;
-      height: 1.5rem;
-      border-radius: 2px;
-      margin-right: 1rem;
-      color: white; }
-    .course-content ul.section li.activity .activityinstance a img {
-      display: none; }
+    .course-content ul.section li.activity .activityinstance a {
+      /*
+        &::before {
+          display: inline-block;
+          font-family: 'KingsBureauGrot';
+          font-size: 1rem;
+          text-align: center;
+          text-transform: uppercase;
+          width: 5.5rem;
+          height: 1.5rem;
+          border-radius: 2px;
+          margin-right: 1rem;
+          color: white;
+        }
+*/ }
+      .course-content ul.section li.activity .activityinstance a img {
+        display: none; }
   .course-content ul.section li.activity .no-overflow {
     padding: unset; }
   .course-content ul.section li.activity .activityinstance ~ .ishidden {

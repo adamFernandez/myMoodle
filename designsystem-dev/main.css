@@ -1525,11 +1525,10 @@ ul.gtopics-0 {
     margin-left: unset; }
 
 #page-mod-quiz-review .quizreviewsummary {
-  border-top: 1px solid #8B9296;
   border-left: 1px solid #8B9296; }
   #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-review .quizreviewsummary tr td {
     border-right: 1px solid #8B9296;
-    border-bottom: 1px solid #8B9296;
+    border-top: 1px solid #8B9296;
     background-color: #FFFFFF; }
   #page-mod-quiz-review .quizreviewsummary tr th {
     font-family: 'KingsBureauGrot';
@@ -1539,6 +1538,8 @@ ul.gtopics-0 {
     color: #333333; }
   #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td {
     background-color: #f8fafa !important; }
+  #page-mod-quiz-review .quizreviewsummary tr:last-child th, #page-mod-quiz-review .quizreviewsummary tr:last-child td {
+    border-bottom: 1px solid #8B9296; }
 
 #mod_quiz_navblock .content a.qnbutton {
   height: 1.25rem;

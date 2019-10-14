@@ -552,6 +552,13 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-child, #block_course_discuss_posts_container #block_course_discuss_reply_container #mod_quiz_navblock .content .othernav a.course-discuss-reply-button.endtestlink, #mod_quiz_navblock .content .othernav #block_course_discuss_posts_container #block_course_discuss_reply_container a.course-discuss-reply-button.endtestlink, #block_course_discuss_posts_container #block_course_discuss_reply_container #page-mod-connecthosted-view .chosted-button-row input.course-discuss-reply-button, #page-mod-connecthosted-view .chosted-button-row #block_course_discuss_posts_container #block_course_discuss_reply_container input.course-discuss-reply-button {
       margin-left: unset; }
 
+#block-region-side-post .block_html .content ul.module-academic-team {
+  list-style: none; }
+  #block-region-side-post .block_html .content ul.module-academic-team li:not(:last-child) {
+    margin-bottom: 1rem; }
+    #block-region-side-post .block_html .content ul.module-academic-team li:not(:last-child) span {
+      display: block; }
+
 .singleselect form, .singleselect select, .singleselect select option {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }

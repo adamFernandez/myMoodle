@@ -553,6 +553,7 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
       margin-left: unset; }
 
 #block-region-side-post .block_html .content ul.module-academic-team {
+  margin: unset;
   list-style: none; }
   #block-region-side-post .block_html .content ul.module-academic-team li:not(:last-child) {
     margin-bottom: 1rem; }

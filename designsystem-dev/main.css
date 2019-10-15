@@ -1155,6 +1155,10 @@ table, .table {
   table td, .table td {
     line-height: 1.375;
     color: #333333; }
+  table tr.border-none td, table tr.border-none th, .table tr.border-none td, .table tr.border-none th {
+    border-top: unset !important; }
+    table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child) {
+      border-left: unset; }
   table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .table.vertical-align-middle td {
     vertical-align: middle; }
 

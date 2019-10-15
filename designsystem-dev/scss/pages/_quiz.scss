@@ -18,7 +18,8 @@
     }
   } 
   .quizattemptsummary {
-    border: 1px solid $table-border;
+    border-left: 1px solid $table-border;
+    border-right: 1px solid $table-border;
     border-collapse: separate;
     thead .header {
       font-family: 'KingsBureauGrot';
@@ -32,11 +33,15 @@
       font-family: 'KingsBureauGrotFiveOne';
       background-color: unset;
       color: $body-text;
+      padding: 0.75rem 1.25rem;
       &.lastcol {
         a {
           @extend .btn, .btn-primary;
         }
       }
+    }
+    tr:last-child th, tr:last-child td {
+      border-bottom: 1px solid $table-border;
     }
   }
   .generalbox#feedback {
@@ -54,9 +59,10 @@
 // review page
 #page-mod-quiz-review {
   .quizreviewsummary {
-    border: 1px solid $table-border;
+    border-left: 1px solid $table-border;
     tr th, tr td {
-      border-top: 1px solid $table-border ;
+      border-right: 1px solid $table-border;
+      border-top: 1px solid $table-border;
       background-color: $white;
     }
     tr th{
@@ -65,11 +71,13 @@
       text-align:left !important; 
     }
     tr td{
-      font-family: 'KingsBureauGrotFiveOne';
       color: $body-text;
     }
     tr:nth-child(even)>th, tr:nth-child(even)>td {
       background-color: #f8fafa !important;
+    }
+    tr:last-child th, tr:last-child td {
+      border-bottom: 1px solid $table-border;
     }
   }
 }
@@ -311,15 +319,53 @@
       font-family: 'KingsBureauGrotFiveOne';
       font-size: 1rem;
     }
+    .confirmation-buttons {
+    }
     .btn {
-      font-size: 1rem;
-      padding: 0.5rem 0.625rem;
-      border: unset;
-      background-color: $midnight-blue !important;
-      color: white;
+//      font-size: 1rem;
+//      padding: 0.5rem 0.625rem;
+//      border: unset;
+//      background-color: $midnight-blue !important;
+//      color: white;
     }
   }
   .moodle-dialogue-ft {
     margin: unset !important;
+  }
+}
+// summary of attempt page (on submission of answers)
+#page-mod-quiz-summary {
+  .quizsummaryofattempt {
+    border-left: 1px solid $table-border;
+    tr {
+      th, td {
+        border-right: 1px solid $table-border;
+        border-top: 1px solid $table-border;
+        padding: 1px;
+        }
+      th {
+        font-family: 'KingsBureauGrot';
+        color: $headings;
+        text-align:left !important; 
+      }
+      td.cell {
+        background-color: $white;
+        color: $body-text;
+      }
+      & > :first-child {
+        padding: 1px 0.5rem 1px 1rem;
+      }
+      & > :last-child {
+        padding: 1px 1rem 1px 0.5rem;
+      }
+      &:last-child td {
+        border-bottom: 1px solid $table-border;
+      }
+    }  
+    tbody {
+      tr:nth-child(even)>th, tr:nth-child(even)>td {
+        background-color: #f8fafa !important;
+      }
+    }
   }
 }

@@ -40,21 +40,44 @@
   }
   .content {
      background-color: $block-background;
-     padding: 1.125rem;
-     li {
-       font-family: 'KingsBureauGrotFiveOne';
-       margin: unset;
-       a, p, span {
-         font-family: 'KingsBureauGrotFiveOne';
-         color: $midnight-blue;
-         font-size: 1rem;
-         line-height: 1.5;
-         margin: unset;
+     padding: $component-margin;
+     ul {
+       &.fa-ul {
+         margin: 0 0 0 2rem;
+         .fa-li {
+           top: 0;
+           left: -2.25rem;
+         }
        }
-       strong, a:hover, p:hover {
-         color: $link-hover;
+       li {
+         font-family: 'KingsBureauGrotFiveOne';
+         margin: unset;
+         a, p, span {
+           font-family: 'KingsBureauGrotFiveOne';
+           color: $midnight-blue;
+           font-size: 1rem;
+           line-height: 1.5;
+           margin: unset;
+         }
+         strong, a:hover, p:hover {
+           color: $link-hover;
+         }
        }
      }
+  }
+  // book table of contents current page
+  &.block_book_toc {
+    .content {
+      li {
+        &:not(:last-child) {
+          margin-bottom: 0.75rem;
+        }
+        strong {
+          font-family: 'KingsBureauGrot';
+          color: $midnight-blue;
+        }
+      }
+    }
   }
 }
 
@@ -86,7 +109,16 @@
   }
 }
 
-// book table of contents current page
-.block_book_toc .content li strong {
-  font-family: 'KingsBureauGrot';
+//module academic team html block
+#block-region-side-post .block_html .content ul.module-academic-team {
+  margin: unset;
+  list-style: none;
+  li {
+    span {
+      display: block;
+    }
+    &:not(:last-child) {
+      margin-bottom: $component-margin-bottom-sm;
+    }
+  }    
 }

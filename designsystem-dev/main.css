@@ -254,12 +254,12 @@ li {
 .row-fluid.rtl-compatible a#prev-activity-link::before {
   left: -3.125rem;
   top: 0;
-  content: 'foo'; }
+  content: '\f104'; }
 
 .row-fluid.rtl-compatible a#next-activity-link::after {
   right: -3.125rem;
   top: 0;
-  content: 'bar'; }
+  content: '\f105'; }
 
 .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
   left: 3rem; }

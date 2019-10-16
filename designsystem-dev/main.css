@@ -129,6 +129,11 @@ li {
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {
   margin-bottom: 2.25rem; }
 
+.path-mod-page #region-main > div > h2 {
+  background: unset; }
+  .path-mod-page #region-main > div > h2::after {
+    display: none; }
+
 .instancename {
   color: #0A2D50; }
   .instancename:hover {

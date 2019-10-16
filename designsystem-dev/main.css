@@ -1505,8 +1505,7 @@ ul.gtopics-0 {
 
 #page-mod-quiz-view .box.quizinfo p {
   font-family: 'KingsBureauGrotFiveOne';
-  text-align: left;
-  margin-bottom: unset; }
+  text-align: left; }
   #page-mod-quiz-view .box.quizinfo p:first-child::before {
     content: '\f017'; }
   #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before {

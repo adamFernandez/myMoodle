@@ -72,3 +72,11 @@ if ($(".navbottom a.bookprev").length == 0) {
 }
 // remove text from previous and next buttons
 $(".navbottom.clearfix.navtext > a").empty();
+
+// remove stupid arrows from prev and next activity links
+$(".course-content .single-section .section-navigation.mdl-bottom a#prev-activity-link").text(function(i, text) {
+  return text.slice(2);
+});
+$(".course-content .single-section .section-navigation.mdl-bottom a#next-activity-link").text(function(i, text) {
+  return text.slice(0, -2);
+});

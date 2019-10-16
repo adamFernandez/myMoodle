@@ -52,15 +52,15 @@ $(".hero.hide-activity-labels").parents("#region-main").addClass("hide-activity-
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length
-  ? booknav.insertAfter(".navbottom.clearfix.navtext a.bookprev")
-  : booknav.insertBefore(".navbottom.clearfix.navtext a.booknext");
+  ? booknav.insertAfter(".navbottom.clearfix a.bookprev")
+  : booknav.insertBefore(".navbottom.clearfix a.booknext");
 //$(".book_toc_indented ul").clone().find(".action-list").remove().end().insertAfter(".navbottom.clearfix.navtext a.bookprev");
-$(".navbottom.clearfix.navtext ul li").removeClass("clearfix").addClass("chapter");
-$(".navbottom.clearfix.navtext ul li a, .navbottom.clearfix.navtext ul li strong").each(function(i) {
+$(".navbottom.clearfix ul li").removeClass("clearfix").addClass("chapter");
+$(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function(i) {
   $(this).text(i+1);
 });
 // add current class to current page
-$(".navbottom.clearfix.navtext ul li :not(a)").parents("li").addClass("current");
+$(".navbottom.clearfix ul li :not(a)").parents("li").addClass("current");
 // add prev and next class to li before and after current for mobile
 $(".chapter.current").prev("li").addClass("prev");
 $(".chapter.current").next("li").addClass("next");
@@ -71,7 +71,7 @@ if ($(".navbottom a.bookprev").length == 0) {
   $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4)").addClass("prev");
 }
 // remove text from previous and next buttons
-$(".navbottom.clearfix.navtext > a").empty();
+$(".navbottom.clearfix > a").empty();
 
 // remove stupid arrows from prev and next activity links
 $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {

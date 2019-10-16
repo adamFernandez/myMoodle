@@ -224,6 +224,7 @@ li {
 
 .navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';
+  font-weight: 900;
   font-size: 1.25rem;
   color: #FFFFFF;
   border-radius: 0.25rem;
@@ -251,15 +252,19 @@ li {
 .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
   margin-top: unset; }
 
-.row-fluid.rtl-compatible a#prev-activity-link::before {
-  left: -3.125rem;
-  top: 0;
-  content: '\f104'; }
+.row-fluid.rtl-compatible a#prev-activity-link {
+  left: 3rem; }
+  .row-fluid.rtl-compatible a#prev-activity-link::before {
+    left: -3.125rem;
+    top: 0;
+    content: '\f104'; }
 
-.row-fluid.rtl-compatible a#next-activity-link::after {
-  right: -3.125rem;
-  top: 0;
-  content: '\f105'; }
+.row-fluid.rtl-compatible a#next-activity-link {
+  right: 3rem; }
+  .row-fluid.rtl-compatible a#next-activity-link::after {
+    right: -3.125rem;
+    top: 0;
+    content: '\f105'; }
 
 .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
   left: 3rem; }

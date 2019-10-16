@@ -211,7 +211,7 @@ li {
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
-  .navcontainer .navtextcontainer, .row-fluid.rtl-compatible .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .mdl-left, .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
+  .navcontainer .navtextcontainer, .row-fluid.rtl-compatible .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .row-fluid.rtl-compatible .span4, .course-content .single-section .section-navigation.mdl-bottom .row-fluid.rtl-compatible .span4, .row-fluid.rtl-compatible .course-content .single-section .section-navigation.mdl-bottom .span4, .course-content .single-section .section-navigation.mdl-bottom .mdl-left, .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
     flex: 1; }
   .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     position: relative;
@@ -223,7 +223,7 @@ li {
     line-height: 1.2;
     color: #0a2d50; }
 
-.navbutton, .row-fluid.rtl-compatible a#prev-activity-link:before, .row-fluid.rtl-compatible a#next-activity-link:after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
+.navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';
   font-size: 1.25rem;
   color: #FFFFFF;
@@ -234,11 +234,11 @@ li {
   padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .row-fluid.rtl-compatible a#prev-activity-link:hover:before, .row-fluid.rtl-compatible a#next-activity-link:hover:after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
+  .navbutton:hover, .row-fluid.rtl-compatible a#prev-activity-link:hover::before, .row-fluid.rtl-compatible a#next-activity-link:hover::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
   @media only screen and (max-width: 767px) {
-    .navbutton, .row-fluid.rtl-compatible a#prev-activity-link:before, .row-fluid.rtl-compatible a#next-activity-link:after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
+    .navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
       padding: 5px 16.5px;
       font-size: 1.5625rem; } }
 
@@ -246,20 +246,19 @@ li {
   display: none; }
 
 .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
-  width: 50%;
   margin-top: unset; }
 
 .row-fluid.rtl-compatible a#prev-activity-link {
   text-align: left;
   left: 0; }
-  .row-fluid.rtl-compatible a#prev-activity-link:before {
+  .row-fluid.rtl-compatible a#prev-activity-link::before {
     left: -3.125rem;
     top: 0; }
 
 .row-fluid.rtl-compatible a#next-activity-link {
   text-align: right;
   right: 0; }
-  .row-fluid.rtl-compatible a#next-activity-link:after {
+  .row-fluid.rtl-compatible a#next-activity-link::after {
     right: -3.125rem;
     top: 0; }
 

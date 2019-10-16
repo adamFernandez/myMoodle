@@ -250,7 +250,8 @@ li {
   justify-content: flex-end; }
 
 .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
-  margin-top: unset; }
+  margin-top: unset;
+  padding: unset !important; }
 
 .row-fluid.rtl-compatible a#prev-activity-link {
   left: 3rem; }

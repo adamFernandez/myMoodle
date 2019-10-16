@@ -255,7 +255,8 @@ li {
 
 .row-fluid.rtl-compatible a#prev-activity-link {
   left: 3rem;
-  text-align: left; }
+  text-align: left;
+  padding-right: 3rem !important; }
   .row-fluid.rtl-compatible a#prev-activity-link::before {
     left: -3.125rem;
     top: 0;
@@ -263,7 +264,8 @@ li {
 
 .row-fluid.rtl-compatible a#next-activity-link {
   right: 3rem;
-  text-align: right; }
+  text-align: right;
+  padding-left: 3rem !important; }
   .row-fluid.rtl-compatible a#next-activity-link::after {
     right: -3.125rem;
     top: 0;

@@ -207,34 +207,19 @@ li {
   color: #555; }
 
 .navcontainer, .row-fluid.rtl-compatible, .section-navigation.mdl-bottom {
-  min-height: 6rem;
-  position: relative;
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
-  @media only screen and (max-width: 979px) {
-    .navcontainer, .row-fluid.rtl-compatible, .section-navigation.mdl-bottom {
-      min-height: 10rem; } }
-  @media only screen and (max-width: 767px) {
-    .navcontainer, .row-fluid.rtl-compatible, .section-navigation.mdl-bottom {
-      min-height: 14.5rem; } }
   .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-right a {
-    position: absolute;
+    flex: 1;
+    position: relative;
+    float: unset;
     max-width: 18rem;
     margin: 2.125rem 0;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.2;
     color: #0a2d50; }
-    @media only screen and (max-width: 1200px) {
-      .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-right a {
-        max-width: 16rem; } }
-    @media only screen and (max-width: 979px) {
-      .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-right a {
-        max-width: 8rem; } }
-    @media only screen and (max-width: 767px) {
-      .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-right a {
-        width: calc(50% - 5rem); } }
 
 .navbutton, .row-fluid.rtl-compatible a#prev-activity-link:before, .row-fluid.rtl-compatible a#next-activity-link:after, .section-navigation.mdl-bottom .mdl-left a:before, .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';

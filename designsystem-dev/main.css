@@ -207,11 +207,13 @@ li {
   color: #555; }
 
 .navcontainer, .row-fluid.rtl-compatible, .section-navigation.mdl-bottom {
+  display: flex;
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
+  .navcontainer .navtextcontainer, .row-fluid.rtl-compatible .navtextcontainer, .section-navigation.mdl-bottom .navtextcontainer, .section-navigation.mdl-bottom .mdl-left, .section-navigation.mdl-bottom .mdl-right {
+    flex: 1; }
   .navcontainer .navtext, .row-fluid.rtl-compatible .navtext, .section-navigation.mdl-bottom .navtext, .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link, .section-navigation.mdl-bottom .mdl-left a, .section-navigation.mdl-bottom .mdl-right a {
-    flex: 1;
     position: relative;
     float: unset;
     max-width: 18rem;
@@ -240,25 +242,26 @@ li {
       padding: 5px 16.5px;
       font-size: 1.5625rem; } }
 
-.row-fluid.rtl-compatible {
-  display: flex; }
-  .row-fluid.rtl-compatible .span4:nth-child(2) {
-    display: none; }
-  .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
-    width: 50%;
-    margin-top: unset; }
-  .row-fluid.rtl-compatible a#prev-activity-link {
-    text-align: left;
-    left: 0; }
-    .row-fluid.rtl-compatible a#prev-activity-link:before {
-      left: -3.125rem;
-      top: 0; }
-  .row-fluid.rtl-compatible a#next-activity-link {
-    text-align: right;
-    right: 0; }
-    .row-fluid.rtl-compatible a#next-activity-link:after {
-      right: -3.125rem;
-      top: 0; }
+.row-fluid.rtl-compatible .span4:nth-child(2) {
+  display: none; }
+
+.row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
+  width: 50%;
+  margin-top: unset; }
+
+.row-fluid.rtl-compatible a#prev-activity-link {
+  text-align: left;
+  left: 0; }
+  .row-fluid.rtl-compatible a#prev-activity-link:before {
+    left: -3.125rem;
+    top: 0; }
+
+.row-fluid.rtl-compatible a#next-activity-link {
+  text-align: right;
+  right: 0; }
+  .row-fluid.rtl-compatible a#next-activity-link:after {
+    right: -3.125rem;
+    top: 0; }
 
 .section-navigation.mdl-bottom .mdl-left a {
   left: 3rem; }

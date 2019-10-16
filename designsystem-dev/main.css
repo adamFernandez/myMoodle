@@ -254,14 +254,16 @@ li {
   padding: unset !important; }
 
 .row-fluid.rtl-compatible a#prev-activity-link {
-  left: 3rem; }
+  left: 3rem;
+  text-align: left; }
   .row-fluid.rtl-compatible a#prev-activity-link::before {
     left: -3.125rem;
     top: 0;
     content: '\f104'; }
 
 .row-fluid.rtl-compatible a#next-activity-link {
-  right: 3rem; }
+  right: 3rem;
+  text-align: right; }
   .row-fluid.rtl-compatible a#next-activity-link::after {
     right: -3.125rem;
     top: 0;

@@ -1489,6 +1489,8 @@ ul.gtopics-0 {
   .colour-palette .colour-pan .colour {
     padding: 1rem;
     color: #fff; }
+    .colour-palette .colour-pan .colour span {
+      display: block; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

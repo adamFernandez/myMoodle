@@ -1484,13 +1484,11 @@ ul.gtopics-0 {
 .hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
   display: inline; }
 
-.colour-palette {
-  border: 1px solid green; }
-  .colour-palette .colour-pan {
-    height: 6rem; }
-    .colour-palette .colour-pan .colour {
-      padding: 1rem;
-      color: #fff; }
+.colour-palette .colour-pan {
+  height: 6rem; }
+  .colour-palette .colour-pan .colour {
+    padding: 1rem;
+    color: #fff; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }

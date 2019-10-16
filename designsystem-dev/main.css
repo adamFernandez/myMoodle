@@ -218,14 +218,14 @@ li {
     float: unset;
     margin: 2.125rem 0;
     font-family: 'KingsBureauGrot';
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
     line-height: 1.2;
     color: #0a2d50; }
 
 .navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';
   font-weight: 900;
-  font-size: 1.25rem !important;
+  font-size: 1.25rem;
   color: #FFFFFF;
   border-radius: 0.25rem;
   position: absolute;

@@ -225,7 +225,7 @@ li {
 .navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'FontAwesome';
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1.25rem !important;
   color: #FFFFFF;
   border-radius: 0.25rem;
   position: absolute;

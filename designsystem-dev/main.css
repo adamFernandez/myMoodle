@@ -123,7 +123,7 @@ p {
 
 li {
   line-height: inherit; }
-  li p {
+  li > p {
     margin-bottom: unset; }
 
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {

@@ -147,7 +147,7 @@ li {
   #region-main p a:visited, #region-main li p a:visited {
     color: #0A2D50; }
 
-#region-main li:last-child {
+#region-main ul {
   margin-bottom: 1.5rem; }
 
 .info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que .content .outcome {

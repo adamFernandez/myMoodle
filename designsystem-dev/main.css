@@ -150,26 +150,26 @@ li {
 #region-main ul {
   margin-bottom: 1.5rem; }
 
-.info-box, .alert, .definition-box, .feedback-box, .learning-outcome-box, .quote-box, .que .content .outcome {
+.info-box, .alert, .definition-box, .feedback-box, #region-main .learning-outcome-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, .learning-outcome-box > :first-child, .quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .que .content .outcome .info-box-inner, .que .content .outcome .feedback {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, .learning-outcome-box h5, .quote-box h5, .que .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, .learning-outcome-box .info-box-title, .quote-box .info-box-title, .que .content .outcome .info-box-title, .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .specificfeedback p {
+  .info-box h5, .alert h5, .definition-box h5, .feedback-box h5, #region-main .learning-outcome-box h5, .quote-box h5, .que .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .feedback-box .info-box-title, #region-main .learning-outcome-box .info-box-title, .quote-box .info-box-title, .que .content .outcome .info-box-title, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box .specificfeedback, .que .content .outcome .feedback .specificfeedback, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box p, .que .content .outcome .feedback .specificfeedback p {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #171717 !important;
     margin-top: 0;
     margin-bottom: 1rem; }
-  .info-box p, .alert p, .definition-box p, .feedback-box p, .learning-outcome-box p, .quote-box p, .que .content .outcome p {
+  .info-box p, .alert p, .definition-box p, .feedback-box p, #region-main .learning-outcome-box p, .quote-box p, .que .content .outcome p {
     color: #333333 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, .learning-outcome-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .que .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, .que .content .outcome .feedback::before {
+  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, #region-main .learning-outcome-box > :first-child::before, .quote-box > :first-child::before, .que .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Pro';
     font-weight: 900;
     position: absolute;
@@ -1082,15 +1082,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .key-concept-box p:last-child {
     margin-bottom: 0; }
 
-.learning-outcome-box {
+#region-main .learning-outcome-box {
   background-color: #edf1f2; }
-  .learning-outcome-box > :first-child::before {
+  #region-main .learning-outcome-box > :first-child::before {
     content: '\f091';
     color: #009EA0;
     padding: 4px; }
-  .learning-outcome-box ol, .learning-outcome-box ul {
+  #region-main .learning-outcome-box ol, #region-main .learning-outcome-box ul {
     margin: 0 0 0 1.25rem; }
-    .learning-outcome-box ol li:last-child, .learning-outcome-box ul li:last-child {
+    #region-main .learning-outcome-box ol li:last-child, #region-main .learning-outcome-box ul li:last-child {
       margin-bottom: unset; }
 
 #notice.modal {

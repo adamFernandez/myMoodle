@@ -1449,7 +1449,7 @@ ul.gtopics-0 {
         background-color: $orange;
       }
     }*/ }
-  .course-content ul.section li.activity.label h2, .course-content ul.section li.activity.label h3, .course-content ul.section li.activity.label h4 {
+  .course-content ul.section li.activity.label h2, .course-content ul.section li.activity.label h3, .course-content ul.section li.activity.label h4, .course-content ul.section li.activity.label p:last-child {
     margin-bottom: unset; }
   .course-content ul.section li.activity.label:not(:first-of-type) h2, .course-content ul.section li.activity.label:not(:first-of-type) h3,
   .course-content ul.section li.activity.label:not(:first-of-type) h4 {

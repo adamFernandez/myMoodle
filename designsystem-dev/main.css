@@ -1087,7 +1087,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .learning-outcome-box > :first-child::before {
     content: '\f091';
     color: #009EA0;
-    padding: 0 4px; }
+    padding: 4px; }
   .learning-outcome-box ol, .learning-outcome-box ul {
     margin: 0 0 0 1.25rem; }
     .learning-outcome-box ol li:last-child, .learning-outcome-box ul li:last-child {

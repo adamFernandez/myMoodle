@@ -530,6 +530,11 @@ var data = {
       "forum1": {
         "1": "mod/forum/view.php?id=2772478"
       }
+    },
+    "module11": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=3108042"
+      }
     }
   },
   "ia": {

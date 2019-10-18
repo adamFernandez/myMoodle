@@ -1743,15 +1743,15 @@ ul.gtopics-0 {
   #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > td {
     background-color: #f8fafa !important; }
 
-.container.roadmap {
+.container.versioning {
   border-right: 10px solid #28C382;
   border-left: 10px solid #28C382; }
-  .container.roadmap > .row:nth-child(2) {
+  .container.versioning > .row:nth-child(2) {
     background-color: #0A2D50; }
-  .container.roadmap > .row > .col {
+  .container.versioning > .row > .col {
     height: 1rem;
     border-left: 10px solid #28C382; }
-    .container.roadmap > .row > .col:nth-child(5) {
+    .container.versioning > .row > .col:nth-child(5) {
       border-left: 10px solid #E2231A; }
-    .container.roadmap > .row > .col > .col {
+    .container.versioning > .row > .col > .col {
       border-right: 5px solid #FF5F05; }

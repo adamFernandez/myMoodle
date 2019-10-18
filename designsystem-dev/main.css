@@ -1751,6 +1751,8 @@ ul.gtopics-0 {
   .container.versioning > .row > .col {
     height: 1rem;
     border-left: 10px solid #28C382; }
+    .container.versioning > .row > .col.row {
+      margin: unset; }
     .container.versioning > .row > .col:nth-child(5) {
       border-left: 10px solid #E2231A; }
     .container.versioning > .row > .col > .col {

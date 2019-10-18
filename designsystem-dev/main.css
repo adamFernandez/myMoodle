@@ -1743,6 +1743,15 @@ ul.gtopics-0 {
   #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > td {
     background-color: #f8fafa !important; }
 
+.release-name-number {
+  margin-bottom: unset; }
+  .release-name-number .major {
+    color: #E2231A; }
+  .release-name-number .minor {
+    color: #28C382; }
+  .release-name-number .patch {
+    color: #FF5F05; }
+
 .container.versioning {
   border-right: 10px solid #28C382;
   border-left: 10px solid #28C382; }

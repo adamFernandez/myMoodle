@@ -1750,7 +1750,7 @@ ul.gtopics-0 {
   .release-name-number .minor {
     color: #28C382; }
   .release-name-number .patch {
-    color: #FF5F05; }
+    color: #F5B90F; }
 
 .container.versioning {
   border-right: 10px solid #28C382;
@@ -1765,4 +1765,4 @@ ul.gtopics-0 {
     .container.versioning > .row > .col.major {
       border-left: 10px solid #E2231A; }
     .container.versioning > .row > .col > .col {
-      border-right: 5px solid #FF5F05; }
+      border-right: 5px solid #F5B90F; }

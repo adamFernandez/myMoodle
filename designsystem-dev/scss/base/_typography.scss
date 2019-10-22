@@ -128,7 +128,7 @@ p {
 //override theme list font style
 li {
   line-height: inherit;
-  p {
+  & > p {
     margin-bottom: unset;
   }
 }
@@ -143,6 +143,13 @@ li {
     @extend .h2;
   }
 }
+// and page headings
+.path-mod-page #region-main>div>h2 {
+  background: unset;
+  &::after {
+    display: none;
+  }
+}
 
 //override module week page link
 .instancename {
@@ -153,6 +160,7 @@ li {
 }
 
 #region-main {
+  // link hover styles
   p a, li p a {
     text-decoration: underline;
     color: $reflex-blue;
@@ -163,7 +171,8 @@ li {
       color: $midnight-blue;
     }
   }
-  li:last-child {
+  // list margin bottom
+  ul {
     margin-bottom: $component-margin-bottom;
   }
 }

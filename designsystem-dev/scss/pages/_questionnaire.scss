@@ -5,7 +5,7 @@
 .path-mod-questionnaire {
   // pre questionnaire intro page
   .mod_questionnaire_viewpage {
-    .complete a, .all-responses a {
+    .complete a, .allresponses a, .yourrseponse a {
       @extend .btn, .btn-primary;
     }
   }

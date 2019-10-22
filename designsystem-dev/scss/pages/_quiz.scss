@@ -7,7 +7,6 @@
   .box.quizinfo p {
     font-family: 'KingsBureauGrotFiveOne';
     text-align: left;
-    margin-bottom: unset;
     &:first-child::before {
       @extend .icon-before;
       content: '\f017';

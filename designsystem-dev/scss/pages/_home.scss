@@ -54,17 +54,25 @@ ul.gtopics-0 {
 
 // activity type labels
 .course-content ul.section {
+  // remove padding from small icons (edit/move)
+  img.iconsmall {
+    padding: unset;
+  }
+  img.icon {
+    padding-right: unset;
+  }
   li.activity {
     display: flex;
     margin-bottom: $component-margin-bottom-sm;
     padding: unset !important;
     &.label {
-      h2, h3 {
+      h2, h3, h4, p:last-child {
         margin-bottom: unset;
       }
       // section titles use the same activity class as labels 
       // but need extra margin
-      &:not(:first-of-type) h2, &:not(:first-of-type) h3 {
+      &:not(:first-of-type) h2, &:not(:first-of-type) h3, 
+      &:not(:first-of-type) h4 {
         margin-top: 0.75rem;
       }
     }

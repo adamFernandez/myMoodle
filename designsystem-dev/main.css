@@ -1453,11 +1453,8 @@ ul.gtopics-0 {
         width: 100%;
         height: 100%; }
 
-.course-content ul.section img.iconsmall {
+.section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: unset; }
-
-.course-content ul.section img.icon {
-  padding-right: unset; }
 
 .course-content ul.section li.activity {
   display: flex;

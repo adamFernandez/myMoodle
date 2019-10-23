@@ -256,7 +256,10 @@ li {
 
 .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
   margin-top: unset;
-  padding: unset !important; }
+  padding: 0.25rem !important; }
+  @media only screen and (max-width: 767px) {
+    .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
+      padding: 0.5rem !important; } }
 
 .row-fluid.rtl-compatible a#prev-activity-link {
   left: 3rem;

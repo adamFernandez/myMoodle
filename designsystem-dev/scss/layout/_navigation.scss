@@ -91,7 +91,10 @@
   a#prev-activity-link, a#next-activity-link {
     @extend .navtext;
     margin-top: unset;
-    padding: unset !important;
+    padding: 0.25rem !important;
+    @media only screen and (max-width: $neo-breakpoint) {
+      padding: 0.5rem !important;
+    }
   }
   a#prev-activity-link {
     left: 3rem;

@@ -52,21 +52,21 @@ ul.gtopics-0 {
   }
 }
 
-// activity type labels
-.course-content ul.section {
-  // remove padding from small icons (edit/move)
-  img.iconsmall {
+// remove padding from small icons (edit/move)
+.section .summary, .section .activity {
+  .iconsmall, img.icon {
     padding: unset;
   }
-  img.icon {
-    padding-right: unset;
-  }
+}
+
+// activity type labels
+.course-content ul.section {
   li.activity {
     display: flex;
     margin-bottom: $component-margin-bottom-sm;
     padding: unset !important;
     &.label {
-      h2, h3, h4, p:last-child {
+      h2:last-child, h3:last-child, h4:last-child, p:last-child {
         margin-bottom: unset;
       }
       // section titles use the same activity class as labels 

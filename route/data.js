@@ -431,7 +431,8 @@ var data = {
         "2": "mod/forum/view.php?id=3095930"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2469337"
+        "1": "mod/choice/view.php?id=2469337",
+        "2": "mod/choice/view.php?id=3095990"
       }
     },
     "module6": {

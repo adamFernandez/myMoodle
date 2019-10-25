@@ -43,6 +43,12 @@ $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
 
+// toggle view feedback button text and feedback card
+$(document).on("click", "a.view-hide-feedback", function(event) {
+  $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
+  $(this).parents(".view-feedback-container").toggleClass("collapsed");
+});
+
 // home page add forum class to activtiy title containing 'discussion'
 $("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
 

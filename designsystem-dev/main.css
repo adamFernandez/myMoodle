@@ -1540,6 +1540,8 @@ ul.gtopics-0 {
       @extend .btn, .btn-primary;
     }
   } */ }
+  .path-mod-questionnaire .mod_questionnaire_viewpage .complete a, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses a, .path-mod-questionnaire .mod_questionnaire_viewpage .yourrseponse a {
+    margin-bottom: 2.25rem; }
   .path-mod-questionnaire .qn-container .qn-question {
     background: unset; }
   .path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {

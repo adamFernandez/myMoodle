@@ -1274,6 +1274,14 @@ table, .table {
     border-left: 4px solid #CDD7DC;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }
+    .view-answer-container .view-answer-card .card-body .card-author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem; }
+      .view-answer-container .view-answer-card .card-body .card-author img {
+        border-radius: 50%;
+        height: 75px;
+        width: 75px; }
   .view-answer-container.collapsed a.view-hide-answer::before {
     content: '\f06e'; }
   .view-answer-container.collapsed .view-answer-card {

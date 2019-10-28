@@ -1555,8 +1555,12 @@ ul.gtopics-0 {
     margin-bottom: 1.5rem; }
   .path-mod-questionnaire .qn-container .qn-question {
     background: unset; }
+  .path-mod-questionnaire#page-mod-questionnaire-complete .surveyTitle {
+    padding: unset;
+    margin-bottom: 1.5rem; }
   .path-mod-questionnaire#page-mod-questionnaire-complete .message {
-    border: unset; }
+    border: unset;
+    padding: unset; }
   .path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {
     border-bottom: unset;
     border-right: unset;

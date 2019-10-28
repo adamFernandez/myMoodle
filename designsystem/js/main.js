@@ -37,10 +37,18 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
-// toggle view answer button text and answer card
+// toggle view answer, model answer, and feedback button text and card
 $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
+});
+$(document).on("click", "a.view-hide-model-answer", function(event) {
+  $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
+  $(this).parents(".view-model-answer-container").toggleClass("collapsed");
+});
+$(document).on("click", "a.view-hide-feedback", function(event) {
+  $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
+  $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
 
 // home page add forum class to activtiy title containing 'discussion'

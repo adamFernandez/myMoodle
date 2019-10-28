@@ -1263,20 +1263,28 @@ table, .table {
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
 
-.view-answer-container {
+.view-answer-container, .view-feedback-container {
   margin-bottom: 1.5rem; }
-  .view-answer-container a.view-hide-answer::before {
+  .view-answer-container a.view-hide-answer::before, .view-answer-container a.view-hide-feedback::before, .view-feedback-container a.view-hide-answer::before, .view-feedback-container a.view-hide-feedback::before {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     margin-right: 0.375rem;
     content: '\f070'; }
-  .view-answer-container .view-answer-card .card-body {
+  .view-answer-container .view-answer-card .card-body, .view-answer-container .view-feedback-card .card-body, .view-feedback-container .view-answer-card .card-body, .view-feedback-container .view-feedback-card .card-body {
     border-left: 4px solid #CDD7DC;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }
-  .view-answer-container.collapsed a.view-hide-answer::before {
+    .view-answer-container .view-answer-card .card-body .card-author, .view-answer-container .view-feedback-card .card-body .card-author, .view-feedback-container .view-answer-card .card-body .card-author, .view-feedback-container .view-feedback-card .card-body .card-author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem; }
+      .view-answer-container .view-answer-card .card-body .card-author img, .view-answer-container .view-feedback-card .card-body .card-author img, .view-feedback-container .view-answer-card .card-body .card-author img, .view-feedback-container .view-feedback-card .card-body .card-author img {
+        border-radius: 50%;
+        height: 75px;
+        width: 75px; }
+  .view-answer-container.collapsed a.view-hide-answer::before, .view-answer-container.collapsed a.view-hide-feedback::before, .view-feedback-container.collapsed a.view-hide-answer::before, .view-feedback-container.collapsed a.view-hide-feedback::before {
     content: '\f06e'; }
-  .view-answer-container.collapsed .view-answer-card {
+  .view-answer-container.collapsed .view-answer-card, .view-answer-container.collapsed .view-feedback-card, .view-feedback-container.collapsed .view-answer-card, .view-feedback-container.collapsed .view-feedback-card {
     display: none; }
 
 .forumaddnew div {
@@ -1475,11 +1483,11 @@ ul.gtopics-0 {
         background-color: $orange;
       }
     }*/ }
-  .course-content ul.section li.activity.label h2, .course-content ul.section li.activity.label h3, .course-content ul.section li.activity.label h4, .course-content ul.section li.activity.label p:last-child {
+  .course-content ul.section li.activity.label h2:last-child, .course-content ul.section li.activity.label h3:last-child, .course-content ul.section li.activity.label h4:last-child, .course-content ul.section li.activity.label p:last-child {
     margin-bottom: unset; }
   .course-content ul.section li.activity.label:not(:first-of-type) h2, .course-content ul.section li.activity.label:not(:first-of-type) h3,
   .course-content ul.section li.activity.label:not(:first-of-type) h4 {
-    margin-top: 0.75rem; }
+    margin-top: 1.75rem; }
   .course-content ul.section li.activity > div {
     max-width: calc(100% - 105px); }
   .course-content ul.section li.activity .activityinstance {
@@ -1532,6 +1540,8 @@ ul.gtopics-0 {
       @extend .btn, .btn-primary;
     }
   } */ }
+  .path-mod-questionnaire .mod_questionnaire_viewpage .complete a, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses a, .path-mod-questionnaire .mod_questionnaire_viewpage .yourrseponse a {
+    margin-bottom: 2.25rem; }
   .path-mod-questionnaire .qn-container .qn-question {
     background: unset; }
   .path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {

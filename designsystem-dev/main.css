@@ -1542,6 +1542,22 @@ ul.gtopics-0 {
     .colour-palette .colour-pan .colour span {
       display: block; }
 
+.icon-container {
+  display: inline; }
+  .icon-container .icon-box {
+    background-color: midnightblue;
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: unset;
+    font-size: 2rem;
+    margin-bottom: 1rem; }
+  .icon-container p:not(:last-child) {
+    margin-bottom: 0.5rem; }
+
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 

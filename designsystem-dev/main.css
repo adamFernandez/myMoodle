@@ -150,6 +150,9 @@ li {
 #region-main ul {
   margin-bottom: 1.5rem; }
 
+pre {
+  margin-bottom: 1.5rem; }
+
 .info-box, .alert, .definition-box, .feedback-box, #region-main .learning-outcome-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;

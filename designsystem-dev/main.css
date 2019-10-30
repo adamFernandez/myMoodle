@@ -1544,7 +1544,7 @@ ul.gtopics-0 {
     color: #fff; }
     .colour-palette .colour-pan .colour span {
       display: block; }
-      .colour-palette .colour-pan .colour span:first-chid {
+      .colour-palette .colour-pan .colour span:first-child {
         font-family: 'KingsBureauGrot';
         font-size: 1.125rem; }
 

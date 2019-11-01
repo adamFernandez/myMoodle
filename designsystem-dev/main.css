@@ -885,10 +885,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   display: flex;
   margin-bottom: 1.5rem; }
   .float-box img {
+    margin: unset;
     height: 100%;
     flex-shrink: 0; }
   .float-box img, .float-box .img-left {
-    margin: unset;
     margin-right: 1rem; }
   .float-box .img-right {
     margin-left: 1rem;

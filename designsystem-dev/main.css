@@ -1590,10 +1590,10 @@ ul.gtopics-0 {
 .do-dont {
   display: flex;
   align-items: center;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 2.25rem; }
   .do-dont .fas {
     font-size: 2rem;
-    margin: 0 0.5rem; }
+    margin: 0 1rem; }
     .do-dont .fas.fa-check-circle {
       color: #28C382; }
     .do-dont .fas.fa-times-circle {

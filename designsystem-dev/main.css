@@ -179,9 +179,9 @@ pre {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .card .card-img, .float-box .float-box-img, .hero, .full-width-img, #gridiconcontainer ul.gridicons li {
+.top-bar, .hero, .full-width-img, #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .card .card-img::before, .float-box .float-box-img::before, .hero::before, .full-width-img::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .hero::before, .full-width-img::before, #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -884,8 +884,6 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .float-box {
   display: flex;
   margin-bottom: 1.5rem; }
-  .float-box .float-box-img::before {
-    width: calc(100% - 1rem); }
   .float-box img {
     height: 100%;
     flex-shrink: 0; }

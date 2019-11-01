@@ -884,6 +884,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .float-box {
   display: flex;
   margin-bottom: 1.5rem; }
+  .float-box .float-box-img::before {
+    width: calc(100% - 1rem); }
   .float-box img {
     height: 100%;
     flex-shrink: 0; }

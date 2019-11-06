@@ -1167,27 +1167,27 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .table-scroll {
   overflow: auto; }
 
-table, .table {
+table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
   border-collapse: separate;
   border-spacing: unset;
   border-radius: unset; }
-  table.table-bordered, .table.table-bordered {
+  table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table, .table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
     border: unset;
     border-right: 1px solid #8B9296;
     border-bottom: 1px solid #8B9296;
     border-radius: unset; }
-    table.table-bordered th, table.table-bordered td, .table.table-bordered th, .table.table-bordered td {
+    table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
       border-top: 1px solid #8B9296 !important;
       border-left: 1px solid #8B9296; }
-  table.default-width, .table.default-width {
+  table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: unset; }
-  table th, table td, .table th, .table td {
+  table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     padding: 0.75rem 1.25rem;
     border-radius: unset !important; }
-    table th.border-left-none, table td.border-left-none, .table th.border-left-none, .table td.border-left-none {
+    table th.border-left-none, table td.border-left-none, .table th.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th.border-left-none, .table td.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td.border-left-none {
       border-left: unset !important; }
-  table thead th, table th, .table thead th, .table th {
+  table thead th, table th, .table thead th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead th, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th {
     background-color: #EDF1F2;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
@@ -1195,14 +1195,14 @@ table, .table {
     color: #171717;
     border-radius: unset !important;
     vertical-align: top; }
-  table td, .table td {
+  table td, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     line-height: 1.375;
     color: #333333; }
-  table tr.border-none td, table tr.border-none th, .table tr.border-none td, .table tr.border-none th {
+  table tr.border-none td, table tr.border-none th, .table tr.border-none td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td, .table tr.border-none th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th {
     border-top: unset !important; }
-    table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child) {
+    table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th:not(:first-child) {
       border-left: unset; }
-  table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .table.vertical-align-middle td {
+  table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle th, .table.vertical-align-middle td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle td {
     vertical-align: middle; }
 
 .timeline-container {
@@ -1625,8 +1625,6 @@ ul.gtopics-0 {
     border-right: unset;
     border-top: 1px solid #8B9296;
     border-left: 1px solid #8B9296; }
-  .path-mod-questionnaire#page-mod-questionnaire-complete tr:last-child td {
-    border-bottom: 1px solid #8B9296; }
 
 #page-mod-quiz-view .box.quizinfo p {
   font-family: 'KingsBureauGrotFiveOne';

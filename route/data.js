@@ -49,7 +49,7 @@ var data = {
     "module1": {
       "week3": {
         "discussion": {
-          "1": "mod/forum/view.php?id=3121525",
+          "1": "mod/forum/view.php?id=2398355",
           "2": "mod/forum/view.php?id=2510395",
           "3": "mod/forum/view.php?id=2398532",
         }

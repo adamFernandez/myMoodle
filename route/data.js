@@ -625,8 +625,8 @@ var data = {
         "forum2": {
           "1": "mod/forum/view.php?id=3121528"
          },
-       "forum3": {
-         "1": "mod/forum/view.php?id=3121529"
+        "forum3": {
+          "1": "mod/forum/view.php?id=3121529"
         }
       },    
       "module6a": {

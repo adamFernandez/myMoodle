@@ -620,15 +620,15 @@ var data = {
       },
       "module5": {
         "forum1": {
-          "1": "mod/forum/view.php?id=2697826"
+          "1": "mod/forum/view.php?id=3121525"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=2697832"
+          "1": "mod/forum/view.php?id=3121528"
          },
        "forum3": {
-         "1": "mod/forum/view.php?id=2698329"
+         "1": "mod/forum/view.php?id=3121529"
         }
-      },
+      },    
       "module6a": {
         "forum1": {
           "1": "mod/forum/view.php?id=2900525"

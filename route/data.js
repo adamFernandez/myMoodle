@@ -606,24 +606,17 @@ var data = {
           "1": "mod/forum/view.php?id=3123051"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3123051"
+          "1": "mod/forum/view.php?id=3123075"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=3123051"
+          "1": "mod/forum/view.php?id=3123087"
         },
         "forum5": {
-          "1": "mod/forum/view.php?id=3123051"
+          "1": "mod/forum/view.php?id=3123104"
         },
         "forum6": {
-          "1": "mod/forum/view.php?id=3123075"
-        },
-         "forum7": {
-          "1": "mod/forum/view.php?id=3123075"
-        },
-      "forum8": {
-          "1": "mod/forum/view.php?id=3123075"
+          "1": "mod/forum/view.php?id=3123118"
         }
-    
       },
       "module5": {
         "forum1": {

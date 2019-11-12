@@ -616,13 +616,14 @@ var data = {
         },
         "forum6": {
           "1": "mod/forum/view.php?id=3123075"
-        }
+        },
          "forum7": {
           "1": "mod/forum/view.php?id=3123075"
-        }
+        },
       "forum8": {
           "1": "mod/forum/view.php?id=3123075"
         }
+    
       },
       "module5": {
         "forum1": {

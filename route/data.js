@@ -623,7 +623,6 @@ var data = {
       "forum8": {
           "1": "mod/forum/view.php?id=3123075"
         }
-    
       },
       "module5": {
         "forum1": {

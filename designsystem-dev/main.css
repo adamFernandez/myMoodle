@@ -153,6 +153,9 @@ li {
 pre {
   margin-bottom: 1.5rem; }
 
+#page-footer .footnote p {
+  color: #FFFFFF; }
+
 .info-box, .alert, .definition-box, .feedback-box, #region-main .learning-outcome-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;

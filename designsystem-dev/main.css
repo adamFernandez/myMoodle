@@ -10,7 +10,7 @@
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
   font-style: normal; }
 
-.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
+.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline, #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
   padding: unset;
   margin: unset;
   color: #0A2D50;
@@ -487,8 +487,6 @@ section:not(:last-of-type) {
     position: relative;
     padding: unset; }
     #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
-      line-height: 1.4;
-      color: #0A2D50;
       pointer-events: none; }
     #block-region-side-pre .block .header .title .block_action, #block-region-side-post .block .header .title .block_action {
       display: none; }

@@ -10,8 +10,18 @@
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
   font-style: normal; }
 
+.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
+  padding: unset;
+  margin: unset;
+  color: #0A2D50;
+  font-family: 'KingsBureauGrot' !important;
+  font-size: 1.125rem;
+  line-height: 1.4; }
+
+html {
+  font-size: 16px; }
+
 #page {
-  font-size: 16px;
   color: #333333; }
   #page h1, #page h2, #page h3, #page h4, #page h5, #page h6,
   #page .h1,
@@ -48,13 +58,6 @@
     line-height: 1.4; }
   #page h6, #page .h6, #page #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header #page .author {
     font-size: 1rem;
-    line-height: 1.4; }
-  #page .sidebar-header, #page #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-pre .block .header.block_course_discuss_header_section #page .headline, #page #block-region-side-post .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section #page .headline {
-    padding: unset;
-    margin: unset;
-    color: #0A2D50;
-    font-family: 'KingsBureauGrot' !important;
-    font-size: 1.125rem;
     line-height: 1.4; }
   #page p {
     font-size: 1rem;

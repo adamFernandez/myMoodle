@@ -157,11 +157,11 @@ header.navbar {
   font-size: 14px; }
   header.navbar .container-fluid {
     padding: unset; }
-  header.navbar form button {
+  header.navbar form#search button {
     font-family: 'Open Sans',sans-serif;
     font-size: 1.08rem !important;
     padding: 6px 18px !important; }
-  header.navbar form input {
+  header.navbar form#search:hover input {
     font-size: 13.65px; }
 
 footer#page-footer {

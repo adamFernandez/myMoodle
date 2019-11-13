@@ -156,6 +156,17 @@ pre {
 header.navbar, footer#page-footer {
   font-size: 14px; }
 
+footer#page-footer p {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 15px;
+  margin-bottom: 10px; }
+
+footer#page-footer .back-top-top {
+  bottom: 28px; }
+  footer#page-footer .back-top-top .fa-3x {
+    font-size: 42px; }
+
 .info-box, .alert, .definition-box, .feedback-box, #region-main .learning-outcome-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: unset;

@@ -543,19 +543,19 @@ var data = {
      "module1": {
        "forum1": {
           "1": "mod/forum/view.php?id=2472760",
-          "2": "mod/forum/view.php?id=2646499"
+          "2": "mod/forum/view.php?id=3130082"
        },
        "forum2": {
           "1": "mod/forum/view.php?id=2472766",
-          "2": "mod/forum/view.php?id=2646505"
+          "2": "mod/forum/view.php?id=3130088"
        },
        "forum3": {
           "1": "mod/forum/view.php?id=2472791",
-          "2": "mod/forum/view.php?id=2646531"
+          "2": "mod/forum/view.php?id=3130113"
        },
        "forum4": {
           "1": "mod/forum/view.php?id=2472819",
-          "2": "mod/forum/view.php?id=2646561"
+          "2": "mod/forum/view.php?id=3130143"
        },
        "forum5": {
           "1": "mod/forum/discuss.php?d=167806"

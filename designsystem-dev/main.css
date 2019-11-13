@@ -22,136 +22,127 @@ html, body {
   font-size: 16px;
   color: #333333; }
 
-#page h1, #page h2, #page h3, #page h4, #page h5, #page h6,
-#page .h1,
-#page .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-.path-mod-book #page #region-main > div:first-of-type > h2:first-of-type,
-#page #notice.modal .modal-content .modal-header h4,
-#notice.modal .modal-content .modal-header #page h4,
-#page .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd #page h1, #page .h2, #page .path-mod-book .generalbox.book_content > h3, .path-mod-book #page .generalbox.book_content > h3, #page .h3, #page .h4, #page .h5, #page #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-discuss .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success #page p:first-of-type, #page .path-mod-questionnaire .qn-container .qn-question b, .path-mod-questionnaire .qn-container .qn-question #page b, #page .que .info .no, .que .info #page .no, #page .que .info .qno, .que .info #page .qno, #page .h6, #page #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header #page .author,
-#page .quote-attribution {
+h1, h2, h3, h4, h5, h6,
+.h1,
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type,
+#notice.modal .modal-content .modal-header h4,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .path-mod-book .generalbox.book_content > h3, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
   margin-top: unset;
   margin-bottom: 1.5rem; }
 
-#page h1,
-#page .h1,
-#page .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-.path-mod-book #page #region-main > div:first-of-type > h2:first-of-type,
-#page #notice.modal .modal-content .modal-header h4,
-#notice.modal .modal-content .modal-header #page h4,
-#page .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd #page h1 {
+h1,
+.h1,
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type,
+#notice.modal .modal-content .modal-header h4,
+.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 2.375rem;
   line-height: 1.1; }
 
-#page h2, #page .h2, #page .path-mod-book .generalbox.book_content > h3, .path-mod-book #page .generalbox.book_content > h3 {
+h2, .h2, .path-mod-book .generalbox.book_content > h3 {
   font-size: 1.875rem;
   line-height: 1.25; }
 
-#page h3, #page .h3 {
+h3, .h3 {
   font-size: 1.5rem;
   line-height: 1.25; }
 
-#page h4, #page .h4 {
+h4, .h4 {
   font-size: 1.25rem;
   line-height: 1.4; }
 
-#page h5, #page .h5, #page #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-discuss .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success #page p:first-of-type, #page .path-mod-questionnaire .qn-container .qn-question b, .path-mod-questionnaire .qn-container .qn-question #page b, #page .que .info .no, .que .info #page .no, #page .que .info .qno, .que .info #page .qno {
+h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno {
   font-size: 1.125rem;
   line-height: 1.4; }
 
-#page h6, #page .h6, #page #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header #page .author {
+h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
   font-size: 1rem;
   line-height: 1.4; }
 
-#page p {
+p {
   font-size: 1rem;
   line-height: 1.5;
   font-family: Open Sans, sans-serif;
   margin-bottom: 1.5rem;
   color: #333333; }
 
-#page .caption {
+.caption {
   font-size: 0.833rem;
   line-height: 1.5;
   font-family: Open Sans, sans-serif; }
 
-#page .quote-body {
+.quote-body {
   font-size: 1.5rem;
   line-height: 1.25;
   font-family: KingsCaslonDisplay;
   margin-bottom: 1.75rem;
   font-style: italic; }
 
-#page .quote-attribution {
+.quote-attribution {
   font-size: 1.125rem;
   line-height: 1.25;
   margin-bottom: 0; }
 
-#page select, #page option {
+select, option {
   font-family: 'Open Sans', sans-serif; }
 
 @media only screen and (max-width: 767px) {
-  #page h1,
-  #page .h1,
-  #page .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-  .path-mod-book #page #region-main > div:first-of-type > h2:first-of-type,
-  #page #notice.modal .modal-content .modal-header h4,
-  #notice.modal .modal-content .modal-header #page h4,
-  #page .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd #page h1 {
+  h1,
+  .h1,
+  .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
+  #notice.modal .modal-content .modal-header h4,
+  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.75rem;
     line-height: 1.2; }
-  #page h2, #page .h2, #page .path-mod-book .generalbox.book_content > h3, .path-mod-book #page .generalbox.book_content > h3 {
+  h2, .h2, .path-mod-book .generalbox.book_content > h3 {
     font-size: 1.5rem;
     line-height: 1.25; }
-  #page h3, #page .h3 {
+  h3, .h3 {
     font-size: 1.25rem;
     line-height: 1.25; }
-  #page h4, #page .h4 {
+  h4, .h4 {
     font-size: 1.125rem;
     line-height: 1.4; }
-  #page h5, #page .h5, #page #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-discuss .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success #page p:first-of-type, #page #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success #page p:first-of-type, #page .path-mod-questionnaire .qn-container .qn-question b, .path-mod-questionnaire .qn-container .qn-question #page b, #page .que .info .no, .que .info #page .no, #page .que .info .qno, .que .info #page .qno, #page h6, #page .h6, #page #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header #page .author, #page #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header #page .author {
+  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
-  #page .quote-body {
+  .quote-body {
     font-size: 1.25rem;
     line-height: 1.25;
     font-family: KingsCaslonDisplay; }
-  #page .quote-attribution {
+  .quote-attribution {
     font-size: 1rem;
     line-height: 1.25; } }
 
-#page .path-mod-book .generalbox.book_content > h3 {
+.path-mod-book .generalbox.book_content > h3 {
   background: unset; }
-  #page .path-mod-book .generalbox.book_content > h3:after {
+  .path-mod-book .generalbox.book_content > h3:after {
     display: none; }
 
-#page li {
+li {
   line-height: inherit; }
-  #page li > p {
+  li > p {
     margin-bottom: unset; }
 
-#page .instancename {
+.instancename {
   color: #0A2D50; }
-  #page .instancename:hover {
+  .instancename:hover {
     color: #003d5c; }
 
-#page #region-main p a, #page #region-main li p a {
+#region-main p a, #region-main li p a {
   text-decoration: underline;
   color: #002395; }
-  #page #region-main p a:hover, #page #region-main li p a:hover {
+  #region-main p a:hover, #region-main li p a:hover {
     color: #005AD2; }
-  #page #region-main p a:visited, #page #region-main li p a:visited {
+  #region-main p a:visited, #region-main li p a:visited {
     color: #0A2D50; }
 
-#page #region-main ul {
+#region-main ul {
   margin-bottom: 1.5rem; }
 
-#page pre {
+pre {
   margin-bottom: 1.5rem; }
 
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {

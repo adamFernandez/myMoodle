@@ -274,40 +274,40 @@ var data = {
         "1": "mod/forum/view.php?id=2957650"
       },
       "forum1": {
-        "1": "mod/forum/view.php?id=2566670"
+        "1": "mod/forum/view.php?id=2957661"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=2566683"
+        "1": "mod/forum/view.php?id=2957665"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2568335"
+        "1": "mod/forum/view.php?id=2957668"
       },
       "forum4": {
-        "1": "mod/forum/view.php?id=2568012"
+        "1": "mod/forum/view.php?id=2957680"
       },
       "forum5": {
-        "1": "mod/forum/view.php?id=2568016"
+        "1": "mod/forum/view.php?id=2957683"
       },
       "forum6": {
-        "1": "mod/forum/view.php?id=2568018"
+        "1": "mod/forum/view.php?id=2957684"
       },
       "forum7": {
-        "1": "mod/forum/view.php?id=2568023"
+        "1": "mod/forum/view.php?id=2957688"
       },
       "forum8": {
-        "1": "mod/forum/view.php?id=2568025"
+        "1": "mod/forum/view.php?id=2957691"
       },
       "forum9": {
-        "1": "mod/forum/view.php?id=2568925"
+        "1": "mod/forum/view.php?id=2957686"
       },
       "forum10": {
-        "1": "mod/forum/view.php?id=2572160"
+        "1": "mod/forum/view.php?id=2957711"
       },
       "forum11": {
-        "1": "mod/forum/view.php?id=2572173"
+        "1": "mod/forum/view.php?id=2957717"
       },
       "forum12": {
-        "1": "mod/forum/view.php?id=2572178"
+        "1": "mod/forum/view.php?id=2957719"
       }
     },
     "module2": {

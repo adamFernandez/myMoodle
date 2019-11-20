@@ -1606,7 +1606,9 @@ ul.gtopics-0 {
           font-size: 1.125rem; }
       .colour-palette .row .colour-pan .colour.white {
         color: #000000;
-        padding: calc(0.5rem - 1px) 1rem; }
+        padding: calc(0.5rem - 1px) 1rem;
+        border: 1px solid #000000;
+        background-color: #FFFFFF; }
 
 .icon-container {
   display: inline; }

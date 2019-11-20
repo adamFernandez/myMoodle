@@ -1583,23 +1583,30 @@ ul.gtopics-0 {
 .hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
   display: inline; }
 
-.colour-palette .row {
-  margin-right: -5px;
-  margin-left: -5px;
-  margin-bottom: 1.5rem; }
-  .colour-palette .row .colour-pan, .colour-palette .row .colour-id {
-    padding-right: 5px;
-    padding-left: 5px; }
-  .colour-palette .row .colour-pan {
-    height: 6rem; }
+.colour-palette {
+  max-width: unset; }
+  .colour-palette .row {
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: 1.5rem; }
+    .colour-palette .row .colour-pan, .colour-palette .row .colour-id {
+      padding-right: 5px;
+      padding-left: 5px; }
+    .colour-palette .row .colour-id {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
     .colour-palette .row .colour-pan .colour {
-      padding: 1rem;
-      color: #fff; }
+      padding: 0.5rem 1rem;
+      color: #FFFFFF; }
       .colour-palette .row .colour-pan .colour span {
         display: block; }
         .colour-palette .row .colour-pan .colour span:first-child {
           font-family: 'KingsBureauGrot';
           font-size: 1.125rem; }
+      .colour-palette .row .colour-pan .colour.white {
+        color: #000000;
+        padding: calc(0.5rem - 1px) 1rem; }
 
 .icon-container {
   display: inline; }

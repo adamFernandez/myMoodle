@@ -939,7 +939,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     z-index: 50; }
   .carousel .carousel-item img {
     width: 100% !important;
-    height: 100%; }
+    height: auto; }
   .carousel .carousel-caption {
     text-align: left;
     padding: 2.4% 11%; }

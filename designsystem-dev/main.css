@@ -1587,8 +1587,7 @@ ul.gtopics-0 {
   max-width: unset; }
   .colour-palette .row {
     margin-right: -5px;
-    margin-left: -5px;
-    margin-bottom: 1.5rem; }
+    margin-left: -5px; }
     .colour-palette .row .colour-pan, .colour-palette .row .colour-id {
       padding-right: 5px;
       padding-left: 5px; }
@@ -1596,19 +1595,27 @@ ul.gtopics-0 {
       display: flex;
       align-items: center;
       justify-content: center; }
-    .colour-palette .row .colour-pan .colour {
-      padding: 0.5rem 1rem;
-      color: #FFFFFF; }
-      .colour-palette .row .colour-pan .colour span {
-        display: block; }
-        .colour-palette .row .colour-pan .colour span:first-child {
-          font-family: 'KingsBureauGrot';
-          font-size: 1.125rem; }
-      .colour-palette .row .colour-pan .colour.white {
-        color: #000000;
-        padding: calc(0.5rem - 1px) 1rem;
-        border: 1px solid #000000;
-        background-color: #FFFFFF; }
+      .colour-palette .row .colour-id h3 {
+        margin-bottom: unset; }
+    .colour-palette .row .colour-pan {
+      margin-bottom: 1.5rem; }
+      .colour-palette .row .colour-pan .colour {
+        padding: 0.5rem 1rem;
+        color: #FFFFFF; }
+        .colour-palette .row .colour-pan .colour span {
+          display: block; }
+          .colour-palette .row .colour-pan .colour span:first-child {
+            font-family: 'KingsBureauGrot';
+            font-size: 1.125rem; }
+        .colour-palette .row .colour-pan .colour.white {
+          color: #000000;
+          padding: calc(0.5rem - 1px) 1rem;
+          border: 1px solid #000000;
+          background-color: #FFFFFF; }
+    .colour-palette .row.colour-combo {
+      margin-bottom: 1.5rem; }
+      .colour-palette .row.colour-combo .colour-pan {
+        margin-bottom: unset; }
 
 .icon-container {
   display: inline; }

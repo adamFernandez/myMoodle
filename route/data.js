@@ -472,12 +472,12 @@ var data = {
     "module11": {
       "discussion": {
         "1": "mod/forum/view.php?id=2958006",
-        "2": "mod/forum/view.php?id=3095854"
+        "2": "mod/forum/view.php?id=3138737"
       }
     },
     "module12": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3095525",
+        "1": "mod/forum/view.php?id=3138664",
         "2": "mod/forum/view.php?id=2960026"
       }
     },

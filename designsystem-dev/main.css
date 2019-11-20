@@ -203,9 +203,9 @@ footer#page-footer {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .hero, .full-width-img, #gridiconcontainer ul.gridicons li {
+.top-bar, .hero, #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .hero::before, .full-width-img::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -1087,16 +1087,16 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     color: #FFFFFF !important;
     margin: unset !important; }
 
-.full-width-img {
+.full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
-  .full-width-img img {
+  .full-width-img img, .img-full-width img {
     width: 100%; }
-    .full-width-img img:not(:last-child) {
+    .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
       margin-bottom: 1rem; }
-  .full-width-img .caption {
+  .full-width-img .caption, .img-full-width .caption {
     margin-bottom: unset; }
 
-.circular-img {
+.circular-img, .img-circular {
   border-radius: 50%;
   margin-bottom: 1.5rem;
   max-width: 100%; }
@@ -1598,7 +1598,7 @@ ul.gtopics-0 {
       .colour-palette .row .colour-id h3 {
         margin-bottom: unset; }
     .colour-palette .row .colour-pan {
-      margin-bottom: 1.5rem; }
+      margin-bottom: 0.5rem; }
       .colour-palette .row .colour-pan .colour {
         padding: 0.5rem 1rem;
         color: #FFFFFF; }
@@ -1609,7 +1609,7 @@ ul.gtopics-0 {
             font-size: 1.125rem; }
         .colour-palette .row .colour-pan .colour.white {
           color: #000000;
-          padding: calc(0.5rem - 1px) 1rem;
+          padding: calc($component-margin-xs - 1px) 1rem;
           border: 1px solid #000000;
           background-color: #FFFFFF; }
     .colour-palette .row.colour-combo {

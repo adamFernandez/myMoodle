@@ -437,7 +437,7 @@ var data = {
     },
     "module6": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2637439"
+        "1": "mod/forum/view.php?id=68719"
       },
       "poll11": {
         "1": "mod/choice/view.php?id=2637552"

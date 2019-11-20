@@ -10,6 +10,14 @@
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
   font-style: normal; }
 
+.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline, #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
+  padding: unset;
+  margin: unset;
+  color: #0A2D50;
+  font-family: 'KingsBureauGrot' !important;
+  font-size: 1.125rem;
+  line-height: 1.4; }
+
 html, body {
   font-size: 16px;
   color: #333333; }
@@ -24,9 +32,6 @@ h1, h2, h3, h4, h5, h6,
   color: #171717;
   margin-top: unset;
   margin-bottom: 1.5rem; }
-
-body, select, option {
-  font-family: 'Open Sans', sans-serif; }
 
 h1,
 .h1,
@@ -80,13 +85,8 @@ p {
   line-height: 1.25;
   margin-bottom: 0; }
 
-.sidebar-header, #block-region-side-pre .block .header.block_course_discuss_header_section .headline, #block-region-side-post .block .header.block_course_discuss_header_section .headline {
-  padding: unset;
-  margin: unset;
-  color: #0A2D50;
-  font-family: 'KingsBureauGrot' !important;
-  font-size: 1.125rem;
-  line-height: 1.4; }
+select, option {
+  font-family: 'Open Sans', sans-serif; }
 
 @media only screen and (max-width: 767px) {
   h1,
@@ -126,14 +126,6 @@ li {
   li > p {
     margin-bottom: unset; }
 
-.path-mod-book #region-main > div:first-of-type > h2:first-of-type {
-  margin-bottom: 2.25rem; }
-
-.path-mod-page #region-main > div > h2 {
-  background: unset; }
-  .path-mod-page #region-main > div > h2::after {
-    display: none; }
-
 .instancename {
   color: #0A2D50; }
   .instancename:hover {
@@ -149,6 +141,41 @@ li {
 
 #region-main ul {
   margin-bottom: 1.5rem; }
+
+pre {
+  margin-bottom: 1.5rem; }
+
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type {
+  margin-bottom: 2.25rem; }
+
+.path-mod-page #region-main > div > h2 {
+  background: unset; }
+  .path-mod-page #region-main > div > h2::after {
+    display: none; }
+
+header.navbar {
+  font-size: 14px; }
+  header.navbar .container-fluid {
+    padding: unset; }
+  header.navbar form#search button {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1.08rem !important;
+    padding: 6px 18px !important; }
+  header.navbar form#search:hover input#coursesearchbox {
+    font-size: 13.65px !important; }
+
+footer#page-footer {
+  font-size: 14px; }
+  footer#page-footer p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px; }
+
+.back-to-top {
+  bottom: 28px; }
+  .back-to-top .fa-3x {
+    font-size: 42px; }
 
 .info-box, .alert, .definition-box, .feedback-box, #region-main .learning-outcome-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
@@ -176,9 +203,9 @@ li {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left, .hero, .full-width-img, #gridiconcontainer ul.gridicons li {
+.top-bar, .hero, #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .card .card-img-top::before, .card .card-img-left::before, .card .img-top::before, .card .img-left::before, .hero::before, .full-width-img::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -454,7 +481,8 @@ section:not(:last-of-type) {
   margin-bottom: 4.5rem; }
 
 .breadcrumb-nav ul.breadcrumb {
-  font-family: 'KingsBureauGrotFiveOne'; }
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1rem; }
   .breadcrumb-nav ul.breadcrumb a {
     color: #0d3254; }
   .breadcrumb-nav ul.breadcrumb::after {
@@ -497,8 +525,6 @@ section:not(:last-of-type) {
     position: relative;
     padding: unset; }
     #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
-      line-height: 1.4;
-      color: #0A2D50;
       pointer-events: none; }
     #block-region-side-pre .block .header .title .block_action, #block-region-side-post .block .header .title .block_action {
       display: none; }
@@ -882,10 +908,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   display: flex;
   margin-bottom: 1.5rem; }
   .float-box img {
+    margin: unset;
     height: 100%;
     flex-shrink: 0; }
   .float-box img, .float-box .img-left {
-    margin: unset;
     margin-right: 1rem; }
   .float-box .img-right {
     margin-left: 1rem;
@@ -911,6 +937,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 50; }
+  .carousel .carousel-item img {
+    width: 100% !important;
+    height: auto; }
   .carousel .carousel-caption {
     text-align: left;
     padding: 2.4% 11%; }
@@ -1058,19 +1087,19 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .hero .hero-caption {
       position: unset; } }
   .hero .hero-caption h2 {
-    color: #FFFFFF;
-    margin: unset; }
+    color: #FFFFFF !important;
+    margin: unset !important; }
 
-.full-width-img {
+.full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
-  .full-width-img img {
+  .full-width-img img, .img-full-width img {
     width: 100%; }
-    .full-width-img img:not(:last-child) {
+    .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
       margin-bottom: 1rem; }
-  .full-width-img .caption {
+  .full-width-img .caption, .img-full-width .caption {
     margin-bottom: unset; }
 
-.circular-img {
+.circular-img, .img-circular {
   border-radius: 50%;
   margin-bottom: 1.5rem;
   max-width: 100%; }
@@ -1164,27 +1193,27 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .table-scroll {
   overflow: auto; }
 
-table, .table {
+table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
   border-collapse: separate;
   border-spacing: unset;
   border-radius: unset; }
-  table.table-bordered, .table.table-bordered {
+  table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table, .table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
     border: unset;
     border-right: 1px solid #8B9296;
     border-bottom: 1px solid #8B9296;
     border-radius: unset; }
-    table.table-bordered th, table.table-bordered td, .table.table-bordered th, .table.table-bordered td {
+    table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
       border-top: 1px solid #8B9296 !important;
       border-left: 1px solid #8B9296; }
-  table.default-width, .table.default-width {
+  table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: unset; }
-  table th, table td, .table th, .table td {
+  table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     padding: 0.75rem 1.25rem;
     border-radius: unset !important; }
-    table th.border-left-none, table td.border-left-none, .table th.border-left-none, .table td.border-left-none {
+    table th.border-left-none, table td.border-left-none, .table th.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th.border-left-none, .table td.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td.border-left-none {
       border-left: unset !important; }
-  table thead th, table th, .table thead th, .table th {
+  table thead th, table th, .table thead th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead th, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th {
     background-color: #EDF1F2;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
@@ -1192,14 +1221,14 @@ table, .table {
     color: #171717;
     border-radius: unset !important;
     vertical-align: top; }
-  table td, .table td {
+  table td, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     line-height: 1.375;
     color: #333333; }
-  table tr.border-none td, table tr.border-none th, .table tr.border-none td, .table tr.border-none th {
+  table tr.border-none td, table tr.border-none th, .table tr.border-none td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td, .table tr.border-none th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th {
     border-top: unset !important; }
-    table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child) {
+    table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th:not(:first-child) {
       border-left: unset; }
-  table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .table.vertical-align-middle td {
+  table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle th, .table.vertical-align-middle td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle td {
     vertical-align: middle; }
 
 .timeline-container {
@@ -1274,28 +1303,51 @@ table, .table {
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
 
-.view-answer-container, .view-feedback-container {
+.view-answer-container, .view-feedback-container,
+.view-model-answer-container {
   margin-bottom: 1.5rem; }
-  .view-answer-container a.view-hide-answer::before, .view-answer-container a.view-hide-feedback::before, .view-feedback-container a.view-hide-answer::before, .view-feedback-container a.view-hide-feedback::before {
+  .view-answer-container a.view-hide-answer::before, .view-answer-container a.view-hide-feedback::before,
+  .view-answer-container a.view-hide-model-answer::before, .view-feedback-container a.view-hide-answer::before, .view-feedback-container a.view-hide-feedback::before,
+  .view-feedback-container a.view-hide-model-answer::before,
+  .view-model-answer-container a.view-hide-answer::before,
+  .view-model-answer-container a.view-hide-feedback::before,
+  .view-model-answer-container a.view-hide-model-answer::before {
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
     margin-right: 0.375rem;
     content: '\f070'; }
-  .view-answer-container .view-answer-card .card-body, .view-answer-container .view-feedback-card .card-body, .view-feedback-container .view-answer-card .card-body, .view-feedback-container .view-feedback-card .card-body {
+  .view-answer-container .view-answer-card .card-body, .view-answer-container .view-feedback-card .card-body, .view-answer-container .view-model-answer-card .card-body, .view-feedback-container .view-answer-card .card-body, .view-feedback-container .view-feedback-card .card-body, .view-feedback-container .view-model-answer-card .card-body,
+  .view-model-answer-container .view-answer-card .card-body,
+  .view-model-answer-container .view-feedback-card .card-body,
+  .view-model-answer-container .view-model-answer-card .card-body {
     border-left: 4px solid #CDD7DC;
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }
-    .view-answer-container .view-answer-card .card-body .card-author, .view-answer-container .view-feedback-card .card-body .card-author, .view-feedback-container .view-answer-card .card-body .card-author, .view-feedback-container .view-feedback-card .card-body .card-author {
+    .view-answer-container .view-answer-card .card-body .card-author, .view-answer-container .view-feedback-card .card-body .card-author, .view-answer-container .view-model-answer-card .card-body .card-author, .view-feedback-container .view-answer-card .card-body .card-author, .view-feedback-container .view-feedback-card .card-body .card-author, .view-feedback-container .view-model-answer-card .card-body .card-author,
+    .view-model-answer-container .view-answer-card .card-body .card-author,
+    .view-model-answer-container .view-feedback-card .card-body .card-author,
+    .view-model-answer-container .view-model-answer-card .card-body .card-author {
       display: flex;
       align-items: center;
       margin-bottom: 1.5rem; }
-      .view-answer-container .view-answer-card .card-body .card-author img, .view-answer-container .view-feedback-card .card-body .card-author img, .view-feedback-container .view-answer-card .card-body .card-author img, .view-feedback-container .view-feedback-card .card-body .card-author img {
+      .view-answer-container .view-answer-card .card-body .card-author img, .view-answer-container .view-feedback-card .card-body .card-author img, .view-answer-container .view-model-answer-card .card-body .card-author img, .view-feedback-container .view-answer-card .card-body .card-author img, .view-feedback-container .view-feedback-card .card-body .card-author img, .view-feedback-container .view-model-answer-card .card-body .card-author img,
+      .view-model-answer-container .view-answer-card .card-body .card-author img,
+      .view-model-answer-container .view-feedback-card .card-body .card-author img,
+      .view-model-answer-container .view-model-answer-card .card-body .card-author img {
         border-radius: 50%;
         height: 75px;
         width: 75px; }
-  .view-answer-container.collapsed a.view-hide-answer::before, .view-answer-container.collapsed a.view-hide-feedback::before, .view-feedback-container.collapsed a.view-hide-answer::before, .view-feedback-container.collapsed a.view-hide-feedback::before {
+  .view-answer-container.collapsed a.view-hide-answer::before, .view-answer-container.collapsed a.view-hide-feedback::before,
+  .view-answer-container.collapsed a.view-hide-model-answer::before, .view-feedback-container.collapsed a.view-hide-answer::before, .view-feedback-container.collapsed a.view-hide-feedback::before,
+  .view-feedback-container.collapsed a.view-hide-model-answer::before,
+  .view-model-answer-container.collapsed a.view-hide-answer::before,
+  .view-model-answer-container.collapsed a.view-hide-feedback::before,
+  .view-model-answer-container.collapsed a.view-hide-model-answer::before {
     content: '\f06e'; }
-  .view-answer-container.collapsed .view-answer-card, .view-answer-container.collapsed .view-feedback-card, .view-feedback-container.collapsed .view-answer-card, .view-feedback-container.collapsed .view-feedback-card {
+  .view-answer-container.collapsed .view-answer-card, .view-answer-container.collapsed .view-feedback-card, .view-answer-container.collapsed .view-model-answer-card, .view-feedback-container.collapsed .view-answer-card, .view-feedback-container.collapsed .view-feedback-card, .view-feedback-container.collapsed .view-model-answer-card,
+  .view-model-answer-container.collapsed .view-answer-card,
+  .view-model-answer-container.collapsed .view-feedback-card,
+  .view-model-answer-container.collapsed .view-model-answer-card {
     display: none; }
 
 .forumaddnew div {
@@ -1534,13 +1586,69 @@ ul.gtopics-0 {
 .hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
   display: inline; }
 
-.colour-palette .colour-pan {
-  height: 6rem; }
-  .colour-palette .colour-pan .colour {
-    padding: 1rem;
-    color: #fff; }
-    .colour-palette .colour-pan .colour span {
-      display: block; }
+.colour-palette {
+  max-width: unset; }
+  .colour-palette .row {
+    margin-right: -5px;
+    margin-left: -5px; }
+    .colour-palette .row .colour-pan, .colour-palette .row .colour-id {
+      padding-right: 5px;
+      padding-left: 5px; }
+    .colour-palette .row .colour-id {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .colour-palette .row .colour-id h3 {
+        margin-bottom: unset; }
+    .colour-palette .row .colour-pan {
+      margin-bottom: 0.5rem; }
+      .colour-palette .row .colour-pan .colour {
+        padding: 0.5rem 1rem;
+        color: #FFFFFF; }
+        .colour-palette .row .colour-pan .colour span {
+          display: block; }
+          .colour-palette .row .colour-pan .colour span:first-child {
+            font-family: 'KingsBureauGrot';
+            font-size: 1.125rem; }
+        .colour-palette .row .colour-pan .colour.white {
+          color: #000000;
+          padding: calc($component-margin-xs - 1px) 1rem;
+          border: 1px solid #000000;
+          background-color: #FFFFFF; }
+    .colour-palette .row.colour-combo {
+      margin-bottom: 1.5rem; }
+      .colour-palette .row.colour-combo .colour-pan {
+        margin-bottom: unset; }
+
+.icon-container {
+  display: inline; }
+  .icon-container .icon-box {
+    background-color: midnightblue;
+    color: white;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: unset;
+    font-size: 2.25rem;
+    margin-bottom: 1rem; }
+  .icon-container p:not(:last-child) {
+    margin-bottom: 0.5rem; }
+
+.do-dont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.25rem; }
+  .do-dont .fas {
+    font-size: 2rem;
+    margin: 0 1rem; }
+    .do-dont .fas.fa-check-circle {
+      color: #28C382; }
+    .do-dont .fas.fa-times-circle {
+      color: #E2231A; }
+  .do-dont p:last-child {
+    margin-bottom: unset; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
@@ -1566,8 +1674,6 @@ ul.gtopics-0 {
     border-right: unset;
     border-top: 1px solid #8B9296;
     border-left: 1px solid #8B9296; }
-  .path-mod-questionnaire#page-mod-questionnaire-complete tr:last-child td {
-    border-bottom: 1px solid #8B9296; }
 
 #page-mod-quiz-view .box.quizinfo p {
   font-family: 'KingsBureauGrotFiveOne';

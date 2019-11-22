@@ -1620,12 +1620,19 @@ ul.gtopics-0 {
       .colour-palette .row.colour-combo .colour-pan {
         margin-bottom: unset; }
 
+.cb-colour-names {
+  padding-right: unset; }
+
+.cb-standard {
+  overflow: hidden; }
+
 .cb-palettes {
   display: flex; }
   .cb-palettes .cb-palette-container:not(:last-of-type) {
     margin-right: 1.5rem; }
-  .cb-palettes .cb-palette-container .cb-palette-title {
-    text-align: center; }
+
+.cb-palette-title {
+  text-align: center; }
 
 img.cb-palette {
   height: 390px;

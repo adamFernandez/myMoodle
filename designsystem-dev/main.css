@@ -139,8 +139,10 @@ li {
   #region-main p a:visited, #region-main li p a:visited {
     color: #0A2D50; }
 
-#region-main ul {
-  margin-bottom: 1.5rem; }
+#region-main ol, #region-main ul {
+  margin: 0 0 1.5rem 26px; }
+  #region-main ol > li, #region-main ul > li {
+    margin-bottom: 1rem; }
 
 #region-main li > ul, #region-main li > ol {
   margin-bottom: unset; }

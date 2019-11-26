@@ -143,9 +143,8 @@ li {
   margin: 0 0 1.5rem 26px; }
   #region-main ol > li, #region-main ul > li {
     margin-bottom: 1rem; }
-
-#region-main li > ul, #region-main li > ol {
-  margin-bottom: unset; }
+    #region-main ol > li ul, #region-main ol > li ol, #region-main ol > li li, #region-main ul > li ul, #region-main ul > li ol, #region-main ul > li li {
+      margin-bottom: unset; }
 
 pre {
   margin-bottom: 1.5rem; }

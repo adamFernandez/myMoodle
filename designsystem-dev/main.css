@@ -142,6 +142,9 @@ li {
 #region-main ul {
   margin-bottom: 1.5rem; }
 
+#region-main li > ul, #region-main li > ol {
+  margin-bottom: unset; }
+
 pre {
   margin-bottom: 1.5rem; }
 

@@ -946,6 +946,12 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .carousel .carousel-caption p {
       line-height: 1.5;
       margin-bottom: 0; }
+    .carousel .carousel-caption a {
+      color: #FFFFFF !important; }
+      .carousel .carousel-caption a:hover {
+        color: #C6E128 !important; }
+      .carousel .carousel-caption a:visited {
+        color: #F5B90F !important; }
     @media only screen and (max-width: 767px) {
       .carousel .carousel-caption {
         position: unset; } }

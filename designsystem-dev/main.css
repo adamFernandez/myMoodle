@@ -1504,7 +1504,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: unset; }
 
-#region-main ul.gtopics ul.gtopics-0, #region-main ul.section {
+#region-main ul.gtopics, #region-main ul.gtopics-0, #region-main ul.section {
   margin: unset; }
 
 .content h3.sectionname {

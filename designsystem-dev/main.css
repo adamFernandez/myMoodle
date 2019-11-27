@@ -1544,6 +1544,9 @@ ul.gtopics-0 {
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: unset; }
 
+#region-main ul.section {
+  margin: unset; }
+
 .course-content ul.section li.activity {
   display: flex;
   margin-bottom: 1rem !important;

@@ -631,19 +631,19 @@ var data = {
       },    
       "module6a": {
         "forum1": {
-          "1": "mod/forum/view.php?id=2900525"
+          "1": "mod/forum/view.php?id=3134999"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=2900532"
+          "1": "mod/forum/view.php?id=3135007"
         },
         "forum5": {
-          "1": "mod/forum/view.php?id=2900540"
+          "1": "mod/forum/view.php?id=3135030"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=2900555"
+          "1": "mod/forum/view.php?id=3135045"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=2900584"
+          "1": "mod/forum/view.php?id=3135083"
         }
        },
       "module6b": {

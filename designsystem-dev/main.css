@@ -310,24 +310,28 @@ footer#page-footer {
     top: 0;
     content: '\f105'; }
 
-.course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
-  left: 3rem; }
-  @media only screen and (max-width: 767px) {
-    .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
-      left: 3rem; } }
-  .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before {
-    left: -3.125rem;
-    top: 0; }
+.course-content .single-section .section-navigation.mdl-bottom .mdl-left {
+  margin-right: 3.5rem !important; }
+  .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
+    left: 3rem; }
+    @media only screen and (max-width: 767px) {
+      .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
+        left: 3rem; } }
+    .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before {
+      left: -3.125rem;
+      top: 0; }
 
-.course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-  text-align: right;
-  right: 3rem; }
-  @media only screen and (max-width: 767px) {
-    .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-      right: 3rem; } }
-  .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
-    right: -3.125rem;
-    top: 0; }
+.course-content .single-section .section-navigation.mdl-bottom .mdl-right {
+  margin-left: 3.5rem !important; }
+  .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
+    text-align: right;
+    right: 3rem; }
+    @media only screen and (max-width: 767px) {
+      .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
+        right: 3rem; } }
+    .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
+      right: -3.125rem;
+      top: 0; }
 
 #page-mod-book-view .navtop, #page-mod-book-view .navbottom {
   padding: 0 0 2.25rem 0;

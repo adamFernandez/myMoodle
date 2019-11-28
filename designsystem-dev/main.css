@@ -975,7 +975,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .carousel .carousel-indicators {
     top: unset;
     bottom: -32px;
-    margin: 0;
+    margin: 0 !important;
     width: 100%;
     background-color: #0a2d50; }
     .carousel .carousel-indicators li {
@@ -989,7 +989,6 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .carousel.start .carousel-control-prev, .carousel.finish .carousel-control-next {
     display: none; }
   .carousel .carousel-control {
-    margin: unset;
     background-color: rgba(10, 45, 80, 0.5);
     padding: 0 15px !important;
     border-radius: 4px;

@@ -598,6 +598,9 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   #block-region-side-post .block_html .content ul.module-academic-team li:not(:last-child) {
     margin-bottom: 1rem; }
 
+#block-region-side-post .block_html .content ul.fa-ul {
+  color: #0A2D50; }
+
 .singleselect form, .singleselect select, .singleselect select option {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }

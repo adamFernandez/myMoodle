@@ -1122,6 +1122,14 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   margin: unset;
   max-width: 100% !important; }
 
+figure {
+  margin: 0 0 1.5rem 0; }
+  figure figcaption {
+    font-size: 0.833rem;
+    line-height: 1.5;
+    font-family: Open Sans, sans-serif;
+    color: #333333; }
+
 .definition-box {
   background-color: #EDF1F2; }
   .definition-box > :first-child::before {

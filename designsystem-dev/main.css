@@ -1128,7 +1128,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 figure {
   margin: 0 0 1.5rem 0; }
   figure table {
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0.5rem !important; }
   figure figcaption {
     font-size: 0.833rem;
     line-height: 1.5;

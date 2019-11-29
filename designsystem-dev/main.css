@@ -1652,6 +1652,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .cb-colour-names {
   padding-right: unset; }
+  .cb-colour-names li {
+    margin-bottom: unset; }
 
 .cb-standard {
   overflow: hidden; }

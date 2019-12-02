@@ -488,6 +488,9 @@ footer#page-footer {
 section:not(:last-of-type) {
   margin-bottom: 4.5rem; }
 
+.row:before, .row:after {
+  display: none !important; }
+
 .breadcrumb-nav ul.breadcrumb {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }

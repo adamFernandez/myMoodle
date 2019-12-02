@@ -62,9 +62,9 @@
      border: unset;
   }
   .card-deck .card-body {
-    width:100%;
+    width:50%;
   }
-  .card-img-left, .card-img-top, .float-box img {
+  .card img, .card-img-left, .card-img-top, .float-box img {
     width: 15% !important;
     height: 15% !important;
   }

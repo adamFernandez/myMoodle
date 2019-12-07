@@ -707,5 +707,16 @@ var data = {
           "1": "mod/forum/view.php?id=3144083"
         }
        },
+      "module8b": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=3147759"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=3147790"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=3147795"
+        }
+       },
     }
 };

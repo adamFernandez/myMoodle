@@ -365,14 +365,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=3142800"
+        "2": "mod/forum/view.php?id=3095307"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2951338",
-              "2": "mod/choice/view.php?id=3142819"
+              "2": "mod/choice/view.php?id=3095326"
             }
           }
         }

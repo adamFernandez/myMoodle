@@ -90,4 +90,5 @@ $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
 });
 
 // hide administration panel from students or teachers without editing rights
-$("#block-region-side-post .block .content ul li a:not(:contains('Edit settings'))").parents("div.block").hide();
+$("#block-region-side-post .block").has(".header .title h2:contains('Administration')").addClass("block_administration");
+$("#block-region-side-post .block").has(ul li a:contains('Edit settings'))").addClass("user_admin");

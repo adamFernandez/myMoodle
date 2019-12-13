@@ -9,7 +9,7 @@
 //$("#block-region-side-post .block .content #settingsnav ul li ul li a:contains('Edit settings')") ? console.log("1") : console.log("2");
 //$("#block-region-side-post .block .content #settingsnav ul li ul li:contains('Media Gallery')").css("color", "red");
 
-$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
+$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");
 //$("#block-region-side-post .block:not(:has(ul li a:contains('Edit settings'))):has(.header .title h2:contains('Administration'))").hide();
 
 // toggle side bar menus

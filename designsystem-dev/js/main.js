@@ -88,3 +88,6 @@ $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {
 $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
+
+// hide administration panel from students or teachers without editing rights
+$("#block-region-side-post .block .content ul li a:not(:contains('Edit settings'))").parents("div.block").hide();

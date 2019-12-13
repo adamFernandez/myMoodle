@@ -1,6 +1,6 @@
 // hide administration block from students or teachers without editing rights
 //$(".block:has(.header .title h2:contains('Administration'))").addClass("foo");
-//$(".block:has(ul li a:contains('Edit settings'))").addClass("bar");
+$("#block-region-side-post .block:has(ul li a:contains('Edit settings'))").addClass("bar");
 
 //$("#block-region-side-post .block .header .title h2:contains('Administration')").parents(".block").addClass("block_administration");
 //$("#block-region-side-post .block ul li a:contains('Edit settings')").parents("#block-region-side-post .block").addClass("user_admin");

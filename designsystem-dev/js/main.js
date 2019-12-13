@@ -1,16 +1,5 @@
 // hide administration block from students or teachers without editing rights
-//$(".block:has(.header .title h2:contains('Administration'))").addClass("foo");
-//$("#block-region-side-post .block:has(ul li a:contains('Edit settings'))").addClass("bar");
-
-//$("#block-region-side-post .block .header .title h2:contains('Administration')").parents(".block").addClass("block_administration");
-//$("#block-region-side-post .block ul li a:contains('Edit settings')").parents("#block-region-side-post .block").addClass("user_admin");
-//if ($("#block-region-side-post .block:has(ul li a:contains('Edit settings'))")) console.log("foo");
-//$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))") ? console.log("foo") : console.log("bar");
-//$("#block-region-side-post .block .content #settingsnav ul li ul li a:contains('Edit settings')") ? console.log("1") : console.log("2");
-//$("#block-region-side-post .block .content #settingsnav ul li ul li:contains('Media Gallery')").css("color", "red");
-
-$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");
-//$("#block-region-side-post .block:not(:has(ul li a:contains('Edit settings'))):has(.header .title h2:contains('Administration'))").hide();
+$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
 
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";

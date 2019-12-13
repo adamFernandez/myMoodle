@@ -7,7 +7,7 @@
 //if ($("#block-region-side-post .block:has(ul li a:contains('Edit settings'))")) console.log("foo");
 $("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))") ? console.log("foo") : console.log("bar");
 $("#block-region-side-post .block .content #settingsnav ul li ul li a:contains('Edit settings')") ? console.log("1") : console.log("2");
-$("#block-region-side-post .block .content #settingsnav ul li ul li a:contains('Media Gallery')").css("color", "red");
+$("#block-region-side-post .block .content #settingsnav ul li ul li:contains('Media Gallery')").css("color", "red");
 
 //$("#block-region-side-post .block:not(:has(ul li a:contains('Edit settings'))):has(.header .title h2:contains('Administration'))").hide();
 

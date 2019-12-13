@@ -365,14 +365,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=3142800"
+        "2": "mod/forum/view.php?id=3095307"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2951338",
-              "2": "mod/choice/view.php?id=3142819"
+              "2": "mod/choice/view.php?id=3095326"
             }
           }
         }
@@ -392,37 +392,37 @@ var data = {
     },
     "module4": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2681290"
+        "1": "mod/forum/view.php?id=3150206"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2681371"
+        "1": "mod/choice/view.php?id=3150290"
       },
       "poll2": {
-        "1": "mod/choice/view.php?id=2681372"
+        "1": "mod/choice/view.php?id=3150291"
       },
       "poll3": {
-        "1": "mod/choice/view.php?id=2681373"
+        "1": "mod/choice/view.php?id=3150292"
       },
       "poll4": {
-        "1": "mod/choice/view.php?id=2681374"
+        "1": "mod/choice/view.php?id=3150293"
       },
       "poll5": {
-        "1": "mod/choice/view.php?id=2681365"
+        "1": "mod/choice/view.php?id=3150284"
       },
       "poll6": {
-        "1": "mod/choice/view.php?id=2681366"
+        "1": "mod/choice/view.php?id=3150285"
       },
       "poll7": {
-        "1": "mod/choice/view.php?id=2681367"
+        "1": "mod/choice/view.php?id=3150286"
       },
       "poll8": {
-        "1": "mod/choice/view.php?id=2681368"
+        "1": "mod/choice/view.php?id=3150287"
       },
       "poll9": {
-        "1": "mod/choice/view.php?id=2681369"
+        "1": "mod/choice/view.php?id=3150288"
       },
       "poll10": {
-        "1": "mod/choice/view.php?id=2681324"
+        "1": "mod/choice/view.php?id=3150240"
       }
     },
     "module5": {
@@ -701,7 +701,21 @@ var data = {
           "1": "mod/forum/view.php?id=3144062"
         },
         "forum3": {
+          "1": "mod/forum/view.php?id=3144072"
+        },
+        "forum4": {
           "1": "mod/forum/view.php?id=3144083"
+        }
+       },
+      "module8b": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=3147759"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=3147790"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=3147795"
         }
        },
     }

@@ -94,7 +94,7 @@
   }
 }
 
-.editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body  {
+.editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body, .view-answer-container.collapsed .view-answer-card, .view-answer-container.collapsed .view-feedback-card, .view-answer-container.collapsed .view-model-answer-card, .view-feedback-container.collapsed .view-answer-card, .view-feedback-container.collapsed .view-feedback-card, .view-feedback-container.collapsed .view-model-answer-card, .view-model-answer-container.collapsed .view-answer-card, .view-model-answer-container.collapsed .view-feedback-card, .view-model-answer-container.collapsed .view-model-answer-card  {
   display:block !important;
 }
 

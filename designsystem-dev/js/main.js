@@ -6,6 +6,7 @@
 //$("#block-region-side-post .block ul li a:contains('Edit settings')").parents("#block-region-side-post .block").addClass("user_admin");
 //if ($("#block-region-side-post .block:has(ul li a:contains('Edit settings'))")) console.log("foo");
 $("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))") ? console.log("foo") : console.log("bar");
+$("#block-region-side-post .block:has(.content #settingsnav ul li ul li a:contains('Edit settings'))") ? console.log("1") : console.log("2");
 //$("#block-region-side-post .block:not(:has(ul li a:contains('Edit settings'))):has(.header .title h2:contains('Administration'))").hide();
 
 // toggle side bar menus

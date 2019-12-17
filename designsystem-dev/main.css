@@ -1264,6 +1264,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .timeline-container {
   margin-left: 64px;
   padding: 0.5rem 1.25rem 0 1.25rem; }
+  @media only screen and (max-width: 767px) {
+    .timeline-container {
+      margin-left: unset; } }
   .timeline-container .timeline-badge-pill {
     border-radius: 50%;
     border: 8px solid #009EA0 !important;
@@ -1286,6 +1289,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-right: 3px solid #8B9296 !important; }
   .timeline-container .timeline-row .border-left {
     border-left: 3px solid #8B9296 !important; }
+  .timeline-container .timeline-row .flex-column {
+    display: flex !important; }
   .timeline-container .timeline-row .timeline-content {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }

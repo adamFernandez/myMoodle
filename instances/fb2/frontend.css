@@ -499,3 +499,5 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 
 .row:before, .row:after {
   display: none !important; }
+
+.row {background-color: unset !important;}

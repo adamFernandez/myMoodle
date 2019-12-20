@@ -496,3 +496,6 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 	#loggedin-user {display:none}
 	#page-footer {display:none}
 }
+
+.row:before, .row:after {
+  display: none !important; }

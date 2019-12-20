@@ -1563,6 +1563,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         height: 100%; }
       #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
         cursor: none; }
+        #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
+          transform: none; }
 
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: unset; }

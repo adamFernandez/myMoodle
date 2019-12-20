@@ -219,7 +219,7 @@ footer#page-footer {
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 1; }
 
-.caption-overlay, .carousel .carousel-caption, .hero .hero-caption, #gridiconcontainer .gridicon_link .icon_content {
+.caption-overlay, .carousel .carousel-caption, .hero .hero-caption, #gridiconcontainer .gridicon_link .icon_content, #gridiconcontainer li.region > span .icon_content {
   position: absolute;
   background-color: rgba(10, 45, 80, 0.85);
   bottom: 0;
@@ -1539,9 +1539,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     #gridiconcontainer ul.gridicons li {
       padding: 0;
       margin: 0.75rem; }
-  #gridiconcontainer .gridicon_link {
+  #gridiconcontainer .gridicon_link, #gridiconcontainer li.region > span {
     position: relative; }
-    #gridiconcontainer .gridicon_link .icon_content {
+    #gridiconcontainer .gridicon_link .icon_content, #gridiconcontainer li.region > span .icon_content {
       color: #FFFFFF;
       text-align: left;
       z-index: 1;
@@ -1552,15 +1552,17 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       font-size: 1.25rem;
       line-height: 1.4;
       white-space: unset; }
-    #gridiconcontainer .gridicon_link .image_holder {
+    #gridiconcontainer .gridicon_link .image_holder, #gridiconcontainer li.region > span .image_holder {
       border: none;
       width: 309.5px;
       height: 310px;
       background-color: unset;
       border-radius: unset; }
-      #gridiconcontainer .gridicon_link .image_holder img {
+      #gridiconcontainer .gridicon_link .image_holder img, #gridiconcontainer li.region > span .image_holder img {
         width: 100%;
         height: 100%; }
+      #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer li.region > span .image_holder.inaccessible {
+        cursor: none; }
 
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: unset; }

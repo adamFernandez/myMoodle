@@ -1665,6 +1665,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .cb-row {
   margin-right: -15px;
   margin-left: -15px; }
+  .cb-row .cb-header {
+    text-align: center; }
   .cb-row h5, .cb-row p {
     margin-bottom: unset; }
   .cb-row .colour {

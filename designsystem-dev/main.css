@@ -1662,8 +1662,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .colour-palette .row.colour-combo .colour-pan {
         margin-bottom: unset; }
 
-.cb-row h5, .cb-row p {
-  margin-bottom: unset; }
+.cb-row {
+  margin-right: -15px;
+  margin-left: -15px; }
+  .cb-row h5, .cb-row p {
+    margin-bottom: unset; }
+  .cb-row .colour {
+    height: 18px; }
 
 .cb-colour-names {
   padding-right: unset; }

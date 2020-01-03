@@ -1662,25 +1662,27 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .colour-palette .row.colour-combo .colour-pan {
         margin-bottom: unset; }
 
-.cb .cb-row {
-  margin-right: -15px;
-  margin-left: -15px; }
-  .cb .cb-row .cb-header {
-    text-align: center;
-    margin-bottom: 0.5rem;
-    flex: 2;
-    padding-right: 5px;
-    padding-left: 5px; }
-  .cb .cb-row .cb-title {
-    flex: 2; }
-  .cb .cb-row h5, .cb .cb-row p {
-    margin-bottom: unset; }
-  .cb .cb-row .colour-pan {
-    flex: 2; }
-  .cb .cb-row .colour {
-    height: 18px; }
-  .cb .cb-row .half {
-    flex: 1; }
+.cb .cb-row .cb-header {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  flex: 2;
+  padding-right: 5px;
+  padding-left: 5px; }
+
+.cb .cb-row .cb-title {
+  flex: 2; }
+
+.cb .cb-row h5, .cb .cb-row p {
+  margin-bottom: unset; }
+
+.cb .cb-row .colour-pan {
+  flex: 2; }
+
+.cb .cb-row .colour {
+  height: 18px; }
+
+.cb .cb-row .half {
+  flex: 1; }
 
 .cb-colour-names {
   padding-right: unset; }

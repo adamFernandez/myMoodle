@@ -376,6 +376,12 @@ var data = {
             }
           }
         }
+      },
+      "week3": {
+        "activity": {
+          "1": "mod/forum/discuss.php?d=232574",
+          "2": "mod/forum/discuss.php?d=232574
+        }
       }
     },
     "module2": {

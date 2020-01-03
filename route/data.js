@@ -365,7 +365,7 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=3095307"
+        "2": "mod/forum/view.php?id=3142800"
       },
       "week1": {
         "part3": {

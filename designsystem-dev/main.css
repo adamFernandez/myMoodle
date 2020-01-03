@@ -1673,9 +1673,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     flex: 2; }
   .cb .cb-row h5, .cb .cb-row p {
     margin-bottom: unset; }
-  .cb .cb-row .colour {
-    height: 18px;
+  .cb .cb-row .colour-pan {
     flex: 2; }
+  .cb .cb-row .colour {
+    height: 18px; }
   .cb .cb-row .half {
     flex: 1; }
 

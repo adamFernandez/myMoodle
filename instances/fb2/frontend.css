@@ -487,7 +487,7 @@ body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span
 #region-main > div.m-t-2.m-b-1 > div {display: none;}
 
 @media print {
-	#block-region-side-pre {display:none;}
+	#block-region-side-pre, block-region-side-post {display:none;}
 	.breadcrumb-nav {display:none;}
 	#loggedin-user {display:none}
 	#page-footer {display:none}

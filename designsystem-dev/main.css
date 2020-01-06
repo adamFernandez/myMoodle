@@ -1647,6 +1647,50 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .colour-palette .row .colour-pan .colour {
         padding: 0.5rem 1rem;
         color: #FFFFFF; }
+        .colour-palette .row .colour-pan .colour.purple {
+          background-color: #501491; }
+        .colour-palette .row .colour-pan .colour.reflex-blue {
+          background-color: #002395; }
+        .colour-palette .row .colour-pan .colour.sea-blue {
+          background-color: #005AD2; }
+        .colour-palette .row .colour-pan .colour.teal-blue {
+          background-color: #009EA0; }
+        .colour-palette .row .colour-pan .colour.pea-green {
+          background-color: #28C382; }
+        .colour-palette .row .colour-pan .colour.lime-green-2 {
+          background-color: #B4BD10; }
+        .colour-palette .row .colour-pan .colour.yellow {
+          background-color: #F5B90F; }
+        .colour-palette .row .colour-pan .colour.orange {
+          background-color: #FF5F05; }
+        .colour-palette .row .colour-pan .colour.kings-red {
+          background-color: #E2231A; }
+        .colour-palette .row .colour-pan .colour.hot-pink {
+          background-color: #C83296; }
+        .colour-palette .row .colour-pan .colour.lilac {
+          background-color: #9B82D2; }
+        .colour-palette .row .colour-pan .colour.sky-blue {
+          background-color: #00B9E1; }
+        .colour-palette .row .colour-pan .colour.lime-green {
+          background-color: #C6E128; }
+        .colour-palette .row .colour-pan .colour.soft-pink {
+          background-color: #FC5E72; }
+        .colour-palette .row .colour-pan .colour.midnight-blue {
+          background-color: #0A2D50; }
+        .colour-palette .row .colour-pan .colour.slate-grey {
+          background-color: #5A6469; }
+        .colour-palette .row .colour-pan .colour.pebble {
+          background-color: #5F5550; }
+        .colour-palette .row .colour-pan .colour.powder-blue {
+          background-color: #8D9EBC; }
+        .colour-palette .row .colour-pan .colour.pearl-grey {
+          background-color: #CDD7DC; }
+        .colour-palette .row .colour-pan .colour.mushroom {
+          background-color: #CDC3B9; }
+        .colour-palette .row .colour-pan .colour.white {
+          background-color: #FFFFFF; }
+        .colour-palette .row .colour-pan .colour.black {
+          background-color: #000000; }
         .colour-palette .row .colour-pan .colour span {
           display: block; }
           .colour-palette .row .colour-pan .colour span:first-child {

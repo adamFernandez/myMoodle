@@ -1,6 +1,6 @@
 // hide administration block from students or teachers without editing rights
 //$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
-$("#block-region-side-post").hide();
+$("#block-region-side-post > div").addClass("aside-show");
 
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";

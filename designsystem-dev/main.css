@@ -1122,6 +1122,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .center-img, .img-center {
   text-align: center;
   margin-bottom: 1.5rem; }
+  .center-img img:not(:last-child), .img-center img:not(:last-child) {
+    margin-bottom: 1rem; }
 
 .circular-img, .img-circular {
   border-radius: 50%;

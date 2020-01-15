@@ -1,0 +1,43 @@
+li.activity .activityinstance .activity-label .primary-label,
+li.activity .activityinstance .activity-label .assessed-label {
+  display: inline-block;
+  font-family: 'KingsBureauGrot';
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 6rem;
+  height: 1.5rem;
+  border-radius: 12px;
+  margin-left: 1rem;
+  background-color: #cdd7dc;
+}
+li.activity .activityinstance .activity-label .primary-label i.fas,
+li.activity .activityinstance .activity-label .assessed-label i.fas {
+  margin-right: 0.375rem;
+}
+li.activity .activityinstance .activity-label .assessed-label {
+  display: none;
+}
+li.activity .activityinstance img {
+  display: none;
+}
+li.activity.type-study .activityinstance .activity-label .primary-label {
+  display: none;
+}
+li.activity.type-activity .activityinstance .activity-label .primary-label {
+  display: inline-block !important;
+  content: 'Activity';
+  color: #ff5f05;
+}
+li.activity.type-assessed .activityinstance .activity-label .assessed-label
+{
+  content: 'Assessed';
+  background-color: #009ea0;
+  color: white;
+  display: inline-block;
+}
+li.activity .media-icon {
+  color: #005ad2;
+  margin-left: 0.375rem;
+  font-size: 1.25rem;
+}

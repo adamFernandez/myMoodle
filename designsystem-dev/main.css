@@ -1119,6 +1119,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .full-width-img .caption, .img-full-width .caption {
     margin-bottom: unset; }
 
+.center-img, img-center {
+  text-align: center; }
+
 .circular-img, .img-circular {
   border-radius: 50%;
   margin-bottom: 1.5rem;

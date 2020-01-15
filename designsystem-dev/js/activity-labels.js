@@ -5,7 +5,7 @@ $("li.activity .activityinstance a").append('<div class="activity-label"><div cl
 // 'file' activity type has 'resource' class
 $("li.activity.page,  li.activity.book, li.activity.folder, li.activity.page, li.activity.resource, li.activity.glossary, li.activity.lesson, li.activity.lti").addClass("type-study");
 // study type with icon
-$("li.activity.kalvidres, li.activity.url").addClass("type-study icon");
+$("li.activity.kalvidres, li.activity.url").addClass("type-study media");
 // activity type no icon
 $("li.activity.assign, li.activity.choice, li.activity.feedback, li.activity.hvp, li.activity.kalvidassign, li.activity.oublog, li.activity.questionnaire, li.activity.quiz, li.activity.turnitintooltwo, li.activity.workshop").addClass("type-activity");
 // activity type with icon

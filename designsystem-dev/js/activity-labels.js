@@ -25,11 +25,11 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 })
 
 // add indent class and remove keyword
-$("li.activity .instancename:contains('-indent')").text(function(i, currentText) {
-  return currentText.substr(11, 1) + '.' + currentText.substr(12);
-}).parents("li.activity").addClass("indent");
-$("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent')").text(function(i, currentText) {
-  return currentText.substring(8);
+$("li.activity .instancename:contains('-ind')").text(function(i, currentText) {
+  return currentText.substr(8, 1) + '.' + currentText.substr(9);
+}).parents("li.activity").addClass("ind");
+$("#region-main h2:first-of-type:contains('-ind'), .breadcrumb li a span:contains('-ind')").text(function(i, currentText) {
+  return currentText.substring(5);
 })
 
 // add study text to study type label

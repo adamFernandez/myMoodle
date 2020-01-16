@@ -20,7 +20,7 @@ $("li.activity .instancename:contains('-ico')").parents("li.activity").addClass(
 $("li.activity .instancename:contains('-med')").parents("li.activity").addClass("play");
 
 // strip keywords from activity title
-$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
+$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
   return currentText.substring(31);
 })
 

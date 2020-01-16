@@ -28,7 +28,7 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 $("li.activity .instancename:contains('-indent')").text(function(i, currentText) {
   return currentText.substr(11, 1) + '.' + currentText.substr(12);
 }).parents("li.activity").addClass("indent");
-$("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent'), .row-fluid.rtl-compatible .span4 a:contains('-indent')").text(function(i, currentText) {
+$("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent'), .breadcrumb li a:contains('-indent'), .row-fluid.rtl-compatible .span4 a:contains('-indent')").text(function(i, currentText) {
   return currentText.substring(8);
 })
 

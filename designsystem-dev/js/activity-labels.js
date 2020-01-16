@@ -20,16 +20,16 @@ $("li.activity .instancename:contains('-ico')").parents("li.activity").addClass(
 $("li.activity .instancename:contains('-med')").parents("li.activity").addClass("play");
 
 // strip keywords from activity title
-$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label')").text(function(i, currentText) {
+$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), row-fluid rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
   return currentText.substring(31);
 })
 
 // add indent class and remove keyword
-$("li.activity .instancename:contains('-ind')").text(function(i, currentText) {
-  return currentText.substr(8, 1) + '.' + currentText.substr(9);
-}).parents("li.activity").addClass("ind");
-$("#region-main h2:first-of-type:contains('-ind'), .breadcrumb li a span:contains('-ind')").text(function(i, currentText) {
-  return currentText.substring(5);
+$("li.activity .instancename:contains('-indent')").text(function(i, currentText) {
+  return currentText.substr(11, 1) + '.' + currentText.substr(12);
+}).parents("li.activity").addClass("indent");
+$("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent')").text(function(i, currentText) {
+  return currentText.substring(8);
 })
 
 // add study text to study type label

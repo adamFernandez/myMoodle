@@ -17,7 +17,7 @@ $("li.activity .instancename:contains('-ass')").parents("li.activity").addClass(
 $("li.activity .instancename:contains('-act')").parents("li.activity").removeClass("type-study").addClass("type-activity");
 // add icon
 $("li.activity .instancename:contains('-ico')").parents("li.activity").addClass("icon");
-$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("media");
+$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("play");
 
 // strip keywords from activity title
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label')").text(function(i, currentText) {
@@ -39,4 +39,4 @@ $("li.activity.type-activity .activityinstance a .activity-label .primary-label 
 // add group icon to activity type label
 $("li.activity.type-activity.icon .activityinstance a .activity-label .primary-label i").addClass("fas fa-user-friends");
 // add media icon
-$("li.activity.media .activityinstance a .activity-label .media-icon i").addClass("fas fa-play-circle");
+$("li.activity.play .activityinstance a .activity-label .media-icon i").addClass("fas fa-play-circle");

@@ -41,3 +41,6 @@ li.activity .media-icon {
   margin-left: 0.375rem;
   font-size: 1.25rem;
 }
+li.activity .indent {
+  margin-left: 1.5rem;
+}

@@ -31,3 +31,8 @@ $("li.activity.type-activity .activityinstance a .activity-label .primary-label 
 $("li.activity.type-activity.icon .activityinstance a .activity-label .primary-label i").addClass("fas fa-user-friends");
 // add media icon
 $("li.activity.media .activityinstance a .activity-label .media-icon i").addClass("fas fa-play-circle");
+
+// strip keywords from activity title
+$("#region-main h2:first-of-type:contains('activity-label')").text(function(i, currentText) {
+  return currentText.substring(31);
+})

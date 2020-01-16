@@ -46,3 +46,8 @@ li.activity .media-icon {
   margin-left: 0.375rem;
   font-size: 1.25rem;
 }
+
+// move edit menu slighty to the right to accommodate activity label icons
+.section .activity .actions {
+  right: 0.5rem;
+}

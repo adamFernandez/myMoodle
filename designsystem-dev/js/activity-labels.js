@@ -33,7 +33,6 @@ $("li.activity.type-activity.icon .activityinstance a .activity-label .primary-l
 $("li.activity.media .activityinstance a .activity-label .media-icon i").addClass("fas fa-play-circle");
 
 // strip keywords from activity title
-$("#region-main h2:first-of-type:contains('activity-label'), 
-.breadcrumb li a span:contains:('activity-label')").text(function(i, currentText) {
+$("#region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains:('activity-label')").text(function(i, currentText) {
   return currentText.substring(31);
 })

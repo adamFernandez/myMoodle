@@ -37,7 +37,7 @@ li.activity.type-assessed .activityinstance .activity-label .assessed-label
   display: inline-block;
 }
 .course-content ul.section li.activity.indent {
-  margin: 0 0 1rem 1rem !important;
+  margin: 0 0 0 1rem !important;
   padding: 0 0 1rem 1rem !important;
   border-left: 4px solid #cdd7dc;
 }

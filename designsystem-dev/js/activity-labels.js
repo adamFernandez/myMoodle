@@ -1,5 +1,5 @@
 // label code
-$("li.activity .activityinstance a").append('<div class="activity-label"><div class="assessed-label">Assessed</div><div class="primary-label"><i></i><span class="label-text"></span></div><div class="media-icon"><i></i></div></div>');
+$("li.activity .activityinstance a:not(.quickeditlink)").append('<div class="activity-label"><div class="assessed-label">Assessed</div><div class="primary-label"><i></i><span class="label-text"></span></div><div class="media-icon"><i></i></div></div>');
 
 // study type no icon
 // 'file' activity type has 'resource' class

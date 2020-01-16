@@ -36,8 +36,10 @@ li.activity.type-assessed .activityinstance .activity-label .assessed-label
   color: white;
   display: inline-block;
 }
-li.activity.indent {
-  margin-left: 1.5rem;
+.course-content ul.section li.activity.indent {
+  margin: 0 0 1rem 1rem !important;
+  padding: 0 0 1rem 1rem !important;
+  border-left: 4px solid #cdd7dc;
 }
 li.activity .media-icon {
   color: #005ad2;

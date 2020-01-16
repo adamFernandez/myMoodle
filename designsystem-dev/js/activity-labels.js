@@ -24,6 +24,14 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
   return currentText.substring(31);
 })
 
+// add indent class and remove keyword
+$("li.activity .instancename:contains('-indent')").text(function(i, currentText) {
+  return currentText.substring(10);
+}).parents("li.activity").addClass("indent");
+$("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent')").text(function(i, currentText) {
+  return currentText.substring(8);
+})
+
 // add study text to study type label
 $("li.activity.type-study .activityinstance a .activity-label .primary-label .label-text").text("study");
 // add activity text to activity type label

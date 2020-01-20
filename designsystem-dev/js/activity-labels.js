@@ -24,7 +24,7 @@ $("li.activity .instancename:contains('-med')").parents("li.activity").addClass(
 
 // strip keywords from activity title
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
-  return currentText.substring(31, currentText.length - 2);
+  return currentText.substring(31);
 })
 
 // add indent class and remove keyword

@@ -55,5 +55,5 @@ li.activity .media-icon .fas.fa-play-circle {
 
 .section_action_menu, .section .activity .commands {
   position: absolute;
-  left: 4.5rem;
+  left: -4.5rem;
 }

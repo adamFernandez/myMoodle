@@ -53,7 +53,15 @@ li.activity .media-icon .fas.fa-play-circle {
   left: 8px
 }
 
+/* edit menu */
 .section_action_menu, .section .activity .commands {
   position: absolute;
   left: -4.5rem;
+}
+
+table li.activity.page {
+  margin-bottom: unset !important;
+}
+table li.activity.page .activityinstance {
+  min-height: unset;
 }

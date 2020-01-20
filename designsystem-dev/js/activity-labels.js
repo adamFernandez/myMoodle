@@ -9,7 +9,7 @@ $("li.activity .instancename .accesshide").each(function() {
 
 // study type no icon
 // 'file' activity type has 'resource' class
-$("li.activity.page,  li.activity.book, li.activity.folder, li.activity.page, li.activity.resource, li.activity.glossary, li.activity.lesson, li.activity.lti").addClass("type-study");
+$("li.activity.book, li.activity.folder, li.activity.page, li.activity.resource, li.activity.glossary, li.activity.lesson, li.activity.lti").addClass("type-study");
 // study type with icon
 $("li.activity.kalvidres, li.activity.url").addClass("type-study play");
 // activity type no icon

@@ -67,3 +67,14 @@
   margin: 0;
   box-shadow: none;
 }
+
+#region-main ul.gtopics,
+#region-main ul.gtopics-0,
+#region-main ul.section {
+  margin: 0;
+}
+
+.course-content ul.gtopics li.section .content {
+  margin: 0;
+}
+

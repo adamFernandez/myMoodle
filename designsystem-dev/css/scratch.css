@@ -60,3 +60,10 @@
   flex-direction: row;
   border: none;
 }
+
+/* sidebar blocks */
+#block-region-side-pre .block .header,
+#block-region-side-post .block .header {
+  margin: 0;
+  box-shadow: none;
+}

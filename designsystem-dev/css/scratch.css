@@ -26,7 +26,7 @@
 
 /* carousel */
 .carousel .carousel-indicators {
-  top: 100%;
+  top: calc(100% - 1px);
 }
 .carousel .carousel-inner .carousel-item img {
   margin: 0;
@@ -36,4 +36,13 @@
 }
 .carousel .carousel-control {
   left: 25%;
+}
+
+/* timeline */
+.row {
+  background-color: white;
+}
+.timeline-container .timeline-row .timeline-content .timeline-card
+.card-body .row {
+  background-color: #EDF1F2;
 }

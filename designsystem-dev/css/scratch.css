@@ -1,3 +1,4 @@
+/* book nav */
 #page-mod-book-view .navtop,
 #page-mod-book-view .navbottom {
   border-top: none;
@@ -21,4 +22,18 @@
 #page-mod-book-view .navbottom a.booknext:hover,
 #page-mod-book-view .navbottom a.bookexit:hover {
   text-decoration: none !important;
+}
+
+/* carousel */
+.carousel .carousel-indicators {
+  top: 100%;
+}
+.carousel .carousel-inner .carousel-item img {
+  margin: 0;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption {
+  left: 0;
+}
+.carousel .carousel-control {
+  left: 25%;
 }

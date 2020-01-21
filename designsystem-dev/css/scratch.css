@@ -50,8 +50,9 @@
   background-color: white;
 }
 
-/* book page title */
-.path-mod-book .generalbox.book_content > h3 {
+/* book page title, section title */
+.path-mod-book .generalbox.book_content > h3,
+#section-0 .content > h3.sectionname {
   background: none;
 }
 

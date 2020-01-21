@@ -1,0 +1,16 @@
+#page-mod-book-view .navtop a.bookprev::before, 
+#page-mod-book-view .navtop a.booknext::after,
+#page-mod-book-view .navtop a.bookexit::after,
+#page-mod-book-view .navbottom a.bookprev::before,
+#page-mod-book-view .navbottom a.booknext::after,
+#page-mod-book-view .navbottom a.bookexit::after {
+  background-color: white;
+}
+#page-mod-book-view .navtop a.bookprev:hover, 
+#page-mod-book-view .navtop a.booknext:hover,
+#page-mod-book-view .navtop a.bookexit:hover,
+#page-mod-book-view .navbottom a.bookprev:hover,
+#page-mod-book-view .navbottom a.booknext:hover,
+#page-mod-book-view .navbottom a.bookexit:hover {
+  text-decoration: none !important;
+}

@@ -1,3 +1,11 @@
+#page-mod-book-view .navtop,
+#page-mod-book-view .navbottom {
+  border-top: none;
+}
+#page-mod-book-view .navtop a,
+#page-mod-book-view .navbottom a {
+  float: none;
+}
 #page-mod-book-view .navtop a.bookprev::before, 
 #page-mod-book-view .navtop a.booknext::after,
 #page-mod-book-view .navtop a.bookexit::after,

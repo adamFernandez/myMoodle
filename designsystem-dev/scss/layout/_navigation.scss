@@ -34,7 +34,7 @@
   }
   .navtext {
     position: relative;
-    float: unset;
+    float: none;
 //    max-width: 18rem;
     margin: 2.125rem 0;
     font-family: 'KingsBureauGrot';
@@ -90,7 +90,7 @@
   }
   a#prev-activity-link, a#next-activity-link {
     @extend .navtext;
-    margin-top: unset;
+    margin-top: 0;
     padding: 0.25rem !important;
     @media only screen and (max-width: $neo-breakpoint) {
       padding: 0.5rem !important;
@@ -129,27 +129,33 @@
       @extend .navtext;
     }
   }
-  .mdl-left a {
-    left: $lg-nav-margin;
-    @media only screen and (max-width: $neo-breakpoint) {
-      left: $sm-nav-margin;
-    }
-    &:before {
-      @extend .navbutton;
-      left: -3.125rem;
-      top: 0;
+  .mdl-left {
+    margin-right: 3.5rem !important;
+    a {
+      left: $lg-nav-margin;
+      @media only screen and (max-width: $neo-breakpoint) {
+        left: $sm-nav-margin;
+      }
+      &:before {
+        @extend .navbutton;
+        left: -3.125rem;
+        top: 0;
+      }
     }
   }
-  .mdl-right a {
-    text-align: right;
-    right: $lg-nav-margin;
-    @media only screen and (max-width: $neo-breakpoint) {
-      right: $sm-nav-margin;
-    }
-    &:after {
-      @extend .navbutton;
-      right: -3.125rem;
-      top: 0;
+  .mdl-right {
+    margin-left: 3.5rem !important;
+    a {
+      text-align: right;
+      right: $lg-nav-margin;
+      @media only screen and (max-width: $neo-breakpoint) {
+        right: $sm-nav-margin;
+      }
+      &:after {
+        @extend .navbutton;
+        right: -3.125rem;
+        top: 0;
+      }
     }
   }
 }
@@ -160,18 +166,18 @@
     padding: 0 0 $component-margin-bottom-lg 0;
     margin: $component-margin-lg 0;
     text-align: center;
-    border-top: unset;
+    border-top: none;
     border-bottom: 1px solid $rules-and-outlines;
     a {
-      margin: unset;
-      max-width: unset;
-      float: unset;
+      margin: 0;
+      max-width: none;
+      float: none;
       &.bookprev, &.booknext {
         text-align: center;
         width: 2.25rem;
         height: 2.25rem;
         &:hover {
-          text-decoration: unset;
+          text-decoration: none;
         }
         @media only screen and (max-width: $neo-breakpoint) {
           display: inline-block;
@@ -180,16 +186,16 @@
       &.bookprev:before, &.booknext:after, &.bookexit:after {
         font-size: 1.5rem;
         color: $midnight-blue;
-        background-color: unset;
-        margin: unset;
-        padding: unset;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
       }
       &.bookprev:hover:before, &.booknext:hover:after, &.bookexit:hover:after {
         color: #526C84;
       }
     }
     ul {
-      margin: unset;
+      margin: 0;
       display: inline-block;
       @media only screen and (max-width: $neo-breakpoint) {
         li.chapter:not(.current):not(.prev):not(.next) {
@@ -215,7 +221,7 @@
         }
         a:hover {
           color: #526C84;
-          text-decoration: unset;
+          text-decoration: none;
         }
       }
     }

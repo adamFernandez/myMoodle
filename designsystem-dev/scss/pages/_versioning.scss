@@ -1,5 +1,5 @@
 .release-name-number {
-  margin-bottom: unset;
+  margin-bottom: 0;
   .major {
     color: $kings-red;
   }
@@ -20,7 +20,7 @@
     height: 1rem;
     border-left: 10px solid $pea-green;
     &.row {
-      margin: unset;
+      margin: 0;
     }
     &.major {
       border-left: 10px solid $kings-red;

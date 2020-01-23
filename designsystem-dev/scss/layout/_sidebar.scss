@@ -15,21 +15,24 @@
     background-color: $block-header;
     padding: 0.5rem 0.75rem !important;
     height: auto;
-    margin: unset;
-    box-shadow: unset;
+    margin: 0;
+    box-shadow: none;
     &.block_course_discuss_header_section {
       border: 1px solid $table-border;
-      border-bottom: unset;
+      border-bottom: 0;
       .headline {
         @extend .sidebar-header;
       }
     }
     .title {
       position: relative;
-      padding: unset;
+      padding: 0;
+      background: transparent;
+      box-shadow: none;
       h2 {
-        line-height: 1.4;
-        color: $midnight-blue;
+        @extend .sidebar-header;
+//        line-height: 1.4;
+//        color: $midnight-blue;
         pointer-events: none;
       }
       // hide block action buttons
@@ -51,13 +54,13 @@
        }
        li {
          font-family: 'KingsBureauGrotFiveOne';
-         margin: unset;
+         margin: 0;
          a, p, span {
            font-family: 'KingsBureauGrotFiveOne';
            color: $midnight-blue;
            font-size: 1rem;
            line-height: 1.5;
-           margin: unset;
+           margin: 0;
          }
          strong, a:hover, p:hover {
            color: $link-hover;
@@ -85,15 +88,15 @@
 #block_course_discuss_posts_container {
   padding: 0.75rem;
   #block_course_discuss_reply_container {
-    margin-top: unset;
-    padding-top: unset;
+    margin-top: 0;
+    padding-top: 0;
     #block_course_discuss_form_message {
       border: 1px solid $table-border;
-      border-top: unset;
+      border-top: 0;
       padding: 0.75rem;
       font-family: 'KingsBureauGrotFiveOne';
       font-size: 1rem;
-      margin-bottom: unset;
+      margin-bottom: 0;
     }
     #block_course_discuss_form_message_feedback {
       margin-top: 0.5rem;
@@ -104,14 +107,14 @@
       color: $body-text;
     }
     .btn.course-discuss-reply-button {
-      margin-left: unset;
+      margin-left: 0;
     }
   }
 }
 
-//module academic team html block
+// module academic team html block
 #block-region-side-post .block_html .content ul.module-academic-team {
-  margin: unset;
+  margin: 0;
   list-style: none;
   li {
     span {
@@ -122,3 +125,9 @@
     }
   }    
 }
+
+//quick access block
+#block-region-side-post .block_html .content ul.fa-ul {
+  color: $midnight-blue;
+}
+

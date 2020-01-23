@@ -5,10 +5,10 @@
 //add new forum button
 .forumaddnew {
   div {
-    margin: unset;
+    margin: 0;
     input[type="submit"]:first-child {
       @extend .btn, .btn-primary;
-      margin: unset;
+      margin: 0;
     }
   }
 }
@@ -19,7 +19,7 @@
     form {
       margin-bottom: $component-margin-bottom;
       img.icon, img.iconhelp {
-        padding: unset;
+        padding: 0;
       }
       input#search {
         height: 2.625rem;
@@ -27,7 +27,7 @@
       }
       input#searchforums {
         @extend .btn, .btn-primary;
-        margin: unset;
+        margin: 0;
       }
     }
   }
@@ -35,8 +35,8 @@
     thead .header {
       font-family: 'KingsBureauGrot';
       border-top: inherit;
-      border-left: unset !important;
-      background-color: unset;
+      border-left: 0 !important;
+      background-color: transprent;
     }
     tr {
       font-family: 'KingsBureauGrotFiveOne';
@@ -45,7 +45,7 @@
         border-bottom: 1px solid $table-border;
       }
       td {
-        background-color: unset !important;
+        background-color: transpraent !important;
         border: inherit;
         vertical-align: middle;
         &.author .media:first-child {
@@ -91,10 +91,10 @@
   }
   // select post display option or forum mode
   .discussioncontrols {
-    margin: unset;
+    margin: 0;
     .controlscontainer {
       .discussioncontrol {
-        float: unset;
+        float: none;
         &.nullcontrol {
           display: none;
         }
@@ -112,19 +112,19 @@
     }
   }
   .forumpost {
-    margin-bottom: unset;
-    background-color: unset;
-    border-radius: unset;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
     border-bottom: 1px solid $table-border;
     padding: $component-margin-sm;
     .header {
-      background: unset;
-      margin-bottom: unset;
-      padding: unset;
+      background: none;
+      margin-bottom: 0;
+      padding: 0;
       .picture {
         position: absolute;
         img.userpicture {
-          margin: unset;
+          margin: 0;
         }
       }
       .topic {
@@ -149,7 +149,7 @@
     .maincontent .content {
       margin-left: 3.75rem;
       .posting.fullpost {
-        margin-top: unset;
+        margin-top: 0;
       }
     }
     .row.side {
@@ -169,7 +169,7 @@
         display: none;
       }
       .row.side .options {
-        margin-left: unset;
+        margin-left: 0;
       }
     }
   }
@@ -192,7 +192,7 @@
           }
         }
         .maincontent .content {
-          margin-left: unset;
+          margin-left: 0;
         }
         .row.side {
           .left {
@@ -210,7 +210,7 @@
     }
   }
   #fgroup_id_buttonar {
-    background-color: unset;
+    background-color: transparent;
     .fgroup input {
       @extend .btn, .btn-primary;
     }

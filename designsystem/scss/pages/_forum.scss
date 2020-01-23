@@ -2,22 +2,24 @@
 // forum
 // -----------------------------------------------------------------------------
 
+//add new forum button
 .forumaddnew {
   div {
-    margin: unset;
+    margin: 0;
     input[type="submit"]:first-child {
       @extend .btn, .btn-primary;
-      margin: unset;
+      margin: 0;
     }
   }
 }
 
+// forum summary page
 .path-mod-forum {
   #page-navbar .breadcrumb-button .forumsearch {
     form {
       margin-bottom: $component-margin-bottom;
       img.icon, img.iconhelp {
-        padding: unset;
+        padding: 0;
       }
       input#search {
         height: 2.625rem;
@@ -25,7 +27,7 @@
       }
       input#searchforums {
         @extend .btn, .btn-primary;
-        margin: unset;
+        margin: 0;
       }
     }
   }
@@ -33,8 +35,8 @@
     thead .header {
       font-family: 'KingsBureauGrot';
       border-top: inherit;
-      border-left: unset !important;
-      background-color: unset;
+      border-left: 0 !important;
+      background-color: transprent;
     }
     tr {
       font-family: 'KingsBureauGrotFiveOne';
@@ -43,7 +45,7 @@
         border-bottom: 1px solid $table-border;
       }
       td {
-        background-color: unset !important;
+        background-color: transpraent !important;
         border: inherit;
         vertical-align: middle;
         &.author .media:first-child {
@@ -87,30 +89,54 @@
       }
     }
   }
-  .forummode .custom-select.forummode {
-    font-family: 'KingsBureauGrotFiveOne';
-    font-size: 1rem;
-    option {
-      font-family: inherit;
+  // select post display option or forum mode
+  .discussioncontrols {
+    margin: 0;
+    .controlscontainer {
+      .discussioncontrol {
+        float: none;
+        &.nullcontrol {
+          display: none;
+        }
+        &.displaymode {
+          width: fit-content;
+        }
+      }
+    }
+  }
+  div.forummode {
+    margin-bottom: $component-margin-bottom-sm;
+    .custom-select.forummode {
+      font-size: 1rem;
+      height: auto;
     }
   }
   .forumpost {
-    margin-bottom: unset;
-    background-color: unset;
-    border: unset;
-    border-top: 1px solid $table-border;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid $table-border;
+    padding: $component-margin-sm;
     .header {
-      background: unset;
-      margin-bottom: unset;
-      padding: unset;
+      background: none;
+      margin-bottom: 0;
+      padding: 0;
+      .picture {
+        position: absolute;
+        img.userpicture {
+          margin: 0;
+        }
+      }
       .topic {
-        flex: 1;
+        margin-left: 3.75rem;
         .subject {
           font-family: 'KingsBureauGrot';
+          color: $headings;
+          margin-bottom: $component-margin-bottom-sm;
         }
         .author {
           font-family: 'KingsBureauGrotFiveOne';
-          margin-bottom: unset;
+          margin-bottom: $component-margin-bottom;
           a {
             font-family: 'KingsBureauGrot';
           }
@@ -121,17 +147,14 @@
       }
     }
     .maincontent .content {
-      margin-left: 3rem;
-      font-family: 'KingsBureauGrotFiveOne';
+      margin-left: 3.75rem;
       .posting.fullpost {
-        margin-top: unset;
-      }
-      p {
-        font-family: inherit;
+        margin-top: 0;
       }
     }
     .row.side {
       .options {
+        margin-left: 0.75rem;
         .commands {
           text-align: left;
           a {
@@ -140,15 +163,24 @@
         }
       }
     }
+    &.firstpost {
+      padding: 0 $component-margin-sm $component-margin-sm 0;
+      .header .author::before {
+        display: none;
+      }
+      .row.side .options {
+        margin-left: 0;
+      }
+    }
   }
-  .indent > a:first-child {
-    display:none;
+  .indent {
+    margin-left: $component-margin-sm;
+    & > a:first-child {
+      display: none;
+    }
   }
   &.forumtype-single {
     .forumpost {
-      .maincontent .content {
-        margin-left: 6rem;
-      }
       &.firstpost {
         .header {
           .subject {
@@ -160,14 +192,11 @@
           }
         }
         .maincontent .content {
-          margin-left: unset;
+          margin-left: 0;
         }
         .row.side {
           .left {
             display: none;
-          }
-          .options {
-            margin-left: unset;
           }
         }
       }
@@ -176,15 +205,12 @@
 }
 #page-mod-forum-post {
   .forumpost {
-    .header .topic {
-//      flex: 1;
-    }
     .maincontent .content {
-      margin-left: 6rem;
+      margin-left: 3.75rem;
     }
   }
   #fgroup_id_buttonar {
-    background-color: unset;
+    background-color: transparent;
     .fgroup input {
       @extend .btn, .btn-primary;
     }

@@ -12,6 +12,7 @@
   /* card and float box */
   .card {
     display: flex;
+    flex-direction: row;
     border: 2px solid #5a6469;
     border-radius: 0;
     padding: 1.25rem;

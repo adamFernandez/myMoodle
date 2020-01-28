@@ -1,28 +1,42 @@
 @media print {
-  p, #page-mod-book-print, li {
-    font-family: "Open Sans" !important;
-  }
-
+  /* hide all other than main content */
   #block-region-side-post, #block-region-side-pre, #page-header, .navbar, .back-to-top, #page-footer, .navbottom {
     display: none !important;
   }
 
-  img {
-    max-width:50% !important;
+  /* typography */
+  p, #page-mod-book-print, li {
+    font-family: "Open Sans" !important;
   }
 
-  .hero img {
-    width: 100% !important;
-    max-width: 100% !important;
+  /* card and float box */
+  .card {
+    border: 2px solid #5a6469;
+    border-radius: 0;
+    padding: 1.25rem;
   }
-  .hero-caption {
-    position: unset !important;
+  .card .card-body {
+    background-color: transparent;
+  }
+  .card img, .float-box img {
+    margin: 0 1.25rem 0 0;
+  /*
+    width: 15% !important;
+    height: 15% !important;
+  */
+  }
+  .card img.img-top {
+    margin: 0 0 1.25rem 0;
+  }
+  .card-deck .card-body {
+    width:100%;
   }
 
+  /* carousel */
   .carousel::before {
     display: none;
   }
-  .carousel-item {
+  .carousel .carousel-item {
     display: block;
     margin-bottom: 20px;
     padding: unset !important;
@@ -51,24 +65,7 @@
     font-size: 1.125rem !important;
   }
 
-  .embed-responsive, iframe {
-    display: none;
-  }
-
-  .card {
-    border: unset !important;
-  }
-  .card-body {
-     border: unset;
-  }
-  .card-deck .card-body {
-    width:100%;
-  }
-  .card-img-left, .card-img-top, .float-box img {
-    width: 15% !important;
-    height: 15% !important;
-  }
-
+  /* collapse */
   .collapse {
     height:auto !important;
   }
@@ -76,13 +73,25 @@
     display: none;
   }
 
-  .transcript-button-group {
+  /* embed audio and video */
+  .embed-responsive, iframe {
     display: none;
   }
-  .transcript-container.collapsed .transcript-card, .collapse-container .collapse-card.collapsed .collapse-body {
-    display: block !important;
+  /*
+  img {
+    max-width:50% !important;
   }
 
+  .hero img {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .hero-caption {
+    position: unset !important;
+  }
+  */
+
+  /* info box */
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
     border: 1px solid #CDD7DC;
   }
@@ -92,13 +101,23 @@
   .key-concept-box :last-child {
     margin-bottom: unset !important;
   }
+
+  /* transcript */
+  .transcript-button-group {
+    display: none;
+  }
+  .transcript-container.collapsed .transcript-card, .collapse-container .collapse-card.collapsed .collapse-body {
+    display: block !important;
+  }
 }
 
-.editor_atto_content .transcript-container.collapsed .transcript-card, .editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body, .view-answer-container.collapsed .view-answer-card, .view-answer-container.collapsed .view-feedback-card, .view-answer-container.collapsed .view-model-answer-card, .view-feedback-container.collapsed .view-answer-card, .view-feedback-container.collapsed .view-feedback-card, .view-feedback-container.collapsed .view-model-answer-card, .view-model-answer-container.collapsed .view-answer-card, .view-model-answer-container.collapsed .view-feedback-card, .view-model-answer-container.collapsed .view-model-answer-card  {
+/* editor */
+.editor_atto_content .carousel-item,
+.editor_atto_content .transcript-container.collapsed .transcript-card,
+.editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body {
   display:block !important;
 }
 
 .editor_atto_content .carousel-item {
-  display: block;
   margin-bottom: 1.25rem;
 }

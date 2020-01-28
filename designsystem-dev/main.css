@@ -1192,7 +1192,7 @@ figure {
   #region-main .learning-outcome-box > :first-child::before {
     content: '\f091';
     color: #009EA0;
-    padding: 4px; }
+    padding: 0 4px; }
   #region-main .learning-outcome-box ol, #region-main .learning-outcome-box ul {
     margin: 0 0 0 1.25rem; }
     #region-main .learning-outcome-box ol li:last-child, #region-main .learning-outcome-box ul li:last-child {

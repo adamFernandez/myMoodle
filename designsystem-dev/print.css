@@ -120,34 +120,41 @@
   .carousel::before {
     display: none;
   }
+  .carousel {
+    page-break-before: always;
+  }
+  .carousel-control-prev,
+  .carousel-control-next,
+  .carousel-indicators {
+    display: none;
+  }
   .carousel .carousel-item {
     page-break-inside: avoid;
     display: block;
-    margin-bottom: 20px;
-    padding: unset !important;
-
+    margin-bottom: 1.25rem;
+    padding: 0;
   }
   .carousel-item img {
-    width:15% !important;
-  }
-  .carousel-control-prev, .carousel-control-next {
-    display: none;
+    max-width:850px;
+    max-height: 425px;
   }
   .carousel-caption {
-    padding: unset !important;
-    position: unset !important;
+    max-width: calc(850px - 2.5rem - 4px);
+    padding: 1.25rem;
+    position: initial;
+    background-color: transparent;
+    border: 2px solid #5a6469;
+  }
+  .carousel-caption h5 {
+    font-size: 1.125rem;
+    color: #333333;
+  }
+  .carousel-caption p {
+    color: #333333;
   }
   .text-only .carousel-caption {
     width: 100%;
     left: 0;
-    padding: unset !important;
-    position: unset !important;
-  }
-  .carousel-indicators {
-    display: none;
-  }
-  .carousel-caption h5 {
-    font-size: 1.125rem !important;
   }
 
   /* collapse */

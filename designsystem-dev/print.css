@@ -162,6 +162,7 @@
   /* collapse */
   .collapse-container {
     page-break-inside: avoid;
+    margin-bottom: 1.25rem;
   }
   .collapse-container .collapse-card {
     border-bottom: 2px solid #cdd7dc;

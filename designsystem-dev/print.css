@@ -67,6 +67,7 @@
     flex-direction: row;
     border: 2px solid #5a6469;
     border-radius: 0;
+    margin-bottom: 1.25rem;
     padding: 1.25rem;
   }
   .card .card-body {
@@ -78,10 +79,10 @@
     width: 330px;
     height: 100%;
     flex-shrink: 0;
-  /*
-    width: 15% !important;
-    height: 15% !important;
-  */
+  }
+  .card img.img-right, .float-box img.img-right {
+    order: 2;
+    margin: 0 0 0 1.25rem;
   }
   .card img.img-top {
     width: 100%;
@@ -104,6 +105,11 @@
   }
   .card-deck .card img {
     width: 100%;
+    height: auto;
+  }
+  .float-box {
+    display: flex;
+    margin-bottom: 1.25rem;
   }
 
   /* carousel */

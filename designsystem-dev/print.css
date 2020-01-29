@@ -197,8 +197,32 @@
   }
 
   /* embed audio and video */
+  .embed-responsive {
+    height: 100px;
+    width: 175px;
+    display: inline-block;
+    vertical-align: top:
+    border: 2px solid #5a6469;
+    margin-right: -7px;
+  }
+  .embed-responsive.embed-responsive-audio::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f3c9';
+  }
   .embed-responsive, iframe {
     display: none;
+  }
+  .transcript-container {
+    display: inline-block;
+    width: calc(100% - 177px);
+    margin-bottom: 1.25rem;
+  }
+  .transcript-container .transcript-card .card-body {
+    column-count: 2;
+    column-gap: 1.25rem;
+    border-left: 2px solid #5a6469;
+    padding-left: 1.25rem;
   }
 
   /* images */

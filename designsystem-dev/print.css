@@ -163,16 +163,30 @@
   .collapse-container {
     page-break-inside: avoid;
   }
+  .collapse-container .collapse-card {
+    border-bottom: 2px solid: #cdd7dc;
+    padding: 1.25rem;
+    padding-left: 3rem;
+  }
+  .collapse-container .collapse-card:first-child {
+    border-top: 2px solid: #cdd7dc;
+  }
   .collapse-container .collapse-card .collapse-header button .h4 {
     position: relative;
+    margin: 0;
+    text-align: left;
   }
-  .collapse-container .collapse-card .collapse-header button .h4::after {
-    content: '\f106';
-    font-family: 'Font Awesome 5 Pro';
+  .collapse-container .collapse-card .collapse-header button .h4::before {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    color: #5a6469;
     font-weight: 900;
     position: absolute;
-    right: -1rem;
+    left: -2rem;
     top: 0;
+  }
+  .collapse-container .collapse-card .collapse-body p {
+    margin: 0;
   }
 
   /* embed audio and video */

@@ -197,20 +197,21 @@
   .embed-responsive, iframe {
     display: none;
   }
-  /*
-  img {
-    max-width:50% !important;
-  }
 
-  .hero img {
-    width: 100% !important;
-    max-width: 100% !important;
+  /* images */
+  .full-width-img, .img-full-width {
+    margin-bottom: 1.25rem;
   }
-  .hero-caption {
-    position: unset !important;
+  .full-width-img img, .img-full-width img {
+    width: 100%;
   }
-  */
-
+  .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
+    margin-bottom: 0.75rem;
+  }
+  .full-width-img .caption, .img-full-width .caption {
+    margin-bottom: 0;
+  }
+  
   /* info box */
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
     page-break-inside: avoid;

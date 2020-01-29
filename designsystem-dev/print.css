@@ -342,6 +342,9 @@
     font-weight: bold;
     background-color: #dce3e6;
   }
+  .learning-outcome-box ol, .learning-outcome-box ul {
+     margin-bottom: 0;
+  }
 
   /* transcript */
   .transcript-button-group {

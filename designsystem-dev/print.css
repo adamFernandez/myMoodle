@@ -202,19 +202,31 @@
   }
 
   /* images */
-  .full-width-img, .img-full-width {
+  .full-width-img, .img-full-width,
+  .center-img, .img-center,
+  .circular-img, .img-circular {
     margin-bottom: 1.25rem;
   }
   .full-width-img img, .img-full-width img {
     width: 100%;
   }
-  .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
+  .full-width-img img:not(:last-child),
+  .img-full-width img:not(:last-child),
+  .center-img img:not(:last-child),
+  .img-center img:not(:last-child) {
     margin-bottom: 0.75rem;
   }
   .full-width-img .caption, .img-full-width .caption {
     margin-bottom: 0;
   }
-  
+  .center-img, .img-center {
+    text-align: center;
+  }
+  .circular-img, .img-circular {
+    border-radius: 50%;
+    max-width: 100%;
+  }
+
   /* info box */
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
     page-break-inside: avoid;

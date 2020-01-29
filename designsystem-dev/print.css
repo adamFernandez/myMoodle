@@ -155,9 +155,8 @@
   .carousel-caption p {
     color: #333333;
   }
-  .text-only .carousel-caption {
-    width: 100%;
-    left: 0;
+  .carousel.text-only .carousel-caption {
+    position: initial;
   }
 
   /* collapse */

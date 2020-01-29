@@ -164,16 +164,19 @@
     page-break-inside: avoid;
   }
   .collapse-container .collapse-card {
-    border-bottom: 2px solid: #cdd7dc;
+    border-bottom: 2px solid #cdd7dc;
     padding: 1.25rem;
     padding-left: 3rem;
   }
   .collapse-container .collapse-card:first-child {
-    border-top: 2px solid: #cdd7dc;
+    border-top: 2px solid #cdd7dc;
+  }
+  .collapse-container .collapse-card .collapse-header button {
+    mnargin: 0;
+    padding: 0;
   }
   .collapse-container .collapse-card .collapse-header button .h4 {
     position: relative;
-    margin: 0;
     text-align: left;
   }
   .collapse-container .collapse-card .collapse-header button .h4::before {

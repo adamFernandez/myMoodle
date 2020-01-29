@@ -392,11 +392,13 @@
   .table-bordered td {
     color: #333333;
   }
+
   /* timeline */
   .timeline-container .timeline-row .timeline-content .timeline-card {
     margin-bottom: 2.75rem;
   }
-  .timeline-container .timeline-row .timeline-content .timeline-card .date-tab {
+  .timeline-container .timeline-row .timeline-content .timeline-card
+  .date-tab {
     position: absolute;
     top: -29px;
     left: -2px;
@@ -408,26 +410,25 @@
     border: 2px solid #5a6469;
     border-bottom: none;
   }
-  .timeline-container .timeline-row .timelime-content .timeline-card .card-body
-  .row {
+  .timeline-container .timeline-row .timeline-content .timeline-card
+  .card-body .row {
     margin: 0;
   }
-  .timeline-container .timeline-row .timelime-content .timeline-card .card-body .col-md-3 {
+  .timeline-container .timeline-row .timelime-content .timeline-card
+  .card-body .col-md-3 {
     margin-left: 1.25rem;
   }
-  .timeline-container .timeline-row .timelime-content .timeline-card .card-body .col-md-3 img {
+  .timeline-container .timeline-row .timelime-content .timeline-card
+  .card-body .col-md-3 img {
     max-width: 100%;
-  }
-  .timeline-container .timeline-row .timeline-content .timeline-card .card-body
-  .col-md {
-    margin-left: 1.25rem;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
   .card-body .col-md h5 {
     line-height: 1.4;
     font-size: 1.125rem;
   }
-  .timeline-container .timeline-row .timeline-content .timeline-card .img-reference {
+  .timeline-container .timeline-row .timeline-content .timeline-card
+  .img-reference {
     text-align: right;
     font-size: 16px;
   }

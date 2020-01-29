@@ -5,12 +5,34 @@
   }
 
   /* typography */
-  p, #page-mod-book-print, li {
+  @charset "UTF-8";
+  @font-face {
+    font-family: 'KingsBureauGrot';
+    src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'KingsBureauGrotFiveOne';
+    src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
+    font-style: normal;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'KingsBureauGrot';
+    color: #171717;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+  /*#page-mod-book-print*/
+  p, li {
     font-family: "Open Sans" !important;
+    font-size: 18px;
+    color: #333333;
   }
 
   /* card and float box */
   .card {
+    page-break-inside: avoid;
     display: flex;
     flex-direction: row;
     border: 2px solid #5a6469;
@@ -37,11 +59,14 @@
     margin: 0 0 1.25rem 0;
   }
   .card-deck {
+    page-break-inside: avoid;
     display: flex;
     flex-direction: row-wrap;
+    margin: 0 0 1.5rem 0;
   }
   .card-deck .card-body {
-    width:100%;
+  
+/*    width:100%; */
   }
 
   /* carousel */
@@ -49,6 +74,7 @@
     display: none;
   }
   .carousel .carousel-item {
+    page-break-inside: avoid;
     display: block;
     margin-bottom: 20px;
     padding: unset !important;
@@ -79,6 +105,7 @@
 
   /* collapse */
   .collapse {
+    page-break-inside: avoid;
     height:auto !important;
   }
   .collapse-header button > :first-child:after {
@@ -105,6 +132,7 @@
 
   /* info box */
   .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
+    page-break-inside: avoid;
     border: 1px solid #CDD7DC;
   }
   .key-concept-box {
@@ -119,6 +147,7 @@
     display: none;
   }
   .transcript-container.collapsed .transcript-card, .collapse-container .collapse-card.collapsed .collapse-body {
+    page-break-inside: avoid;
     display: block !important;
   }
 }

@@ -217,7 +217,8 @@
     display: inline-block;
     vertical-align: top;
     border: 2px solid #5a6469;
-    margin-right: -7px;
+    border-right: none;
+    margin-right: -5px;
     position: relative;
   }
   .embed-responsive::before {

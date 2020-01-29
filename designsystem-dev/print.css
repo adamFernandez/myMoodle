@@ -277,19 +277,72 @@
   }
 
   /* info box */
-  .definition-box, .feedback-box, .key-concept-box, .learning-outcome-box {
+  .definition-box > :first-child::before,
+  .alert-instructional > :first-child::before,
+  .feedback-box > :first-child::before,
+  .learning-outcome-box > :first-child::before,
+  .reading-box > :first-child::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    color: #5a6469;
+  }
+  .definition-box > :first-child::before {
+    content: '\f02e';
+    padding: 0 7px;
+    top: 1.5rem;
+  }
+  .alert-instructional > :first-child::before {
+    content: '\f086';
+    padding: 0 2px;
+    top: 1.35rem;
+  }
+  .feedback-box > :first-child::before {
+    content: '\f27a';
+    padding: 0 4px;
+    top: 1.6rem;
+  }
+  .learning-outcome-box > :first-child::before {
+    content: '\f091';
+    padding: 0 3px;
+    top: 1.45rem;
+  }
+  .reading-box > :first-child::before {
+    content: '\f5da';
+    padding: 0 4px;
+    top: 1.45rem;
+  }
+  .definition-box, .alert-instructional,
+  .feedback-box, .key-concept-box,
+  .learning-outcome-box, .reading-box {
     page-break-inside: avoid;
     border: 2px solid #5a6469;
-    padding: 1.25rem; 
-    margin-bottom: 1.25rem; 
+    padding: 1.25rem;
+    padding-left: 4rem;
+    margin-bottom: 1.25rem;
+    position: relative;
   }
-  .definition-box h5, .feedback-box h5, .learning-outcome-box h5 {
+  .definition-box h5, .feedback-box h5,
+  .learning-outcome-box h5, .reading-box h5 {
     font-size: 1.2rem;
   }
-  .definition-box p:last-child, .feedback-box p:last-child,
-  .key-concept-box p:last-child, .learning-outcome-box p:last-child {
+  .definition-box p:last-child, .alert-instructional p:last-child,
+  .feedback-box p:last-child, .key-concept-box p:last-child,
+  .learning-outcome-box p:last-child, .reading-box p:last-child {
     margin-bottom: 0;
   }
+  .alert-instructional {
+    background-color: #dce3e6;
+  }
+  .key-concept-box {
+    padding: 1.25rem;
+    font-weight: bold;
+    background-color: #dce3e6;
+  }
+
   /* transcript */
   .transcript-button-group {
     display: none;

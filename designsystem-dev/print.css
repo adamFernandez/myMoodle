@@ -21,6 +21,7 @@
     font-size: 18px;
   }
   h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
     font-family: 'KingsBureauGrot';
     color: #171717;
     margin-top: 0;
@@ -91,11 +92,18 @@
     page-break-inside: avoid;
     display: flex;
     flex-direction: row-wrap;
-    margin: 0 0 1.5rem 0;
+    margin: 0;
   }
-  .card-deck .card-body {
-  
-/*    width:100%; */
+  .card-deck .card {
+    display: block;
+    flex: 1 0 0%;
+    margin: 0 0.625rem 1.5rem 0;
+  }
+  .card-deck .card:last-child {
+    margin: 0 0 1.5rem 0.625rem;
+  }
+  .card-deck .card img {
+    width: 100%;
   }
 
   /* carousel */

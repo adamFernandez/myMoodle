@@ -267,7 +267,7 @@ body#page-mod-book-print {
 #page-mod-book-print .collapse-container .collapse-card {
   border-bottom: 2px solid #cdd7dc;
   padding: 1.25rem;
-  padding-left: 3rem;
+  padding-left: 4rem;
 }
 #page-mod-book-print .collapse-container .collapse-card:first-child {
   border-top: 2px solid #cdd7dc;
@@ -289,8 +289,9 @@ body#page-mod-book-print {
   color: #5a6469;
   font-weight: 900;
   position: absolute;
-  left: -2rem;
-  top: 0;
+  left: -2.5rem;
+  top: -6px;
+  font-size: 24px;
 }
 #page-mod-book-print .collapse-container .collapse-card .collapse-body
 #p:last-child {
@@ -353,8 +354,8 @@ body#page-mod-book-print {
 #page-mod-book-print .img-circular {
   margin-bottom: 1.25rem;
 }
-#page-mod-book-print .full-width-img img, #page-mod-book-print
-#.img-full-width img {
+#page-mod-book-print .full-width-img img,
+#page-mod-book-print .img-full-width img {
   width: 100%;
 }
 #page-mod-book-print .full-width-img img:not(:last-child),
@@ -367,10 +368,12 @@ body#page-mod-book-print {
 #page-mod-book-print .img-full-width .caption {
   margin-bottom: 0;
 }
-#page-mod-book-print .center-img, #page-mod-book-print .img-center {
+#page-mod-book-print .center-img,
+#page-mod-book-print .img-center {
   text-align: center;
 }
-#page-mod-book-print .circular-img, #page-mod-book-print .img-circular {
+#page-mod-book-print .circular-img,
+#page-mod-book-print .img-circular {
   border-radius: 50%;
   max-width: 100%;
 }

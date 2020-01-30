@@ -269,7 +269,7 @@
   .collapse-container .collapse-card {
     border-bottom: 2px solid #cdd7dc;
     padding: 1.25rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
   }
   .collapse-container .collapse-card:first-child {
     border-top: 2px solid #cdd7dc;
@@ -288,8 +288,9 @@
     color: #5a6469;
     font-weight: 900;
     position: absolute;
-    left: -2rem;
-    top: 0;
+    left: -2.5rem;
+    top: -6px;
+    font-size: 24px;
   }
   .collapse-container .collapse-card .collapse-body p:last-child {
     margin: 0;

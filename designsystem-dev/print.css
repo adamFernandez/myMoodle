@@ -545,6 +545,11 @@
   .view-feedback-container > h5,
   .view-model-answer-container > h5 {
     font-size: 1.2rem;
+    margin-left: calc(150px + 1.25rem);
+    border-left: 2px solid #5a6469;
+    padding-left: 1.25rem;
+    margin-bottom:  0;
+    padding-bottom: 1.25rem;
   }
   .view-answer-container a.view-hide-answer,
   .view-feedback-container a.view-hide-feedback,
@@ -575,6 +580,13 @@
   .view-feedback-container .card-body .card-text,
   .view-model-answer-container .card-body .card-text {
     margin-left: 1.25rem;
+  }
+  .view-answer-container .card-body > p,
+  .view-feedback-container .card-body > p ,
+  .view-model-answer-container .card-body > p {
+    margin-left: calc(150px + 1.25rem);
+    border-left: 2px solid #5a6469;
+    padding-left: 1.25rem;
   }
 }
 

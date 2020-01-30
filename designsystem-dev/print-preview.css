@@ -62,7 +62,6 @@ body#page-mod-book-print {
 }
 #page-mod-book-print p a,
 #page-mod-book-print li p a {
-  color: #002395;
   text-decoration: underline;
 }
 #page-mod-book-print ol,

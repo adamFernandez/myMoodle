@@ -26,7 +26,8 @@
   html, body {
     font-size: 18px;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
     page-break-after: avoid;
     font-family: 'KingsBureauGrot';
     color: #171717;
@@ -49,7 +50,7 @@
     font-size: 1.25rem;
     line-height: 1.4;
   }
-  h5 .h5 {
+  h5, .h5 {
     font-size: 1.125rem;
     line-height: 1.4;
   }
@@ -572,7 +573,7 @@
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 150px;
+    width: 502px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
   }

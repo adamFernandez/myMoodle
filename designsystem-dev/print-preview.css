@@ -8,7 +8,13 @@ body#page-mod-book-print {
 #page-mod-book-print h3,
 #page-mod-book-print h4,
 #page-mod-book-print h5,
-#page-mod-book-print h6 {
+#page-mod-book-print h6,
+#page-mod-book-print .h1,
+#page-mod-book-print .h2,
+#page-mod-book-print .h3,
+#page-mod-book-print .h4,
+#page-mod-book-print .h5,
+#page-mod-book-print .h6 {
   page-break-after: avoid;
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -232,10 +238,10 @@ body#page-mod-book-print {
   padding: 0;
 }
 #page-mod-book-print .carousel .carousel-item img {
-  max-width: 100% !important;
+  max-width: 100%;
 }
 #page-mod-book-print .carousel .carousel-caption {
-  max-width: calc(100% - 2.5rem - 4px) !important;
+  max-width: calc(100% - 2.5rem - 4px);
   padding: 1.25rem;
   position: absolute;
   bottom: 0;
@@ -503,8 +509,7 @@ body#page-mod-book-print {
 #page-mod-book-print .timeline-container .timeline-row .timeline-content {
   margin-left: 0.625rem;
 }
-#page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card {
+#page-mod-book-print .timeline-container .timeline-row .timeline-content .timeline-card {
   margin-bottom: 0.25rem;
   margin-top: 2.5rem;
 }

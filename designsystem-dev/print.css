@@ -521,7 +521,7 @@
     height: auto;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
-  .card-body .col-md {
+  .card-body .col-md:not(:first-child) {
     margin-left: 1.25rem;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
@@ -534,7 +534,13 @@
     text-align: right;
     font-size: 16px;
   }
+
   /* view answer */
+  .view-answer-container > h5,
+  .view-feedback-container > h5,
+  .view-model-answer-container > h5 {
+    font-size: 1.2rem;
+  }
   .view-answer-container a.view-hide-answer,
   .view-feedback-container a.view-hide-feedback,
   .view-model-answer-container a.view-hide-model-answer {

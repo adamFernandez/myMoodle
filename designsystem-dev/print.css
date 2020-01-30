@@ -400,6 +400,9 @@
   .timeline-container {
     margin-top: calc(25px - 2.5rem);
   }
+  .timeline-container .timeline-row {
+    page-break-inside: avoid;
+  }
   .timeline-container .timeline-row .col.border-right {
     border-right: 2px solid #5a6469;
   }
@@ -417,10 +420,10 @@
     position: absolute;
     display: block;
     top: 50%;
-    left: 100%;
+    left: calc(100% + 2px);
     border-top: 1px solid #5a6469;
     border-bottom: 1px solid #5a6469;
-    width: 1.25rem;
+    width: 0.625rem;
   }
   .timeline-container .timeline-row .timeline-content {
     margin-left: 0.625rem;

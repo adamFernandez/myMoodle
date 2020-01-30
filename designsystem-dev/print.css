@@ -257,7 +257,7 @@
     margin-bottom: 0;
   }
   .carousel.text-only .carousel-caption {
-    position: initial;
+    position: static;
     max-width: 100% !important;
   }
 

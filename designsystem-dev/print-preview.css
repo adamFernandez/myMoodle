@@ -251,7 +251,7 @@ body#page-mod-book-print {
   margin-bottom: 0;
 }
 #page-mod-book-print .carousel.text-only .carousel-caption {
-  position: initial;
+  position: static;
   max-width: 100% !important;
 }
 

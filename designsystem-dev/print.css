@@ -503,15 +503,50 @@
     text-align: right;
     font-size: 16px;
   }
+  /* view answer */
+  .view-answer-container a.view-hide-answer,
+  .view-feedback-container a.view-hide-feedback,
+  .view-model-answer-container a.view-hide-model-answer {
+    display: none;
+  }
+  .view-answer-container .card-body,
+  .view-feedback-container .card-body,
+  .view-model-answer-container .card-body {
+    display: flex;
+  }
+  .view-answer-container .card-body .card-author,
+  .view-feedback-container .card-body .card-author,
+  .view-model-answer-container .card-body .card-author {
+    text-align: center;
+    border-right: 2px solid #5a6469;
+    padding-right: 1.25rem;
+  }
+  .view-answer-container .card-body .card-author img,
+  .view-feedback-container .card-body .card-author img,
+  .view-model-answer-container .card-body .card-author img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin: 0 0 0.625rem 0;
+  }
+  .view-answer-container .card-body .card-text,
+  .view-feedback-container .card-body .card-text,
+  .view-model-answer-container .card-body .card-text {
+    margin-left: 1.25rem;
+  }
 }
 
 /* editor */
 .editor_atto_content .carousel-item,
 .editor_atto_content .transcript-container.collapsed .transcript-card,
-.editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body {
+.editor_atto_content .collapse-container .collapse-card.collapsed
+.collapse-body,
+.editor_atto_content .view-answer-container .view-answer-card,
+.editor_atto_content .view-feedback-container .view-feedback-card,
+.editor_atto_content .view-model-answer-container .view-model-answer-card
+ {
   display:block !important;
 }
-
 .editor_atto_content .carousel-item {
   margin-bottom: 1.25rem;
 }

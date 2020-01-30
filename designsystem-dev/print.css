@@ -10,9 +10,9 @@
   src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
   font-style: normal;
 }
-@font-face {
+@font-face{
   font-family: 'KingsCaslonDisplay';
-  src: url("https://git.iddkingsonline.com/assets/fonts/KingsCaslonDisplay.ttf") format("truetype");
+  src: url(https://www.kcl.ac.uk/SiteElements/2017/fonts/KingsCaslonItalic-ttf.ttf) format("truetype");
   font-style: italic;
 }
 
@@ -75,27 +75,30 @@
     font-size: 16px;
   }
  .quote-box {
+    page-break-inside: avoid;
     border: 2px solid #464e52;
     margin-bottom: 1.25rem;
-    page-break-inside: avoid;
     position: relative;
   }
   .quote-box > :first-child {
-    padding: 1.25rem 1.5rem 1.25rem 4rem;
+    padding: 1.25rem;
+    padding-left: 4rem;
   }
    .quote-box > :first-child::before {
     content: '“';
     color: #464E52;
     font-family: 'KingsCaslonDisplay';
     font-size: 4.5rem;
-    top: 2.75rem;
+    top: 2.5rem;
     position: absolute;
-    left: 1.5rem;
-    font-weight: 900;
+    left: 1rem;
   }
-  .quote-box h5 {
+  .quote-box .quote-attribution {
     margin: 0;
     font-size: 1.2rem;
+  }
+  .quote-box .quote-body {
+    font-family: 'KingsCaslonDisplay';
   }
 
   /* bootstrap */

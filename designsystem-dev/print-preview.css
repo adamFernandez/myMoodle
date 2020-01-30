@@ -521,6 +521,10 @@ body#page-mod-book-print {
   border-bottom: none;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content .timeline-card
+.card-body {
+  width: 100% !important;
+}
+#page-mod-book-print .timeline-container .timeline-row .timeline-content .timeline-card
 .card-body .row {
   margin: 0;
 }

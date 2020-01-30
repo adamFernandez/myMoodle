@@ -519,6 +519,10 @@
     border-bottom: none;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
+  .card-body {
+    width: 100% !important;
+  }
+  .timeline-container .timeline-row .timeline-content .timeline-card
   .card-body .row {
     margin: 0;
   }

@@ -183,7 +183,7 @@
   .carousel::before {
     display: none;
   }
-  .carousel:not(.text-only {
+  .carousel:not(.text-only) {
     page-break-before: always;
   }
   .carousel .carousel-control-prev,
@@ -202,7 +202,7 @@
     max-width: 98% !important;
   }
   .carousel .carousel-caption {
-    max-width: calc(98% - 2.5rem - 4px);
+    max-width: calc(98% - 2.5rem - 4px) !important;
     padding: 1.25rem;
     position: absolute;
     bottom: 0;
@@ -223,7 +223,7 @@
   }
   .carousel.text-only .carousel-caption {
     position: initial;
-    max-width: 100%;
+    max-width: 100% !important;
   }
 
   /* collapse */

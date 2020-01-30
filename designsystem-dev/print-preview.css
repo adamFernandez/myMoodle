@@ -15,7 +15,6 @@ body#page-mod-book-print {
 #page-mod-book-print .h4,
 #page-mod-book-print .h5,
 #page-mod-book-print .h6 {
-  page-break-after: avoid;
   font-family: 'KingsBureauGrot';
   color: #171717;
   margin-top: 0;
@@ -77,7 +76,6 @@ body#page-mod-book-print {
   font-size: 16px;
 }
 #page-mod-book-print .quote-box {
-  page-break-inside: avoid;
   border: 2px solid #464e52;
   margin-bottom: 1.25rem;
   position: relative;
@@ -159,7 +157,6 @@ body#page-mod-book-print {
 
 /* card and float box */
 #page-mod-book-print .card {
-  page-break-inside: avoid;
   display: flex;
   flex-direction: row;
   border: 2px solid #5a6469;
@@ -195,7 +192,6 @@ body#page-mod-book-print {
   margin: 0 0 1.25rem 0;
 }
 #page-mod-book-print .card-deck {
-  page-break-inside: avoid;
   display: flex;
   flex-direction: row-wrap;
   margin: 0;
@@ -213,7 +209,6 @@ body#page-mod-book-print {
   height: auto;
 }
 #page-mod-book-print .float-box {
-  page-break-inside: avoid;
   display: flex;
   margin-bottom: 1.25rem;
 }
@@ -222,16 +217,12 @@ body#page-mod-book-print {
 .carousel::before {
   display: none;
 }
-#page-mod-book-print .carousel:not(.text-only) {
-  page-break-before: always;
-}
 #page-mod-book-print .carousel .carousel-control-prev, 
 #page-mod-book-print .carousel .carousel-control-next, 
 #page-mod-book-print .carousel .carousel-indicators {
   display: none;
 }
 #page-mod-book-print .carousel .carousel-item {
-  page-break-inside: avoid;
   display: block;
   position: relative;
   margin-bottom: 1.25rem;
@@ -267,7 +258,6 @@ body#page-mod-book-print {
 
 /* collapse */
 #page-mod-book-print .collapse-container {
-  page-break-inside: avoid;
   margin-bottom: 1.25rem;
 }
 #page-mod-book-print .collapse-container .collapse-card {
@@ -329,7 +319,6 @@ body#page-mod-book-print {
   display: none;
 }
 #page-mod-book-print .transcript-container {
-  page-break-inside: avoid;
   display: inline-block;
   width: calc(100% - 177px);
   margin-bottom: 1.25rem;
@@ -339,7 +328,6 @@ body#page-mod-book-print {
   display: none;
 }
 #page-mod-book-print .transcript-container .transcript-card .card-body {
-  page-break-inside: avoid;
   column-count: 2;
   column-gap: 1.25rem;
   border-left: 2px solid #5a6469;
@@ -424,7 +412,6 @@ body#page-mod-book-print {
 #page-mod-book-print .key-concept-box,
 #page-mod-book-print .learning-outcome-box,
 #page-mod-book-print .reading-box {
-  page-break-inside: avoid;
   border: 2px solid #8b9296;
   padding: 1.25rem;
   padding-left: 4rem;
@@ -480,9 +467,6 @@ body#page-mod-book-print {
 /* timeline */
 #page-mod-book-print .timeline-container {
   margin-top: calc(25px - 2.5rem);
-}
-#page-mod-book-print .timeline-container .timeline-row {
-  page-break-inside: avoid;
 }
 #page-mod-book-print .timeline-container .timeline-row .col.border-right {
   border-right: 2px solid #5a6469;

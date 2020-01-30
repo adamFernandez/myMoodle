@@ -442,6 +442,7 @@
 
   /* table */
   .table-bordered {
+    page-break-inside: avoid;
     border: 2px solid #5a6469;
     border-radius: 0;
     border-collapse: collapse;
@@ -459,6 +460,7 @@
 
   /* timeline */
   .timeline-container {
+    page-break-inside: avoid;
     margin-top: calc(25px - 2.5rem);
   }
   .timeline-container .timeline-row {
@@ -542,6 +544,11 @@
   }
 
   /* view answer */
+  .view-answer-container,
+  .view-feedback-container,
+  .view-model-answer-container {
+    page-break-inside: avoid;
+  }
   .view-answer-container > h5,
   .view-feedback-container > h5,
   .view-model-answer-container > h5 {

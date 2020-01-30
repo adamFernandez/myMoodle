@@ -374,7 +374,7 @@ body#page-mod-book-print {
 #page-mod-book-print .reading-box > :first-child::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 1.25rem;
   left: 1.25rem;
@@ -383,27 +383,23 @@ body#page-mod-book-print {
 #page-mod-book-print .definition-box > :first-child::before {
   content: '\f02e';
   padding: 0 7px;
-  top: 1.5rem;
 }
 #page-mod-book-print .alert-instructional > :first-child::before {
   content: '\f086';
   padding: 0 2px;
-  top: 1.35rem;
 }
 #page-mod-book-print .feedback-box > :first-child::before {
   content: '\f27a';
   padding: 0 4px;
-  top: 1.6rem;
+  top: 1.35rem;
 }
 #page-mod-book-print .learning-outcome-box > :first-child::before {
   content: '\f091';
   padding: 0 3px;
-  top: 1.45rem;
 }
 #page-mod-book-print .reading-box > :first-child::before {
   content: '\f5da';
   padding: 0 4px;
-  top: 1.45rem;
 }
 #page-mod-book-print .definition-box,
 #page-mod-book-print .alert-instructional,

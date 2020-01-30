@@ -385,7 +385,7 @@
   .definition-box > :first-child::before {
     content: '\f02e';
     padding: 0 7px;
-    top: 1.5rem;
+    top: 1.4rem;
   }
   .alert-instructional > :first-child::before {
     content: '\f086';
@@ -395,17 +395,17 @@
   .feedback-box > :first-child::before {
     content: '\f27a';
     padding: 0 4px;
-    top: 1.6rem;
+    top: 1.5rem;
   }
   .learning-outcome-box > :first-child::before {
     content: '\f091';
     padding: 0 3px;
-    top: 1.45rem;
+    top: 1.35rem;
   }
   .reading-box > :first-child::before {
     content: '\f5da';
     padding: 0 4px;
-    top: 1.45rem;
+    top: 1.4rem;
   }
   .definition-box, .alert-instructional,
   .feedback-box, .key-concept-box,
@@ -583,7 +583,7 @@
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 502px !important;
+    width: 504px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
   }

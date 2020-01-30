@@ -395,12 +395,12 @@
   .feedback-box > :first-child::before {
     content: '\f27a';
     padding: 0 4px;
-    top: 1.6rem;
+    top: 1.7rem;
   }
   .learning-outcome-box > :first-child::before {
     content: '\f091';
     padding: 0 3px;
-    top: 1.45rem;
+    top: 1.5rem;
   }
   .reading-box > :first-child::before {
     content: '\f5da';

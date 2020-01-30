@@ -65,6 +65,10 @@
     line-height: 1.5;
     margin-bottom: 1.25rem;
   }
+  p a, li p a {
+    color: #002395;
+    text-decoration: underline;
+  }
   ol, ul {
     margin: 0 0 1.25rem 1.25rem;
   }

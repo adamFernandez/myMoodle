@@ -97,7 +97,7 @@
     height: 50% !important;
   }
 
-  /* book info and toc */
+  /* book info */
   .book_info table {
     margin-bottom: 1.25rem;
   }
@@ -107,6 +107,17 @@
   }
   .book_info table tr td:nth-child(2) {
     padding-left: 1.25rem;
+  }
+
+  /* book table of contents */
+  .book_toc_numbered ul, .book_toc_none ul,
+  .book_toc_bullets ul, .book_toc_indented ul {
+    margin-left: 0;
+    page-break-after: always;
+  }
+  .book_toc_numbered ul li, .book_toc_none ul li,
+  .book_toc_bullets ul li, .book_toc_indented ul li {
+    list-style: none;
   }
 
   /* card and float box */

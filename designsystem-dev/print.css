@@ -93,6 +93,9 @@
   .col-md-9 {
     flex: 0 0 75%;
   }
+  .h-50 {
+    height: 50% !important;
+  }
 
   /* card and float box */
   .card {
@@ -394,8 +397,48 @@
   }
 
   /* timeline */
+  .timeline-container {
+    margin-top: calc(25px - 2.5rem);
+  }
+  .timeline-container .timeline-row .col.border-right {
+    border-right: 2px solid #5a6469;
+  }
+  .timeline-container .timeline-row .timeline-badge-pill {
+    border-radius: 50%;
+    border: 2px solid #5a6469;
+    height: 1.25rem;
+    width: 1.25rem;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+  }
+  .timeline-container .timeline-badge-pill::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 100%;
+    border-top: 1px solid #5a6469;
+    border-bottom: 1px solid #5a6469;
+    width: 1.25rem;
+  }
+  .timeline-container .timeline-row .timeline-content {
+    margin-left: 0.625rem;
+  }
   .timeline-container .timeline-row .timeline-content .timeline-card {
-    margin-bottom: 2.75rem;
+    margin-bottom: 0.25rem;
+    margin-top: 2.5rem;
+  }
+   .timeline-container .timeline-row:last-child .timeline-content
+.timeline-card {
+    margin-bottom: 1.25rem;
+  }
+  .timeline-container .timeline-row.highlighted .timeline-badge-pill,
+  .timeline-container .timeline-row.highlighted .timeline-content
+.timeline-card .date-tab,
+  .timeline-container .timeline-row.highlighted .timeline-content
+.timeline-card {
+    background-color: #ffe1d2;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
   .date-tab {
@@ -414,13 +457,14 @@
   .card-body .row {
     margin: 0;
   }
-  .timeline-container .timeline-row .timelime-content .timeline-card
-  .card-body .col-md-3 {
-    margin-left: 1.25rem;
-  }
-  .timeline-container .timeline-row .timelime-content .timeline-card
+  .timeline-container .timeline-row .timeline-content .timeline-card
   .card-body .col-md-3 img {
     max-width: 100%;
+    height: auto;
+  }
+  .timeline-container .timeline-row .timeline-content .timeline-card
+  .card-body .col-md {
+    margin-left: 1.25rem;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card
   .card-body .col-md h5 {

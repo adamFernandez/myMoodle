@@ -513,6 +513,7 @@ html {
     width: 0.625rem;
   }
   .timeline-container .timeline-row .timeline-content {
+    page-break-inside: avoid;
     margin-left: 0.625rem;
   }
   .timeline-container .timeline-row .timeline-content .timeline-card {

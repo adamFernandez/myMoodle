@@ -518,7 +518,7 @@ html, body#page-mod-book-print {
 #page-mod-book-print .timeline-container .timeline-row .timeline-content .timeline-card
 .date-tab {
   position: absolute;
-  top: -1.45rem;
+  top: -1.625rem;
   left: -2px;
   padding: 0 1.25rem;
   border-radius: 6px 6px 0 0;

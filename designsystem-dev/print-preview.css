@@ -303,8 +303,8 @@ html, body#page-mod-book-print {
 
 /* embed audio and video */
 #page-mod-book-print .embed-responsive {
-  height: 100px;
-  width: 175px;
+  height: 48px;
+  width: 48px;
   display: inline-block;
   vertical-align: top;
   border: 2px solid #5a6469;
@@ -318,20 +318,20 @@ html, body#page-mod-book-print {
   content: '\f3c9';
   color: #333333;
   position: absolute;
-  top: 38px;
-  left: calc(50% - 24.5px);
-  font-size: 72px;
+  top: 12px;
+  left: calc(50% - 12.25px);
+  font-size: 36px;
 }
 #page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before {
   content: '\f144';
-  left: calc(50% - 36px);
+  left: calc(50% - 18px);
 }
 #page-mod-book-print .embed-responsive iframe {
   display: none;
 }
 #page-mod-book-print .transcript-container {
   display: inline-block;
-  width: calc(100% - 177px);
+  width: calc(100% - 50px);
   margin-bottom: 1.25rem;
 }
 /* transcript */
@@ -339,8 +339,6 @@ html, body#page-mod-book-print {
   display: none;
 }
 #page-mod-book-print .transcript-container .transcript-card .card-body {
-  column-count: 2;
-  column-gap: 1.25rem;
   border-left: 2px solid #5a6469;
   padding-left: 1.25rem;
 }

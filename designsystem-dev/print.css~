@@ -532,7 +532,7 @@ html {
   .timeline-container .timeline-row .timeline-content .timeline-card
   .date-tab {
     position: absolute;
-    top: -1.45rem;
+    top: -1.625rem;
     left: -2px;
     padding: 0 1.25rem;
     border-radius: 6px 6px 0 0;
@@ -607,7 +607,7 @@ html {
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 482px !important;
+    width: 560px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
   }

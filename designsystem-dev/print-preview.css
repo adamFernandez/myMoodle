@@ -242,6 +242,7 @@ html, body#page-mod-book-print {
   max-width: 100%;
 }
 #page-mod-book-print .carousel .carousel-caption {
+  position: static;
   max-width: calc(100% - 2.5rem - 4px);
   padding: 1.25rem;
   background-color: transparent !important;

@@ -254,20 +254,16 @@ html {
   .carousel .carousel-item {
     page-break-inside: avoid;
     display: block;
-    position: relative;
     margin-bottom: 1.25rem;
     padding: 0;
   }
   .carousel .carousel-item img {
-    max-width: 98% !important;
+    max-width: 75% !important;
   }
   .carousel .carousel-caption {
-    max-width: calc(98% - 2.5rem - 4px) !important;
+    max-width: calc(75% - 2.5rem - 4px) !important;
     padding: 1.25rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(255,255,255,0.95) !important;
+    background-color: transparent !important;
     border: 2px solid #5a6469;
   }
   .carousel .carousel-caption h5 {
@@ -282,7 +278,6 @@ html {
     margin-bottom: 0;
   }
   .carousel.text-only .carousel-caption {
-    position: static;
     max-width: 100% !important;
   }
 
@@ -323,7 +318,7 @@ html {
 
   /* embed audio and video */
   .embed-responsive {
-    height: 48px;
+    height: 72px;
     width: 48px;
     display: inline-block;
     vertical-align: top;
@@ -346,13 +341,23 @@ html {
     content: '\f144';
     left: calc(50% - 18px);
   }
+  .embed-responsive::after {
+    content: 'Audio transcript';
+    position: absolute;
+    left: calc(72px + 1.25rem);
+    width: 200px;
+    top: -4px;
+  }
+  .embed-responsive:not(.embed-responsive-audio)::after {
+    content: 'Video transcript';
+  }
   .embed-responsive iframe {
     display: none;
   }
   .transcript-container {
     page-break-inside: avoid;
     display: inline-block;
-    width: calc(100% - 50px);
+    width: calc(100% - 74px);
     margin-bottom: 1.25rem;
   }
   /* transcript */
@@ -363,6 +368,7 @@ html {
     page-break-inside: avoid;
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
+    padding-top: 1.25rem;
   }
 
   /* images */

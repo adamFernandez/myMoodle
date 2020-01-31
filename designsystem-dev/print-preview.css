@@ -235,7 +235,6 @@ html, body#page-mod-book-print {
 }
 #page-mod-book-print .carousel .carousel-item {
   display: block;
-  position: relative;
   margin-bottom: 1.25rem;
   padding: 0;
 }
@@ -245,10 +244,7 @@ html, body#page-mod-book-print {
 #page-mod-book-print .carousel .carousel-caption {
   max-width: calc(100% - 2.5rem - 4px);
   padding: 1.25rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.95) !important;
+  background-color: transparent !important;
   border: 2px solid #5a6469;
 }
 #page-mod-book-print .carousel .carousel-caption h5 {
@@ -261,10 +257,6 @@ html, body#page-mod-book-print {
 }
 #page-mod-book-print .carousel .carousel-caption p:last-child {
   margin-bottom: 0;
-}
-#page-mod-book-print .carousel.text-only .carousel-caption {
-  position: static;
-  max-width: 100% !important;
 }
 
 /* collapse */
@@ -304,7 +296,7 @@ html, body#page-mod-book-print {
 /* embed audio and video */
 #page-mod-book-print .embed-responsive {
   height: 48px;
-  width: 48px;
+  width: 72px;
   display: inline-block;
   vertical-align: top;
   border: 2px solid #5a6469;
@@ -326,12 +318,22 @@ html, body#page-mod-book-print {
   content: '\f144';
   left: calc(50% - 18px);
 }
+#page-mod-book-print .embed-responsive::after {
+  content: 'Audio transcript';
+  position: absolute;
+  left: calc(72px + 1.25rem);
+  width: 200px;
+  top: -4px;
+}
+#page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::after {
+  content: 'Video transcript';
+}
 #page-mod-book-print .embed-responsive iframe {
   display: none;
 }
 #page-mod-book-print .transcript-container {
   display: inline-block;
-  width: calc(100% - 50px);
+  width: calc(100% - 74px);
   margin-bottom: 1.25rem;
 }
 /* transcript */
@@ -341,6 +343,7 @@ html, body#page-mod-book-print {
 #page-mod-book-print .transcript-container .transcript-card .card-body {
   border-left: 2px solid #5a6469;
   padding-left: 1.25rem;
+  padding-top: 2.5rem;
 }
 
 /* images */

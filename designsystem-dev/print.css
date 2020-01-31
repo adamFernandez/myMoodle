@@ -159,7 +159,7 @@ html {
 
   /* book info */
   .book_info table {
-    margin-bottom: 1.25rem;
+    margin-bottom: 4.5rem;
   }
   .book_info table td {
     padding: 0;
@@ -173,11 +173,16 @@ html {
   .book_toc_numbered ul, .book_toc_none ul,
   .book_toc_bullets ul, .book_toc_indented ul {
     margin-left: 0;
+    margin-bottom: 4.5rem;
     page-break-after: always;
   }
   .book_toc_numbered ul li, .book_toc_none ul li,
   .book_toc_bullets ul li, .book_toc_indented ul li {
     list-style: none;
+  }
+  .book_toc_numbered > a:first-child, .book_toc_none > a:first-child,
+  .book_toc_bullets > a:first-child, .book_toc_indented > a:first-child {
+    display: none;
   }
 
   /* card and float box */

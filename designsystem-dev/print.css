@@ -344,7 +344,7 @@ html {
   .embed-responsive::after {
     content: 'Audio transcript';
     position: absolute;
-    left: calc(72px + 1.25rem);
+    left: calc(42px + 1.25rem);
     width: 200px;
     top: 4px;
   }

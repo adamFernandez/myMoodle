@@ -1,8 +1,20 @@
 @charset "UTF-8";
 
 body#page-mod-book-print {
-  font-size: 18px;
+  font-size: 16px;
 }
+
+#page-mod-book-print #page-content {
+  max-width: 85%;
+  margin: 0 auto;
+}
+#page-mod-book-print .book_chapter:not(:last-child) {
+  margin-bottom: 4.5rem;
+}
+#page-mod-book-print .book_chapter > a:first-child {
+  display: none;
+}
+
 #page-mod-book-print h1,
 #page-mod-book-print h2,
 #page-mod-book-print h3,
@@ -72,7 +84,7 @@ body#page-mod-book-print {
   margin-bottom: 0.625rem;
 }
 #page-mod-book-print .caption {
-  font-size: 16px;
+  font-size: 0.875rem;
 }
 #page-mod-book-print .quote-box {
   border: 2px solid #464e52;
@@ -541,7 +553,7 @@ body#page-mod-book-print {
 #page-mod-book-print .timeline-container .timeline-row .timeline-content .timeline-card
 .img-reference {
   text-align: right;
-  font-size: 16px;
+  font-size: 0.875rem;
 }
 
 /* view answer */

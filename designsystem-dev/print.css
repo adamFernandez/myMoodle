@@ -22,13 +22,27 @@
     display: none;
   }
 
+  /* page margins */
+  #page-content {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  /* chapter margins */
+  .book_chapter:not(:last-child) {
+    margin-bottom: 4.5rem;
+  }
+  .book_chapter > a:first-child {
+    display: none;
+  }
+
   /* typography */
   html, body {
     font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    page-break-after: avoid;
+    page-break-after: avoid !important;
     font-family: 'KingsBureauGrot';
     color: #171717;
     margin-top: 0;
@@ -76,7 +90,7 @@
     margin-bottom: 0.625rem;
   }
   .caption {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
  .quote-box {
     page-break-inside: avoid;
@@ -459,7 +473,6 @@
 
   /* timeline */
   .timeline-container {
-    page-break-inside: avoid;
     margin-top: calc(25px - 2.5rem);
   }
   .timeline-container .timeline-row {
@@ -543,7 +556,7 @@
   .timeline-container .timeline-row .timeline-content .timeline-card
   .img-reference {
     text-align: right;
-    font-size: 16px;
+    font-size: 0.875rem;
   }
 
   /* view answer */

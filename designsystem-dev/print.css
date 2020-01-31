@@ -318,8 +318,8 @@ html {
 
   /* embed audio and video */
   .embed-responsive {
-    height: 72px;
-    width: 48px;
+    height: 48px;
+    width: 72px;
     display: inline-block;
     vertical-align: top;
     border: 2px solid #5a6469;

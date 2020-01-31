@@ -484,6 +484,7 @@ html {
 
   /* timeline */
   .timeline-container {
+    page-break-inside: avoid;
     margin-top: calc(25px - 2.5rem);
   }
   .timeline-container .timeline-row {

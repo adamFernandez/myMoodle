@@ -139,6 +139,28 @@ html, body#page-mod-book-print {
   height: 50% !important;
 }
 
+/* chrome preview print book button */
+#page-mod-book-print a.hidden-print {
+  background-color: #0a2d50;
+  color: #ffffff;
+  font-family: 'KingsBureauGrot';
+  padding: 10px 12px;
+  border-radius: 4px;
+  line-height: 22.5px;
+}
+#page-mod-book-print a.hidden-print::before {
+  content: '\f02f';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 0.375rem;
+}
+#page-mod-book-print a.hidden-print:hover {
+  text-decoration: none;
+}
+#page-mod-book-print a.hidden-print img {
+  display: none;
+}
+
 /* book info */
 #page-mod-book-print .book_info table {
   margin-bottom: 4.5rem;

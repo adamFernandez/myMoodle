@@ -401,7 +401,7 @@ html {
   .reading-box > :first-child::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    font-size: 1.25rem;
+    font-size: 1rem;
     position: absolute;
     top: 1.25rem;
     left: 1.25rem;

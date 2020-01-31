@@ -16,6 +16,10 @@
   font-style: italic;
 }
 
+html {
+  font-size: 16px;
+}
+
 @media print {
   /* hide all other than main content */
   #block-region-side-post, #block-region-side-pre, #page-header, .navbar, .back-to-top, #page-footer, .navbottom {
@@ -37,7 +41,7 @@
   }
 
   /* typography */
-  html, body {
+  body {
     font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6,
@@ -528,7 +532,7 @@
   .timeline-container .timeline-row .timeline-content .timeline-card
   .date-tab {
     position: absolute;
-    top: -1.5rem;
+    top: -1.625rem;
     left: -2px;
     padding: 0 1.25rem;
     border-radius: 6px 6px 0 0;
@@ -603,7 +607,7 @@
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 520px !important;
+    width: 560px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
   }

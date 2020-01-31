@@ -415,7 +415,7 @@ html {
   .alert-instructional > :first-child::before {
     content: '\f086';
     padding: 0 2px;
-    top: 1.35rem;
+    top: 1.4rem;
   }
   .feedback-box > :first-child::before {
     content: '\f27a';
@@ -425,7 +425,7 @@ html {
   .learning-outcome-box > :first-child::before {
     content: '\f091';
     padding: 0 3px;
-    top: 1.55rem;
+    top: 1.6rem;
   }
   .reading-box > :first-child::before {
     content: '\f5da';

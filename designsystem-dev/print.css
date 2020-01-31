@@ -483,12 +483,15 @@ html {
   }
 
   /* timeline */
+ .timeline-container::before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-top: -100px;
+ }
   .timeline-container {
     page-break-inside: avoid;
     margin-top: calc(25px - 2.5rem);
-  }
-  .timeline-container .timeline-row {
-    page-break-inside: avoid;
   }
   .timeline-container .timeline-row .col.border-right {
     border-right: 2px solid #5a6469;

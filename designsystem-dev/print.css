@@ -42,11 +42,18 @@
   }
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    page-break-after: avoid !important;
+    page-break-after: avoid;
     font-family: 'KingsBureauGrot';
     color: #171717;
     margin-top: 0;
     margin-bottom: 1.25rem;
+  }
+  h1::after, h2::after, h3::after, h4::after, h5::after, h6::after,
+  .h1::after, .h2::after, .h3::after, .h4::after, .h5::after, .h6::after {
+    content: "";
+    display: block;
+    height: 100px;
+    margin-bottom: -100px;
   }
   h1, .h1 {
     font-size: 2.375rem;

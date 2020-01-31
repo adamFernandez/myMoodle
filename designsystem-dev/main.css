@@ -512,6 +512,21 @@ section:not(:last-of-type) {
   #section-0 .content > h3.sectionname:after {
     display: none; }
 
+#region-main {
+  position: relative; }
+
+#print-btn-container {
+  margin-bottom: 1.5rem;
+  position: absolute;
+  right: 0; }
+  #print-btn-container .print-book-btn {
+    margin-bottom: unset !important; }
+    #print-btn-container .print-book-btn::before {
+      content: '\f02f';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      margin-right: 0.5rem; }
+
 #block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';
   font-family: 'Font Awesome 5 Pro';

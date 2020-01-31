@@ -296,11 +296,10 @@ html, body#page-mod-book-print {
 
 /* embed audio and video */
 #page-mod-book-print .embed-responsive {
-  height: 48px;
-  width: 72px;
+  height: 36px;
+  width: 40px;
   display: inline-block;
   vertical-align: top;
-  border: 2px solid #5a6469;
   border-right: none;
   margin-right: -5px;
   position: relative;
@@ -311,20 +310,21 @@ html, body#page-mod-book-print {
   content: '\f3c9';
   color: #333333;
   position: absolute;
-  top: 12px;
+  top: 6px;
   left: calc(50% - 12.25px);
-  font-size: 36px;
+  font-size: 28px;
 }
 #page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before {
   content: '\f144';
   left: calc(50% - 18px);
+  font-size: 24px;
 }
 #page-mod-book-print .embed-responsive::after {
   content: 'Audio transcript';
   position: absolute;
   left: calc(72px + 1.25rem);
   width: 200px;
-  top: -4px;
+  top: 4px;
 }
 #page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::after {
   content: 'Video transcript';
@@ -344,7 +344,7 @@ html, body#page-mod-book-print {
 #page-mod-book-print .transcript-container .transcript-card .card-body {
   border-left: 2px solid #5a6469;
   padding-left: 1.25rem;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
 }
 
 /* images */

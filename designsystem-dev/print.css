@@ -318,11 +318,10 @@ html {
 
   /* embed audio and video */
   .embed-responsive {
-    height: 48px;
-    width: 72px;
+    height: 36px;
+    width: 40px;
     display: inline-block;
     vertical-align: top;
-    border: 2px solid #5a6469;
     border-right: none;
     margin-right: -5px;
     position: relative;
@@ -333,20 +332,21 @@ html {
     content: '\f3c9';
     color: #333333;
     position: absolute;
-    top: 12px;
+    top: 6px;
     left: calc(50% - 12.25px);
-    font-size: 36px;
+    font-size: 28px;
   }
   .embed-responsive:not(.embed-responsive-audio)::before {
     content: '\f144';
     left: calc(50% - 18px);
+    font-size: 24px;
   }
   .embed-responsive::after {
     content: 'Audio transcript';
     position: absolute;
     left: calc(72px + 1.25rem);
     width: 200px;
-    top: -4px;
+    top: 4px;
   }
   .embed-responsive:not(.embed-responsive-audio)::after {
     content: 'Video transcript';
@@ -354,13 +354,13 @@ html {
   .embed-responsive iframe {
     display: none;
   }
+  /* transcript */
   .transcript-container {
     page-break-inside: avoid;
     display: inline-block;
     width: calc(100% - 74px);
     margin-bottom: 1.25rem;
   }
-  /* transcript */
   .transcript-container .transcript-button-group {
     display: none;
   }
@@ -368,7 +368,7 @@ html {
     page-break-inside: avoid;
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
-    padding-top: 1.25rem;
+    padding-top: 3rem;
   }
 
   /* images */

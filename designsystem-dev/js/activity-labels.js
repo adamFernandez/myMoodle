@@ -22,7 +22,7 @@ $("li.activity .instancename:contains('-ass')").parents("li.activity").addClass(
 // override activity type
 $("li.activity .instancename:contains('-act')").parents("li.activity").removeClass("type-study").addClass("type-activity");
 // add icon
-$("li.activity .instancename:contains('-ico')").parents("li.activity").addClass("group");
+$("li.activity .instancename:contains('-gro')").parents("li.activity").addClass("group");
 $("li.activity .instancename:contains('-med')").parents("li.activity").addClass("play");
 
 // strip keywords from activity title

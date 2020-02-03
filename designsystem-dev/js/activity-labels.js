@@ -22,8 +22,8 @@ $("li.activity .instancename:contains('-ass')").parents("li.activity").addClass(
 // override activity type
 $("li.activity .instancename:contains('-act')").parents("li.activity").removeClass("type-study").addClass("type-activity");
 // add icon
-$("li.activity .instancename:contains('-gro')").parents("li.activity").addClass("icon-group");
-$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("icon-media");
+$("li.activity .instancename:contains('-gro')").parents("li.activity").addClass("i-group");
+$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("i-media");
 
 // strip keywords from activity title
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
@@ -43,6 +43,6 @@ $("li.activity.type-assessed .activityinstance a .activity-label-container .acti
 // add activity text to activity type label
 $("li.activity.type-activity .activityinstance a .activity-label-container .activity-label .label-text").text("activity");
 // add group icon to activity type label
-$("li.activity.icon-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
+$("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
 // add media icon
-$("li.activity.icon-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
+$("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");

@@ -1100,6 +1100,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .embed-responsive-audio {
   padding-top: calc(350%/9.76); }
 
+.embed-responsive-youtube {
+  padding-top: calc(900%/16); }
+
 .transcript-container {
   margin-bottom: 1.5rem; }
   .transcript-container .transcript-button-group a::before {

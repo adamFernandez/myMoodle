@@ -382,6 +382,9 @@ footer#page-footer {
         border-radius: 50%; }
         #page-mod-book-view .navtop ul li.chapter.current strong, #page-mod-book-view .navbottom ul li.chapter.current strong {
           color: #FFFFFF; }
+        @media not all and (min-resolution: 0.001dpcm) {
+          #page-mod-book-view .navtop ul li.chapter.current strong, #page-mod-book-view .navbottom ul li.chapter.current strong {
+            height: 36px; } }
       #page-mod-book-view .navtop ul li.chapter a:hover, #page-mod-book-view .navbottom ul li.chapter a:hover {
         color: #526C84;
         text-decoration: none; }

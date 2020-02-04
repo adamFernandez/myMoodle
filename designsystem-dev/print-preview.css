@@ -140,6 +140,10 @@ html, body#page-mod-book-print {
 }
 
 /* chrome preview print book button */
+#page-mod-book-print #maincontent {
+  margin-bottom: 2.25rem;
+}
+
 #page-mod-book-print a.hidden-print::before,
 #page-mod-book-print a.hidden-print::after {
   background-color: #0a2d50;
@@ -164,11 +168,15 @@ html, body#page-mod-book-print {
   border-radius: 0 4px 4px 0;
   left: 38px;
 }
+#page-mod-book-print a.hidden-print {
+  color: #ffffff;
+  position: relative;
+}
 #page-mod-book-print a.hidden-print img {
   display: none;
 }
 #page-mod-book-print #page-content h1:first-of-type {
-  margin-top: 6.25rem;
+  margin-top: 4rem;
 }
 /*
 #page-mod-book-print a.hidden-print {

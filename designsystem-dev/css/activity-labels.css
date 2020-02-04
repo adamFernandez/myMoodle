@@ -1,5 +1,6 @@
+li.activity .activityinstance > a,
 li.activity .activityinstance .activity-label-container {
-  vertical-align: middle;
+  display: flex;
 }
 li.activity .activityinstance .activity-label-container .activity-label {
   display: inline-block;

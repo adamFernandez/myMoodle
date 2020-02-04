@@ -1,4 +1,4 @@
-li.activity .activityinstance .activity-label-container .activity-label {,
+li.activity .activityinstance .activity-label-container .activity-label {
   display: inline-block;
   font-family: 'KingsBureauGrot';
   font-size: 1rem;
@@ -11,6 +11,11 @@ li.activity .activityinstance .activity-label-container .activity-label {,
   border-radius: 15px;
   margin-left: 1.5rem;
   background-color: #edf1f2;
+}
+@media not all and (min-resolution:.001dpcm) {
+  li.activity .activityinstance .activity-label-container .activity-label {
+    line-height: 1.7;
+  }
 }
 li.activity .activityinstance img {
   display: none;

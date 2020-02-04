@@ -140,6 +140,37 @@ html, body#page-mod-book-print {
 }
 
 /* chrome preview print book button */
+#page-mod-book-print a.hidden-print::before,
+#page-mod-book-print a.hidden-print::after {
+  background-color: #0a2d50;
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  top: 2.25rem;
+  left: 0;
+  line-height: 22.5px;
+}
+#page-mod-book-print a.hidden-print::before {
+  content: '\f02f';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding: 10px 8px 10px 12px;
+  border-radius: 4px 0 0 4px;
+}
+#page-mod-book-print a.hidden-print::after {
+  content: 'Print';
+  font-family: 'KingsBureauGrot';
+  padding: 10px 12px 10px 0;
+  border-radius: 0 4px 4px 0;
+  left: 38px;
+}
+#page-mod-book-print a.hidden-print img {
+  display: none;
+}
+#page-mod-book-print #page-content h1:first-of-type {
+  margin-top: 6.25rem;
+}
+/*
 #page-mod-book-print a.hidden-print {
   background-color: #0a2d50;
   color: #ffffff;
@@ -160,12 +191,7 @@ html, body#page-mod-book-print {
 #page-mod-book-print a.hidden-print:hover {
   text-decoration: none;
 }
-#page-mod-book-print a.hidden-print img {
-  display: none;
-}
-#page-mod-book-print #page-content h1:first-of-type {
-  margin-top: 6.25rem;
-}
+*/
 
 /* book info */
 #page-mod-book-print .book_info table {

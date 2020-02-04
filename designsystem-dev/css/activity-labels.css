@@ -1,3 +1,6 @@
+li.activity .activityinstance .activity-label-container {
+  vertical-align: middle;
+}
 li.activity .activityinstance .activity-label-container .activity-label {
   display: inline-block;
   font-family: 'KingsBureauGrot';
@@ -45,18 +48,13 @@ li.activity .group-icon {
   color: #ff5f05;
   font-size: 1.25rem;
 }
-li.activity .group-icon .fas.fa-user-friends {
+li.activity .group-icon .fas.fa-user-friends,
+li.activity .media-icon .fas.fa-play-circle {
   margin-left: 1rem;
 }
 li.activity .media-icon {
   color: #005ad2;
   font-size: 1.25rem;
-  position: relative
-}
-li.activity .media-icon .fas.fa-play-circle {
-  position: absolute;
-  top: -16px;
-  margin-left: 1rem;
 }
 
 /* edit menu */

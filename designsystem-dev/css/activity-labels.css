@@ -1,3 +1,9 @@
+li.activity .activityinstance a:hover {
+  text-decoration: none;
+}
+li.activity .activityinstance a:hover .instancename {
+  text-decoration: underline;
+}
 li.activity .activityinstance > a,
 li.activity .activityinstance .activity-label-container {
   display: flex;

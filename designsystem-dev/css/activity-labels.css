@@ -1,3 +1,14 @@
+li.activity {
+  margin-bottom: 1.5rem !important;
+}
+li.activity .activityinstance {
+  min-height: initial !important;
+}
+li.activity.label:not(:first-of-type) h2,
+li.activity.label:not(:first-of-type) h3,
+li.activity.label:not(:first-of-type) h4 {
+  margin-top: 0.75rem !important;
+}
 li.activity .activityinstance a:hover {
   text-decoration: none;
 }

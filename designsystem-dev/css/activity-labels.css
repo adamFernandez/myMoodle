@@ -75,6 +75,7 @@ li.activity.type-assessed .activityinstance .activity-label-container
 }
 .course-content ul.section li.activity.indent {
   border-left: 3px solid #cdd7dc;
+  border-radius: 0;
   padding-left: 0.625rem !important;
   margin-left: 1.875rem;
 }

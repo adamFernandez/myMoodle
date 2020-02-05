@@ -36,7 +36,7 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 })
 
 // add indent class and remove keyword
-$("li.activity .instancename:contains('-indent'), li.activity.label p:contains('-indent')").text(function(i, currentText) {
+$("li.activity .instancename:contains('-indent'), li.activity.label span:contains('-indent')").text(function(i, currentText) {
 //  return currentText.substr(11, 1) + '.' + currentText.substr(8);
   return currentText.substr(8);
 }).parents("li.activity").addClass("indent");

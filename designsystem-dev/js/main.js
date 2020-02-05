@@ -5,8 +5,6 @@ $("#block-region-side-post .block:has(.header .title h2:contains('Administration
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
 $('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');
 printButton.addClass('btn btn-primary print-book-btn').text("Print").appendTo('#print-btn-container');
-// customise print button text on print preview pane
-$("#page-mod-book-print #page-content a.hidden-print:first-of-type").text("Print");
 
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";

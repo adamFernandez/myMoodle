@@ -31,6 +31,9 @@ li.activity .activityinstance a:hover {
 li.activity .activityinstance a:hover .instancename {
   text-decoration: underline;
 }
+li.activity .activityinstance a .instancename {
+  margin-right: 0.5rem;
+}
 li.activity .activityinstance > a,
 li.activity .activityinstance .activity-label-container {
   display: flex;
@@ -46,7 +49,7 @@ li.activity .activityinstance .activity-label-container .activity-label {
   width: 5rem;
   height: 1.5rem;
   border-radius: 15px;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   background-color: #edf1f2;
 }
 @media not all and (min-resolution:.001dpcm) {

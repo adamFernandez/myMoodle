@@ -1,5 +1,15 @@
 li.activity {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.25rem !important;
+  padding: 0 !important;
+}
+li.activity > div {
+  max-width: calc(100% - 105px);
+}
+li.activity .no-overflow {
+  padding: 0;
+ }
+li.activity .activityinstance ~ .ishidden {
+  margin: 0;
 }
 li.activity .activityinstance {
   min-height: initial !important;
@@ -8,6 +18,12 @@ li.activity.label:not(:first-of-type) h2,
 li.activity.label:not(:first-of-type) h3,
 li.activity.label:not(:first-of-type) h4 {
   margin-top: 0.75rem !important;
+}
+li.activity.label h2:last-child,
+li.activity.label h3:last-child,
+li.activity.label h4:last-child,
+li.activity.label p:last-child {
+  margin-bottom: 0;
 }
 li.activity .activityinstance a:hover {
   text-decoration: none;
@@ -58,9 +74,9 @@ li.activity.type-assessed .activityinstance .activity-label-container
   width: 5.5rem;
 }
 .course-content ul.section li.activity.indent {
-  margin: 0 0 0 1rem !important;
-  padding: 0 0 1rem 1rem !important;
-  border-left: 4px solid #cdd7dc;
+  border-left: 3px solid #cdd7dc;
+  padding-left: 0.625rem !important;
+  margin-left: 1.875rem;
 }
 li.activity .group-icon {
   color: #ff5f05;
@@ -74,7 +90,7 @@ li.activity .media-icon {
   color: #005ad2;
   font-size: 1.25rem;
 }
-
+               
 /* edit menu */
 .section_action_menu, .section .activity .commands {
   position: absolute;

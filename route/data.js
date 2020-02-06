@@ -490,7 +490,7 @@ var data = {
     "module13": {
       "discussion": {
         "1": "mod/forum/view.php?id=2948091",
-        "2": "mod/forum/view.php?id=3138571"
+        "2": "mod/forum/view.php?id=3188956"
       }
     }
   },

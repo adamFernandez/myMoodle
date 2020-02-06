@@ -483,7 +483,7 @@ var data = {
     },
     "module12": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3138664",
+        "1": "mod/forum/view.php?id=3188724",
         "2": "mod/forum/view.php?id=2960026"
       }
     },

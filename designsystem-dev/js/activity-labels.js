@@ -1,5 +1,7 @@
-$(document).title = "foo";
-
+var title = document.title;
+if (title.includes("activity-label")) {
+  $(document).attr("title", title.substr(20));
+}
 // label code
 $("li.activity .activityinstance a:not(.quickeditlink)").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
 
@@ -34,9 +36,13 @@ $("li.activity .instancename:contains('-nme')").parents("li.activity").removeCla
 
 // strip keywords from activity title
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
-  return currentText.substr(0, currentText.length - 27);
+  return currentText.substr(27);
 })
-
+var documentTitle = document.title;
+if (documentTitle.includes('activity-label')) {
+  $(document).attr('title', documentTitle.substr(27));
+}
+   
 // add indent class and remove keyword span
 $("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");
 

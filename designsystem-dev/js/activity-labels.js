@@ -35,7 +35,7 @@ $("li.activity .instancename:contains('activity-label'),
 #region-main h2:first-of-type:contains('activity-label'),
 .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'),
 .row-fluid.rtl-compatible .span4 a:contains('activity-label'),
-.chosted-info chosted-info-value p:contains('activity-label')").text(function(i, currentText) {
+.chosted-info .chosted-info-value p:contains('activity-label')").text(function(i, currentText) {
   return currentText.substr(27);
 })
 // and document title

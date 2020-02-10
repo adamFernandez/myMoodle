@@ -37,7 +37,8 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 // and document title
 var documentTitle = document.title;
 if (documentTitle.includes('activity-label')) {
-  $(document).attr('title', documentTitle.substr(27));
+  documentTitle = documentTitle.replace(/activity-label\-[a-z]{3}-[a-z]{3}-[a-z]{3}/g, '');
+  $(document).attr('title', documentTitle);
 }
    
 // add indent class and remove keyword span

@@ -32,7 +32,7 @@ $("li.activity .instancename:contains('-nme')").parents("li.activity").removeCla
 
 // strip keywords from activity title
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label')").text(function(i, currentText) {
-  return currentText.substr(currentText.length - 27);
+  return currentText.substr(0, currentText.length - 27);
 })
 
 // add indent class and remove keyword span

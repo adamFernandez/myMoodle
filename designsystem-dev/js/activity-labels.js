@@ -36,13 +36,14 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 })
 
 // add indent class and remove keyword
-$("li.activity .instancename:contains('-indent'), li.activity.label span:contains('-indent')").text(function(i, currentText) {
-//  return currentText.substr(11, 1) + '.' + currentText.substr(8);
+$("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");
+/*$("li.activity .instancename:contains('-indent'), li.activity.label span:contains('-indent')").text(function(i, currentText) {
+  return currentText.substr(11, 1) + '.' + currentText.substr(8);
   return currentText.substr(8);
 }).parents("li.activity").addClass("indent");
 $("#region-main h2:first-of-type:contains('-indent'), .breadcrumb li a span:contains('-indent'), .breadcrumb li a:contains('-indent'), .row-fluid.rtl-compatible .span4 a:contains('-indent')").text(function(i, currentText) {
   return currentText.substr(8);
-})
+})*/
 
 // add assessed text to assessed type label
 $("li.activity.type-assessed .activityinstance a .activity-label-container .activity-label .label-text").text("assessed");

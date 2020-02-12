@@ -515,6 +515,9 @@ section:not(:last-of-type) {
   #section-0 .content > h3.sectionname:after {
     display: none; }
 
+#page-mod-book-view #region-main h2:first-of-type {
+  margin-right: calc(88px + 1.5rem); }
+
 #region-main {
   position: relative; }
 
@@ -1618,19 +1621,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .course-content ul.section li.activity {
   display: flex;
   margin-bottom: 1rem !important;
-  padding: 0 !important;
-  /*    &.book, &.page, &.resource {
-      .activityinstance a::before {
-        content: 'Study';
-        background-color: $sea-blue;
-      }
-    }
-    &.forum, &.lesson, &.questionnaire, &.quiz, &.scorm {
-      .activityinstance a::before {
-        content: 'Participate';
-        background-color: $orange;
-      }
-    }*/ }
+  padding: 0 !important; }
   .course-content ul.section li.activity.label h2:last-child, .course-content ul.section li.activity.label h3:last-child, .course-content ul.section li.activity.label h4:last-child, .course-content ul.section li.activity.label p:last-child {
     margin-bottom: 0; }
   .course-content ul.section li.activity.label:not(:first-of-type) h2, .course-content ul.section li.activity.label:not(:first-of-type) h3,
@@ -1642,24 +1633,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: none; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: 0; }
-    .course-content ul.section li.activity .activityinstance a {
-      /*       &::before {
-          display: inline-block;
-          font-family: 'KingsBureauGrot';
-          font-size: 1rem;
-          text-align: center;
-          text-transform: uppercase;
-          width: 5.5rem;
-          height: 1.5rem;
-          border-radius: 2px;
-          margin-right: 1rem;
-          color: white;
-        }
-        // hide icon
-        img {
-          display: none;
-        }
-*/ }
   .course-content ul.section li.activity .no-overflow {
     padding: 0; }
   .course-content ul.section li.activity .activityinstance ~ .ishidden {

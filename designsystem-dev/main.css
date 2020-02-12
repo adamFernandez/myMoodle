@@ -1675,21 +1675,21 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           text-decoration: none; }
           .course-content ul.section li.activity .activityinstance > a .instancename:hover .instancename {
             text-decoration: underline; }
-        .course-content ul.section li.activity .activityinstance > a .instancename .activity-label-container {
-          display: flex; }
-          .course-content ul.section li.activity .activityinstance > a .instancename .activity-label-container .activity-label {
-            display: inline-block;
-            font-family: 'KingsBureauGrot';
-            font-size: 1rem;
-            line-height: 1.5;
-            letter-spacing: 0.5px;
-            text-align: center;
-            text-transform: uppercase;
-            width: 5rem;
-            height: 1.5rem;
-            border-radius: 15px;
-            margin-left: 1rem;
-            background-color: #EDF1F2; }
+      .course-content ul.section li.activity .activityinstance > a .activity-label-container {
+        display: flex; }
+        .course-content ul.section li.activity .activityinstance > a .activity-label-container .activity-label {
+          display: inline-block;
+          font-family: 'KingsBureauGrot';
+          font-size: 1rem;
+          line-height: 1.5;
+          letter-spacing: 0.5px;
+          text-align: center;
+          text-transform: uppercase;
+          width: 5rem;
+          height: 1.5rem;
+          border-radius: 15px;
+          margin-left: 1rem;
+          background-color: #EDF1F2; }
 
 .section_action_menu,
 .section .activity .commands {

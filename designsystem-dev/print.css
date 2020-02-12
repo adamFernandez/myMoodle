@@ -21,13 +21,19 @@ html {
 }
 
 /* print preview */
-body#page-mod-book-print {
+#page-mod-book-print {
   font-size: 14px;
+  color: #333333;
+  font-family: 'Open Sans';
+  margin: 0;
 }
 
 #page-mod-book-print #page-content {
   max-width: 85%;
   margin: 0 auto;
+}
+#page-mod-book-print .book_chapter {
+  page-break-before: auto;
 }
 #page-mod-book-print .book_chapter:not(:last-child) {
   margin-bottom: 4.5rem;
@@ -48,6 +54,8 @@ body#page-mod-book-print {
 #page-mod-book-print .h4,
 #page-mod-book-print .h5,
 #page-mod-book-print .h6 {
+  page-break-after: avoid;
+  page-break-inside: avoid;
   font-family: 'KingsBureauGrot';
   color: #171717;
   margin-top: 0;
@@ -222,6 +230,11 @@ body#page-mod-book-print {
 }
 */
 
+/* book summary */
+#page-mod-book-print .book_summary {
+  text-align: left;
+  margin: 0;
+}
 /* book info */
 #page-mod-book-print .book_info table {
   margin-bottom: 4.5rem;
@@ -235,18 +248,25 @@ body#page-mod-book-print {
 }
 
 /* book table of contents */
+#page-mod-book-print .book_toc_numbered,
+#page-mod-book-print .book_toc_none,
+#page-mod-book-print .book_toc_bullets,
+#page-mod-book-print .book_toc_indented {
+  page-break-after: always;
+  page-break-before: auto;
+}
 #page-mod-book-print .book_toc_numbered ul,
 #page-mod-book-print .book_toc_none ul,
 #page-mod-book-print .book_toc_bullets ul,
 #page-mod-book-print .book_toc_indented ul {
   margin-left: 0;
   margin-bottom: 4.5rem;
-  page-break-after: always;
 }
 #page-mod-book-print .book_toc_numbered ul li,
 #page-mod-book-print .book_toc_none ul li,
 #page-mod-book-print .book_toc_bullets ul li,
 #page-mod-book-print .book_toc_indented ul li {
+  margin-top: 0.5rem;
   list-style: none;
 }
 #page-mod-book-print .book_toc_numbered > a:first-child,
@@ -363,17 +383,17 @@ body#page-mod-book-print {
   border-top: 2px solid #cdd7dc;
 }
 #page-mod-book-print .collapse-container .collapse-card .collapse-header
-#button {
+button {
   margin: 0;
   padding: 0;
 }
 #page-mod-book-print .collapse-container .collapse-card .collapse-header
-#button .h4 {
+button .h4 {
   position: relative;
   text-align: left;
 }
 #page-mod-book-print .collapse-container .collapse-card .collapse-header
-#button .h4::before {
+button .h4::before {
   content: '\f107';
   font-family: 'Font Awesome 5 Free';
   color: #5a6469;
@@ -602,28 +622,24 @@ body#page-mod-book-print {
   margin-left: 0.625rem;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card {
+.timeline-card {
   margin-bottom: 0.25rem;
   margin-top: 2.5rem;
 }
 #page-mod-book-print  .timeline-container .timeline-row:last-child
-#.timeline-content
-.timeline-card {
+.timeline-content .timeline-card {
   margin-bottom: 1.25rem;
 }
 #page-mod-book-print .timeline-container .timeline-row.highlighted
-#.timeline-badge-pill,
+.timeline-badge-pill,
 #page-mod-book-print .timeline-container .timeline-row.highlighted
-#.timeline-content
-.timeline-card .date-tab,
+.timeline-content .timeline-card .date-tab,
 #page-mod-book-print .timeline-container .timeline-row.highlighted
-#.timeline-content
-.timeline-card {
+.timeline-content .timeline-card {
   background-color: #ffe1d2;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.date-tab {
+.timeline-card .date-tab {
   position: absolute;
   top: -1.625rem;
   left: -2px;
@@ -636,35 +652,29 @@ body#page-mod-book-print {
   border-bottom: none;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.card-body {
+.timeline-card .card-body {
   width: 100% !important;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.card-body .row {
+.timeline-card .card-body .row {
   margin: 0;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.card-body .col-md-3 img {
+.timeline-card .card-body .col-md-3 img {
   max-width: 100%;
   height: auto;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.card-body .col-md:not(:first-child) {
+.timeline-card .card-body .col-md:not(:first-child) {
   margin-left: 1.25rem;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.card-body .col-md h5 {
+.timeline-card .card-body .col-md h5 {
   line-height: 1.4;
   font-size: 1.125rem;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
-#.timeline-card
-.img-reference {
+.timeline-card .img-reference {
   text-align: right;
   font-size: 0.875rem;
 }
@@ -747,6 +757,7 @@ body#page-mod-book-print {
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
     page-break-after: avoid;
+    page-break-inside: avoid;
     font-family: 'KingsBureauGrot';
     color: #171717;
     margin-top: 0;

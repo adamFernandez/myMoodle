@@ -1645,6 +1645,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     background-color: #60bbba;
     color: white;
     width: 5.5rem; }
+    .course-content ul.section li.activity.type-assessed .activityinstance .activity-label-container .activity-label:hover {
+      background-color: #009EA0; }
   .course-content ul.section li.activity.indent {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
@@ -1653,12 +1655,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.section li.activity .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
+    .course-content ul.section li.activity .group-icon:hover {
+      color: #CD5715; }
   .course-content ul.section li.activity .group-icon .fas.fa-user-friends,
   .course-content ul.section li.activity .media-icon .fas.fa-play-circle {
     margin-left: 1rem; }
   .course-content ul.section li.activity .media-icon {
     color: #005AD2;
     font-size: 1.25rem; }
+    .course-content ul.section li.activity .media-icon:hover {
+      color: #002395; }
   .course-content ul.section li.activity .activityinstance {
     min-height: initial !important; }
     .course-content ul.section li.activity .activityinstance ~ .ishidden {
@@ -1690,6 +1696,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           border-radius: 15px;
           margin-left: 1rem;
           background-color: #EDF1F2; }
+          .course-content ul.section li.activity .activityinstance a .activity-label-container .activity-label:hover {
+            background-color: #DCE3E6; }
 
 .section_action_menu,
 .section .activity .commands {

@@ -292,7 +292,9 @@ html {
 #page-mod-book-print .card .card-body p:last-child {
   margin-bottom: 0;
 }
-#page-mod-book-print .card .card-title, .card h4, .float-box h4 {
+#page-mod-book-print .card .card-title,
+#page-mod-book-print .card h4,
+#page-mod-book-print .float-box h4 {
   margin-bottom: 0.625rem;
 }
 #page-mod-book-print .card img,
@@ -332,6 +334,24 @@ html {
 #page-mod-book-print .float-box {
   display: flex;
   margin-bottom: 1.25rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #page-mod-book-print .card,
+  #page-mod-book-print .float-box {
+    flex-direction: column;
+  }
+  #page-mod-book-print .card img,
+  #page-mod-book-print .float-box img {
+     margin: 0 0 1.25rem 0 !important;
+     width: 100%
+  }
+  #page-mod-book-print .card-deck {
+    display: block;
+  }
+  #page-mod-book-print .card-deck .card {
+    margin: 0 0 1.25rem 0 !important;
+  }
 }
 
 /* carousel */

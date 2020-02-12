@@ -516,7 +516,7 @@ section:not(:last-of-type) {
     display: none; }
 
 #page-mod-book-view #region-main h2:first-of-type {
-  margin-right: calc(88px + 1.5rem); }
+  margin-right: calc(88px + 1rem); }
 
 #region-main {
   position: relative; }

@@ -1622,21 +1622,88 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   display: flex;
   margin-bottom: 1rem !important;
   padding: 0 !important; }
-  .course-content ul.section li.activity.label h2:last-child, .course-content ul.section li.activity.label h3:last-child, .course-content ul.section li.activity.label h4:last-child, .course-content ul.section li.activity.label p:last-child {
-    margin-bottom: 0; }
-  .course-content ul.section li.activity.label:not(:first-of-type) h2, .course-content ul.section li.activity.label:not(:first-of-type) h3,
-  .course-content ul.section li.activity.label:not(:first-of-type) h4 {
-    margin-top: 1.75rem; }
   .course-content ul.section li.activity > div {
     max-width: calc(100% - 105px); }
-  .course-content ul.section li.activity .activityinstance {
-    min-height: none; }
-    .course-content ul.section li.activity .activityinstance:not(:last-child) {
-      margin-bottom: 0; }
   .course-content ul.section li.activity .no-overflow {
     padding: 0; }
-  .course-content ul.section li.activity .activityinstance ~ .ishidden {
-    margin: 0; }
+  .course-content ul.section li.activity.label:not(:first-of-type) h2,
+  .course-content ul.section li.activity.label:not(:first-of-type) h3,
+  .course-content ul.section li.activity.label:not(:first-of-type) h4 {
+    margin-top: 0.75rem !important; }
+  .course-content ul.section li.activity.label h2:last-child,
+  .course-content ul.section li.activity.label h3:last-child,
+  .course-content ul.section li.activity.label h4:last-child,
+  .course-content ul.section li.activity.label p:last-child {
+    margin-bottom: 0; }
+  .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
+    display: none; }
+  .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
+    display: inline-block !important;
+    color: #FF5F05; }
+  .course-content ul.section li.activity.type-assessed .activityinstance .activity-label-container .activity-label {
+    display: inline-block;
+    background-color: #60bbba;
+    color: white;
+    width: 5.5rem; }
+  .course-content ul.section li.activity.indent {
+    border-left: 3px solid #CDD7DC;
+    border-radius: 0;
+    padding-left: 0.625rem !important;
+    margin-left: 1.875rem; }
+  .course-content ul.section li.activity .group-icon {
+    color: #FF5F05;
+    font-size: 1.25rem; }
+  .course-content ul.section li.activity .group-icon .fas.fa-user-friends,
+  .course-content ul.section li.activity .media-icon .fas.fa-play-circle {
+    margin-left: 1rem; }
+  .course-content ul.section li.activity .media-icon {
+    color: #005AD2;
+    font-size: 1.25rem; }
+  .course-content ul.section li.activity .activityinstance {
+    min-height: initial !important; }
+    .course-content ul.section li.activity .activityinstance ~ .ishidden {
+      margin: 0; }
+    .course-content ul.section li.activity .activityinstance:not(:last-child) {
+      margin-bottom: 0; }
+    .course-content ul.section li.activity .activityinstance img {
+      display: none; }
+    .course-content ul.section li.activity .activityinstance > a {
+      display: flex; }
+      .course-content ul.section li.activity .activityinstance > a .instancename {
+        margin-right: 0.5rem; }
+        .course-content ul.section li.activity .activityinstance > a .instancename:hover {
+          text-decoration: none; }
+          .course-content ul.section li.activity .activityinstance > a .instancename:hover .instancename {
+            text-decoration: underline; }
+        .course-content ul.section li.activity .activityinstance > a .instancename .activity-label-container {
+          display: flex; }
+          .course-content ul.section li.activity .activityinstance > a .instancename .activity-label-container .activity-label {
+            display: inline-block;
+            font-family: 'KingsBureauGrot';
+            font-size: 1rem;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+            text-align: center;
+            text-transform: uppercase;
+            width: 5rem;
+            height: 1.5rem;
+            border-radius: 15px;
+            margin-left: 1rem;
+            background-color: #EDF1F2; }
+
+.section_action_menu,
+.section .activity .commands {
+  position: absolute;
+  left: -4.5rem; }
+
+table li.activity.page {
+  margin-bottom: unset !important; }
+  table li.activity.page .activityinstance {
+    min-height: unset; }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  li.activity .activityinstance .activity-label-container .activity-label {
+    line-height: 1.7; } }
 
 .hide-activity-labels li.activity::before {
   display: none; }

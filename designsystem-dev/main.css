@@ -526,7 +526,7 @@ section:not(:last-of-type) {
   position: absolute;
   right: 0; }
   #print-btn-container .print-book-btn {
-    margin-bottom: unset !important; }
+    margin: unset !important; }
     #print-btn-container .print-book-btn::before {
       content: '\f02f';
       font-family: 'Font Awesome 5 Free';

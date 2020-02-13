@@ -1658,7 +1658,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       margin: 0; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
       margin-bottom: 0; }
-    .course-content ul.section li.activity .activityinstance img {
+    .course-content ul.section li.activity .activityinstance img.activityicon {
       display: none; }
     .course-content ul.section li.activity .activityinstance a {
       display: flex; }

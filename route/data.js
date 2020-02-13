@@ -498,10 +498,10 @@ var data = {
     "module1": {
       "w1": {
         "act1": {
-          "1": "mod/choice/view.php?id=2583794"
+          "1": "mod/choice/view.php?id=3130983"
         },
         "act2": {
-          "1": "mod/forum/view.php?id=2583591"
+          "1": "mod/forum/view.php?id=3130776"
         }
       }
     },

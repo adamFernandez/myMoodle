@@ -20,6 +20,18 @@ html {
   font-size: 16px;
 }
 
+/* print button on books appear as secondary when print css is loaded */
+#print-btn-container .print-book-btn {
+  color: $midnightblue !important;
+  background-color: white !important;
+  border: 2px solid $midnightblue;
+}
+#print-btn-container .print-book-btn:hover {
+  border-color: #536c84;
+  background-color: #536c84 !important;
+  color: white !important;
+}                                                                                                 │
+
 /* print preview */
 #page-mod-book-print {
   font-size: 14px;
@@ -196,6 +208,13 @@ html {
   padding: 10px 12px 10px 0;
   border-radius: 0 4px 4px 0;
   left: 38px;
+}
+#page-mod-book-print a.hidden-print:hover::before,
+#page-mod-book-print a.hidden-print:hover::after {
+  color: white !important;
+  background-color: #536c84 !important;
+  border-color:#536c84;
+  transition: all 0.3s ease 0.1s;
 }
 #page-mod-book-print a.hidden-print {
   color: #ffffff;

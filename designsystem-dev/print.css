@@ -17,7 +17,19 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
+}
+
+/* print button on books appear as secondary when print css is loaded */
+#print-btn-container .print-book-btn {
+  color: #0a2d50 !important;
+  background-color: white !important;
+  border: 2px solid #0a2d50;
+}
+#print-btn-container .print-book-btn:hover {
+  border-color: #536c84;
+  background-color: #536c84 !important;
+  color: white !important;
 }
 
 /* print preview */

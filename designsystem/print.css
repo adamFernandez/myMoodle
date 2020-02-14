@@ -630,6 +630,7 @@ button .h4::before {
 }
 #page-mod-book-print .table-bordered td {
   color: #333333;
+  font-family: 'Open sans';
 }
 
 /* timeline */

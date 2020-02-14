@@ -30,7 +30,7 @@ html {
   border-color: #536c84;
   background-color: #536c84 !important;
   color: white !important;
-}                                                                                                 │
+}
 
 /* print preview */
 #page-mod-book-print {
@@ -187,14 +187,14 @@ html {
 
 #page-mod-book-print a.hidden-print::before,
 #page-mod-book-print a.hidden-print::after {
-  background-color: white;
   color: #0a2d50;
+  background-color: #ffffff;
+  border: 2px solid #0a2d50;
   font-size: 18px;
   position: absolute;
   top: 0;
   left: 0;
   line-height: 22.5px;
-  border: 2px solid #0a2d50;
 }
 #page-mod-book-print a.hidden-print::before {
   content: '\f02f';
@@ -630,7 +630,6 @@ button .h4::before {
 }
 #page-mod-book-print .table-bordered td {
   color: #333333;
-  font-family: 'Open sans';
 }
 
 /* timeline */
@@ -793,8 +792,8 @@ button .h4::before {
   }
 
   /* typography */
-  html {
-    font-size: 14px;
+  body {
+    font-size: 16px;
   }
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {

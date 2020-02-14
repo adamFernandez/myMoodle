@@ -23,8 +23,8 @@ html {
 /* print */
 @media print {
   /* hide all other than main content */
-  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav, .m-t-2.m-b-1, .back-to-top, #page-footer,
-  .navbottom, #print-btn-container {
+  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav,
+  .navbar, .m-t-2.m-b-1, .back-to-top, #page-footer, .navbottom, #print-btn-container {
     display: none;
   }
 

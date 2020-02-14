@@ -189,7 +189,7 @@ html {
 #page-mod-book-print a.hidden-print::after {
   color: #0a2d50;
   background-color: #ffffff;
-  border: 2px solid: #0a2s50;
+  border: 2px solid #0a2s50;
   font-size: 18px;
   position: absolute;
   top: 0;

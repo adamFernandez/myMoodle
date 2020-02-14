@@ -209,6 +209,13 @@ html {
   border-radius: 0 4px 4px 0;
   left: 38px;
 }
+#page-mod-book-print a.hidden-print:hover::before,
+#page-mod-book-print a.hidden-print:hover::after {
+  color: white !important;
+  background-color: #536c84 !important;
+  border-color:#536c84;
+  transition: all 0.3s ease 0.1s;
+}
 #page-mod-book-print a.hidden-print {
   color: #ffffff;
   position: relative;

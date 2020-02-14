@@ -22,9 +22,9 @@ html {
 
 /* print button on books appear as secondary when print css is loaded */
 #print-btn-container .print-book-btn {
-  color: $midnightblue !important;
+  color: #0a2d50 !important;
   background-color: white !important;
-  border: 2px solid $midnightblue;
+  border: 2px solid #0a2d50;
 }
 #print-btn-container .print-book-btn:hover {
   border-color: #536c84;
@@ -187,13 +187,14 @@ html {
 
 #page-mod-book-print a.hidden-print::before,
 #page-mod-book-print a.hidden-print::after {
-  background-color: #0a2d50;
-  color: #ffffff;
+  background-color: white;
+  color: #0a2d50;
   font-size: 18px;
   position: absolute;
   top: 0;
   left: 0;
   line-height: 22.5px;
+  border: 2px solid #0a2d50;
 }
 #page-mod-book-print a.hidden-print::before {
   content: '\f02f';
@@ -201,6 +202,7 @@ html {
   font-weight: 900;
   padding: 10px 8px 10px 12px;
   border-radius: 4px 0 0 4px;
+  border-right: none;
 }
 #page-mod-book-print a.hidden-print::after {
   content: 'Print';
@@ -208,6 +210,7 @@ html {
   padding: 10px 12px 10px 0;
   border-radius: 0 4px 4px 0;
   left: 38px;
+  border-left: none;
 }
 #page-mod-book-print a.hidden-print:hover::before,
 #page-mod-book-print a.hidden-print:hover::after {

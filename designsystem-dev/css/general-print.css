@@ -23,7 +23,8 @@ html {
 /* print */
 @media print {
   /* hide all other than main content */
-  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav, .m-t-2.m-b-1, .back-to-top, #page-footer, .navbottom {
+  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav, .m-t-2.m-b-1, .back-to-top, #page-footer,
+  .navbottom, #print-btn-container {
     display: none;
   }
 
@@ -31,6 +32,9 @@ html {
   #page-content {
     max-width: 85%;
     margin: 0 auto;
+  }
+  #wrapper {
+    border-top: none;
   }
 
   /* typography */

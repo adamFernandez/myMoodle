@@ -1645,8 +1645,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     background-color: #60bbba;
     color: white;
     width: 5.5rem; }
-  .course-content ul.section li.activity.type-assessed .activityinstance a:hover .activity-label-container .activity-label {
-    background-color: #009EA0; }
   .course-content ul.section li.activity.indent {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
@@ -1662,12 +1660,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       display: none; }
     .course-content ul.section li.activity .activityinstance a {
       display: flex; }
-      .course-content ul.section li.activity .activityinstance a:hover .activity-label-container .activity-label {
-        background-color: #DCE3E6; }
-      .course-content ul.section li.activity .activityinstance a:hover .activity-label-container .group-icon {
-        color: #CD5715; }
-      .course-content ul.section li.activity .activityinstance a:hover .activity-label-container .media-icon {
-        color: #002395; }
       .course-content ul.section li.activity .activityinstance a .instancename {
         margin-right: 0.5rem; }
       .course-content ul.section li.activity .activityinstance a:hover {

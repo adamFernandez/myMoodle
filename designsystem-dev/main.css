@@ -622,6 +622,12 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   list-style: none; }
   #block-region-side-post .block_html .content ul.module-academic-team li span {
     display: block; }
+    #block-region-side-post .block_html .content ul.module-academic-team li span.name {
+      font-family: 'KingsBureauGrot';
+      color: #333333; }
+    #block-region-side-post .block_html .content ul.module-academic-team li span.role {
+      font-family: 'KingsBureauGrotFiveOne';
+      color: #333333; }
   #block-region-side-post .block_html .content ul.module-academic-team li:not(:last-child) {
     margin-bottom: 1rem; }
 

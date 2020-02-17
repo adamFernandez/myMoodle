@@ -1306,6 +1306,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       border-left: 0; }
   table.vertical-align-middle th, table.vertical-align-middle td, .table.vertical-align-middle th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle th, .table.vertical-align-middle td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.vertical-align-middle td {
     vertical-align: middle; }
+  table.table-narrow-cell th, table.table-narrow-cell td, .table.table-narrow-cell th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell th, .table.table-narrow-cell td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell td {
+    padding: 0.75rem 0.5rem; }
 
 .timeline-container {
   margin-left: 64px;

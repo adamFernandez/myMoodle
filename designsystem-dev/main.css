@@ -177,7 +177,8 @@ footer#page-footer {
     margin-bottom: 10px; }
 
 .back-to-top {
-  bottom: 28px; }
+  bottom: 28px;
+  right: 48px; }
   .back-to-top .fa-3x {
     font-size: 42px; }
 

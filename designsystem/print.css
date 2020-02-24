@@ -1346,7 +1346,7 @@ button .h4::before {
   .view-model-answer-container a.view-hide-model-answer {
     display: none;
   }
-  .view-answer-container.collapsed .view-answer-card {
+  .view-answer-container.collapsed .view-answer-card,
   .view-feedback-container.collapsed .view-feedback-card,
   .view-model-answer-container.collapsed .view-model-answer-card {
     display: block !important;
@@ -1355,6 +1355,9 @@ button .h4::before {
   .view-feedback-container .card-body,
   .view-model-answer-container .card-body {
     display: flex;
+    border-left: none !important;
+    margin-top: 0 !important;
+    margin-left: -24px;
   }
   .view-answer-container .card-body .card-author,
   .view-feedback-container .card-body .card-author,

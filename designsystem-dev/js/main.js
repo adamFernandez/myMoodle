@@ -133,11 +133,11 @@ $("li.activity .instancename:contains('-nme')").parents("li.activity").removeCla
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
-/*if (window.matchMedia('print').matches) {
+if (window.matchMedia('print').matches) {
   $("#page-content h1:first-of-type:contains('activity-label')").text(function(i, currentText) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
-}*/
+}
 
 // and document title
 var documentTitle = document.title;

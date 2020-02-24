@@ -1715,7 +1715,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
     padding-left: 0.625rem !important;
-    margin-left: 1.875rem; }
+    margin-left: 1.875rem;
+    margin-top: 0; }
     .course-content ul.section li.activity.indent p, .course-content ul.section li.activity .contentafterlink p {
       margin: 0 0 1rem 0; }
       .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {

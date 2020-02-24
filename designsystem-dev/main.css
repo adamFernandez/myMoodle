@@ -1649,6 +1649,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.section li.activity.label h4:last-child,
   .course-content ul.section li.activity.label p:last-child {
     margin-bottom: 0; }
+  .course-content ul.section li.activity.modtype_lti .instancename {
+    margin-bottom: 1rem !important; }
   .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
     display: none; }
   .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
@@ -1659,11 +1661,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     background-color: #60bbba;
     color: white;
     width: 5.5rem; }
-  .course-content ul.section li.activity.indent {
-    border-left: 3px solid #CDD7DC;
-    border-radius: 0;
-    padding-left: 0.625rem !important;
-    margin-left: 1.875rem; }
   .course-content ul.section li.activity .activityinstance {
     min-height: initial !important;
     width: 100%;
@@ -1714,6 +1711,15 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
+  .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
+    border-left: 3px solid #CDD7DC;
+    border-radius: 0;
+    padding-left: 0.625rem !important;
+    margin-left: 1.875rem; }
+    .course-content ul.section li.activity.indent p, .course-content ul.section li.activity .contentafterlink p {
+      margin: 0 0 1rem 0; }
+      .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
+        margin-bottom: 0; }
 
 .section_action_menu,
 .section .activity .commands {

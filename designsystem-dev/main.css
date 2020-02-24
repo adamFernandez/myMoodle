@@ -1631,7 +1631,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin-bottom: 1rem !important;
   padding: 0 !important; }
   .course-content ul.section li.activity > div {
-    max-width: calc(100% - 105px); }
+    width: 100%; }
+    @media only screen and (min-width: 768px) {
+      .course-content ul.section li.activity > div {
+        max-width: calc(100% - 105px); } }
+    .course-content ul.section li.activity > div .mod-indent-outer {
+      display: block; }
   .course-content ul.section li.activity .no-overflow {
     padding: 0; }
   .course-content ul.section li.activity.label:not(:first-of-type) h2,
@@ -1659,7 +1664,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     padding-left: 0.625rem !important;
     margin-left: 1.875rem; }
   .course-content ul.section li.activity .activityinstance {
-    min-height: initial !important; }
+    min-height: initial !important;
+    width: 100%;
+    padding: 0; }
     .course-content ul.section li.activity .activityinstance ~ .ishidden {
       margin: 0; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
@@ -1667,7 +1674,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .course-content ul.section li.activity .activityinstance img.activityicon {
       display: none; }
     .course-content ul.section li.activity .activityinstance a {
-      display: flex; }
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
       .course-content ul.section li.activity .activityinstance a .instancename {
         margin-right: 0.5rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
@@ -1694,7 +1703,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           font-size: 1.25rem; }
         .course-content ul.section li.activity .activityinstance a .activity-label-container .group-icon .fas.fa-user-friends,
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon .fas.fa-play-circle {
-          margin-left: 1rem; }
+          margin-left: 0.5rem; }
+          @media only screen and (min-width: 768px) {
+            .course-content ul.section li.activity .activityinstance a .activity-label-container .group-icon .fas.fa-user-friends,
+            .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon .fas.fa-play-circle {
+              margin-left: 1rem; } }
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }

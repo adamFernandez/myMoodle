@@ -1676,8 +1676,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       display: none; }
     .course-content ul.section li.activity .activityinstance a {
       display: flex;
-      width: 100%;
-      justify-content: space-between; }
+      width: 100%; }
+      @media only screen and (max-width: 767px) {
+        .course-content ul.section li.activity .activityinstance a {
+          justify-content: space-between; } }
       .course-content ul.section li.activity .activityinstance a .instancename {
         margin-right: 0.5rem; }
       .course-content ul.section li.activity .activityinstance a:hover {

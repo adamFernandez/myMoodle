@@ -7,3 +7,9 @@ if (window.matchMedia('print').matches) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
 }
+// and document title
+var documentTitle = document.title;
+if (documentTitle.includes('activity-label')) {
+  documentTitle = documentTitle.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+  $(document).attr('title', documentTitle);
+}

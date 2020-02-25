@@ -633,7 +633,7 @@ html {
     font-size: 1.2rem;
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
-    padding-left: 0 0  1.25rem 1.25rem;
+    padding: 0 1.25rem  1.25rem 1.25rem;
     margin-bottom:  0;
   }
   .view-answer-container a.view-hide-answer,
@@ -665,7 +665,7 @@ html {
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 480px !important;
+    width: 535px !important;
     height: auto !important;
     margin: 0 0 0.625rem 0;
   }
@@ -682,7 +682,7 @@ html {
   .view-answer-container .card-body > p,
   .view-feedback-container .card-body > p ,
   .view-model-answer-container .card-body > p {
-    margin-left: calc(150px + 9px);
+    margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
   }

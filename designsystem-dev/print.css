@@ -23,7 +23,7 @@ html {
 /* print */
 @media print {
   /* hide all other than main content */
-  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav, .navbar, .m-t-2.m-b-1, .back-to-top, #page-footer, .navbottom, #print-btn-container {
+  #block-region-side-post, #block-region-side-pre, #page-header, #page-header-nav, .navbar, .m-t-2.m-b-1, .back-to-top .fa-chevron-circle-up:before, #page-footer, .navbottom, #print-btn-container {
     display: none;
   }
   #wrapper {
@@ -633,19 +633,26 @@ html {
     font-size: 1.2rem;
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
-    padding-left: 1.25rem;
+    padding-left: 0 0  1.25rem 1.25rem;
     margin-bottom:  0;
-    padding-bottom: 1.25rem;
   }
   .view-answer-container a.view-hide-answer,
   .view-feedback-container a.view-hide-feedback,
   .view-model-answer-container a.view-hide-model-answer {
     display: none;
   }
+  .view-answer-container .view-answer-card,
+  .view-feedback-container .view-feedback-card,
+  .view-model-answer-container .view-model-answer-card {
+    display: block !important;
+  }
   .view-answer-container .card-body,
   .view-feedback-container .card-body,
   .view-model-answer-container .card-body {
     display: flex;
+    border-left: none !important;
+    margin: 0  !important;
+    padding: 0  !important;
   }
   .view-answer-container .card-body .card-author,
   .view-feedback-container .card-body .card-author,
@@ -658,9 +665,14 @@ html {
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 482px !important;
-    height: auto;
+    width: 480px !important;
+    height: auto !important;
     margin: 0 0 0.625rem 0;
+  }
+  .view-answer-container .card-body .card-author .card-title,
+  .view-feedback-container .card-body .card-author .card-title,
+  .view-model-answer-container .card-body .card-author .card-title {
+    display: none;
   }
   .view-answer-container .card-body .card-text,
   .view-feedback-container .card-body .card-text,
@@ -670,7 +682,7 @@ html {
   .view-answer-container .card-body > p,
   .view-feedback-container .card-body > p ,
   .view-model-answer-container .card-body > p {
-    margin-left: calc(150px + 1.25rem);
+    margin-left: calc(150px + 9px);
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
   }

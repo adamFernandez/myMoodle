@@ -15,5 +15,7 @@ if (documentTitle.includes('activity-label')) {
 }
 
 // disable keats print css
-var keatsPrintCss = document.querySelectorAll('link[href="https://keats.kcl.ac.uk/mod/book/tool/print/print.css"]');
-keatsPrintCss[0].disabled = true;
+if (window.matchMedia('print').matches) {
+  var keatsPrintCss = document.querySelectorAll('link[href="https://keats.kcl.ac.uk/mod/book/tool/print/print.css"]');
+  keatsPrintCss[0].disabled = true;
+}

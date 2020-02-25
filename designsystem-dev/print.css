@@ -471,6 +471,13 @@ html {
     margin-bottom: 1.25rem;
     position: relative;
   }
+  .definition-box > :first-child,
+  .alert-instructional > :first-child,
+  .feedback-box > :first-child,
+  .learning-outcome-box > :first-child,
+  .reading-box > :first-child {
+    padding: 0 !important;
+  }
   .definition-box h5, .feedback-box h5,
   .learning-outcome-box h5, .reading-box h5 {
     font-size: 1.2rem;

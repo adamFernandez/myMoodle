@@ -633,8 +633,8 @@ html {
     font-size: 1.2rem;
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
-    padding: 0 1.25rem  1.25rem 1.25rem;
-    margin-bottom:  0;
+    padding: 0 1.25rem 1.25rem 1.25rem;
+    margin-bottom: 0;
   }
   .view-answer-container a.view-hide-answer,
   .view-feedback-container a.view-hide-feedback,

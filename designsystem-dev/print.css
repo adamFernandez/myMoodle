@@ -439,17 +439,15 @@ html {
   .definition-box > :first-child::before {
     content: '\f02e';
     padding: 0 7px;
-    top: 1.45rem;
   }
   .alert-instructional > :first-child::before {
     content: '\f086';
     padding: 0 2px;
-    top: 1.4rem;
   }
   .feedback-box > :first-child::before {
     content: '\f27a';
     padding: 0 4px;
-    top: 1.8rem;
+    top: 1.35rem;
   }
   .learning-outcome-box > :first-child::before {
     content: '\f091';
@@ -459,15 +457,14 @@ html {
   .reading-box > :first-child::before {
     content: '\f5da';
     padding: 0 4px;
-    top: 1.4rem;
   }
   .definition-box, .alert-instructional,
-  .feedback-box, .key-concept-box,
+  .feedback-box,
   .learning-outcome-box, .reading-box {
     page-break-inside: avoid;
     border: 2px solid #8b9296 !important;
-    padding: 1.25rem;
-    padding-left: 4rem;
+    padding: 1.25rem !important;
+    padding-left: 4rem !important;
     margin-bottom: 1.25rem;
     position: relative;
   }
@@ -495,9 +492,7 @@ html {
     font-weight: bold;
     background-color: #dce3e6 !important;
     border: 2px solid #5a6469 !important;
-  }
-  .learning-outcome-box {
-    padding-left: 3rem !important;
+    margin-bottom: 1.25rem;
   }
   .learning-outcome-box ol, .learning-outcome-box ul {
      margin-bottom: 0 0 0 1.25rem;

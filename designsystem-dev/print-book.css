@@ -1340,14 +1340,18 @@ button .h4::before {
     font-size: 1.2rem;
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
-    padding-left: 1.25rem;
+    padding: 0 1.25rem 1.25rem 1.25rem;
     margin-bottom:  0;
-    padding-bottom: 1.25rem;
   }
   .view-answer-container a.view-hide-answer,
   .view-feedback-container a.view-hide-feedback,
   .view-model-answer-container a.view-hide-model-answer {
     display: none;
+  }
+  .view-answer-container .view-answer-card,
+  .view-feedback-container .view-feedback-card,
+  .view-model-answer-container .view-model-answer-card {
+    display: block !important;
   }
   .view-answer-container .card-body,
   .view-feedback-container .card-body,
@@ -1365,7 +1369,7 @@ button .h4::before {
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 482px !important;
+    width: 535px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
   }

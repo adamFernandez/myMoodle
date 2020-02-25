@@ -45,7 +45,7 @@ html {
   }
 
   /* typography */
-  body {
+  html {
     font-size: 14px;
   }
   h1, h2, h3, h4, h5, h6,
@@ -434,7 +434,7 @@ html {
     position: absolute;
     top: 1.25rem;
     left: 1.25rem;
-    color: #5a6469;
+    color: #5a6469 !important;
   }
   .definition-box > :first-child::before {
     content: '\f02e';
@@ -465,7 +465,7 @@ html {
   .feedback-box, .key-concept-box,
   .learning-outcome-box, .reading-box {
     page-break-inside: avoid;
-    border: 2px solid #8b9296;
+    border: 2px solid #8b9296 !important;
     padding: 1.25rem;
     padding-left: 4rem;
     margin-bottom: 1.25rem;
@@ -488,16 +488,19 @@ html {
     margin-bottom: 0;
   }
   .alert-instructional {
-    background-color: #dce3e6;
+    background-color: #dce3e6 !important;
   }
   .key-concept-box {
     padding: 1.25rem;
     font-weight: bold;
-    background-color: #dce3e6;
-    border: 2px solid #5a6469;
+    background-color: #dce3e6 !important;
+    border: 2px solid #5a6469 !important;
+  }
+  .learning-outcome-box {
+    padding-left: 3rem !important;
   }
   .learning-outcome-box ol, .learning-outcome-box ul {
-     margin-bottom: 0;
+     margin-bottom: 0 0 0 1.25rem;
   }
 
   /* table */

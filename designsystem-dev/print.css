@@ -303,7 +303,6 @@ html {
   }
   .collapse-container .collapse-card {
     border-bottom: 2px solid #cdd7dc;
-    padding: 1.25rem;
     padding-left: 4rem;
   }
   .collapse-container .collapse-card:first-child {
@@ -326,6 +325,12 @@ html {
     left: -2.5rem;
     top: -6px;
     font-size: 24px;
+  }
+  .collapse-container .collapse-card .collapse-header button .h4::after {
+    display: none;
+  }
+  .collapse-container .collapse-card .collapse-body {
+    display: block !important;
   }
   .collapse-container .collapse-card .collapse-body p:last-child {
     margin: 0;

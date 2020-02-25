@@ -537,6 +537,9 @@ html {
     padding; 0;
     overflow: hidden;
   }
+  .timeline-container .timeline-row .col-auto {
+    padding: 0 0 0 1.25rem;
+  }
   .timeline-container .timeline-row .col.border-left {
     border-left: 1px solid #5a6469 !important;
   }
@@ -564,7 +567,6 @@ html {
   }
   .timeline-container .timeline-row .timeline-content {
     page-break-inside: avoid;
-    margin-left: 0.625rem;
     margin: 0 !important;
     padding: 0 !important;
   }
@@ -573,7 +575,7 @@ html {
     border: 2px solid #5a6469;
     border-radius: 0;
     max-width: calc(100% - 14px);
-    padding; 1.25rem !important;
+    padding: 1.25rem !important;
   }
    .timeline-container .timeline-row:last-child .timeline-content .timeline-card {
     margin-bottom: 1.25rem;

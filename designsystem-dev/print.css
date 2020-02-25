@@ -506,19 +506,22 @@ html {
   /* table */
   .table-bordered {
     page-break-inside: avoid;
-    border: 2px solid #5a6469;
+    border: 2px solid #5a6469 !important;
     border-radius: 0;
     border-collapse: collapse;
   }
   .table-bordered th, .table-bordered td {
     border: 2px solid #5a6469;
+    padding: 0.25rem;
+    font-size: 1rem;
   }
   .table-bordered th {
-    background-color: #dce3e6;
+    background-color: #dce3e6 !important;
     color: #171717;
   }
   .table-bordered td {
     color: #333333;
+    font-size: 1rem;
   }
 
   /* timeline */

@@ -228,13 +228,12 @@ html {
   }
   .card-deck {
     page-break-inside: avoid;
-    display: flex;
-    flex-direction: row-wrap;
+    display: block;
     margin: 0;
   }
   .card-deck .card {
-    display: block;
-    flex: 1 0 0%;
+    display: inline-block;
+    width: calc(50% - 0.625rem - 4px);
     margin: 0 0.625rem 1.5rem 0;
   }
   .card-deck .card:last-child {

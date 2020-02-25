@@ -369,16 +369,6 @@ html {
   .embed-responsive iframe {
     display: none;
   }
-  .embed-responsive + .transcript-container::before {
-    content: 'Audio transcript';
-    position: absolute;
-    left: calc(1.25rem + 2px);
-    width: 200px;
-    top: 4px;
-  }
-  .embed-responsive:not(.embed-responsive-audio)  + .transcript-container::before {
-    content: 'Video transcript';
-  }
   /* transcript */
   .transcript-container {
     page-break-inside: avoid;
@@ -386,6 +376,16 @@ html {
     width: calc(100% - 74px);
     margin-bottom: 1.25rem;
     positon: relative;
+  }
+  .embed-responsive + .transcript-container::before {
+    content: 'Audio transcript';
+    position: absolute;
+    left: calc(1.25rem + 2px);
+    width: 200px;
+    top: 4px;
+  }
+  .embed-responsive:not(.embed-responsive-audio) + .transcript-container::before {
+    content: 'Video transcript';
   }
   .transcript-container .transcript-button-group {
     display: none;

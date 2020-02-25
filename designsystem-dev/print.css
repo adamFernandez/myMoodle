@@ -375,7 +375,7 @@ html {
     display: inline-block;
     width: calc(100% - 74px);
     margin-bottom: 1.25rem;
-    positon: relative;
+    position: relative;
   }
   .embed-responsive + .transcript-container::before {
     content: 'Audio transcript';

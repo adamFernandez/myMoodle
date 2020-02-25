@@ -272,6 +272,7 @@ html {
     max-width: 75% !important;
   }
   .carousel .carousel-caption {
+    display: block;
     position: static;
     max-width: 75%;
     padding: 1.25rem;

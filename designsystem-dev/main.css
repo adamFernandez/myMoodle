@@ -1721,6 +1721,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       margin: 0 0 1rem 0; }
       .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
         margin-bottom: 0; }
+  .course-content ul.section li.activity .contentwithoutlink {
+    min-height: 1.5rem; }
 
 .section_action_menu,
 .section .activity .commands {

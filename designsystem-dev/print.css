@@ -679,12 +679,19 @@ html {
   .view-model-answer-container .card-body .card-text {
     margin-left: 1.25rem;
   }
-  .view-answer-container .card-body > p,
-  .view-feedback-container .card-body > p ,
-  .view-model-answer-container .card-body > p {
+  .view-answer-container .card-body > *,
+  .view-feedback-container .card-body > * ,
+  .view-model-answer-container .card-body > * {
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
+    max-width: calc(100% - 150px - 2px) !important;
+    overflow: hidden;
+  }
+  .view-answer-container .card-body img,
+  .view-feedback-container .card-body img ,
+  .view-model-answer-container .card-body img {
+     height: auto !important;
   }
 }
 

@@ -1288,7 +1288,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
       border-top: 1px solid #8B9296 !important;
-      border-left: 1px solid #8B9296; }
+      border-left: 1px solid #8B9296;
+      border-right: none;
+      border-left: none; }
   table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: auto; }
   table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {

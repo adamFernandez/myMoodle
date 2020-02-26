@@ -675,9 +675,9 @@ html {
   .view-model-answer-container .card-body .card-text {
     margin-left: 1.25rem;
   }
-  .view-answer-container .card-body > *,
-  .view-feedback-container .card-body > * ,
-  .view-model-answer-container .card-body > * {
+  .view-answer-container .card-body > :not(.card-author):not(.card-text),
+  .view-feedback-container .card-body > :not(.card-author):not(.card-text),
+  .view-model-answer-container .card-body > :not(.card-author):not(.card-text) {
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;

@@ -1364,7 +1364,7 @@ button .h4::before {
     display: block !important;
     text-align: center;
     border-right: 2px solid #5a6469;
-    padding-right: 1.25rem;
+    padding-right: 7px !important;
   }
   .view-answer-container .card-body .card-author img,
   .view-feedback-container .card-body .card-author img,
@@ -1382,7 +1382,7 @@ button .h4::before {
   .view-answer-container .card-body .card-text:only-child,
   .view-feedback-container .card-body .card-text:only-child,
   .view-model-answer-container .card-body .card-text:only-child {
-    margin-left: calc(150px + 1.25rem);
+    margin-left: calc(150px + 1.25rem) !important;
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
     max-width: calc(100% - 150px - 2px) !important;

@@ -1361,6 +1361,7 @@ button .h4::before {
   .view-answer-container .card-body .card-author,
   .view-feedback-container .card-body .card-author,
   .view-model-answer-container .card-body .card-author {
+    display: block !important;
     text-align: center;
     border-right: 2px solid #5a6469;
     padding-right: 1.25rem;
@@ -1378,12 +1379,19 @@ button .h4::before {
   .view-model-answer-container .card-body .card-text {
     margin-left: 1.25rem;
   }
-  .view-answer-container .card-body > p,
-  .view-feedback-container .card-body > p ,
-  .view-model-answer-container .card-body > p {
+  .view-answer-container .card-body .card-text:only-child,
+  .view-feedback-container .card-body .card-text:only-child,
+  .view-model-answer-container .card-body .card-text:only-child {
     margin-left: calc(150px + 1.25rem);
     border-left: 2px solid #5a6469;
     padding-left: 1.25rem;
+    max-width: calc(100% - 150px - 2px) !important;
+    overflow: hidden;
+  }
+  .view-answer-container .card-body img,
+  .view-feedback-container .card-body img ,
+  .view-model-answer-container .card-body img {
+     height: auto !important;
   }
 }
 

@@ -1,3 +1,11 @@
+// hide administration block from students or teachers without editing rights
+$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
+
+// pull print button from admin block and position at top of book
+printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
+$('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');
+printButton.addClass('btn btn-secondary print-book-btn').text("Print").appendTo('#print-btn-container');
+
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";
 $(document).on("click", blockHide, function(event) {
@@ -88,3 +96,64 @@ $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {
 $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
+
+// week overview page activity label code
+$("li.activity .activityinstance a:not(.quickeditlink)").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
+
+// move .accesshide from within .instancename and append to .activityinstance
+// affected the prefix title modification in original location
+$("li.activity .instancename .accesshide").each(function() {
+    $(this).parents(".activityinstance").prepend(this);
+});
+
+// set defaults
+// study type no icon
+// 'file' activity type has 'resource' class
+$("li.activity.book, li.activity.folder, li.activity.page, li.activity.resource, li.activity.glossary, li.activity.lesson, li.activity.lti, li.activity.url").addClass("type-study");
+// study type with icon
+$("li.activity.kalvidres").addClass("type-study i-media");
+// activity type no icon
+$("li.activity.assign, li.activity.choice, li.activity.feedback, li.activity.hvp, li.activity.kalvidassign, li.activity.oublog, li.activity.questionnaire, li.activity.quiz, li.activity.turnitintooltwo, li.activity.workshop").addClass("type-activity");
+// activity type with icon
+$("li.activity.data, li.activity.forum, li.activity.connecthosted, li.activity.wiki").addClass("type-activity i-group");
+
+// add assessed label
+$("li.activity .instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");
+// override activity type
+$("li.activity .instancename:contains('-act')").parents("li.activity").removeClass("type-study type-assessed").addClass("type-activity");
+// remove activity label
+$("li.activity .instancename:contains('-stu')").parents("li.activity").removeClass("type-activity type-assessed").addClass("type-study");
+// add or remove icon
+$("li.activity .instancename:contains('-gro')").parents("li.activity").addClass("i-group");
+$("li.activity .instancename:contains('-ngr')").parents("li.activity").removeClass("i-group");
+$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("i-media");
+$("li.activity .instancename:contains('-nme')").parents("li.activity").removeClass("i-media");
+
+// strip keywords from activity title
+$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label')").text(function(i, currentText) {
+  return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+})
+if (window.matchMedia('print').matches) {
+  $("#page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label')").text(function(i, currentText) {
+    return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+  })
+}
+
+// and document title
+var documentTitle = document.title;
+if (documentTitle.includes('activity-label')) {
+  documentTitle = documentTitle.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+  $(document).attr('title', documentTitle);
+}
+
+// add indent class and remove keyword span
+$("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");
+
+// add assessed text to assessed type label
+$("li.activity.type-assessed .activityinstance a .activity-label-container .activity-label .label-text").text("assessed");
+// add activity text to activity type label
+$("li.activity.type-activity .activityinstance a .activity-label-container .activity-label .label-text").text("activity");
+// add group icon to activity type label
+$("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
+// add media icon
+$("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");

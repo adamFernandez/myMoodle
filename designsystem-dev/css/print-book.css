@@ -755,11 +755,19 @@ button .h4::before {
   height: auto;
   margin: 0 0 0.625rem 0;
 }
+#page-mod-book-print .view-answer-container .card-body .card-author .card-title,
+#page-mod-book-print .view-feedback-container .card-body .card-author .card-title,
+#page-mod-book-print .view-model-answer-container .card-body .card-author .card-title {
+  max-width: 150px;
+}
 #page-mod-book-print .view-answer-container .card-body .card-text,
 #page-mod-book-print .view-feedback-container .card-body .card-text,
 #page-mod-book-print .view-model-answer-container .card-body .card-text {
   margin-left: 1.25rem;
 }
+#page-mod-book-print .view-answer-container .card-body .card-text:only-child,
+#page-mod-book-print .view-feedback-container .card-body .card-text:only-child,
+#page-mod-book-print .view-model-answer-container .card-body .card-text:only-child,
 #page-mod-book-print .view-answer-container .card-body > p ,
 #page-mod-book-print .view-feedback-container .card-body > p,
 #page-mod-book-print .view-model-answer-container .card-body > p {

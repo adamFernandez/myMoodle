@@ -470,8 +470,7 @@ button .h4::before {
   left: calc(50% - 12.25px);
   font-size: 28px;
 }
-#page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before
-#{
+#page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before {
   content: '\f144';
   left: calc(50% - 18px);
   font-size: 24px;
@@ -750,18 +749,25 @@ button .h4::before {
 }
 #page-mod-book-print .view-answer-container .card-body .card-author img,
 #page-mod-book-print .view-feedback-container .card-body .card-author img,
-#page-mod-book-print .view-model-answer-container .card-body .card-author
-#img {
+#page-mod-book-print .view-model-answer-container .card-body .card-author img {
   border-radius: 50%;
   width: 150px;
   height: auto;
   margin: 0 0 0.625rem 0;
+}
+#page-mod-book-print .view-answer-container .card-body .card-author .card-title,
+#page-mod-book-print .view-feedback-container .card-body .card-author .card-title,
+#page-mod-book-print .view-model-answer-container .card-body .card-author .card-title {
+  max-width: 150px;
 }
 #page-mod-book-print .view-answer-container .card-body .card-text,
 #page-mod-book-print .view-feedback-container .card-body .card-text,
 #page-mod-book-print .view-model-answer-container .card-body .card-text {
   margin-left: 1.25rem;
 }
+#page-mod-book-print .view-answer-container .card-body .card-text:only-child,
+#page-mod-book-print .view-feedback-container .card-body .card-text:only-child,
+#page-mod-book-print .view-model-answer-container .card-body .card-text:only-child,
 #page-mod-book-print .view-answer-container .card-body > p ,
 #page-mod-book-print .view-feedback-container .card-body > p,
 #page-mod-book-print .view-model-answer-container .card-body > p {

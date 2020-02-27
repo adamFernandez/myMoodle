@@ -1146,6 +1146,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     color: #FFFFFF !important;
     margin: 0 !important; }
 
+img.icon {
+  box-sizing: content-box; }
+
 .full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
   .full-width-img img, .img-full-width img {

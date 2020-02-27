@@ -129,20 +129,22 @@ $("li.activity .instancename:contains('-ngr')").parents("li.activity").removeCla
 $("li.activity .instancename:contains('-med')").parents("li.activity").addClass("i-media");
 $("li.activity .instancename:contains('-nme')").parents("li.activity").removeClass("i-media");
 
-// strip keywords from activity title
-// section view activity title, activity page title
+/*
+strip keywords from activity title
+section view activity title, activity page title
+print page title, print book info title
+breadcrumb
+previous/next activity buttons
+webinar title
+course module navitation block
+logs
+*/
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'),
-// print page title, print book info title
 #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'),
-// breadcrumb
 .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'),
-// previous/next activity buttons
 .row-fluid.rtl-compatible .span4 a:contains('activity-label'),
-// webinar title
 .chosted-info .chosted-info-value p:contains('activity-label'),
-// course module navitation block
 .block_course_modulenavigation .activityname:contains('activity-label'),
-// logs
 .page-report-log-index td a:contains('activity-label'), .page-report-outline-index td a:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })

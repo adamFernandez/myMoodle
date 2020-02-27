@@ -470,8 +470,7 @@ button .h4::before {
   left: calc(50% - 12.25px);
   font-size: 28px;
 }
-#page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before
-#{
+#page-mod-book-print .embed-responsive:not(.embed-responsive-audio)::before {
   content: '\f144';
   left: calc(50% - 18px);
   font-size: 24px;
@@ -750,8 +749,7 @@ button .h4::before {
 }
 #page-mod-book-print .view-answer-container .card-body .card-author img,
 #page-mod-book-print .view-feedback-container .card-body .card-author img,
-#page-mod-book-print .view-model-answer-container .card-body .card-author
-#img {
+#page-mod-book-print .view-model-answer-container .card-body .card-author img {
   border-radius: 50%;
   width: 150px;
   height: auto;

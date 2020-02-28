@@ -116,6 +116,18 @@ html {
 #page-mod-book-print p a,
 #page-mod-book-print li p a {
   text-decoration: underline;
+  text-decoration: underline;
+  position: relative;
+  margin-right: 8px;
+}
+#page-mod-book-print p a::after,
+#page-mod-book-print li p a::after {
+  position: absolute;
+  content: '\f0c1';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 8px;
+  margin-left: 1px;
 }
 #page-mod-book-print ol,
 #page-mod-book-print ul {
@@ -852,6 +864,16 @@ button .h4::before {
   }
   p a, li p a {
     text-decoration: underline;
+    position: relative;
+    margin-right: 8px;
+  }
+  p a::after, li p a::after {
+    position: absolute;
+    content: '\f0c1';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 8px;
+    margin-left: 1px;
   }
   ol, ul {
     margin: 0 0 1.25rem 1.25rem;

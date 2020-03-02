@@ -149,17 +149,19 @@ var data = {
     },
     "module7": {
       "comments": {
-        "1": "mod/forum/view.php?id=2607901"
+        "1": "mod/forum/view.php?id=2956840"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2607915"
+        "1": "mod/choice/view.php?id=2956867"
       },
       "poll2": {
-        "1": "mod/choice/view.php?id=2607996"
+        "1": "mod/choice/view.php?id=2956905"
       },
       "poll3": {
-        "1": "mod/choice/view.php?id=2607997"
+        "1": "mod/choice/view.php?id=2956946"
       }
+      "poll4": {
+        "1": "mod/choice/view.php?id=2956947"
     },
     "module8": {
       "comments": {

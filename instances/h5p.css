@@ -104,7 +104,7 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   color: #ffffff !important;
 }
 
-.h5p-audio-minimal-play {
+.h5p-audio-inner .h5p-audio-minimal-play-paused, .h5p-audio-inner .h5p-audio-minimal-pause {
   background: #28c382 !important;
 }
 

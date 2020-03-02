@@ -130,6 +130,12 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   background: #dff0d8 !important;
 }
 
+.h5p-joubelui-score-bar {
+  border: 0px;
+  margin-top: 5px;
+  margin-bottom: -8px;
+}
+
 .h5p-multichoice .h5p-answer.h5p-wrong .h5p-alternative-container, .h5p-multichoice .h5p-answer.h5p-wrong:hover .h5p-alternative-container, .h5p-summary .summary-score {
   background-color: #f2dede;
   border-color: #b94a48;

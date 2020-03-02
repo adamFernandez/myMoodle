@@ -162,6 +162,7 @@ var data = {
       },
       "poll4": {
         "1": "mod/choice/view.php?id=2956947"
+      }
     },
     "module8": {
       "comments": {

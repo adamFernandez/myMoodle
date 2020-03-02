@@ -104,6 +104,10 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   color: #ffffff !important;
 }
 
+.h5p-audio-minimal-play {
+  background: #28c382 !important;
+}
+
 .h5p-joubelui-button:hover, .h5p-joubelui-button:focus, .joubel-simple-rounded-button:hover, .joubel-simple-rounded-button:focus, .h5p-flashcards .h5p-answer .h5p-button:hover, .h5p-questionnaire-button:hover {
   background-color: #536c84 !important;
 }

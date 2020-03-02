@@ -100,7 +100,7 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
 }
 
 .h5p-audio-inner .h5p-audio-minimal-button {
-  background-color: #0A2D50 !important;
+  background: #0A2D50 !important;
   color: #ffffff !important;
 }
 

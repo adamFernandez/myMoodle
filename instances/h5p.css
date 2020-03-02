@@ -159,6 +159,42 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   color: #ffffff;
 }
 
-.h5p-dialogcards .h5p-dialogcards-card-footer {
-  height: 3.25em;
+.h5p-dialogcards .h5p-dialogcards-card-text-inner {
+  margin-bottom: -15px;
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-content {
+  border: 1px solid #8b9296;
+  box-shadow: 0;
+}
+
+.h5p-documentation-tool-page-container {
+  margin-bottom: 24px;
+}
+
+.h5p-drag-text .h5p-drag-droppable-words {
+  line-height: 2;
+}
+
+.h5p-blanks .h5p-input-wrapper {
+  margin-right: 4px;
+}
+
+.h5p-image-hotspot-question .hotspot-feedback {
+  box-shadow: 0;
+}
+
+.h5p-find-the-words .counter-status {
+  margin-right: 22px;
+}
+
+.h5p-image-hotspot-popup-header {
+  font-family: 'KingsBureauGrot';
+  font-weight: bold;
+  padding: 10px;
+}
+
+.h5p-text ul li {
+  list-style-type: unset;
+  line-height: 1.5;
 }

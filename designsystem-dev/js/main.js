@@ -59,12 +59,6 @@ $(document).on("click", "a.view-hide-feedback", function(event) {
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
 
-// home page add forum class to activtiy title containing 'discussion'
-$("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
-
-// hide activity labels on certain pages
-$(".hero.hide-activity-labels").parents("#region-main").addClass("hide-activity-labels");
-
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length

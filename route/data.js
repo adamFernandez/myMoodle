@@ -159,7 +159,7 @@ var data = {
       },
       "poll3": {
         "1": "mod/choice/view.php?id=2956946"
-      }
+      },
       "poll4": {
         "1": "mod/choice/view.php?id=2956947"
     },

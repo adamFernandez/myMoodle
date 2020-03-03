@@ -1,13 +1,15 @@
 @charset "UTF-8";
 @font-face {
   font-family: 'KingsBureauGrot';
-  src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf") format("truetype");
+  src: url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-eot.eot) format("eot");
+  src:url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-eot.eot?#iefix) format("embedded-opentype"),url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-woff.woff) format("woff"),url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-ttf.ttf) format("truetype"),url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueThreeSeven-svg.svg) format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'KingsBureauGrotFiveOne';
-  src: url("https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf") format("truetype");
+  src:url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-eot.eot) format("eot");
+  src:url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-eot.eot?#iefix) format("embedded-opentype"),url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-woff.woff) format("woff"),url(https://kcl.ac.uk/SiteElements/2017/fonts/KingsBureauGrotesqueFiveOne-ttf.ttf) format("truetype");
   font-style: normal; }
 
 /* cyrillic-ext */
@@ -67,7 +69,7 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, .h5p-text-input-field .h5p-text-input-field-textfield, .h5p-find-the-words, .h5p-task-description {
+html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, .h5p-text-input-field .h5p-text-input-field-textfield, .h5p-find-the-words, .h5p-task-description {
   color: #333333;
   font-family: 'Open Sans';
 }
@@ -80,6 +82,7 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   background-color: #0A2D50 !important;
   color: #ffffff !important;
   font-family: "KingsBureauGrot";
+  font-weight:bold !important;
   padding: 0.625rem 0.75rem !important;
   margin: 0 0.75rem 0.5rem 0;
   border-radius: 4px !important;
@@ -97,8 +100,12 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
 }
 
 .h5p-audio-inner .h5p-audio-minimal-button {
-  background-color: #0A2D50 !important;
+  background: #0A2D50 !important;
   color: #ffffff !important;
+}
+
+.h5p-audio-inner .h5p-audio-minimal-play-paused, .h5p-audio-inner .h5p-audio-minimal-pause {
+  background: #28c382 !important;
 }
 
 .h5p-joubelui-button:hover, .h5p-joubelui-button:focus, .joubel-simple-rounded-button:hover, .joubel-simple-rounded-button:focus, .h5p-flashcards .h5p-answer .h5p-button:hover, .h5p-questionnaire-button:hover {
@@ -123,14 +130,20 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
   background: #dff0d8 !important;
 }
 
+.h5p-joubelui-score-bar {
+  border: 0px;
+  margin-top: 5px;
+  margin-bottom: -8px;
+}
+
 .h5p-multichoice .h5p-answer.h5p-wrong .h5p-alternative-container, .h5p-multichoice .h5p-answer.h5p-wrong:hover .h5p-alternative-container, .h5p-summary .summary-score {
   background-color: #f2dede;
   border-color: #b94a48;
 }
 
-.h5p-accordion .h5p-panel-title, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
-  font-family: 'KingsBureauGrot';
-  color: color: #333333;
+h2, h3, .h5p-accordion .h5p-panel-title, h2.h5p-personality-quiz, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
+  font-family: 'KingsBureauGrot' !important;
+  color: #0a2d50 !important;
 }
 
 .h5p-questionnaire-button, .h5peditor .h5p-questionnaire-button {
@@ -144,4 +157,44 @@ html.h5p-iframe, .h5p-branching-scenario-subtitle-text, html.h5p-iframe > body, 
 
 .h5p-branching-scenario-subtitle-text {
   color: #ffffff;
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-text-inner {
+  margin-bottom: -15px;
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-content {
+  border: 1px solid #8b9296;
+  box-shadow: 0;
+}
+
+.h5p-documentation-tool-page-container {
+  margin-bottom: 24px;
+}
+
+.h5p-drag-text .h5p-drag-droppable-words {
+  line-height: 2;
+}
+
+.h5p-blanks .h5p-input-wrapper {
+  margin-right: 4px;
+}
+
+.h5p-image-hotspot-question .hotspot-feedback {
+  box-shadow: 0;
+}
+
+.h5p-find-the-words .counter-status {
+  margin-right: 22px;
+}
+
+.h5p-image-hotspot-popup-header {
+  font-family: 'KingsBureauGrot';
+  font-weight: bold;
+  padding: 10px;
+}
+
+.h5p-text ul li {
+  list-style-type: unset;
+  line-height: 1.5;
 }

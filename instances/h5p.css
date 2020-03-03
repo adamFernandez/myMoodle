@@ -141,7 +141,7 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   border-color: #b94a48;
 }
 
-h2, .h5p-accordion .h5p-panel-title, .h5p-personality-quiz .h5p-personality-quiz-title, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
+h2, .h5p-accordion .h5p-panel-title, h2.h5p-personality-quiz, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
   font-family: 'KingsBureauGrot' !important;
   color: #0a2d50 !important;
 }

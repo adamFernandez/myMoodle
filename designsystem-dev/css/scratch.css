@@ -1,81 +1,22 @@
-/* book nav */
-#page-mod-book-view .navtop,
-#page-mod-book-view .navbottom {
-  border-top: none;
-}
-#page-mod-book-view .navtop a,
-#page-mod-book-view .navbottom a {
-  float: none;
-}
-#page-mod-book-view .navtop a.bookprev::before, 
-#page-mod-book-view .navtop a.booknext::after,
-#page-mod-book-view .navtop a.bookexit::after,
-#page-mod-book-view .navbottom a.bookprev::before,
-#page-mod-book-view .navbottom a.booknext::after,
-#page-mod-book-view .navbottom a.bookexit::after {
-  background-color: white;
-}
-#page-mod-book-view .navtop a.bookprev:hover, 
-#page-mod-book-view .navtop a.booknext:hover,
-#page-mod-book-view .navtop a.bookexit:hover,
-#page-mod-book-view .navbottom a.bookprev:hover,
-#page-mod-book-view .navbottom a.booknext:hover,
-#page-mod-book-view .navbottom a.bookexit:hover {
-  text-decoration: none !important;
+// single chapter book hide chapter title
+.single-chapter-book .book_content h3:first-of-type {
+  display: none;
 }
 
-/* carousel */
-.carousel .carousel-indicators {
-  top: calc(100% - 1px);
-}
-.carousel .carousel-inner .carousel-item img {
-  margin: 0;
-}
-.carousel .carousel-inner .carousel-item .carousel-caption {
-  left: 0;
-}
-.carousel .carousel-control {
-  left: 25%;
+// single chapter book hide toc for print preview
+#page-mod-book-print #page-content.single-chapter-book .book_toc_numbered,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_none,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_bullets,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_indented {
+  display: none;
 }
 
-/* timeline */
-.row {
-  background-color: white;
+// single chapter book hide toc for print
+@media print {
+  #page-content.single-chapter-book .book_toc_numbered,
+  #page-content.single-chapter-book .book_toc_none,
+  #page-content.single-chapter-book .book_toc_bullets,
+  #page-content.single-chapter-book .book_toc_indented {
+    display: none;
+  }
 }
-.timeline-container .timeline-row .timeline-content .timeline-card
-.card-body .row {
-  background-color: #EDF1F2;
-}
-.timeline-container .timeline-row .timeline-badge-pill {
-  background-color: white;
-}
-
-/* book page title, section title */
-.path-mod-book .generalbox.book_content > h3,
-#section-0 .content > h3.sectionname {
-  background: none;
-}
-
-/* card */
-.card {
-  flex-direction: row;
-  border: none;
-}
-
-/* sidebar blocks */
-#block-region-side-pre .block .header,
-#block-region-side-post .block .header {
-  margin: 0;
-  box-shadow: none;
-}
-
-#region-main ul.gtopics,
-#region-main ul.gtopics-0,
-#region-main ul.section {
-  margin: 0;
-}
-
-.course-content ul.gtopics li.section .content {
-  margin: 0;
-}
-

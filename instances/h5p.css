@@ -203,6 +203,6 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   font-family: 'Open Sans' !important;
 }
 
-.vco-storyjs .vco-feature h1, .vco-storyjs .vco-feature h2, .vco-storyjs .vco-feature h3, .vco-storyjs .vco-feature h4, .vco-storyjs .vco-feature h5, .vco-storyjs .vco-feature h6 {
+.vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, #h5p-timeline .vco-slider .slider-item .content .text .container *,#h5p-timeline .vco-slider .slider-item .content .text .container *,.vco-slider .nav-next .date, .vco-slider .nav-next .title,.vco-storyjs .nav-container,.vco-slider .nav-previous .date, .vco-slider .nav-previous .title,.vco-storyjs h3 ,.vco-storyjs .vco-feature p,.vco-storyjs p, .vco-storyjs, .vco-storyjs h2, .vco-slider, .vco-storyjs .twitter, .vco-storyjs .vcard, .vco-storyjs .messege, .vco-storyjs .credit, .vco-storyjs .caption, .vco-storyjs .zoom-in, .vco-storyjs .zoom-out, .vco-storyjs .back-home, .vco-storyjs .time-interval div, .vco-storyjs .time-interval-major div, .vco-storyjs .nav-container {
   font-family: "KingsBureauGrot" !important;
 }

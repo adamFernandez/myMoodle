@@ -2447,7 +2447,10 @@ img.cb-palette {
         .que .content .formulation .ablock .answer label {
           margin-bottom: 0; }
         .que .content .formulation .ablock .answer input[type="text"] {
-          margin-left: 0.5rem; }
+          margin-left: 0.5rem;
+          background-color: transparent;
+          border-color: #8B9296;
+          color: #171717; }
         .que .content .formulation .ablock .answer .icon {
           display: none; }
         .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {

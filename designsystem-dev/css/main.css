@@ -2384,7 +2384,7 @@ img.cb-palette {
   margin: 0 0 2.25rem; }
   .que .info {
     display: flex;
-    flex-wrap: row-wrap;
+    flex-wrap: wrap;
     margin-bottom: 1.5rem;
     background-color: transparent;
     padding: 0;
@@ -2394,32 +2394,38 @@ img.cb-palette {
     .que .info .no, .que .info .qno {
       margin-bottom: 0.5rem; }
     .que .info div {
-      margin: 0 0.5rem 0 0;
-      line-height: normal;
-      font-size: 1rem;
-      padding: 0.375rem;
-      margin: 0 0.5rem 0 0; }
-    .que .info div.state, .que .info div.grade {
+      margin: 0;
+      line-height: 1.5;
+      font-size: 1rem !important;
       font-family: 'KingsBureauGrot';
-      border-radius: 0.125rem; }
+      border-radius: 0.125rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+      height: 1.5rem;
+      border-radius: 15px;
+      background-color: #EDF1F2;
+      padding: 0 0.5rem;
+      color: #171717; }
+    .que .info div.state, .que .info div.grade {
+      margin-right: 0.5rem; }
     .que .info div.state {
-      background-color: #00B9E1;
-      text-transform: uppercase;
-      color: #FFFFFF; }
+      text-transform: uppercase; }
     .que .info div.grade {
       background-color: #e6ebed;
       color: #171717; }
     .que .info .questionflag {
-      font-family: 'KingsBureauGrotFiveOne';
       padding: calc(0.375rem - 0.8px);
-      border-radius: 0.125rem;
+      border-radius: 3px;
       content: '';
       background: #e6ebed url("https://keats.kcl.ac.uk/theme/image.php/lambda/theme/1583219703/mod/quiz/flag-on") right top no-repeat;
       background-size: 8px;
       margin-left: auto;
-      margin-right: 0; }
+      margin-right: 0;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset; }
       .que .info .questionflag .questionflagimage {
         display: none; }
+    .que .info .editquestion a:hover {
+      text-decoration: none; }
   .que .content .formulation {
     background-color: transparent;
     margin: 0;

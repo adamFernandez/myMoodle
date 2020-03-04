@@ -2439,16 +2439,17 @@ img.cb-palette {
       .que .content .formulation .qtext p {
         margin-bottom: 1rem; }
     .que .content .formulation .ablock {
-      margin: 0; }
+      margin: 0 0 1.5rem 0; }
       .que .content .formulation .ablock .prompt, .que .content .formulation .ablock .readonly, .que .content .formulation .ablock .readonly p {
         margin-bottom: 1rem; }
       .que .content .formulation .ablock .answer {
-        padding: 0 !important;
-        margin-bottom: 0.5rem !important; }
+        padding: 0 !important; }
         .que .content .formulation .ablock .answer label {
           margin-bottom: 0; }
         .que .content .formulation .ablock .answer input[type="text"] {
           margin-left: 0.5rem; }
+        .que .content .formulation .ablock .answer .icon {
+          display: none; }
         .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
           padding-top: 0;
           padding-bottom: 0;
@@ -2457,10 +2458,6 @@ img.cb-palette {
             font-size: 1rem; }
           .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {
             display: none; }
-        .que .content .formulation .ablock .answer .correct {
-          background-color: rgba(40, 195, 130, 0.2) !important; }
-        .que .content .formulation .ablock .answer .incorrect {
-          background-color: rgba(226, 35, 26, 0.2) !important; }
   .que .content .outcome {
     background-color: rgba(245, 185, 15, 0.2) !important; }
     .que .content .outcome > .feedback::before {
@@ -2473,18 +2470,18 @@ img.cb-palette {
         margin-bottom: 1rem; }
       .que .content .outcome .feedback .rightanswer {
         margin-bottom: 0; }
-  .que.correct .outcome {
+  .que.correct .content .formulation .ablock, .que.correct .outcome {
     background-color: rgba(40, 195, 130, 0.2) !important; }
-    .que.correct .outcome > .feedback::before {
-      color: #28C382;
-      padding: 0 4px;
-      content: '\f058'; }
-  .que.incorrect .outcome {
+  .que.correct .outcome > .feedback::before {
+    color: #28C382;
+    padding: 0 4px;
+    content: '\f058'; }
+  .que.incorrect .content .formulation .ablock, .que.incorrect .outcome {
     background-color: rgba(226, 35, 26, 0.2) !important; }
-    .que.incorrect .outcome > .feedback::before {
-      color: #E2231A;
-      content: '\f057';
-      padding: 0 4px; }
+  .que.incorrect .outcome > .feedback::before {
+    color: #E2231A;
+    content: '\f057';
+    padding: 0 4px; }
 
 #page-mod-quiz-attempt .submitbtns, #page-mod-quiz-review .submitbtns {
   padding: 0; }

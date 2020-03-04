@@ -74,8 +74,8 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   font-family: 'Open Sans';
 }
 
-.h5p-question-introduction, html.h5p-iframe .h5p-content {
-    font-size: 14px !important;
+.h5p-guess-answer .solution-text {
+  color: #333333 !important;
 }
 
 .h5peditor .ui-dialog .h5p-joubelui-button, .h5p-branching-scenario .h5p-start-button, .h5p-end-button, .h5p-nav-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button, .joubel-simple-rounded-button, .h5p-guess-answer .show-solution-button, .h5p-memory-reset, .h5p-questionnaire-button, .h5peditor .h5p-questionnaire-button {
@@ -95,8 +95,9 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   font-family: "KingsBureauGrot";
 }
 
-.h5p-branching-scenario-title-text {
+.h5p-branching-scenario-title-text, .vco-storyjs .vco-feature h1, .vco-storyjs .vco-feature h2, .vco-storyjs .vco-feature h3, .vco-storyjs .vco-feature h4, .vco-storyjs .vco-feature h5, .vco-storyjs .vco-feature h6 {
     font-family: "KingsBureauGrot";
+  font-weight:bold;
 }
 
 .h5p-audio-inner .h5p-audio-minimal-button {
@@ -141,7 +142,7 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   border-color: #b94a48;
 }
 
-h2, h3, .h5p-accordion .h5p-panel-title, h2.h5p-personality-quiz, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
+.vco-storyjs h1, .vco-storyjs h2, .vco-storyjs h3, .vco-storyjs h4, .vco-storyjs h5, h2, h3, .h5p-accordion .h5p-panel-title, h2.h5p-personality-quiz, .h5p-accordion .h5p-panel-title:hover, .h5p-accordion .h5p-panel-title:focus, .h5p-accordion .h5p-panel-title:active {
   font-family: 'KingsBureauGrot' !important;
   color: #0a2d50 !important;
 }
@@ -197,4 +198,7 @@ h2, h3, .h5p-accordion .h5p-panel-title, h2.h5p-personality-quiz, .h5p-accordion
 .h5p-text ul li {
   list-style-type: unset;
   line-height: 1.5;
+}
+.vco-storyjs p, .vco-storyjs blockquote, .vco-storyjs pre, .vco-storyjs a, .vco-storyjs abbr, .vco-storyjs acronym, .vco-storyjs address, .vco-storyjs cite, .vco-storyjs code, .vco-storyjs del, .vco-storyjs dfn, .vco-storyjs em, .vco-storyjs img, .vco-storyjs q, .vco-storyjs s, .vco-storyjs samp, .vco-storyjs small, .vco-storyjs strike, .vco-storyjs strong, .vco-storyjs sub, .vco-storyjs sup, .vco-storyjs tt, .vco-storyjs var, .vco-storyjs dd, .vco-storyjs dl, .vco-storyjs dt, .vco-storyjs li, .vco-storyjs ol, .vco-storyjs ul, .vco-storyjs fieldset, .vco-storyjs form, .vco-storyjs label, .vco-storyjs legend, .vco-storyjs button, .vco-storyjs table, .vco-storyjs caption, .vco-storyjs tbody, .vco-storyjs tfoot, .vco-storyjs thead, .vco-storyjs tr, .vco-storyjs th, .vco-storyjs td, .vco-storyjs .vco-container, .vco-storyjs .content-container, .vco-storyjs .media, .vco-storyjs .text, .vco-storyjs .vco-slider, .vco-storyjs .slider, .vco-storyjs .date, .vco-storyjs .title, .vco-storyjs .messege, .vco-storyjs .map, .vco-storyjs .credit, .vco-storyjs .caption, .vco-storyjs .vco-feedback, .vco-storyjs .vco-feature, .vco-storyjs .toolbar, .vco-storyjs .marker, .vco-storyjs .dot, .vco-storyjs .line, .vco-storyjs .flag, .vco-storyjs .time, .vco-storyjs .era, .vco-storyjs .major, .vco-storyjs .minor, .vco-storyjs .vco-navigation, .vco-storyjs .start, .vco-storyjs .active {
+  font-family: 'Open Sans';
 }

@@ -78,7 +78,7 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
   color: #333333 !important;
 }
 
-.h5peditor .ui-dialog .h5p-joubelui-button, .h5p-branching-scenario .h5p-start-button, .h5p-end-button, .h5p-nav-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button, .joubel-simple-rounded-button, .h5p-guess-answer .show-solution-button, .h5p-memory-reset, .h5p-questionnaire-button, .h5peditor .h5p-questionnaire-button {
+.h5p-branching-scenario .h5p-branching-question button, .h5peditor .ui-dialog .h5p-joubelui-button, .h5p-branching-scenario .h5p-start-button, .h5p-end-button, .h5p-nav-button, .h5peditor .h5p-joubelui-button, .h5p-joubelui-button, .joubel-simple-rounded-button, .h5p-guess-answer .show-solution-button, .h5p-memory-reset, .h5p-questionnaire-button, .h5peditor .h5p-questionnaire-button {
   background-color: #0A2D50 !important;
   color: #ffffff !important;
   font-family: "KingsBureauGrot";
@@ -198,11 +198,4 @@ html.h5p-iframe, .h5p-personality-quiz, .h5p-branching-scenario-subtitle-text, h
 .h5p-text ul li {
   list-style-type: unset;
   line-height: 1.5;
-}
-.vco-storyjs p, .vco-storyjs blockquote, .vco-storyjs pre, .vco-storyjs a, .vco-storyjs abbr, .vco-storyjs acronym, .vco-storyjs address, .vco-storyjs cite, .vco-storyjs code, .vco-storyjs del, .vco-storyjs dfn, .vco-storyjs em, .vco-storyjs img, .vco-storyjs q, .vco-storyjs s, .vco-storyjs samp, .vco-storyjs small, .vco-storyjs strike, .vco-storyjs strong, .vco-storyjs sub, .vco-storyjs sup, .vco-storyjs tt, .vco-storyjs var, .vco-storyjs dd, .vco-storyjs dl, .vco-storyjs dt, .vco-storyjs li, .vco-storyjs ol, .vco-storyjs ul, .vco-storyjs fieldset, .vco-storyjs form, .vco-storyjs label, .vco-storyjs legend, .vco-storyjs button, .vco-storyjs table, .vco-storyjs caption, .vco-storyjs tbody, .vco-storyjs tfoot, .vco-storyjs thead, .vco-storyjs tr, .vco-storyjs th, .vco-storyjs td, .vco-storyjs .vco-container, .vco-storyjs .content-container, .vco-storyjs .media, .vco-storyjs .text, .vco-storyjs .vco-slider, .vco-storyjs .slider, .vco-storyjs .date, .vco-storyjs .title, .vco-storyjs .messege, .vco-storyjs .map, .vco-storyjs .credit, .vco-storyjs .caption, .vco-storyjs .vco-feedback, .vco-storyjs .vco-feature, .vco-storyjs .toolbar, .vco-storyjs .marker, .vco-storyjs .dot, .vco-storyjs .line, .vco-storyjs .flag, .vco-storyjs .time, .vco-storyjs .era, .vco-storyjs .major, .vco-storyjs .minor, .vco-storyjs .vco-navigation, .vco-storyjs .start, .vco-storyjs .active {
-  font-family: 'Open Sans' !important;
-}
-
-.vco-timeline .vco-navigation .timenav .content .marker .flag .flag-content h3, #h5p-timeline .vco-slider .slider-item .content .text .container *,#h5p-timeline .vco-slider .slider-item .content .text .container *,.vco-slider .nav-next .date, .vco-slider .nav-next .title,.vco-storyjs .nav-container,.vco-slider .nav-previous .date, .vco-slider .nav-previous .title,.vco-storyjs h3 ,.vco-storyjs .vco-feature p,.vco-storyjs p, .vco-storyjs, .vco-storyjs h2, .vco-slider, .vco-storyjs .twitter, .vco-storyjs .vcard, .vco-storyjs .messege, .vco-storyjs .credit, .vco-storyjs .caption, .vco-storyjs .zoom-in, .vco-storyjs .zoom-out, .vco-storyjs .back-home, .vco-storyjs .time-interval div, .vco-storyjs .time-interval-major div, .vco-storyjs .nav-container {
-  font-family: "KingsBureauGrot" !important;
 }

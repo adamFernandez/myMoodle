@@ -2414,7 +2414,7 @@ img.cb-palette {
       background-color: #e6ebed;
       color: #171717; }
     .que .info .questionflag {
-      padding: calc(0.375rem - 0.8px);
+      padding: 0 0.5rem;
       border-radius: 3px;
       content: '';
       background: #e6ebed url("https://keats.kcl.ac.uk/theme/image.php/lambda/theme/1583219703/mod/quiz/flag-on") right top no-repeat;
@@ -2424,8 +2424,12 @@ img.cb-palette {
       box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset; }
       .que .info .questionflag .questionflagimage {
         display: none; }
-    .que .info .editquestion a:hover {
-      text-decoration: none; }
+    .que .info .editquestion {
+      background-color: transparent; }
+      .que .info .editquestion a img {
+        padding-left: 0; }
+      .que .info .editquestion a:hover {
+        text-decoration: none; }
   .que .content .formulation {
     background-color: transparent;
     margin: 0;

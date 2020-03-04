@@ -230,7 +230,7 @@ footer#page-footer {
   width: 100%;
   padding: 1.25rem 1.5rem; }
 
-.icon-before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, .que .info .questionflag.editable .questionflagtext::before {
+.icon-before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before {
   font-family: 'Font Awesome 5 Pro';
   font-weight: 900;
   margin-right: 0.375rem; }
@@ -2331,7 +2331,7 @@ img.cb-palette {
 
 #mod_quiz_navblock .content .qn_buttons {
   margin-bottom: 1.5rem; }
-  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
+  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading {
     margin-bottom: 0.5rem; }
   #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
     padding: 1rem 0 0 0; }
@@ -2343,6 +2343,8 @@ img.cb-palette {
     margin: 0 0.625rem 0.625rem 0;
     background-color: #CDD7DC !important;
     color: #171717 !important; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
+      text-decoration: none; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton span.thispageholder {
       border: none; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton span.trafficlight {
@@ -2381,12 +2383,16 @@ img.cb-palette {
 .que {
   margin: 0 0 2.25rem; }
   .que .info {
+    display: flex;
+    flex-wrap: row-wrap;
     margin-bottom: 1.5rem;
     background-color: transparent;
     padding: 0;
     border: none; }
     .que .info .no {
       width: 100%; }
+    .que .info .no, .que .info .qno {
+      margin-bottom: 0.5rem; }
     .que .info div {
       margin: 0 0.5rem 0 0;
       line-height: normal;
@@ -2403,19 +2409,17 @@ img.cb-palette {
     .que .info div.grade {
       background-color: #e6ebed;
       color: #171717; }
-    .que .info .questionflag.editable {
+    .que .info .questionflag {
       font-family: 'KingsBureauGrotFiveOne';
       padding: calc(0.375rem - 0.8px);
       border-radius: 0.125rem;
       content: '';
       background: #e6ebed url("https://keats.kcl.ac.uk/theme/image.php/lambda/theme/1583219703/mod/quiz/flag-on") right top no-repeat;
-      background-size: 8px; }
-      .que .info .questionflag.editable .questionflagimage {
+      background-size: 8px;
+      margin-left: auto;
+      margin-right: 0; }
+      .que .info .questionflag .questionflagimage {
         display: none; }
-      .que .info .questionflag.editable .questionflagtext::before {
-        content: '\f024';
-        color: #F5B90F;
-        font-weight: 500; }
   .que .content .formulation {
     background-color: transparent;
     margin: 0;

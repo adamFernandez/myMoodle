@@ -2329,12 +2329,12 @@ img.cb-palette {
 #mod_quiz_navblock .content #user-picture {
   margin: 0 0 1.5rem 0; }
 
-#mod_quiz_navblock .content qn_buttons {
+#mod_quiz_navblock .content .qn_buttons {
   margin-bottom: 1.5rem; }
-  #mod_quiz_navblock .content qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
+  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
     margin-bottom: 0.5rem;
     padding: 1rem 0 0 0; }
-  #mod_quiz_navblock .content qn_buttons a.qnbutton {
+  #mod_quiz_navblock .content .qn_buttons a.qnbutton {
     height: 1.25rem;
     width: 1.25rem;
     font-size: 1rem !important;
@@ -2342,17 +2342,17 @@ img.cb-palette {
     margin: 0 0.625rem 0.625rem 0;
     background-color: #CDD7DC !important;
     color: #171717 !important; }
-    #mod_quiz_navblock .content qn_buttons a.qnbutton span.thispageholder {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton span.thispageholder {
       border: none; }
-    #mod_quiz_navblock .content qn_buttons a.qnbutton span.trafficlight {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton span.trafficlight {
       display: none; }
-    #mod_quiz_navblock .content qn_buttons a.qnbutton.correct {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
       background-color: rgba(65, 195, 130, 0.5) !important; }
-    #mod_quiz_navblock .content qn_buttons a.qnbutton.incorrect {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect {
       background-color: rgba(234, 100, 94, 0.5) !important; }
-    #mod_quiz_navblock .content qn_buttons a.qnbutton.notanswered {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered {
       background-color: rgba(65, 185, 225, 0.5) !important; }
-      #mod_quiz_navblock .content qn_buttons a.qnbutton.notanswered span.thispageholder {
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered span.thispageholder {
         border: 2px solid #f5b90d;
         border-radius: 4px; }
 

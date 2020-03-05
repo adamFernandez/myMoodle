@@ -24,12 +24,17 @@
 }
 
 /* podcast */
+.podcast-container {
+  display: flex;
+}
 .podcast-container .podcast-image {
-  width: 100%;
+  width: 100px;
   height: auto;
+  margin-right: 1rem;
 }
 .podcast-container .podcast-right {
   position: relative;
+  flex: 1;
 }
 .podcast-container .podcast-info {
   position: absolute;
@@ -45,6 +50,7 @@
 .podcast-container .podcast-title {
   font-family: 'KingsBureauGrot';
 }
-.podcast-container .embed-responsive-audio, .embed-responsive-podcast {
-    padding-top: 75px;
+.podcast-container .embed-responsive-podcast {
+  padding-top: 75px;
+  margin-bottom: 0;
 }

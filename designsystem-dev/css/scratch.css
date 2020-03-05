@@ -26,6 +26,7 @@
 /* podcast */
 .podcast-container {
   display: flex;
+  margin-bottom: 1.5rem;
 }
 .podcast-container .podcast-image {
   width: 100px;

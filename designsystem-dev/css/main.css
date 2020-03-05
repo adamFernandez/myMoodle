@@ -2283,6 +2283,8 @@ img.cb-palette {
     border-left: 1px solid #8B9296;
     padding: 0.75rem 1.25rem !important;
     text-align: left !important; }
+    #page-mod-quiz-view .quizattemptsummary tr th.lastcol, #page-mod-quiz-view .quizattemptsummary tr td.lastcol {
+      display: none; }
   #page-mod-quiz-view .quizattemptsummary tr th {
     font-family: 'KingsBureauGrot';
     background-color: #EDF1F2;
@@ -2300,7 +2302,7 @@ img.cb-palette {
     margin-left: 0; }
 
 #page-mod-quiz-review .quizreviewsummary {
-  border-left: 1px solid #8B9296;
+  border-right: 1px solid #8B9296;
   border-bottom: 1px solid #8B9296; }
   #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-review .quizreviewsummary tr td {
     background-color: transparent;

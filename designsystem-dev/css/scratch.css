@@ -40,7 +40,7 @@
 .podcast-container .podcast-info {
   position: absolute;
   z-index: 1;
-  left: calc(94px + 1rem);
+  left: calc(80px + 1rem);
 }
 .podcast-container.podcast-container .podcast-speaker, .podcast-container .podcast-title {
   font-family: 'KingsBureauGrotFiveOne';

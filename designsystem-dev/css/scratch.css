@@ -36,15 +36,14 @@
   z-index: 1;
   left: calc(94px + 1rem);
 }
-.podcast-container.podcast-container .podcast-speaker {
+.podcast-container.podcast-container .podcast-speaker, .podcast-container .podcast-title {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1.125rem;
   line-height: normal;
+  margin-bottom: 0.375rem;
 }
 .podcast-container .podcast-title {
   font-family: 'KingsBureauGrot';
-  font-size: 1.125rem;
-  line-height: normal;
 }
 .podcast-container .embed-responsive-audio, .embed-responsive-podcast {
     padding-top: 75px;

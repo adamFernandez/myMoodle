@@ -2312,19 +2312,19 @@ img.cb-palette {
 #page-mod-quiz-review .quizreviewsummary {
   border-left: 1px solid #8B9296; }
   #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-review .quizreviewsummary tr td {
-    border-right: 1px solid #8B9296;
-    border-top: 1px solid #8B9296;
-    background-color: #FFFFFF; }
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #8B9296 !important;
+    border-left: 1px solid #8B9296;
+    padding: 0.75rem 1.25rem !important;
+    text-align: left !important; }
+    #page-mod-quiz-review .quizreviewsummary tr th.lastcol, #page-mod-quiz-review .quizreviewsummary tr td.lastcol {
+      display: none; }
   #page-mod-quiz-review .quizreviewsummary tr th {
     font-family: 'KingsBureauGrot';
-    color: #171717;
-    text-align: left !important; }
+    color: #171717; }
   #page-mod-quiz-review .quizreviewsummary tr td {
     color: #333333; }
-  #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td {
-    background-color: #f8fafa !important; }
-  #page-mod-quiz-review .quizreviewsummary tr:last-child th, #page-mod-quiz-review .quizreviewsummary tr:last-child td {
-    border-bottom: 1px solid #8B9296; }
 
 #mod_quiz_navblock .content #user-picture {
   margin: 0 0 1.5rem 0; }

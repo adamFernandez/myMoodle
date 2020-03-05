@@ -13,7 +13,7 @@ body, .videoHolder {
   top: 31px;
   background-color: #0a2d50 !important;
 }
-//.controlsContainer
+/* .controlsContainer */
 .closedCaptions, .playbackRateSelector, .sourceSelector, .fullScreenBtn, .expandToggleBtn {
   display: none;
 }

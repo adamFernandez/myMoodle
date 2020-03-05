@@ -22,3 +22,30 @@
     display: none;
   }
 }
+
+/* podcast */
+.podcast-container .podcast-image {
+  width: 100%;
+  height: auto;
+}
+.podcast-container .podcast-right {
+  position: relative;
+}
+.podcast-container .podcast-info {
+  position: absolute;
+  z-index: 1;
+  left: calc(94px + 1rem);
+}
+.podcast-container.podcast-container .podcast-speaker {
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1.125rem;
+  line-height: normal;
+}
+.podcast-container .podcast-title {
+  font-family: 'KingsBureauGrot';
+  font-size: 1.125rem;
+  line-height: normal;
+}
+.podcast-container .embed-responsive-audio, .embed-responsive-podcast {
+    padding-top: 75px;
+}

@@ -40,8 +40,8 @@ body {
   margin: 0 7rem 0 6rem;
 }
 .scrubber .playHead {
-  width: 14px;
-  height: 14px;
+  width: 14px !important;
+  height: 14px !important;
 }
 .sliderPreview {
   display: none !important;

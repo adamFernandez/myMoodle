@@ -39,6 +39,10 @@ body {
   border-bottom: 5px solid black !important;
   margin: 0 7rem 0 6rem;
 }
+.scrubber .playHead {
+  width: 14px;
+  height: 14px;
+}
 .sliderPreview {
   display: none !important;
 }

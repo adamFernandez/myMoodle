@@ -2238,6 +2238,30 @@ img.cb-palette {
   .do-dont p:last-child {
     margin-bottom: 0; }
 
+#page-mod-lesson-view .fitem {
+  margin-bottom: 0; }
+  #page-mod-lesson-view .fitem .fitemtitle {
+    display: none; }
+  #page-mod-lesson-view .fitem .felement {
+    margin-left: 0; }
+
+#page-mod-lesson-view .answeroption {
+  margin-bottom: 1.5rem; }
+  #page-mod-lesson-view .answeroption .fitem .felement span {
+    margin: 0;
+    display: inline-flex;
+    align-items: center; }
+    #page-mod-lesson-view .answeroption .fitem .felement span input {
+      margin-right: 1rem; }
+    #page-mod-lesson-view .answeroption .fitem .felement span label {
+      margin: 0; }
+
+#page-mod-lesson-view .fitem_fsubmit {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0; }
+
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 

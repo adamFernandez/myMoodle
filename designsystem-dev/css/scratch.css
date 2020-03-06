@@ -34,7 +34,8 @@
 .podcast-container .podcast-image {
   width: 100px;
   height: auto;
-  margin-right: 1rem;
+  margin-right: 0.75rem;
+  border-radius: 8px;
 }
 .podcast-container .podcast-right {
   position: relative;

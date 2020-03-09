@@ -45,7 +45,11 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
-// toggle view answer, model answer, and feedback button text and card
+// toggle view generic, view answer, model answer, and feedback button text and card
+$(document).on("click", "a.view-hide-generic", function(event) {
+  $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
+  $(this).parents(".view-generic-container").toggleClass("collapsed");
+});
 $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");

@@ -1366,7 +1366,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       font-family: 'KingsBureauGrot';
       line-height: 1.4; }
     .timeline-container .timeline-row .timeline-card img {
-      width: 100%; }
+      width: 100%;
+      height: auto; }
     .timeline-container .timeline-row .timeline-card .card-image {
       padding-right: 5px; }
     .timeline-container .timeline-row .timeline-card h5 {

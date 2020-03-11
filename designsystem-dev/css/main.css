@@ -2302,6 +2302,8 @@ img.cb-palette {
   border-right: 1px solid #8B9296;
   border-bottom: 1px solid #8B9296;
   border-collapse: separate; }
+  .quiz-table thead th, #page-mod-quiz-view .quizattemptsummary thead th, #page-mod-quiz-review .quizreviewsummary thead th, #page-mod-quiz-summary .quizsummaryofattempt thead th {
+    background-color: #f8fafa !important; }
   .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th, .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
     background-color: transparent;
     border: none;
@@ -2316,7 +2318,7 @@ img.cb-palette {
   .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
     color: #333333; }
   .quiz-table tr:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > th, .quiz-table tr:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > td {
-    background-color: #f8fafa !important; }
+    background-color: #f8fafa; }
 
 #page-mod-quiz-view .box.quizinfo p {
   font-family: 'KingsBureauGrotFiveOne';

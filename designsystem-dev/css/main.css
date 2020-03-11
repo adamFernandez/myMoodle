@@ -2301,7 +2301,8 @@ img.cb-palette {
   border: none;
   border-right: 1px solid #8B9296;
   border-bottom: 1px solid #8B9296;
-  border-collapse: separate; }
+  border-collapse: separate;
+  margin-bottom: 1.5rem; }
   .quiz-table thead th, #page-mod-quiz-view .quizattemptsummary thead th, #page-mod-quiz-review .quizreviewsummary thead th, #page-mod-quiz-summary .quizsummaryofattempt thead th {
     background-color: #f8fafa !important; }
   .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th, .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
@@ -2506,20 +2507,24 @@ img.cb-palette {
 #page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-review .mod_quiz-next-nav {
   margin-bottom: 4.5rem; }
 
-.moodle-dialogue .moodle-dialogue-wrap {
-  padding: 1rem; }
-  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
-    background-color: transparent !important;
-    border-bottom: none !important; }
-
-.moodle-dialogue .moodle-dialogue-bd {
-  padding: 0; }
-  .moodle-dialogue .moodle-dialogue-bd .confirmation-message {
-    font-family: 'KingsBureauGrotFiveOne';
-    font-size: 1rem; }
-
-.moodle-dialogue .moodle-dialogue-ft {
-  margin: 0 !important; }
+.moodle-dialogue {
+  width: 450px !important; }
+  .moodle-dialogue .moodle-dialogue-wrap {
+    padding: 2.25rem; }
+    .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
+      padding: 0 !important;
+      background-color: transparent !important;
+      line-height: normal;
+      margin-bottom: 1.5rem !important;
+      border-bottom: none !important; }
+  .moodle-dialogue .moodle-dialogue-bd {
+    padding: 0 !important; }
+    .moodle-dialogue .moodle-dialogue-bd .confirmation-message {
+      font-family: 'KingsBureauGrotFiveOne';
+      font-size: 1rem;
+      margin: 0 0 1.5rem 0; }
+  .moodle-dialogue .moodle-dialogue-ft {
+    margin: 0 !important; }
 
 .release-name-number {
   margin-bottom: 0; }

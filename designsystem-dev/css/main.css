@@ -2307,14 +2307,16 @@ img.cb-palette {
     border: none;
     border-top: 1px solid #8B9296;
     border-left: 1px solid #8B9296;
-    padding: calc($component-margin-xs / 2) 0.5rem;
-    text-align: left; }
+    padding: calc(0.5rem / 2) 0.5rem;
+    text-align: left !important;
+    vertical-align: top; }
   .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th {
     font-family: 'KingsBureauGrot';
-    background-color: #EDF1F2;
     color: #171717; }
   .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
     color: #333333; }
+  .quiz-table:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt:nth-child(even) > th, .quiz-table:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt:nth-child(even) > td {
+    background-color: #f8fafa !important; }
 
 #page-mod-quiz-view .box.quizinfo p {
   font-family: 'KingsBureauGrotFiveOne';
@@ -2516,9 +2518,6 @@ img.cb-palette {
 
 .moodle-dialogue .moodle-dialogue-ft {
   margin: 0 !important; }
-
-#page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tbody tr:nth-child(even) > td {
-  background-color: #f8fafa !important; }
 
 .release-name-number {
   margin-bottom: 0; }

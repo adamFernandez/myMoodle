@@ -2315,7 +2315,7 @@ img.cb-palette {
     color: #171717; }
   .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
     color: #333333; }
-  .quiz-table:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt:nth-child(even) > th, .quiz-table:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt:nth-child(even) > td {
+  .quiz-table tr:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > th, .quiz-table tr:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > td {
     background-color: #f8fafa !important; }
 
 #page-mod-quiz-view .box.quizinfo p {

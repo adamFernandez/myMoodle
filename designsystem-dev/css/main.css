@@ -1685,7 +1685,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         margin-right: 0.5rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
         text-decoration: none; }
-        .course-content ul.section li.activity .activityinstance a:hover .instancename {
+        .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a .activity-label-container {
         display: flex; }

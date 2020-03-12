@@ -87,6 +87,12 @@ if ($(".navbottom a.bookprev").length == 0) {
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
 
+// hide toc for single chapter book
+$(".block_book_toc .content ul > li:only-child strong:only-child").parents(".block_book_toc").hide();
+
+// add single-chapter-book class to screen and print to hide toc and title
+$(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
+
 // remove stupid arrows from prev and next activity links
 $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {
   return text.slice(2);

@@ -1742,10 +1742,13 @@ table li.activity.page {
   li.activity .activityinstance .activity-label-container .activity-label {
     line-height: 1.7; } }
 
-.hide-activity-labels li.activity::before {
-  display: none; }
+li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .group-icon, li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .media-icon {
+  display: none !important; }
 
-.hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
+li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .activity-label-container {
+  display: none !important; }
+
+li.section.main.section-hide-activity-labels li.activity.resource .activityinstance img {
   display: inline; }
 
 .colour-palette {

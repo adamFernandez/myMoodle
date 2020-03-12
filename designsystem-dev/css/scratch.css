@@ -60,8 +60,8 @@
   margin-bottom: 0;
 }
 
-.hide-activity-labels .activity:not(.type-assessed) .activity-label-container,
-.hide-activity-labels .activity.type-assessed .activity-label-container .group-icon,
-.hide-activity-labels .activity.type-assessed .activity-label-container .media-icon {
+li.section.main.section-hide-activity-labels .activity:not(.type-assessed) .activity-label-container,
+li.section.main.section-hide-activity-labels .activity.type-assessed .activity-label-container .group-icon,
+li.section.main.section-hide-activity-labels .activity.type-assessed .activity-label-container .media-icon {
   display: none !important;
 }

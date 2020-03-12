@@ -2363,9 +2363,11 @@ img.cb-palette {
     color: #171717 !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
       text-decoration: none; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton span.thispageholder {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton .thispageholder {
       border: none; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton span.trafficlight {
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.flagged .thispageholder {
+      background: transparent url(https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg) 15px 0 no-repeat; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton .trafficlight {
       display: none; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
       background-color: rgba(65, 195, 130, 0.5) !important; }
@@ -2435,7 +2437,7 @@ img.cb-palette {
       padding: 0 0.5rem;
       border-radius: 3px;
       content: '';
-      background: #e6ebed url("https://keats.kcl.ac.uk/theme/image.php/lambda/theme/1583219703/mod/quiz/flag-on") right top no-repeat;
+      background: #e6ebed url("https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg ") right top no-repeat;
       background-size: 8px;
       margin-left: auto;
       margin-right: 0;

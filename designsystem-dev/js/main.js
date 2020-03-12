@@ -145,6 +145,8 @@ if (window.matchMedia('print').matches) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
 }
+// hide activity labels within a specific course section
+$(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
 
 // and document title
 var documentTitle = document.title;

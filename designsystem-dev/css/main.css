@@ -1684,9 +1684,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .course-content ul.section li.activity .activityinstance a .instancename {
         margin-right: 0.5rem; }
         .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
-          margin-left: 1rem; }
-          .course-content ul.section li.activity .activityinstance a .instancename .activity-title.double-digits {
-            margin-left: calc(0.5rem - 0.5px); }
+          margin-left: 0.75rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
         text-decoration: none; }
         .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
@@ -1723,7 +1721,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
     padding-left: 0.625rem !important;
-    margin-left: calc(1.875rem + 1rem);
+    margin-left: 2.75rem;
     margin-top: 0; }
     .course-content ul.section li.activity.indent p, .course-content ul.section li.activity .contentafterlink p {
       margin: 0 0 1rem 0; }

@@ -63,3 +63,6 @@
 li.activity span.activity-title {
   margin-left: 1rem;
 }
+li.activity span.activity-title.double-digits {
+  margin-left: 0.5rem;
+}

@@ -2562,6 +2562,9 @@ input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, .moo
   .moodle-dialogue .moodle-dialogue-ft {
     margin: 0 !important; }
 
+#page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
+  display: none; }
+
 .release-name-number {
   margin-bottom: 0; }
   .release-name-number .major {

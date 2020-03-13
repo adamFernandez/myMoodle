@@ -523,13 +523,13 @@ var data = {
     },
     "module6": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2772471"
+        "1": "mod/forum/view.php?id=2952052"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=2772275"
+        "1": "mod/forum/view.php?id=2952063"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2772279"
+        "1": "mod/forum/view.php?id=2952067"
       }
     },
     "module7": {

@@ -1274,15 +1274,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   border-spacing: 0;
   border-radius: 0; }
   table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table, .table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
-    border: none;
-    border-right: 1px solid #8B9296;
-    border-bottom: 1px solid #8B9296;
+    border: 1px solid #8B9296 !important;
+    border-width: 0 1px 1px 0 !important;
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
-      border-top: 1px solid #8B9296 !important;
-      border-left: 1px solid #8B9296;
-      border-right: none;
-      border-bottom: none; }
+      border: 1px solid #8B9296 !important;
+      border-width: 1px 0 0 1px #8B9296; }
   table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: auto; }
   table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
@@ -1290,14 +1287,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-radius: 0 !important; }
     table th.border-left-none, table td.border-left-none, .table th.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th.border-left-none, .table td.border-left-none, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td.border-left-none {
       border-left: 0 !important; }
-  table thead th, table th, .table thead th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead th, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th {
-    background-color: #EDF1F2;
-    font-family: 'KingsBureauGrot';
-    font-size: 1.125rem;
-    line-height: 1.4;
-    color: #171717;
-    border-radius: 0 !important;
-    vertical-align: top; }
+  table thead, .table thead, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead {
+    border: none !important; }
+    table thead th, table thead th, .table thead th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead th, .table thead th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead th {
+      background-color: #EDF1F2;
+      font-family: 'KingsBureauGrot';
+      font-size: 1.125rem;
+      line-height: 1.4;
+      color: #171717;
+      border-radius: 0 !important;
+      vertical-align: top; }
   table td, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     line-height: 1.375;
     color: #333333; }

@@ -2460,10 +2460,15 @@ img.cb-palette {
       margin-bottom: 1.5rem; }
       .que .content .formulation .qtext p {
         margin-bottom: 1rem; }
+    .que .content .formulation select {
+      border-radius: 4px;
+      margin: 0; }
     .que .content .formulation .ablock {
       margin: 0 0 1.5rem 0; }
       .que .content .formulation .ablock .prompt, .que .content .formulation .ablock .readonly, .que .content .formulation .ablock .readonly p {
         margin-bottom: 1rem; }
+      .que .content .formulation .ablock .label {
+        margin: 0; }
       .que .content .formulation .ablock .answer {
         padding: 0 !important; }
         .que .content .formulation .ablock .answer label {
@@ -2495,14 +2500,16 @@ img.cb-palette {
         margin-bottom: 1rem; }
       .que .content .outcome .feedback .rightanswer {
         margin-bottom: 0; }
-  .que.correct .content .formulation .ablock, .que.correct .outcome {
-    background-color: rgba(40, 195, 130, 0.2) !important; }
+  .que.correct .formulation input.correct {
+    background-color: rgba(40, 195, 130, 0.2) !important;
+    border-color: #28C382 !important; }
   .que.correct .outcome > .feedback::before {
     color: #28C382;
     padding: 0 4px;
     content: '\f058'; }
-  .que.incorrect .content .formulation .ablock, .que.incorrect .outcome {
-    background-color: rgba(226, 35, 26, 0.2) !important; }
+  .que.incorrect .formulation input.correct {
+    background-color: rgba(226, 35, 26, 0.2) !important;
+    border-color: #E2231A !important; }
   .que.incorrect .outcome > .feedback::before {
     color: #E2231A;
     content: '\f057';

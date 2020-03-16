@@ -1267,10 +1267,10 @@ figure {
 
 .table-scroll {
   overflow: auto;
-  display: inline;
   margin-bottom: 1.5rem; }
   .table-scroll table {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    display: inline; }
 
 table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;

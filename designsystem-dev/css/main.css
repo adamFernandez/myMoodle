@@ -1270,16 +1270,14 @@ figure {
 
 table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
-  border-collapse: separate;
+  border-collapse: collapse;
   border-spacing: 0;
   border-radius: 0; }
   table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table, .table.table-bordered, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
     border: 1px solid #8B9296 !important;
-    border-width: 0 1px 1px 0 !important;
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
-      border: 1px solid #8B9296 !important;
-      border-width: 1px 0 0 1px #8B9296; }
+      border: 1px solid #8B9296 !important; }
   table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: auto; }
   table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {

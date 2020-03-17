@@ -1209,12 +1209,10 @@ figure {
     line-height: 1.5;
     font-family: Open Sans, sans-serif;
     font-weight: bold; }
-  .key-concept-box p:last-child {
-    margin-bottom: 0; }
-  .key-concept-box ul, .key-concept-box ol {
+  .key-concept-box > :last-child {
     margin-bottom: 0 !important; }
-    .key-concept-box ul li:last-child, .key-concept-box ol li:last-child {
-      margin-bottom: 0 !important; }
+  .key-concept-box ul li:last-child, .key-concept-box ol li:last-child {
+    margin-bottom: 0 !important; }
 
 #region-main .learning-outcome-box {
   background-color: #edf1f2; }

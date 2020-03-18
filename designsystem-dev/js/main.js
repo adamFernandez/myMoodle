@@ -63,12 +63,6 @@ $(document).on("click", "a.view-hide-feedback", function(event) {
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
 
-// home page add forum class to activtiy title containing 'discussion'
-$("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
-
-// hide activity labels on certain pages
-$(".hero.hide-activity-labels").parents("#region-main").addClass("hide-activity-labels");
-
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length
@@ -92,6 +86,12 @@ if ($(".navbottom a.bookprev").length == 0) {
 }
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
+
+// hide toc for single chapter book
+$(".block_book_toc .content ul > li:only-child strong:only-child").parents(".block_book_toc").hide();
+
+// add single-chapter-book class to screen and print to hide toc and title
+$(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
 // remove stupid arrows from prev and next activity links
 $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {

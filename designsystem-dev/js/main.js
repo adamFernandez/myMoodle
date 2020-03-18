@@ -144,7 +144,7 @@ course module navitation block
 logs
 forum new post confirmation
 */
-$("div:contains('activity-label'), span:contains('activity-label'), h1:contains('activity-label'), h2:contains('activity-label'), p:contains('activity-label'), a:contains('activity-label'), td:contains('activity-label')").text(function(i, currentText) {
+$("span:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 if (window.matchMedia('print').matches) {

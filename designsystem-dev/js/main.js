@@ -152,6 +152,8 @@ if (window.matchMedia('print').matches) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
 }
+// hide activity labels within a specific course section
+$(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
 
 // and document title
 var documentTitle = document.title;
@@ -171,3 +173,10 @@ $("li.activity.type-activity .activityinstance a .activity-label-container .acti
 $("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
 // add media icon
 $("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
+
+// create activity title span to control spacing between activity number and title text
+$("li.activity span.instancename").each(function() {
+  if ($(this).text().match(/[1-9]{1}.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
+    return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
+  });
+});

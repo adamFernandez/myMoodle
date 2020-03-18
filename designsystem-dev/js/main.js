@@ -1,5 +1,5 @@
 // hide administration block from students or teachers without editing rights
-$("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
+$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
 
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
@@ -45,11 +45,7 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
-// toggle view generic, view answer, model answer, and feedback button text and card
-$(document).on("click", "a.view-hide-generic", function(event) {
-  $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
-  $(this).parents(".view-generic-container").toggleClass("collapsed");
-});
+// toggle view answer, model answer, and feedback button text and card
 $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
@@ -62,6 +58,12 @@ $(document).on("click", "a.view-hide-feedback", function(event) {
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
+
+// home page add forum class to activtiy title containing 'discussion'
+$("li.activity .instancename:contains('Discussion')").parents("li.activity").addClass("forum");
+
+// hide activity labels on certain pages
+$(".hero.hide-activity-labels").parents("#region-main").addClass("hide-activity-labels");
 
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
@@ -86,12 +88,6 @@ if ($(".navbottom a.bookprev").length == 0) {
 }
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
-
-// hide toc for single chapter book
-$(".block_book_toc .content ul > li:only-child strong:only-child").parents(".block_book_toc").hide();
-
-// add single-chapter-book class to screen and print to hide toc and title
-$(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
 // remove stupid arrows from prev and next activity links
 $(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {
@@ -140,11 +136,11 @@ print page title, print book info title
 breadcrumb
 previous/next activity buttons
 webinar title
+forum post confirmation
 course module navitation block
 logs
-forum new post confirmation
 */
-$("div:contains('activity-label'), span:contains('activity-label'), h1:first-of-type:contains('activity-label'), h2:contains('activity-label'), p:contains('activity-label'), a:contains('activity-label'), td:contains('activity-label')").text(function(i, currentText) {
+$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 if (window.matchMedia('print').matches) {
@@ -152,8 +148,6 @@ if (window.matchMedia('print').matches) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
 }
-// hide activity labels within a specific course section
-$(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
 
 // and document title
 var documentTitle = document.title;
@@ -173,10 +167,3 @@ $("li.activity.type-activity .activityinstance a .activity-label-container .acti
 $("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
 // add media icon
 $("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
-
-// create activity title span to control spacing between activity number and title text
-$("li.activity span.instancename").each(function() {
-  if ($(this).text().match(/[1-9]{1}.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
-    return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
-  });
-});

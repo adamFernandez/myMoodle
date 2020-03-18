@@ -140,11 +140,11 @@ print page title, print book info title
 breadcrumb
 previous/next activity buttons
 webinar title
-forum post confirmation
 course module navitation block
 logs
+forum new post confirmation
 */
-$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label')").text(function(i, currentText) {
+$("div:contains('activity-label'), span:contains('activity-label'), h1:contains('activity-label'), h2:contains('activity-label'), p:contains('activity-label'), a:contains('activity-label'), td:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 if (window.matchMedia('print').matches) {

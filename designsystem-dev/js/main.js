@@ -1,5 +1,5 @@
 // hide administration block from students or teachers without editing rights
-$("#block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
+$("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").hide();
 
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
@@ -45,7 +45,11 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
-// toggle view answer, model answer, and feedback button text and card
+// toggle view generic, view answer, model answer, and feedback button text and card
+$(document).on("click", "a.view-hide-generic", function(event) {
+  $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
+  $(this).parents(".view-generic-container").toggleClass("collapsed");
+});
 $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");

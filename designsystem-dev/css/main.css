@@ -126,6 +126,11 @@ li {
   li > p {
     margin-bottom: 0; }
 
+hr {
+  margin: 1.5rem 0;
+  border: 1px solid #8B9296;
+  border-width: 0 0 1px 0; }
+
 .instancename {
   color: #0A2D50; }
   .instancename:hover {

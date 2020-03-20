@@ -3,9 +3,9 @@
   margin-bottom: 1.5rem;
   padding: 1.25rem;
   border: 1px solid #8B9296;
-  border-radius: 0.5rem;
+  border-radius: 4px;
   position: relative;
-  margin-top: 1.5rem;
+  margin-top: 22px;
   background: white;
 }
 .podcast-container:before {
@@ -30,7 +30,7 @@
   width: 80px;
   height: 80px;
   margin-right: 1.25rem;
-  border-radius: 8px;
+  border-radius: 6px;
   border: 1px solid #8B9296;
 }
 .podcast-container .podcast-top {

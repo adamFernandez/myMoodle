@@ -32,7 +32,7 @@ body {
   background-color: black;
   border-radius: 8px;
   margin-left: 3.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
   width: calc(100% - 3.25rem - 1px) !important;
   max-height: 18px;
 }

@@ -31,9 +31,9 @@
 }
 .podcast-container .podcast-top {
   display: flex;
+  margin-bottom: 0.75rem;
 }
 .podcast-container .podcast-info {
-  display: static;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,6 +51,6 @@
   margin-bottom: 0;
 }
 .podcast-container .embed-responsive-podcast {
-  padding-top: 50px;
+  padding-top: 40px;
   margin-bottom: 0;
 }

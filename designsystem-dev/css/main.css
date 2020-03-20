@@ -1467,6 +1467,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
 
+.single-chapter-book .book_content h3:first-of-type {
+  display: none; }
+
 .forumaddnew div {
   margin: 0; }
   .forumaddnew div input[type="submit"]:first-child {

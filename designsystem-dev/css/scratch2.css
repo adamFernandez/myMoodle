@@ -1,7 +1,7 @@
 /* podcast */
 .podcast-container {
   margin-bottom: 1.5rem;
-  padding: 0.75rem;
+  padding: 1.25rem;
   border: 1px solid #8B9296;
   border-radius: 0.5rem;
   position: relative;
@@ -15,23 +15,27 @@
   font-size: 1.125rem;
   position: absolute;
   right: 0.5rem;
-  top: -1.5rem;
+  top: -22px;
   background-color: #0a2d50;
   color: white;
-  padding: 3px 4px;
   border-radius: 4px 4px 0 0;
   line-height: 1;
+  width: 54px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .podcast-container .podcast-image {
-  width: 100px;
-  height: auto;
-  margin-right: 0.75rem;
+  width: 80px;
+  height: 80px;
+  margin-right: 1.25rem;
   border-radius: 8px;
   border: 1px solid #8B9296;
 }
 .podcast-container .podcast-top {
   display: flex;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 .podcast-container .podcast-info {
   display: flex;
@@ -43,8 +47,7 @@
   line-height: normal;
 }
 .podcast-container.podcast-container .podcast-speaker {
-  font-family: 'KingsBureauGrotFiveOne';
-  margin-bottom: 0.375rem;
+  margin-bottom: 0.75rem;
 }
 .podcast-container .podcast-title {
   font-family: 'KingsBureauGrot';

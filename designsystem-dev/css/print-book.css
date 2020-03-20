@@ -310,6 +310,15 @@ html {
   display: none;
 }
 
+/* single chapter book hide toc and first chapter title for print preview */
+#page-mod-book-print #page-content.single-chapter-book .book_toc_numbered,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_none,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_bullets,
+#page-mod-book-print #page-content.single-chapter-book .book_toc_indented,
+#page-mod-book-print #page-content.single-chapter-book .book_chapter h2:first-of-type {
+  display: none;
+}
+
 /* card and float box */
 #page-mod-book-print .card {
   display: flex;
@@ -963,6 +972,15 @@ button .h4::before {
   }
   .book_toc_numbered > a:first-child, .book_toc_none > a:first-child,
   .book_toc_bullets > a:first-child, .book_toc_indented > a:first-child {
+    display: none;
+  }
+
+  /* single chapter book hide toc and first chapter title for print */
+  #page-content.single-chapter-book .book_toc_numbered,
+  #page-content.single-chapter-book .book_toc_none,
+  #page-content.single-chapter-book .book_toc_bullets,
+  #page-content.single-chapter-book .book_toc_indented,
+  #page-content.single-chapter-book .book_chapter h2:first-of-type {
     display: none;
   }
 

@@ -1284,6 +1284,56 @@ figure {
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
 
+/* podcast */
+.podcast-container {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid #8B9296;
+  border-radius: 4px;
+  position: relative;
+  background: #FFFFFF; }
+  .podcast-container:before {
+    content: 'audio';
+    text-transform: uppercase;
+    font-family: 'KingsBureauGrot';
+    font-size: 1.125rem;
+    position: absolute;
+    right: 0.5rem;
+    top: -24px;
+    background-color: #0A2D50;
+    color: white;
+    border-radius: 4px 4px 0 0;
+    line-height: 1;
+    width: 54px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px; }
+  .podcast-container .podcast-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 1.25rem;
+    border-radius: 6px;
+    border: 1px solid #8B9296; }
+  .podcast-container .podcast-top {
+    display: flex;
+    margin-bottom: 1.25rem; }
+    .podcast-container .podcast-top .podcast-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .podcast-container .podcast-top .podcast-info .podcast-speaker, .podcast-container .podcast-top .podcast-info .podcast-container .podcast-title {
+        font-size: 1.125rem;
+        line-height: normal; }
+      .podcast-container .podcast-top .podcast-info .podcast-speaker {
+        margin-bottom: 0.75rem; }
+      .podcast-container .podcast-top .podcast-info .podcast-title {
+        font-family: 'KingsBureauGrot';
+        margin-bottom: 0; }
+  .podcast-container .embed-responsive-podcast, .podcast-container .podcast-player {
+    padding-top: 40px;
+    margin-bottom: 0; }
+
 .quote-box {
   background-color: #EDF1F2; }
   .quote-box > :first-child::before {

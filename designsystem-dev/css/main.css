@@ -1648,8 +1648,28 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         height: 100%; }
       #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
         cursor: none; }
-        #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
-          transform: none; }
+        #gridiconcontainer .gridicon_link .image_holder.inaccessible:before, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
+          content: 'Available soon';
+          position: absolute;
+          background-color: #F5B90F;
+          color: #333333;
+          z-index: 1;
+          top: 148px;
+          left: 0;
+          padding: 0 1rem;
+          width: 100%;
+          font-size: 1rem;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          font-family: 'KingsBureauGrot'; }
+        #gridiconcontainer .gridicon_link .image_holder.inaccessible .icon_content, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible .icon_content {
+          background-color: rgba(90, 100, 105, 0.85) !important; }
+        #gridiconcontainer .gridicon_link .image_holder.inaccessible img, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img {
+          filter: grayscale(1);
+          opacity: initial; }
+          #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
+            transform: none; }
 
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: 0; }

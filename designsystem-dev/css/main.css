@@ -1663,9 +1663,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   padding: 0 !important; }
   .course-content ul.section li.activity > div {
     width: 100%; }
-    @media only screen and (min-width: 768px) {
-      .course-content ul.section li.activity > div {
-        max-width: calc(100% - 105px); } }
     .course-content ul.section li.activity > div .mod-indent-outer {
       display: block; }
   .course-content ul.section li.activity .no-overflow {
@@ -1708,7 +1705,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a {
           justify-content: space-between; } }
       .course-content ul.section li.activity .activityinstance a .instancename {
-        margin-right: 0.5rem; }
+        margin-right: 2.25rem; }
         .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
           margin-left: 0.75rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
@@ -1716,6 +1713,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a .activity-label-container {
+        float: right;
         display: flex; }
         .course-content ul.section li.activity .activityinstance a .activity-label-container .activity-label {
           display: inline-block;
@@ -1743,6 +1741,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
+  .course-content ul.section li.activity .actions {
+    top: -2px; }
+    .course-content ul.section li.activity .actions button {
+      padding: 0 !important;
+      margin: 0; }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;

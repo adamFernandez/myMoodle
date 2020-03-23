@@ -101,9 +101,6 @@ $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
 
-// week overview page activity label code
-$("li.activity .activityinstance a:not(.quickeditlink)").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
-
 // move .accesshide from within .instancename and append to .activityinstance
 // affected the prefix title modification in original location
 $("li.activity .instancename .accesshide").each(function() {
@@ -152,15 +149,22 @@ if (window.matchMedia('print').matches) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   })
 }
-// hide activity labels within a specific course section
-$(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
-
 // and document title
 var documentTitle = document.title;
 if (documentTitle.includes('activity-label')) {
   documentTitle = documentTitle.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   $(document).attr('title', documentTitle);
 }
+
+// create activity title span to control spacing between activity number and title text
+$("li.activity span.instancename").each(function() {
+  if ($(this).text().match(/[1-9]{1}.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
+    return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
+  });
+});
+
+// week overview page activity label code
+$("li.activity .activityinstance a:not(.quickeditlink) .instancename").prepend('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
 
 // add indent class and remove keyword span
 $("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");
@@ -174,9 +178,5 @@ $("li.activity.i-group .activityinstance a .activity-label-container .group-icon
 // add media icon
 $("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
 
-// create activity title span to control spacing between activity number and title text
-$("li.activity span.instancename").each(function() {
-  if ($(this).text().match(/[1-9]{1}.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
-    return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
-  });
-});
+// hide activity labels within a specific course section
+$(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");

@@ -1647,7 +1647,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         width: 100%;
         height: 100%; }
       #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
-        cursor: none; }
+        cursor: none;
+        filter: none;
+        opacity: initial; }
         #gridiconcontainer .gridicon_link .image_holder.inaccessible:before, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
           content: 'Available soon';
           position: absolute;
@@ -1666,8 +1668,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         #gridiconcontainer .gridicon_link .image_holder.inaccessible .icon_content, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible .icon_content {
           background-color: rgba(90, 100, 105, 0.85) !important; }
         #gridiconcontainer .gridicon_link .image_holder.inaccessible img, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img {
-          filter: grayscale(1);
-          opacity: initial; }
+          filter: grayscale(1); }
           #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
             transform: none; }
 

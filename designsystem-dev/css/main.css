@@ -1705,6 +1705,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a {
           justify-content: space-between; } }
       .course-content ul.section li.activity .activityinstance a .instancename {
+        width: 100%;
         margin-right: 2.25rem; }
         .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
           margin-left: 0.75rem; }

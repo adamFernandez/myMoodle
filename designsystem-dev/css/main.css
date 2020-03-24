@@ -1130,13 +1130,11 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .embed-responsive-304by231 {
   padding-top: calc(231%/3.04); }
 
-/*
-.embed-responsive-audio {
-  padding-top: calc(350%/9.76);
-}
-*/
 .embed-responsive-youtube {
   padding-top: calc(900%/16); }
+
+.embed-responsive-audio {
+  padding-top: calc(350%/9.76); }
 
 .audio-container {
   margin: 1.5rem 0;

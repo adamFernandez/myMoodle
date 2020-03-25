@@ -164,7 +164,7 @@ $("li.activity span.instancename").each(function() {
 });
 
 // week overview page activity label code
-$("li.activity .activityinstance a:not(.quickeditlink) .instancename").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
+$("li.activity .activityinstance a:not(.quickeditlink) .instancename").prepend('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
 
 // add indent class and remove keyword span
 $("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");

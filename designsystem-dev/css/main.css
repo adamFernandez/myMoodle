@@ -1743,6 +1743,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         @media only screen and (max-width: 767px) {
           .course-content ul.section li.activity .activityinstance a .activity-label-container {
             float: right; } }
+        @media only screen and (min-width: 768px) {
+          .course-content ul.section li.activity .activityinstance a .activity-label-container {
+            order: 2; } }
         .course-content ul.section li.activity .activityinstance a .activity-label-container .activity-label {
           display: inline-block;
           font-family: 'KingsBureauGrot';

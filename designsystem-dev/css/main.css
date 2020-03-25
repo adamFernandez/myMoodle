@@ -1795,9 +1795,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin: 0 !important;
   display: flex !important;
   justify-content: flex-end; }
-  .completionprogress .helptooltip img {
+  .completionprogress .helptooltip a img {
     display: none; }
-  .completionprogress .helptooltip:after {
+  .completionprogress .helptooltip a:hover {
+    text-decoration: none; }
+  .completionprogress .helptooltip a:after {
     font-family: 'Font Awesome 5 Free';
     font-size: 1rem;
     content: '\f059';

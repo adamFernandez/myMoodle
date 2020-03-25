@@ -1802,7 +1802,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     font-size: 1rem;
     content: '\f059';
     color: #0A2D50;
-    margin-left: 4px; }
+    margin-left: 0.5rem; }
 
 .section_action_menu,
 .section .activity .commands {

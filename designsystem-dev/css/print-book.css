@@ -1287,7 +1287,7 @@ button .h4::before {
     color: #171717;
   }
   .table-bordered td {
-    color: #333333;
+/*    color: #333333;*/
   }
 
   /* timeline */

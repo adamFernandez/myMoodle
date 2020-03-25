@@ -1725,8 +1725,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a {
           justify-content: space-between; } }
       .course-content ul.section li.activity .activityinstance a .instancename {
-        width: 100%;
-        margin-right: 2.25rem; }
+        width: 100%; }
+        @media only screen and (min-width: 768px) {
+          .course-content ul.section li.activity .activityinstance a .instancename {
+            display: flex; } }
+        @media only screen and (max-width: 767px) {
+          .course-content ul.section li.activity .activityinstance a .instancename {
+            margin-right: 28px; } }
         .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
           margin-left: 0.75rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
@@ -1734,8 +1739,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a .activity-label-container {
-        float: right;
         display: flex; }
+        @media only screen and (max-width: 767px) {
+          .course-content ul.section li.activity .activityinstance a .activity-label-container {
+            float: right; } }
         .course-content ul.section li.activity .activityinstance a .activity-label-container .activity-label {
           display: inline-block;
           font-family: 'KingsBureauGrot';
@@ -1762,11 +1769,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
-  .course-content ul.section li.activity .actions {
-    top: -2px; }
-    .course-content ul.section li.activity .actions button {
-      padding: 0 !important;
-      margin: 0; }
+  .course-content ul.section li.activity .actions button {
+    padding: 0 !important;
+    margin: 0; }
+    .course-content ul.section li.activity .actions button img {
+      height: 1.25rem;
+      width: 1.25rem; }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
@@ -1779,6 +1787,19 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         margin-bottom: 0; }
   .course-content ul.section li.activity .contentwithoutlink {
     min-height: 1.5rem; }
+
+.completionprogress {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; }
+  .completionprogress .helptooltip img {
+    display: none; }
+  .completionprogress .helptooltip:after {
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1rem;
+    content: '\f059';
+    color: #0A2D50;
+    margin-left: 4px; }
 
 .section_action_menu,
 .section .activity .commands {

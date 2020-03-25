@@ -1792,8 +1792,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: 1.5rem; }
 
 .completionprogress {
-  margin: 0;
-  display: flex;
+  margin: 0 !important;
+  display: flex !important;
   justify-content: flex-end; }
   .completionprogress .helptooltip img {
     display: none; }

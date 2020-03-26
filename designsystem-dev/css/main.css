@@ -1772,12 +1772,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
-  .course-content ul.section li.activity .actions button {
+  .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
     padding: 0 !important;
     margin: 0; }
-    .course-content ul.section li.activity .actions button img {
+    .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
       height: 1.25rem;
-      width: 1.25rem; }
+      width: 1.25rem;
+      padding: 0; }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;

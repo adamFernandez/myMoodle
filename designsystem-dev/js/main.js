@@ -180,8 +180,3 @@ $("li.activity.i-media .activityinstance a .activity-label-container .media-icon
 
 // hide activity labels within a specific course section
 $(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
-
-// customise completion progress 'your progress' text
-$(".completionprogress").contents().filter(function(){
-  return (this.nodeType == 3);
-}).replaceWith("Completion checklist");

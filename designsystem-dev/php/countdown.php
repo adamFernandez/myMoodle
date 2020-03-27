@@ -1,1 +1,4 @@
-<?php echo strtotime('Apr 3, 2020 15:00:00') ?>
+<?php 
+  $name = 'Patrick';
+  $colour = 'pink';
+?>

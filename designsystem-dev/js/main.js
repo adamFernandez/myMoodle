@@ -35,7 +35,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
  });
 
 // hide and show collapse card
-$(document).on("click", ".collapse-card .collapse-header button", function(event) {
+$(document).on("click", ".collapse-card .collapse-header", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
 

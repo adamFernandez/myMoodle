@@ -1100,7 +1100,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: 0; }
-    .collapse-container .collapse-card.collapsed .collapse-header button .h4::after {
+    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before {
       content: '\f105'; }
     .collapse-container .collapse-card.collapsed .collapse-body {
       display: none; }

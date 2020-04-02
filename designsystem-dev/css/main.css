@@ -1804,7 +1804,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     width: 5.5rem; }
   .course-content ul.section li.activity .mod-indent-outer > div:last-child {
     display: flex;
-    flex-wrap: row; }
+    flex-wrap: wrap; }
   .course-content ul.section li.activity .activityinstance {
     min-height: initial !important;
     padding: 0;

@@ -1611,7 +1611,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: transparent; }
 
-#region-main ul.gtopics, #region-main ul.gtopics-0, #region-main ul.section {
+#region-main ul.gtopics, #region-main ul.gtopics-0, #region-main ul-ctopics, #region-main ul.section {
   margin: 0; }
 
 .content h3.sectionname {
@@ -1672,6 +1672,49 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           filter: grayscale(1); }
           #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
             transform: none; }
+
+.course-content ul.ctopics {
+  margin: 0 !important; }
+  .course-content ul.ctopics .section {
+    margin: 0 !important; }
+    .course-content ul.ctopics .section .content {
+      margin: 0 !important;
+      padding: 0 !important; }
+      .course-content ul.ctopics .section .content .sectionhead {
+        margin-bottom: 0 !important; }
+        .course-content ul.ctopics .section .content .sectionhead .toggle_open, .course-content ul.ctopics .section .content .sectionhead .toggle_closed {
+          background-color: #EDF1F2 !important;
+          padding: 1rem !important;
+          border: none !important; }
+          .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname {
+            margin: 0 !important;
+            margin-left: 2.25rem !important; }
+            .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname::before, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname::before {
+              font-family: 'Font Awesome 5 Free';
+              font-weight: 900;
+              content: '\f105';
+              position: absolute;
+              left: 1.25rem; }
+        .course-content ul.ctopics .section .content .sectionhead .toggle_open {
+          background-color: #0A2D50 !important;
+          color: #FFFFFF !important; }
+          .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname::before {
+            content: '\f107'; }
+        .course-content ul.ctopics .section .content .sectionhead .toggle_closed:hover {
+          background-color: #DCE3E6 !important; }
+      .course-content ul.ctopics .section .content .sectionbody.sectionopen {
+        background-color: #EDF1F2;
+        padding: 0 1.5rem 2.25rem 1.5rem; }
+    .course-content ul.ctopics .section:not(:first-of-type) .content .sectionhead {
+      margin-top: 0.5rem !important; }
+    .course-content ul.ctopics .section#section-0 .side {
+      display: none; }
+    .course-content ul.ctopics .section#section-0 .section-title {
+      margin-bottom: 2.25rem; }
+  .course-content ul.ctopics .tcsection {
+    margin: 0 !important; }
+    .course-content ul.ctopics .tcsection .content {
+      margin: 0 !important; }
 
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: 0; }

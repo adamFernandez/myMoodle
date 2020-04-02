@@ -1693,7 +1693,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.ctopics .section .right.side a:before {
           content: '\f35d';
           font-family: 'Font Awesome 5 Free';
-          font-weight: 900; }
+          font-weight: 900;
+          color: #0A2D50; }
         .course-content ul.ctopics .section .right.side a img {
           display: none; }
     .course-content ul.ctopics .section .content {
@@ -1705,7 +1706,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           background-image: none !important;
           background-color: #EDF1F2 !important;
           padding: 1rem !important;
-          border: none !important; }
+          border: none !important;
+          color: #171717 !important; }
           .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname {
             font-size: 1.25rem;
             line-height: 1;
@@ -1725,7 +1727,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.ctopics .section .content .sectionhead .toggle_closed:hover {
           background-color: #DCE3E6 !important; }
       .course-content ul.ctopics .section .content .sectionbody.sectionopen {
-        background-color: #EDF1F2;
+        background-color: rgba(237, 241, 242, 0.3);
         padding: 2.25rem 1.5rem; }
     .course-content ul.ctopics .section:not(:first-of-type) .content .sectionhead {
       margin-top: 0.5rem !important; }
@@ -1748,10 +1750,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           position: relative;
           font-size: 1rem;
           line-height: 1; }
-        .course-content ul.ctopics .tcsection .content h4 #toggle-all-opened::before,
-        .course-content ul.ctopics .tcsection .content h4 #toggle-all-opened:hover::before,
-        .course-content ul.ctopics .tcsection .content h4 #toggle-all-closed::before,
-        .course-content ul.ctopics .tcsection .content h4 #toggle-all-closed:hover::before {
+        .course-content ul.ctopics .tcsection .content h4 #toggles-all-opened::before,
+        .course-content ul.ctopics .tcsection .content h4 #toggles-all-opened:hover::before,
+        .course-content ul.ctopics .tcsection .content h4 #toggles-all-closed::before,
+        .course-content ul.ctopics .tcsection .content h4 #toggles-all-closed:hover::before {
           font-family: 'Font Awesome 5 Free';
           font-weight: 900;
           content: '\f105';
@@ -1816,16 +1818,14 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       @media only screen and (max-width: 767px) {
         .course-content ul.section li.activity .activityinstance a {
           justify-content: space-between; } }
-      .course-content ul.section li.activity .activityinstance a .instancename {
-        width: 100%; }
-        @media only screen and (min-width: 768px) {
-          .course-content ul.section li.activity .activityinstance a .instancename {
-            display: flex; } }
-        @media only screen and (max-width: 767px) {
-          .course-content ul.section li.activity .activityinstance a .instancename {
-            margin-right: 28px; } }
-        .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
-          margin-left: 0.75rem; }
+      @media only screen and (min-width: 768px) {
+        .course-content ul.section li.activity .activityinstance a .instancename {
+          display: flex; } }
+      @media only screen and (max-width: 767px) {
+        .course-content ul.section li.activity .activityinstance a .instancename {
+          margin-right: 28px; } }
+      .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
+        margin-left: 0.75rem; }
       .course-content ul.section li.activity .activityinstance a:hover {
         text-decoration: none; }
         .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
@@ -1864,13 +1864,18 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
-  .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
-    padding: 0 !important;
-    margin: 0; }
-    .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
-      height: 1.25rem;
-      width: 1.25rem;
-      padding: 0; }
+  .course-content ul.section li.activity .actions {
+    background: none;
+    left: 0; }
+    .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
+      padding: 0 !important;
+      margin: 0; }
+      .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
+        height: 1.25rem;
+        width: 1.25rem;
+        padding: 0;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.8); }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;

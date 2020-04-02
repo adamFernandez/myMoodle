@@ -1704,7 +1704,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           background-color: #DCE3E6 !important; }
       .course-content ul.ctopics .section .content .sectionbody.sectionopen {
         background-color: #EDF1F2;
-        padding: 0 1.5rem 2.25rem 1.5rem; }
+        padding: 2.25rem 1.5rem; }
     .course-content ul.ctopics .section:not(:first-of-type) .content .sectionhead {
       margin-top: 0.5rem !important; }
     .course-content ul.ctopics .section#section-0 .side {

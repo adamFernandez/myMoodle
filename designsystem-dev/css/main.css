@@ -1735,10 +1735,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
               content: '\f105';
               position: absolute;
               left: 1.25rem; }
-            .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname .quickediticon, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname .quickediticon {
-              position: absolute;
-              top: 12px;
-              margin-left: 8px; }
+            .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname a.quickeditlink, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname a.quickeditlink {
+              position: relative; }
+              .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname a.quickeditlink .quickediticon, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname a.quickeditlink .quickediticon {
+                position: absolute;
+                top: -2px;
+                margin-left: 8px; }
         .course-content ul.ctopics .section .content .sectionhead .toggle_open {
           background-color: #0A2D50 !important;
           color: #FFFFFF !important; }

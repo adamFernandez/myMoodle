@@ -572,16 +572,16 @@ var data = {
      },  
  "module2": {
        "forum1": {
-          "1": "mod/forum/view.php?id=2964509"
+          "1": "mod/forum/view.php?id=3202735"
        },
        "forum2": {
-          "1": "mod/forum/view.php?id=2964515"
+          "1": "mod/forum/view.php?id=3202741"
        },
        "forum3": {
-          "1": "mod/forum/view.php?id=2964545"
+          "1": "mod/forum/view.php?id=3202768"
        },
        "forum4": {
-          "1": "mod/forum/view.php?id=2964581"
+          "1": "mod/forum/view.php?id=3202802"
        }
      },
      "module3": {
@@ -668,30 +668,30 @@ var data = {
        },
       "module7a": {
         "forum1": {
-          "1": "mod/forum/view.php?id=3037842"
+          "1": "mod/forum/view.php?id=3202412"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=3037850"
+          "1": "mod/forum/view.php?id=3202419"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3037887"
+          "1": "mod/forum/view.php?id=3202444"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=3037928"
+          "1": "mod/forum/view.php?id=3202470"
         }
        },
       "module7b": {
         "forum1": {
-          "1": "mod/forum/view.php?id=3037976"
+          "1": "mod/forum/view.php?id=3202504"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=3037984"
+          "1": "mod/forum/view.php?id=3202511"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3038021"
+          "1": "mod/forum/view.php?id=3202538"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=3038062"
+          "1": "mod/forum/view.php?id=3202569"
         }
        },
       "module7c": {

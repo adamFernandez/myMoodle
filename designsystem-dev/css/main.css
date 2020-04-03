@@ -1683,6 +1683,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       position: absolute;
       top: 1rem;
       left: -2.25rem; }
+      .course-content ul.ctopics .section .side.left img.icon.spacer {
+        display: none; }
     .course-content ul.ctopics .section .side.right {
       width: auto !important;
       position: absolute;
@@ -1733,6 +1735,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
               content: '\f105';
               position: absolute;
               left: 1.25rem; }
+            .course-content ul.ctopics .section .content .sectionhead .toggle_open .sectionname .quickediticon, .course-content ul.ctopics .section .content .sectionhead .toggle_closed .sectionname .quickediticon {
+              position: absolute;
+              top: 12px;
+              margin-left: 8px; }
         .course-content ul.ctopics .section .content .sectionhead .toggle_open {
           background-color: #0A2D50 !important;
           color: #FFFFFF !important; }

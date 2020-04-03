@@ -1817,33 +1817,33 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       margin-bottom: 0; }
     .course-content ul.section li.activity .activityinstance img.activityicon {
       display: none; }
-    .course-content ul.section li.activity .activityinstance a {
+    .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
       display: flex;
       width: 100%; }
       @media only screen and (max-width: 767px) {
-        .course-content ul.section li.activity .activityinstance a {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
           justify-content: space-between; } }
       @media only screen and (min-width: 768px) {
-        .course-content ul.section li.activity .activityinstance a .instancename {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename {
           display: flex; } }
       @media only screen and (max-width: 767px) {
-        .course-content ul.section li.activity .activityinstance a .instancename {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename {
           margin-right: 28px; } }
-      .course-content ul.section li.activity .activityinstance a .instancename .activity-title {
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
         margin-left: 0.75rem; }
-      .course-content ul.section li.activity .activityinstance a:hover {
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover {
         text-decoration: none; }
-        .course-content ul.section li.activity .activityinstance a:hover .instancename .activity-title {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename .activity-title {
           text-decoration: underline; }
-      .course-content ul.section li.activity .activityinstance a .activity-label-container {
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
         display: flex; }
         @media only screen and (max-width: 767px) {
-          .course-content ul.section li.activity .activityinstance a .activity-label-container {
+          .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
             float: right; } }
         @media only screen and (min-width: 768px) {
-          .course-content ul.section li.activity .activityinstance a .activity-label-container {
+          .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
             order: 2; } }
-        .course-content ul.section li.activity .activityinstance a .activity-label-container .activity-label {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label {
           display: inline-block;
           font-family: 'KingsBureauGrot';
           font-size: 1rem;
@@ -1856,28 +1856,29 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           border-radius: 15px;
           margin-left: 1rem;
           background-color: #EDF1F2; }
-        .course-content ul.section li.activity .activityinstance a .activity-label-container .group-icon {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon {
           color: #FF5F05;
           font-size: 1.25rem; }
-        .course-content ul.section li.activity .activityinstance a .activity-label-container .group-icon .fas.fa-user-friends,
-        .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon .fas.fa-play-circle {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends,
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle {
           margin-left: 0.5rem; }
           @media only screen and (min-width: 768px) {
-            .course-content ul.section li.activity .activityinstance a .activity-label-container .group-icon .fas.fa-user-friends,
-            .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon .fas.fa-play-circle {
+            .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends,
+            .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle {
               margin-left: 1rem; } }
-        .course-content ul.section li.activity .activityinstance a .activity-label-container .media-icon {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon {
           color: #005AD2;
           font-size: 1.25rem; }
+    .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
+      opacity: 0.8; }
   .course-content ul.section li.activity .actions {
     position: static;
     max-width: max-content;
     background: none;
-    left: 0;
-    margin-right: 1rem; }
+    left: 0; }
     .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
       padding: 0 !important;
-      margin: 0; }
+      margin-right: 1rem; }
       .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
         height: 1.25rem;
         width: 1.25rem;
@@ -1899,7 +1900,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
         margin-bottom: 0; }
   .course-content ul.section li.activity .contentwithoutlink {
-    min-height: 1.5rem; }
+    min-height: 1.5rem;
+    width: 100%; }
 
 .completionprogress {
   margin: 0 !important;

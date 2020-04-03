@@ -1801,9 +1801,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     color: #FF5F05; }
   .course-content ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
     display: inline-block;
-    background-color: #60bbba;
+    background-color: #60bbba !important;
     color: white;
-    width: 5.5rem; }
+    width: 5.5rem !important; }
+  .course-content ul.section li.activity .editing_move {
+    top: 2px !important; }
   .course-content ul.section li.activity .mod-indent-outer > div:last-child {
     display: flex;
     flex-wrap: wrap; }
@@ -1885,6 +1887,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         padding: 0;
         border-radius: 4px;
         background: rgba(255, 255, 255, 0.8); }
+    .course-content ul.section li.activity .actions .filler {
+      display: none; }
   .course-content ul.section li.activity .availabilityinfo {
     order: 3;
     flex: 0 0 100%;
@@ -1901,7 +1905,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         margin-bottom: 0; }
   .course-content ul.section li.activity .contentwithoutlink {
     min-height: 1.5rem;
-    width: 100%; }
+    width: 100%;
+    order: 2; }
 
 .completionprogress {
   margin: 0 !important;
@@ -1921,7 +1926,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .section_action_menu,
 .section .activity .commands {
   position: absolute;
-  left: -4.5rem; }
+  left: -9.5rem; }
+  .section_action_menu .menu,
+  .section .activity .commands .menu {
+    left: unset; }
 
 table li.activity.page {
   margin-bottom: unset !important; }

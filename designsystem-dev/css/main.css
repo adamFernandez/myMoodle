@@ -1679,24 +1679,38 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin: 0 !important;
     max-width: calc(100% - 1.75rem);
     position: relative; }
-    .course-content ul.ctopics .section .right.side {
+    .course-content ul.ctopics .section .side.left {
+      position: absolute;
+      top: 1rem;
+      left: -2.25rem; }
+    .course-content ul.ctopics .section .side.right {
       width: auto !important;
       position: absolute;
       right: -28px;
       top: 1.25rem; }
-      .course-content ul.ctopics .section .right.side a.tceditsection {
+      .course-content ul.ctopics .section .side.right a.tceditsection {
         line-height: normal;
         height: max-content;
         width: max-content;
         margin: 0 !important;
         font-size: 1.25rem; }
-        .course-content ul.ctopics .section .right.side a.tceditsection:before {
+        .course-content ul.ctopics .section .side.right a.tceditsection:before {
           content: '\f35d';
           font-family: 'Font Awesome 5 Free';
           font-weight: 900;
           color: #0A2D50; }
-        .course-content ul.ctopics .section .right.side a.tceditsection img {
+        .course-content ul.ctopics .section .side.right a.tceditsection img {
           display: none; }
+      .course-content ul.ctopics .section .side.right .section_action_menu {
+        position: absolute;
+        right: 2.25rem;
+        top: 0; }
+        .course-content ul.ctopics .section .side.right .section_action_menu .menubar {
+          margin: 0 !important;
+          background-color: white;
+          opacity: 0.8;
+          border-radius: 4px;
+          padding: 0.25rem 0; }
     .course-content ul.ctopics .section .content {
       margin: 0 !important;
       padding: 0 !important; }
@@ -1795,7 +1809,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.section li.activity.modtype_lti .instancename {
     margin-bottom: 1rem !important; }
   .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
-    display: none; }
+    display: none !important; }
   .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
     display: inline-block !important;
     color: #FF5F05; }
@@ -1878,6 +1892,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     max-width: max-content;
     background: none;
     left: 0; }
+    .course-content ul.section li.activity .actions .commands {
+      position: absolute;
+      left: -7.25rem; }
+      .course-content ul.section li.activity .actions .commands .menubar {
+        margin: 0 !important; }
+      .course-content ul.section li.activity .actions .commands .menu {
+        left: unset !important; }
     .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
       padding: 0 !important;
       margin-right: 1rem; }
@@ -1922,14 +1943,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     content: '\f059';
     color: #0A2D50;
     margin-left: 0.5rem; }
-
-.section_action_menu,
-.section .activity .commands {
-  position: absolute;
-  left: -9.5rem; }
-  .section_action_menu .menu,
-  .section .activity .commands .menu {
-    left: unset; }
 
 table li.activity.page {
   margin-bottom: unset !important; }

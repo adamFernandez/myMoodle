@@ -1690,18 +1690,18 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       position: absolute;
       right: -28px;
       top: 1.25rem; }
-      .course-content ul.ctopics .section .side.right a.tceditsection {
+      .course-content ul.ctopics .section .side.right a.tceditsection, .course-content ul.ctopics .section .side.right .cps_centre {
         line-height: normal;
         height: max-content;
         width: max-content;
         margin: 0 !important;
         font-size: 1.25rem; }
-        .course-content ul.ctopics .section .side.right a.tceditsection:before {
+        .course-content ul.ctopics .section .side.right a.tceditsection:before, .course-content ul.ctopics .section .side.right .cps_centre:before {
           content: '\f35d';
           font-family: 'Font Awesome 5 Free';
           font-weight: 900;
           color: #0A2D50; }
-        .course-content ul.ctopics .section .side.right a.tceditsection img {
+        .course-content ul.ctopics .section .side.right a.tceditsection img, .course-content ul.ctopics .section .side.right .cps_centre img {
           display: none; }
       .course-content ul.ctopics .section .side.right .section_action_menu {
         position: absolute;
@@ -1909,7 +1909,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         left: unset !important; }
     .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
       padding: 0 !important;
-      margin-right: 1rem; }
+      margin: 0 1rem 0 0 !important; }
       .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
         height: 1.25rem;
         width: 1.25rem;

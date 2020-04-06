@@ -1940,7 +1940,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     order: 2; }
 
 .completionprogress {
-  margin: 0 !important;
+  margin: 0 0 1rem 0 !important;
   display: flex !important;
   justify-content: flex-end; }
   .completionprogress .helptooltip a img {
@@ -2745,19 +2745,22 @@ img.cb-palette {
   .moodle-dialogue .moodle-dialogue-wrap {
     padding: 2.25rem; }
     .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
-      padding: 0 !important;
       background-color: transparent !important;
       line-height: normal;
       margin-bottom: 1.5rem !important;
-      border-bottom: none !important; }
+      border-bottom: none !important;
+      color: #171717 !important;
+      font-family: 'KingsBureauGrot';
+      font-size: 38px !important;
+      padding: 0 3rem !important; }
       .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span {
         padding: 0 !important; }
         .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton {
           padding: 0 !important;
           margin: 0 !important;
           position: absolute;
-          top: 0;
-          right: 0;
+          top: 2px;
+          right: 8px;
           box-shadow: none;
           background-image: none;
           background: none; }
@@ -2773,6 +2776,8 @@ img.cb-palette {
       font-family: 'KingsBureauGrotFiveOne';
       font-size: 1rem;
       margin: 0 0 1.5rem 0; }
+    .moodle-dialogue .moodle-dialogue-bd .tooltiptext > p:last-child {
+      margin-bottom: 0; }
     .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input#searchforums, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn.btn-secondary, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn#id_cancel, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >

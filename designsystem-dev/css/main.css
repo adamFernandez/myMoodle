@@ -1678,6 +1678,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.ctopics .section {
     margin: 0 !important;
     position: relative; }
+    .course-content ul.ctopics .section:not(#section-0) {
+      width: calc(100% - 28px); }
     .course-content ul.ctopics .section .side.left {
       position: absolute;
       top: 1rem;

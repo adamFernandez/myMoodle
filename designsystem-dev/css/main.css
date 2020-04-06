@@ -2743,7 +2743,7 @@ img.cb-palette {
 .moodle-dialogue {
   width: 450px !important; }
   .moodle-dialogue .moodle-dialogue-wrap {
-    padding: 2.25rem; }
+    padding: 1.5rem 2.25rem 2.25rem 2.25rem; }
     .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
       background-color: transparent !important;
       line-height: normal;

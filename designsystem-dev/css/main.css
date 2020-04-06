@@ -1677,7 +1677,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin: 0 !important; }
   .course-content ul.ctopics .section {
     margin: 0 !important;
-    max-width: calc(100% - 1.75rem);
     position: relative; }
     .course-content ul.ctopics .section .side.left {
       position: absolute;
@@ -1837,6 +1836,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: initial !important;
     padding: 0;
     order: 2; }
+    .course-content ul.section li.activity .activityinstance:not(:only-child) {
+      width: calc(100% - 38px); }
     .course-content ul.section li.activity .activityinstance ~ .ishidden {
       margin: 0; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
@@ -1846,15 +1847,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
       display: flex;
       width: 100%; }
-      @media only screen and (max-width: 767px) {
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
-          justify-content: space-between; } }
-      @media only screen and (min-width: 768px) {
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename {
-          display: flex; } }
-      @media only screen and (max-width: 767px) {
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename {
-          margin-right: 28px; } }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
         margin-left: 0.75rem; }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover {
@@ -1862,13 +1854,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
+        float: right;
         display: flex; }
-        @media only screen and (max-width: 767px) {
-          .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
-            float: right; } }
-        @media only screen and (min-width: 768px) {
-          .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
-            order: 2; } }
         .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label {
           display: inline-block;
           font-family: 'KingsBureauGrot';

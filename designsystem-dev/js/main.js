@@ -142,6 +142,7 @@ logs
 forum new post confirmation
 */
 $("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label')").text(function(i, currentText) {
+  return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 // completion progress activity title
 $(".course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon").attr("title", function(i, currentText) {

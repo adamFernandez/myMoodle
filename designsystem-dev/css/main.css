@@ -1753,10 +1753,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           background-color: #DCE3E6 !important; }
       .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
         background-color: rgba(237, 241, 242, 0.3);
-        padding: 2.25rem 1.5rem; }
+        padding: 1.5rem 0.5rem; }
         @media only screen and (min-width: 768px) {
           .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
-            padding: 1.5rem 0.5rem; } }
+            padding: 2.25rem 1.5rem; } }
         .course-content ul.ctopics > .section .content .sectionbody.sectionopen li.activity:last-child {
           margin-bottom: 0 !important; }
     .course-content ul.ctopics > .section:not(:first-of-type) .content .sectionhead {

@@ -2584,7 +2584,7 @@ img.cb-palette {
     background-color: #CDD7DC !important;
     color: #171717 !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
-      text-decoration: none; }
+      text-decoration: none !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton .thispageholder {
       border: none; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.flagged .thispageholder {
@@ -2592,13 +2592,16 @@ img.cb-palette {
     #mod_quiz_navblock .content .qn_buttons a.qnbutton .trafficlight {
       display: none; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
-      background-color: rgba(65, 195, 130, 0.5) !important; }
+      background-color: transparent !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct span.thispageholder {
+        border: 2px solid #28C382;
+        border-radius: 4px; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect {
       background-color: rgba(234, 100, 94, 0.5) !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered {
       background-color: rgba(65, 185, 225, 0.5) !important; }
       #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered span.thispageholder {
-        border: 2px solid #f5b90d;
+        border: 2px solid #8B9296;
         border-radius: 4px; }
 
 #mod_quiz_navblock .content .othernav {

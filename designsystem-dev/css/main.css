@@ -1673,6 +1673,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
             transform: none; }
 
+.editing .course-content ul.ctopics {
+  margin-left: 2.25rem !important; }
+
 .course-content ul.ctopics {
   margin: 0 !important; }
   .course-content ul.ctopics > .section {

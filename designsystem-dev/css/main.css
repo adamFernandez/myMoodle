@@ -2729,17 +2729,21 @@ img.cb-palette {
   .que.correct .formulation input.correct {
     background-color: rgba(40, 195, 130, 0.2) !important;
     border-color: #28C382 !important; }
-  .que.correct .outcome > .feedback::before {
-    color: #28C382;
-    padding: 0 4px;
-    content: '\f058'; }
+  .que.correct .outcome {
+    background-color: rgba(40, 195, 130, 0.2) !important; }
+    .que.correct .outcome > .feedback::before {
+      color: #28C382;
+      padding: 0 4px;
+      content: '\f058'; }
   .que.incorrect .formulation input.correct {
     background-color: rgba(226, 35, 26, 0.2) !important;
     border-color: #E2231A !important; }
-  .que.incorrect .outcome > .feedback::before {
-    color: #E2231A;
-    content: '\f057';
-    padding: 0 4px; }
+  .que.incorrect .outcome {
+    background-color: rgba(226, 35, 26, 0.2) !important; }
+    .que.incorrect .outcome > .feedback::before {
+      color: #E2231A;
+      content: '\f057';
+      padding: 0 4px; }
 
 #page-mod-quiz-attempt .submitbtns, #page-mod-quiz-review .submitbtns {
   padding: 0; }

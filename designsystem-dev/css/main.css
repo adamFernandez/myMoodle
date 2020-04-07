@@ -2682,7 +2682,13 @@ img.cb-palette {
         margin-bottom: 1rem; }
     .que .content .formulation select {
       border-radius: 4px;
-      margin: 0; }
+      margin: 0;
+      background-color: transparent;
+      color: #333333; }
+      .que .content .formulation select.correct {
+        border-color: #28C382; }
+      .que .content .formulation select.incorrect {
+        border-color: #E2231A; }
     .que .content .formulation .ablock {
       margin: 0 0 1.5rem 0; }
       .que .content .formulation .ablock .prompt, .que .content .formulation .ablock .readonly, .que .content .formulation .ablock .readonly p {

@@ -1691,7 +1691,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       width: auto !important;
       position: absolute;
       right: -28px;
-      bottom: 0.625rem; }
+      bottom: 0.75rem; }
       .course-content ul.ctopics > .section .side.right a.tceditsection, .course-content ul.ctopics > .section .side.right .cps_centre {
         line-height: normal;
         height: max-content;

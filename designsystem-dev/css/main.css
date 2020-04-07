@@ -1691,7 +1691,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       width: auto !important;
       position: absolute;
       right: -28px;
-      bottom: 0.75rem; }
+      top: 0.75rem; }
       .course-content ul.ctopics > .section .side.right a.tceditsection, .course-content ul.ctopics > .section .side.right .cps_centre {
         line-height: normal;
         height: max-content;
@@ -1760,8 +1760,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
             padding: 2.25rem 1.5rem; } }
         .course-content ul.ctopics > .section .content .sectionbody.sectionopen li.activity:last-child {
           margin-bottom: 0 !important; }
-    .course-content ul.ctopics > .section:not(:first-of-type) .content .sectionhead {
-      margin-top: 0.5rem !important; }
+    .course-content ul.ctopics > .section:not(:last-of-type) .content .sectionhead {
+      margin-bottom: 0.5rem !important; }
     .course-content ul.ctopics > .section#section-0 .side {
       display: none; }
     .course-content ul.ctopics > .section#section-0 .section-title {

@@ -1843,7 +1843,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     padding: 0;
     order: 2; }
     .course-content ul.section li.activity .activityinstance:not(:only-child) {
-      width: calc(100% - 38px); }
+      width: calc(100% - 30px); }
+      @media only screen and (min-width: 768px) {
+        .course-content ul.section li.activity .activityinstance:not(:only-child) {
+          width: calc(100% - 38px); } }
     .course-content ul.section li.activity .activityinstance ~ .ishidden {
       margin: 0; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {

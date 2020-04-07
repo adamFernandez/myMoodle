@@ -1674,7 +1674,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
             transform: none; }
 
 .editing .course-content ul.ctopics {
-  margin-left: 2.25rem !important; }
+  margin-left: 8.75rem !important;
+  width: calc(100% - 8.75rem); }
 
 .course-content ul.ctopics {
   margin: 0 !important; }

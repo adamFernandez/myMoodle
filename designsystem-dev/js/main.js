@@ -190,4 +190,4 @@ $(".summary span.section-hide-activity-labels").parents("li.section.main").addCl
 $(".section.main:has(.activity .actions .autocompletion, .activity .actions .togglecompletion)").addClass("completion-progress-section");
 $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClass("completion-progress-activity");
 // clone completion progress tooltip to each section with completion progress activities
-$(".completion-progress-section .content .sectionbody .section").prepend($("#completionprogressid").clone());
+$(".course-content .completion-progress-section .content .sectionbody > .section, .course-content .single-section .completion-progress-section .content > .section").prepend($("#completionprogressid").clone());

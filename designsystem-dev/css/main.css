@@ -1917,39 +1917,39 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     width: 100%;
     order: 2; }
 
-.section.main.competion-progress-section .activity.completion-progress {
+.section.main.completion-progress-section .activity.completion-progress {
   width: calc(100% - 30px); }
   @media only screen and (min-width: 768px) {
-    .section.main.competion-progress-section .activity.completion-progress {
+    .section.main.completion-progress-section .activity.completion-progress {
       width: calc(100% - 38px); } }
-  .section.main.competion-progress-section .activity.completion-progress .actions {
+  .section.main.completion-progress-section .activity.completion-progress .actions {
     position: static;
     max-width: max-content;
     background: none;
     left: 0; }
-    .section.main.competion-progress-section .activity.completion-progress .actions .commands {
+    .section.main.completion-progress-section .activity.completion-progress .actions .commands {
       position: absolute;
       left: -7.25rem; }
-      .section.main.competion-progress-section .activity.completion-progress .actions .commands .menubar {
+      .section.main.completion-progress-section .activity.completion-progress .actions .commands .menubar {
         margin: 0 !important; }
-      .section.main.competion-progress-section .activity.completion-progress .actions .commands .menu {
+      .section.main.completion-progress-section .activity.completion-progress .actions .commands .menu {
         left: unset !important; }
-    .section.main.competion-progress-section .activity.completion-progress .actions button, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion {
+    .section.main.completion-progress-section .activity.completion-progress .actions button, .section.main.completion-progress-section .activity.completion-progress .actions .autocompletion {
       padding: 0 !important;
       margin: 0 0.5rem 0 0 !important; }
       @media only screen and (min-width: 768px) {
-        .section.main.competion-progress-section .activity.completion-progress .actions button, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion {
+        .section.main.completion-progress-section .activity.completion-progress .actions button, .section.main.completion-progress-section .activity.completion-progress .actions .autocompletion {
           margin: 0 1rem 0 0 !important; } }
-      .section.main.competion-progress-section .activity.completion-progress .actions button img.icon, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion img.icon {
+      .section.main.completion-progress-section .activity.completion-progress .actions button img.icon, .section.main.completion-progress-section .activity.completion-progress .actions .autocompletion img.icon {
         height: 1.25rem;
         width: 1.25rem;
         padding: 0;
         border-radius: 4px;
         background: rgba(255, 255, 255, 0.8); }
-    .section.main.competion-progress-section .activity.completion-progress .actions .filler {
+    .section.main.completion-progress-section .activity.completion-progress .actions .filler {
       display: none; }
 
-.section.main.competion-progress-section .activity:not(.completion-progress) {
+.section.main.completion-progress-section .activity:not(.completion-progress) {
   margin-left: 38px; }
 
 .completionprogress {

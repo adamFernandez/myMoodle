@@ -187,4 +187,5 @@ $("li.activity.i-media .activityinstance a .activity-label-container .media-icon
 $(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
 
 // completion progress class added to section with tracked activities
-$(".section.main:has(.activity .actions)").addClass("completion-progress");
+$(".section.main:has(.activity .actions .autocompletion, .activity .actions .togglecompletion)").addClass("completion-progress-section");
+$(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClass("completion-progress-activity");

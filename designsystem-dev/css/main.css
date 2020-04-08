@@ -1956,13 +1956,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin-left: 38px; }
 
 .completionprogress {
-  margin: 0 0 1rem 0 !important;
+  margin: 0 0 1.5rem 0 !important;
   display: flex !important;
   justify-content: flex-start;
   float: none !important;
   text-align: left !important;
   line-height: 1.5;
-  height: auto; }
+  height: auto !important; }
   .completionprogress .helptooltip a img {
     display: none; }
   .completionprogress .helptooltip a:hover {

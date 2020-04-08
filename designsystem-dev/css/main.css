@@ -1846,11 +1846,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: initial !important;
     padding: 0;
     order: 2; }
-    .course-content ul.section li.activity .activityinstance:not(:only-child) {
-      width: calc(100% - 30px); }
-      @media only screen and (min-width: 768px) {
-        .course-content ul.section li.activity .activityinstance:not(:only-child) {
-          width: calc(100% - 38px); } }
     .course-content ul.section li.activity .activityinstance ~ .ishidden {
       margin: 0; }
     .course-content ul.section li.activity .activityinstance:not(:last-child) {
@@ -1902,32 +1897,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           font-size: 1.25rem; }
     .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
       opacity: 0.8; }
-  .course-content ul.section li.activity .actions {
-    position: static;
-    max-width: max-content;
-    background: none;
-    left: 0; }
-    .course-content ul.section li.activity .actions .commands {
-      position: absolute;
-      left: -7.25rem; }
-      .course-content ul.section li.activity .actions .commands .menubar {
-        margin: 0 !important; }
-      .course-content ul.section li.activity .actions .commands .menu {
-        left: unset !important; }
-    .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
-      padding: 0 !important;
-      margin: 0 0.5rem 0 0 !important; }
-      @media only screen and (min-width: 768px) {
-        .course-content ul.section li.activity .actions button, .course-content ul.section li.activity .actions .autocompletion {
-          margin: 0 1rem 0 0 !important; } }
-      .course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon {
-        height: 1.25rem;
-        width: 1.25rem;
-        padding: 0;
-        border-radius: 4px;
-        background: rgba(255, 255, 255, 0.8); }
-    .course-content ul.section li.activity .actions .filler {
-      display: none; }
   .course-content ul.section li.activity .availabilityinfo {
     order: 3;
     flex: 0 0 100%;
@@ -1947,6 +1916,41 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: 1.5rem;
     width: 100%;
     order: 2; }
+
+.section.main.competion-progress-section .activity.completion-progress {
+  width: calc(100% - 30px); }
+  @media only screen and (min-width: 768px) {
+    .section.main.competion-progress-section .activity.completion-progress {
+      width: calc(100% - 38px); } }
+  .section.main.competion-progress-section .activity.completion-progress .actions {
+    position: static;
+    max-width: max-content;
+    background: none;
+    left: 0; }
+    .section.main.competion-progress-section .activity.completion-progress .actions .commands {
+      position: absolute;
+      left: -7.25rem; }
+      .section.main.competion-progress-section .activity.completion-progress .actions .commands .menubar {
+        margin: 0 !important; }
+      .section.main.competion-progress-section .activity.completion-progress .actions .commands .menu {
+        left: unset !important; }
+    .section.main.competion-progress-section .activity.completion-progress .actions button, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion {
+      padding: 0 !important;
+      margin: 0 0.5rem 0 0 !important; }
+      @media only screen and (min-width: 768px) {
+        .section.main.competion-progress-section .activity.completion-progress .actions button, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion {
+          margin: 0 1rem 0 0 !important; } }
+      .section.main.competion-progress-section .activity.completion-progress .actions button img.icon, .section.main.competion-progress-section .activity.completion-progress .actions .autocompletion img.icon {
+        height: 1.25rem;
+        width: 1.25rem;
+        padding: 0;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 0.8); }
+    .section.main.competion-progress-section .activity.completion-progress .actions .filler {
+      display: none; }
+
+.section.main.competion-progress-section .activity:not(.completion-progress) {
+  margin-left: 38px; }
 
 .completionprogress {
   margin: 0 0 1rem 0 !important;

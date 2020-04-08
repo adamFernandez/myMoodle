@@ -185,3 +185,6 @@ $("li.activity.i-media .activityinstance a .activity-label-container .media-icon
 
 // hide activity labels within a specific course section
 $(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
+
+// completion progress class added to section with tracked activities
+$(".section.main:has(.activity .actions)").addClass("completion-progress");

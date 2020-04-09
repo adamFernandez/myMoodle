@@ -1931,18 +1931,20 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   text-align: left !important;
   line-height: 1.5;
   height: auto !important; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a img {
-    display: none; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:hover {
-    text-decoration: none; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:after {
-    font-family: 'Font Awesome 5 Free';
-    font-size: 1.25rem;
-    content: '\f059';
-    color: #0A2D50;
-    margin-left: 36px;
-    position: absolute;
-    top: -3px; }
+  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a {
+    z-index: 0; }
+    .course-content .section.main.completion-progress-section .completionprogress .helptooltip a img {
+      display: none; }
+    .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:hover {
+      text-decoration: none; }
+    .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:after {
+      font-family: 'Font Awesome 5 Free';
+      font-size: 1.25rem;
+      content: '\f059';
+      color: #0A2D50;
+      margin-left: 36px;
+      position: absolute;
+      top: -3px; }
   .course-content .section.main.completion-progress-section .completionprogress .helptooltip:before {
     content: '';
     background: url(https://keats.kcl.ac.uk/theme/image.php/lambda/core/1583825691/i/completion-manual-y) no-repeat;
@@ -1985,8 +1987,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .filler {
       display: none; }
 
-.course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-  margin-left: 38px; }
+.course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) {
+  margin-left: 30px; }
+  @media only screen and (min-width: 768px) {
+    .course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) {
+      margin-left: 38px; } }
+  .course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) .activityinstance {
+    max-width: calc(100% - 30px); }
+    @media only screen and (min-width: 768px) {
+      .course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) .activityinstance {
+        max-width: calc(100% - 38px); } }
 
 table li.activity.page {
   margin-bottom: unset !important; }
@@ -2817,6 +2827,8 @@ img.cb-palette {
             font-family: 'Font Awesome 5 Free';
             font-size: 32px;
             font-weight: 900; }
+          .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus {
+            outline: none; }
   .moodle-dialogue .moodle-dialogue-bd {
     padding: 0 !important; }
     .moodle-dialogue .moodle-dialogue-bd .confirmation-message {

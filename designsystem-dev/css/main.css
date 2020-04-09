@@ -1843,6 +1843,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     display: flex;
     flex-wrap: wrap; }
   .course-content ul.section li.activity .activityinstance {
+    width: 100%;
     min-height: initial !important;
     padding: 0;
     order: 2; }
@@ -1906,8 +1907,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
     padding-left: 0.625rem !important;
-    margin-left: 2.75rem;
+    margin-left: 34px;
     margin-top: 0; }
+    @media only screen and (min-width: 768px) {
+      .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
+        margin-left: 44px; } }
     .course-content ul.section li.activity.indent p, .course-content ul.section li.activity .contentafterlink p {
       margin: 0 0 1rem 0; }
       .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
@@ -1916,6 +1920,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     min-height: 1.5rem;
     width: 100%;
     order: 2; }
+
+.editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
+  margin-left: 0; }
+  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activity .actions .commands {
+    position: absolute;
+    left: -11.5rem; }
+
+.editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
+  position: absolute;
+  left: -11.5rem; }
 
 .course-content > #completionprogressid {
   display: none !important; }

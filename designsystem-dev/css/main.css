@@ -1922,15 +1922,28 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     width: 100%;
     order: 2; }
 
+.editing .course-content .section.main .activity .actions .menubar {
+  margin: 0 !important; }
+
+.editing .course-content .section.main .activity .actions .menu {
+  margin: 0 !important;
+  left: auto !important; }
+
 .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
   margin-left: 0 !important; }
   .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
     position: absolute;
-    left: -11.5rem; }
+    left: -110px; }
+    @media only screen and (min-width: 768px) {
+      .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
+        left: -126px; } }
 
 .editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
   position: absolute;
-  left: -11.5rem; }
+  left: -110px; }
+  @media only screen and (min-width: 768px) {
+    .editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
+      left: -126px; } }
 
 .course-content > #completionprogressid {
   display: none !important; }
@@ -1982,7 +1995,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   left: 0; }
   .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands {
     position: absolute;
-    left: -7.25rem; }
+    left: -78px; }
+    @media only screen and (min-width: 768px) {
+      .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands {
+        left: -94px; } }
     .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .menubar {
       margin: 0 !important; }
     .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .menu {

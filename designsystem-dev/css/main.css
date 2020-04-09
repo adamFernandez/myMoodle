@@ -1825,8 +1825,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.section li.activity.label h4:last-child,
   .course-content ul.section li.activity.label p:last-child {
     margin-bottom: 0; }
-  .course-content ul.section li.activity.modtype_lti .instancename {
-    margin-bottom: 1rem !important; }
   .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
     display: none !important; }
   .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
@@ -1917,6 +1915,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       margin: 0 0 1rem 0; }
       .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
         margin-bottom: 0; }
+  .course-content ul.section li.activity .contentafterlink {
+    margin-top: 1rem; }
   .course-content ul.section li.activity .contentwithoutlink {
     min-height: 1.5rem;
     width: 100%;
@@ -1924,7 +1924,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
   margin-left: 0 !important; }
-  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activity .actions .commands {
+  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
     position: absolute;
     left: -11.5rem; }
 

@@ -1907,6 +1907,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
     padding-left: 0.625rem !important;
+    order: 3;
     margin-left: 34px;
     margin-top: 0; }
     @media only screen and (min-width: 768px) {
@@ -1922,7 +1923,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     order: 2; }
 
 .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-  margin-left: 0; }
+  margin-left: 0 !important; }
   .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activity .actions .commands {
     position: absolute;
     left: -11.5rem; }

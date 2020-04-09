@@ -592,7 +592,8 @@ section:not(:last-of-type) {
     background: transparent;
     box-shadow: none; }
     #block-region-side-pre .block .header .title h2, #block-region-side-post .block .header .title h2 {
-      pointer-events: none; }
+      pointer-events: none;
+      max-width: calc(100% - 1.5rem); }
     #block-region-side-pre .block .header .title .block_action, #block-region-side-post .block .header .title .block_action {
       display: none; }
 

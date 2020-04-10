@@ -1720,6 +1720,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
                 position: absolute;
                 top: -2px;
                 margin-left: 8px; }
+          .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo, .course-content ul.ctopics > .section .content .sectionhead .toggle_closed  .section_availability .availabilityinfo {
+             margin: 0.5rem 0 0 0;
+             padding-left: 2.25rem;
+             font-weight: normal; }
+             .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo, .course-content ul.ctopics > .section .content .sectionhead .toggle_closed  .section_availability .availabilityinfo .label{
+               color: white; }
         .course-content ul.ctopics > .section .content .sectionhead .toggle_open {
           background-color: #0A2D50 !important;
           color: #FFFFFF !important; }

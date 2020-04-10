@@ -1900,8 +1900,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .course-content ul.section li.activity .availabilityinfo {
     order: 3;
     flex: 0 0 100%;
-    padding-left: 2.25rem;
+    padding-left: 1.5rem;
     margin: 0.5rem 0 0 0; }
+    @media only screen and (min-width: 768px) {
+      .course-content ul.section li.activity .availabilityinfo {
+        padding-left: 2.25rem; } }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;

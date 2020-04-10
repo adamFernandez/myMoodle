@@ -1649,7 +1649,15 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .editing .course-content ul.ctopics {
   margin-left: 8.75rem !important;
   width: calc(100% - 8.75rem); }
-
+.course-content .single-section .section-navigation.navigationtitle {
+  padding:0; }
+  .course-content .single-section .section-navigation.navigationtitle .sectionname {
+    text-align: left;
+    font-size: 2.375rem;
+    line-height: 1.1;
+    margin-bottom: 2.25rem; }
+    .course-content .single-section .section-navigation.navigationtitle .sectionname:after {
+      display: none; }
 .course-content ul.ctopics {
   margin: 0 !important; }
   .course-content ul.ctopics > .section {
@@ -2536,7 +2544,7 @@ img.cb-palette {
   .do-dont p:last-child {
     margin-bottom: 0; }
 
-.course-content .single-section .section-navigation.navigationtitle {
+.format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 
 .path-mod-questionnaire {

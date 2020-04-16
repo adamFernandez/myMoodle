@@ -1653,9 +1653,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   padding:0; }
   .course-content .single-section .section-navigation.navigationtitle .sectionname {
     text-align: left;
-    font-size: 2.375rem;
-    line-height: 1.1;
+    font-size: 1.5rem;
+    line-height: 1.25;
     margin-bottom: 2.25rem; }
+    @media only screen and (min-width: 768px) {
+      .course-content .single-section .section-navigation.navigationtitle .sectionname {
+        font-size: 1.875rem; } }
     .course-content .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 .course-content ul.ctopics {

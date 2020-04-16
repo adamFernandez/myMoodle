@@ -1410,15 +1410,20 @@ button .h4::before {
     display: block !important;
     text-align: center;
     border-right: 2px solid #5a6469;
-    padding-right: 7px !important;
+    padding-right: 20px !important;
   }
   .view-answer-container .card-body .card-author img,
   .view-feedback-container .card-body .card-author img,
   .view-model-answer-container .card-body .card-author img {
     border-radius: 50%;
-    width: 535px !important;
+    width: 150px !important;
     height: auto;
     margin: 0 0 0.625rem 0;
+  }
+  .view-answer-container .card-body .card-author .card-title,
+  .view-feedback-container .card-body .card-author .card-title,
+  .view-model-answer-container .card-body .card-author .card-title {
+    width: 150px !important;
   }
   .view-answer-container .card-body .card-text,
   .view-feedback-container .card-body .card-text,

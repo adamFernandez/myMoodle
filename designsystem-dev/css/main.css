@@ -1677,9 +1677,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 
-.editing .course-content ul.ctopics {
+.editing .course-content ul.ctopics .main:not(#section-0) {
   margin-left: 8.75rem !important;
-  width: calc(100% - 8.75rem); }
+  width: calc(100% - 8.75rem - 28px); }
 
 .course-content .single-section .section-navigation.navigationtitle {
   padding: 0; }

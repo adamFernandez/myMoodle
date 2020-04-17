@@ -1914,6 +1914,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     @media only screen and (min-width: 768px) {
       .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
         left: -126px; } }
+  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+    position: absolute;
+    left: -122px; }
+    @media only screen and (min-width: 768px) {
+      .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+        left: -140px; } }
 
 .editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
   position: absolute;

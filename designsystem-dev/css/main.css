@@ -1634,6 +1634,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   top: -4.25rem;
   left: -1.5rem; }
 
+.editing .course-content .single-section > ul.ctopics .section.main .content ul.section {
+  margin-left: 8.75rem !important; }
+
 .course-content .single-section .section-navigation.navigationtitle {
   padding: 0; }
   .course-content .single-section .section-navigation.navigationtitle .sectionname {

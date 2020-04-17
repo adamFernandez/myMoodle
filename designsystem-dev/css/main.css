@@ -207,7 +207,7 @@ footer#page-footer {
     .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
   .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, #region-main .learning-outcome-box > :first-child::before, .reading-box > :first-child::before, .quote-box > :first-child::before, .que .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
-    font-family: 'Font Awesome 5 Pro';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.25rem;
     position: absolute;
@@ -236,7 +236,7 @@ footer#page-footer {
   padding: 1.25rem 1.5rem; }
 
 .icon-before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before {
-  font-family: 'Font Awesome 5 Pro';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 0.375rem; }
 
@@ -244,7 +244,7 @@ footer#page-footer {
 .view-model-answer-container {
   margin-bottom: 1.5rem; }
   .note-container > a::before, .academic-note-container > a::before, .view-generic-container > a::before, .view-answer-container > a::before, .view-feedback-container > a::before, .view-model-answer-container > a::before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem;
     content: '\f070'; }
@@ -421,66 +421,6 @@ footer#page-footer {
         color: #526C84;
         text-decoration: none; }
 
-/*#page-mod-book-view {
-  .navtext.navtop, .navtext.navbottom {
-    @extend .navcontainer;
-    a {
-      @extend .navtext;
-      &.bookprev {
-        left: $lg-nav-margin;
-        @media only screen and (max-width: $neo-breakpoint) {
-          left: $sm-nav-margin;
-        }
-        &:before {
-          @extend .navbutton;
-          left: -3.125rem;
-        }
-      }
-      &.booknext, &.bookexit {
-        text-align: right;
-        right: $lg-nav-margin;
-        @media only screen and (max-width: $neo-breakpoint) {
-          right: $sm-nav-margin;
-        }
-        &:after {
-          @extend .navbutton;
-          right: -3.125rem;
-        }
-      }
-      &.bookexit {
-        .chaptername {
-          display: none;
-        }
-        &:before {
-          font-family: 'KingsBureauGrot';
-          content: 'Exit lesson';
-        }
-        &:after {
-          font-family: 'Font Awesome 5 Pro';
-          content: '\f2f5';
-          font-weight: 900;
-          padding: 0.25rem 0.375rem;
-          @media only screen and (max-width: $neo-breakpoint) {
-            padding: 5px 8.5px;
-          }
-        }
-      }
-      .chaptername{
-        font-family: 'KingsBureauGrotFiveOne';
-        font-size: 1.25rem;
-        font-weight: normal;
-      }
-      &:hover {
-        color: #526C84;
-        text-decoration: underline;
-      }
-    }
-  }
-  .row-fluid.rtl-compatible {
-    display: none;
-  }
-}
-*/
 @media only screen and (min-width: 1440px) {
   #page-header-nav, #page-content {
     max-width: 1312px;
@@ -567,7 +507,7 @@ section:not(:last-of-type) {
 
 #block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';
-  font-family: 'Font Awesome 5 Pro';
+  font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   position: absolute;
   right: 0;
@@ -1083,7 +1023,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
         width: calc(100% - 1.75rem); }
       .collapse-container .collapse-card .collapse-header button .h4::before {
         content: '\f107';
-        font-family: 'Font Awesome 5 Pro';
+        font-family: 'Font Awesome 5 Free';
         font-weight: 900;
         font-size: 1.5rem;
         position: absolute;
@@ -1191,7 +1131,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .transcript-container {
   margin-bottom: 1.5rem; }
   .transcript-container .transcript-button-group a::before {
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem; }
   .transcript-container .transcript-button-group a.view-close-transcript::before {
@@ -1518,7 +1458,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin: 0.5rem 0.25rem 1rem 3.125rem; }
   #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type::before, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type::before, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type::before {
     content: '\f164';
-    font-family: 'Font Awesome 5 Pro';
+    font-family: 'Font Awesome 5 Free';
     color: #28C382;
     padding: 0 4px;
     font-weight: 900;
@@ -2716,7 +2656,7 @@ img.cb-palette {
       font-family: 'KingsBureauGrot'; }
     #mod_quiz_navblock .content .othernav #quiz-timer::before {
       content: '\f017';
-      font-family: 'Font Awesome 5 Pro';
+      font-family: 'Font Awesome 5 Free';
       font-weight: 900;
       margin-right: 4px; }
   #mod_quiz_navblock .content .othernav .singlebutton div {

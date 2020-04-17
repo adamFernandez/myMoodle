@@ -1677,9 +1677,22 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 
-.editing .course-content ul.ctopics .main:not(#section-0) {
+.editing .course-content > ul.ctopics #section-0 .content .summary > div > a:last-child {
+  position: absolute;
+  top: 0;
+  left: -1.5rem; }
+
+.editing .course-content > ul.ctopics .main:not(#section-0) {
   margin-left: 8.75rem !important;
   width: calc(100% - 8.75rem - 28px); }
+
+.editing .course-content .single-section > ul.ctopics .section.main .side.right {
+  display: none; }
+
+.editing .course-content .single-section > ul.ctopics .section.main .content .summary > a {
+  position: absolute;
+  top: -4.25rem;
+  left: -1.5rem; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   padding: 0; }

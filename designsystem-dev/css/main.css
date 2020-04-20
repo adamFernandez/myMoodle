@@ -83,7 +83,7 @@ p {
 .quote-attribution {
   font-size: 1.125rem;
   line-height: 1.25;
-  margin-bottom: 0; }
+  margin-bottom: 0 !important; }
 
 select, option {
   font-family: 'Open Sans', sans-serif; }

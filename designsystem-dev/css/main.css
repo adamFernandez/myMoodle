@@ -2030,7 +2030,7 @@ li.section.main.section-hide-activity-labels li.activity.resource .activityinsta
   display: inline; }
 
 a.activity-link {
-  text-decoration: none; }
+  text-decoration: none !important; }
   a.activity-link .activity-title {
     text-decoration: underline; }
 

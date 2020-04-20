@@ -611,35 +611,37 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
 
-.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
-  float: right;
-  display: flex; }
-  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label {
-    display: inline-block;
+.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, span.activity-label-container {
+  display: inline; }
+  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, span.activity-label-container .activity-label {
+    display: inline-block !important;
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
     line-height: 1.5;
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
+    color: #FF5F05;
     width: 5rem;
     height: 1.5rem;
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #EDF1F2; }
-  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .group-icon {
+  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, span.activity-label-container .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
-  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .group-icon .fas.fa-user-friends,
+  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, span.activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
-  .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .media-icon .fas.fa-play-circle {
+  .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+  span.activity-label-container .media-icon .fas.fa-play-circle {
     margin-left: 0.5rem; }
     @media only screen and (min-width: 768px) {
-      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .group-icon .fas.fa-user-friends,
+      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, span.activity-label-container .group-icon .fas.fa-user-friends,
       .activity-label-container-default .media-icon .fas.fa-play-circle,
-      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .media-icon .fas.fa-play-circle {
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+      span.activity-label-container .media-icon .fas.fa-play-circle {
         margin-left: 1rem; } }
-  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .media-icon {
+  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, span.activity-label-container .media-icon {
     color: #005AD2;
     font-size: 1.25rem; }
 
@@ -1835,11 +1837,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin-bottom: 0; }
   .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
     display: none !important; }
-  .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
-    display: inline-block !important;
-    color: #FF5F05; }
   .course-content ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
-    display: inline-block;
     background-color: #60bbba !important;
     color: white;
     width: 5.5rem !important; }
@@ -1873,6 +1871,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         text-decoration: none; }
         .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename .activity-title {
           text-decoration: underline; }
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
+        float: right;
+        display: flex; }
     .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
       opacity: 0.8; }
   .course-content ul.section li.activity .availabilityinfo {

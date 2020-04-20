@@ -611,9 +611,9 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
 
-.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, span.activity-label-container {
+.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
   display: inline; }
-  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, span.activity-label-container .activity-label {
+  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
     display: inline-block !important;
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
@@ -627,21 +627,21 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #EDF1F2; }
-  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, span.activity-label-container .group-icon {
+  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
-  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, span.activity-label-container .group-icon .fas.fa-user-friends,
+  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
   .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
-  span.activity-label-container .media-icon .fas.fa-play-circle {
+  a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
     margin-left: 0.5rem; }
     @media only screen and (min-width: 768px) {
-      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, span.activity-label-container .group-icon .fas.fa-user-friends,
+      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
       .activity-label-container-default .media-icon .fas.fa-play-circle,
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
-      span.activity-label-container .media-icon .fas.fa-play-circle {
+      a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
         margin-left: 1rem; } }
-  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, span.activity-label-container .media-icon {
+  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
     color: #005AD2;
     font-size: 1.25rem; }
 
@@ -2028,6 +2028,11 @@ li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .ac
 
 li.section.main.section-hide-activity-labels li.activity.resource .activityinstance img {
   display: inline; }
+
+a.activity-link {
+  text-decoration: none; }
+  a.activity-link .activity-title {
+    text-decoration: underline; }
 
 .colour-palette {
   max-width: none; }

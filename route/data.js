@@ -510,7 +510,7 @@ var data = {
     },
     "module3": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2933044"
+        "1": "mod/forum/view.php?id=2951670"
       }
     },
     "module5": {
@@ -534,7 +534,7 @@ var data = {
     },
     "module7": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2772478"
+        "1": "mod/forum/view.php?id=3218433"
       }
     },
     "module8": {
@@ -544,7 +544,7 @@ var data = {
     },
     "module11": {
       "forum1": {
-        "1": "mod/forum/view.php?id=3108042"
+        "1": "mod/forum/view.php?id=3212461"
       }
     }
   },

@@ -639,6 +639,40 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
 
+.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
+  display: inline; }
+  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
+    display: inline-block !important;
+    font-family: 'KingsBureauGrot';
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF5F05;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+    background-color: #EDF1F2; }
+  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
+    color: #FF5F05;
+    font-size: 1.25rem; }
+  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+  .activity-label-container-default .media-icon .fas.fa-play-circle,
+  .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+  a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
+    margin-left: 0.5rem; }
+    @media only screen and (min-width: 768px) {
+      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+      .activity-label-container-default .media-icon .fas.fa-play-circle,
+      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+      a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
+        margin-left: 1rem; } }
+  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
+    color: #005AD2;
+    font-size: 1.25rem; }
+
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
   .alert.alert-success > :first-child::before {
@@ -1646,63 +1680,48 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
             transform: none; }
 
-.editing .course-content ul.ctopics {
+.format-grid .course-content .single-section .section-navigation.navigationtitle {
+  display: none; }
+
+.editing .course-content > ul.ctopics #section-0 .content .summary > a:last-child {
+  position: absolute;
+  top: 0;
+  left: -1.5rem; }
+
+.editing .course-content > ul.ctopics .main:not(#section-0) {
   margin-left: 8.75rem !important;
-  width: calc(100% - 8.75rem); }
+  width: calc(100% - 8.75rem - 28px); }
+
+.editing .course-content .single-section > ul.ctopics .section.main .side.right {
+  display: none; }
+
+.editing .course-content .single-section > ul.ctopics .section.main .content .summary > a {
+  position: absolute;
+  top: -4.25rem;
+  left: -1.5rem; }
+
+.editing .course-content .single-section > ul.ctopics .section.main .content ul.section {
+  margin-left: 8.75rem !important; }
+
 .course-content .single-section .section-navigation.navigationtitle {
-  padding:0; }
+  padding: 0; }
   .course-content .single-section .section-navigation.navigationtitle .sectionname {
     text-align: left;
-    font-size: 1.5rem;
-    line-height: 1.25;
     margin-bottom: 2.25rem; }
-    @media only screen and (min-width: 768px) {
-      .course-content .single-section .section-navigation.navigationtitle .sectionname {
-        font-size: 1.875rem; } }
     .course-content .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
+
 .course-content ul.ctopics {
   margin: 0 !important; }
   .course-content ul.ctopics > .section {
     margin: 0 !important;
     position: relative; }
-    @media only screen and (min-width: 768px) {
-      .course-content ul.ctopics > .section:not(#section-0) {
-        width: calc(100% - 28px); } }
     .course-content ul.ctopics > .section .side.left {
       position: absolute;
       top: 1rem;
       left: -2.25rem; }
       .course-content ul.ctopics > .section .side.left img.icon.spacer {
         display: none; }
-    .course-content ul.ctopics > .section .side.right {
-      width: auto !important;
-      position: absolute;
-      right: -28px;
-      top: 0.75rem; }
-      .course-content ul.ctopics > .section .side.right a.tceditsection, .course-content ul.ctopics > .section .side.right .cps_centre {
-        line-height: normal;
-        height: max-content;
-        width: max-content;
-        margin: 0 !important;
-        font-size: 1.25rem; }
-        .course-content ul.ctopics > .section .side.right a.tceditsection:before, .course-content ul.ctopics > .section .side.right .cps_centre:before {
-          content: '\f35d';
-          font-family: 'Font Awesome 5 Free';
-          font-weight: 900;
-          color: #0A2D50; }
-        .course-content ul.ctopics > .section .side.right a.tceditsection img, .course-content ul.ctopics > .section .side.right .cps_centre img {
-          display: none; }
-      .course-content ul.ctopics > .section .side.right .section_action_menu {
-        position: absolute;
-        right: 2.25rem;
-        top: 0; }
-        .course-content ul.ctopics > .section .side.right .section_action_menu .menubar {
-          margin: 0 !important;
-          background-color: white;
-          opacity: 0.8;
-          border-radius: 4px;
-          padding: 0.25rem 0; }
     .course-content ul.ctopics > .section .content {
       margin: 0 !important;
       padding: 0 !important; }
@@ -1731,13 +1750,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
                 position: absolute;
                 top: -2px;
                 margin-left: 8px; }
-          .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo, .course-content ul.ctopics > .section .content .sectionhead .toggle_closed  .section_availability .availabilityinfo {
-             margin: 0.5rem 0 0 0;
-             padding-left: 2.25rem;
-             font-weight: normal; }
-             .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo .label,
-             .course-content ul.ctopics > .section .content .sectionhead .toggle_closed  .section_availability .availabilityinfo .label {
-               color: white; }
+          .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo, .course-content ul.ctopics > .section .content .sectionhead .toggle_closed .section_availability .availabilityinfo {
+            margin: 0.5rem 0 0 0;
+            padding-left: 2.25rem;
+            font-weight: normal; }
+            .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo .label, .course-content ul.ctopics > .section .content .sectionhead .toggle_closed .section_availability .availabilityinfo .label {
+              color: #FFFFFF; }
         .course-content ul.ctopics > .section .content .sectionhead .toggle_open {
           background-color: #0A2D50 !important;
           color: #FFFFFF !important; }
@@ -1791,6 +1809,39 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           content: '\f107';
           left: -2px; }
 
+@media only screen and (min-width: 768px) {
+  .course-content > ul.ctopics > .section:not(#section-0) {
+    width: calc(100% - 28px); } }
+
+.course-content > ul.ctopics > .section .side.right {
+  width: auto !important;
+  position: absolute;
+  right: -28px;
+  top: 0.75rem; }
+  .course-content > ul.ctopics > .section .side.right a.tceditsection, .course-content > ul.ctopics > .section .side.right .cps_centre {
+    line-height: normal;
+    height: max-content;
+    width: max-content;
+    margin: 0 !important;
+    font-size: 1.25rem; }
+    .course-content > ul.ctopics > .section .side.right a.tceditsection:before, .course-content > ul.ctopics > .section .side.right .cps_centre:before {
+      content: '\f35d';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      color: #0A2D50; }
+    .course-content > ul.ctopics > .section .side.right a.tceditsection img, .course-content > ul.ctopics > .section .side.right .cps_centre img {
+      display: none; }
+  .course-content > ul.ctopics > .section .side.right .section_action_menu {
+    position: absolute;
+    right: 2.25rem;
+    top: 0; }
+    .course-content > ul.ctopics > .section .side.right .section_action_menu .menubar {
+      margin: 0 !important;
+      background-color: white;
+      opacity: 0.8;
+      border-radius: 4px;
+      padding: 0.25rem 0; }
+
 .section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
   padding: 0; }
 
@@ -1818,11 +1869,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin-bottom: 0; }
   .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
     display: none !important; }
-  .course-content ul.section li.activity.type-activity .activityinstance .activity-label-container .activity-label {
-    display: inline-block !important;
-    color: #FF5F05; }
   .course-content ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
-    display: inline-block;
     background-color: #60bbba !important;
     color: white;
     width: 5.5rem !important; }
@@ -1859,38 +1906,14 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
         float: right;
         display: flex; }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label {
-          display: inline-block;
-          font-family: 'KingsBureauGrot';
-          font-size: 1rem;
-          line-height: 1.5;
-          letter-spacing: 0.5px;
-          text-align: center;
-          text-transform: uppercase;
-          width: 5rem;
-          height: 1.5rem;
-          border-radius: 15px;
-          margin-left: 1rem;
-          background-color: #EDF1F2; }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon {
-          color: #FF5F05;
-          font-size: 1.25rem; }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends,
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle {
-          margin-left: 0.5rem; }
-          @media only screen and (min-width: 768px) {
-            .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends,
-            .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle {
-              margin-left: 1rem; } }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon {
-          color: #005AD2;
-          font-size: 1.25rem; }
     .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
       opacity: 0.8; }
   .course-content ul.section li.activity .availabilityinfo {
     order: 3;
     flex: 0 0 100%;
     margin: 0.5rem 0 0 0; }
+    .course-content ul.section li.activity .availabilityinfo label {
+      color: #FFFFFF; }
   .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
     border-left: 3px solid #CDD7DC;
     border-radius: 0;
@@ -1927,6 +1950,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     @media only screen and (min-width: 768px) {
       .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
         left: -126px; } }
+  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+    position: absolute;
+    left: -122px; }
+    @media only screen and (min-width: 768px) {
+      .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+        left: -140px; } }
 
 .editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
   position: absolute;
@@ -2032,20 +2061,14 @@ li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .ac
 li.section.main.section-hide-activity-labels li.activity.resource .activityinstance img {
   display: inline; }
 
-table li.activity.page {
-  margin-bottom: unset !important; }
-  table li.activity.page .activityinstance {
-    min-height: unset; }
-
-@media not all and (min-resolution: 0.001dpcm) {
-  li.activity .activityinstance .activity-label-container .activity-label {
-    line-height: 1.7; } }
-
-.hide-activity-labels li.activity::before {
-  display: none; }
-
-.hide-activity-labels .course-content ul.section li.activity.resource .activityinstance img {
-  display: inline; }
+a.activity-link {
+  text-decoration: none !important; }
+  a.activity-link .activity-title {
+    text-decoration: underline; }
+  a.activity-link .activity-label-container .activity-label.assessed {
+    background-color: #60bbba !important;
+    color: white;
+    width: 5.5rem !important; }
 
 .colour-palette {
   max-width: none; }

@@ -2033,6 +2033,10 @@ a.activity-link {
   text-decoration: none !important; }
   a.activity-link .activity-title {
     text-decoration: underline; }
+  a.activity-link .activity-label-container .activity-label.assessed {
+    background-color: #60bbba !important;
+    color: white;
+    width: 5.5rem !important; }
 
 .colour-palette {
   max-width: none; }

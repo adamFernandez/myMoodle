@@ -614,7 +614,7 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 .activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
   display: inline; }
   .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
-    display: inline-block !important;
+    display: inline-block;
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
     line-height: 1.5;

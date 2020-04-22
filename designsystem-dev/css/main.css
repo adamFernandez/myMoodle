@@ -152,7 +152,13 @@ hr {
       margin-bottom: 0; }
 
 pre {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #DCE3E6;
+  border-radius: 0;
+  padding: 1rem; }
+  pre code {
+    background-color: transparent; }
 
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {
   margin-bottom: 2.25rem; }

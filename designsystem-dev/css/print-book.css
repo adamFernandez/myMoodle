@@ -166,7 +166,7 @@ html {
 }
 
 /* bootstrap */
-#page-mod-book-print .row {
+#page-mod-book-print .container {
   width: auto;
 }
 #page-mod-book-print .row {

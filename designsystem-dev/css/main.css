@@ -1910,33 +1910,39 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     width: 100%;
     order: 2; }
 
-.editing .course-content .section.main .activity .actions .menubar {
+.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
+  width: calc(100% - 58px); }
+
+.editing .course-content ul:not(.ctopics) .section.main .activity .instancename {
+  width: calc(100% - 158px); }
+
+.editing .course-content ul .section.main .activity .actions .menubar {
   margin: 0 !important; }
 
-.editing .course-content .section.main .activity .actions .menu {
+.editing .course-content ul .section.main .activity .actions .menu {
   margin: 0 !important;
   left: auto !important; }
 
-.editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
+.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
   margin-left: 0 !important; }
-  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
+  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
     position: absolute;
     left: -110px; }
     @media only screen and (min-width: 768px) {
-      .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
+      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
         left: -126px; } }
-  .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
     position: absolute;
     left: -122px; }
     @media only screen and (min-width: 768px) {
-      .editing .course-content .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
         left: -140px; } }
 
-.editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
+.editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
   position: absolute;
   left: -110px; }
   @media only screen and (min-width: 768px) {
-    .editing .course-content .section.main:not(.completion-progress-section) .activity .actions .commands {
+    .editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
       left: -126px; } }
 
 .course-content > #completionprogressid {

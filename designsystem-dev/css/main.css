@@ -157,6 +157,14 @@ pre {
   border: 1px solid #DCE3E6;
   border-radius: 0;
   padding: 1rem; }
+  pre code {
+    border: none; }
+
+code {
+  border: 1px solid #DCE3E6;
+  background-color: rgba(237, 241, 242, 0.2);
+  color: #E2231A;
+  border-radius: 4px; }
 
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {
   margin-bottom: 2.25rem; }

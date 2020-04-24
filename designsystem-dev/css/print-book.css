@@ -164,6 +164,13 @@ html {
 #page-mod-book-print .quote-box .quote-body {
   font-family: 'KingsCaslonDisplay';
 }
+#page-mod-book-print pre {
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  border: 1px solid #dce3e6;
+  border-radius: 0;
+  padding: 1rem;
+}
 
 /* bootstrap */
 #page-mod-book-print .container {

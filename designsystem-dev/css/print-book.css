@@ -139,6 +139,9 @@ html {
 #page-mod-book-print .caption {
   font-size: 0.875rem;
 }
+#page-mod-book-print .alert {
+  color: #333333;
+}
 #page-mod-book-print .quote-box {
   border: 2px solid #464e52;
   margin-bottom: 1.25rem;
@@ -918,7 +921,10 @@ button .h4::before {
   .caption {
     font-size: 0.875rem;
   }
- .quote-box {
+  .alert {
+    color: #333333;
+  }
+  .quote-box {
     page-break-inside: avoid;
     border: 2px solid #464e52;
     margin-bottom: 1.25rem;

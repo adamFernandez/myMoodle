@@ -1,6 +1,5 @@
 // hide administration block from students or teachers without editing rights
-$("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit
-settings')))").addClass("hide");
+$("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");
 // if there are no visible blocks in aside hide it and make main region full width
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 

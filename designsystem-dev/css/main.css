@@ -1638,7 +1638,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         width: 100%;
         height: 100%; }
       #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
-        cursor: none;
+        cursor: default;
         filter: none;
         opacity: initial; }
         #gridiconcontainer .gridicon_link .image_holder.inaccessible:before, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {

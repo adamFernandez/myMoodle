@@ -214,16 +214,16 @@ var data = {
     },
     "module15": {
       "comments": {
-        "1": "mod/forum/view.php?id=2404925"
+        "1": "mod/forum/view.php?id=2956978"
       },
       "comments2": {
-        "1": "mod/forum/view.php?id=2404925"
+        "1": "mod/forum/view.php?id=2956978"
       },
       "comments3": {
-        "1": "mod/forum/view.php?id=2405014"
+        "1": "mod/forum/view.php?id=2957487"
       },
       "comments4": {
-        "1": "mod/forum/view.php?id=2405010"
+        "1": "mod/forum/view.php?id=2957483"
       }
     },
     "module16": {
@@ -727,5 +727,27 @@ var data = {
           "1": "mod/forum/view.php?id=3147795"
         }
        },
+    "module10a": {
+        "forum1": {
+          "1": "mod/forum/view.php?id=3253068"
+        },
+        "forum2": {
+          "1": "mod/forum/view.php?id=3253101"
+        },
+        "forum3": {
+          "1": "mod/forum/view.php?id=3253133"
+        }
+       },
+    "module10b": {
+      "forum1": {
+        "1": "mod/forum/view.php?id=3250673"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=3251586"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=3251587"
+      }
     }
+  }
 };

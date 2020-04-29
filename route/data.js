@@ -730,12 +730,6 @@ var data = {
      "module10a": {
         "forum1": {
           "1": "mod/forum/view.php?id=3253068"
-        },
-        "forum2": {
-          "1": "mod/forum/view.php?id=3253101"
-        },
-        "forum3": {
-          "1": "mod/forum/view.php?id=3253133"
         }
      }
   }

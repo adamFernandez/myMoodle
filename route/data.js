@@ -733,6 +733,9 @@ var data = {
         },
        "forum2": {
          "1": "mod/forum/view.php?id=3253101"
+       },
+       "forum3": {
+         "1": "mod/forum/view.php?id=3253133"
        }
      }
   }

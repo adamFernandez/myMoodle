@@ -741,6 +741,12 @@ var data = {
     "module10b": {
       "forum1": {
         "1": "mod/forum/view.php?id=3250673"
+      },
+      "forum2": {
+        "1": "mod/forum/view.php?id=3251586"
+      },
+      "forum3": {
+        "1": "mod/forum/view.php?id=3251587"
       }
     }
   }

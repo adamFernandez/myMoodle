@@ -3,6 +3,13 @@ $("#block-region-side-pre .block:has(.header .title h2:contains('Administration'
 // if there are no visible blocks in aside hide it and make main region full width
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 
+/*
+// pull print button from admin block and position at top of book
+printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
+$('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');
+printButton.addClass('btn btn-secondary print-book-btn').text("Print").appendTo('#print-btn-container');
+*/
+
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";
 $(document).on("click", blockHide, function(event) {
@@ -160,7 +167,7 @@ if (documentTitle.includes('activity-label')) {
 
 // create activity title span to control spacing between activity number and title text
 $("li.activity span.instancename").each(function() {
-  if ($(this).text().match(/[1-9]{1}\.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
+  if ($(this).text().match(/^[1-9]{1}\.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
     return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
   });
 });

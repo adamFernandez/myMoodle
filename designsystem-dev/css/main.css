@@ -2047,9 +2047,6 @@ li.section.main.section-hide-activity-labels li.activity.type-assessed .activity
 li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .activity-label-container {
   display: none !important; }
 
-li.section.main.section-hide-activity-labels li.activity.resource .activityinstance img {
-  display: inline; }
-
 a.activity-link {
   text-decoration: none !important; }
   a.activity-link .activity-title {

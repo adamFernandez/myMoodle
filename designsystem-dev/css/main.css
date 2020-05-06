@@ -1891,6 +1891,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         display: flex; }
     .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
       opacity: 0.8; }
+    .course-content ul.section li.activity .activityinstance .resourcelinkdetails {
+      color: #5A6469;
+      font-size: 14px; }
   .course-content ul.section li.activity .availabilityinfo {
     order: 3;
     flex: 0 0 100%;

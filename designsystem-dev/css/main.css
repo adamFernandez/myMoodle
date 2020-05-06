@@ -38,26 +38,22 @@ h1,
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
 #notice.modal .modal-content .modal-header h4,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
-  font-size: 2.375rem;
-  line-height: 1.1; }
+  font-size: 1.75rem;
+  line-height: 1.2; }
 
 h2, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname {
-  font-size: 1.875rem;
-  line-height: 1.25; }
-
-h3, .h3 {
   font-size: 1.5rem;
   line-height: 1.25; }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 1.25rem;
-  line-height: 1.4; }
+  line-height: 1.25; }
 
-h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno {
+h4, .h4 {
   font-size: 1.125rem;
   line-height: 1.4; }
 
-h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
   font-size: 1rem;
   line-height: 1.4; }
 
@@ -74,46 +70,49 @@ p {
   font-family: Open Sans, sans-serif; }
 
 .quote-body {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.25;
   font-family: KingsCaslonDisplay;
   margin-bottom: 1.75rem;
   font-style: italic; }
 
 .quote-attribution {
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.25;
   margin-bottom: 0 !important; }
 
 select, option {
   font-family: 'Open Sans', sans-serif; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 768px) {
   h1,
   .h1,
   .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
   #notice.modal .modal-content .modal-header h4,
   .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
-    font-size: 1.75rem;
-    line-height: 1.2; }
+    font-size: 2.375rem;
+    line-height: 1.1; }
   h2, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     line-height: 1.25; }
   h3, .h3 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.25; }
   h4, .h4 {
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno {
     font-size: 1.125rem;
     line-height: 1.4; }
-  h5, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+  h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
   .quote-body {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.25;
     font-family: KingsCaslonDisplay; }
   .quote-attribution {
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 1.25; } }
 
 .path-mod-book .generalbox.book_content > h3 {
@@ -318,7 +317,7 @@ footer#page-footer {
   .navbutton:hover, .row-fluid.rtl-compatible a#prev-activity-link:hover::before, .row-fluid.rtl-compatible a#next-activity-link:hover::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .navbutton, .row-fluid.rtl-compatible a#prev-activity-link::before, .row-fluid.rtl-compatible a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
       padding: 5px 16.5px;
       font-size: 1.5625rem; } }
@@ -333,7 +332,7 @@ footer#page-footer {
 .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
   margin-top: 0;
   padding: 0.25rem !important; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .row-fluid.rtl-compatible a#prev-activity-link, .row-fluid.rtl-compatible a#next-activity-link {
       padding: 0.5rem !important; } }
 
@@ -359,7 +358,7 @@ footer#page-footer {
   margin-right: 3.5rem !important; }
   .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
     left: 3rem; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
         left: 3rem; } }
     .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before {
@@ -371,7 +370,7 @@ footer#page-footer {
   .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     text-align: right;
     right: 3rem; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
         right: 3rem; } }
     .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
@@ -394,7 +393,7 @@ footer#page-footer {
       height: 2.25rem; }
       #page-mod-book-view .navtop a.bookprev:hover, #page-mod-book-view .navtop a.booknext:hover, #page-mod-book-view .navbottom a.bookprev:hover, #page-mod-book-view .navbottom a.booknext:hover {
         text-decoration: none; }
-      @media only screen and (max-width: 767px) {
+      @media only screen and (max-width: 768px) {
         #page-mod-book-view .navtop a.bookprev, #page-mod-book-view .navtop a.booknext, #page-mod-book-view .navbottom a.bookprev, #page-mod-book-view .navbottom a.booknext {
           display: inline-block; } }
     #page-mod-book-view .navtop a.bookprev:before, #page-mod-book-view .navtop a.booknext:after, #page-mod-book-view .navtop a.bookexit:after, #page-mod-book-view .navbottom a.bookprev:before, #page-mod-book-view .navbottom a.booknext:after, #page-mod-book-view .navbottom a.bookexit:after {
@@ -408,7 +407,7 @@ footer#page-footer {
   #page-mod-book-view .navtop ul, #page-mod-book-view .navbottom ul {
     margin: 0;
     display: inline-block; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       #page-mod-book-view .navtop ul li.chapter:not(.current):not(.prev):not(.next), #page-mod-book-view .navbottom ul li.chapter:not(.current):not(.prev):not(.next) {
         display: none; } }
     #page-mod-book-view .navtop ul li.chapter, #page-mod-book-view .navbottom ul li.chapter {
@@ -832,7 +831,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child i, #mod_quiz_navblock .co
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child i:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child i:first-child, #mod_quiz_navblock .content .othernav a.endtestlink i:first-child, #mod_quiz_navblock .content .othernav .singlebutton div input[type="submit"] i:first-child, #page-mod-connecthosted-view .chosted-button-row input i:first-child {
       margin-right: 0.375rem; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     button, .btn, input[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, .forumaddnew div input[type="submit"]:first-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, #page-mod-forum-post #fgroup_id_buttonar .fgroup input, .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .singlebutton div input[type="submit"], #page-mod-connecthosted-view .chosted-button-row input {
@@ -925,7 +924,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   flex-direction: row;
   border: none;
   margin-bottom: 1.5rem; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .card {
       display: block; } }
   .card img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
@@ -933,7 +932,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     height: 100%;
     flex-shrink: 0;
     border-radius: 0; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       .card img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
         width: 100%; } }
     .card img.img-right, .card img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right {
@@ -972,7 +971,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .float-box .img-right {
     margin-left: 1rem;
     order: 2; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .float-box {
       display: block; }
       .float-box img, .float-box .img-left {
@@ -1008,7 +1007,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
         color: #C6E128 !important; }
       .carousel .carousel-caption a:visited {
         color: #F5B90F !important; }
-    @media only screen and (max-width: 767px) {
+    @media only screen and (max-width: 768px) {
       .carousel .carousel-caption {
         position: static; } }
   .carousel.text-only .carousel-item {
@@ -1199,7 +1198,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   margin-bottom: 2.25rem; }
   .hero img {
     width: 100%; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .hero .hero-caption {
       position: static; } }
   .hero .hero-caption h2 {
@@ -1383,7 +1382,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .timeline-container {
   margin-left: 64px;
   padding: 0.5rem 1.25rem 0 1.25rem; }
-  @media only screen and (max-width: 767px) {
+  @media only screen and (max-width: 768px) {
     .timeline-container {
       margin-left: 0; } }
   .timeline-container .timeline-badge-pill {
@@ -2107,7 +2106,7 @@ a.activity-link {
   .cb .cb-row.default .colour.pea-green {
     background-color: #28c382; }
   .cb .cb-row.default .colour.lime-green-2 {
-    background-color: #b4bd10; }
+    background-color: #999900; }
   .cb .cb-row.default .colour.yellow {
     background-color: #f5b90f; }
   .cb .cb-row.default .colour.orange {
@@ -2128,6 +2127,8 @@ a.activity-link {
     background-color: #0a2d50; }
   .cb .cb-row.default .colour.slate-grey {
     background-color: #5a6469; }
+  .cb .cb-row.default .colour.stone {
+    background-color: #575756; }
   .cb .cb-row.default .colour.pebble {
     background-color: #5f5550; }
   .cb .cb-row.default .colour.powder-blue {
@@ -2136,6 +2137,8 @@ a.activity-link {
     background-color: #cdd7dc; }
   .cb .cb-row.default .colour.mushroom {
     background-color: #cdc3b9; }
+  .cb .cb-row.default .colour.warm-grey {
+    background-color: #bcafa8; }
   .cb .cb-row.default .colour.black {
     background-color: #000000; }
   .cb .cb-row.default .colour.white {
@@ -2151,7 +2154,7 @@ a.activity-link {
   .cb .cb-row.a .colour.pea-green {
     background-color: #8d8d8d; }
   .cb .cb-row.a .colour.lime-green-2 {
-    background-color: #a7a7a7; }
+    background-color: #888888; }
   .cb .cb-row.a .colour.yellow {
     background-color: #b8b8b8; }
   .cb .cb-row.a .colour.orange {
@@ -2172,6 +2175,8 @@ a.activity-link {
     background-color: #272727; }
   .cb .cb-row.a .colour.slate-grey {
     background-color: #626262; }
+  .cb .cb-row.a .colour.stone {
+    background-color: #575756; }
   .cb .cb-row.a .colour.pebble {
     background-color: #575757; }
   .cb .cb-row.a .colour.powder-blue {
@@ -2180,6 +2185,8 @@ a.activity-link {
     background-color: #d5d5d5; }
   .cb .cb-row.a .colour.mushroom {
     background-color: #c5c5c5; }
+  .cb .cb-row.a .colour.warm-grey {
+    background-color: #b2b2b2; }
   .cb .cb-row.a .colour.black {
     background-color: #000000; }
   .cb .cb-row.a .colour.white {
@@ -2195,7 +2202,7 @@ a.activity-link {
   .cb .cb-row.b .colour.pea-green {
     background-color: #79988b; }
   .cb .cb-row.b .colour.lime-green-2 {
-    background-color: #aaab89; }
+    background-color: #8b8b6d; }
   .cb .cb-row.b .colour.yellow {
     background-color: #c4b896; }
   .cb .cb-row.b .colour.orange {
@@ -2216,6 +2223,8 @@ a.activity-link {
     background-color: #21282f; }
   .cb .cb-row.b .colour.slate-grey {
     background-color: #606263; }
+  .cb .cb-row.b .colour.stone {
+    background-color: #575757; }
   .cb .cb-row.b .colour.pebble {
     background-color: #595756; }
   .cb .cb-row.b .colour.powder-blue {
@@ -2224,6 +2233,8 @@ a.activity-link {
     background-color: #d3d5d6; }
   .cb .cb-row.b .colour.mushroom {
     background-color: #c7c5c3; }
+  .cb .cb-row.b .colour.warm-grey {
+    background-color: #b4b1b0; }
   .cb .cb-row.b .colour.black {
     background-color: #000000; }
   .cb .cb-row.b .colour.white {
@@ -2239,7 +2250,7 @@ a.activity-link {
   .cb .cb-row.c .colour.pea-green {
     background-color: #bdaf7f; }
   .cb .cb-row.c .colour.lime-green-2 {
-    background-color: #cfb919; }
+    background-color: #ac9900; }
   .cb .cb-row.c .colour.yellow {
     background-color: #ddc51e; }
   .cb .cb-row.c .colour.orange {
@@ -2260,6 +2271,8 @@ a.activity-link {
     background-color: #273557; }
   .cb .cb-row.c .colour.slate-grey {
     background-color: #6a696f; }
+  .cb .cb-row.c .colour.stone {
+    background-color: #615f5e; }
   .cb .cb-row.c .colour.pebble {
     background-color: #625f59; }
   .cb .cb-row.c .colour.powder-blue {
@@ -2268,6 +2281,8 @@ a.activity-link {
     background-color: #d9d6dc; }
   .cb .cb-row.c .colour.mushroom {
     background-color: #cdc6bc; }
+  .cb .cb-row.c .colour.warm-grey {
+    background-color: #bab4ad; }
   .cb .cb-row.c .colour.black {
     background-color: #000000; }
   .cb .cb-row.c .colour.white {
@@ -2283,7 +2298,7 @@ a.activity-link {
   .cb .cb-row.d .colour.pea-green {
     background-color: #caa992; }
   .cb .cb-row.d .colour.lime-green-2 {
-    background-color: #e6af2c; }
+    background-color: #bf921c; }
   .cb .cb-row.d .colour.yellow {
     background-color: #f7bb1c; }
   .cb .cb-row.d .colour.orange {
@@ -2304,6 +2319,8 @@ a.activity-link {
     background-color: #1a3759; }
   .cb .cb-row.d .colour.slate-grey {
     background-color: #706772; }
+  .cb .cb-row.d .colour.stone {
+    background-color: #685c5f; }
   .cb .cb-row.d .colour.pebble {
     background-color: #6a5c59; }
   .cb .cb-row.d .colour.powder-blue {
@@ -2312,6 +2329,8 @@ a.activity-link {
     background-color: #e7d1e0; }
   .cb .cb-row.d .colour.mushroom {
     background-color: #ddc1be; }
+  .cb .cb-row.d .colour.warm-grey {
+    background-color: #c9afad; }
   .cb .cb-row.d .colour.black {
     background-color: #000000; }
   .cb .cb-row.d .colour.white {
@@ -2327,7 +2346,7 @@ a.activity-link {
   .cb .cb-row.e .colour.pea-green {
     background-color: #5abdcb; }
   .cb .cb-row.e .colour.lime-green-2 {
-    background-color: #c6b3c0; }
+    background-color: #a9939e; }
   .cb .cb-row.e .colour.yellow {
     background-color: #feb0bc; }
   .cb .cb-row.e .colour.orange {
@@ -2348,6 +2367,8 @@ a.activity-link {
     background-color: #003c40; }
   .cb .cb-row.e .colour.slate-grey {
     background-color: #636b73; }
+  .cb .cb-row.e .colour.stone {
+    background-color: #605e65; }
   .cb .cb-row.e .colour.pebble {
     background-color: #685c62; }
   .cb .cb-row.e .colour.powder-blue {
@@ -2356,6 +2377,8 @@ a.activity-link {
     background-color: #d1d7e7; }
   .cb .cb-row.e .colour.mushroom {
     background-color: #d2c2d0; }
+  .cb .cb-row.e .colour.warm-grey {
+    background-color: #c2b0bd; }
   .cb .cb-row.e .colour.black {
     background-color: #000000; }
   .cb .cb-row.e .colour.white {
@@ -2371,7 +2394,7 @@ a.activity-link {
   .cb .cb-row.f .colour.pea-green {
     background-color: #87b680; }
   .cb .cb-row.f .colour.lime-green-2 {
-    background-color: #c5ba16; }
+    background-color: #a59900; }
   .cb .cb-row.f .colour.yellow {
     background-color: #e6c119; }
   .cb .cb-row.f .colour.orange {
@@ -2392,6 +2415,8 @@ a.activity-link {
     background-color: #1d3254; }
   .cb .cb-row.f .colour.slate-grey {
     background-color: #64676d; }
+  .cb .cb-row.f .colour.stone {
+    background-color: #5d5c5b; }
   .cb .cb-row.f .colour.pebble {
     background-color: #615b56; }
   .cb .cb-row.f .colour.powder-blue {
@@ -2400,6 +2425,8 @@ a.activity-link {
     background-color: #d4d6dc; }
   .cb .cb-row.f .colour.mushroom {
     background-color: #cdc5bb; }
+  .cb .cb-row.f .colour.warm-grey {
+    background-color: #bbb2ab; }
   .cb .cb-row.f .colour.black {
     background-color: #000000; }
   .cb .cb-row.f .colour.white {
@@ -2415,7 +2442,7 @@ a.activity-link {
   .cb .cb-row.g .colour.pea-green {
     background-color: #8fb28c; }
   .cb .cb-row.g .colour.lime-green-2 {
-    background-color: #d4b421; }
+    background-color: #b19412; }
   .cb .cb-row.g .colour.yellow {
     background-color: #f6ba17; }
   .cb .cb-row.g .colour.orange {
@@ -2436,6 +2463,8 @@ a.activity-link {
     background-color: #143355; }
   .cb .cb-row.g .colour.slate-grey {
     background-color: #68666e; }
+  .cb .cb-row.g .colour.stone {
+    background-color: #625a5c; }
   .cb .cb-row.g .colour.pebble {
     background-color: #665956; }
   .cb .cb-row.g .colour.powder-blue {
@@ -2444,6 +2473,8 @@ a.activity-link {
     background-color: #ddd3de; }
   .cb .cb-row.g .colour.mushroom {
     background-color: #d7c1bc; }
+  .cb .cb-row.g .colour.warm-grey {
+    background-color: #c4afab; }
   .cb .cb-row.g .colour.black {
     background-color: #000000; }
   .cb .cb-row.g .colour.white {
@@ -2459,7 +2490,7 @@ a.activity-link {
   .cb .cb-row.h .colour.pea-green {
     background-color: #48bfb0; }
   .cb .cb-row.h .colour.lime-green-2 {
-    background-color: #bfb780; }
+    background-color: #a39564; }
   .cb .cb-row.h .colour.yellow {
     background-color: #fbb37d; }
   .cb .cb-row.h .colour.orange {
@@ -2480,6 +2511,8 @@ a.activity-link {
     background-color: #033646; }
   .cb .cb-row.h .colour.slate-grey {
     background-color: #5f686f; }
+  .cb .cb-row.h .colour.stone {
+    background-color: #5d5b5f; }
   .cb .cb-row.h .colour.pebble {
     background-color: #65595c; }
   .cb .cb-row.h .colour.powder-blue {
@@ -2488,6 +2521,8 @@ a.activity-link {
     background-color: #cfd7e3; }
   .cb .cb-row.h .colour.mushroom {
     background-color: #d0c2c8; }
+  .cb .cb-row.h .colour.warm-grey {
+    background-color: #bfb0b5; }
   .cb .cb-row.h .colour.black {
     background-color: #000000; }
   .cb .cb-row.h .colour.white {

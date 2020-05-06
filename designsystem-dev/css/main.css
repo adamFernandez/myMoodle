@@ -1211,7 +1211,8 @@ img.icon {
 .full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
   .full-width-img img, .img-full-width img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
       margin-bottom: 1rem; }
   .full-width-img .caption, .img-full-width .caption {

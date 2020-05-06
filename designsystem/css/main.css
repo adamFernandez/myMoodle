@@ -1212,7 +1212,8 @@ img.icon {
 .full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
   .full-width-img img, .img-full-width img {
-    width: 100%; }
+    width: 100%;
+    height: auto; }
     .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
       margin-bottom: 1rem; }
   .full-width-img .caption, .img-full-width .caption {
@@ -2790,7 +2791,7 @@ img.cb-palette {
           background-color: transparent;
           border-color: #8B9296;
           color: #171717; }
-        .que .content .formulation .ablock .answer .icon {
+        .que .content .formulation .ablock .answer > .icon {
           display: none; }
         .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
           padding-top: 0;

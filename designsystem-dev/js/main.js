@@ -193,3 +193,32 @@ $(".section.main:has(.activity .actions .autocompletion, .activity .actions .tog
 $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClass("completion-progress-activity");
 // clone completion progress tooltip to each section with completion progress activities
 $(".course-content .completion-progress-section .content .sectionbody > .section, .course-content .single-section .completion-progress-section .content > .section").prepend($("#completionprogressid").clone());
+
+// call function on page load if card deck is present
+cardDeckEqualise();
+// and again on window resize
+$(window).resize(function() {
+  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
+    location.reload(true);
+    cardDeckEqualise();
+  }
+});
+
+function cardDeckEqualise() {
+  // if window is larger than neo-breakpoint
+  if ($(window).width() > 767) {
+    // get heights of all cards within a single deck
+    $(".card-deck").each(function(i) {
+      var heights = $(this).find(".card-body:not(:only-child)").map(function() {
+        return $(this).height();
+      }).get();
+      // find the largest
+      maxHeight = Math.max.apply(null, heights);
+      // apply to all cards within that deck
+      $(this).find(".card-body:not(:only-child)").height(maxHeight);
+    });
+  } else {
+    // reset height
+    $(".card-body:not(:only-child)").height('auto');
+  }
+}

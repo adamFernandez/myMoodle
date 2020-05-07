@@ -958,6 +958,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .card-deck .card .card-img-top, .card-deck .card .card-img-left, .card-deck .card .img-top, .card-deck .card .img-left {
       width: 100%;
       height: auto; }
+    .card-deck .card .card-body:only-child {
+      height: 100%; }
 
 .float-box {
   display: flex;

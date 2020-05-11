@@ -1336,6 +1336,10 @@ figure {
     font-size: 4.5rem;
     top: 2.25rem; }
 
+.screenshot {
+  border: 1px solid #rules-and-outlines;
+  margin-bottom: 1.5rem; }
+
 .table-scroll {
   overflow: auto;
   margin-bottom: 1.5rem; }

@@ -194,8 +194,12 @@ $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClas
 // clone completion progress tooltip to each section with completion progress activities
 $(".course-content .completion-progress-section .content .sectionbody > .section, .course-content .single-section .completion-progress-section .content > .section").prepend($("#completionprogressid").clone());
 
-// call function on page load if card deck is present
-cardDeckEqualise();
+// call function when document ready if card deck is present
+$( document ).ready(function() {
+  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
+    cardDeckEqualise();
+  }
+});
 // and again on window resize
 $(window).resize(function() {
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {

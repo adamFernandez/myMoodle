@@ -14,6 +14,38 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
+// call function when document ready if card deck is present
+$( document ).ready(function() {
+  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
+    cardDeckEqualise();
+  }
+});
+// and again on window resize
+$(window).resize(function() {
+  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
+    location.reload(true);
+    cardDeckEqualise();
+  }
+});
+function cardDeckEqualise() {
+  // if window is larger than neo-breakpoint
+  if ($(window).width() > 767) {
+    // get heights of all cards within a single deck
+    $(".card-deck").each(function(i) {
+      var heights = $(this).find(".card-body:not(:only-child)").map(function() {
+        return $(this).height();
+      }).get();
+      // find the largest
+      maxHeight = Math.max.apply(null, heights);
+      // apply to all cards within that deck
+      $(this).find(".card-body:not(:only-child)").height(maxHeight);
+    });
+  } else {
+    // reset height
+    $(".card-body:not(:only-child)").height('auto');
+  }
+}
+
 // hide carousel controls on first and last slide
 $(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
   var crsl = $(this).parent(".carousel");
@@ -166,6 +198,7 @@ if (documentTitle.includes('activity-label')) {
 // create activity title span to control spacing between activity number and title text
 $("li.activity span.instancename").each(function() {
   if ($(this).text().match(/^[1-9]{1}\.[0-9]+\s{1}/g)) $(this).html(function(i, currentText) {
+    $(this).addClass('is-numbered');
     return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
   });
 });
@@ -194,35 +227,3 @@ $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClas
 // clone completion progress tooltip to each section with completion progress activities
 $(".course-content .completion-progress-section .content .sectionbody > .section, .course-content .single-section .completion-progress-section .content > .section").prepend($("#completionprogressid").clone());
 
-// call function when document ready if card deck is present
-$( document ).ready(function() {
-  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
-    cardDeckEqualise();
-  }
-});
-// and again on window resize
-$(window).resize(function() {
-  if ($(".card-deck .card-body:not(:only-child)").length > 0) {
-    location.reload(true);
-    cardDeckEqualise();
-  }
-});
-
-function cardDeckEqualise() {
-  // if window is larger than neo-breakpoint
-  if ($(window).width() > 767) {
-    // get heights of all cards within a single deck
-    $(".card-deck").each(function(i) {
-      var heights = $(this).find(".card-body:not(:only-child)").map(function() {
-        return $(this).height();
-      }).get();
-      // find the largest
-      maxHeight = Math.max.apply(null, heights);
-      // apply to all cards within that deck
-      $(this).find(".card-body:not(:only-child)").height(maxHeight);
-    });
-  } else {
-    // reset height
-    $(".card-body:not(:only-child)").height('auto');
-  }
-}

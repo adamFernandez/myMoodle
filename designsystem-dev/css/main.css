@@ -1886,7 +1886,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
             margin-left: 0.75rem; } }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover {
         text-decoration: none; }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename .activity-title {
+        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename:not(.is-numbered), .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename.is-numbered .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
         float: right;

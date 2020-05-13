@@ -1,0 +1,3 @@
+.course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
+  text-decoration: underline;
+}

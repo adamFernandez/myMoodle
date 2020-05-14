@@ -473,7 +473,10 @@ footer#page-footer {
   padding-top: 0; }
 
 section:not(:last-of-type) {
-  margin-bottom: 4.5rem; }
+  margin-bottom: 3rem; }
+  @media only screen and (min-width: 768px) {
+    section:not(:last-of-type) {
+      margin-bottom: 4rem; } }
 
 .row:before, .row:after {
   display: none !important; }

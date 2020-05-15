@@ -183,6 +183,10 @@ $("li.activity .instancename:contains('activity-label'), #region-main h2:first-o
 $(".course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon").attr("title", function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 });
+// question bank select optgroup label
+$("#page-question-edit select optgroup").attr("label", function(i, currentText) {
+  return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+});
 
 if (window.matchMedia('print').matches) {
   $("#page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label')").text(function(i, currentText) {

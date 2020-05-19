@@ -74,7 +74,7 @@ body {
     margin: 0 6rem 0 8rem;
   }
   .volumeControl {
-    display: block;
+    display: block !important;
     padding-right: 0.5rem;
     position: absolute;
     right: 0;

@@ -1,3 +1,8 @@
-.course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
+/* optional file to permanently underline activities titles */
+
+.course-content ul.section li.activity .activityinstance
+a:not(.quickeditlink),
+.course-content ul.section li.activity .activityinstance
+a:not(.quickeditlink):hover {
   text-decoration: underline;
 }

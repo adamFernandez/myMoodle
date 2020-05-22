@@ -2908,6 +2908,8 @@ img.cb-palette {
         position: absolute;
         top: 2px;
         right: 8px;
+        height: 32px;
+        width: 32px;
         box-shadow: none;
         background-image: none;
         background: none; }

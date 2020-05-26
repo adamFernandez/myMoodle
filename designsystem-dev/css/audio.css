@@ -14,10 +14,18 @@ body {
   top: -4px !important;
 }
 .currentTimeLabel {
-  margin-left: -2.25rem;
+  margin-left: -2.75rem;
 }
 .durationLabel {
-  left: 2.75rem;
+  left: 2.25rem;
+}
+@media only screen and (min-width: 600px) {
+  .currentTimeLabel {
+    margin-left: -2.25rem;
+  }
+  .durationLabel {
+    left: 2.75rem;
+  }
 }
 .controlBarContainer {
   background-color: black;
@@ -30,7 +38,7 @@ body {
 .scrubber {
   border-top: 5px solid black !important;
   border-bottom: 5px solid black !important;
-  margin: 0 1.5rem 0 6rem;
+  margin: 0 1rem 0 5.5rem;
 }
 .scrubber .playHead {
   width: 14px !important;

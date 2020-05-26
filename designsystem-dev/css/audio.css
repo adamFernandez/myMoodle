@@ -12,6 +12,7 @@ body {
 .currentTimeLabel, .durationLabel {
   position: absolute !important;
   top: -4px !important;
+  padding-left: 1rem !important;
 }
 .currentTimeLabel {
   margin-left: -2.75rem;
@@ -38,7 +39,7 @@ body {
 .scrubber {
   border-top: 5px solid black !important;
   border-bottom: 5px solid black !important;
-  margin: 0 1rem 0 5.5rem;
+  margin: 0 1rem 0 6rem;
 }
 .scrubber .playHead {
   width: 14px !important;

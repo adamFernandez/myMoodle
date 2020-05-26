@@ -586,25 +586,25 @@ var data = {
      },
      "module3": {
        "forum1": {
-          "1": "mod/forum/view.php?id=2964633"
+          "1": "mod/forum/view.php?id=3233893"
         },
        "forum2": {
-          "1": "mod/forum/view.php?id=2964640"
+          "1": "mod/forum/view.php?id=3233901"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=2964667"
+          "1": "mod/forum/view.php?id=3233928"
         },
        "forum4": {
-          "1": "mod/forum/view.php?id=2964689"
+          "1": "mod/forum/view.php?id=3233950"
         },
        "forum5": {
-          "1": "mod/forum/view.php?id=2964715"
+          "1": "mod/forum/view.php?id=3233976"
         },
        "forum6": {
-          "1": "mod/forum/view.php?id=2964743"
+          "1": "mod/forum/view.php?id=3234001"
         },
        "forum7": {
-          "1": "mod/forum/view.php?id=2964767"
+          "1": "mod/forum/view.php?id=3234025"
         }
       },
       "module4": {

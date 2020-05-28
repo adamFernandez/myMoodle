@@ -1,0 +1,8 @@
+.feedback_form span.start {
+  color: #28C382;
+  text-transform: uppercase;
+}
+.feedback_form span.stop {
+  color: #E2231A;
+  text-transform: uppercase;
+}

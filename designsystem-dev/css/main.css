@@ -25,8 +25,8 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-#notice.modal .modal-content .modal-header h4,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd h1,
+#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname, .h3, .h4, .h5, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -36,8 +36,8 @@ h1, h2, h3, h4, h5, h6,
 h1,
 .h1,
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-#notice.modal .modal-content .modal-header h4,
-.moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+.moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd h1,
+#notice.modal .modal-content .modal-header h4 {
   font-size: 1.75rem;
   line-height: 1.2; }
 
@@ -91,8 +91,8 @@ select, option {
   h1,
   .h1,
   .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
-  #notice.modal .modal-content .modal-header h4,
-  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+  .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd h1,
+  #notice.modal .modal-content .modal-header h4 {
     font-size: 2.375rem;
     line-height: 1.1; }
   h2, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname {
@@ -1314,6 +1314,51 @@ figure {
     content: '\f5da';
     padding: 0 2px 0 3px;
     color: #0A2D50; }
+
+.moodle-diagloge .moodle-dialogue-wrap {
+  padding: 1.5rem 2.25rem 2.25rem 2.25rem; }
+  .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd {
+    background-color: transparent !important;
+    line-height: normal;
+    margin-bottom: 1.5rem !important;
+    border-bottom: none !important;
+    color: #171717 !important;
+    font-family: 'KingsBureauGrot';
+    font-size: 38px !important;
+    padding: 0 3rem !important; }
+    .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd span {
+      padding: 0 !important; }
+      .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton {
+        padding: 0 !important;
+        margin: 0 !important;
+        position: absolute;
+        top: 2px;
+        right: 8px;
+        height: 32px;
+        width: 32px;
+        box-shadow: none;
+        background-image: none;
+        background: none; }
+        .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before {
+          content: '\f410';
+          color: #0A2D50;
+          font-family: 'Font Awesome 5 Free';
+          font-size: 32px;
+          font-weight: 900; }
+        .moodle-diagloge .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus {
+          outline: none; }
+
+.moodle-diagloge .moodle-dialogue-bd {
+  padding: 0 !important; }
+  .moodle-diagloge .moodle-dialogue-bd .confirmation-message {
+    font-family: 'KingsBureauGrotFiveOne';
+    font-size: 1rem;
+    margin: 0 0 1.5rem 0; }
+  .moodle-diagloge .moodle-dialogue-bd .tooltiptext > p:last-child {
+    margin-bottom: 0; }
+
+.moodle-diagloge .moodle-dialogue-ft {
+  margin: 0 !important; }
 
 #notice.modal {
   border: none;
@@ -2890,65 +2935,21 @@ img.cb-palette {
   margin-bottom: 4.5rem; }
 
 @media only screen and (min-width: 768px) {
-  .moodle-dialogue {
+  #path-mod-quiz .moodle-dialogue {
     width: 450px !important; } }
 
-.moodle-dialogue .moodle-dialogue-wrap {
-  padding: 1.5rem 2.25rem 2.25rem 2.25rem; }
-  .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
-    background-color: transparent !important;
-    line-height: normal;
-    margin-bottom: 1.5rem !important;
-    border-bottom: none !important;
-    color: #171717 !important;
-    font-family: 'KingsBureauGrot';
-    font-size: 38px !important;
-    padding: 0 3rem !important; }
-    .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span {
-      padding: 0 !important; }
-      .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton {
-        padding: 0 !important;
-        margin: 0 !important;
-        position: absolute;
-        top: 2px;
-        right: 8px;
-        height: 32px;
-        width: 32px;
-        box-shadow: none;
-        background-image: none;
-        background: none; }
-        .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before {
-          content: '\f410';
-          color: #0A2D50;
-          font-family: 'Font Awesome 5 Free';
-          font-size: 32px;
-          font-weight: 900; }
-        .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus {
-          outline: none; }
-
-.moodle-dialogue .moodle-dialogue-bd {
-  padding: 0 !important; }
-  .moodle-dialogue .moodle-dialogue-bd .confirmation-message {
-    font-family: 'KingsBureauGrotFiveOne';
-    font-size: 1rem;
-    margin: 0 0 1.5rem 0; }
-  .moodle-dialogue .moodle-dialogue-bd .tooltiptext > p:last-child {
-    margin-bottom: 0; }
-  .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input#searchforums, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn.btn-secondary, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn#id_cancel, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav .singlebutton div input[type="submit"], #mod_quiz_navblock .content .othernav .singlebutton div .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input {
-    margin: 0; }
-    .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type)[type="submit"], .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums:not(:first-of-type), .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input#searchforums:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input:not(:first-of-type), #page-mod-forum-post #fgroup_id_buttonar .fgroup .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:not(:first-of-type), .path-mod-questionnaire#page-mod-questionnaire-complete .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary:not(:first-of-type), #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn.btn-secondary:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel:not(:first-of-type), #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav.btn#id_cancel:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink:not(:first-of-type), #mod_quiz_navblock .content .othernav .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink:not(:first-of-type), .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav .singlebutton div input:not(:first-of-type)[type="submit"], #mod_quiz_navblock .content .othernav .singlebutton div .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type)[type="submit"], .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input:not(:first-of-type), #page-mod-connecthosted-view .chosted-button-row .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type) {
-      margin-left: 1rem; }
-
-.moodle-dialogue .moodle-dialogue-ft {
-  margin: 0 !important; }
+#path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input#searchforums, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav .singlebutton div input[type="submit"], #mod_quiz_navblock .content .othernav .singlebutton div #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input {
+  margin: 0; }
+  #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type)[type="submit"], #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums:not(:first-of-type), .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input#searchforums:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input:not(:first-of-type), #page-mod-forum-post #fgroup_id_buttonar .fgroup #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:not(:first-of-type), .path-mod-questionnaire#page-mod-questionnaire-complete #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink:not(:first-of-type), #mod_quiz_navblock .content .othernav #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink:not(:first-of-type), #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input:not(:first-of-type), #page-mod-connecthosted-view .chosted-button-row #path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type) {
+    margin-left: 1rem; }
 
 #page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
   display: none; }

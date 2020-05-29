@@ -1316,7 +1316,8 @@ figure {
     color: #0A2D50; }
 
 .moodle-dialogue .moodle-dialogue-wrap {
-  padding: 1.5rem 2.25rem 2.25rem 2.25rem; }
+  padding: 1.5rem 2.25rem 2.25rem 2.25rem;
+  height: auto; }
   .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd {
     background-color: transparent !important;
     line-height: normal;
@@ -1380,6 +1381,9 @@ figure {
       border: none; }
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
+
+.file-picker .fp-list .fp-repo-icon {
+  padding: 0; }
 
 .quote-box {
   background-color: #EDF1F2; }

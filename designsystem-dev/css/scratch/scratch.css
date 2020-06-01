@@ -1,9 +1,4 @@
-.feedback_form span.start {
-  color: #28C382;
-  text-transform: uppercase;
-}
-.feedback_form span.stop {
-  color: #E2231A;
+.feedback_form span.start, .feedback_form span.stop {
   text-transform: uppercase;
 }
 
@@ -15,6 +10,13 @@
   padding: 0 !important;
 }
 .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label {
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  font-family: 'KingsBureauGrot';
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+.path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label h4:last-child {
   margin: 0 !important;
 }
 .path-mod-feedback #region-main .feedback_form .fitem .felement > * {
@@ -28,6 +30,12 @@
   margin-bottom: 1rem !important;
   padding: 0 !important;
 }
+.path-mod-feedback #region-main .feedback_form .fitem:not(:nth-child(2)) .fitemtitle .feedback-section {
+  margin-top: 3rem !important;
+}
 .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
-  margin-top: 24px !important;
+  margin-bottom: 1.5rem !important;
+  font-family: 'KingsBureauGrot';
+  font-size: 1.5rem;
+  line-height: 1.25;
 }

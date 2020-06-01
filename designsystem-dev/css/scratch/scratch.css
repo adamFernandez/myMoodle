@@ -6,3 +6,28 @@
   color: #E2231A;
   text-transform: uppercase;
 }
+
+.path-mod-feedback #region-main .feedback_form .fitem {
+  margin: 0;
+}
+.path-mod-feedback #region-main .feedback_form .fitem .fitemtitle {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label {
+  margin: 0 !important;
+}
+.path-mod-feedback #region-main .feedback_form .fitem .felement > * {
+  margin-bottom: 1rem !important;
+}
+.path-mod-feedback #region-main .feedback_form .fitem.feedback_mode .fitemtitle {
+  display: none !important;
+}
+.path-mod-feedback #region-main .feedback_form .fitem.feedback_mode .felement {
+  margin: 0 !important;
+  margin-bottom: 1rem !important;
+  padding: 0 !important;
+}
+.path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
+  margin-top: 24px !important;
+}

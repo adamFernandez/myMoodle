@@ -189,10 +189,12 @@ $("#page-question-edit select optgroup, #page-question-category select optgroup,
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 });
 // question ediitng page current category
-var currentCategory = $("#fgroup_id_currentgrp fieldset").contents().filter(function(){ 
-  return this.nodeType == 3; 
-})[0];
-currentCategory.nodeValue = currentCategory.nodeValue.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+if ($('#fgroup_id_currentgrp fieldset').length) {
+  var currentCategory = $("#fgroup_id_currentgrp fieldset").contents().filter(function(){
+    return this.nodeType == 3;
+  })[0];
+  currentCategory.nodeValue = currentCategory.nodeValue.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+}
 
 if (window.matchMedia('print').matches) {
   $("#page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label')").text(function(i, currentText) {

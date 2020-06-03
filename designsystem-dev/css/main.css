@@ -1416,6 +1416,13 @@ figure {
   background: #8B9296 !important; }
 
 .table-scroll {
+  -ms-scrollbar-base-color: #0A2D50;
+  -ms-scrollbar-track-color: #CDD7DC;
+  -ms-scrollbar-arrow-color: #0A2D50;
+  scrollbar-color: #0A2D50 #CDD7DC;
+  scrollbar-width: thin; }
+
+.table-scroll {
   overflow: auto;
   margin-bottom: 1.5rem; }
   .table-scroll table {

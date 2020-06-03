@@ -1421,7 +1421,8 @@ figure {
 
 .screenshot {
   border: 1px solid #8B9296;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  width: 100%; }
 
 ::-webkit-scrollbar {
   width: 16px !important;

@@ -687,22 +687,25 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
     content: '\f071';
     padding: 0 3px; }
 
-.alert button.close {
-  position: absolute;
-  height: 1.25rem;
-  padding: 0 !important;
-  margin: 0 !important;
-  font-size: 1px !important;
-  right: 1.25rem;
-  top: 1.25rem;
-  width: 1.25rem; }
-  .alert button.close::before {
-    content: "\f00d";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 20px; }
-  .alert button.close:hover {
-    background-color: transparent; }
+.alert.alert-block {
+  padding: 1.25rem;
+  padding-left: 4.25rem; }
+  .alert.alert-block button.close {
+    position: absolute;
+    height: 1.25rem;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 1px !important;
+    right: 1.25rem;
+    top: 1.25rem;
+    width: 1.25rem; }
+    .alert.alert-block button.close::before {
+      content: "\f00d";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 20px; }
+    .alert.alert-block button.close:hover {
+      background-color: transparent; }
 
 button, .btn, input[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, .forumaddnew div input[type="submit"]:first-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, #page-mod-forum-post #fgroup_id_buttonar .fgroup input, .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >

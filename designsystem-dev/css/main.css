@@ -220,7 +220,7 @@ footer#page-footer {
     color: #333333 !important; }
     .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box > :first-child::before, .alert > :first-child::before, .definition-box > :first-child::before, .feedback-box > :first-child::before, #region-main .learning-outcome-box > :first-child::before, .reading-box > :first-child::before, .quote-box > :first-child::before, .que .content .outcome > :first-child::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
+  .info-box::before, .alert::before, .definition-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, .quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.25rem;
@@ -668,24 +668,41 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 
 .alert.alert-success {
   background-color: rgba(40, 195, 130, 0.2) !important; }
-  .alert.alert-success > :first-child::before {
+  .alert.alert-success::before {
     content: '\f164';
     color: #28C382;
     padding: 0 4px; }
 
 .alert.alert-instructional {
   background-color: rgba(245, 185, 15, 0.2) !important; }
-  .alert.alert-instructional > :first-child::before {
+  .alert.alert-instructional::before {
     content: '\f086';
     color: #8262ae;
     padding: 0 3px; }
 
 .alert.alert-danger {
   background-color: rgba(226, 35, 26, 0.2) !important; }
-  .alert.alert-danger > :first-child::before {
+  .alert.alert-danger::before {
     color: #e2231a;
     content: '\f071';
     padding: 0 3px; }
+
+.alert button.close {
+  position: absolute;
+  height: 1.25rem;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 1px !important;
+  right: 1.25rem;
+  top: 1.25rem;
+  width: 1.25rem; }
+  .alert button.close::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 20px; }
+  .alert button.close:hover {
+    background-color: transparent; }
 
 button, .btn, input[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, .forumaddnew div input[type="submit"]:first-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#searchforums, #page-mod-forum-post #fgroup_id_buttonar .fgroup input, .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
 input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
@@ -1261,28 +1278,28 @@ figure {
 
 .definition-box {
   background-color: #EDF1F2; }
-  .definition-box > :first-child::before {
+  .definition-box::before {
     content: '\f02e';
     padding: 0 5px;
     color: #8262ae; }
 
 .feedback-box.correct-answer {
   background-color: rgba(40, 195, 130, 0.2) !important; }
-  .feedback-box.correct-answer > :first-child::before {
+  .feedback-box.correct-answer::before {
     color: #28C382;
     padding: 0 4px;
     content: '\f058'; }
 
 .feedback-box.model-answer {
   background-color: rgba(245, 185, 15, 0.2) !important; }
-  .feedback-box.model-answer > :first-child::before {
+  .feedback-box.model-answer::before {
     content: '\f27a';
     color: #F5B90F;
     padding: 0 4px; }
 
 .feedback-box.incorrect-answer {
   background-color: rgba(226, 35, 26, 0.2) !important; }
-  .feedback-box.incorrect-answer > :first-child::before {
+  .feedback-box.incorrect-answer::before {
     color: #E2231A;
     content: '\f057';
     padding: 0 4px; }
@@ -1303,7 +1320,7 @@ figure {
 
 #region-main .learning-outcome-box {
   background-color: #edf1f2; }
-  #region-main .learning-outcome-box > :first-child::before {
+  #region-main .learning-outcome-box::before {
     content: '\f091';
     color: #009EA0;
     padding: 0 4px; }
@@ -1314,7 +1331,7 @@ figure {
 
 .reading-box {
   background-color: #EDF1F2; }
-  .reading-box > :first-child::before {
+  .reading-box::before {
     content: '\f5da';
     padding: 0 2px 0 3px;
     color: #0A2D50; }

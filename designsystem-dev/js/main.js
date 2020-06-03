@@ -1,3 +1,4 @@
+/* blocks */
 // hide administration block from students or teachers without editing rights
 $("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");
 // if there are no visible blocks in aside hide it and make main region full width
@@ -14,6 +15,7 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
+/* card deck */
 // call function when document ready if card deck is present
 $( document ).ready(function() {
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
@@ -46,6 +48,7 @@ function cardDeckEqualise() {
   }
 }
 
+/* carousel */
 // hide carousel controls on first and last slide
 $(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
   var crsl = $(this).parent(".carousel");
@@ -68,6 +71,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next", functi
   }
  });
 
+/* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");
@@ -79,6 +83,7 @@ $(document).on("click", ".transcript-button-group a.view-close-transcript", func
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
+/* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
 $(document).on("click", "a.view-hide-generic", function(event) {
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
@@ -96,7 +101,12 @@ $(document).on("click", "a.view-hide-feedback", function(event) {
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
+$(document).on("click", "a.view-hide-description", function(event) {
+  $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
+  $(this).parents(".view-description-container").toggleClass("collapsed");
+});
 
+/* book activity */
 // copy chapterlist to book nav and remove .action-list
 booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
 $(".navbottom.clearfix.navtext a.bookprev").length
@@ -135,6 +145,7 @@ $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
 
+/* activity labels */
 // move .accesshide from within .instancename and append to .activityinstance
 // affected the prefix title modification in original location
 $("li.activity .instancename .accesshide").each(function() {
@@ -234,6 +245,7 @@ $("li.activity.i-media .activityinstance a .activity-label-container .media-icon
 // hide activity labels within a specific course section
 $(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");
 
+/* completion progress */
 // completion progress class added to section with tracked activities
 $(".section.main:has(.activity .actions .autocompletion, .activity .actions .togglecompletion)").addClass("completion-progress-section");
 $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClass("completion-progress-activity");

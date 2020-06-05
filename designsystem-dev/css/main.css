@@ -148,9 +148,9 @@ hr {
 
 #region-main ol, #region-main ul {
   margin: 0 0 1.5rem 2.25rem; }
-  #region-main ol > li, #region-main ul > li {
+  #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
     margin-bottom: 1rem; }
-    #region-main ol > li ul, #region-main ol > li ol, #region-main ol > li li, #region-main ul > li ul, #region-main ul > li ol, #region-main ul > li li {
+    #region-main ol > li:not(:last-child) ul, #region-main ol > li:not(:last-child) ol, #region-main ol > li:not(:last-child) li, #region-main ul > li:not(:last-child) ul, #region-main ul > li:not(:last-child) ol, #region-main ul > li:not(:last-child) li {
       margin-bottom: 0; }
 
 pre {

@@ -977,7 +977,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin-top: 0;
       margin-bottom: 0.75rem; }
     .card .card-body > :last-child {
-      margin-bottom: 0; }
+      margin-bottom: 0 !important; }
 
 .card-deck {
   margin-left: 0;

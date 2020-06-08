@@ -1537,7 +1537,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .timeline-container .timeline-row .border-left {
     border-left: 3px solid #8B9296 !important; }
   .timeline-container .timeline-row .flex-column {
-    display: flex !important; }
+    display: flex !important;
+    min-width: 80px; }
   .timeline-container .timeline-row .timeline-content {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }

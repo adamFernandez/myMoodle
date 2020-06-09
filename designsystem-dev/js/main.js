@@ -93,17 +93,17 @@ $(document).on("click", "a.view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-model-answer", function(event) {
-  $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
-  $(this).parents(".view-model-answer-container").toggleClass("collapsed");
+$(document).on("click", "a.view-hide-description", function(event) {
+  $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
+  $(this).parents(".view-description-container").toggleClass("collapsed");
 });
 $(document).on("click", "a.view-hide-feedback", function(event) {
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-description", function(event) {
-  $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
-  $(this).parents(".view-description-container").toggleClass("collapsed");
+$(document).on("click", "a.view-hide-model-answer", function(event) {
+  $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
+  $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });
 
 /* book activity */

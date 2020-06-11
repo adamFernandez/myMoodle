@@ -612,6 +612,7 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   list-style: none; }
   #block-region-side-post .block_html .content ul.module-academic-team li img {
     width: 3rem;
+    height: auto;
     margin-bottom: 0.25rem;
     border-radius: 50%; }
   #block-region-side-post .block_html .content ul.module-academic-team li span {

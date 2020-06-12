@@ -2041,9 +2041,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       display: none; }
     .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
       width: 100%; }
-      @media only screen and (min-width: 768px) {
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
-          display: flex; } }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
         margin-left: 0.375rem; }
         @media only screen and (min-width: 768px) {
@@ -2054,10 +2051,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename:not(.is-numbered), .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename.is-numbered .activity-title {
           text-decoration: underline; }
       .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
-        float: right;
-        display: flex; }
-    .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
-      opacity: 0.8; }
+        display: inline-flex; }
+    .course-content ul.section li.activity .activityinstance a.quickeditlink {
+      margin-left: 0.5rem; }
+      .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
+        opacity: 0.8; }
     .course-content ul.section li.activity .activityinstance .resourcelinkdetails {
       color: #5A6469;
       font-size: 14px; }

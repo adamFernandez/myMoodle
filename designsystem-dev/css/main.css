@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6,
 .h1,
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book .generalbox.book_content > h3, body.format-topcoll .course-content .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -41,7 +41,7 @@ h1,
   font-size: 1.75rem;
   line-height: 1.2; }
 
-h2, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname {
+h2, .h2, .path-mod-book .generalbox.book_content > h3, body.format-topcoll .course-content .single-section .section-navigation.navigationtitle .sectionname {
   font-size: 1.5rem;
   line-height: 1.25; }
 
@@ -95,7 +95,7 @@ select, option {
   #notice.modal .modal-content .modal-header h4 {
     font-size: 2.375rem;
     line-height: 1.1; }
-  h2, .h2, .path-mod-book .generalbox.book_content > h3, .course-content .single-section .section-navigation.navigationtitle .sectionname {
+  h2, .h2, .path-mod-book .generalbox.book_content > h3, body.format-topcoll .course-content .single-section .section-navigation.navigationtitle .sectionname {
     font-size: 1.875rem;
     line-height: 1.25; }
   h3, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
@@ -228,9 +228,9 @@ footer#page-footer {
     top: 1.25rem;
     left: 1.5rem; }
 
-.top-bar, .hero, #gridiconcontainer ul.gridicons li {
+.top-bar, .hero, body.format-grid .course-content #gridiconcontainer ul.gridicons li {
   position: relative; }
-  .top-bar::before, .hero::before, #gridiconcontainer ul.gridicons li::before {
+  .top-bar::before, .hero::before, body.format-grid .course-content #gridiconcontainer ul.gridicons li::before {
     content: "";
     position: absolute;
     top: 0;
@@ -240,7 +240,7 @@ footer#page-footer {
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 1; }
 
-.caption-overlay, .carousel .carousel-caption, .hero .hero-caption, #gridiconcontainer .gridicon_link .icon_content, #gridiconcontainer ul.gridicons > li > span:first-child .icon_content {
+.caption-overlay, .carousel .carousel-caption, .hero .hero-caption, body.format-grid .course-content #gridiconcontainer .gridicon_link .icon_content, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .icon_content {
   position: absolute;
   background-color: rgba(10, 45, 80, 0.85);
   bottom: 0;
@@ -633,9 +633,9 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
 
-.activity-label-container-default, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
+.activity-label-container-default, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
   display: inline; }
-  .activity-label-container-default .activity-label, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
+  .activity-label-container-default .activity-label, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
     display: inline-block;
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
@@ -649,21 +649,21 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #EDF1F2; }
-  .activity-label-container-default .group-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
+  .activity-label-container-default .group-icon, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
-  .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+  .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
-  .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+  body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
   a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
     margin-left: 0.5rem; }
     @media only screen and (min-width: 768px) {
-      .activity-label-container-default .group-icon .fas.fa-user-friends, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+      .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
       .activity-label-container-default .media-icon .fas.fa-play-circle,
-      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+      body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
       a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
         margin-left: 1rem; } }
-  .activity-label-container-default .media-icon, .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
+  .activity-label-container-default .media-icon, body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
     color: #005AD2;
     font-size: 1.25rem; }
 
@@ -1768,23 +1768,191 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: transparent; }
 
-#region-main ul.gtopics, #region-main ul.gtopics-0, #region-main ul-ctopics, #region-main ul.section {
+body #region-main .course-content > #completionprogressid {
+  display: none !important; }
+
+body #region-main .course-content ul {
   margin: 0; }
+  body #region-main .course-content ul li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .group-icon, body #region-main .course-content ul li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .media-icon {
+    display: none !important; }
+  body #region-main .course-content ul li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .activity-label-container {
+    display: none !important; }
+  body #region-main .course-content ul li.section.main .content h3.sectionname {
+    color: #171717; }
+  body #region-main .course-content ul li.section.main .content > #completionprogressid {
+    display: none !important; }
+  body #region-main .course-content ul li.section.main ul.section {
+    margin: 0; }
+    body #region-main .course-content ul li.section.main ul.section .summary .iconsmall, body #region-main .course-content ul li.section.main ul.section .summary img.icon,
+    body #region-main .course-content ul li.section.main ul.section li.activity .iconsmall,
+    body #region-main .course-content ul li.section.main ul.section li.activity img.icon {
+      padding: 0; }
+    body #region-main .course-content ul li.section.main ul.section li.activity {
+      display: flex;
+      margin-bottom: 1rem !important;
+      padding: 0 !important; }
+      body #region-main .course-content ul li.section.main ul.section li.activity > div {
+        width: 100%; }
+        body #region-main .course-content ul li.section.main ul.section li.activity > div .mod-indent-outer {
+          display: block; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .no-overflow {
+        padding: 0; }
+      body #region-main .course-content ul li.section.main ul.section li.activity.label:not(:first-of-type) h2,
+      body #region-main .course-content ul li.section.main ul.section li.activity.label:not(:first-of-type) h3,
+      body #region-main .course-content ul li.section.main ul.section li.activity.label:not(:first-of-type) h4 {
+        margin-top: 0.75rem !important; }
+      body #region-main .course-content ul li.section.main ul.section li.activity.label h2:last-child,
+      body #region-main .course-content ul li.section.main ul.section li.activity.label h3:last-child,
+      body #region-main .course-content ul li.section.main ul.section li.activity.label h4:last-child,
+      body #region-main .course-content ul li.section.main ul.section li.activity.label p:last-child {
+        margin-bottom: 0; }
+      body #region-main .course-content ul li.section.main ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
+        display: none !important; }
+      body #region-main .course-content ul li.section.main ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
+        background-color: #60bbba !important;
+        color: white;
+        width: 5.5rem !important; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .editing_move {
+        top: 2px !important; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
+        display: flex;
+        flex-wrap: wrap; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance {
+        width: 100%;
+        min-height: initial !important;
+        padding: 0;
+        order: 2; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance ~ .ishidden {
+          margin: 0; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance:not(:last-child) {
+          margin-bottom: 0; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance img.activityicon {
+          display: none; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) {
+          width: 100%; }
+          body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
+            margin-left: 0.375rem; }
+            @media only screen and (min-width: 768px) {
+              body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
+                margin-left: 0.75rem; } }
+          body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink):hover {
+            text-decoration: none; }
+            body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename:not(.is-numbered), body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename.is-numbered .activity-title {
+              text-decoration: underline; }
+          body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
+            display: inline-flex; }
+            @media not all and (min-resolution: 0.001dpcm) {
+              body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .activity-label {
+                line-height: 1.7; } }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a.quickeditlink {
+          margin-left: 0.5rem; }
+          body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
+            opacity: 0.8; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .activityinstance .resourcelinkdetails {
+          color: #5A6469;
+          font-size: 14px; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .availabilityinfo {
+        order: 3;
+        flex: 0 0 100%;
+        margin: 0.5rem 0 0 0; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .availabilityinfo label {
+          color: #FFFFFF; }
+      body #region-main .course-content ul li.section.main ul.section li.activity.indent, body #region-main .course-content ul li.section.main ul.section li.activity .contentafterlink {
+        border-left: 3px solid #CDD7DC;
+        border-radius: 0;
+        padding-left: 0.625rem !important;
+        order: 3;
+        margin-left: 34px;
+        margin-top: 0; }
+        @media only screen and (min-width: 768px) {
+          body #region-main .course-content ul li.section.main ul.section li.activity.indent, body #region-main .course-content ul li.section.main ul.section li.activity .contentafterlink {
+            margin-left: 44px; } }
+        body #region-main .course-content ul li.section.main ul.section li.activity.indent p, body #region-main .course-content ul li.section.main ul.section li.activity .contentafterlink p {
+          margin: 0 0 1rem 0; }
+          body #region-main .course-content ul li.section.main ul.section li.activity.indent p:last-child, body #region-main .course-content ul li.section.main ul.section li.activity .contentafterlink p:last-child {
+            margin-bottom: 0; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .actions {
+        position: static;
+        max-width: max-content;
+        background: none;
+        left: 0; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .actions .commands {
+          position: absolute;
+          left: -78px; }
+          @media only screen and (min-width: 768px) {
+            body #region-main .course-content ul li.section.main ul.section li.activity .actions .commands {
+              left: -94px; } }
+          body #region-main .course-content ul li.section.main ul.section li.activity .actions .commands .menubar {
+            margin: 0 !important; }
+          body #region-main .course-content ul li.section.main ul.section li.activity .actions .commands .menu {
+            left: unset !important; }
+        body #region-main .course-content ul li.section.main ul.section li.activity .actions button, body #region-main .course-content ul li.section.main ul.section li.activity .actions .autocompletion {
+          padding: 0 !important;
+          margin: 0 0.5rem 0 0 !important; }
+          @media only screen and (min-width: 768px) {
+            body #region-main .course-content ul li.section.main ul.section li.activity .actions button, body #region-main .course-content ul li.section.main ul.section li.activity .actions .autocompletion {
+              margin: 0 1rem 0 0 !important; } }
+          body #region-main .course-content ul li.section.main ul.section li.activity .actions button img.icon, body #region-main .course-content ul li.section.main ul.section li.activity .actions .autocompletion img.icon {
+            height: 1.25rem;
+            width: 1.25rem;
+            padding: 0;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.8); }
+        body #region-main .course-content ul li.section.main ul.section li.activity .actions .filler {
+          display: none; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .contentafterlink {
+        margin-top: 1rem; }
+      body #region-main .course-content ul li.section.main ul.section li.activity .contentwithoutlink {
+        min-height: 1.5rem;
+        width: 100%;
+        order: 2; }
+      body #region-main .course-content ul li.section.main ul.section li.activity:not(.label):not(.completion-progress-activity) {
+        margin-left: 30px; }
+        @media only screen and (min-width: 768px) {
+          body #region-main .course-content ul li.section.main ul.section li.activity:not(.label):not(.completion-progress-activity) {
+            margin-left: 38px; } }
+  body #region-main .course-content ul li.section.main.completion-progress-section .completionprogress {
+    margin: 0 0 1.5rem 0 !important;
+    display: flex !important;
+    justify-content: flex-start;
+    float: none !important;
+    text-align: left !important;
+    line-height: 1.5;
+    height: auto !important;
+    z-index: auto; }
+    body #region-main .course-content ul li.section.main.completion-progress-section .completionprogress .helptooltip a img {
+      display: none; }
+    body #region-main .course-content ul li.section.main.completion-progress-section .completionprogress .helptooltip a:hover {
+      text-decoration: none; }
+    body #region-main .course-content ul li.section.main.completion-progress-section .completionprogress .helptooltip a:after {
+      font-family: 'Font Awesome 5 Free';
+      font-size: 1.25rem;
+      content: '\f059';
+      color: #0A2D50;
+      margin-left: 36px;
+      position: absolute;
+      top: -3px; }
+    body #region-main .course-content ul li.section.main.completion-progress-section .completionprogress .helptooltip:before {
+      content: '';
+      background: url(https://keats.kcl.ac.uk/theme/image.php/lambda/core/1583825691/i/completion-manual-y) no-repeat;
+      background-size: 20px 20px;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 2px;
+      margin-left: 8px; }
 
-.content h3.sectionname {
-  color: #171717; }
-
-#gridiconcontainer {
+body.format-grid .course-content #gridiconcontainer {
   width: 103%; }
-  #gridiconcontainer ul.gridicons {
+  body.format-grid .course-content #gridiconcontainer ul.gridicons {
     margin-left: -0.75rem;
     margin-right: 0.75rem; }
-    #gridiconcontainer ul.gridicons li {
+    body.format-grid .course-content #gridiconcontainer ul.gridicons li {
       padding: 0;
       margin: 0.75rem; }
-  #gridiconcontainer .gridicon_link, #gridiconcontainer ul.gridicons > li > span:first-child {
+  body.format-grid .course-content #gridiconcontainer .gridicon_link, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child {
     position: relative; }
-    #gridiconcontainer .gridicon_link .icon_content, #gridiconcontainer ul.gridicons > li > span:first-child .icon_content {
+    body.format-grid .course-content #gridiconcontainer .gridicon_link .icon_content, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .icon_content {
       color: #FFFFFF;
       text-align: left;
       z-index: 1;
@@ -1795,20 +1963,20 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       font-size: 1.25rem;
       line-height: 1.4;
       white-space: normal; }
-    #gridiconcontainer .gridicon_link .image_holder, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder {
+    body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder {
       border: none;
       width: 309.5px;
       height: 310px;
       background-color: transparent;
       border-radius: 0; }
-      #gridiconcontainer .gridicon_link .image_holder img, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder img {
+      body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder img, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder img {
         width: 100%;
         height: 100%; }
-      #gridiconcontainer .gridicon_link .image_holder.inaccessible, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
+      body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder.inaccessible, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible {
         cursor: default;
         filter: none;
         opacity: initial; }
-        #gridiconcontainer .gridicon_link .image_holder.inaccessible:before, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
+        body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder.inaccessible:before, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
           content: 'Available soon';
           position: absolute;
           background-color: #F5B90F;
@@ -1823,15 +1991,58 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           display: flex;
           align-items: center;
           font-family: 'KingsBureauGrot'; }
-        #gridiconcontainer .gridicon_link .image_holder.inaccessible .icon_content, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible .icon_content {
+        body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder.inaccessible .icon_content, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible .icon_content {
           background-color: rgba(90, 100, 105, 0.85) !important; }
-        #gridiconcontainer .gridicon_link .image_holder.inaccessible img, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img {
+        body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder.inaccessible img, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img {
           filter: grayscale(1); }
-          #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
+          body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder.inaccessible img:hover, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible img:hover {
             transform: none; }
 
-.format-grid .course-content .single-section .section-navigation.navigationtitle {
+body.format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
+
+body.format-topcoll .course-content .single-section .section-navigation.navigationtitle {
+  padding: 0; }
+  body.format-topcoll .course-content .single-section .section-navigation.navigationtitle .sectionname {
+    text-align: left;
+    margin-bottom: 2.25rem; }
+    body.format-topcoll .course-content .single-section .section-navigation.navigationtitle .sectionname:after {
+      display: none; }
+
+.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
+  width: calc(100% - 58px); }
+
+.editing .course-content ul:not(.ctopics) .section.main .activity .instancename {
+  width: calc(100% - 158px); }
+
+.editing .course-content ul .section.main .activity .actions .menubar {
+  margin: 0 !important; }
+
+.editing .course-content ul .section.main .activity .actions .menu {
+  margin: 0 !important;
+  left: auto !important; }
+
+.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
+  margin-left: 0 !important; }
+  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
+    position: absolute;
+    left: -110px; }
+    @media only screen and (min-width: 768px) {
+      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
+        left: -126px; } }
+  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+    position: absolute;
+    left: -122px; }
+    @media only screen and (min-width: 768px) {
+      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
+        left: -140px; } }
+
+.editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
+  position: absolute;
+  left: -110px; }
+  @media only screen and (min-width: 768px) {
+    .editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
+      left: -126px; } }
 
 .editing .course-content > ul.ctopics #section-0 .content .summary > a:last-child {
   position: absolute;
@@ -1852,14 +2063,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .editing .course-content .single-section > ul.ctopics .section.main .content ul.section {
   margin-left: 8.75rem !important; }
-
-.course-content .single-section .section-navigation.navigationtitle {
-  padding: 0; }
-  .course-content .single-section .section-navigation.navigationtitle .sectionname {
-    text-align: left;
-    margin-bottom: 2.25rem; }
-    .course-content .single-section .section-navigation.navigationtitle .sectionname:after {
-      display: none; }
 
 .course-content ul.ctopics {
   margin: 0 !important; }
@@ -1992,228 +2195,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       border-radius: 4px;
       padding: 0.25rem 0; }
 
-.section .summary .iconsmall, .section .summary img.icon, .section .activity .iconsmall, .section .activity img.icon {
-  padding: 0; }
-
-#region-main ul.section {
-  margin: 0; }
-
-.course-content ul.section li.activity {
-  display: flex;
-  margin-bottom: 1rem !important;
-  padding: 0 !important; }
-  .course-content ul.section li.activity > div {
-    width: 100%; }
-    .course-content ul.section li.activity > div .mod-indent-outer {
-      display: block; }
-  .course-content ul.section li.activity .no-overflow {
-    padding: 0; }
-  .course-content ul.section li.activity.label:not(:first-of-type) h2,
-  .course-content ul.section li.activity.label:not(:first-of-type) h3,
-  .course-content ul.section li.activity.label:not(:first-of-type) h4 {
-    margin-top: 0.75rem !important; }
-  .course-content ul.section li.activity.label h2:last-child,
-  .course-content ul.section li.activity.label h3:last-child,
-  .course-content ul.section li.activity.label h4:last-child,
-  .course-content ul.section li.activity.label p:last-child {
-    margin-bottom: 0; }
-  .course-content ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
-    display: none !important; }
-  .course-content ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
-    background-color: #60bbba !important;
-    color: white;
-    width: 5.5rem !important; }
-  .course-content ul.section li.activity .editing_move {
-    top: 2px !important; }
-  .course-content ul.section li.activity .mod-indent-outer > div:last-child {
-    display: flex;
-    flex-wrap: wrap; }
-  .course-content ul.section li.activity .activityinstance {
-    width: 100%;
-    min-height: initial !important;
-    padding: 0;
-    order: 2; }
-    .course-content ul.section li.activity .activityinstance ~ .ishidden {
-      margin: 0; }
-    .course-content ul.section li.activity .activityinstance:not(:last-child) {
-      margin-bottom: 0; }
-    .course-content ul.section li.activity .activityinstance img.activityicon {
-      display: none; }
-    .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) {
-      width: 100%; }
-      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
-        margin-left: 0.375rem; }
-        @media only screen and (min-width: 768px) {
-          .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
-            margin-left: 0.75rem; } }
-      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover {
-        text-decoration: none; }
-        .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename:not(.is-numbered), .course-content ul.section li.activity .activityinstance a:not(.quickeditlink):hover .instancename.is-numbered .activity-title {
-          text-decoration: underline; }
-      .course-content ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container {
-        display: inline-flex; }
-    .course-content ul.section li.activity .activityinstance a.quickeditlink {
-      margin-left: 0.5rem; }
-      .course-content ul.section li.activity .activityinstance a.quickeditlink .quickediticon img {
-        opacity: 0.8; }
-    .course-content ul.section li.activity .activityinstance .resourcelinkdetails {
-      color: #5A6469;
-      font-size: 14px; }
-  .course-content ul.section li.activity .availabilityinfo {
-    order: 3;
-    flex: 0 0 100%;
-    margin: 0.5rem 0 0 0; }
-    .course-content ul.section li.activity .availabilityinfo label {
-      color: #FFFFFF; }
-  .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
-    border-left: 3px solid #CDD7DC;
-    border-radius: 0;
-    padding-left: 0.625rem !important;
-    order: 3;
-    margin-left: 34px;
-    margin-top: 0; }
-    @media only screen and (min-width: 768px) {
-      .course-content ul.section li.activity.indent, .course-content ul.section li.activity .contentafterlink {
-        margin-left: 44px; } }
-    .course-content ul.section li.activity.indent p, .course-content ul.section li.activity .contentafterlink p {
-      margin: 0 0 1rem 0; }
-      .course-content ul.section li.activity.indent p:last-child, .course-content ul.section li.activity .contentafterlink p:last-child {
-        margin-bottom: 0; }
-  .course-content ul.section li.activity .contentafterlink {
-    margin-top: 1rem; }
-  .course-content ul.section li.activity .contentwithoutlink {
-    min-height: 1.5rem;
-    width: 100%;
-    order: 2; }
-
-.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
-  width: calc(100% - 58px); }
-
-.editing .course-content ul:not(.ctopics) .section.main .activity .instancename {
-  width: calc(100% - 158px); }
-
-.editing .course-content ul .section.main .activity .actions .menubar {
-  margin: 0 !important; }
-
-.editing .course-content ul .section.main .activity .actions .menu {
-  margin: 0 !important;
-  left: auto !important; }
-
-.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-  margin-left: 0 !important; }
-  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
-    position: absolute;
-    left: -110px; }
-    @media only screen and (min-width: 768px) {
-      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
-        left: -126px; } }
-  .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
-    position: absolute;
-    left: -122px; }
-    @media only screen and (min-width: 768px) {
-      .editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
-        left: -140px; } }
-
-.editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
-  position: absolute;
-  left: -110px; }
-  @media only screen and (min-width: 768px) {
-    .editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
-      left: -126px; } }
-
-.course-content > #completionprogressid {
-  display: none !important; }
-
-.course-content .section.main .content > #completionprogressid {
-  display: none !important; }
-
-.course-content .section.main.completion-progress-section .completionprogress {
-  margin: 0 0 1.5rem 0 !important;
-  display: flex !important;
-  justify-content: flex-start;
-  float: none !important;
-  text-align: left !important;
-  line-height: 1.5;
-  height: auto !important;
-  z-index: auto; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a img {
-    display: none; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:hover {
-    text-decoration: none; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip a:after {
-    font-family: 'Font Awesome 5 Free';
-    font-size: 1.25rem;
-    content: '\f059';
-    color: #0A2D50;
-    margin-left: 36px;
-    position: absolute;
-    top: -3px; }
-  .course-content .section.main.completion-progress-section .completionprogress .helptooltip:before {
-    content: '';
-    background: url(https://keats.kcl.ac.uk/theme/image.php/lambda/core/1583825691/i/completion-manual-y) no-repeat;
-    background-size: 20px 20px;
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: 2px;
-    margin-left: 8px; }
-
-.course-content .section.main.completion-progress-section .activity.completion-progress-activity .activityinstance {
-  max-width: calc(100% - 30px); }
-  @media only screen and (min-width: 768px) {
-    .course-content .section.main.completion-progress-section .activity.completion-progress-activity .activityinstance {
-      max-width: calc(100% - 40px); } }
-
-.course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions {
-  position: static;
-  max-width: max-content;
-  background: none;
-  left: 0; }
-  .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands {
-    position: absolute;
-    left: -78px; }
-    @media only screen and (min-width: 768px) {
-      .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands {
-        left: -94px; } }
-    .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .menubar {
-      margin: 0 !important; }
-    .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .menu {
-      left: unset !important; }
-  .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions button, .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
-    padding: 0 !important;
-    margin: 0 0.5rem 0 0 !important; }
-    @media only screen and (min-width: 768px) {
-      .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions button, .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
-        margin: 0 1rem 0 0 !important; } }
-    .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions button img.icon, .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion img.icon {
-      height: 1.25rem;
-      width: 1.25rem;
-      padding: 0;
-      border-radius: 4px;
-      background: rgba(255, 255, 255, 0.8); }
-  .course-content .section.main.completion-progress-section .activity.completion-progress-activity .actions .filler {
-    display: none; }
-
-.course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) {
-  margin-left: 30px; }
-  @media only screen and (min-width: 768px) {
-    .course-content .section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) {
-      margin-left: 38px; } }
-
 table li.activity.page {
   margin-bottom: unset !important; }
   table li.activity.page .activityinstance {
     min-height: unset; }
-
-@media not all and (min-resolution: 0.001dpcm) {
-  li.activity .activityinstance .activity-label-container .activity-label {
-    line-height: 1.7; } }
-
-li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .group-icon, li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .media-icon {
-  display: none !important; }
-
-li.section.main.section-hide-activity-labels li.activity:not(.type-assessed) .activity-label-container {
-  display: none !important; }
 
 a.activity-link {
   text-decoration: none !important; }

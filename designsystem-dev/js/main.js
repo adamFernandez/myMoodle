@@ -149,7 +149,7 @@ $(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
 // move .accesshide from within .instancename and append to .activityinstance
 // affected the prefix title modification in original location
 $("li.activity .instancename .accesshide").each(function() {
-    $(this).parents(".activityinstance").prepend(this);
+    $(this).parents(".activityinstance").append(this);
 });
 
 // set defaults

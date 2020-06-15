@@ -1905,6 +1905,8 @@ body #region-main .course-content ul {
           min-height: 1.5rem;
           width: 100%;
           order: 2; }
+        body #region-main .course-content ul > li.section.main ul.section li.activity:last-child {
+          margin-bottom: 0 !important; }
     body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress {
       margin: 0 0 1.5rem 0 !important;
       display: flex !important;

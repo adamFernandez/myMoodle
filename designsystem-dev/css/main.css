@@ -1937,10 +1937,15 @@ body #region-main .course-content ul {
         position: absolute;
         top: 2px;
         margin-left: 8px; }
-    body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) {
+    body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label).completion-progress-activity .activityinstance {
+      max-width: calc(100% - 30px); }
+      @media only screen and (min-width: 768px) {
+        body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label).completion-progress-activity .activityinstance {
+          max-width: calc(100% - 38px); } }
+    body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) .activityinstance {
       margin-left: 30px; }
       @media only screen and (min-width: 768px) {
-        body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) {
+        body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) .activityinstance {
           margin-left: 38px; } }
 
 body.format-grid .course-content #gridiconcontainer {

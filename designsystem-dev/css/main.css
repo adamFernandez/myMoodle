@@ -2178,18 +2178,21 @@ body.editing .course-content ul .section.main {
               }
             }
             */ }
+    body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
+      width: calc(100% - 92px); }
+      @media only screen and (min-width: 768px) {
+        body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
+          width: calc(100% - 116px); } }
     body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
       margin: 0 1rem 0 64px !important; }
       @media only screen and (min-width: 768px) {
         body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
           margin: 0 1rem 0 80px !important; } }
-    body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-      margin-left: 92px !important;
-      width: calc(100% - 92px); }
+    body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
+      margin-left: 92px !important; }
       @media only screen and (min-width: 768px) {
-        body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-          margin-left: 116px !important;
-          width: calc(100% - 116px); } }
+        body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
+          margin-left: 116px !important; } }
 
 body.editing .course-content.ctopics #section-0 .content .summary > a:last-child {
   position: absolute;

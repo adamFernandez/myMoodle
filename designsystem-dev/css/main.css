@@ -1905,11 +1905,6 @@ body #region-main .course-content ul {
           min-height: 1.5rem;
           width: 100%;
           order: 2; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity:not(.label):not(.completion-progress-activity) {
-          margin-left: 30px; }
-          @media only screen and (min-width: 768px) {
-            body #region-main .course-content ul > li.section.main ul.section li.activity:not(.label):not(.completion-progress-activity) {
-              margin-left: 38px; } }
     body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress {
       margin: 0 0 1.5rem 0 !important;
       display: flex !important;
@@ -1940,6 +1935,11 @@ body #region-main .course-content ul {
         position: absolute;
         top: 2px;
         margin-left: 8px; }
+    body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) {
+      margin-left: 30px; }
+      @media only screen and (min-width: 768px) {
+        body #region-main .course-content ul > li.section.main.completion-progress-section li:not(.label):not(.completion-progress-activity) {
+          margin-left: 38px; } }
 
 body.format-grid .course-content #gridiconcontainer {
   width: 103%; }
@@ -2046,12 +2046,13 @@ body.format-topcoll .course-content ul.ctopics {
             body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo .label, body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed .section_availability .availabilityinfo .label {
               color: #FFFFFF; }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open {
-          background-color: #0A2D50 !important;
-          color: #FFFFFF !important; }
-          body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname::before {
-            content: '\f107'; }
-          body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname span {
-            color: #FFFFFF; }
+          background-color: #0A2D50 !important; }
+          body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname {
+            color: #FFFFFF !important; }
+            body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname::before {
+              content: '\f107'; }
+            body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname span {
+              color: #FFFFFF; }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed:hover {
           background-color: #DCE3E6 !important; }
       body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen {

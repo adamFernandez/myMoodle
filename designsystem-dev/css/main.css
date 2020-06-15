@@ -1811,8 +1811,6 @@ body #region-main .course-content ul {
           background-color: #60bbba !important;
           color: white;
           width: 5.5rem !important; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity .editing_move {
-          top: 2px !important; }
         body #region-main .course-content ul > li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
           display: flex;
           flex-wrap: wrap; }
@@ -1875,16 +1873,6 @@ body #region-main .course-content ul {
           max-width: max-content;
           background: none;
           left: 0; }
-          body #region-main .course-content ul > li.section.main ul.section li.activity .actions .commands {
-            position: absolute;
-            left: -78px; }
-            @media only screen and (min-width: 768px) {
-              body #region-main .course-content ul > li.section.main ul.section li.activity .actions .commands {
-                left: -94px; } }
-            body #region-main .course-content ul > li.section.main ul.section li.activity .actions .commands .menubar {
-              margin: 0 !important; }
-            body #region-main .course-content ul > li.section.main ul.section li.activity .actions .commands .menu {
-              left: unset !important; }
           body #region-main .course-content ul > li.section.main ul.section li.activity .actions button, body #region-main .course-content ul > li.section.main ul.section li.activity .actions .autocompletion {
             padding: 0 !important;
             margin: 0 0.5rem 0 0 !important; }
@@ -2150,37 +2138,59 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
 body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
   width: calc(100% - 58px); }
 
-body.editing .course-content ul:not(.ctopics) .section.main .activity .instancename {
-  width: calc(100% - 158px); }
-
-body.editing .course-content ul .section.main .activity .actions .menubar {
-  margin: 0 !important; }
-
-body.editing .course-content ul .section.main .activity .actions .menu {
-  margin: 0 !important;
-  left: auto !important; }
-
-body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) {
-  margin-left: 0 !important; }
-  body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
-    position: absolute;
-    left: -110px; }
-    @media only screen and (min-width: 768px) {
-      body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .actions .commands {
-        left: -126px; } }
-  body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
-    position: absolute;
-    left: -122px; }
-    @media only screen and (min-width: 768px) {
-      body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity).indent .actions .commands {
-        left: -140px; } }
-
-body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
-  position: absolute;
-  left: -110px; }
+body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
+  top: 2px !important;
+  left: 72px; }
   @media only screen and (min-width: 768px) {
-    body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .actions .commands {
-      left: -126px; } }
+    body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
+      left: 80px; } }
+
+body.editing .course-content ul .section.main {
+  /*
+          &:not(.completion-progress-section) {
+            .activity .actions .commands {
+              position: absolute;
+              left: -110px;
+              @media only screen and (min-width: $neo-breakpoint) {
+                left: -126px;
+              }
+            }
+          }
+          */ }
+  body.editing .course-content ul .section.main .activity .actions .commands {
+    position: absolute;
+    left: 0; }
+    body.editing .course-content ul .section.main .activity .actions .commands .menubar {
+      margin: 0 !important; }
+    body.editing .course-content ul .section.main .activity .actions .commands .menu {
+      left: 0 !important;
+      width: min-content; }
+  body.editing .course-content ul .section.main.completion-progress-section {
+    /*
+            .activity:not(.label):not(.completion-progress-activity) {
+              margin-left:92px !important;
+              width: calc(100% - 92px);
+                @media only screen and (min-width: $neo-breakpoint) {
+                  margin-left:116px !important;
+                  width: calc(100% - 116px);
+                }
+              }
+              &.indent {
+                .actions .commands {
+                  position: absolute;
+                  left: -122px;
+                  @media only screen and (min-width: $neo-breakpoint) {
+                    left: -140px;
+                  }
+                }
+              }
+            }
+            */ }
+    body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .autocompletion {
+      margin: 0 1rem 0 64px !important; }
+      @media only screen and (min-width: 768px) {
+        body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .commands .autocompletion {
+          margin: 0 1rem 0 80px !important; } }
 
 body.editing .course-content.ctopics #section-0 .content .summary > a:last-child {
   position: absolute;

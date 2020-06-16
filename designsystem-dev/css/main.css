@@ -2151,7 +2151,7 @@ body.editing .course-content ul .section.main .activity .actions .commands {
     width: min-content; }
 
 body.editing .course-content ul .section.main .activity.label .contentwithoutlink {
-  margin-left: 102px !important; }
+  margin-left: 64px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main .activity.label .contentwithoutlink {
       margin-left: 80px !important; } }
@@ -2169,6 +2169,12 @@ body.editing .course-content ul .section.main.completion-progress-section .activ
   margin-left: 100px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main.completion-progress-section .activity .availabilityinfo {
+      margin-left: 116px !important; } }
+
+body.editing .course-content ul .section.main.completion-progress-section .activity.label .contentwithoutlink {
+  margin-left: 102px !important; }
+  @media only screen and (min-width: 768px) {
+    body.editing .course-content ul .section.main.completion-progress-section .activity.label .contentwithoutlink {
       margin-left: 116px !important; } }
 
 body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {

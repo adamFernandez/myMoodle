@@ -124,12 +124,12 @@ var data = {
     },
     "module2": {
       "comments": {
-        "1": "mod/forum/view.php?id=2956440"
+        "1": "mod/forum/view.php?id=3224640"
       }
     },
     "module3": {
       "comments": {
-        "1": "mod/forum/view.php?id=2696760"
+        "1": "mod/forum/view.php?id=3299988"
       }
     },
     "module4": {
@@ -368,14 +368,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=3222637"
+        "2": "mod/forum/view.php?id=3262711"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2951338",
-              "2": "mod/choice/view.php?id=3222657"
+              "2": "mod/choice/view.php?id=3262731"
             }
           }
         }
@@ -401,47 +401,47 @@ var data = {
     },
     "module4": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3150206"
+        "1": "mod/forum/view.php?id=3262846"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=3150290"
+        "1": "mod/choice/view.php?id=3262935"
       },
       "poll2": {
-        "1": "mod/choice/view.php?id=3150291"
+        "1": "mod/choice/view.php?id=3262936"
       },
       "poll3": {
-        "1": "mod/choice/view.php?id=3150292"
+        "1": "mod/choice/view.php?id=3262937"
       },
       "poll4": {
-        "1": "mod/choice/view.php?id=3150293"
+        "1": "mod/choice/view.php?id=3262938"
       },
       "poll5": {
-        "1": "mod/choice/view.php?id=3150284"
+        "1": "mod/choice/view.php?id=3262929"
       },
       "poll6": {
-        "1": "mod/choice/view.php?id=3150285"
+        "1": "mod/choice/view.php?id=3262930"
       },
       "poll7": {
-        "1": "mod/choice/view.php?id=3150286"
+        "1": "mod/choice/view.php?id=3262931"
       },
       "poll8": {
-        "1": "mod/choice/view.php?id=3150287"
+        "1": "mod/choice/view.php?id=3262932"
       },
       "poll9": {
-        "1": "mod/choice/view.php?id=3150288"
+        "1": "mod/choice/view.php?id=3262933"
       },
       "poll10": {
-        "1": "mod/choice/view.php?id=3150240"
+        "1": "mod/choice/view.php?id=3262882"
       }
     },
     "module5": {
       "discussion": {
         "1": "mod/forum/view.php?id=2469235",
-        "2": "mod/forum/view.php?id=3095930"
+        "2": "mod/forum/view.php?id=3262999"
       },
       "poll1": {
         "1": "mod/choice/view.php?id=2469337",
-        "2": "mod/choice/view.php?id=3095990"
+        "2": "mod/choice/view.php?id=3263061"
       }
     },
     "module6": {

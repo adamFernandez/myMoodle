@@ -1253,6 +1253,9 @@ a.link-download {
 img.icon {
   box-sizing: content-box; }
 
+.img.iconsmall {
+  padding: 0; }
+
 .full-width-img, .img-full-width {
   margin-bottom: 1.5rem; }
   .full-width-img img, .img-full-width img {

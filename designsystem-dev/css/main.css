@@ -2134,7 +2134,8 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
       display: none; }
 
 body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
-  width: calc(100% - 58px); }
+  width: 100%;
+  margin-left: 80px; }
 
 body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
   top: 2px !important;
@@ -2155,36 +2156,32 @@ body.editing .course-content ul .section.main .activity .actions .commands {
 body.editing .course-content ul .section.main .activity:last-child {
   margin-bottom: 0 !important; }
 
-body.editing .course-content ul .section.main.completion-progress-section {
-  /*
-              &.indent {
-                .actions .commands {
-                  position: absolute;
-                  left: -122px;
-                  @media only screen and (min-width: $neo-breakpoint) {
-                    left: -140px;
-                  }
-                }
-              }
-            }
-            */ }
-  body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
-    width: calc(100% - 92px) !important; }
-    @media only screen and (min-width: 768px) {
-      body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
-        width: calc(100% - 116px) !important; } }
-  body.editing .course-content ul .section.main.completion-progress-section .activity .availabilityinfo {
-    margin-left: 116px; }
-  body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
-    margin: 0 1rem 0 64px !important; }
-    @media only screen and (min-width: 768px) {
-      body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
-        margin: 0 1rem 0 80px !important; } }
-  body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
-    margin-left: 92px !important; }
-    @media only screen and (min-width: 768px) {
-      body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
-        margin-left: 116px !important; } }
+body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
+  width: calc(100% - 100px) !important; }
+  @media only screen and (min-width: 768px) {
+    body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
+      width: calc(100% - 116px) !important; } }
+
+body.editing .course-content ul .section.main.completion-progress-section .activity .availabilityinfo {
+  margin-left: 116px; }
+
+body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
+  margin: 0 1rem 0 64px !important; }
+  @media only screen and (min-width: 768px) {
+    body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
+      margin: 0 1rem 0 80px !important; } }
+
+body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
+  margin-left: 100px !important; }
+  @media only screen and (min-width: 768px) {
+    body.editing .course-content ul .section.main.completion-progress-section .activity:not(.completion-progress-activity) .activityinstance {
+      margin-left: 116px !important; } }
+
+body.editing .course-content ul .section.main.completion-progress-section.indent .contentwithoutlink, body.editing .course-content ul .section.main.completion-progress-section.indent .contentafterlink {
+  margin-left: 102px; }
+  @media only screen and (min-width: 768px) {
+    body.editing .course-content ul .section.main.completion-progress-section.indent .contentwithoutlink, body.editing .course-content ul .section.main.completion-progress-section.indent .contentafterlink {
+      margin-left: 80px; } }
 
 body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .activityinstance, body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .availabilityinfo {
   margin-left: 64px; }

@@ -2135,10 +2135,10 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
       display: none; }
 
 body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink {
-  margin-left: 72px; }
+  margin-left: 102px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink {
-      margin-left: 80px; } }
+      margin-left: 80px !important; } }
 
 body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
   top: 2px !important;
@@ -2190,10 +2190,10 @@ body.editing .course-content ul .section.main.completion-progress-section.indent
       margin-left: 80px !important; } }
 
 body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .activityinstance, body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .availabilityinfo {
-  margin-left: 64px; }
+  margin-left: 64px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .activityinstance, body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .availabilityinfo {
-      margin-left: 80px; } }
+      margin-left: 80px !important; } }
 
 body.editing .course-content.ctopics #section-0 .content .summary > a:last-child {
   position: absolute;

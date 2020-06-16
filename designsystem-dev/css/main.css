@@ -2140,11 +2140,11 @@ body.editing .course-content ul:not(.ctopics) .section.main .activity.label .con
     body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink {
       margin-left: 80px !important; } }
 
-body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
+body.editing .course-content ul .section.main .activity .editing_move {
   top: 2px !important;
   left: 72px; }
   @media only screen and (min-width: 768px) {
-    body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
+    body.editing .course-content ul .section.main .activity .editing_move {
       left: 80px; } }
 
 body.editing .course-content ul .section.main .activity .actions .commands {
@@ -2211,9 +2211,6 @@ body.editing .course-content .single-section > ul.ctopics .section.main .content
   position: absolute;
   top: -4.25rem;
   left: -1.5rem; }
-
-body.editing .course-content .single-section > ul.ctopics .section.main .content ul.section {
-  margin-left: 8.75rem !important; }
 
 table li.activity.page {
   margin-bottom: unset !important; }

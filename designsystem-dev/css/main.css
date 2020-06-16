@@ -2001,7 +2001,16 @@ body.format-topcoll .course-content ul.ctopics {
   margin: 0 !important; }
   body.format-topcoll .course-content ul.ctopics > .section {
     margin: 0 !important;
-    position: relative; }
+    position: relative;
+    /*
+          &:not(:last-of-type) {
+            .content {
+              .sectionhead {
+                margin-bottom: $component-margin-xs !important;
+              }
+            }
+          }
+          */ }
     body.format-topcoll .course-content ul.ctopics > .section .side.left {
       position: absolute;
       top: 1rem;
@@ -2050,18 +2059,19 @@ body.format-topcoll .course-content ul.ctopics {
               content: '\f107'; }
             body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname span {
               color: #FFFFFF; }
-        body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed:hover {
-          background-color: #DCE3E6 !important; }
+        body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed {
+          margin-bottom: 0.5rem; }
+          body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed:hover {
+            background-color: #DCE3E6 !important; }
       body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
         background-color: rgba(237, 241, 242, 0.3);
-        padding: 1.5rem 0.5rem; }
+        padding: 1.5rem 0.5rem;
+        margin-bottom: 0.5rem; }
         @media only screen and (min-width: 768px) {
           body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
             padding: 2.25rem 1.5rem; } }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen li.activity:last-child {
           margin-bottom: 0 !important; }
-    body.format-topcoll .course-content ul.ctopics > .section:not(:last-of-type) .content .sectionhead {
-      margin-bottom: 0.5rem !important; }
     body.format-topcoll .course-content ul.ctopics > .section#section-0 .side {
       display: none; }
     body.format-topcoll .course-content ul.ctopics > .section#section-0 .section-title {
@@ -2136,6 +2146,9 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     margin-bottom: 2.25rem; }
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
+
+body.editing .course-content ul .section.main .summary .no-overflow {
+  width: 100%; }
 
 body.editing .course-content ul .section.main .activity .editing_move {
   top: 2px !important;

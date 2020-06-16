@@ -1854,7 +1854,7 @@ body #region-main .course-content ul {
           margin: 0.5rem 0 0 0; }
           body #region-main .course-content ul > li.section.main ul.section li.activity .availabilityinfo label {
             color: #FFFFFF; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity.indent, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink {
+        body #region-main .course-content ul > li.section.main ul.section li.activity.indent .contentwithoutlink, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink {
           border-left: 3px solid #CDD7DC;
           border-radius: 0;
           padding-left: 0.625rem !important;
@@ -1862,11 +1862,11 @@ body #region-main .course-content ul {
           margin-left: 34px;
           margin-top: 0; }
           @media only screen and (min-width: 768px) {
-            body #region-main .course-content ul > li.section.main ul.section li.activity.indent, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink {
-              margin-left: 44px; } }
-          body #region-main .course-content ul > li.section.main ul.section li.activity.indent p, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink p {
+            body #region-main .course-content ul > li.section.main ul.section li.activity.indent .contentwithoutlink, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink {
+              margin-left: 42px; } }
+          body #region-main .course-content ul > li.section.main ul.section li.activity.indent .contentwithoutlink p, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink p {
             margin: 0 0 1rem 0; }
-            body #region-main .course-content ul > li.section.main ul.section li.activity.indent p:last-child, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink p:last-child {
+            body #region-main .course-content ul > li.section.main ul.section li.activity.indent .contentwithoutlink p:last-child, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink p:last-child {
               margin-bottom: 0; }
         body #region-main .course-content ul > li.section.main ul.section li.activity .actions {
           position: static;
@@ -1893,8 +1893,6 @@ body #region-main .course-content ul {
           min-height: 1.5rem;
           width: 100%;
           order: 2; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity:last-child {
-          margin-bottom: 0 !important; }
     body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress {
       margin: 0 0 1.5rem 0 !important;
       display: flex !important;
@@ -2154,6 +2152,9 @@ body.editing .course-content ul .section.main .activity .actions .commands {
     left: 0 !important;
     width: min-content; }
 
+body.editing .course-content ul .section.main .activity:last-child {
+  margin-bottom: 0 !important; }
+
 body.editing .course-content ul .section.main.completion-progress-section {
   /*
               &.indent {
@@ -2168,10 +2169,12 @@ body.editing .course-content ul .section.main.completion-progress-section {
             }
             */ }
   body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
-    width: calc(100% - 92px); }
+    width: calc(100% - 92px) !important; }
     @media only screen and (min-width: 768px) {
       body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
-        width: calc(100% - 116px); } }
+        width: calc(100% - 116px) !important; } }
+  body.editing .course-content ul .section.main.completion-progress-section .activity .availabilityinfo {
+    margin-left: 116px; }
   body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
     margin: 0 1rem 0 64px !important; }
     @media only screen and (min-width: 768px) {

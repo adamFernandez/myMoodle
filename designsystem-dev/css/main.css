@@ -2134,12 +2134,10 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
-body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
-  width: calc(100% - 64px);
-  margin-left: 64px; }
+body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink {
+  margin-left: 72px; }
   @media only screen and (min-width: 768px) {
-    body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink .no-overflow .no-overflow {
-      width: calc(100% - 80px);
+    body.editing .course-content ul:not(.ctopics) .section.main .activity.label .contentwithoutlink {
       margin-left: 80px; } }
 
 body.editing .course-content ul:not(.ctopics) .section.main .activity .editing_move {
@@ -2186,10 +2184,10 @@ body.editing .course-content ul .section.main.completion-progress-section .activ
       margin-left: 116px !important; } }
 
 body.editing .course-content ul .section.main.completion-progress-section.indent .contentwithoutlink, body.editing .course-content ul .section.main.completion-progress-section .contentafterlink {
-  margin-left: 102px; }
+  margin-left: 102px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main.completion-progress-section.indent .contentwithoutlink, body.editing .course-content ul .section.main.completion-progress-section .contentafterlink {
-      margin-left: 80px; } }
+      margin-left: 80px !important; } }
 
 body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .activityinstance, body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .availabilityinfo {
   margin-left: 64px; }

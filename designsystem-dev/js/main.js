@@ -162,7 +162,7 @@ $("li.activity").each(function() {
     $(this).addClass("type-activity");
   // activity type with group icon
   } else if ($(this).is(".data, .forum, .ouwiki, .connecthosted, .wiki")) {
-    $(this).addClass("type-activity group");
+    $(this).addClass("type-activity i-group");
   // assessed type no icon
   } else if ($(this).is(".assign, .turnitintooltwo, .workshop")) {
     $(this).addClass("type-assessed");
@@ -177,10 +177,10 @@ $("li.activity").each(function() {
   // add assessed label
   $(this).find(".instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");  
   // add icon
-  $(this).find(".instancename:contains('-gro')").parents("li.activity").addClass("group");
-  $(this).find(".instancename:contains('-med')").parents("li.activity").addClass("media");
-  $(this).find(".instancename:contains('-ngr')").parents("li.activity").removeClass("group");
-  $(this).find(".instancename:contains('-nme')").parents("li.activity").removeClass("media");
+  $(this).find(".instancename:contains('-gro')").parents("li.activity").addClass("i-group");
+  $(this).find(".instancename:contains('-med')").parents("li.activity").addClass("i-media");
+  $(this).find(".instancename:contains('-ngr')").parents("li.activity").removeClass("i-group");
+  $(this).find(".instancename:contains('-nme')").parents("li.activity").removeClass("i-media");
   // strip keywords from activity title
   $(this).find(".instancename:contains('activity-label')").text(function(i, currentText) {
     return currentText.substring(27);
@@ -197,9 +197,9 @@ $("li.activity.type-activity .activityinstance a .activity-label-container .acti
 // remove activity type label
 $("li.activity.type-study .activityinstance a .activity-label-container .activity-label .label-text").empty();
 // add group icon to activity type label
-$("li.activity.group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
+$("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
 // add media icon
-$("li.activity.media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
+$("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
 
 /*
 strip keywords from elsewhere:

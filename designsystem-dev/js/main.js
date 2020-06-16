@@ -153,7 +153,7 @@ $("li.activity .instancename .accesshide").each(function() {
 });
 
 // week overview page activity label code
-$("li.activity .activityinstance a").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
+$("li.activity .activityinstance a:not(".quickeditlink")").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
 
 // set defaults
 $("li.activity").each(function() {

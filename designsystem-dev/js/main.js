@@ -152,31 +152,57 @@ $("li.activity .instancename .accesshide").each(function() {
     $(this).parents(".activityinstance").prepend(this);
 });
 
-// set defaults
-// study type no icon
-// 'file' activity type has 'resource' class
-$("li.activity.book, li.activity.folder, li.activity.page, li.activity.resource, li.activity.glossary, li.activity.lesson, li.activity.lti, li.activity.url").addClass("type-study");
-// study type with icon
-$("li.activity.kalvidres").addClass("type-study i-media");
-// activity type no icon
-$("li.activity.assign, li.activity.choice, li.activity.feedback, li.activity.hvp, li.activity.kalvidassign, li.activity.oublog, li.activity.questionnaire, li.activity.quiz, li.activity.turnitintooltwo, li.activity.workshop").addClass("type-activity");
-// activity type with icon
-$("li.activity.data, li.activity.forum, li.activity.connecthosted, li.activity.wiki").addClass("type-activity i-group");
+// week overview page activity label code
+$("li.activity .activityinstance a").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
 
-// add assessed label
-$("li.activity .instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");
-// override activity type
-$("li.activity .instancename:contains('-act')").parents("li.activity").removeClass("type-study type-assessed").addClass("type-activity");
-// remove activity label
-$("li.activity .instancename:contains('-stu')").parents("li.activity").removeClass("type-activity type-assessed").addClass("type-study");
-// add or remove icon
-$("li.activity .instancename:contains('-gro')").parents("li.activity").addClass("i-group");
-$("li.activity .instancename:contains('-ngr')").parents("li.activity").removeClass("i-group");
-$("li.activity .instancename:contains('-med')").parents("li.activity").addClass("i-media");
-$("li.activity .instancename:contains('-nme')").parents("li.activity").removeClass("i-media");
+// set defaults
+$("li.activity").each(function() {
+  // activity type no icon
+  if ($(this).is('.attendance, .attendanceregister, .choice, .chat, .checklist, .feedback, .hvp, .kalvidassign, .oublog, .questionnaire, .quiz, .scheduler, .survey')) {
+    $(this).addClass("type-activity");
+  // activity type with group icon
+  } else if ($(this).is(".data, .forum, .ouwiki, .connecthosted, .wiki")) {
+    $(this).addClass("type-activity group");
+  // assessed type no icon
+  } else if ($(this).is(".assign, .turnitintooltwo, .workshop")) {
+    $(this).addClass("type-assessed");
+  } else {
+    // study type
+    $(this).addClass("type-study");    
+  }
+  // remove label
+  $(this).find(".instancename:contains('-stu')").parents("li.activity").removeClass("type-activity type-assessed").addClass("type-study");
+  // override activity type
+  $(this).find(".instancename:contains('-act')").parents("li.activity").removeClass("type-study type-assessed").addClass("type-activity");
+  // add assessed label
+  $(this).find(".instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");  
+  // add icon
+  $(this).find(".instancename:contains('-gro')").parents("li.activity").addClass("group");
+  $(this).find(".instancename:contains('-med')").parents("li.activity").addClass("media");
+  $(this).find(".instancename:contains('-ngr')").parents("li.activity").removeClass("group");
+  $(this).find(".instancename:contains('-nme')").parents("li.activity").removeClass("media");
+  // strip keywords from activity title
+  $(this).find(".instancename:contains('activity-label')").text(function(i, currentText) {
+    return currentText.substring(27);
+  });
+  // add indent class and remove keyword
+  $(this).find(".instancename:contains('-indent')").text(function(i, currentText) {
+    return currentText.substr(11, 1) + '.' + currentText.substr(12);
+  }).parents("li.activity").addClass("indent");
+});
+// add assessed text to assessed type label
+$("li.activity.type-assessed .activityinstance a .activity-label-container .activity-label .label-text").text("assessed");
+// add activity text to activity type label
+$("li.activity.type-activity .activityinstance a .activity-label-container .activity-label .label-text").text("activity");
+// remove activity type label
+$("li.activity.type-study .activityinstance a .activity-label-container .activity-label .label-text").empty();
+// add group icon to activity type label
+$("li.activity.group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
+// add media icon
+$("li.activity.media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
 
 /*
-strip keywords from activity title
+strip keywords from elsewhere:
 section view activity title, activity page title
 print page title, print book info title
 breadcrumb
@@ -188,7 +214,7 @@ forum new post confirmation
 question bank question page dropdown, question category page and export page
 question editing page
 */
-$("li.activity .instancename:contains('activity-label'), #region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label'), #page-question-edit select option:contains('activitiy-label'), #page-question-category h3:contains('activity-label'), #page-question-category ul li b a:contains('activity-label'), #page-question-category ul li .text_to_html:contains('activity-label'), #page-question-category select option:contains('activity-label'), #page-question-export select option:contains('activity-label'), .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')").text(function(i, currentText) {
+$("#region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label'), #page-question-edit select option:contains('activitiy-label'), #page-question-category h3:contains('activity-label'), #page-question-category ul li b a:contains('activity-label'), #page-question-category ul li .text_to_html:contains('activity-label'), #page-question-category select option:contains('activity-label'), #page-question-export select option:contains('activity-label'), .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 // completion progress activity title
@@ -226,21 +252,6 @@ $("li.activity span.instancename").each(function() {
     return currentText.replace(/ |&nbsp;/, "</span><span class='activity-title'>");
   });
 });
-
-// week overview page activity label code
-$("li.activity .activityinstance a:not(.quickeditlink) .instancename").append('<div class="activity-label-container"><div class="activity-label"><i></i><span class="label-text"></span></div><div class="group-icon"><i></i></div><div class="media-icon"><i></i></div></div>');
-
-// add indent class and remove keyword span
-$("li.activity.label span:contains('-indent')").hide().parents("li.activity").addClass("indent");
-
-// add assessed text to assessed type label
-$("li.activity.type-assessed .activityinstance a .activity-label-container .activity-label .label-text").text("assessed");
-// add activity text to activity type label
-$("li.activity.type-activity .activityinstance a .activity-label-container .activity-label .label-text").text("activity");
-// add group icon to activity type label
-$("li.activity.i-group .activityinstance a .activity-label-container .group-icon i").addClass("fas fa-user-friends");
-// add media icon
-$("li.activity.i-media .activityinstance a .activity-label-container .media-icon i").addClass("fas fa-play-circle");
 
 // hide activity labels within a specific course section
 $(".summary span.section-hide-activity-labels").parents("li.section.main").addClass("section-hide-activity-labels");

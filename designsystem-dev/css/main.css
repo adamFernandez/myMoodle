@@ -2228,48 +2228,48 @@ body.editing #region-main .course-content .gtopics-0 .summary .edit {
 body.editing #region-main .course-content #gridshadebox #gridshadebox_content {
   border: none; }
 
-body.editing #region-main .course-content .gtopics .section.main.grid_section {
+body.editing #region-main .course-content .gtopics .section.main {
   position: relative; }
-  body.editing #region-main .course-content .gtopics .section.main.grid_section .left {
+  body.editing #region-main .course-content .gtopics .section.main .left {
     position: absolute;
     left: -2.25rem;
     top: 0.75rem; }
-  body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu {
+  body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu {
     position: absolute;
     right: 0.5rem;
     top: 1rem; }
-    body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu .moodle-actionmenu :hover {
+    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu :hover {
       background-color: initial; }
-    body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu .moodle-actionmenu .menubar a.textmenu {
+    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu {
       background-color: #FFFFFF !important;
       opacity: 0.8;
       border-radius: 4px; }
-      body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu .moodle-actionmenu .menubar a.textmenu:after {
+      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu:after {
         content: ' section';
         margin-right: 0.75rem; }
-      body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu .moodle-actionmenu .menubar a.textmenu b.caret {
+      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu b.caret {
         border-top-color: #0A2D50 !important;
         position: absolute;
         right: 0;
         margin-right: 0.25rem; }
-    body.editing #region-main .course-content .gtopics .section.main.grid_section .right .section_action_menu .moodle-actionmenu .menu {
+    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
       background-color: #FFFFFF; }
-  body.editing #region-main .course-content .gtopics .section.main.grid_section .content {
+  body.editing #region-main .course-content .gtopics .section.main .content {
     background: rgba(237, 241, 242, 0.3);
     margin: 0 0 1rem 0 !important;
     padding: 0 0.5rem 0.5rem 0.5rem !important; }
-    body.editing #region-main .course-content .gtopics .section.main.grid_section .content .sectionname {
+    body.editing #region-main .course-content .gtopics .section.main .content .sectionname {
       background-color: #0A2D50 !important;
       color: #fff1f1 !important;
       margin-right: -0.5rem;
       margin-left: -0.5rem;
       padding: 1rem 116px 1rem 1rem !important; }
-      body.editing #region-main .course-content .gtopics .section.main.grid_section .content .sectionname a:not(.quickeditlink) {
+      body.editing #region-main .course-content .gtopics .section.main .content .sectionname a:not(.quickeditlink) {
         color: #FFFFFF !important;
         padding: 1rem 0 !important; }
-      body.editing #region-main .course-content .gtopics .section.main.grid_section .content .sectionname a.quickeditlink img {
+      body.editing #region-main .course-content .gtopics .section.main .content .sectionname a.quickeditlink img {
         opacity: 1; }
-    body.editing #region-main .course-content .gtopics .section.main.grid_section .content .summary .edit {
+    body.editing #region-main .course-content .gtopics .section.main .content .summary .edit {
       display: none; }
 
 body.editing #region-main .course-content.ctopics #section-0 .content .summary > a:last-child {

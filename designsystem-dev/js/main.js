@@ -168,11 +168,9 @@ $("li.activity").each(function() {
     $(this).addClass("type-assessed");
   } else if ($(this).is(".lti")) {
     $("img").each(function(i, elem){
-      // If src of img element matches a certain URL then src is new url
-      if ($(this).attr("src") == "https://www.kcl.ac.uk/newimages/it/echo-icon-play.png"){
-        $(this).parents(".lti").addClass("echo360 type-study i-media");
-      }
-    });  
+      // image is only way to differentiate echo360 from other lti activities
+      $(this).parents(".lti").addClass($(this).attr("src") == "https://www.kcl.ac.uk/newimages/it/echo-icon-play.png" ? "echo360 type-study i-media" : "type-study");
+    }); 
   } else {
     // study type
     $(this).addClass("type-study");    

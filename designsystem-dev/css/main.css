@@ -2148,35 +2148,36 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
-body.editing #region-main .course-content ul > .section.main .content {
-  background: rgba(237, 241, 242, 0.3);
-  margin: 0 0 1rem 0 !important;
-  padding: 0 0.5rem 0.5rem 0.5rem !important; }
-  body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
-    width: 100%; }
-  body.editing #region-main .course-content ul > .section.main .content .activity .editing_move {
-    top: 2px !important;
-    left: 72px; }
-    @media only screen and (min-width: 768px) {
-      body.editing #region-main .course-content ul > .section.main .content .activity .editing_move {
-        left: 80px; } }
-  body.editing #region-main .course-content ul > .section.main .content .activity .inplaceeditable {
-    display: flex; }
-  body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands {
-    position: absolute;
-    left: 0; }
-    body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands .menubar {
-      margin: 0 !important; }
-    body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands .menu {
-      left: 0 !important;
-      width: min-content; }
-  body.editing #region-main .course-content ul > .section.main .content .activity.label .contentwithoutlink {
-    margin-left: 64px !important; }
-    @media only screen and (min-width: 768px) {
-      body.editing #region-main .course-content ul > .section.main .content .activity.label .contentwithoutlink {
-        margin-left: 80px !important; } }
-  body.editing #region-main .course-content ul > .section.main .content .activity:last-child {
-    margin-bottom: 0 !important; }
+body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
+  width: 100%; }
+
+body.editing #region-main .course-content ul > .section.main .content .activity .editing_move {
+  top: 2px !important;
+  left: 72px; }
+  @media only screen and (min-width: 768px) {
+    body.editing #region-main .course-content ul > .section.main .content .activity .editing_move {
+      left: 80px; } }
+
+body.editing #region-main .course-content ul > .section.main .content .activity .inplaceeditable {
+  display: flex; }
+
+body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands {
+  position: absolute;
+  left: 0; }
+  body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands .menubar {
+    margin: 0 !important; }
+  body.editing #region-main .course-content ul > .section.main .content .activity .actions .commands .menu {
+    left: 0 !important;
+    width: min-content; }
+
+body.editing #region-main .course-content ul > .section.main .content .activity.label .contentwithoutlink {
+  margin-left: 64px !important; }
+  @media only screen and (min-width: 768px) {
+    body.editing #region-main .course-content ul > .section.main .content .activity.label .contentwithoutlink {
+      margin-left: 80px !important; } }
+
+body.editing #region-main .course-content ul > .section.main .content .activity:last-child {
+  margin-bottom: 0 !important; }
 
 body.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .activityinstance {
   width: calc(100% - 100px) !important; }

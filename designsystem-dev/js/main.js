@@ -172,8 +172,8 @@ $("li.activity").each(function() {
       $(this).parents(".lti").addClass($(this).attr("src") == "https://www.kcl.ac.uk/newimages/it/echo-icon-play.png" ? "echo360 type-study i-media" : "type-study");
     }); 
   } else {
-    // study type
-    $(this).addClass("type-study");    
+    // if not a label, then study type
+    if (!$(this).hasClass("label")) $(this).addClass("type-study");
   }
   // remove label
   $(this).find(".instancename:contains('-stu')").parents("li.activity").removeClass("type-activity type-assessed").addClass("type-study");
@@ -191,9 +191,7 @@ $("li.activity").each(function() {
     return currentText.substring(27);
   });
   // add indent class and remove keyword
-  $(this).find(".instancename:contains('-indent')").text(function(i, currentText) {
-    return currentText.substr(11, 1) + '.' + currentText.substr(12);
-  }).parents("li.activity").addClass("indent");
+  $(this).find("span:contains('-indent')").hide().parents("li.activity").addClass("indent");
 });
 // add assessed text to assessed type label
 $("li.activity.type-assessed .activityinstance a .activity-label-container .activity-label .label-text").text("assessed");

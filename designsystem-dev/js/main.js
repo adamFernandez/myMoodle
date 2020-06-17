@@ -161,11 +161,18 @@ $("li.activity").each(function() {
   if ($(this).is('.attendance, .attendanceregister, .choice, .chat, .checklist, .feedback, .hvp, .kalvidassign, .oublog, .questionnaire, .quiz, .scheduler, .survey')) {
     $(this).addClass("type-activity");
   // activity type with group icon
-  } else if ($(this).is(".data, .forum, .ouwiki, .connecthosted, .wiki")) {
+  } else if ($(this).is(".data, .forum, .choicegroup, .ouwiki, .connecthosted, .wiki")) {
     $(this).addClass("type-activity i-group");
   // assessed type no icon
   } else if ($(this).is(".assign, .turnitintooltwo, .workshop")) {
     $(this).addClass("type-assessed");
+  } else if ($(this).is(".lti")) {
+    $("img").each(function(i, elem){
+      // If src of img element matches a certain URL then src is new url
+      if ($(this).attr("src") == "https://www.kcl.ac.uk/newimages/it/echo-icon-play.png"){
+        $(this).parents(".lti").addClass("echo360 type-study i-media");
+      }
+    });  
   } else {
     // study type
     $(this).addClass("type-study");    

@@ -1829,7 +1829,7 @@ body #region-main .course-content ul {
           body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance img.activityicon {
             display: none; }
           body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) {
-            width: 100%;
+            width: max-content;
             display: flex; }
             body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .instancename .activity-title {
               margin-left: 0.375rem; }

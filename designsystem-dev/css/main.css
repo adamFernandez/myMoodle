@@ -2237,19 +2237,22 @@ body.editing .course-content #gridshadebox #gridshadebox_content {
       position: absolute;
       right: 0.5rem;
       top: 1rem; }
-      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu:hover {
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu :hover {
         background-color: initial; }
-      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a {
-        background-color: #0A2D50 !important;
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu {
+        background-color: #FFFFFF !important;
+        opacity: 0.8;
         border-radius: 4px; }
-        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a:after {
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu:after {
           content: ' section';
           margin-right: 0.75rem; }
-        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a b.caret {
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu b.caret {
           border-top-color: #0A2D50 !important;
           position: absolute;
           right: 0;
           margin-right: 0.25rem; }
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
+        background-color: #FFFFFF; }
     body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content {
       background: rgba(237, 241, 242, 0.3);
       margin: 0 0 1rem 0 !important;

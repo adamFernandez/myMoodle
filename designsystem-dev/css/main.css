@@ -2158,6 +2158,9 @@ body.editing .course-content ul .section.main .activity .editing_move {
     body.editing .course-content ul .section.main .activity .editing_move {
       left: 80px; } }
 
+body.editing .course-content ul .section.main .activity .inplaceeditable {
+  display: flex; }
+
 body.editing .course-content ul .section.main .activity .actions .commands {
   position: absolute;
   left: 0; }
@@ -2192,7 +2195,7 @@ body.editing .course-content ul .section.main.completion-progress-section .activ
   margin-left: 102px !important; }
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main.completion-progress-section .activity.label .contentwithoutlink {
-      margin-left: 116px !important; } }
+      margin-left: 118px !important; } }
 
 body.editing .course-content ul .section.main.completion-progress-section .activity.completion-progress-activity .actions .autocompletion {
   margin: 0 1rem 0 64px !important; }

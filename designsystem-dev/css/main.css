@@ -2289,8 +2289,10 @@ body.editing #region-main .course-content .single-section > ul.ctopics .section.
   top: -4.25rem;
   left: -1.5rem; }
 
-body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right .section_action_menu {
-  top: 0.5rem; }
+body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right {
+  height: 2.25rem; }
+  body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right .section_action_menu {
+    top: 0.5rem; }
 
 body.editing #region-main .course-content .single-section > ul.gtopics .section.main .content {
   padding: 0.5rem !important; }

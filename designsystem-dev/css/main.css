@@ -2148,36 +2148,35 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
-body.editing .course-content ul .section.main .summary .no-overflow {
-  width: 100%; }
-
-body.editing .course-content ul .section.main .activity .editing_move {
-  top: 2px !important;
-  left: 72px; }
-  @media only screen and (min-width: 768px) {
-    body.editing .course-content ul .section.main .activity .editing_move {
-      left: 80px; } }
-
-body.editing .course-content ul .section.main .activity .inplaceeditable {
-  display: flex; }
-
-body.editing .course-content ul .section.main .activity .actions .commands {
-  position: absolute;
-  left: 0; }
-  body.editing .course-content ul .section.main .activity .actions .commands .menubar {
-    margin: 0 !important; }
-  body.editing .course-content ul .section.main .activity .actions .commands .menu {
-    left: 0 !important;
-    width: min-content; }
-
-body.editing .course-content ul .section.main .activity.label .contentwithoutlink {
-  margin-left: 64px !important; }
-  @media only screen and (min-width: 768px) {
-    body.editing .course-content ul .section.main .activity.label .contentwithoutlink {
-      margin-left: 80px !important; } }
-
-body.editing .course-content ul .section.main .activity:last-child {
-  margin-bottom: 0 !important; }
+body.editing .course-content ul .section.main .content {
+  background: rgba(237, 241, 242, 0.3);
+  margin: 0 0 1rem 0 !important;
+  padding: 0 0.5rem 0.5rem 0.5rem !important; }
+  body.editing .course-content ul .section.main .content .summary .no-overflow {
+    width: 100%; }
+  body.editing .course-content ul .section.main .content .activity .editing_move {
+    top: 2px !important;
+    left: 72px; }
+    @media only screen and (min-width: 768px) {
+      body.editing .course-content ul .section.main .content .activity .editing_move {
+        left: 80px; } }
+  body.editing .course-content ul .section.main .content .activity .inplaceeditable {
+    display: flex; }
+  body.editing .course-content ul .section.main .content .activity .actions .commands {
+    position: absolute;
+    left: 0; }
+    body.editing .course-content ul .section.main .content .activity .actions .commands .menubar {
+      margin: 0 !important; }
+    body.editing .course-content ul .section.main .content .activity .actions .commands .menu {
+      left: 0 !important;
+      width: min-content; }
+  body.editing .course-content ul .section.main .content .activity.label .contentwithoutlink {
+    margin-left: 64px !important; }
+    @media only screen and (min-width: 768px) {
+      body.editing .course-content ul .section.main .content .activity.label .contentwithoutlink {
+        margin-left: 80px !important; } }
+  body.editing .course-content ul .section.main .content .activity:last-child {
+    margin-bottom: 0 !important; }
 
 body.editing .course-content ul .section.main.completion-progress-section .activity .activityinstance {
   width: calc(100% - 100px) !important; }
@@ -2220,6 +2219,53 @@ body.editing .course-content ul .section.main:not(.completion-progress-section) 
   @media only screen and (min-width: 768px) {
     body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .activityinstance, body.editing .course-content ul .section.main:not(.completion-progress-section) .activity .availabilityinfo {
       margin-left: 80px !important; } }
+
+body.editing .course-content .gtopics-0 .summary .edit {
+  position: absolute;
+  left: -2.25rem;
+  top: 1.5rem; }
+
+body.editing .course-content #gridshadebox #gridshadebox_content {
+  border: none; }
+  body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main {
+    position: relative; }
+    body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .left {
+      position: absolute;
+      left: -2.25rem;
+      top: 0.75rem; }
+    body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu {
+      position: absolute;
+      right: 0.5rem;
+      top: 1rem; }
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu:hover {
+        background-color: initial; }
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a {
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        border-radius: 4px; }
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a:after {
+          content: ' section';
+          margin-right: 0.75rem; }
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .right .section_action_menu .moodle-actionmenu a b.caret {
+          border-top-color: #0a2d50 !important;
+          position: absolute;
+          right: 0;
+          margin-right: 0.25rem; }
+    body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content {
+      background: rgba(237, 241, 242, 0.3);
+      margin: 0 0 1rem 0;
+      padding: 0 0.5rem 0.5rem 0.5rem; }
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content .sectionname {
+        background-color: #0a2d50 !important;
+        color: #fff1f1 !important;
+        margin-right: -0.5rem;
+        margin-left: -0.5rem; }
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content .sectionname a:not(.quickeditlink) {
+          color: white !important;
+          padding: 1rem 0 !important; }
+        body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content .sectionname a.quickeditlink img {
+          opacity: 1; }
+      body.editing .course-content #gridshadebox #gridshadebox_content .gtopics .section.main .content .summary .edit {
+        display: none; }
 
 body.editing .course-content.ctopics #section-0 .content .summary > a:last-child {
   position: absolute;

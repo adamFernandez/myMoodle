@@ -2273,15 +2273,15 @@ body.editing #region-main .course-content .gtopics .section.main {
   body.editing #region-main .course-content .gtopics .section.main .content .summary .edit {
     display: none; }
 
-body.editing #region-main .course-content.ctopics #section-0 .content .summary > a:last-child {
+body.editing #region-main .course-content .ctopics #section-0 .content .summary > a:last-child {
   position: absolute;
   top: 0;
   left: -1.5rem; }
 
-body.editing #region-main .course-content.ctopics .main:not(#section-0) {
+body.editing #region-main .course-content .ctopics .main:not(#section-0) {
   margin-left: 8.75rem !important;
   width: calc(100% - 8.75rem - 28px); }
-  body.editing #region-main .course-content.ctopics .main:not(#section-0) .sectionbody.sectionopen > a > img {
+  body.editing #region-main .course-content .ctopics .main:not(#section-0) .sectionbody.sectionopen > a > img {
     display: none; }
 
 body.editing #region-main .course-content .single-section > ul.ctopics .section.main .side.right {

@@ -2148,6 +2148,19 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
+body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu {
+  background-color: #FFFFFF !important;
+  opacity: 0.8;
+  border-radius: 4px; }
+  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu:after {
+    content: ' section';
+    margin-right: 0.75rem; }
+  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu b.caret {
+    border-top-color: #0A2D50 !important;
+    position: absolute;
+    right: 0;
+    margin-right: 0.25rem; }
+
 body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
   width: 100%; }
 
@@ -2254,18 +2267,6 @@ body.editing #region-main .course-content .gtopics .section.main {
     top: 1rem; }
     body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu :hover {
       background-color: initial; }
-    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu {
-      background-color: #FFFFFF !important;
-      opacity: 0.8;
-      border-radius: 4px; }
-      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu:after {
-        content: ' section';
-        margin-right: 0.75rem; }
-      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menubar a.textmenu b.caret {
-        border-top-color: #0A2D50 !important;
-        position: absolute;
-        right: 0;
-        margin-right: 0.25rem; }
     body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
       background-color: #FFFFFF; }
   body.editing #region-main .course-content .gtopics .section.main .content .sectionname a.quickeditlink img {
@@ -2285,13 +2286,8 @@ body.editing #region-main .course-content .ctopics .main:not(#section-0) {
   body.editing #region-main .course-content .ctopics .main:not(#section-0) .content .sectionbody.sectionopen > a > img {
     display: none; }
 
-body.editing #region-main .course-content .single-section > ul.ctopics .section.main .side.right {
+body.editing #region-main .course-content .single-section > ul.ctopics .section.main .side.right .tceditsection > img, body.editing #region-main .course-content .single-section > ul.ctopics .section.main .content .summary > a {
   display: none; }
-
-body.editing #region-main .course-content .single-section > ul.ctopics .section.main .content .summary > a {
-  position: absolute;
-  top: -4.25rem;
-  left: -1.5rem; }
 
 body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right {
   height: 2.25rem; }

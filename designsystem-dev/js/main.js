@@ -1,5 +1,5 @@
-loadjs("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
 loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
+loadjs("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
 // load external JS file into Keats
 function loadjs(url) {
   var head = document.getElementsByTagName('head')[0],

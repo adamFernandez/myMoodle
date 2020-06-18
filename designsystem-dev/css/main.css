@@ -956,15 +956,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   @media only screen and (max-width: 768px) {
     .card {
       display: block; } }
-  .card img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
+  .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
     width: 310px;
     height: 100%;
     flex-shrink: 0;
     border-radius: 0; }
     @media only screen and (max-width: 768px) {
-      .card img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
+      .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
         width: 100%; } }
-    .card img.img-right, .card img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right {
+    .card > img.img-right, .card > img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right {
       order: 2; }
   .card .card-body {
     background-color: #EDF1F2; }

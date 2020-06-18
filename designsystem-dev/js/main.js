@@ -1,3 +1,14 @@
+loadjs(https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js);
+Load external JS file into Keats
+function loadjs(url) {
+  var body = document.getElementsByTagName('body')[0],
+  script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  body.appendChild(script);
+  return script;
+}
+
 /* blocks */
 // hide administration block from students or teachers without editing rights
 $("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");

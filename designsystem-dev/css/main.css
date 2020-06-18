@@ -1901,13 +1901,11 @@ body #region-main .course-content ul {
           width: 100%;
           order: 2;
           padding: 0; }
-    body #region-main .course-content ul > li.section.main.completion-progress-section .activity .activityinstance .instancename {
-      max-width: calc(100vw - 48px); }
     body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo {
-      margin-left: 30px; }
+      margin-left: 30px !important; }
       @media only screen and (min-width: 768px) {
         body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo {
-          margin-left: 38px; } }
+          margin-left: 38px !important; } }
     body #region-main .course-content ul > li.section.main.completion-progress-section .activity .actions .completionprogress {
       margin: 0 0 1.5rem 0 !important;
       display: flex !important;

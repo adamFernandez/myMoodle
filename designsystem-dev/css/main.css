@@ -1781,6 +1781,8 @@ body #region-main .course-content ul {
       padding: 0 !important; }
       body #region-main .course-content ul > li.section.main .content h3.sectionname {
         color: #171717; }
+      body #region-main .course-content ul > li.section.main .content .summary .no-overflow {
+        width: 100%; }
       body #region-main .course-content ul > li.section.main .content > #completionprogressid {
         display: none !important; }
     body #region-main .course-content ul > li.section.main ul.section {
@@ -1898,6 +1900,11 @@ body #region-main .course-content ul {
           width: 100%;
           order: 2;
           padding: 0; }
+    body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo {
+      margin-left: 30px; }
+      @media only screen and (min-width: 768px) {
+        body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo {
+          margin-left: 38px; } }
     body #region-main .course-content ul > li.section.main.completion-progress-section .activity .actions .completionprogress {
       margin: 0 0 1.5rem 0 !important;
       display: flex !important;

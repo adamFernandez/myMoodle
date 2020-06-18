@@ -2286,8 +2286,13 @@ body.editing #region-main .course-content .ctopics .main:not(#section-0) {
   body.editing #region-main .course-content .ctopics .main:not(#section-0) .content .sectionbody.sectionopen > a > img {
     display: none; }
 
-body.editing #region-main .course-content .single-section > ul.ctopics .section.main .side.right .tceditsection > img, body.editing #region-main .course-content .single-section > ul.ctopics .section.main .content .summary > a {
+body.editing #region-main .course-content .single-section > ul.ctopics .section.main .right .tceditsection > img, body.editing #region-main .course-content .single-section > ul.ctopics .section.main .right .content .summary > a {
   display: none; }
+
+body.editing #region-main .course-content .single-section > ul.ctopics .section.main .right .section_action_menu {
+  position: absolute;
+  right: 0;
+  top: -4rem; }
 
 body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right {
   height: 2.25rem; }

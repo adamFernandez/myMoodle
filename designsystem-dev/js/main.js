@@ -4,11 +4,10 @@ loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
 
 // load external JS file into Keats
 function loadjs(url) {
-  var thisScript = $("#foobar");
   script = create('script');
   script.type = 'text/javascript';
   script.src = url;
-  body.appendChild(script);
+  script.insertBefore($("#foobar"));
   return script;
 }
 

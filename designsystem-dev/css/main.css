@@ -1968,7 +1968,8 @@ body.format-grid .course-content #gridiconcontainer {
       font-family: 'KingsBureauGrot';
       font-size: 1.25rem;
       line-height: 1.4;
-      white-space: normal; }
+      white-space: normal;
+      opacity: 1; }
     body.format-grid .course-content #gridiconcontainer .gridicon_link .image_holder, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder {
       border: none;
       width: 309.5px;

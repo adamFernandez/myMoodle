@@ -6,7 +6,7 @@ function loadjs(url) {
   script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = url;
-  head.appendChild(script);
+  head.prepend(script);
   return script;
 }
 

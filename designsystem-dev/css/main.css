@@ -2294,6 +2294,9 @@ body.editing #region-main .course-content .single-section > ul.ctopics .section.
   right: 0;
   top: -4rem; }
 
+body.editing #region-main .course-content .single-section > ul.ctopics .section.main .content .summary > a > img {
+  display: none; }
+
 body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right {
   height: 2.25rem; }
   body.editing #region-main .course-content .single-section > ul.gtopics .section.main .right .section_action_menu {

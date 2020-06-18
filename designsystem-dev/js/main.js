@@ -1,7 +1,7 @@
 loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
 // load external JS file into Keats
 function loadjs(url) {
-  var body = document.getElementsByTagName('body')[0],
+  var head = document.getElementsByTagName('head')[0],
   script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = url;

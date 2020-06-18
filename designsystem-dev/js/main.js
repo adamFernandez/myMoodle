@@ -1,12 +1,14 @@
-loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
+loadjs("https://code.jquery.com/jquery-3.5.1.slim.min.js");
 loadjs("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
+loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
+
 // load external JS file into Keats
 function loadjs(url) {
-  var head = document.getElementsByTagName('head')[0],
+  var body = document.getElementsByTagName('body')[0],
   script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = url;
-  head.prepend(script);
+  body.appendChild(script);
   return script;
 }
 

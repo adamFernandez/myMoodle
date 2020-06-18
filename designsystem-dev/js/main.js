@@ -5,7 +5,7 @@ function loadjs(url) {
   script = document.createElement('script');
   script.type = 'text/javascript';
   script.src = url;
-  body.appendChild(script);
+  head.appendChild(script);
   return script;
 }
 

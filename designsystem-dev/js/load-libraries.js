@@ -4,5 +4,5 @@ loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js")
 
 // load external JS file into Keats
 function loadjs(url) {
-  $("body").append("<script type='text/javascript' src='" + url + "'><script>");
+  $("<script type='text/javascript' src='" + url + "'><script>").insertBefore ("#wrapper");
 }

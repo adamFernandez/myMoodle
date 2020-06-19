@@ -49,27 +49,23 @@ function cardDeckEqualise() {
 }
 
 /* carousel */
-// hide carousel controls on first and last slide
-$(document).on("click", ".carousel-control-prev, .carousel-control-next", function(event) {
-  var crsl = $(this).parent(".carousel");
-  var start = crsl.find(".carousel-item:nth-child(2)")
-  var finish = crsl.find(".carousel-item:nth-last-child(2)")
-  crsl.removeClass("start").removeClass("finish");
-  if ($(this).hasClass("carousel-control-next") && finish.hasClass("active")) {
-   crsl.addClass("finish");
-  } else if ($(this).hasClass("carousel-control-prev") && start.hasClass("active")) {
-   crsl.addClass("start");
-  }
-  // override moodleism causing the second carousel indicator to not be active on the first cycle
-  var first = crsl.find(".carousel-item:first-child")
-  var third = crsl.find(".carousel-item:nth-child(3)")
-  var indicator = crsl.find(".carousel-indicators li:nth-child(2)")
-  if (($(this).hasClass("carousel-control-next") && first.hasClass("active")) || ($(this).hasClass("carousel-control-prev") && third.hasClass("active"))) {
-   indicator.css("background-color","white");
-  } else {
-   indicator.css("background-color","rgba(255, 255, 255, 0.5)");
-  }
- });
+$(document).on("click", ".carousel-control-prev, .carousel-control-next, .carousel-indicators li", function(event) {
+  var carouselContainer = $(this).parents(".carousel");
+  // count no of slides
+  var maxSlides = carouselContainer.find(".carousel-item").length;
+  $(this).is(".carousel-indicators li")
+    ? newSlide = $(this).data("slide-to") + 1
+    : (currentSlide = (carouselContainer.find(".carousel-item.active" ).index()) + 1,
+      newSlide = $(this).hasClass("carousel-control-next")
+      ? currentSlide + 1
+      : currentSlide - 1);
+  carouselContainer.removeClass("start finish").find(".carousel-item.active, .carousel-indicators li").removeClass("active");
+  carouselContainer.find(".carousel-item:nth-child(" + newSlide + "), .carousel-indicators li:nth-child(" + newSlide + ")").addClass("active");
+  // hide prev control on first slide
+  if (newSlide === 1) carouselContainer.addClass("start");
+  // hide next control on first slide
+  if (newSlide === maxSlides) carouselContainer.addClass("finish");
+});
 
 /* collapse */
 // hide and show collapse card

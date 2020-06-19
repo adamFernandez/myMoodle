@@ -1,12 +1,3 @@
-//loadjs("https://code.jquery.com/jquery-3.3.1.slim.min.js")
-loadjs("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js");
-loadjs("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
-
-// load external JS file into Keats
-function loadjs(url) {
-  $("<script type='text/javascript' src='" + url + "'><script>").insertBefore("#foobar");
-}
-
 /* blocks */
 // hide administration block from students or teachers without editing rights
 $("#block-region-side-pre .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings'))), #block-region-side-post .block:has(.header .title h2:contains('Administration')):not(:has(.content #settingsnav ul li ul li a:contains('Edit settings')))").addClass("hide");

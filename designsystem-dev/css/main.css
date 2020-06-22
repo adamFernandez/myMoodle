@@ -2040,6 +2040,9 @@ body.format-grid .course-content #gridiconcontainer {
 body.format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
 
+body.format-grid .course-content .single-section .gtopics .section.main .right {
+  display: none; }
+
 body.format-topcoll .course-content ul.ctopics {
   margin: 0 !important; }
   body.format-topcoll .course-content ul.ctopics > .section {
@@ -2303,14 +2306,16 @@ body.editing #region-main .course-content .gtopics .section.main {
     position: absolute;
     left: -2.25rem;
     top: 0.75rem; }
-  body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu {
-    position: absolute;
-    right: 0.5rem;
-    top: 1rem; }
-    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu :hover {
-      background-color: initial; }
-    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
-      background-color: #FFFFFF; }
+  body.editing #region-main .course-content .gtopics .section.main .right {
+    display: block; }
+    body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu {
+      position: absolute;
+      right: 0.5rem;
+      top: 1rem; }
+      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu :hover {
+        background-color: initial; }
+      body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
+        background-color: #FFFFFF; }
   body.editing #region-main .course-content .gtopics .section.main .content .sectionname a.quickeditlink img {
     opacity: 1; }
   body.editing #region-main .course-content .gtopics .section.main .content .summary .edit {

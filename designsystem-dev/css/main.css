@@ -1904,6 +1904,36 @@ body #region-main .course-content ul {
           width: 100%;
           order: 2;
           padding: 0; }
+    body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress {
+      margin: 0 0 1.5rem 0 !important;
+      display: flex !important;
+      justify-content: flex-start;
+      float: none !important;
+      text-align: left !important;
+      line-height: 1.5;
+      height: auto !important;
+      z-index: auto; }
+      body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress .helptooltip a img {
+        display: none; }
+      body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress .helptooltip a:hover {
+        text-decoration: none; }
+      body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress .helptooltip a:after {
+        font-family: 'Font Awesome 5 Free';
+        font-size: 1.25rem;
+        content: '\f059';
+        color: #0A2D50;
+        margin-left: 2.25rem;
+        position: absolute;
+        top: -3px; }
+      body #region-main .course-content ul > li.section.main.completion-progress-section .completionprogress .helptooltip:before {
+        content: '';
+        background: url(https://keats.kcl.ac.uk/theme/image.php/lambda/core/1583825691/i/completion-manual-y) no-repeat;
+        background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 2px;
+        margin-left: 0.5rem; }
     body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo {
       margin-left: 30px !important; }
       @media only screen and (min-width: 768px) {

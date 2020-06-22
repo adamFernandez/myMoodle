@@ -50,6 +50,8 @@ function cardDeckEqualise() {
 
 /* carousel */
 $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carousel-indicators li", function(event) {
+  // prevent carousel from rising to top of page
+  event.preventDefault();
   var carouselContainer = $(this).parents(".carousel");
   // count no of slides
   var maxSlides = carouselContainer.find(".carousel-item").length;

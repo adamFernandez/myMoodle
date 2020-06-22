@@ -66,6 +66,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
   // hide next control on first slide
   if (newSlide === maxSlides) carouselContainer.addClass("finish");
   // override moodleism causing the second carousel indicator to not be active on the first cycle
+  alert(newSlide);
   carouselContainer.find(".carousel-indicators li:nth-child(2)").css("background-color", $(this).hasClass("carousel-control-next") && newSlide === 2 ? "white" : "rgba(255, 255, 255, 0.5)");
 });
 

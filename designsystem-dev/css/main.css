@@ -1023,11 +1023,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
     z-index: 50; }
-  .carousel .carousel-item {
-    transition: none; }
-    .carousel .carousel-item img {
-      width: 100% !important;
-      height: auto; }
+  .carousel .carousel-item img {
+    width: 100% !important;
+    height: auto; }
   .carousel .carousel-caption {
     text-align: left;
     padding: 2.4% 11%; }

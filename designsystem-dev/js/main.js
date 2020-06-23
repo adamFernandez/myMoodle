@@ -50,51 +50,6 @@ function cardDeckEqualise() {
 
 /* carousel */
 $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carousel-indicators li", function(event) {
-  // prevent carousel from rising to top of screen
-  event.preventDefault();
-  var carouselContainer = $(this).parents(".carousel");
-  // count no of slides
-  var maxSlides = carouselContainer.find(".carousel-item").length;
-  var currentSlide = (carouselContainer.find(".carousel-item.active" ).index()) + 1;
-  var newSlide = ( $(this).is(".carousel-indicators li")
-    ? newSlide = $(this).data("slide-to") + 1
-    : newSlide = $(this).hasClass("carousel-control-next")
-      ? currentSlide + 1
-      : currentSlide - 1);
-  carouselContainer.removeClass("start finish").find(".carousel-indicators li").removeClass("active");
-  // change indicator
-  carouselContainer.find(".carousel-indicators li:nth-child(" + newSlide + ")").addClass("active");
-  carouselContainer.find(".carousel-item:nth-child(" + newSlide + ")").addClass(newSlide > currentSlide
-    ? "carousel-item-next"
-    : "carousel-item-prev");
-  // hide prev control on first slide
-  if (newSlide === 1) carouselContainer.addClass("start");
-  // hide next control on first slide
-  if (newSlide === maxSlides) carouselContainer.addClass("finish");
-  setTimeout(function() {
-   carouselContainer.find(".carousel-item:nth-child(" + currentSlide + ")").addClass(newSlide > currentSlide
-    ? "carousel-item-left"
-    : "carousel-item-right");
-    carouselContainer.find(".carousel-item:nth-child(" + newSlide + ")").addClass(newSlide > currentSlide
-    ? "carousel-item-left"
-    : "carousel-item-right");
-  }, 1);
-  setTimeout(function() {
-    carouselContainer.find(".carousel-item:nth-child(" + newSlide + ")").addClass(newSlide > currentSlide
-    ? "carousel-item-left"
-    : "carousel-item-right");
-    $(".carousel-item").removeClass("carousel-item-prev carousel-item-next carousel-item-left carousel-item-right");
-    carouselContainer.find(".carousel-item:nth-child(" + currentSlide + ")").removeClass("active");
-    carouselContainer.find(".carousel-item:nth-child(" + newSlide + ")").addClass("active");
-  }, 600);
-  // override moodleism causing the second carousel indicator to not be active on the first cycle
-  console.log($(this).hasClass("carousel-control-next") ? "next" : "prev");
-  console.log(newSlide);
-  carouselContainer.find(".carousel-indicators li:nth-child(2)").css("background-color", $(this).is("a") && newSlide === 2 ? "white" : "rgba(255, 255, 255, 0.5)");
-});
-
-/*
-$(document).on("click", ".carousel-control-prev, .carousel-control-next, .carousel-indicators li", function(event) {
   // prevent carousel from rising to top of page
   event.preventDefault();
   var carouselContainer = $(this).parents(".carousel");
@@ -115,7 +70,6 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
   // override moodleism causing the second carousel indicator to not be active on the first cycle
   carouselContainer.find(".carousel-indicators li:nth-child(2)").css("background-color", newSlide === 2 ? "white" : "rgba(255, 255, 255, 0.5)");
 });
-*/
 
 /* collapse */
 // hide and show collapse card

@@ -1553,7 +1553,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .timeline-container .timeline-row .timeline-card .card-body {
       position: relative;
       background-color: #EDF1F2;
-      color: #333333; }
+      color: #333333;
+      width: 100%;
+      flex: 1; }
     .timeline-container .timeline-row .timeline-card .date-tab {
       position: absolute;
       top: -30px;

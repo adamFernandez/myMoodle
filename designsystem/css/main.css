@@ -3060,6 +3060,8 @@ img.cb-palette {
 
 .que {
   margin: 0 0 2.25rem; }
+  .que.description .state, .que.description .questionflag {
+    display: none; }
   .que .info {
     display: flex;
     flex-wrap: wrap;

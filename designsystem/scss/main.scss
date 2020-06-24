@@ -18,27 +18,35 @@
 @import 'layout/forms';
 
 //@import 'components/buttons';
+@import 'components/academicnote';
+@import 'components/activitylabel';
 @import 'components/alert';
 @import 'components/button';
 @import 'components/card';
 @import 'components/carousel';
 @import 'components/collapse';
+@import 'components/download';
 @import 'components/embed';
 @import 'components/hero';
 @import 'components/images';
 @import 'components/infobox';
 @import 'components/modal';
 @import 'components/quotation';
+@import 'components/screenshot';
+@import 'components/scrollbar';
 @import 'components/table';
 @import 'components/timeline';
 @import 'components/viewanswer';
 
+@import 'pages/book';
+@import 'pages/feedback';
 @import 'pages/forum';
 @import 'pages/home';
 @import 'pages/kitchensink';
-@import 'pages/modinfo';
+@import 'pages/lesson';
 @import 'pages/questionnaire';
 @import 'pages/quiz';
+@import 'pages/url';
 @import 'pages/versioning';
 @import 'pages/webinar';
 

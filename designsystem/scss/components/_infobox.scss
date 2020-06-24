@@ -6,9 +6,9 @@
 .definition-box {
   @extend .info-box;
   background-color: $block-background;
-  & > :first-child::before {
-    content: '\f518';
-    padding: 0;
+  &::before {
+    content: '\f02e';
+    padding: 0 5px;
     color: $purple70;
   }
 }
@@ -18,7 +18,7 @@
   @extend .info-box;
   &.correct-answer {
     background-color: rgba(40,195,130,0.2) !important;
-    & > :first-child::before {
+    &::before {
       color: $pea-green;
       padding: 0 4px;
       content: '\f058';
@@ -26,7 +26,7 @@
   }
   &.model-answer {
     background-color: rgba(245,185,15,0.2) !important;
-    & > :first-child::before {
+    &::before {
       content: '\f27a';
       color: $yellow;
       padding: 0 4px;
@@ -34,7 +34,7 @@
   }
   &.incorrect-answer {
     background-color: rgba(226,35,26,0.2) !important;
-    & > :first-child::before {
+    &::before {
       color: $kings-red;
       content: '\f057';
       padding: 0 4px;
@@ -47,12 +47,17 @@
   background-color: $block-background;
   margin-bottom: $component-margin-bottom;
   padding: 1.5rem;
-  p {
+  div > :last-child {
+    margin-bottom: 0 !important;
+  }
+  p, li {
     @include font-scale(key-concept, $font-os);
     font-weight: bold;
   }
-  p:last-child {
-    margin-bottom: 0;
+  ul, ol {
+    li:last-child {
+      margin-bottom: 0 !important;
+    }
   }
 }
 
@@ -60,15 +65,26 @@
 #region-main .learning-outcome-box {
   @extend .info-box;
   background-color: #edf1f2;
-  & > :first-child::before {
+  &::before {
     content: '\f091';
     color: $teal-blue;
-    padding: 4px;
+    padding: 0 4px;
   }
   ol, ul {
     margin: 0 0 0 1.25rem;
     li:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+// reading box
+.reading-box {
+  @extend .info-box;
+  background-color: $block-background;
+  &::before {
+    content: '\f5da';
+    padding: 0 2px 0 3px;
+    color: $midnight-blue;
   }
 }

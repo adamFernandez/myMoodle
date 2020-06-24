@@ -138,12 +138,12 @@ hr {
   .instancename:hover {
     color: #003d5c; }
 
-#region-main p a, #region-main li p a {
+#region-main p a:not(.btn):not(input[type="submit"]), #region-main li p a:not(.btn):not(input[type="submit"]) {
   text-decoration: underline;
   color: #002395; }
-  #region-main p a:hover, #region-main li p a:hover {
+  #region-main p a:not(.btn):not(input[type="submit"]):hover, #region-main li p a:not(.btn):not(input[type="submit"]):hover {
     color: #005AD2; }
-  #region-main p a:visited, #region-main li p a:visited {
+  #region-main p a:not(.btn):not(input[type="submit"]):visited, #region-main li p a:not(.btn):not(input[type="submit"]):visited {
     color: #0A2D50; }
 
 #region-main ol, #region-main ul {

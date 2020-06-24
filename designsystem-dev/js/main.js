@@ -170,7 +170,7 @@ $("li.activity").each(function() {
     $("img").each(function(i, elem){
       // image is only way to differentiate echo360 from other lti activities
       $(this).parents(".lti").addClass($(this).attr("src") == "https://www.kcl.ac.uk/newimages/it/echo-icon-play.png" ? "echo360 type-study i-media" : "type-study");
-    }); 
+    });
   } else {
     // if not a label, then study type
     if (!$(this).hasClass("label")) $(this).addClass("type-study");
@@ -180,7 +180,7 @@ $("li.activity").each(function() {
   // override activity type
   $(this).find(".instancename:contains('-act')").parents("li.activity").removeClass("type-study type-assessed").addClass("type-activity");
   // add assessed label
-  $(this).find(".instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");  
+  $(this).find(".instancename:contains('-ass')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");
   // add icon
   $(this).find(".instancename:contains('-gro')").parents("li.activity").addClass("i-group");
   $(this).find(".instancename:contains('-med')").parents("li.activity").addClass("i-media");
@@ -265,4 +265,3 @@ $(".section.main:has(.activity .actions .autocompletion, .activity .actions .tog
 $(".activity:has(.actions .autocompletion, .actions .togglecompletion)").addClass("completion-progress-activity");
 // clone completion progress tooltip to each section with completion progress activities
 $(".course-content .completion-progress-section .content .sectionbody > .section, .course-content .single-section .completion-progress-section .content > .section").prepend($("#completionprogressid").clone());
-

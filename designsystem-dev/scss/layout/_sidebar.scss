@@ -45,6 +45,9 @@
   .content {
      background-color: $block-background;
      padding: $component-margin;
+     .no-overflow > :last-child {
+       margin-bottom: 0;
+     }
      ul {
        &.fa-ul {
          margin: 0 0 0 2rem;

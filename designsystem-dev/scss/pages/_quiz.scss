@@ -172,6 +172,11 @@
 // quiz question
 .que {
   margin: 0 0 $component-margin-bottom-lg;
+  &.description {
+    .state, .questionflag {
+      display: none;
+    }
+  }
   .info {
     display: flex;
     flex-wrap: wrap;

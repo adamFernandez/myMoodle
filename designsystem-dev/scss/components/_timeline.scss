@@ -58,6 +58,8 @@
         position: relative;
         background-color: $block-background;
         color: $body-text;
+        width: 100%;
+        flex: 1;
       }
       .date-tab {
         position: absolute;

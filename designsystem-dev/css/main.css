@@ -1445,7 +1445,9 @@ figure {
     color: #FF5F05;
     font-family: 'KingsCaslonDisplay';
     font-size: 4.5rem;
-    top: 2.25rem; }
+    position: absolute;
+    left: 18px;
+    top: 40px; }
 
 .screenshot {
   border: 1px solid #8B9296;

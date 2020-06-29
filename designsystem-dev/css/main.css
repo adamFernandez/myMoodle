@@ -158,7 +158,8 @@ pre {
   background-color: transparent;
   border: 1px solid #DCE3E6;
   border-radius: 0;
-  padding: 1rem; }
+  padding: 1rem;
+  white-space: pre-wrap; }
   pre code {
     border: none; }
 

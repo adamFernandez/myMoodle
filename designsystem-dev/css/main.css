@@ -519,13 +519,15 @@ section:not(:last-of-type) {
 aside section.block {
   padding: 0 12px 12px 12px;
   margin-bottom: 12px !important; }
-  aside section.block .card-body .card-title {
-    background-color: #DCE3E6 !important;
-    padding: 0.5rem 0.75rem !important;
-    margin: 0 !important;
-    color: #0A2D50;
-    font-size: 1.125rem;
-    line-height: 1.4 !important; }
+  aside section.block .card-body {
+    padding: 0 !important; }
+    aside section.block .card-body .card-title {
+      background-color: #DCE3E6 !important;
+      padding: 0.5rem 0.75rem !important;
+      margin: 0 !important;
+      color: #0A2D50;
+      font-size: 1.125rem;
+      line-height: 1.4 !important; }
 
 #block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';

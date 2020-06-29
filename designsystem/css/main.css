@@ -1776,8 +1776,6 @@ body #region-main .course-content > #completionprogressid {
 body #region-main .course-content > .single-section {
   margin: 0; }
 
-body #region-main .course-content ul {
-  margin: 0; }
   body #region-main .course-content ul > li.section.main {
     margin: 0 !important; }
     body #region-main .course-content ul > li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main.section-hide-activity-labels li.activity.type-assessed .activity-label-container .media-icon {
@@ -2045,6 +2043,9 @@ body.format-grid .course-content #gridiconcontainer {
 
 body.format-grid .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
+
+body.format-grid .course-content .single-section .gtopics {
+  margin: 0 !important; }
 
 body.format-grid .course-content .single-section .gtopics .section.main .right {
   display: none; }

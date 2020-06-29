@@ -2061,7 +2061,7 @@ body.format-grid .course-content .single-section .section-navigation.navigationt
   display: none; }
 
 body.format-grid .course-content .single-section .gtopics {
-  margin: 0; }
+  margin: 0 !important; }
   body.format-grid .course-content .single-section .gtopics .section.main .right {
     display: none; }
 

@@ -967,7 +967,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .card > img.img-right, .card > img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right {
       order: 2; }
   .card .card-body {
-    background-color: #EDF1F2; }
+    background-color: #EDF1F2;
+    width: 100%; }
     .card .card-body h4 {
       margin-top: 0;
       margin-bottom: 0.75rem; }

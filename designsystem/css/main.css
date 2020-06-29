@@ -1985,7 +1985,7 @@ body #region-main .course-content > .single-section {
           margin-left: 38px; } }
 
 body.format-grid .course-content .gtopics-0 {
-  margin: 0; }
+  margin: 0 !important; }
 body.format-grid .course-content #gridiconcontainer {
   width: 103%; }
   body.format-grid .course-content #gridiconcontainer ul.gridicons {

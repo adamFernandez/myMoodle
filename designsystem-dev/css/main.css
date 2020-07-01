@@ -457,6 +457,10 @@ footer#page-footer {
     width: 100%;
     margin-left: 0; } }
 
+#page .row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
 .container {
   padding: 0;
   margin: 0;

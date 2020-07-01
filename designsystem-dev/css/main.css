@@ -1604,10 +1604,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       margin-top: 0; }
     .timeline-container .timeline-row .timeline-card .img-reference {
       font-size: 0.8125rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      margin-top: 15px; }
       @media only screen and (min-width: 768px) {
         .timeline-container .timeline-row .timeline-card .img-reference {
-          text-align: right; } }
+          text-align: right;
+          margin-top: 0; } }
   .timeline-container .timeline-row.highlighted .date-tab {
     background-color: #FF5F05; }
   .timeline-container .timeline-row.highlighted .card-body {

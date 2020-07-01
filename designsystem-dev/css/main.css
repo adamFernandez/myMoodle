@@ -1598,6 +1598,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       height: auto; }
     .timeline-container .timeline-row .timeline-card .card-image {
       margin-bottom: 15px; }
+      @media only screen and (min-width: 768px) {
+        .timeline-container .timeline-row .timeline-card .card-image {
+          padding-right: 0; } }
     .timeline-container .timeline-row .timeline-card h5 {
       line-height: 1.4;
       color: #171717;

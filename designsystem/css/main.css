@@ -2992,7 +2992,8 @@ img.cb-palette {
     content: '\f091'; }
 
 #page-mod-quiz-view .quizattemptsummary th.lastcol, #page-mod-quiz-view .quizattemptsummary td.lastcol {
-  display: none; }
+  //display: none;
+ }
 
 #page-mod-quiz-view .generalbox#feedback {
   margin: 0;

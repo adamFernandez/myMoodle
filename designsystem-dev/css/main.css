@@ -326,36 +326,40 @@ footer#page-footer {
       padding: 5px 16.5px;
       font-size: 1.5625rem; } }
 
-.activity-navigation .row .col-md-4:nth-child(2) {
-  display: none; }
-
-.activity-navigation .row .col-md-4:last-child {
-  display: flex;
-  justify-content: flex-end; }
-  .activity-navigation .row .col-md-4:last-child a#next-activity-link {
-    right: 3rem;
-    text-align: right;
-    padding-left: 3rem !important; }
-    .activity-navigation .row .col-md-4:last-child a#next-activity-link::after {
-      right: -3.125rem;
-      top: 0;
-      content: '\f105'; }
-
-.activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link {
-  margin-top: 0;
-  padding: 0.25rem !important; }
-  @media only screen and (max-width: 768px) {
+.activity-navigation .row {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0; }
+  .activity-navigation .row .col-md-4 {
+    padding: 0; }
+    .activity-navigation .row .col-md-4:nth-child(2) {
+      display: none; }
+    .activity-navigation .row .col-md-4:last-child {
+      display: flex;
+      justify-content: flex-end; }
+      .activity-navigation .row .col-md-4:last-child a#next-activity-link {
+        right: 3rem;
+        text-align: right;
+        padding-left: 3rem !important; }
+        .activity-navigation .row .col-md-4:last-child a#next-activity-link::after {
+          right: -3.125rem;
+          top: 0;
+          content: '\f105'; }
     .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link {
-      padding: 0.5rem !important; } }
-
-.activity-navigation .row .col-md-4 a#prev-activity-link {
-  left: 3rem;
-  text-align: left;
-  padding-right: 3rem !important; }
-  .activity-navigation .row .col-md-4 a#prev-activity-link::before {
-    left: -3.125rem;
-    top: 0;
-    content: '\f104'; }
+      margin-top: 0;
+      padding: 0.25rem !important; }
+      @media only screen and (max-width: 768px) {
+        .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link {
+          padding: 0.5rem !important; } }
+    .activity-navigation .row .col-md-4 a#prev-activity-link {
+      left: 3rem;
+      text-align: left;
+      padding-right: 3rem !important; }
+      .activity-navigation .row .col-md-4 a#prev-activity-link::before {
+        left: -3.125rem;
+        top: 0;
+        content: '\f104'; }
 
 .course-content .single-section .section-navigation.mdl-bottom .mdl-left {
   margin-right: 3.5rem !important; }

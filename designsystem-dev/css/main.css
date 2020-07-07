@@ -330,7 +330,7 @@ footer#page-footer {
   width: 100%;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 0; }
+  margin: 0 !important; }
   .activity-navigation .row .col-md-4 {
     padding: 0; }
     .activity-navigation .row .col-md-4:nth-child(2) {

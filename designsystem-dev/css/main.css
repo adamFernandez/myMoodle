@@ -1645,7 +1645,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     height: 2rem;
     border-radius: 5px; }
   .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums {
-    margin: 0; }
+    margin: 0;
+    height: auto; }
 
 .path-mod-forum .forumheaderlist thead .header {
   font-family: 'KingsBureauGrot';

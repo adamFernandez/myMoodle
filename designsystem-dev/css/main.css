@@ -295,18 +295,18 @@ footer#page-footer {
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0; }
-  .navcontainer .navtextcontainer, .activity-navigation .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .activity-navigation .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .activity-navigation .col-md-4, .activity-navigation .course-content .single-section .section-navigation.mdl-bottom .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .mdl-left, .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
+  .navcontainer .navtextcontainer, .activity-navigation .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .activity-navigation .row .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .activity-navigation .row .col-md-4, .activity-navigation .row .course-content .single-section .section-navigation.mdl-bottom .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .mdl-left, .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
     flex: 1; }
-  .navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation a#prev-activity-link, .activity-navigation a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
+  .navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     position: relative;
     float: none;
     margin: 2.125rem 0;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem !important;
     line-height: 1.2;
-    color: #0a2d50; }
+    color: #0A2D50 !important; }
 
-.navbutton, .activity-navigation a#prev-activity-link::before, .activity-navigation a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
+.navbutton, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   font-size: 1.25rem;
@@ -318,45 +318,44 @@ footer#page-footer {
   padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .activity-navigation a#prev-activity-link:hover::before, .activity-navigation a#next-activity-link:hover::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
+  .navbutton:hover, .activity-navigation .row .col-md-4:last-child a#next-activity-link:hover::after, .activity-navigation .row .col-md-4 a#prev-activity-link:hover::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
     background-color: #526C84;
     box-shadow: 0 2px 0 0 #43566B; }
   @media only screen and (max-width: 768px) {
-    .navbutton, .activity-navigation a#prev-activity-link::before, .activity-navigation a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
+    .navbutton, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
       padding: 5px 16.5px;
       font-size: 1.5625rem; } }
 
-.activity-navigation .col-md-4:nth-child(2) {
+.activity-navigation .row .col-md-4:nth-child(2) {
   display: none; }
 
-.activity-navigation .col-md-4:last-child {
+.activity-navigation .row .col-md-4:last-child {
   display: flex;
   justify-content: flex-end; }
+  .activity-navigation .row .col-md-4:last-child a#next-activity-link {
+    right: 3rem;
+    text-align: right;
+    padding-left: 3rem !important; }
+    .activity-navigation .row .col-md-4:last-child a#next-activity-link::after {
+      right: -3.125rem;
+      top: 0;
+      content: '\f105'; }
 
-.activity-navigation a#prev-activity-link, .activity-navigation a#next-activity-link {
+.activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link {
   margin-top: 0;
   padding: 0.25rem !important; }
   @media only screen and (max-width: 768px) {
-    .activity-navigation a#prev-activity-link, .activity-navigation a#next-activity-link {
+    .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link {
       padding: 0.5rem !important; } }
 
-.activity-navigation a#prev-activity-link {
+.activity-navigation .row .col-md-4 a#prev-activity-link {
   left: 3rem;
   text-align: left;
   padding-right: 3rem !important; }
-  .activity-navigation a#prev-activity-link::before {
+  .activity-navigation .row .col-md-4 a#prev-activity-link::before {
     left: -3.125rem;
     top: 0;
     content: '\f104'; }
-
-.activity-navigation a#next-activity-link {
-  right: 3rem;
-  text-align: right;
-  padding-left: 3rem !important; }
-  .activity-navigation a#next-activity-link::after {
-    right: -3.125rem;
-    top: 0;
-    content: '\f105'; }
 
 .course-content .single-section .section-navigation.mdl-bottom .mdl-left {
   margin-right: 3.5rem !important; }

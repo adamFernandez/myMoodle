@@ -2944,6 +2944,10 @@ img.cb-palette {
   padding: 0;
   margin: 0 0 1.5rem 0; }
 
+.page-item.active .page-link {
+  background-color: #0A2D50;
+  border-color: #0A2D50; }
+
 .path-mod-questionnaire {
   /*  .mod_questionnaire_completepage .buttons {
     input[type="submit"] {

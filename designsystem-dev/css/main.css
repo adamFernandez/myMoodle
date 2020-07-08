@@ -571,7 +571,8 @@ aside section.block {
 
 #block-region-side-pre .block .content, #block-region-side-post .block .content {
   background-color: #EDF1F2;
-  padding: 1.5rem; }
+  padding: 1.5rem;
+  margin: 0 !important; }
   #block-region-side-pre .block .content .no-overflow > :last-child, #block-region-side-post .block .content .no-overflow > :last-child {
     margin-bottom: 0; }
   #block-region-side-pre .block .content ul.fa-ul, #block-region-side-post .block .content ul.fa-ul {

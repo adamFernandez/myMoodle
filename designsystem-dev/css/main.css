@@ -2215,16 +2215,16 @@ body.editing #region-main .course-content ul > .section.main .right .section_act
   top: -4px; }
   body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar {
     padding: 0.25rem; }
-    body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown {
+    body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown {
       line-height: 0.8; }
-      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a {
+      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a {
         background-color: #FFFFFF !important;
         opacity: 0.8;
         border-radius: 4px; }
-        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a:after {
+        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a:after {
           content: ' section';
           margin-right: 0.75rem; }
-        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a b.caret {
+        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a b.caret {
           border-top-color: #0A2D50 !important;
           position: absolute;
           right: 0;

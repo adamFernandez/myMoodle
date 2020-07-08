@@ -1287,6 +1287,10 @@ figure {
     font-family: Open Sans, sans-serif;
     color: #333333; }
 
+.screenshot {
+  border: 1px solid #8B9296;
+  margin-bottom: 1.5rem; }
+
 .definition-box {
   background-color: #EDF1F2; }
   .definition-box::before {
@@ -1428,12 +1432,6 @@ figure {
     position: absolute;
     left: 18px;
     top: 40px; }
-
-.screenshot {
-  border: 1px solid #8B9296;
-  margin-bottom: 1.5rem;
-  width: 100%;
-  height: auto; }
 
 #region-main ::-webkit-scrollbar {
   width: 16px !important;

@@ -2211,6 +2211,9 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
+body.editing #region-main .course-content ul > .section.main .left .section-handle img.icon {
+  padding-top: 0; }
+
 body.editing #region-main .course-content ul > .section.main .right .section_action_menu {
   top: -4px; }
   body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar {

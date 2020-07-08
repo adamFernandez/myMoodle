@@ -2201,7 +2201,7 @@ body.format-topcoll .course-content > ul.ctopics > .section .side.right {
       background-color: white;
       opacity: 0.8;
       border-radius: 4px;
-      padding: 0.25rem 0; }
+      padding: 0.25rem; }
 
 body.format-topcoll .single-section .section-navigation.navigationtitle {
   padding: 0; }
@@ -2211,18 +2211,25 @@ body.format-topcoll .single-section .section-navigation.navigationtitle {
     body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
 
-body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu {
-  background-color: #FFFFFF !important;
-  opacity: 0.8;
-  border-radius: 4px; }
-  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu:after {
-    content: ' section';
-    margin-right: 0.75rem; }
-  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar a.textmenu b.caret {
-    border-top-color: #0A2D50 !important;
-    position: absolute;
-    right: 0;
-    margin-right: 0.25rem; }
+body.editing #region-main .course-content ul > .section.main .right .section_action_menu {
+  top: -4px; }
+  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar {
+    padding: 0.25rem; }
+    body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown {
+      line-height: 0.8; }
+      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a {
+        background-color: #FFFFFF !important;
+        opacity: 0.8;
+        border-radius: 4px; }
+        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a:after {
+          content: ' section';
+          margin-right: 0.75rem; }
+        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar dropdown a b.caret {
+          border-top-color: #0A2D50 !important;
+          position: absolute;
+          right: 0;
+          top: 6px;
+          margin: 0; }
 
 body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
   width: 100%; }

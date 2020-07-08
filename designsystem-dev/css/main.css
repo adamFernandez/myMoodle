@@ -2140,6 +2140,8 @@ body.format-topcoll .course-content ul.ctopics {
       margin-bottom: 2.25rem; }
   body.format-topcoll .course-content ul.ctopics .tcsection {
     margin: 0 !important; }
+    body.format-topcoll .course-content ul.ctopics .tcsection#topcoll-display-instructions {
+      display: none; }
     body.format-topcoll .course-content ul.ctopics .tcsection .content {
       margin: 0 !important; }
       body.format-topcoll .course-content ul.ctopics .tcsection .content h4 {
@@ -2175,8 +2177,7 @@ body.format-topcoll .course-content ul.ctopics {
 body.format-topcoll .course-content > ul.ctopics > .section .side.right {
   width: auto !important;
   position: absolute;
-  right: -28px;
-  top: 0.75rem; }
+  right: -28px; }
   body.format-topcoll .course-content > ul.ctopics > .section .side.right a.tceditsection, body.format-topcoll .course-content > ul.ctopics > .section .side.right .cps_centre {
     line-height: normal;
     height: max-content;

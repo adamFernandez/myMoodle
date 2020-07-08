@@ -2091,6 +2091,7 @@ body.format-topcoll .course-content ul.ctopics {
           border: none !important;
           color: #171717 !important; }
           body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname, body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed .sectionname {
+            text-align: left;
             font-size: 1.25rem;
             line-height: 1;
             margin: 0 !important;

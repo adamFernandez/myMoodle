@@ -524,6 +524,9 @@ section:not(:last-of-type) {
       font-weight: 900;
       margin-right: 0.5rem; }
 
+.message-app .input-prepend .add-on {
+  height: auto; }
+
 aside section.block {
   padding: 0 12px 12px 12px;
   margin-bottom: 12px !important; }
@@ -1647,16 +1650,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .forumaddnew div input[type="submit"]:first-child {
     margin: 0; }
 
-.path-mod-forum #page-navbar .breadcrumb-button .forumsearch form {
-  margin-bottom: 1.5rem; }
-  .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.icon, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.iconhelp {
-    padding: 0; }
-  .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#search {
-    height: 2rem;
-    border-radius: 5px; }
-  .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums {
-    margin: 0;
-    height: auto; }
+.path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.icon, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.iconhelp {
+  padding: 0; }
+
+.path-mod-forum #page-navbar .breadcrumb-button .forumsearch form input#search {
+  height: 2rem;
+  border-radius: 5px; }
+
+.path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums {
+  margin: 0;
+  height: auto; }
 
 .path-mod-forum .discussion-list thead th {
   font-family: 'KingsBureauGrot';

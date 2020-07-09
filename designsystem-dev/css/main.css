@@ -2223,23 +2223,24 @@ body.editing #region-main .course-content ul > .section.main .left .section-hand
 
 body.editing #region-main .course-content ul > .section.main .right .section_action_menu {
   top: -4px; }
-  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar {
-    padding: 0.25rem; }
-    body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown {
-      line-height: 0.8; }
-      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a {
-        background-color: #FFFFFF !important;
-        opacity: 0.8;
-        border-radius: 4px; }
-        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a:after {
-          content: ' section';
-          margin-right: 0.75rem; }
-        body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a b.caret {
-          border-top-color: #0A2D50 !important;
-          position: absolute;
-          right: 0;
-          top: 6px;
-          margin: 0; }
+  body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown {
+    line-height: 0.8; }
+    body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a {
+      background: none;
+      background-color: #FFFFFF !important;
+      opacity: 0.8;
+      border-radius: 4px;
+      padding: 0.25rem;
+      height: auto; }
+      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a:after {
+        content: ' section';
+        margin-right: 0.75rem; }
+      body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a b.caret {
+        border-top-color: #0A2D50 !important;
+        position: absolute;
+        right: 4px;
+        top: 10px;
+        margin: 0; }
 
 body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
   width: 100%; }

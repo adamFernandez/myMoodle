@@ -486,12 +486,12 @@ section:not(:last-of-type) {
 .row:before, .row:after {
   display: none !important; }
 
-.breadcrumb-nav ul.breadcrumb {
+.breadcrumb-nav ul.breadcrumb li {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
-  .breadcrumb-nav ul.breadcrumb a {
+  .breadcrumb-nav ul.breadcrumb li a {
     color: #0d3254; }
-  .breadcrumb-nav ul.breadcrumb::after {
+  .breadcrumb-nav ul.breadcrumb li::after {
     color: #aaa; }
 
 .course-content ul li.section.main {

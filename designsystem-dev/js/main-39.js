@@ -225,7 +225,7 @@ forum new post confirmation
 question bank question page dropdown, question category page and export page
 question editing page
 */
-$( document ).ready(function() {
+$(".item-content-wrap").load(function() {
   $(".item-content-wrap:contains('activity-label')").text(function(i, currentText) {
     return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
   });

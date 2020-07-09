@@ -1658,25 +1658,26 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin: 0;
     height: auto; }
 
-.path-mod-forum .forumheaderlist thead .header {
+.path-mod-forum .discussion-list thead th {
   font-family: 'KingsBureauGrot';
-  border-top: inherit;
-  border-left: 0 !important;
-  background-color: transprent; }
+  border-top: 1px solid #8B9296; }
 
-.path-mod-forum .forumheaderlist tr {
+.path-mod-forum .discussion-list tbody tr {
   font-family: 'KingsBureauGrotFiveOne';
   border-top: 1px solid #8B9296; }
-  .path-mod-forum .forumheaderlist tr:last-child {
+  .path-mod-forum .discussion-list tbody tr:last-child {
     border-bottom: 1px solid #8B9296; }
-  .path-mod-forum .forumheaderlist tr td {
-    background-color: transpraent !important;
+  .path-mod-forum .discussion-list tbody tr th, .path-mod-forum .discussion-list tbody tr td {
+    font-family: 'KingsBureauGrotFiveOne';
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: transparent !important;
     border: inherit;
     vertical-align: middle; }
-    .path-mod-forum .forumheaderlist tr td.author .media:first-child {
+    .path-mod-forum .discussion-list tbody tr th.author .media:first-child, .path-mod-forum .discussion-list tbody tr td.author .media:first-child {
       display: flex;
       align-items: center; }
-      .path-mod-forum .forumheaderlist tr td.author .media:first-child img.userpicture {
+      .path-mod-forum .discussion-list tbody tr th.author .media:first-child img.userpicture, .path-mod-forum .discussion-list tbody tr td.author .media:first-child img.userpicture {
         border-radius: 50%; }
 
 .path-mod-forum .discussion-nav {

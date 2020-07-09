@@ -1660,7 +1660,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .path-mod-forum .discussion-list thead th {
   font-family: 'KingsBureauGrot';
-  border-top: 1px solid #8B9296; }
+  color: #171717;
+  border-top: 1px solid #8B9296 !important; }
 
 .path-mod-forum .discussion-list tbody tr {
   font-family: 'KingsBureauGrotFiveOne';

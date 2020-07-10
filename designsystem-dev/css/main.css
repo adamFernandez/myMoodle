@@ -2219,7 +2219,6 @@ body.format-topcoll .course-content > ul.ctopics > .section .side.right {
     body.format-topcoll .course-content > ul.ctopics > .section .side.right .section_action_menu .menubar {
       margin: 0 !important;
       background-color: white;
-      opacity: 0.8;
       border-radius: 4px;
       padding: 0.25rem; }
 
@@ -2241,7 +2240,6 @@ body.editing #region-main .course-content ul > .section.main .right .section_act
     body.editing #region-main .course-content ul > .section.main .right .section_action_menu .menubar .dropdown a {
       background: none;
       background-color: #FFFFFF !important;
-      opacity: 0.8;
       border-radius: 4px;
       padding: 0.25rem;
       height: auto; }

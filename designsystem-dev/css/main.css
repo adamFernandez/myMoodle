@@ -2142,6 +2142,8 @@ body.format-topcoll .course-content ul.ctopics {
               content: '\f107'; }
             body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .sectionname span {
               color: #FFFFFF; }
+          body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open .section_availability .availabilityinfo {
+            color: #FFFFFF; }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed {
           margin-bottom: 0.5rem; }
           body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed:hover {

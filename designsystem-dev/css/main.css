@@ -1431,8 +1431,28 @@ figure {
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
 
-.file-picker .fp-list .fp-repo-icon {
-  padding: 0; }
+.file-picker {
+  margin: 0 !important; }
+  .file-picker > div {
+    margin: 0 !important;
+    padding: 0 !important; }
+    .file-picker > div .fp-repo-items {
+      width: 100% !important;
+      margin: 0 !important; }
+      .file-picker > div .fp-repo-items .fp-navbar .fp-toolbar a, .file-picker > div .fp-repo-items .fp-navbar .fp-viewbar a {
+        margin: 0 !important;
+        padding: 0 !important;
+        border: 1px solid #8B9296; }
+      .file-picker > div .fp-repo-items .fp-navbar .fp-toolbar .fp-viewbar a, .file-picker > div .fp-repo-items .fp-navbar .fp-viewbar .fp-viewbar a {
+        border-radius: 0 !important; }
+        .file-picker > div .fp-repo-items .fp-navbar .fp-toolbar .fp-viewbar a:first-child, .file-picker > div .fp-repo-items .fp-navbar .fp-viewbar .fp-viewbar a:first-child {
+          border-top-left-radius: 4px !important;
+          border-bottom-left-radius: 4px !important; }
+        .file-picker > div .fp-repo-items .fp-navbar .fp-toolbar .fp-viewbar a:last-child, .file-picker > div .fp-repo-items .fp-navbar .fp-viewbar .fp-viewbar a:last-child {
+          border-top-right-radius: 4px !important;
+          border-bottom-right-radius: 4px !important; }
+      .file-picker > div .fp-repo-items .fp-navbar .fp-content {
+        margin: 0 !important; }
 
 .openimagebrowser {
   height: auto !important; }

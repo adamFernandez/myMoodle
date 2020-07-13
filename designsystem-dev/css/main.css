@@ -1359,6 +1359,31 @@ figure {
     padding: 0 2px 0 3px;
     color: #0A2D50; }
 
+.close-button, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton, .modal .modal-header .close {
+  padding: 0 !important;
+  margin: 0 !important;
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  height: 32px;
+  width: 32px;
+  box-shadow: none;
+  background-image: none;
+  background: none; }
+  .close-button::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before, .modal .modal-header .close::before {
+    content: '\f410';
+    color: #0A2D50;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 32px;
+    font-weight: 900;
+    background: none;
+    height: auto;
+    width: auto; }
+  .close-button:hover, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:hover, .modal .modal-header .close:hover {
+    background-color: transparent !important; }
+  .close-button:focus, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus, .modal .modal-header .close:focus {
+    outline: none; }
+
 .moodle-dialogue .moodle-dialogue-wrap {
   padding: 1.5rem 2.25rem 2.25rem 2.25rem;
   height: auto; }
@@ -1373,30 +1398,6 @@ figure {
     padding: 0 3rem !important; }
     .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span {
       padding: 0 !important; }
-      .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton {
-        padding: 0 !important;
-        margin: 0 !important;
-        position: absolute;
-        top: 2px;
-        right: 8px;
-        height: 32px;
-        width: 32px;
-        box-shadow: none;
-        background-image: none;
-        background: none; }
-        .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before {
-          content: '\f410';
-          color: #0A2D50;
-          font-family: 'Font Awesome 5 Free';
-          font-size: 32px;
-          font-weight: 900;
-          background: none;
-          height: auto;
-          width: auto; }
-        .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:hover {
-          background-color: transparent !important; }
-        .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus {
-          outline: none; }
 
 .moodle-dialogue .moodle-dialogue-bd {
   padding: 0 !important; }
@@ -1430,6 +1431,18 @@ figure {
       border: none; }
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
+
+.modal .modal-header {
+  padding: 0.5rem;
+  border: none; }
+  .modal .modal-header .close {
+    width: auto;
+    height: auto;
+    line-height: 1 !important;
+    right: 8px;
+    top: 8px; }
+    .modal .modal-header .close span {
+      display: none; }
 
 .modal .modchooser .carousel {
   padding: 0; }

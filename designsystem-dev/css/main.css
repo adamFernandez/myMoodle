@@ -2444,6 +2444,8 @@ body.editing #region-main .course-content .gtopics .section.main {
         background-color: initial; }
       body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu {
         background-color: #FFFFFF; }
+        body.editing #region-main .course-content .gtopics .section.main .right .section_action_menu .moodle-actionmenu .menu a span {
+          text-decoration: underline; }
   body.editing #region-main .course-content .gtopics .section.main .content .sectionname a.quickeditlink img {
     opacity: 1; }
   body.editing #region-main .course-content .gtopics .section.main .content .summary .edit {

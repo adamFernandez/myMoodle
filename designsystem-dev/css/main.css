@@ -239,7 +239,7 @@ footer#page-footer {
     height: 4px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.25);
-    z-index: 1; }
+    z-index: 0; }
 
 .caption-overlay, .carousel .carousel-caption, .hero .hero-caption, body.format-grid .course-content #gridiconcontainer .gridicon_link .icon_content, body.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .icon_content {
   position: absolute;

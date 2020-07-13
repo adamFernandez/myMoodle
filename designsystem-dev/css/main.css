@@ -1430,6 +1430,11 @@ figure {
       border: none; }
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
+      #notice.modal .modal-content .modal-footer .btn, #notice.modal .modal-content .modal-footer input[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form #notice.modal .modal-content .modal-footer button#searchforums, #notice.modal .modal-content .modal-footer #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup #notice.modal .modal-content .modal-footer input, #notice.modal .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage #notice.modal .modal-content .modal-footer .complete > a, #notice.modal .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage #notice.modal .modal-content .modal-footer .allresponses > a, #notice.modal .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage #notice.modal .modal-content .modal-footer .yourresponse > a, #notice.modal .modal-content .modal-footer .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete #notice.modal .modal-content .modal-footer .message > a, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-content .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-content .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #notice.modal .modal-content .modal-footer #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav #notice.modal .modal-content .modal-footer a.endtestlink, #notice.modal .modal-content .modal-footer #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row #notice.modal .modal-content .modal-footer input {
+        margin-bottom: 0.5rem !important;
+        margin-left: 0 !important; }
 
 .modal .modchooser .carousel {
   padding: 0; }
@@ -1456,6 +1461,11 @@ input.btn-icon.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modchoo
           margin: 0.25rem !important;
           height: auto !important;
           width: auto !important; }
+  .modal .modchooser .carousel .optionsummary .helpdoclink a {
+    display: flex; }
+    .modal .modchooser .carousel .optionsummary .helpdoclink a img {
+      width: auto !important;
+      margin-top: 0; }
 
 .file-picker {
   margin: 0 !important; }

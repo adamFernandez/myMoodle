@@ -1699,6 +1699,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-data-edit .mod-data-input > :not(.editor_atto_wrap) {
   display: none; }
 
+.path-mod-feedback #id_feedbackhdr .col-md-3 {
+  flex: 1;
+  max-width: 100%; }
+
 .path-mod-feedback #region-main .feedback_form .fitem {
   margin: 0; }
   .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle {

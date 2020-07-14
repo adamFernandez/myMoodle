@@ -3240,9 +3240,11 @@ img.cb-palette {
       content: '';
       background: #e6ebed url("https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg ") right top no-repeat;
       background-size: 8px;
-      margin-left: auto;
       margin-right: 0;
       box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset; }
+      @media only screen and (min-width: 768px) {
+        .que .info .questionflag {
+          margin-left: auto; } }
       .que .info .questionflag .questionflagimage {
         display: none; }
     .que .info .editquestion {

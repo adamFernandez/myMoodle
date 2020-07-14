@@ -1408,6 +1408,8 @@ figure {
     font-family: 'KingsBureauGrotFiveOne';
     font-size: 1rem;
     margin: 0 0 1.5rem 0; }
+  .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons {
+    justify-content: center !important; }
   .moodle-dialogue .moodle-dialogue-bd .tooltiptext > p:last-child {
     margin-bottom: 0; }
 

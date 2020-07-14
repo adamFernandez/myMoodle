@@ -1245,7 +1245,7 @@ a.link-download {
 
 @media (max-width: 1199px) {
   body #region-main .mform:not(.unresponsive) .fitem .felement {
-    padding: 0 15px; } }
+    padding: 0 15px !important; } }
 
 .hero {
   margin-bottom: 2.25rem; }

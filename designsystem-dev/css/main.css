@@ -1245,6 +1245,8 @@ a.link-download {
 
 .hero {
   margin-bottom: 2.25rem; }
+  .hero::before {
+    z-index: 0 !important; }
   .hero img {
     width: 100%; }
   @media only screen and (max-width: 768px) {

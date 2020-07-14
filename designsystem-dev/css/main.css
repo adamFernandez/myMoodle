@@ -540,6 +540,8 @@ aside section.block {
       color: #0A2D50;
       font-size: 1.125rem;
       line-height: 1.4 !important; }
+    aside section.block .card-body .block-controls .dropdown-menu {
+      width: min-content; }
 
 #block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';

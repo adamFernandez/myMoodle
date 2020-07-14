@@ -531,7 +531,8 @@ aside section.block {
   padding: 0 12px 12px 12px;
   margin-bottom: 12px !important; }
   aside section.block .card-body {
-    padding: 0 !important; }
+    padding: 0 !important;
+    position: relative; }
     aside section.block .card-body .card-title {
       background-color: #DCE3E6 !important;
       padding: 0.5rem 0.75rem !important;
@@ -553,11 +554,13 @@ aside section.block {
   content: '\f067'; }
 
 #block-region-side-pre .block .header, #block-region-side-post .block .header {
-  background-color: #DCE3E6;
-  padding: 0.5rem 0.75rem !important;
-  height: auto;
-  margin: 0;
-  box-shadow: none; }
+  margin: 0 0.25rem;
+  padding: 0;
+  position: absolute;
+  right: 0; }
+  #block-region-side-pre .block .header .block-control-actions, #block-region-side-post .block .header .block-control-actions {
+    float: none;
+    padding: 0; }
   #block-region-side-pre .block .header.block_course_discuss_header_section, #block-region-side-post .block .header.block_course_discuss_header_section {
     border: 1px solid #8B9296;
     border-bottom: 0; }

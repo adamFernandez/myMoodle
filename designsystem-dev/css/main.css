@@ -1712,6 +1712,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .timeline-container .timeline-row.highlighted .timeline-badge-pill.fill {
       background-color: #FF5F05; }
 
+.editing #region-main h2 img {
+  display: none; }
+
 .single-chapter-book .book_content > h3:first-of-type {
   display: none; }
 

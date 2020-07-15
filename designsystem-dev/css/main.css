@@ -443,10 +443,8 @@ footer#page-footer {
   #page-header-nav, #page-content {
     max-width: 1312px;
     margin: 0 auto; }
-  #region-bs-main-and-pre {
-    max-width: 979px; }
-    #region-bs-main-and-pre .single-section {
-      margin-top: 0; }
+  #region-bs-main-and-pre .single-section {
+    margin-top: 0; }
   #block-region-side-post {
     max-width: 330px;
     margin-left: 23px; } }

@@ -1319,8 +1319,8 @@ figure {
 
 .editing-help-box {
   background-color: rgba(198, 226, 40, 0.2);
-  border-radius: .editing-help-box; }
-  .editing-help-box ::before {
+  border-radius: 1.5rem; }
+  .editing-help-box::before {
     font-size: 1.5rem;
     content: '\f059';
     padding: 0 2.5px;

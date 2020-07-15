@@ -1324,6 +1324,9 @@ figure {
     padding: 0 5px;
     color: #8262ae; }
 
+body:not(.editing) .editing-help-box {
+  display: none; }
+
 body.editing .editing-help-box {
   background-color: rgba(198, 226, 40, 0.2);
   border-radius: 1.5rem; }

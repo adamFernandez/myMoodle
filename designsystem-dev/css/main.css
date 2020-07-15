@@ -540,8 +540,14 @@ aside section.block {
       color: #0A2D50;
       font-size: 1.125rem;
       line-height: 1.4 !important; }
-    aside section.block .card-body .block-controls .dropdown-menu {
-      width: min-content; }
+    aside section.block .card-body .block-controls {
+      margin: 0 0.25rem;
+      padding: 0;
+      position: absolute;
+      right: 0;
+      background: none; }
+      aside section.block .card-body .block-controls .dropdown-menu {
+        width: min-content; }
 
 #block-region-side-pre .block:not(.block_fake) .title h2::after, #block-region-side-post .block:not(.block_fake) .title h2::after {
   content: '\f068';
@@ -556,10 +562,11 @@ aside section.block {
   content: '\f067'; }
 
 #block-region-side-pre .block .header, #block-region-side-post .block .header {
-  margin: 0 0.25rem;
-  padding: 0;
-  position: absolute;
-  right: 0; }
+  background-color: #DCE3E6;
+  padding: 0.5rem 0.75rem;
+  height: auto;
+  margin: 0;
+  box-shadow: none; }
   #block-region-side-pre .block .header .block-control-actions, #block-region-side-post .block .header .block-control-actions {
     float: none;
     padding: 0; }

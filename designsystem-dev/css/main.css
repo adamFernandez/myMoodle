@@ -202,26 +202,26 @@ footer#page-footer {
   .back-to-top .fa-3x {
     font-size: 42px; }
 
-.info-box, .alert, .definition-box, .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, .quote-box, .que .content .outcome {
+.info-box, .alert, .definition-box, body.editing .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, .quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: 0;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative;
   color: #000 !important; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, .quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, .quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, body.editing .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, .quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, body.editing .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, .quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box h5, .alert h5, .definition-box h5, .editing-help-box h5, .feedback-box h5, #region-main .learning-outcome-box h5, .reading-box h5, .quote-box h5, .que .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, .editing-help-box .info-box-title, .feedback-box .info-box-title, #region-main .learning-outcome-box .info-box-title, .reading-box .info-box-title, .quote-box .info-box-title, .que .content .outcome .info-box-title, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box .specificfeedback, .que .content .outcome .feedback .specificfeedback, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box p, .que .content .outcome .feedback .specificfeedback p {
+  .info-box h5, .alert h5, .definition-box h5, body.editing .editing-help-box h5, .feedback-box h5, #region-main .learning-outcome-box h5, .reading-box h5, .quote-box h5, .que .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, body.editing .editing-help-box .info-box-title, .feedback-box .info-box-title, #region-main .learning-outcome-box .info-box-title, .reading-box .info-box-title, .quote-box .info-box-title, .que .content .outcome .info-box-title, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box .specificfeedback, .que .content .outcome .feedback .specificfeedback, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box p, .que .content .outcome .feedback .specificfeedback p {
     font-family: 'KingsBureauGrot' !important;
     font-size: 1.2rem;
     color: #171717 !important;
     margin-top: 0;
     margin-bottom: 1rem; }
-  .info-box p, .alert p, .definition-box p, .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, .quote-box p, .que .content .outcome p {
+  .info-box p, .alert p, .definition-box p, body.editing .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, .quote-box p, .que .content .outcome p {
     color: #333333 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, body.editing .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box::before, .alert::before, .definition-box::before, .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, .quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
+  .info-box::before, .alert::before, .definition-box::before, body.editing .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, .quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, body.editing .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.25rem;
@@ -1324,10 +1324,10 @@ figure {
     padding: 0 5px;
     color: #8262ae; }
 
-.editing-help-box {
+body.editing .editing-help-box {
   background-color: rgba(198, 226, 40, 0.2);
   border-radius: 1.5rem; }
-  .editing-help-box::before {
+  body.editing .editing-help-box::before {
     font-size: 1.5rem;
     content: '\f059';
     padding: 0 2.5px;

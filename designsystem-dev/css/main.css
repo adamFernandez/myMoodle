@@ -533,20 +533,24 @@ aside section.block {
     position: relative; }
     aside section.block .card-body .card-title {
       background-color: #DCE3E6 !important;
-      padding: 0.5rem 4rem 0.5rem 0.75rem !important;
+      padding: 0.5rem 1.5rem !important;
       margin: 0 !important;
       color: #0A2D50;
       font-size: 1.125rem;
       line-height: 1.4 !important; }
     aside section.block .card-body .block-controls {
       margin: 0 0.25rem;
-      padding: 0;
+      padding: 0.5rem;
+      width: 100%;
       position: absolute;
-      right: 0;
       top: 0;
       background-color: transparent !important; }
       aside section.block .card-body .block-controls .moodle-actionmenu :hover {
         background-color: transparent; }
+      aside section.block .card-body .block-controls .moodle-actionmenu .menubar {
+        justify-content: space-between; }
+        aside section.block .card-body .block-controls .moodle-actionmenu .menubar img {
+          padding: 0.25rem 0 !important; }
     aside section.block .card-body .card-text {
       margin: 0 !important;
       padding: 1.5rem; }

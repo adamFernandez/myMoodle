@@ -540,7 +540,7 @@ aside section.block {
       line-height: 1.4 !important; }
     aside section.block .card-body .block-controls {
       margin: 0 0.25rem;
-      padding: 0.5rem;
+      padding: 0.5rem !important;
       width: 100%;
       position: absolute;
       top: 0;

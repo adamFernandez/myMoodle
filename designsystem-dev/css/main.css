@@ -533,7 +533,7 @@ aside section.block {
     position: relative; }
     aside section.block .card-body .card-title {
       background-color: #DCE3E6 !important;
-      padding: 0.5rem 0.75rem !important;
+      padding: 0.5rem 4rem 0.5rem 0.75rem !important;
       margin: 0 !important;
       color: #0A2D50;
       font-size: 1.125rem;
@@ -543,6 +543,7 @@ aside section.block {
       padding: 0;
       position: absolute;
       right: 0;
+      top: 0;
       background: none; }
       aside section.block .card-body .block-controls .dropdown-menu {
         width: min-content; }

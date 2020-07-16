@@ -545,6 +545,8 @@ aside section.block {
       right: 0;
       top: 0;
       background-color: transparent !important; }
+      aside section.block .card-body .block-controls .moodle-actionmenu :hover {
+        background-color: transparent; }
       aside section.block .card-body .block-controls .dropdown-menu {
         width: min-content; }
     aside section.block .card-body .card-text {

@@ -492,6 +492,12 @@ section:not(:last-of-type) {
   .breadcrumb-nav ul.breadcrumb li::after {
     color: #aaa; }
 
+.usermenu .userbutton .usertext {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .usermenu .userbutton .usertext {
+      display: inline-block; } }
+
 .course-content ul li.section.main {
   margin-bottom: 0 !important; }
 
@@ -1798,6 +1804,20 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   margin: 0; }
   .forumaddnew div input[type="submit"]:first-child {
     margin: 0; }
+
+.path-mod-forum #page-header-nav .breadcrumb-button .forumsearch {
+  /*
+        // reduce search forums button font size for smaller screens
+        #searchforums {
+          font-size: 1rem !important;
+          line-height: 22.5px !important;
+          @media only screen and (min-width: $neo-breakpoint) {
+            font-size: 1.125rem !important;
+          }
+        }
+        */ }
+  .path-mod-forum #page-header-nav .breadcrumb-button .forumsearch .input-group-prepend a {
+    padding-right: 0.25rem !important; }
 
 .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.icon, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form img.iconhelp {
   padding: 0; }

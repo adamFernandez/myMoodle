@@ -1503,6 +1503,10 @@ body .editing-help-box {
     .modal .modal-dialog .modal-content .modal-header .modal-title {
       margin-bottom: 0; }
     .modal .modal-dialog .modal-content .modal-header .close {
+      width: 32px;
+      height: 32px;
+      top: 8px;
+      right: 8px;
       line-height: 1 !important;
       align-self: flex-start; }
       .modal .modal-dialog .modal-content .modal-header .close span {

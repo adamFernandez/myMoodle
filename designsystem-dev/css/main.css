@@ -1418,19 +1418,14 @@ body .editing-help-box {
     padding: 0 2px 0 3px;
     color: #0A2D50; }
 
-.close-button, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton, .modal .modal-header .close {
+.close-button, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton, .modal .modal-dialog .modal-content .modal-header .close {
   padding: 0 !important;
   margin: 0 !important;
-  position: absolute;
-  top: 2px;
-  right: 8px;
-  height: 32px;
-  width: 32px;
   box-shadow: none;
   background-image: none;
   background: none;
   opacity: 1; }
-  .close-button::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before, .modal .modal-header .close::before {
+  .close-button::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton::before, .modal .modal-dialog .modal-content .modal-header .close::before {
     content: '\f410';
     color: #0A2D50;
     font-family: 'Font Awesome 5 Free';
@@ -1439,9 +1434,9 @@ body .editing-help-box {
     background: none;
     height: auto;
     width: auto; }
-  .close-button:hover, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:hover, .modal .modal-header .close:hover {
+  .close-button:hover, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:hover, .modal .modal-dialog .modal-content .modal-header .close:hover {
     background-color: transparent !important; }
-  .close-button:focus, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus, .modal .modal-header .close:focus {
+  .close-button:focus, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus, .modal .modal-dialog .modal-content .modal-header .close:focus {
     outline: none; }
 
 .moodle-dialogue .moodle-dialogue-wrap {
@@ -1497,33 +1492,39 @@ body .editing-help-box {
 .modal .modal-dialog:focus {
   outline: none; }
 
-.modal .modal-header {
-  padding: 0.5rem;
-  border: none; }
-  .modal .modal-header .close {
-    width: auto;
-    height: auto;
-    line-height: 1 !important;
-    right: 8px;
-    top: 8px; }
-    .modal .modal-header .close span {
-      display: none; }
-
-.modal .modal-body {
+.modal .modal-dialog .modal-content {
   padding: 0.5rem; }
-
-.modal .modal-footer {
-  padding: 0.5rem; }
-  .modal .modal-footer .btn, .modal .modal-footer input[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, .modal .modal-footer .forumaddnew div input[type="submit"]:first-child, .forumaddnew div .modal .modal-footer input[type="submit"]:first-child, .modal .modal-footer .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .modal .modal-footer button#searchforums, .modal .modal-footer #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .modal .modal-footer input, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .complete > a, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .allresponses > a, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .yourresponse > a, .modal .modal-footer .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .modal .modal-footer .message > a, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn.btn-secondary, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_advancedadddiscussion, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn#id_advancedadddiscussion, .modal .modal-footer #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .modal .modal-footer a.endtestlink, .modal .modal-footer #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .modal .modal-footer input {
-    margin-right: 0.75rem;
-    margin-left: 0;
-    margin-bottom: 0 !important; }
-    .modal .modal-footer .btn:last-child, .modal .modal-footer input:last-child[type="submit"], #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:last-child[type="submit"]:first-child, .modal .modal-footer .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums:last-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .modal .modal-footer button#searchforums:last-child, .modal .modal-footer #page-mod-forum-post #fgroup_id_buttonar .fgroup input:last-child, #page-mod-forum-post #fgroup_id_buttonar .fgroup .modal .modal-footer input:last-child, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .complete > a:last-child, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .allresponses > a:last-child, .modal .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-footer .yourresponse > a:last-child, .modal .modal-footer .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:last-child, .path-mod-questionnaire#page-mod-questionnaire-complete .modal .modal-footer .message > a:last-child, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn.btn-secondary:last-child, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn#id_cancel:last-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:last-child[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
-input.mod_quiz-prev-nav.btn:last-child[type="submit"]:first-child, .modal .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_advancedadddiscussion:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-footer .mod_quiz-prev-nav.btn#id_advancedadddiscussion:last-child, .modal .modal-footer #mod_quiz_navblock .content .othernav a.endtestlink:last-child, #mod_quiz_navblock .content .othernav .modal .modal-footer a.endtestlink:last-child, .modal .modal-footer #page-mod-connecthosted-view .chosted-button-row input:last-child, #page-mod-connecthosted-view .chosted-button-row .modal .modal-footer input:last-child {
-      margin-right: 0; }
+  .modal .modal-dialog .modal-content .modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 1rem;
+    border: none; }
+    .modal .modal-dialog .modal-content .modal-header .modal-title {
+      margin-bottom: 0; }
+    .modal .modal-dialog .modal-content .modal-header .close {
+      line-height: 1 !important;
+      align-self: flex-start; }
+      .modal .modal-dialog .modal-content .modal-header .close span {
+        display: none; }
+  .modal .modal-dialog .modal-content .modal-body {
+    padding: 0; }
+  .modal .modal-dialog .modal-content .modal-footer {
+    padding: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem; }
+    .modal .modal-dialog .modal-content .modal-footer .btn, .modal .modal-dialog .modal-content .modal-footer input[type="submit"], #notice.modal .modal-dialog .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .modal .modal-dialog .modal-content .modal-footer button#searchforums, .modal .modal-dialog .modal-content .modal-footer #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .modal .modal-dialog .modal-content .modal-footer input, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .complete > a, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .allresponses > a, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .yourresponse > a, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .modal .modal-dialog .modal-content .modal-footer .message > a, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn.btn-secondary, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn#id_cancel, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-dialog .modal-content .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-dialog .modal-content .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_advancedadddiscussion, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn#id_advancedadddiscussion, .modal .modal-dialog .modal-content .modal-footer #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .modal .modal-dialog .modal-content .modal-footer a.endtestlink, .modal .modal-dialog .modal-content .modal-footer #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .modal .modal-dialog .modal-content .modal-footer input {
+      margin-right: 0.75rem;
+      margin-left: 0;
+      margin-bottom: 0 !important; }
+      .modal .modal-dialog .modal-content .modal-footer .btn:last-child, .modal .modal-dialog .modal-content .modal-footer input:last-child[type="submit"], #notice.modal .modal-dialog .modal-content .modal-footer .buttons .singlebutton > form > div > input:last-child[type="submit"]:first-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums:last-child, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .modal .modal-dialog .modal-content .modal-footer button#searchforums:last-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-forum-post #fgroup_id_buttonar .fgroup input:last-child, #page-mod-forum-post #fgroup_id_buttonar .fgroup .modal .modal-dialog .modal-content .modal-footer input:last-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .complete > a:last-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .allresponses > a:last-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:last-child, .path-mod-questionnaire .mod_questionnaire_viewpage .modal .modal-dialog .modal-content .modal-footer .yourresponse > a:last-child, .modal .modal-dialog .modal-content .modal-footer .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:last-child, .path-mod-questionnaire#page-mod-questionnaire-complete .modal .modal-dialog .modal-content .modal-footer .message > a:last-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn.btn-secondary:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn.btn-secondary:last-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_cancel:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn#id_cancel:last-child, #page-mod-quiz-attempt .submitbtns #page-mod-forum-post #notice.modal .modal-dialog .modal-content .modal-footer .buttons .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:last-child[type="submit"]:first-child, #page-mod-forum-post #notice.modal .modal-dialog .modal-content .modal-footer .buttons #page-mod-quiz-attempt .submitbtns .singlebutton:nth-child(2) > form > div >
+input.mod_quiz-prev-nav.btn:last-child[type="submit"]:first-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav.btn#id_advancedadddiscussion:last-child, #page-mod-quiz-attempt .submitbtns .modal .modal-dialog .modal-content .modal-footer .mod_quiz-prev-nav.btn#id_advancedadddiscussion:last-child, .modal .modal-dialog .modal-content .modal-footer #mod_quiz_navblock .content .othernav a.endtestlink:last-child, #mod_quiz_navblock .content .othernav .modal .modal-dialog .modal-content .modal-footer a.endtestlink:last-child, .modal .modal-dialog .modal-content .modal-footer #page-mod-connecthosted-view .chosted-button-row input:last-child, #page-mod-connecthosted-view .chosted-button-row .modal .modal-dialog .modal-content .modal-footer input:last-child {
+        margin-right: 0; }
 
 .modal .modchooser {
   outline: none !important; }

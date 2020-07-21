@@ -1494,6 +1494,9 @@ body .editing-help-box {
       #notice.modal .modal-content .modal-footer .buttons {
         text-align: center; }
 
+.modal .modal-dialog:focus {
+  outline: none; }
+
 .modal .modal-header {
   padding: 0.5rem;
   border: none; }

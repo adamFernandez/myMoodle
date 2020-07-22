@@ -2633,6 +2633,9 @@ a.activity-link {
     color: white;
     width: 5.5rem !important; }
 
+.path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {
+  margin-bottom: 1.5rem; }
+
 .colour-palette {
   max-width: none; }
   .colour-palette .row {

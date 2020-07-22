@@ -138,9 +138,9 @@ $(".block_book_toc .content ul > li:only-child strong:only-child").parents(".blo
 $(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
 // kaltura video assignment hide empty container
-$("#video_thumbnail").css("display") == "none"
-  ? $(".kaltura-player-container").show()
-  : $(".kaltura-player-container").hide();
+$(".path-mod-kalvidassign #video_thumbnail").css("display") == "none"
+  ? $(".path-mod-kalvidassign .kaltura-player-container").show()
+  : $(".path-mod-kalvidassign .kaltura-player-container").hide();
 
 // remove stupid arrows from prev and next activity links
 $(".activity-navigation a#prev-activity-link").text(function(i, text) {

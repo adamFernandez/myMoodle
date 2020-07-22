@@ -137,6 +137,11 @@ $(".block_book_toc .content ul > li:only-child strong:only-child").parents(".blo
 // add single-chapter-book class to screen and print to hide toc and title
 $(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
+// kaltura video assignment hide empty container
+$("#video_thumbnail").css("display") == "none"
+  ? $(".kaltura-player-container").show()
+  : $(".kaltura-player-container").hide();
+
 // remove stupid arrows from prev and next activity links
 $(".activity-navigation a#prev-activity-link").text(function(i, text) {
   return text.slice(2);

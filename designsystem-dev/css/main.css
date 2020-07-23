@@ -2129,7 +2129,7 @@ body #region-main .course-content ul > li.section.main {
         left: 0; }
         body #region-main .course-content ul > li.section.main ul.section li.activity .actions button, body #region-main .course-content ul > li.section.main ul.section li.activity .actions .autocompletion {
           padding: 0 !important;
-          margin: 0 0.5rem 0 0; }
+          margin: 0 0.5rem 0 0 !important; }
           @media only screen and (min-width: 768px) {
             body #region-main .course-content ul > li.section.main ul.section li.activity .actions button, body #region-main .course-content ul > li.section.main ul.section li.activity .actions .autocompletion {
               margin: 0 1rem 0 0; } }

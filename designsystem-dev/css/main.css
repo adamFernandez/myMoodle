@@ -25,7 +25,7 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-#notice.modal .modal-content .modal-header h4, .h2, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -39,11 +39,11 @@ h1,
   font-size: 1.75rem;
   line-height: 1.2; }
 
-h2, .h2, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname {
+h2, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname {
   font-size: 1.5rem;
   line-height: 1.25; }
 
-h3, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
+h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
   font-size: 1.25rem;
   line-height: 1.25; }
 
@@ -92,10 +92,10 @@ select, option {
   #notice.modal .modal-content .modal-header h4 {
     font-size: 2.375rem;
     line-height: 1.1; }
-  h2, .h2, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname {
+  h2, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname {
     font-size: 1.875rem;
     line-height: 1.25; }
-  h3, .h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
+  h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
     font-size: 1.5rem;
     line-height: 1.25; }
   h4, .h4 {
@@ -513,7 +513,7 @@ section:not(:last-of-type) {
   #section-0 .content > h3.sectionname:after {
     display: none; }
 
-#page-mod-book-view #region-main h2:first-of-type {
+#page-mod-book-view #region-main > div > h2:first-of-type {
   margin-right: calc(88px + 1rem); }
 
 #region-main {
@@ -1802,7 +1802,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .editing #region-main h2 img {
   display: none; }
 
-.book_content {
+.path-mod-book #region-main > div:first-of-type > h2:first-of-type {
+  margin-bottom: 2.25rem; }
+
+.path-mod-book #region-main .generalbox.book_content {
   padding-top: 0 !important; }
 
 .single-chapter-book .book_content > h3:first-of-type {

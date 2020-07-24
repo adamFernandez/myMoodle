@@ -1719,6 +1719,15 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     vertical-align: middle; }
   table.table-narrow-cell th, table.table-narrow-cell td, .table.table-narrow-cell th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell th, .table.table-narrow-cell td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell td {
     padding: 0.75rem 0.5rem; }
+  table .split, .table .split, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .split {
+    background: linear-gradient(to top right, #EDF1F2 49.5%, #8B9296 49.5%, #8B9296 50.5%, #EDF1F2 50.5%);
+    line-height: 1; }
+    table .split .top, .table .split .top, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .split .top {
+      margin-left: 120px;
+      text-align: right; }
+    table .split .bottom, .table .split .bottom, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .split .bottom {
+      margin-right: 120px;
+      text-align: left; }
 
 .timeline-container {
   margin-left: 64px;

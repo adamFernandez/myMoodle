@@ -607,7 +607,7 @@ aside section.block {
       display: none; }
 
 #block-region-side-pre .block .content, #block-region-side-post .block .content {
-  background-color: #EDF1F2;
+  background-color: #E2E4E5;
   padding: 1.5rem;
   margin: 0 !important; }
   #block-region-side-pre .block .content .no-overflow > :last-child, #block-region-side-post .block .content .no-overflow > :last-child {
@@ -703,7 +703,7 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
     height: 1.5rem;
     border-radius: 15px;
     margin-left: 1rem;
-    background-color: #EDF1F2; }
+    background-color: #E2E4E5; }
   .activity-label-container-default .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance a:not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
@@ -1036,7 +1036,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       width: 100px;
       height: 100px; }
   .card .card-body {
-    background-color: #EDF1F2;
+    background-color: #E2E4E5;
     width: 100%; }
     .card .card-body h4 {
       margin-top: 0;
@@ -1191,7 +1191,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin-left: 1.75rem; }
       .collapse-container .collapse-card .collapse-body.highlighted {
         padding: 1rem;
-        background-color: #EDF1F2; }
+        background-color: #E2E4E5; }
       .collapse-container .collapse-card .collapse-body .collapse-subheading {
         margin-bottom: 1rem; }
       .collapse-container .collapse-card .collapse-body p {
@@ -1381,7 +1381,7 @@ figure {
   margin-bottom: 1.5rem; }
 
 .definition-box {
-  background-color: #EDF1F2; }
+  background-color: #E2E4E5; }
   .definition-box::before {
     content: '\f02e';
     padding: 0 5px;
@@ -1421,7 +1421,7 @@ body .editing-help-box {
     padding: 0 4px; }
 
 .key-concept-box {
-  background-color: #EDF1F2;
+  background-color: #E2E4E5;
   margin-bottom: 1.5rem;
   padding: 1.5rem; }
   .key-concept-box div > :last-child {
@@ -1446,7 +1446,7 @@ body .editing-help-box {
       margin-bottom: 0; }
 
 .reading-box {
-  background-color: #EDF1F2; }
+  background-color: #E2E4E5; }
   .reading-box::before {
     content: '\f5da';
     padding: 0 2px 0 3px;
@@ -1636,7 +1636,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modchooser .caro
   height: auto !important; }
 
 .quote-box {
-  background-color: #EDF1F2; }
+  background-color: #E2E4E5; }
   .quote-box > :first-child::before {
     content: '“';
     padding: 0;
@@ -1701,7 +1701,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table thead, .table thead, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table thead {
     border: none !important; }
   table th, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th {
-    background-color: #EDF1F2;
+    background-color: #E2E4E5;
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
     line-height: 1.4;
@@ -1720,7 +1720,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table.table-narrow-cell th, table.table-narrow-cell td, .table.table-narrow-cell th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell th, .table.table-narrow-cell td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-narrow-cell td {
     padding: 0.75rem 0.5rem; }
   table.diagonal-split .split-cell, .table.diagonal-split .split-cell, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.diagonal-split .split-cell {
-    background: linear-gradient(to top right, #EDF1F2 49.5%, #8B9296 49.5%, #8B9296 50.5%, #EDF1F2 50.5%);
+    background: linear-gradient(to top right, #E2E4E5 49.5%, #8B9296 49.5%, #8B9296 50.5%, #E2E4E5 50.5%);
     line-height: 1; }
     table.diagonal-split .split-cell .top, .table.diagonal-split .split-cell .top, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.diagonal-split .split-cell .top {
       margin-left: 120px;
@@ -1731,6 +1731,24 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table.diagonal-split th, .table.diagonal-split th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.diagonal-split th {
     vertical-align: top;
     line-height: 1; }
+  table .highlight-cell.border, .table .highlight-cell.border, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.border {
+    border: 4px solid red !important; }
+  table .highlight-cells.border-t, table .highlight-cells.border-tr, table .highlight-cells.border-trb, table .highlight-cells.border-trl, table .highlight-cells.border-tb, table .highlight-cells.border-tbl, table .highlight-cells.border-tl, .table .highlight-cells.border-t, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-t, .table .highlight-cells.border-tr, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tr, .table .highlight-cells.border-trb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trb, .table .highlight-cells.border-trl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trl, .table .highlight-cells.border-tb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tb, .table .highlight-cells.border-tbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tbl, .table .highlight-cells.border-tl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tl {
+    border-top: 4px solid #002395 !important; }
+  table .highlight-cells.border-b, table .highlight-cells.border-tb, table .highlight-cells.border-trb, table .highlight-cells.border-tbl, table .highlight-cells.border-rb, table .highlight-cells.border-rbl, table .highlight-cells.border-bl, .table .highlight-cells.border-b, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-b, .table .highlight-cells.border-tb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tb, .table .highlight-cells.border-trb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trb, .table .highlight-cells.border-tbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tbl, .table .highlight-cells.border-rb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rb, .table .highlight-cells.border-rbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rbl, .table .highlight-cells.border-bl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-bl {
+    border-bottom: 4px solid #002395 !important; }
+  table .highlight-cells.border-r, table .highlight-cells.border-tr, table .highlight-cells.border-trb, table .highlight-cells.border-trl, table .highlight-cells.border-rb, table .highlight-cells.border-rbl, table .highlight-cells.border-rl, .table .highlight-cells.border-r, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-r, .table .highlight-cells.border-tr, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tr, .table .highlight-cells.border-trb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trb, .table .highlight-cells.border-trl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trl, .table .highlight-cells.border-rb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rb, .table .highlight-cells.border-rbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rbl, .table .highlight-cells.border-rl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rl {
+    border-right: 4px solid #002395 !important; }
+  table .highlight-cells.border-l, table .highlight-cells.border-tl, table .highlight-cells.border-trl, table .highlight-cells.border-tbl, table .highlight-cells.border-rl, table .highlight-cells.border-rbl, table .highlight-cells.border-bl, .table .highlight-cells.border-l, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-l, .table .highlight-cells.border-tl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tl, .table .highlight-cells.border-trl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-trl, .table .highlight-cells.border-tbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-tbl, .table .highlight-cells.border-rl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rl, .table .highlight-cells.border-rbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-rbl, .table .highlight-cells.border-bl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.border-bl {
+    border-left: 4px solid #002395 !important; }
+  table .highlight-cell.background, table .highlight-cell.background-1, table .highlight-cells.background, table .highlight-cells.background-1, .table .highlight-cell.background, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.background, .table .highlight-cell.background-1, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.background-1, .table .highlight-cells.background, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.background, .table .highlight-cells.background-1, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.background-1 {
+    background-color: #FDEDC5 !important; }
+  table .highlight-cell.background-2, table .highlight-cells.background-2, .table .highlight-cell.background-2, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.background-2, .table .highlight-cells.background-2, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.background-2 {
+    background-color: #A2E6F4 !important; }
+  table .highlight-cell.background-3, table .highlight-cells.background-3, .table .highlight-cell.background-3, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.background-3, .table .highlight-cells.background-3, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.background-3 {
+    background-color: #F5B6B3 !important; }
+  table .highlight-cell.background-4, table .highlight-cells.background-4, .table .highlight-cell.background-4, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cell.background-4, .table .highlight-cells.background-4, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .highlight-cells.background-4 {
+    background-color: #FFA375 !important; }
 
 .timeline-container {
   margin-left: 64px;
@@ -1776,7 +1794,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       border-radius: 6px; }
     .timeline-container .timeline-row .timeline-card .card-body {
       position: relative;
-      background-color: #EDF1F2;
+      background-color: #E2E4E5;
       color: #333333; }
     .timeline-container .timeline-row .timeline-card .date-tab {
       position: absolute;
@@ -2346,7 +2364,7 @@ body.format-topcoll .course-content ul.ctopics {
         margin-bottom: 0 !important; }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_open, body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed {
           background-image: none !important;
-          background-color: #EDF1F2 !important;
+          background-color: #E2E4E5 !important;
           padding: 1rem !important;
           margin: 0;
           border: none !important;
@@ -3372,7 +3390,7 @@ img.cb-palette {
       text-align: center;
       height: 1.5rem;
       border-radius: 15px;
-      background-color: #EDF1F2;
+      background-color: #E2E4E5;
       padding: 0 0.5rem;
       color: #171717; }
     .que .info div.state, .que .info div.grade {

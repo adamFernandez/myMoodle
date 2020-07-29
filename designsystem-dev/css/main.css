@@ -2351,6 +2351,7 @@ body.format-topcoll .course-content ul.ctopics {
   body.format-topcoll .course-content ul.ctopics > .section {
     margin: 0 !important;
     position: relative;
+    min-height: 0;
     /*
           &:not(:last-of-type) {
             .content {
@@ -2425,6 +2426,8 @@ body.format-topcoll .course-content ul.ctopics {
             padding: 2.25rem 1.5rem; } }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen li.activity:last-child {
           margin-bottom: 0 !important; }
+      body.format-topcoll .course-content ul.ctopics > .section .content.sectionhidden {
+        display: none; }
     body.format-topcoll .course-content ul.ctopics > .section#section-0 .side {
       display: none; }
     body.format-topcoll .course-content ul.ctopics > .section#section-0 .section-title {

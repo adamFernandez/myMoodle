@@ -2468,7 +2468,7 @@ body.format-topcoll .course-content ul.ctopics {
   body.format-topcoll .course-content > ul.ctopics > .section:not(#section-0) {
     width: calc(100% - 28px); } }
 
-body.format-topcoll .course-content > ul.ctopics > .section.hidden .cps_center:before {
+body.format-topcoll .course-content > ul.ctopics > .section.hidden .cps_centre:before {
   display: none; }
 
 body.format-topcoll .course-content > ul.ctopics > .section .side.right {

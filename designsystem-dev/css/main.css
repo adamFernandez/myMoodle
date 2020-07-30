@@ -3300,6 +3300,9 @@ img.cb-palette {
     border-right: 0;
     border-top: 1px solid #8B9296;
     border-left: 1px solid #8B9296; }
+  @media only screen and (min-width: 768px) {
+    .path-mod-questionnaire#page-mod-questionnaire-complete .qn-content {
+      max-width: calc(100% - 255px); } }
 
 .quiz-table, #page-mod-quiz-view .quizattemptsummary, #page-mod-quiz-review .quizreviewsummary, #page-mod-quiz-summary .quizsummaryofattempt {
   border: none;

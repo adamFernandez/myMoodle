@@ -135,14 +135,6 @@ hr {
   .instancename:hover {
     color: #003d5c; }
 
-#region-main p a, #region-main li p a {
-  text-decoration: underline;
-  color: #002395; }
-  #region-main p a:hover, #region-main li p a:hover {
-    color: #005AD2; }
-  #region-main p a:visited, #region-main li p a:visited {
-    color: #0A2D50; }
-
 #region-main ol, #region-main ul {
   margin: 0 0 1.5rem 2.25rem; }
   #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
@@ -257,6 +249,14 @@ footer#page-footer {
     position: absolute;
     top: 1.25rem;
     left: 1.5rem; }
+
+.ds-link, #region-main p a, #region-main li p a, .path-mod-choice #region-main .reportlink a {
+  text-decoration: underline;
+  color: #002395; }
+  .ds-link:hover, #region-main p a:hover, .path-mod-choice #region-main .reportlink a:hover {
+    color: #005AD2; }
+  .ds-link:visited, #region-main p a:visited, .path-mod-choice #region-main .reportlink a:visited {
+    color: #0A2D50; }
 
 .top-bar, .hero, body.format-grid .course-content #gridiconcontainer ul.gridicons li {
   position: relative; }

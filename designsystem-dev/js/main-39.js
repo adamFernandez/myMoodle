@@ -142,6 +142,9 @@ $(".path-mod-kalvidassign #video_thumbnail").css("display") == "none"
   ? $(".path-mod-kalvidassign .kaltura-player-container").show()
   : $(".path-mod-kalvidassign .kaltura-player-container").hide();
 
+// choice move responses link
+$(".path-mod-choice .chart-area").append($(".path-mod-choice .reportlink")).clone();
+
 // remove stupid arrows from prev and next activity links
 $(".activity-navigation a#prev-activity-link").text(function(i, text) {
   return text.slice(2);

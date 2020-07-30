@@ -1876,6 +1876,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .block_book_toc .book_toc .d-flex:not(.action-list) .action-list {
     justify-content: flex-end; }
 
+.path-mod-choice #region-main .reportlink {
+  text-align: left; }
+
 #page-mod-data-edit .mod-data-input > :not(.editor_atto_wrap) {
   display: none; }
 

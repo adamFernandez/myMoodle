@@ -1114,6 +1114,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     height: 100px; }
   .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5 {
     margin-bottom: 0.75rem; }
+  .float-box .float-box-body > :last-child {
+    margin-bottom: 0; }
 
 .carousel {
   margin-bottom: 3.5rem; }

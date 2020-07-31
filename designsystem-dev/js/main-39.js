@@ -74,6 +74,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
+  event.preventDefault();
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
 

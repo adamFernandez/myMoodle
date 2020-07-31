@@ -1094,7 +1094,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     margin-right: 1rem; }
     .float-box .img-left .caption, .float-box .img-left table caption, table .float-box .img-left caption, .float-box .img-left .table caption, .table .float-box .img-left caption, .float-box .img-left .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-left caption, .float-box .img-right .caption, .float-box .img-right table caption, table .float-box .img-right caption, .float-box .img-right .table caption, .table .float-box .img-right caption, .float-box .img-right .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-right caption {
       margin-top: 1rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      max-width: fit-content; }
   .float-box .img-right {
     margin-left: 1rem;
     margin-right: 0;

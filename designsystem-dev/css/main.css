@@ -25,7 +25,7 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1,
-#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -47,7 +47,7 @@ h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-fe
   font-size: 1.25rem;
   line-height: 1.25; }
 
-h4, .h4 {
+h4, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5 {
   font-size: 1.125rem;
   line-height: 1.4; }
 
@@ -98,7 +98,7 @@ select, option {
   h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
     font-size: 1.5rem;
     line-height: 1.25; }
-  h4, .h4 {
+  h4, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5 {
     font-size: 1.25rem;
     line-height: 1.4; }
   h5, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno {
@@ -1087,19 +1087,22 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     flex-shrink: 0; }
     .float-box .filter-ally-wrapper img {
       height: auto; }
-  .float-box img {
+  .float-box .img-left, .float-box .img-right {
     margin: 0;
     height: 100%;
-    flex-shrink: 0; }
-  .float-box img, .float-box .img-left {
+    flex-shrink: 0;
     margin-right: 1rem; }
+    .float-box .img-left .caption, .float-box .img-left table caption, table .float-box .img-left caption, .float-box .img-left .table caption, .table .float-box .img-left caption, .float-box .img-left .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-left caption, .float-box .img-right .caption, .float-box .img-right table caption, table .float-box .img-right caption, .float-box .img-right .table caption, .table .float-box .img-right caption, .float-box .img-right .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-right caption {
+      margin-top: 1rem;
+      margin-bottom: 0; }
   .float-box .img-right {
     margin-left: 1rem;
+    margin-right: 0;
     order: 2; }
   @media only screen and (max-width: 768px) {
     .float-box:not(.small-image) {
       display: block; }
-      .float-box:not(.small-image) img, .float-box:not(.small-image) .img-left {
+      .float-box:not(.small-image) img-right, .float-box:not(.small-image) .img-left {
         margin-right: 0;
         margin-bottom: 1rem;
         width: 100%; }
@@ -1108,7 +1111,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .float-box.small-image img {
     width: 100px;
     height: 100px; }
-  .float-box .float-box-body h4 {
+  .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5 {
     margin-bottom: 0.75rem; }
 
 .carousel {
@@ -1191,14 +1194,14 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       padding: 0 !important;
       width: 100%;
       text-align: left; }
-      .collapse-container .collapse-card .collapse-header button .h4 {
+      .collapse-container .collapse-card .collapse-header button .h4, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5 {
         position: relative;
         margin-bottom: 0;
         margin-left: 1.75rem;
         line-height: 1;
         color: #0A2D50;
         width: calc(100% - 1.75rem); }
-      .collapse-container .collapse-card .collapse-header button .h4::before {
+      .collapse-container .collapse-card .collapse-header button .h4::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5::before {
         content: '\f107';
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
@@ -1218,7 +1221,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: 0; }
-    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before {
+    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h3::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h5::before {
       content: '\f105'; }
     .collapse-container .collapse-card.collapsed .collapse-body {
       display: none; }

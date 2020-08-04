@@ -200,19 +200,6 @@ footer#page-footer {
   .back-to-top .fa-3x {
     font-size: 42px; }
 
-.editing .sr-only, .editing #id_content_editoreditable .sr-only {
-  width: auto;
-  height: auto;
-  background-color: rgba(0, 155, 158, 0.2);
-  position: initial;
-  margin: 0;
-  padding: 0.5rem; }
-
-.editing #region-main .book_content [aria-hidden="true"],
-.editing #id_content_editoreditable [aria-hidden="true"] {
-  background-color: rgba(255, 97, 5, 0.2);
-  padding: 0.5rem; }
-
 .ds-sr-only {
   position: absolute;
   width: 1px;
@@ -1865,6 +1852,19 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .editing #region-main h2 img {
   display: none; }
+
+.path-mod-book.editing #region-main .sr-only, .path-mod-book.editing #region-main .ds-sr-only, .path-mod-book.editing #region-main #id_content_editoreditable .sr-only {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 155, 158, 0.2);
+  position: initial;
+  margin: 0;
+  padding: 0.5rem; }
+
+.path-mod-book.editing #region-main .book_content [aria-hidden="true"],
+.path-mod-book.editing #id_content_editoreditable [aria-hidden="true"] {
+  background-color: rgba(255, 97, 5, 0.2);
+  padding: 0.5rem; }
 
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {
   margin-bottom: 2.25rem; }

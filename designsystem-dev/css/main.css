@@ -1360,7 +1360,7 @@ img.iconsmall {
     width: 100%;
     height: auto; }
     .full-width-img img:not(:last-child), .img-full-width img:not(:last-child) {
-      margin-bottom: 1rem; }
+      margin-bottom: 0.5rem; }
   .full-width-img .caption, .full-width-img table caption, table .full-width-img caption, .full-width-img .table caption, .table .full-width-img caption, .full-width-img .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .full-width-img caption, .img-full-width .caption, .img-full-width table caption, table .img-full-width caption, .img-full-width .table caption, .table .img-full-width caption, .img-full-width .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .img-full-width caption {
     margin-bottom: 0; }
 
@@ -1368,7 +1368,7 @@ img.iconsmall {
   text-align: center;
   margin-bottom: 1.5rem; }
   .center-img img:not(:last-child), .img-center img:not(:last-child) {
-    margin-bottom: 1rem; }
+    margin-bottom: 0.5rem; }
 
 .circular-img, .img-circular {
   border-radius: 50%;
@@ -1705,7 +1705,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table caption, .table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption {
     font-weight: normal;
     caption-side: bottom !important;
-    margin-top: 1rem; }
+    margin-top: 0.5rem; }
   table th, table td, .table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     padding: 0.75rem 1.25rem;
     border-radius: 0 !important; }

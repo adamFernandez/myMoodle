@@ -145,7 +145,7 @@ $(".path-mod-kalvidassign #video_thumbnail").css("display") == "none"
 
 // choice move responses link
 $(".path-mod-choice .reportlink").each(function() {
-  $(this).has("a:contains( 1 )").text(function(i, text) {
+  $(this).children("a:contains( 1 )").text(function(i, text) {
     // trim 1 responses to 1 response
     return text.slice(0,-1);
   })

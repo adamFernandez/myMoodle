@@ -144,7 +144,13 @@ $(".path-mod-kalvidassign #video_thumbnail").css("display") == "none"
   : $(".path-mod-kalvidassign .kaltura-player-container").hide();
 
 // choice move responses link
-$(".path-mod-choice .chart-area").append($(".path-mod-choice .reportlink")).clone();
+$(".path-mod-choice .reportlink").each(function() {
+  $(this).has("a:contains( 1 )").text(function(i, text) {
+    // trim 1 responses to 1 response
+    return text.slice(0,-1);
+  })
+  $(".path-mod-choice .chart-area").append($(this)).clone();
+});
 
 // remove stupid arrows from prev and next activity links
 $(".activity-navigation a#prev-activity-link").text(function(i, text) {

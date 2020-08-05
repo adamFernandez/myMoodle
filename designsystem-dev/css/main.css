@@ -1897,6 +1897,28 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-data-edit .mod-data-input > :not(.editor_atto_wrap) {
   display: none; }
 
+.editor_atto_toolbar button, .editor_atto_toolbar button:last-child {
+  margin: 0 !important; }
+
+.filemanager .fp-navbar {
+  margin: 0 !important;
+  padding-bottom: 9px; }
+  .filemanager .fp-navbar .fp-toolbar, .filemanager .fp-navbar .fp-viewbar {
+    margin: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+    .filemanager .fp-navbar .fp-toolbar > div a, .filemanager .fp-navbar .fp-toolbar a, .filemanager .fp-navbar .fp-viewbar > div a, .filemanager .fp-navbar .fp-viewbar a {
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important; }
+      .filemanager .fp-navbar .fp-toolbar > div a img, .filemanager .fp-navbar .fp-toolbar a img, .filemanager .fp-navbar .fp-viewbar > div a img, .filemanager .fp-navbar .fp-viewbar a img {
+        padding: 0 !important;
+        margin: 0 !important; }
+  .filemanager .fp-navbar .fp-toolbar > div {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important; }
+
 .path-mod-feedback #id_feedbackhdr .col-md-3 {
   flex: 1;
   max-width: 100%; }

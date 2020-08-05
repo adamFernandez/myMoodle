@@ -135,6 +135,9 @@ hr {
   .instancename:hover {
     color: #003d5c; }
 
+section#region-main a:link {
+  text-decoration: none; }
+
 #region-main ol, #region-main ul {
   margin: 0 0 1.5rem 2.25rem; }
   #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {

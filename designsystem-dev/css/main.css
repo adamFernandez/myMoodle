@@ -1987,18 +1987,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .path-mod-forum#page-mod
 
 .path-mod-forum .table.discussion-list tbody td, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody td {
   padding: 0.75rem !important; }
-
-.path-mod-forum .table.discussion-list tbody.icon-no-margin, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody.icon-no-margin, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody.icon-no-margin {
-  border: none;
-  padding: 0 !important; }
-
-.path-mod-forum .table.discussion-list tbody.icon-no-margin a, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody.icon-no-margin a, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody.icon-no-margin a {
-  margin: 0 !important;
-  height: 100%;
-  padding: 0.75rem !important; }
-
-.path-mod-forum .table.discussion-list tbody img, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody img, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody img {
-  margin-right: 0.5rem; }
+  .path-mod-forum .table.discussion-list tbody td.icon-no-margin, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody td.icon-no-margin, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody td.icon-no-margin {
+    border: none;
+    padding: 0 !important; }
+  .path-mod-forum .table.discussion-list tbody td.icon-no-margin a, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody td.icon-no-margin a, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody td.icon-no-margin a {
+    margin: 0 !important;
+    height: 100%;
+    padding: 0.75rem !important; }
+  .path-mod-forum .table.discussion-list tbody td img, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody td img, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody td img {
+    margin-right: 0.5rem; }
 
 .path-mod-forum .table.discussion-list tbody .discussion .p-0.text-center.align-middle.fit-content.px-2, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody .discussion .p-0.text-center.align-middle.fit-content.px-2, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody .discussion .p-0.text-center.align-middle.fit-content.px-2 {
   padding-top: 0.75rem !important; }

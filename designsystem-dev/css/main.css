@@ -2551,7 +2551,6 @@ body.format-topcoll .course-content > ul.ctopics > .section .side.right {
   height: calc(100% - 0.5rem);
   position: absolute;
   display: flex;
-  align-items: center;
   right: -28px; }
   body.format-topcoll .course-content > ul.ctopics > .section .side.right a.tceditsection, body.format-topcoll .course-content > ul.ctopics > .section .side.right .cps_centre {
     line-height: normal;

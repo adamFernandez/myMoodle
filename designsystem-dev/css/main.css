@@ -1189,7 +1189,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .collapse-container .collapse-card:first-child {
       border-top: 2px solid #CDD7DC; }
     .collapse-container .collapse-card .collapse-header button {
-      margin: 0;
+      margin: 0 !important;
       padding: 0 !important;
       width: 100%;
       text-align: left; }

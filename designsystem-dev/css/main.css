@@ -315,7 +315,11 @@ footer#page-footer {
   margin-bottom: 1.5rem;
   padding: 0; }
   .navcontainer .navtextcontainer, .activity-navigation .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .activity-navigation .row .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .activity-navigation .row .col-md-4, .activity-navigation .row .course-content .single-section .section-navigation.mdl-bottom .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .mdl-left, .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
-    flex: 1; }
+    flex: 1;
+    top: 0;
+    transform: none;
+    max-width: calc(50% - 6rem);
+    position: absolute; }
   .navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     position: relative;
     float: none;

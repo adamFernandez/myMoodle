@@ -318,8 +318,8 @@ footer#page-footer {
     flex: 1;
     top: 0;
     transform: none;
-    max-width: calc(50% - 6rem);
-    position: absolute; }
+    max-width: 50%;
+    position: initial; }
   .navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation .row .col-md-4 a#prev-activity-link, .activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     position: relative;
     float: none;

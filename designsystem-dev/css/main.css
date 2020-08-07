@@ -1654,6 +1654,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modchooser .caro
       .file-picker > div .fp-repo-items .fp-navbar .fp-content {
         margin: 0 !important; }
 
+.atto_image_urlentry {
+  margin-bottom: 1.5rem; }
+
 .openimagebrowser {
   height: auto !important; }
 

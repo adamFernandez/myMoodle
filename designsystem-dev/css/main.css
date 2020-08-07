@@ -1655,7 +1655,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modchooser .caro
         margin: 0 !important; }
 
 .atto_image_urlentry {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem !important; }
 
 .openimagebrowser {
   height: auto !important; }

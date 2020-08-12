@@ -9,6 +9,8 @@ $(".download-transcript").click(function() {
   
   printWindow.document.write(printTitle);
   printWindow.document.write(printContent);
+  printWindow.document.close(); // necessary for IE >= 10
+  printWindow.focus(); // necessary for IE >= 10
   printWindow.print();
   printWindow.close();
 /*  

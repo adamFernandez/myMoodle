@@ -13,6 +13,7 @@ $(".download-transcript").click(function() {
   printWindow.focus(); // necessary for IE >= 10
   printWindow.print();
   printWindow.close();
+  return true;
 /*  
   var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');

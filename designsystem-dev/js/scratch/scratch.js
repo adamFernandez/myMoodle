@@ -6,7 +6,7 @@ $(".download-transcript").click(function() {
   var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');
   
-  printWindow.document.write("bar");
+  printWindow.document.write(printContent);
   printWindow.print();
   printWindow.close();
 /*  

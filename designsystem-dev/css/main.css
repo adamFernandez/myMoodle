@@ -3366,6 +3366,10 @@ img.cb-palette {
   background-color: #0A2D50;
   border-color: #0A2D50; }
 
+#page-mod-questionnaire-preview fieldset,
+#page-mod-questionnaire-complete fieldset {
+  min-inline-size: auto; }
+
 .path-mod-questionnaire {
   /*  .mod_questionnaire_completepage .buttons {
     input[type="submit"] {

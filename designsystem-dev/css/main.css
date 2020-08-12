@@ -3381,10 +3381,12 @@ img.cb-palette {
   .path-mod-questionnaire .qn-container .qn-question {
     background: none; }
   .path-mod-questionnaire .qn-content {
-    max-width: calc(100% - 255px); }
-    @media only screen and (min-width: 768px) {
-      .path-mod-questionnaire .qn-content {
-        max-width: calc(100% - 110px); } }
+    /*
+    max-width: calc(100% - 255px);
+    @media only screen and (min-width: $neo-breakpoint) {
+      max-width: calc(100% - 110px);
+    }
+    */ }
   .path-mod-questionnaire#page-mod-questionnaire-complete .surveyTitle {
     padding: 0;
     margin-bottom: 1.5rem; }

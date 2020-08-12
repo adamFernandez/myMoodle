@@ -6,6 +6,13 @@ $(".download-transcript").click(function() {
   var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');
   
+  printWindow.document.write("bar");
+  printWindow.print();
+  printWindow.close();
+/*  
+  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
+  var printWindow = window.open('', 'PRINT', 'height=600, width=800');
+  
   printWindow.document.write(
     '<html><head><title>' + document.title  + '</title><link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css"></head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
@@ -18,4 +25,5 @@ $(".download-transcript").click(function() {
   printWindow.close();
 
   return true;
+  */
 })

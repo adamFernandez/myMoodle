@@ -3,9 +3,11 @@ $("body:not(.editing) #block-region-side-pre .block:has(.header .title h2:contai
 
 $(".download-transcript").click(function() {
   console.log("foo");
+  var printTitle = document.title;
   var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');
   
+  printWindow.document.write(printTitle);
   printWindow.document.write(printContent);
   printWindow.print();
   printWindow.close();

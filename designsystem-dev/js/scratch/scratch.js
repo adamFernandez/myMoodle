@@ -11,6 +11,7 @@ $(".download-transcript").click(function() {
     '<html><head><title>' + document.title  + '</title></head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
   printWindow.document.write('</body></html>');
+  $('head').append('<link rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" type="text/css" />');
   //printWindow.document.write(printTitle);
   //printWindow.document.write(printContent);
   printWindow.document.close(); // necessary for IE >= 10

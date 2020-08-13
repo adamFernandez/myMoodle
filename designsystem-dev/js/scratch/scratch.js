@@ -12,7 +12,7 @@ $(".download-transcript").click(function() {
     //<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" />
   printWindow.document.write(printContent);
   printWindow.document.write('</body></html>');
-  alert(head);
+  alert($('head'));
   //$('head').append('<link rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" type="text/css" />');
   //printWindow.document.write(printTitle);
   //printWindow.document.write(printContent);

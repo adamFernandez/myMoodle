@@ -8,7 +8,9 @@ $(".download-transcript").click(function() {
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');
   
   printWindow.document.write(
-    '<html><head><title>' + document.title  + '</title><link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" /></head><body><h1>' + document.title  + '</h1>');
+    '<html><head><title>' + document.title  + '</title>
+    //<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" />
+    </head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
   printWindow.document.write('</body></html>');
   //$('head').append('<link rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" type="text/css" />');

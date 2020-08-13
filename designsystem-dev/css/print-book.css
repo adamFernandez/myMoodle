@@ -687,6 +687,10 @@ button .h4::before {
 #page-mod-book-print .timeline-container {
   margin-top: calc(25px - 2.5rem);
 }
+#page-mod-book-print .timeline-container .row,
+#page-mod-book-print .timeline-container .col {
+  margin: 0 !important;
+}
 #page-mod-book-print .timeline-container .timeline-row .col.border-right {
   border-right: 2px solid #5a6469;
 }
@@ -708,7 +712,7 @@ button .h4::before {
   left: calc(100% + 2px);
   border-top: 1px solid #5a6469;
   border-bottom: 1px solid #5a6469;
-  width: 0.625rem;
+  width: 1rem;
 }
 #page-mod-book-print .timeline-container .timeline-row .timeline-content {
   margin-left: 0.625rem;
@@ -733,7 +737,7 @@ button .h4::before {
 #page-mod-book-print .timeline-container .timeline-row .timeline-content
 .timeline-card .date-tab {
   position: absolute;
-  top: -1.625rem;
+  top: -23px;
   left: -2px;
   padding: 0 1.25rem;
   border-radius: 6px 6px 0 0;
@@ -1363,6 +1367,10 @@ button .h4::before {
     page-break-inside: avoid;
     margin-top: calc(25px - 2.5rem);
   }
+  .timeline-container .row,
+  .timeline-container .col {
+    margin: 0;
+  }
   .timeline-container .timeline-row .col.border-right {
     border-right: 2px solid #5a6469;
   }
@@ -1384,7 +1392,7 @@ button .h4::before {
     left: calc(100% + 2px);
     border-top: 1px solid #5a6469;
     border-bottom: 1px solid #5a6469;
-    width: 0.625rem;
+    width: 1rem;
   }
   .timeline-container .timeline-row .timeline-content {
     page-break-inside: avoid;
@@ -1404,7 +1412,7 @@ button .h4::before {
   }
   .timeline-container .timeline-row .timeline-content .timeline-card .date-tab {
     position: absolute;
-    top: -1.45rem;
+    top: -23px;
     left: -2px;
     padding: 0 1.25rem;
     border-radius: 6px 6px 0 0;

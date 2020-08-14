@@ -12,6 +12,7 @@ $(".download-transcript").click(function() {
   printWindow.document.write('<html><head><title>' + document.title  + '</title>');
   if (!is_safari) {
     console.log('not safari');
+    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css">');
     printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/scratch/scratch.css">');
   } else {
     console.log('is safari');

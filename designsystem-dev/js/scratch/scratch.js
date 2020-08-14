@@ -12,14 +12,13 @@ $(".download-transcript").click(function() {
   printWindow.document.write('<html><head><title>' + document.title  + '</title>');
   if (!is_safari) {
     console.log('not safari');
-    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css">');
-    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/scratch/scratch.css">');
+    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/print-book.css">');
   } else {
     console.log('is safari');
   }
-  printWindow.document.write('</head><body><h1>' + document.title  + '</h1>');
+  printWindow.document.write('</head><body><div id="page-mod-book-print"><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
-  printWindow.document.write('</body></html>');
+  printWindow.document.write('</div></body></html>');
   printWindow.document.close(); // necessary for IE >= 10
   printWindow.focus(); // necessary for IE >= 10
   printWindow.print();

@@ -8,10 +8,17 @@ $(".download-transcript").click(function() {
   var printFeatures = 'height=600, width=800';
   var printWindow = window.open('', 'Print_Transcript', printFeatures);
   var is_safari = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
+  var is_chrome = navigator.userAgent.indexOf('Safari') = -1 && navigator.userAgent.indexOf('Chrome') == -1;
   
   printWindow.document.write('<html><head><title>' + document.title  + '</title>');
   if (!is_safari) {
+    console.log('not safari');
     printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/scratch/scratch.css" />');
+  } else {
+    console.log('is safari');
+  }
+  if (is_chrome) {
+    console.log('is chrome');
   }
   printWindow.document.write('</head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);

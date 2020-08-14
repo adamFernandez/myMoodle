@@ -1,18 +1,19 @@
 // hide custom code block when not in editing mode
-$("body:not(.editing) #block-region-side-pre .block:has(.header .title h2:contains('Custom code')), body:not(.editing) #block-region-side-post .block:has(.header .title h2:contains('Custom code'))").addClass("hide");
+$('body:not(.editing) #block-region-side-pre .block:has(.header .title h2:contains("Custom code")), body:not(.editing) #block-region-side-post .block:has(.header .title h2:contains("Custom code"))').addClass('hide');
 
 $(".download-transcript").click(function() {
   console.log("foo");
   var printTitle = document.title;
-  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
-  var printWindow = window.open('', 'PRINT', 'height=600, width=800');
+  var printContent = $(this).parents('.transcript-container').children('.transcript-card').html();
+  var printFeatures = 'height=600, width=800';
+  var printWindow = window.open('', 'Print_Transcript', printFeatures);
   
-  printWindow.document.write(
-    '<html><head><title>' + document.title  + '</title></head><body><h1>' + document.title  + '</h1>');
-    //<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" />
+  printWindow.document.write('<html><head><title>' + document.title  + '</title>')
+  printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" />');
+  printWindow.document.write('</head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
   printWindow.document.write('</body></html>');
-  alert($('head'));
+  ($('head').;
   //$('head').append('<link rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" type="text/css" />');
   //printWindow.document.write(printTitle);
   //printWindow.document.write(printContent);
@@ -22,7 +23,7 @@ $(".download-transcript").click(function() {
   printWindow.close();
   return true;
 /*  
-  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
+  var printContent = $(this).parents('.transcript-container').children('.transcript-card').html();
   var printWindow = window.open('', 'PRINT', 'height=600, width=800');
   
   printWindow.document.write(

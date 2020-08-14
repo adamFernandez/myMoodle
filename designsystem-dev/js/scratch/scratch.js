@@ -8,7 +8,7 @@ $(".download-transcript").click(function() {
   var printFeatures = 'height=600, width=800';
   var printWindow = window.open('', 'Print_Transcript', printFeatures);
   var is_safari = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
-  var is_chrome = navigator.userAgent.indexOf('Safari') = -1 && navigator.userAgent.indexOf('Chrome') == -1;
+  var is_chrome = navigator.userAgent.indexOf('Safari') == -1 && navigator.userAgent.indexOf('Chrome') == -1;
   
   printWindow.document.write('<html><head><title>' + document.title  + '</title>');
   if (!is_safari) {

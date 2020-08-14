@@ -22,10 +22,10 @@ $(".download-transcript").click(function() {
     printWindow.document.write(printContent);
     printWindow.document.write('</body></html>');
   } else {
+    console.log('is chrome');
     printWindow.document.write('<html><head><title>' + document.title  + '</title><link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/scratch/scratch.css"></head><body><h1>' + document.title  + '</h1>');
     printWindow.document.write(printContent);
     printWindow.document.write('</body></html>');
-
   }
   printWindow.document.close(); // necessary for IE >= 10
   printWindow.focus(); // necessary for IE >= 10

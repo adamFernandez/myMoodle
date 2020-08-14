@@ -9,7 +9,7 @@ $(".download-transcript").click(function() {
   var printWindow = window.open('', 'Print_Transcript', printFeatures);
   
   printWindow.document.write('<html><head><title>' + document.title  + '</title>');
-  printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/main.css" />');
+  printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://git.iddkingsonline.com/designsystem-dev/css/scratch/scratch.css" />');
   printWindow.document.write('</head><body><h1>' + document.title  + '</h1>');
   printWindow.document.write(printContent);
   printWindow.document.write('</body></html>');

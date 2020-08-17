@@ -3487,7 +3487,8 @@ img.cb-palette {
         border-radius: 4px; }
 
 #mod_quiz_navblock .content .othernav {
-  text-align: right; }
+  text-align: right;
+  margin: 0 !important; }
   #mod_quiz_navblock .content .othernav a.endtestlink {
     display: inline;
     margin-right: 0 !important; }
@@ -3502,8 +3503,7 @@ img.cb-palette {
       font-weight: 900;
       margin-right: 4px; }
   #mod_quiz_navblock .content .othernav .singlebutton button {
-    margin-right: 0;
-    margin-top: 1rem !important; }
+    margin: 1rem 0 0 0 !important; }
 
 .que {
   margin: 0 0 2.25rem; }

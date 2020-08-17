@@ -183,7 +183,7 @@ var data = {
         "1": "mod/quiz/view.php?id=4365508"
       },
       "forum1": {
-        "1": "mod/forum/view.php?id=3300291"
+        "1": "mod/forum/view.php?id=4365453"
       },
       "poll1": {
         "1": "mod/choice/view.php?id=3300331"
@@ -209,7 +209,7 @@ var data = {
   "ifcl": {
     "module13": {
       "comments": {
-        "1": "mod/forum/view.php?id=2697008"
+        "1": "mod/forum/view.php?id=4365572"
       }
     },
     "module15": {

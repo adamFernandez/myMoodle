@@ -3490,7 +3490,7 @@ img.cb-palette {
   text-align: right; }
   #mod_quiz_navblock .content .othernav a.endtestlink {
     display: inline;
-    margin-right: 0; }
+    margin-right: 0 !important; }
   #mod_quiz_navblock .content .othernav #quiz-timer {
     font-family: 'KingsBureauGrotFiveOne';
     font-size: 1.125rem; }
@@ -3503,7 +3503,7 @@ img.cb-palette {
       margin-right: 4px; }
   #mod_quiz_navblock .content .othernav .singlebutton button {
     margin-right: 0;
-    margin-top: 1rem; }
+    margin-top: 1rem !important; }
 
 .que {
   margin: 0 0 2.25rem; }

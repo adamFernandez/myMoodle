@@ -183,7 +183,7 @@ var data = {
         "1": "mod/quiz/view.php?id=4365508"
       },
       "forum1": {
-        "1": "mod/forum/view.php?id=3300291"
+        "1": "mod/forum/view.php?id=4365453"
       },
       "poll1": {
         "1": "mod/choice/view.php?id=3300331"
@@ -209,7 +209,7 @@ var data = {
   "ifcl": {
     "module13": {
       "comments": {
-        "1": "mod/forum/view.php?id=2697008"
+        "1": "mod/forum/view.php?id=4365572"
       }
     },
     "module15": {
@@ -368,14 +368,14 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=3262711"
+        "2": "mod/forum/view.php?id=3439085"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2951338",
-              "2": "mod/choice/view.php?id=3262731"
+              "2": "mod/choice/view.php?id=3439106"
             }
           }
         }
@@ -390,7 +390,7 @@ var data = {
     "module2": {
       "discussion": {
         "1": "mod/forum/view.php?id=2932098",
-        "2": "mod/forum/view.php?id=3182443"
+        "2": "mod/forum/view.php?id=3439343"
       }
     },
     "module3": {
@@ -446,10 +446,10 @@ var data = {
     },
     "module6": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3138812"
+        "1": "mod/forum/view.php?id=3439524"
       },
       "poll11": {
-        "1": "mod/choice/view.php?id=3138839"
+        "1": "mod/choice/view.php?id=3439555"
       }
     },
     "module7": {
@@ -474,26 +474,26 @@ var data = {
     },
     "module10": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3263120",
+        "1": "mod/forum/view.php?id=3439246",
         "2": "mod/forum/view.php?id=2942155"
       }
     },
     "module11": {
       "discussion": {
         "1": "mod/forum/view.php?id=2958006",
-        "2": "mod/forum/view.php?id=3263218"
+        "2": "mod/forum/view.php?id=3439959"
       }
     },
     "module12": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3263271",
+        "1": "mod/forum/view.php?id=3440015",
         "2": "mod/forum/view.php?id=2960026"
       }
     },
     "module13": {
       "discussion": {
         "1": "mod/forum/view.php?id=2948091",
-        "2": "mod/forum/view.php?id=3263339"
+        "2": "mod/forum/view.php?id=3440086"
       }
     }
   },

@@ -581,6 +581,10 @@ aside section.block {
         background-color: transparent; }
       aside section.block .card-body .block-controls .moodle-actionmenu .menubar {
         justify-content: space-between; }
+        aside section.block .card-body .block-controls .moodle-actionmenu .menubar .menu {
+          left: unset !important;
+          transform: none !important;
+          top: 100% !important; }
         aside section.block .card-body .block-controls .moodle-actionmenu .menubar img {
           padding: 0.25rem 0 !important; }
     aside section.block .card-body .card-text {
@@ -1877,20 +1881,27 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   display: none; }
 
 /*
-.path-mod-book.editing #region-main .sr-only, .path-mod-book.editing #region-main .ds-sr-only, .path-mod-book.editing #region-main #id_content_editoreditable .sr-only {
-  width: auto;
-  height: auto;
-  background-color: rgba(0, 155, 158, 0.2);
-  position: initial;
-  margin: 0;
-  padding: 0.5rem; }
-
-.path-mod-book.editing #region-main .book_content [aria-hidden="true"],
-.path-mod-book.editing #id_content_editoreditable [aria-hidden="true"] {
-  background-color: rgba(255, 97, 5, 0.2);
-  padding: 0.5rem; }
+// screen reader
+.path-mod-book.editing {
+  #region-main {
+    .sr-only, .ds-sr-only, #id_content_editoreditable .sr-only {
+      width: auto;
+      height: auto;
+      // teal-blue
+      background-color: rgba(0, 155, 158, 0.2);
+      position: initial;
+      margin: 0;
+      padding: 0.5rem;
+    }
+  }
+  #region-main .book_content [aria-hidden="true"],
+  #id_content_editoreditable [aria-hidden="true"] {
+    //orange
+    background-color: rgba(255, 97, 5, 0.2);
+    padding: 0.5rem;
+  }
+}
 */
-
 .path-mod-book #region-main > div:first-of-type > h2:first-of-type {
   margin-bottom: 2.25rem; }
 

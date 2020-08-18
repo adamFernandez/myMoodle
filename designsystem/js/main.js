@@ -139,10 +139,10 @@ $(".block_book_toc .content ul > li:only-child strong:only-child").parents(".blo
 $(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
 // remove stupid arrows from prev and next activity links
-$(".row-fluid.rtl-compatible a#prev-activity-link").text(function(i, text) {
+$(".activity-navigation a#prev-activity-link").text(function(i, text) {
   return text.slice(2);
 });
-$(".row-fluid.rtl-compatible a#next-activity-link").text(function(i, text) {
+$(".activity-navigation a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
 

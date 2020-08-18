@@ -119,7 +119,7 @@ $(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function
   $(this).text(i+1);
 });
 // add current class to current page
-$(".navbottom.clearfix ul li :not(a)").parents("li").addClass("current");
+$(".navbottom.clearfix ul li .d-flex :not(a)").parents("li").addClass("current");
 // add prev and next class to li before and after current for mobile
 $(".chapter.current").prev("li").addClass("prev");
 $(".chapter.current").next("li").addClass("next");

@@ -1983,7 +1983,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     display: flex;
     justify-content: center; }
 
-.path-mod-forum #collapseAddForm .form-group.fitem:not(:last-child) {
+.path-mod-forum #collapseAddForm .form-group.fitem:not(:last-child), .path-mod-forum#page-mod-forum-mod .form-group.fitem:not(:last-child) {
   margin-right: 0.75rem !important; }
 
 .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 {

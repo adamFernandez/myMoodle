@@ -4,12 +4,11 @@ $("#block-region-side-pre .block:has(.header .title h2:contains('Administration'
 // if there are no visible blocks in aside hide it and make main region full width
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 
-/*
+// remove this for no-print.js
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
 $('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');
 printButton.addClass('btn btn-secondary print-book-btn').text("Print").appendTo('#print-btn-container');
-*/
 
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";
@@ -219,7 +218,7 @@ forum new post confirmation
 question bank question page dropdown, question category page and export page
 question editing page
 */
-$("#region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .row-fluid.rtl-compatible .span4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label'), #page-question-edit select option:contains('activitiy-label'), #page-question-category h3:contains('activity-label'), #page-question-category ul li b a:contains('activity-label'), #page-question-category ul li .text_to_html:contains('activity-label'), #page-question-category select option:contains('activity-label'), #page-question-export select option:contains('activity-label'), .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')").text(function(i, currentText) {
+$("#region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .activity-navigation .col-md-4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label'), #page-question-edit select option:contains('activitiy-label'), #page-question-category h3:contains('activity-label'), #page-question-category ul li b a:contains('activity-label'), #page-question-category ul li .text_to_html:contains('activity-label'), #page-question-category select option:contains('activity-label'), #page-question-export select option:contains('activity-label'), .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')").text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 // completion progress activity title

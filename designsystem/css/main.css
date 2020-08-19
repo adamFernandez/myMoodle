@@ -711,6 +711,12 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 #block-region-side-pre .block_html .content ul.fa-ul, #block-region-side-post .block_html .content ul.fa-ul {
   color: #0A2D50; }
 
+.calendarwrapper {
+  margin-bottom: 1.5rem !important;
+  margin-top: 0 !important; }
+  .calendarwrapper .minicalendar th, .calendarwrapper .minicalendar td {
+    padding: 0 !important; }
+
 .singleselect form, .singleselect select, .singleselect select option {
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }

@@ -148,7 +148,7 @@ main {
 	padding-right: 10px;
 	content: "\f107" !important;
 	color: #00B9E1;
-	font-family: "FontAwesome";
+	font-family: "Font Awesome 5 Free";
 }
 
 .course-content ul.ctopics li.section .content .toggle .the_toggle.toggle_open h3:before {
@@ -156,7 +156,7 @@ main {
 	padding-right: 10px;
 	content: "\f106" !important;
 	color: #00B9E1;
-	font-family: "FontAwesome";
+	font-family: "Font Awesome 5 Free";
 }
 
 .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_closed, .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open, #toggle-all .content .toggle-arrow h4 span.off {

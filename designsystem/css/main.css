@@ -560,6 +560,8 @@ section:not(:last-of-type) {
 aside section.block {
   padding: 0 12px 12px 12px;
   margin-bottom: 12px !important; }
+  aside section.block.hide {
+    display: none; }
   aside section.block .card-body {
     padding: 0 !important;
     position: relative; }

@@ -198,6 +198,7 @@ footer#page-footer {
     margin-bottom: 10px; }
 
 .back-to-top {
+  z-index: 100;
   bottom: 28px;
   right: 48px; }
   .back-to-top .fa-3x {

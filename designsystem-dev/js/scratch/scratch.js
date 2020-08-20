@@ -1,6 +1,11 @@
 // hide custom code block when not in editing mode
 $('body:not(.editing) #block-region-side-pre .block:has(.header .title h2:contains("Custom code")), body:not(.editing) #block-region-side-post .block:has(.header .title h2:contains("Custom code"))').addClass('hide');
 
+// move add a block block to the left
+$("#block-region-side-post .block:has(h5.card-title:contains('Add a block'))").prependTo("#block-region-side-pre");
+// if there are no visible blocks in aside hide it and make main region full width
+$("#block-region-side-post:not(:has(.block:not(.hide)))").addClass("hide").parents("body").addClass("empty-region-side-post used-region-side-pre");
+
 $(".download-transcript").click(function() {
   console.log("foo");
   var printContent = $(this).parents('.transcript-container').children('.transcript-card').html();

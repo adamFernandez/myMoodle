@@ -2081,6 +2081,9 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .path-mod-forum#page-mod
   margin: 0 !important;
   padding: 0 !important; }
 
+.path-mod-forum .table.discussion-list tbody .text-truncate, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody .text-truncate, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody .text-truncate {
+  white-space: normal; }
+
 .forumaddnew div {
   margin: 0; }
   .forumaddnew div input[type="submit"]:first-child {

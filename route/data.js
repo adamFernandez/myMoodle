@@ -88,13 +88,13 @@ var data = {
     },
     "module4": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2572811"
+        "1": "mod/forum/view.php?id=3441050"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=2572836"
+        "1": "mod/forum/view.php?id=3441075"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2572865"
+        "1": "mod/forum/view.php?id=3441103"
       }
     }
   },

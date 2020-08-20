@@ -4,7 +4,7 @@ $("#block-region-side-pre .block:has(.header .title h2:contains('Administration'
 // if there are no visible blocks in aside hide it and make main region full width
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 
-/* no print
+/*
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
 $('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');

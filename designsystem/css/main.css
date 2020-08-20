@@ -530,9 +530,13 @@ section:not(:last-of-type) {
   line-height: 1.1;
   background: none;
   margin-bottom: 1.5rem;
-  padding-bottom: 0; }
+  padding: 0;
+  margin-right: 2.25rem; }
   #section-0 .content > h3.sectionname:after {
     display: none; }
+
+.editing #section-0 .content > h3.sectionname {
+  margin-right: 2.25rem; }
 
 #page-mod-book-view #region-main > div > h2:first-of-type {
   margin-right: calc(88px + 1rem); }
@@ -2783,8 +2787,8 @@ body.editing #region-main .course-content ul > .section.main:not(.completion-pro
 
 body.editing #region-main .course-content .gtopics-0 .summary .edit {
   position: absolute;
-  left: -2.25rem;
-  top: 1.5rem; }
+  right: 0;
+  top: 1rem; }
 
 body.editing #region-main .course-content #gridshadebox #gridshadebox_content {
   border: none; }

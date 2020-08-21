@@ -1777,11 +1777,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table.table-bordered th, .path-mod-choice #region-main .chart-area .chart-table .chart-table-data table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-choice #region-main .chart-area .chart-table .chart-table-data table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
       border: 1px solid #8B9296 !important; }
-  tabletable-external-borders-only thead, .tabletable-external-borders-only thead {
+  table.table-outer-borders-only thead, .table.table-outer-borders-only thead, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-outer-borders-only thead {
     border: 1px solid #8B9296 !important; }
-  tabletable-external-borders-only tbody, .tabletable-external-borders-only tbody {
+  table.table-outer-borders-only tbody, .table.table-outer-borders-only tbody, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-outer-borders-only tbody {
     border: 1px solid #8B9296; }
-    tabletable-external-borders-only tbody td, .tabletable-external-borders-only tbody td {
+    table.table-outer-borders-only tbody td, .table.table-outer-borders-only tbody td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-outer-borders-only tbody td {
       border: none !important; }
   table.table-no-borders td, .table.table-no-borders td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-no-borders td {
     border: none !important; }

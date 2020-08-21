@@ -1785,6 +1785,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       border: none !important; }
   table.table-no-borders td, .table.table-no-borders td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-no-borders td {
     border: none !important; }
+  table.text-align-right td, .table.text-align-right td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.text-align-right td {
+    text-align: right; }
   table.default-width, .table.default-width, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.default-width {
     width: auto; }
   table caption, .table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption {

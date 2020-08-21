@@ -2599,8 +2599,8 @@ body.format-topcoll .course-content ul.ctopics {
           body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead .toggle_closed:hover {
             background-color: #DCE3E6 !important; }
         body.format-topcoll .course-content ul.ctopics > .section .content .sectionhead:focus {
-          outline: 4px solid #0A2D50;
-          outline-offset: -4px; }
+          outline: 2px solid #0A2D50;
+          outline-offset: -2px; }
       body.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
         background-color: rgba(237, 241, 242, 0.3);
         padding: 1.5rem 0.5rem;

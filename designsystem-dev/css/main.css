@@ -1554,7 +1554,10 @@ body .editing-help-box {
     font-weight: 900;
     background: none;
     height: auto;
-    width: auto; }
+    width: auto;
+    position: absolute;
+    top: -6px;
+    right: 0; }
   .close-button:hover, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:hover, .modal .modal-dialog .modal-content .modal-header .close:hover {
     background-color: transparent !important; }
   .close-button:focus, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span .closebutton:focus, .modal .modal-dialog .modal-content .modal-header .close:focus {
@@ -1571,7 +1574,8 @@ body .editing-help-box {
     color: #171717 !important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem !important;
-    padding: 0 3rem !important; }
+    padding: 0 3rem !important;
+    position: relative; }
     .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd span {
       padding: 0 !important; }
 

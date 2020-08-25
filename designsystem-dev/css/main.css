@@ -3507,7 +3507,7 @@ img.cb-palette {
   text-align: right !important;
   display: block; }
 
-.path-mod-questionnaire .qn-container:first-of-type:after {
+.path-mod-questionnaire .qn-container:first-of-type:before {
   content: 'Indicates required field';
   font-family: "Open Sans";
   font-size: 1rem;
@@ -3518,7 +3518,7 @@ img.cb-palette {
   margin-bottom: 1.5rem;
   cursor: text; }
 
-.path-mod-questionnaire .qn-container:first-of-type:before {
+.path-mod-questionnaire .qn-container:first-of-type:after {
   content: '\f069';
   font-family: "Font Awesome 5 Free";
   font-size: 0.5rem;

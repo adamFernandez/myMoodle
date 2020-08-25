@@ -1329,7 +1329,9 @@ a.link-download {
   padding-top: calc(231%/3.04); }
 
 .embed-responsive-kaltura-playlist {
-  padding-top: 100%; }
+  padding-top: 0; }
+  .embed-responsive-kaltura-playlist > * {
+    width: 100% !important; }
 
 .embed-responsive-youtube {
   padding-top: calc(900%/16); }

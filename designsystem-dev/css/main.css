@@ -3549,7 +3549,8 @@ img.cb-palette {
     margin-bottom: 1rem; }
     .path-mod-questionnaire .qn-container .qn-content .qn-question p, .path-mod-questionnaire .qn-container .qn-content .qn-question label {
       margin: 0;
-      font-weight: bold; }
+      font-weight: bold;
+      cursor: text; }
   .path-mod-questionnaire .qn-container .qn-content .qn-answer, .path-mod-questionnaire .qn-container .qn-content .editor_atto_wrap {
     margin-bottom: 2.25rem; }
   .path-mod-questionnaire .qn-container .qn-content .qn-answer table {

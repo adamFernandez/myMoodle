@@ -3497,6 +3497,61 @@ img.cb-palette {
     border-top: 1px solid #8B9296;
     border-left: 1px solid #8B9296; }
 
+.path-mod-questionnaire .surveyTitle {
+  margin-bottom: 0 !important; }
+
+.path-mod-questionnaire .floatprinticon {
+  width: 100%;
+  margin: 0;
+  float: none;
+  text-align: right !important;
+  display: block; }
+  .path-mod-questionnaire .floatprinticon:after {
+    content: 'Indicates required field';
+    font-family: "Open Sans";
+    font-size: 1rem;
+    font-weight: normal;
+    display: block;
+    margin-left: 0.825rem;
+    text-align: left;
+    margin-bottom: 1.5rem; }
+  .path-mod-questionnaire .floatprinticon:before {
+    content: '\f069';
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: 3.125rem;
+    color: red;
+    left: 0; }
+
+.path-mod-questionnaire .qn-container .qn-legend {
+  margin-right: 0.5rem; }
+  .path-mod-questionnaire .qn-container .qn-legend .qn-info {
+    padding: 0;
+    background: none; }
+    .path-mod-questionnaire .qn-container .qn-legend .qn-info .qn-number {
+      font-family: "Open Sans";
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.5; }
+  .path-mod-questionnaire .qn-container .qn-legend .req {
+    vertical-align: top !important; }
+
+.path-mod-questionnaire .qn-container .qn-content {
+  margin-left: 0; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-question {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem; }
+    .path-mod-questionnaire .qn-container .qn-content .qn-question p, .path-mod-questionnaire .qn-container .qn-content .qn-question label {
+      margin: 0;
+      font-weight: bold; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-answer, .path-mod-questionnaire .qn-container .qn-content .editor_atto_wrap {
+    margin-bottom: 2.25rem; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-answer table {
+    margin-bottom: 0 !important; }
+
 .quiz-table, #page-mod-quiz-view .quizattemptsummary, #page-mod-quiz-review .quizreviewsummary, #page-mod-quiz-summary .quizsummaryofattempt {
   border: none;
   border-right: 1px solid #8B9296;

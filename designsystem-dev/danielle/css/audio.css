@@ -4,6 +4,10 @@ body {
 .mwEmbedPlayerBlackBkg {
   background-color: white !important;
 }
+.mwEmbedPlayer{
+	background-color: white !important;
+}
+
 .playerPoster, .largePlayBtn,
 .closedCaptions, .playbackRateSelector, .sourceSelector, .fullScreenBtn, .expandToggleBtn,
 .volumeControl {
@@ -94,3 +98,5 @@ body {
     font-size: 0.75rem;
   }
 }
+
+

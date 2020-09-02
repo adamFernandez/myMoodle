@@ -1,0 +1,113 @@
+// -----------------------------------------------------------------------------
+// timeline
+// -----------------------------------------------------------------------------
+
+.timeline-container {
+  margin-left: 64px;
+  @media only screen and (max-width: $neo-breakpoint) {
+    margin-left: 0;
+  }
+  padding: 0.5rem 1.25rem 0 1.25rem;
+  .timeline-badge-pill {
+    border-radius: 50%;
+    border: 8px solid $teal-blue !important;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0;
+    background-color: transparent;
+    &.fill {
+      background-color: $teal-blue;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      top: 50%;
+      left: calc(50% + 12px);
+      border-top: 1.5px solid $rules-and-outlines;
+      border-bottom: 1.5px solid $rules-and-outlines;
+      width: 38px;
+    }
+  }
+  .timeline-row {
+    .border-right {
+      border-right: 3px solid $rules-and-outlines !important;
+    }
+    .border-left {
+      border-left: 3px solid $rules-and-outlines !important;
+    }
+    .flex-column {
+      display: flex !important;
+      // prevent sub-pixel errors at 90% zoom
+      min-width: 75px;
+    }
+    .timeline-content {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .timeline-card {
+      position: relative;
+      margin-bottom: $component-margin-bottom;
+      border: none;
+      border-radius: 0 6px 6px 6px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.25);
+      &.no-date {
+        border-radius: 6px;
+      }
+      .card-body {
+        position: relative;
+        background-color: $block-background;
+        color: $body-text;
+      }
+      .date-tab {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        background-color: $teal-blue;
+        padding: 4px 8px;
+        border-radius: 6px 6px 0 0;
+        color: white;
+        font-family: 'KingsBureauGrot';
+        line-height: 1.4;
+      }
+      img:not(.icon) {
+        width: 100%;
+        height: auto;
+      }
+      .card-image {
+        margin-bottom: 15px;
+        @media only screen and (min-width: $neo-breakpoint) {
+          padding-right: 5px;
+        }
+      }
+      h5 {
+        line-height: 1.4;
+        color: $headings;
+        margin-top: 0;
+      }
+      .img-reference {
+        font-size: 0.8125rem;
+        margin-bottom: 0;
+        margin-top: 15px;
+        @media only screen and (min-width: $neo-breakpoint) {
+          text-align: right;
+          margin-top: 0;
+        }
+      }
+    }
+    &.highlighted  {
+      .date-tab {
+        background-color: $orange;
+      }
+      .card-body {
+        background-color: #ffe0d3;
+      }
+      .timeline-badge-pill {
+        border-color: $orange !important;
+        &.fill {
+          background-color: $orange;
+        }
+      }
+    }
+  }
+}

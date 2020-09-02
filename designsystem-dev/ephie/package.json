@@ -1,0 +1,19 @@
+{
+  "name": "designsystem-dev-ephie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

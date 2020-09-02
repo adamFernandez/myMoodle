@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// images
+// -----------------------------------------------------------------------------
+
+// icons
+img.icon {
+  box-sizing: content-box;
+}
+// remove padding from theme so icons can use defined dimensions
+img.iconsmall {
+  padding: 0;
+}
+
+// full width images
+.full-width-img, .img-full-width {
+  margin-bottom: $component-margin-bottom;
+  img {
+    width: 100%;
+    height: auto;
+    &:not(:last-child) {
+      margin-bottom: $component-margin-bottom-xs;
+    }
+  }
+  .caption {
+    margin-bottom: 0;
+  }
+}
+
+// centered images
+.center-img, .img-center {
+  text-align: center;
+  margin-bottom: $component-margin-bottom;
+  img:not(:last-child) {
+    margin-bottom: $component-margin-bottom-xs;
+  }
+}
+
+//circular imges
+.circular-img, .img-circular {
+  border-radius: 50%;
+  margin-bottom: $component-margin-bottom;
+  max-width: 100%;
+}
+
+//override theme image margin
+.atto_image_button_text-bottom {
+  margin: 0;
+  max-width: 100% !important;
+}
+
+// figures and captions
+figure {
+  margin: 0 0 $component-margin-bottom 0;
+  table {
+    margin-bottom: $component-margin-bottom-xs !important;
+  }
+  figcaption {
+    @include font-scale(caption, $font-os);
+    color: $body-text;
+  }
+}
+
+// screenshots
+.screenshot {
+  border: 1px solid $rules-and-outlines;
+  margin-bottom: $component-margin-bottom;
+}

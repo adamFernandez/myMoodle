@@ -1,0 +1,70 @@
+// breadcrumb
+.breadcrumb-nav ul.breadcrumb li {
+  font-family: 'KingsBureauGrotFiveOne';
+  font-size: 1rem;
+  a {
+    color: #0d3254;
+  }
+  &::after {
+    color: #aaa;
+  }
+}
+
+// usermenu
+.usermenu {
+  .userbutton .usertext {
+    display: none;
+    @media only screen and (min-width: $neo-breakpoint) {
+      display: inline-block;
+    }
+  }
+}
+
+// main page heading
+.course-content ul li.section.main {
+  margin-bottom: 0 !important;
+}
+#section-0 .content>h3.sectionname {
+  @include font-scale(h1);
+  background: none;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  margin-right: 2.25rem;
+  &:after {
+    display: none;
+  }
+}
+// allow room for edit cog
+.editing #section-0 .content>h3.sectionname {
+  margin-right: $component-margin-lg;
+}
+
+// book print button
+// prevent the title from overlapping with the print button
+#page-mod-book-view #region-main > div > h2:first-of-type {
+  margin-right: calc(88px + 1rem);
+}
+#region-main {
+  position: relative;
+}
+#print-btn-container {
+  margin-bottom: 1.5rem;
+  position: absolute;
+  right: 0;
+  .print-book-btn {
+    margin: unset !important;
+    &::before {
+      content: '\f02f';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+// message drawer
+.message-app {
+  .input-prepend .add-on {
+    height: auto;
+  }
+}

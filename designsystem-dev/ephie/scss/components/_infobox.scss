@@ -1,0 +1,111 @@
+// -----------------------------------------------------------------------------
+// info box
+// -----------------------------------------------------------------------------
+
+//definition box
+.definition-box {
+  @extend .info-box;
+  background-color: $block-background;
+  &::before {
+    content: '\f02e';
+    padding: 0 5px;
+    color: $purple70;
+  }
+}
+
+//editing help box
+body {
+  &:not(.editing) {
+    .editing-help-box {
+      display: none;
+    }
+  }
+  .editing-help-box {
+    @extend .info-box;
+    // lime green 0.2 opacity
+    background-color: rgba(198, 226, 40, 0.2);
+    border-radius: 1.5rem;
+    &::before {
+      font-size: 1.5rem;
+      content: '\f059';
+      padding: 0 2.5px;
+      color: $teal-blue;
+    }
+  }
+}
+
+//feedback box
+.feedback-box {
+  @extend .info-box;
+  &.correct-answer {
+    background-color: rgba(40,195,130,0.2) !important;
+    &::before {
+      color: $pea-green;
+      padding: 0 4px;
+      content: '\f058';
+    }
+  }
+  &.model-answer {
+    background-color: rgba(245,185,15,0.2) !important;
+    &::before {
+      content: '\f27a';
+      color: $yellow;
+      padding: 0 4px;
+    }
+  }
+  &.incorrect-answer {
+    background-color: rgba(226,35,26,0.2) !important;
+    &::before {
+      color: $kings-red;
+      content: '\f057';
+      padding: 0 4px;
+    }
+  }
+}
+
+//key concept box
+.key-concept-box {
+  background-color: $block-background;
+  margin-bottom: $component-margin-bottom;
+  padding: 1.5rem;
+  div > :last-child {
+    margin-bottom: 0 !important;
+  }
+  p, li {
+    @include font-scale(key-concept, $font-os);
+    font-weight: bold;
+  }
+  ul, ol {
+    li:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+//learning outcome box
+#region-main .learning-outcome-box {
+  @extend .info-box;
+  background-color: #edf1f2;
+  &::before {
+    content: '\f091';
+    color: $teal-blue;
+    padding: 0 4px;
+  }
+  ol, ul {
+    margin: 0 0 0 1.25rem;
+    li:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// reading box
+.reading-box {
+  @extend .info-box;
+  background-color: $block-background;
+  &::before {
+    content: '\f5da';
+    padding: 0 2px 0 3px;
+    color: $midnight-blue;
+  }
+}

@@ -1469,6 +1469,9 @@ figure {
   border: 1px solid #8B9296;
   margin-bottom: 1.5rem; }
 
+.image-scroll {
+  overflow-x: scroll; }
+
 .definition-box {
   background-color: #EDF1F2; }
   .definition-box::before {

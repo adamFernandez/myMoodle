@@ -285,7 +285,7 @@ footer#page-footer {
     font-weight: 900;
     margin-right: 0.375rem;
     content: '\f070'; }
-  .note-container > button:focus, .academic-note-container > button:focus, .view-generic-container > button:focus, .view-answer-container > button:focus, .view-feedback-container > button:focus, .view-model-answer-container > button:focus, .view-description-container > button:focus {
+  .note-container button:focus, .academic-note-container button:focus, .view-generic-container button:focus, .view-answer-container button:focus, .view-feedback-container button:focus, .view-model-answer-container button:focus, .view-description-container button:focus {
     outline: 1px solid #005AD2; }
   .note-container > div > .card-body, .academic-note-container > div > .card-body, .view-generic-container > div > .card-body, .view-answer-container > div > .card-body, .view-feedback-container > div > .card-body, .view-model-answer-container > div > .card-body, .view-description-container > div > .card-body {
     border-left: 4px solid #CDD7DC;

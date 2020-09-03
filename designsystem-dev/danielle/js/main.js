@@ -82,7 +82,7 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
 });
 
 // toggle transcript button text and transcript card
-$(document).on("click", ".transcript-button-group a.view-close-transcript", function(event) {
+$(document).on("click", ".transcript-button-group button.view-close-transcript", function(event) {
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });

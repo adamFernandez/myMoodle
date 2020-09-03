@@ -98,9 +98,6 @@
     margin-right: 0.375rem;
     content: '\f070';
   }
-  & button:focus{
-    outline: 1px solid $sea-blue;
-  }
   & > div {
     & > .card-body {
       border-left: 4px solid $pearl-grey;

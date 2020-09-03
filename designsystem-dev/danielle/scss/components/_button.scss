@@ -18,6 +18,9 @@ button, .btn {
       background-color: #536c84 !important;
       text-decoration: none !important;
     }
+    &:focus {
+      border: 1px solid $sea-blue;
+    }
   }
   &.btn-secondary {
     background-color: $white !important;

@@ -82,6 +82,12 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
 });
 
 // toggle transcript button text and transcript card
+//old version
+$(document).on("click", ".transcript-button-group a.view-close-transcript", function(event) {
+  $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
+  $(this).parents(".transcript-container").toggleClass("collapsed");
+});
+//new version, with button
 $(document).on("click", ".transcript-button-group button.view-close-transcript", function(event) {
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
@@ -89,6 +95,7 @@ $(document).on("click", ".transcript-button-group button.view-close-transcript",
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
+//old version
 $(document).on("click", "a.view-hide-generic", function(event) {
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
   $(this).parents(".view-generic-container").toggleClass("collapsed");
@@ -109,6 +116,28 @@ $(document).on("click", "a.view-hide-model-answer", function(event) {
   $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
   $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });
+//new version, button
+$(document).on("click", "button.view-hide-generic", function(event) {
+  $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
+  $(this).parents(".view-generic-container").toggleClass("collapsed");
+});
+$(document).on("click", "button.view-hide-answer", function(event) {
+  $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
+  $(this).parents(".view-answer-container").toggleClass("collapsed");
+});
+$(document).on("click", "button.view-hide-description", function(event) {
+  $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
+  $(this).parents(".view-description-container").toggleClass("collapsed");
+});
+$(document).on("click", "button.view-hide-feedback", function(event) {
+  $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
+  $(this).parents(".view-feedback-container").toggleClass("collapsed");
+});
+$(document).on("click", "button.view-hide-model-answer", function(event) {
+  $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
+  $(this).parents(".view-model-answer-container").toggleClass("collapsed");
+});
+
 
 /* book activity */
 // copy chapterlist to book nav and remove .action-list

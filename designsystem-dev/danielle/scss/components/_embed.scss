@@ -140,6 +140,9 @@
     .transcript-button-group a.view-close-transcript::before {
         content: '\f06e';
     }
+    .transcript-button-group button.view-close-transcript::before {
+          content: '\f06e';
+    }
     .transcript-card {
       display: none;
     }

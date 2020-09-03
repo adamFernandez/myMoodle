@@ -123,6 +123,9 @@
     & > a::before {
         content: '\f06e';
     }
+    & > button::before {
+      content: '\f06e';
+  }
     & > div {
       display: none;
     }

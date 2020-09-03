@@ -302,6 +302,8 @@ footer#page-footer {
         margin-right: 1rem; }
   .note-container.collapsed > a::before, .collapsed.academic-note-container > a::before, .collapsed.view-generic-container > a::before, .collapsed.view-answer-container > a::before, .collapsed.view-feedback-container > a::before, .collapsed.view-model-answer-container > a::before, .collapsed.view-description-container > a::before {
     content: '\f06e'; }
+  .note-container.collapsed > button::before, .collapsed.academic-note-container > button::before, .collapsed.view-generic-container > button::before, .collapsed.view-answer-container > button::before, .collapsed.view-feedback-container > button::before, .collapsed.view-model-answer-container > button::before, .collapsed.view-description-container > button::before {
+    content: '\f06e'; }
   .note-container.collapsed > div, .collapsed.academic-note-container > div, .collapsed.view-generic-container > div, .collapsed.view-answer-container > div, .collapsed.view-feedback-container > div, .collapsed.view-model-answer-container > div, .collapsed.view-description-container > div {
     display: none; }
 
@@ -1416,6 +1418,8 @@ a.link-download {
     padding: 0 0 0 1.5rem;
     margin-top: 1.5rem; }
   .transcript-container.collapsed .transcript-button-group a.view-close-transcript::before {
+    content: '\f06e'; }
+  .transcript-container.collapsed .transcript-button-group button.view-close-transcript::before {
     content: '\f06e'; }
   .transcript-container.collapsed .transcript-card {
     display: none; }

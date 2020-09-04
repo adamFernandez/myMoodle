@@ -275,12 +275,7 @@ footer#page-footer {
 .note-container, .academic-note-container, .view-generic-container, .view-answer-container, .view-feedback-container,
 .view-model-answer-container, .view-description-container {
   margin-bottom: 1.5rem; }
-  .note-container > a::before, .academic-note-container > a::before, .view-generic-container > a::before, .view-answer-container > a::before, .view-feedback-container > a::before, .view-model-answer-container > a::before, .view-description-container > a::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 0.375rem;
-    content: '\f070'; }
-  .note-container > button::before, .academic-note-container > button::before, .view-generic-container > button::before, .view-answer-container > button::before, .view-feedback-container > button::before, .view-model-answer-container > button::before, .view-description-container > button::before {
+  .note-container > a::before, .academic-note-container > a::before, .view-generic-container > a::before, .view-answer-container > a::before, .view-feedback-container > a::before, .view-model-answer-container > a::before, .view-description-container > a::before, .note-container button::before, .academic-note-container button::before, .view-generic-container button::before, .view-answer-container button::before, .view-feedback-container button::before, .view-model-answer-container button::before, .view-description-container button::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem;
@@ -298,9 +293,7 @@ footer#page-footer {
         height: 75px;
         width: 75px;
         margin-right: 1rem; }
-  .note-container.collapsed > a::before, .collapsed.academic-note-container > a::before, .collapsed.view-generic-container > a::before, .collapsed.view-answer-container > a::before, .collapsed.view-feedback-container > a::before, .collapsed.view-model-answer-container > a::before, .collapsed.view-description-container > a::before {
-    content: '\f06e'; }
-  .note-container.collapsed > button::before, .collapsed.academic-note-container > button::before, .collapsed.view-generic-container > button::before, .collapsed.view-answer-container > button::before, .collapsed.view-feedback-container > button::before, .collapsed.view-model-answer-container > button::before, .collapsed.view-description-container > button::before {
+  .note-container.collapsed > a::before, .collapsed.academic-note-container > a::before, .collapsed.view-generic-container > a::before, .collapsed.view-answer-container > a::before, .collapsed.view-feedback-container > a::before, .collapsed.view-model-answer-container > a::before, .collapsed.view-description-container > a::before, .note-container.collapsed button::before, .collapsed.academic-note-container button::before, .collapsed.view-generic-container button::before, .collapsed.view-answer-container button::before, .collapsed.view-feedback-container button::before, .collapsed.view-model-answer-container button::before, .collapsed.view-description-container button::before {
     content: '\f06e'; }
   .note-container.collapsed > div, .collapsed.academic-note-container > div, .collapsed.view-generic-container > div, .collapsed.view-answer-container > div, .collapsed.view-feedback-container > div, .collapsed.view-model-answer-container > div, .collapsed.view-description-container > div {
     display: none; }
@@ -1445,11 +1438,7 @@ a.link-download {
 
 .transcript-container {
   margin-bottom: 1.5rem; }
-  .transcript-container .transcript-button-group a::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 0.375rem; }
-  .transcript-container .transcript-button-group button::before {
+  .transcript-container .transcript-button-group a::before, .transcript-container .transcript-button-group button::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem; }

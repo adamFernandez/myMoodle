@@ -111,16 +111,11 @@
 .transcript-container {
   margin-bottom: $component-margin-bottom;
   .transcript-button-group {
-    a::before {
+    a::before, button::before {
         font-family: "Font Awesome 5 Free";
         font-weight: 900;
         margin-right: 0.375rem
     }
-    button::before {
-      font-family: "Font Awesome 5 Free";
-      font-weight: 900;
-      margin-right: 0.375rem
-  }
   a.view-close-transcript::before {
         content: '\f070';
     }

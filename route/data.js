@@ -556,18 +556,18 @@ var data = {
        },
        "forum2": {
           "1": "mod/forum/view.php?id=2472766",
-          "2": "mod/forum/view.php?id=3177992"
+          "2": "mod/forum/view.php?id=3558602"
        },
        "forum3": {
           "1": "mod/forum/view.php?id=2472791",
-          "2": "mod/forum/view.php?id=3178017"
+          "2": "mod/forum/view.php?id=3558627"
        },
        "forum4": {
           "1": "mod/forum/view.php?id=2472819",
-          "2": "mod/forum/view.php?id=3178047"
+          "2": "mod/forum/view.php?id=3558657"
        },
        "forum5": {
-          "1": "mod/forum/discuss.php?d=167806"
+          "1": "mod/forum/view.php?d=3558602"
        }
      },  
  "module2": {

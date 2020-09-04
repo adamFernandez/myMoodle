@@ -572,16 +572,16 @@ var data = {
      },  
  "module2": {
        "forum1": {
-          "1": "mod/forum/view.php?id=3202735"
+          "1": "mod/forum/view.php?id=4260914"
        },
        "forum2": {
-          "1": "mod/forum/view.php?id=3202741"
+          "1": "mod/forum/view.php?id=4260920"
        },
        "forum3": {
-          "1": "mod/forum/view.php?id=3202768"
+          "1": "mod/forum/view.php?id=4260945"
        },
        "forum4": {
-          "1": "mod/forum/view.php?id=3202802"
+          "1": "mod/forum/view.php?id=4260976"
        }
      },
      "module3": {

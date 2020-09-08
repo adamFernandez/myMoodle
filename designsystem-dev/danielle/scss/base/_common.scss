@@ -1,0 +1,121 @@
+// screen reader
+.ds-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.info-box {
+  margin-bottom: $component-margin-bottom;
+  border-radius: 0;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  position: relative;
+  color: #000 !important;
+  & > :first-child, .info-box-inner {
+    padding: 0.5rem 0.25rem 0.5rem 3.125rem;
+  }
+  h5, .info-box-title {
+    font-family: 'KingsBureauGrot' !important;
+    font-size: 1.2rem;
+    color: $headings !important;
+    margin-top: 0;
+    margin-bottom: $component-margin-bottom-sm;
+  }
+  p {
+    color: $body-text !important;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &::before, .info-box-inner::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 1.25rem;
+    left: 1.5rem;
+  }
+}
+
+.ds-link {
+  text-decoration: underline;
+  color: $reflex-blue;
+  &:hover {
+    color: $sea-blue;
+  }
+  &:visited {
+    color: $midnight-blue;
+  }
+}
+
+.top-bar {
+  position: relative;
+   &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 0;
+  }
+}
+
+.caption-overlay {
+  position: absolute;
+  background-color: rgba(10, 45, 80, 0.85);
+  bottom: 0;
+  left: auto;
+  right: auto;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+}
+
+.icon-before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 0.375rem;
+}
+
+.note-container {
+  margin-bottom: $component-margin-bottom;
+  & > a::before, button::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.375rem;
+    content: '\f070';
+  }
+  & > div {
+    & > .card-body {
+      border-left: 4px solid $pearl-grey;
+      padding: 0 0 0 1.5rem;
+      margin-top: 1.5rem;
+      .card-author {
+        display: flex;
+        align-items: center;
+        margin-bottom: $component-margin-bottom;
+        img {
+          border-radius: 50%;
+          height: 75px;
+          width: 75px;
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+  &.collapsed {
+    & > a::before, button::before {
+        content: '\f06e';
+    }
+    & > div {
+      display: none;
+    }
+  }
+}

@@ -82,33 +82,38 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
 });
 
 // toggle transcript button text and transcript card
-$(document).on("click", ".transcript-button-group a.view-close-transcript", function(event) {
+//old version
+$(document).on("click", ".transcript-button-group .view-close-transcript", function(event) {
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
+
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
-$(document).on("click", "a.view-hide-generic", function(event) {
+//old version
+$(document).on("click", ".view-hide-generic", function(event) {
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
   $(this).parents(".view-generic-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-answer", function(event) {
+$(document).on("click", ".view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-description", function(event) {
+$(document).on("click", ".view-hide-description", function(event) {
   $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
   $(this).parents(".view-description-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-feedback", function(event) {
+$(document).on("click", ".view-hide-feedback", function(event) {
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-model-answer", function(event) {
+$(document).on("click", ".view-hide-model-answer", function(event) {
   $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
   $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });
+
+
 
 /* book activity */
 // copy chapterlist to book nav and remove .action-list

@@ -1999,9 +1999,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .path-mod-choice #region-main .chart-area .chart-table .chart-table-data {
   display: block; }
 
-#page-mod-data-edit .mod-data-input > :not(.editor_atto_wrap) {
-  display: none; }
-
+/*
+#page-mod-data-edit {
+  .mod-data-input {
+    // hide redundant dropdown (only gives HTML option)
+    & > :not(.editor_atto_wrap) {
+      display: none;
+    }
+  }
+}
+*/
 .editor_atto_toolbar button, .editor_atto_toolbar button:last-child {
   margin: 0 !important; }
 

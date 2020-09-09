@@ -564,6 +564,7 @@ button .h4::before {
 #page-mod-book-print .full-width-img img,
 #page-mod-book-print .img-full-width img {
   width: 100%;
+  height: auto;
 }
 #page-mod-book-print .full-width-img img:not(:last-child),
 #page-mod-book-print .img-full-width img:not(:last-child),
@@ -1246,6 +1247,7 @@ button .h4::before {
   }
   .full-width-img img, .img-full-width img {
     width: 100%;
+    height: auto;
   }
   .full-width-img img:not(:last-child),
   .img-full-width img:not(:last-child),

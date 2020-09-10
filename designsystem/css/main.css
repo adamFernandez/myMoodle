@@ -2553,6 +2553,9 @@ body.format-grid .course-content .single-section .gtopics {
   body.format-grid .course-content .single-section .gtopics .section.main .right {
     display: none; }
 
+body.format-topcoll .ct-activity-meta-container {
+  display: none; }
+
 body.format-topcoll .course-content ul.ctopics {
   margin: 0 !important; }
   body.format-topcoll .course-content ul.ctopics > .section {

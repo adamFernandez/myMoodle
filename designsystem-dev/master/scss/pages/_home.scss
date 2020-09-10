@@ -422,6 +422,10 @@ body {
   }
   // collapsed topics only
   &.format-topcoll {
+    // hide quiz attempted info for now...
+    .ct-activity-meta-container {
+      display: none;
+    }
     .course-content {
       ul.ctopics {
         margin: 0 !important;

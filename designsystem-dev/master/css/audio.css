@@ -1,17 +1,12 @@
 body {
   background-color: transparent;
 }
-.mwEmbedPlayerBlackBkg {
+.mwEmbedPlayerBlackBkg,
+.mwEmbedPlayer {
   background-color: white !important;
 }
-.mwEmbedPlayer{
-	background-color: white !important;
-}
 
-.video-holder{
-	display: none !important;
-	} 
-
+.video-holder,
 .playerPoster, .largePlayBtn,
 .closedCaptions, .playbackRateSelector, .sourceSelector, .fullScreenBtn, .expandToggleBtn,
 .volumeControl {
@@ -102,5 +97,3 @@ body {
     font-size: 0.75rem;
   }
 }
-
-

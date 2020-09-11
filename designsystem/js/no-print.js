@@ -22,6 +22,7 @@ $(document).on("click", blockHide, function(event) {
 });
 
 /* card deck */
+/*
 // call function when document ready if card deck is present
 $( document ).ready(function() {
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
@@ -53,6 +54,7 @@ function cardDeckEqualise() {
     $(".card-body:not(:only-child)").height('auto');
   }
 }
+*/
 
 /* carousel */
 $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carousel-indicators li", function(event) {

@@ -20,8 +20,9 @@ $(document).on("click", blockHide, function(event) {
 });
 
 /* card deck */
-// call function when document ready if card deck is present
-$( document ).ready(function() {
+// call function on window load (instead of doc ready)
+$(window).on('load', function() {
+  // if card deck is present
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
     cardDeckEqualise();
   }
@@ -37,8 +38,9 @@ function cardDeckEqualise() {
   // if window is larger than neo-breakpoint
   if ($(window).width() > 767) {
     // get heights of all cards within a single deck
-    $(".card-deck").each(function(i) {
-      var heights = $(this).find(".card-body:not(:only-child)").map(function() {
+    $(".card-deck:has(.card-body:not(:only-child))").each(function(i) {
+      var cardHeight = $(this).find(".card-body:not(:only-child)")
+      var heights = cardHeight.map(function() {
         return $(this).height();
       }).get();
       // find the largest

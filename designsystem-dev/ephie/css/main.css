@@ -693,7 +693,7 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 #block-region-side-pre .block_html .content ul.module-academic-team, #block-region-side-post .block_html .content ul.module-academic-team {
   margin: 0;
   list-style: none; }
-  #block-region-side-pre .block_html .content ul.module-academic-team li img, #block-region-side-post .block_html .content ul.module-academic-team li img {
+  #block-region-side-pre .block_html .content ul.module-academic-team li > span > img, #block-region-side-pre .block_html .content ul.module-academic-team li .profile-img, #block-region-side-post .block_html .content ul.module-academic-team li > span > img, #block-region-side-post .block_html .content ul.module-academic-team li .profile-img {
     width: 3rem;
     height: auto;
     margin-bottom: 0.25rem;

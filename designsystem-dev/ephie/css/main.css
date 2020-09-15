@@ -297,7 +297,14 @@ footer#page-footer {
       display: flex;
       align-items: center;
       margin-bottom: 1.5rem; }
-      .note-container > div > .card-body .card-author img, .academic-note-container > div > .card-body .card-author img, .view-generic-container > div > .card-body .card-author img, .view-answer-container > div > .card-body .card-author img, .view-feedback-container > div > .card-body .card-author img, .view-model-answer-container > div > .card-body .card-author img, .view-description-container > div > .card-body .card-author img {
+      .note-container > div > .card-body .card-author > img, .academic-note-container > div > .card-body .card-author > img, .view-generic-container > div > .card-body .card-author > img, .view-answer-container > div > .card-body .card-author > img, .view-feedback-container > div > .card-body .card-author > img, .view-model-answer-container > div > .card-body .card-author > img, .view-description-container > div > .card-body .card-author > img,
+      .note-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .academic-note-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .view-generic-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .view-answer-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .view-feedback-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .view-model-answer-container > div > .card-body .card-author > .filter-ally-wrapper > img,
+      .view-description-container > div > .card-body .card-author > .filter-ally-wrapper > img {
         border-radius: 50%;
         height: 75px;
         width: 75px;
@@ -1209,6 +1216,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .carousel .carousel-item img {
       width: 100% !important;
       height: auto; }
+    .carousel .carousel-item .filter-ally-wrapper .ally-score-indicator-embedded {
+      top: unset !important;
+      bottom: 0.5rem;
+      z-index: 11 !important; }
   .carousel .carousel-caption {
     text-align: left;
     padding: 2.4% 11%; }

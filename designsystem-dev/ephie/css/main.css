@@ -1167,18 +1167,15 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     flex-shrink: 0; }
   .float-box > img,
   .float-box > .filter-ally-wrapper > img {
-    margin: 0;
+    margin: 0 1rem 0 0; }
+  .float-box > img {
+    position: relative;
+    height: 100%;
+    width: 100%; }
+  .float-box > .filter-ally-wrapper > img {
     height: auto;
-    flex-shrink: 0;
-    margin-right: 1rem; }
-    .float-box > img .caption, .float-box > img table caption, table .float-box > img caption, .float-box > img .table caption, .table .float-box > img caption, .float-box > img .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box > img caption,
-    .float-box > .filter-ally-wrapper > img .caption,
-    .float-box > .filter-ally-wrapper > img table caption,
-    table .float-box > .filter-ally-wrapper > img caption,
-    .float-box > .filter-ally-wrapper > img .table caption,
-    .table .float-box > .filter-ally-wrapper > img caption,
-    .float-box > .filter-ally-wrapper > img .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption,
-    .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box > .filter-ally-wrapper > img caption {
+    flex-shrink: 0; }
+    .float-box > .filter-ally-wrapper > img .caption, .float-box > .filter-ally-wrapper > img table caption, table .float-box > .filter-ally-wrapper > img caption, .float-box > .filter-ally-wrapper > img .table caption, .table .float-box > .filter-ally-wrapper > img caption, .float-box > .filter-ally-wrapper > img .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box > .filter-ally-wrapper > img caption {
       margin-top: 0.5rem;
       margin-bottom: 0;
       max-width: fit-content; }

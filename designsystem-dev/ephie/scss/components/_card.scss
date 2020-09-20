@@ -55,7 +55,8 @@
     &:last-child {
       margin-right: 0;
     }
-    .card-img-top, .card-img-left, .img-top, .img-left {
+    & > img,
+    & .filter-ally-wrapper > img {
       width: 100%;
       height: auto;
     }
@@ -68,14 +69,19 @@
 .float-box {
   display: flex;
   margin-bottom: $component-margin-bottom;
-  &.img-right {
-    .filter-ally-wrapper {
-      order: 2;
-      margin-left: $component-margin-sm;
-      margin-right: 0;
-      @media only screen and (max-width: $neo-breakpoint) {
-        margin-left: 0;
-      }
+  &.img-right .filter-ally-wrapper,
+  &.img-right > img,
+  & > img.img-right {
+    order: 2;
+    margin-left: $component-margin-sm;
+    margin-right: 0;
+    @media only screen and (max-width: $neo-breakpoint) {
+      margin-left: 0;
+    }
+  }
+  &.img-right .filter-ally-wrapper {
+    & > img {
+      margin: 0;
     }
   }
   // blackboard ally

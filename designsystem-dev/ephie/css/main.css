@@ -1147,7 +1147,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin-left: 0; }
     .card-deck .card:last-child {
       margin-right: 0; }
-    .card-deck .card .card-img-top, .card-deck .card .card-img-left, .card-deck .card .img-top, .card-deck .card .img-left {
+    .card-deck .card > img,
+    .card-deck .card .filter-ally-wrapper > img {
       width: 100%;
       height: auto; }
     .card-deck .card .card-body:only-child {
@@ -1156,13 +1157,19 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .float-box {
   display: flex;
   margin-bottom: 1.5rem; }
-  .float-box.img-right .filter-ally-wrapper {
+  .float-box.img-right .filter-ally-wrapper,
+  .float-box.img-right > img,
+  .float-box > img.img-right {
     order: 2;
     margin-left: 1rem;
     margin-right: 0; }
     @media only screen and (max-width: 768px) {
-      .float-box.img-right .filter-ally-wrapper {
+      .float-box.img-right .filter-ally-wrapper,
+      .float-box.img-right > img,
+      .float-box > img.img-right {
         margin-left: 0; } }
+  .float-box.img-right .filter-ally-wrapper > img {
+    margin: 0; }
   .float-box > .filter-ally-wrapper {
     flex-shrink: 0; }
   .float-box > img,

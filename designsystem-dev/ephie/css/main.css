@@ -1176,9 +1176,7 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .float-box > .filter-ally-wrapper > img {
     margin: 0 1rem 0 0; }
   .float-box > img {
-    position: relative;
-    height: 100%;
-    width: 100%; }
+    position: relative; }
   .float-box > .filter-ally-wrapper > img {
     height: auto;
     flex-shrink: 0; }

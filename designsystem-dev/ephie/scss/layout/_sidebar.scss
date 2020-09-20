@@ -192,7 +192,9 @@ aside {
     margin: 0;
     list-style: none;
     li {
-      & > span > img, .profile-img {
+      & img,
+      & > span > img,
+      .profile-img {
         width: 3rem;
         height: auto;
         margin-bottom: 0.25rem;

@@ -19,7 +19,11 @@ button, .btn {
       text-decoration: none !important;
     }
     &:focus {
-      border: 2px solid $sky-blue !important;
+        outline: thin dotted $sky-blue !important;
+        outline-color:$sky-blue !important;
+        outline-style: dotted;
+        outline-width: thin;
+        outline-offset: -2px;
     }
   }
   &.btn-secondary {

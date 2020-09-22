@@ -86,7 +86,7 @@
 
 .note-container {
   margin-bottom: $component-margin-bottom;
-  & > a::before {
+  & > a::before, & > button::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem;
@@ -112,7 +112,7 @@
     }
   }
   &.collapsed {
-    & > a::before {
+    & > a::before, & > button::before {
         content: '\f06e';
     }
     & > div {

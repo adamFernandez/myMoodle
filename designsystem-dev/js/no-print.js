@@ -22,8 +22,9 @@ $(document).on("click", blockHide, function(event) {
 });
 
 /* card deck */
-// call function when document ready if card deck is present
-$( document ).ready(function() {
+// call function on window load (instead of doc ready)
+$(window).on('load', function() {
+  // if card deck is present
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
     cardDeckEqualise();
   }
@@ -39,8 +40,9 @@ function cardDeckEqualise() {
   // if window is larger than neo-breakpoint
   if ($(window).width() > 767) {
     // get heights of all cards within a single deck
-    $(".card-deck").each(function(i) {
-      var heights = $(this).find(".card-body:not(:only-child)").map(function() {
+    $(".card-deck:has(.card-body:not(:only-child))").each(function(i) {
+      var cardHeight = $(this).find(".card-body:not(:only-child)")
+      var heights = cardHeight.map(function() {
         return $(this).height();
       }).get();
       // find the largest
@@ -84,30 +86,30 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
 });
 
 // toggle transcript button text and transcript card
-$(document).on("click", ".transcript-button-group a.view-close-transcript", function(event) {
+$(document).on("click", ".transcript-button-group .view-close-transcript", function(event) {
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
-$(document).on("click", "a.view-hide-generic", function(event) {
+$(document).on("click", ".view-hide-generic", function(event) {
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
   $(this).parents(".view-generic-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-answer", function(event) {
+$(document).on("click", ".view-hide-answer", function(event) {
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-description", function(event) {
+$(document).on("click", ".view-hide-description", function(event) {
   $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
   $(this).parents(".view-description-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-feedback", function(event) {
+$(document).on("click", ".view-hide-feedback", function(event) {
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
-$(document).on("click", "a.view-hide-model-answer", function(event) {
+$(document).on("click", ".view-hide-model-answer", function(event) {
   $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
   $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });

@@ -2181,6 +2181,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .path-mod-forum #collapseAddForm .form-group.fitem:not(:last-child), .path-mod-forum#page-mod-forum-mod .form-group.fitem:not(:last-child) {
   margin-right: 0.75rem !important; }
 
+.path-mod-forum #collapseAddForm form.mform, .path-mod-forum#page-mod-forum-mod form.mform {
+  margin: 0 15px; }
+
 .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 {
   align-items: center;
   margin-bottom: 1.5rem !important; }

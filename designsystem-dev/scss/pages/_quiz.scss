@@ -289,6 +289,10 @@
             margin-bottom: $component-margin-bottom-xs !important;
             label {
               font-size: 1rem;
+              line-height: 1.5;
+              p {
+                margin: 0;
+              }
             }
             img {
               display: none;

@@ -2448,7 +2448,7 @@ body #region-main .course-content ul > li.section.main {
           display: flex;
           max-width: 100%; }
           body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon {
-            display: none; }
+            display: none !important; }
           body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename {
             max-width: 100vw; }
             body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename .activity-title {

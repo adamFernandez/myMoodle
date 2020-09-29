@@ -607,6 +607,26 @@ button .h4::before {
   border-radius: 50%;
   max-width: 100%;
 }
+#page-mod-book-print .image-scroll {
+  margin-top: 54px;
+  position: relative;
+}
+#page-mod-book-print .image-scroll::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f03e';
+  color: #333333;
+  position: absolute;
+  top: -36px;
+  left: 0;
+  font-size: 28px;
+}
+#page-mod-book-print .image-scroll::after {
+  content: 'This is a wide image, please return to the webpage to check more details.';
+  position: absolute;
+  top: -36px;
+  left: 36px;
+}
 
 /* info box */
 #page-mod-book-print .editing-help-box {
@@ -1294,7 +1314,7 @@ button .h4::before {
   .full-width-img, .img-full-width,
   .center-img, .img-center,
   .circular-img, .img-circular,
-  .img-scroll {
+  .image-scroll {
     margin-bottom: 1.25rem;
   }
   .full-width-img img, .img-full-width img,

@@ -107,7 +107,7 @@ body {
                 &:not(:last-child) {
                   margin-bottom: 0;
                 }
-                a:not(.quickeditlink), & > :not(.quickeditlink) {
+                & > .filter-ally-wrapper :not(.quickeditlink), & > :not(.quickeditlink) {
                   display: flex;
                   max-width: 100%;
                   & > img.activityicon {

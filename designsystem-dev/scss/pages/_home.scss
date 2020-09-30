@@ -107,7 +107,7 @@ body {
                 &:not(:last-child) {
                   margin-bottom: 0;
                 }
-                & > .filter-ally-wrapper :not(.quickeditlink), & > :not(.quickeditlink) {
+                & > .filter-ally-wrapper > :not(.quickeditlink), > :not(.quickeditlink) {
                   display: flex;
                   max-width: 100%;
                   & > img.activityicon {
@@ -122,7 +122,8 @@ body {
                       }
                     }
                   }
-                  &:hover {
+                  // don't underline restricted activities on hover
+                  &:not(.dimmed):hover {
                     text-decoration: none;
                     .instancename:not(.is-numbered), .instancename.is-numbered .activity-title {
                       text-decoration: underline;

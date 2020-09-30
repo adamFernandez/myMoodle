@@ -24,7 +24,10 @@ html, body {
 
 h1, h2, h3, h4, h5, h6,
 .h1,
-#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+#notice.modal .modal-content .modal-header h4, .h2, .path-mod-book #region-main > div:first-of-type > h2:first-of-type, body.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+.float-box .float-box-body h3,
+.float-box .float-box-body h4,
+.float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -45,7 +48,10 @@ h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-fe
   font-size: 1.25rem;
   line-height: 1.25; }
 
-h4, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+h4, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+.float-box .float-box-body h3,
+.float-box .float-box-body h4,
+.float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
   font-size: 1.125rem;
   line-height: 1.4; }
 
@@ -95,7 +101,10 @@ select, option {
   h3, .h3, .path-mod-book #region-main .generalbox.book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
     font-size: 1.5rem;
     line-height: 1.25; }
-  h4, .h4, .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+  h4, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+  .float-box .float-box-body h3,
+  .float-box .float-box-body h4,
+  .float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
     font-size: 1.25rem;
     line-height: 1.4; }
   h5, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .path-mod-questionnaire .qn-container .qn-question b, .que .info .no, .que .info .qno {
@@ -700,7 +709,11 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 #block-region-side-pre .block_html .content ul.module-academic-team, #block-region-side-post .block_html .content ul.module-academic-team {
   margin: 0;
   list-style: none; }
-  #block-region-side-pre .block_html .content ul.module-academic-team li img, #block-region-side-post .block_html .content ul.module-academic-team li img {
+  #block-region-side-pre .block_html .content ul.module-academic-team li img,
+  #block-region-side-pre .block_html .content ul.module-academic-team li > span > img,
+  #block-region-side-pre .block_html .content ul.module-academic-team li .profile-img, #block-region-side-post .block_html .content ul.module-academic-team li img,
+  #block-region-side-post .block_html .content ul.module-academic-team li > span > img,
+  #block-region-side-post .block_html .content ul.module-academic-team li .profile-img {
     width: 3rem;
     height: auto;
     margin-bottom: 0.25rem;
@@ -729,9 +742,9 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
   font-family: 'KingsBureauGrotFiveOne';
   font-size: 1rem; }
 
-.activity-label-container-default, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
+.activity-label-container-default, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container, a.activity-link .activity-label-container {
   display: inline; }
-  .activity-label-container-default .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
+  .activity-label-container-default .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .activity-label, a.activity-link .activity-label-container .activity-label {
     display: inline-block;
     font-family: 'KingsBureauGrot';
     font-size: 1rem;
@@ -745,23 +758,23 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #EDF1F2; }
-  .activity-label-container-default .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
+  .activity-label-container-default .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
     color: #FF5F05;
     font-size: 1.25rem; }
-  .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+  .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
-  body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+  body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
   body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
   a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
     margin-left: 0.5rem; }
     @media only screen and (min-width: 768px) {
-      .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
+      .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
       .activity-label-container-default .media-icon .fas.fa-play-circle,
-      body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
+      body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
       body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .media-icon .fas.fa-play-circle,
       a.activity-link .activity-label-container .media-icon .fas.fa-play-circle {
         margin-left: 1rem; } }
-  .activity-label-container-default .media-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .media-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
+  .activity-label-container-default .media-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .media-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .media-icon, a.activity-link .activity-label-container .media-icon {
     color: #005AD2;
     font-size: 1.25rem; }
 
@@ -1156,16 +1169,23 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   @media only screen and (max-width: 768px) {
     .card {
       display: block; } }
-  .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
+  .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left,
+  .card .filter-ally-wrapper > img {
     width: 310px;
     height: 100%;
     flex-shrink: 0;
     border-radius: 0; }
     @media only screen and (max-width: 768px) {
-      .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left {
+      .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left,
+      .card .filter-ally-wrapper > img {
         width: 100%; } }
-    .card > img.img-right, .card > img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right {
+    .card > img.img-right, .card > img .card-img-right, .card .card-img-top.img-right, .card .card-img-top .card-img-right, .card .card-img-left.img-right, .card .card-img-left .card-img-right, .card .img-top.img-right, .card .img-top .card-img-right, .card .img-left.img-right, .card .img-left .card-img-right,
+    .card .filter-ally-wrapper > img.img-right,
+    .card .filter-ally-wrapper > img .card-img-right {
       order: 2; }
+  .card.img-right > img,
+  .card.img-right > .filter-ally-wrapper {
+    order: 2; }
   .card .card-body {
     background-color: #EDF1F2;
     width: 100%; }
@@ -1185,7 +1205,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       margin-left: 0; }
     .card-deck .card:last-child {
       margin-right: 0; }
-    .card-deck .card .card-img-top, .card-deck .card .card-img-left, .card-deck .card .img-top, .card-deck .card .img-left {
+    .card-deck .card > img,
+    .card-deck .card .filter-ally-wrapper > img {
       width: 100%;
       height: auto; }
     .card-deck .card .card-body:only-child {
@@ -1194,37 +1215,50 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
 .float-box {
   display: flex;
   margin-bottom: 1.5rem; }
-  .float-box .filter-ally-wrapper {
+  .float-box.img-right .filter-ally-wrapper,
+  .float-box.img-right > img,
+  .float-box > img.img-right {
+    order: 2;
+    margin-left: 1rem;
+    margin-right: 0; }
+    @media only screen and (max-width: 768px) {
+      .float-box.img-right .filter-ally-wrapper,
+      .float-box.img-right > img,
+      .float-box > img.img-right {
+        margin-left: 0; } }
+  .float-box.img-right .filter-ally-wrapper > img {
+    margin: 0; }
+  .float-box > .filter-ally-wrapper {
     flex-shrink: 0; }
-    .float-box .filter-ally-wrapper img {
-      height: auto; }
-  .float-box .img-left, .float-box .img-right {
-    margin: 0;
-    height: 100%;
-    flex-shrink: 0;
-    margin-right: 1rem; }
-    .float-box .img-left .caption, .float-box .img-left table caption, table .float-box .img-left caption, .float-box .img-left .table caption, .table .float-box .img-left caption, .float-box .img-left .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-left caption, .float-box .img-right .caption, .float-box .img-right table caption, table .float-box .img-right caption, .float-box .img-right .table caption, .table .float-box .img-right caption, .float-box .img-right .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-right caption {
+  .float-box > img,
+  .float-box > .filter-ally-wrapper > img {
+    margin: 0 1rem 0 0; }
+  .float-box > img {
+    position: relative; }
+  .float-box > .filter-ally-wrapper > img {
+    height: auto;
+    flex-shrink: 0; }
+    .float-box > .filter-ally-wrapper > img .caption, .float-box > .filter-ally-wrapper > img table caption, table .float-box > .filter-ally-wrapper > img caption, .float-box > .filter-ally-wrapper > img .table caption, .table .float-box > .filter-ally-wrapper > img caption, .float-box > .filter-ally-wrapper > img .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box > .filter-ally-wrapper > img caption {
       margin-top: 0.5rem;
       margin-bottom: 0;
       max-width: fit-content; }
-  .float-box .img-right {
-    margin-left: 1rem;
-    margin-right: 0;
-    order: 2; }
   @media only screen and (max-width: 768px) {
     .float-box:not(.small-image) {
       display: block; }
-      .float-box:not(.small-image) img-right, .float-box:not(.small-image) .img-left {
+      .float-box:not(.small-image) > img, .float-box:not(.small-image) > .filter-ally-wrapper > img {
         margin-right: 0;
         margin-bottom: 1rem;
-        width: 100%; }
-      .float-box:not(.small-image) .img-right {
-        margin-left: 0; } }
-  .float-box.small-image img {
+        width: 100%; } }
+  .float-box.small-image > img,
+  .float-box.small-image > .filter-ally-wrapper > img {
     width: 100px;
     height: 100px; }
-  .float-box .float-box-body h3, .float-box .float-box-body h4, .float-box .float-box-body h5 {
+  .float-box > div h3, .float-box > div h4, .float-box > div h5,
+  .float-box .float-box-body h3,
+  .float-box .float-box-body h4,
+  .float-box .float-box-body h5 {
     margin-bottom: 0.75rem; }
+  .float-box > div > :last-child,
   .float-box .float-box-body > :last-child {
     margin-bottom: 0; }
 
@@ -1242,6 +1276,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
     .carousel .carousel-item img {
       width: 100% !important;
       height: auto; }
+    .carousel .carousel-item .filter-ally-wrapper .ally-score-indicator-embedded {
+      top: unset !important;
+      bottom: 0.5rem;
+      z-index: 11 !important; }
   .carousel .carousel-caption {
     text-align: left;
     padding: 2.4% 11%; }
@@ -1308,14 +1346,20 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       padding: 0 !important;
       width: 100%;
       text-align: left; }
-      .collapse-container .collapse-card .collapse-header button .h4, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1 {
+      .collapse-container .collapse-card .collapse-header button .h4, .collapse-container .collapse-card .collapse-header button .float-box > div h3, .float-box > div .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button .float-box > div h4, .float-box > div .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button .float-box > div h5, .float-box > div .collapse-container .collapse-card .collapse-header button h5,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1 {
         position: relative;
         margin-bottom: 0;
         margin-left: 1.75rem;
         line-height: 1;
         color: #0A2D50;
         width: calc(100% - 1.75rem); }
-      .collapse-container .collapse-card .collapse-header button .h4::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1::before {
+      .collapse-container .collapse-card .collapse-header button .h4::before, .collapse-container .collapse-card .collapse-header button .float-box > div h3::before, .float-box > div .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button .float-box > div h4::before, .float-box > div .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button .float-box > div h5::before, .float-box > div .collapse-container .collapse-card .collapse-header button h5::before,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3::before,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4::before,
+      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1::before {
         content: '\f107';
         font-family: 'Font Awesome 5 Free';
         font-weight: 900;
@@ -1343,7 +1387,10 @@ input.mod_quiz-prev-nav.btn:focus[type="submit"]:first-child, .collapse-containe
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: 0; }
-    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h3::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h5::before, .collapse-container .collapse-card.collapsed .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card.collapsed .collapse-header button h1::before {
+    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h3::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h3::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h4::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h5::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h5::before,
+    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h3::before,
+    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h4::before,
+    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h5::before, .collapse-container .collapse-card.collapsed .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card.collapsed .collapse-header button h1::before {
       content: '\f105'; }
     .collapse-container .collapse-card.collapsed .collapse-body {
       display: none; }
@@ -1529,6 +1576,9 @@ figure {
 .screenshot {
   border: 1px solid #8B9296;
   margin-bottom: 1.5rem; }
+
+.image-scroll {
+  overflow-x: scroll; }
 
 .definition-box {
   background-color: #EDF1F2; }
@@ -2057,9 +2107,16 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .path-mod-choice #region-main .chart-area .chart-table .chart-table-data {
   display: block; }
 
-#page-mod-data-edit .mod-data-input > :not(.editor_atto_wrap) {
-  display: none; }
-
+/*
+#page-mod-data-edit {
+  .mod-data-input {
+    // hide redundant dropdown (only gives HTML option)
+    & > :not(.editor_atto_wrap) {
+      display: none;
+    }
+  }
+}
+*/
 .editor_atto_toolbar button, .editor_atto_toolbar button:last-child {
   margin: 0 !important; }
 
@@ -2389,26 +2446,26 @@ body #region-main .course-content ul > li.section.main {
           margin: 0; }
         body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance:not(:last-child) {
           margin-bottom: 0; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) {
+        body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) {
           display: flex;
           max-width: 100%; }
-          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) > img.activityicon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon {
+          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon {
             display: none; }
-          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) > .instancename, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename {
+          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > .instancename, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename {
             max-width: 100vw; }
-            body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) > .instancename .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename .activity-title {
+            body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > .instancename .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename .activity-title {
               margin-left: 0.375rem; }
               @media only screen and (min-width: 768px) {
-                body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) > .instancename .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename .activity-title {
+                body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > .instancename .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > .instancename .activity-title {
                   margin-left: 0.75rem; } }
-          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink):hover, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):hover {
+          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink):not(.dimmed):hover, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):not(.dimmed):hover {
             text-decoration: none; }
-            body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink):hover .instancename:not(.is-numbered), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink):hover .instancename.is-numbered .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):hover .instancename:not(.is-numbered), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):hover .instancename.is-numbered .activity-title {
+            body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink):not(.dimmed):hover .instancename:not(.is-numbered), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink):not(.dimmed):hover .instancename.is-numbered .activity-title, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):not(.dimmed):hover .instancename:not(.is-numbered), body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink):not(.dimmed):hover .instancename.is-numbered .activity-title {
               text-decoration: underline; }
-          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container {
+          body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container {
             display: inline-flex; }
             @media not all and (min-resolution: 0.001dpcm) {
-              body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper :not(.quickeditlink) .activity-label-container .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .activity-label {
+              body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .activity-label, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .activity-label {
                 line-height: 1.7; } }
         body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance a.quickeditlink {
           margin-left: 0.5rem; }
@@ -3816,7 +3873,10 @@ img.cb-palette {
           padding-bottom: 0;
           margin-bottom: 0.5rem !important; }
           .que .content .formulation .ablock .answer .r0 label, .que .content .formulation .ablock .answer .r1 label {
-            font-size: 1rem; }
+            font-size: 1rem;
+            line-height: 1.5; }
+            .que .content .formulation .ablock .answer .r0 label p, .que .content .formulation .ablock .answer .r1 label p {
+              margin: 0; }
           .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {
             display: none; }
   .que .content .outcome {

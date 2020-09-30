@@ -123,7 +123,7 @@ body {
                     }
                   }
                   // don't underline restricted activities on hover
-                  &:not(.dimmed):hover {
+                  &:not(.dimmed_text):hover {
                     text-decoration: none;
                     .instancename:not(.is-numbered), .instancename.is-numbered .activity-title {
                       text-decoration: underline;

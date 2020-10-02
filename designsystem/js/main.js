@@ -7,6 +7,13 @@ $("#block-region-side-post:not(:has(.block:not(:has(h5.card-title:contains('Add 
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 $("#block-region-side-post:not(:has(.block:not(.hide)))").addClass("hide").parents("body").addClass("empty-region-side-post used-region-side-pre");
 
+// if the foundation css is loaded, remove it
+var foundationCSS = $('link[href="https://www.kcl.ac.uk/study/learningteaching/ctel/Documents/hosting/css/templates/foundation-template.css"]');
+if (foundationCSS.length) {
+  //foundationCSS.prop('disabled', true);
+  foundationCSS.remove();
+}
+
 // remove this for no-print.js
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();

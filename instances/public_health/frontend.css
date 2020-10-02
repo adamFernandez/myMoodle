@@ -60,6 +60,10 @@ main {
     margin: 0 auto;
 }
 
+.hero span {
+    width:100% !important;
+}
+
 .hero-box {
     background-color: rgba(252, 94, 114, .7);
     left: 0px;

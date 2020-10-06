@@ -1,6 +1,68 @@
 // -----------------------------------------------------------------------------
 // table
 // -----------------------------------------------------------------------------
+
+// define table highlight background colours
+$table-bg-colors: (
+  1: #FCEAB7 !important, // yellow 30%
+  2: #A2E6F4 !important, // sky-blue 37%
+  3: #F5B6B3 !important, // red 33%
+  4: #FFA375 !important // orange 58%
+ );
+
+// mixin to add borders around and bg to individual row/col
+@mixin table-single-row-col-border {
+  @for $i from 1 through 100 {
+    &.row-#{$i}-border {
+      tr:nth-child(#{$i}) td {
+        border-top: 1px solid $table-border !important;
+        border-bottom: 1px solid $table-border !important;
+        &:first-child {
+          border-left: 1px solid $table-border !important;
+        }
+        &:last-child {
+          border-right: 1px solid $table-border !important;
+        }
+      }
+    }
+    &.col-#{$i}-border {
+      tr {
+        td:nth-child(#{$i}) {
+          border-left: 1px solid $table-border !important;
+          border-right: 1px solid $table-border !important;
+        }
+        &:first-child {
+         td:nth-child(#{$i}) {
+            border-top: 1px solid $table-border !important;
+          }
+        }
+        &:last-child {
+         td:nth-child(#{$i}) {
+            border-bottom: 1px solid $table-border !important;
+          }
+        }
+      }
+    }
+  }
+}
+// mixin to add borders to mimic divider for row/col
+@mixin table-divider {
+  @for $i from 1 through 100 {
+    &.row-#{$i}-divider {
+      tr:nth-child(#{$i}) td {
+        border-bottom: 1px solid $table-border !important;
+      }
+    }
+    &.col-#{$i}-divider {
+      tr {
+        td:nth-child(#{$i}) {
+          border-right: 1px solid $table-border !important;
+        }
+      }
+    }
+  }
+}
+
 .table-scroll {
   overflow: auto;
   margin-bottom: $component-margin-bottom;
@@ -38,6 +100,8 @@ table, .table {
       border: none !important;
     }  
   }
+  @include table-single-row-col-border;
+  @include table-divider;
   &.text-align-right {
     td {
       text-align: right;
@@ -129,21 +193,13 @@ table, .table {
       &.border-l, &.border-tl, &.border-trl, &.border-tbl, &.border-rl, &.border-rbl, &.border-bl {
         border-left: 4px solid $reflex-blue !important;
       }
-      &.background, &.background-1 {
-        // yellow 30%
-        background-color: #FCEAB7 !important;
+      &.background {
+        background-color: map-get($table-bg-colors, 1);
       }
-      &.background-2 {
-        // sky-blue 37%
-        background-color: #A2E6F4 !important;
-      }
-      &.background-3 {
-        // red 33%
-        background-color: #F5B6B3 !important;
-      }
-      &.background-4 {
-        // orange 58%
-        background-color: #FFA375 !important;
+      @each $index, $background-color in $table-bg-colors {
+        &.background-#{$index} {
+          background-color: $background-color;
+        }
       }
     }
   }

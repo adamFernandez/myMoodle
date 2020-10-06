@@ -1224,14 +1224,16 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   margin-bottom: 1.5rem; }
   .float-box.img-right .filter-ally-wrapper,
   .float-box.img-right > img,
-  .float-box > img.img-right {
+  .float-box > img.img-right,
+  .float-box.img-right > .img-container {
     order: 2;
     margin-left: 1rem;
     margin-right: 0; }
     @media only screen and (max-width: 768px) {
       .float-box.img-right .filter-ally-wrapper,
       .float-box.img-right > img,
-      .float-box > img.img-right {
+      .float-box > img.img-right,
+      .float-box.img-right > .img-container {
         margin-left: 0; } }
   .float-box.img-right .filter-ally-wrapper > img {
     margin: 0; }

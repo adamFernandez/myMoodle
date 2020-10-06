@@ -12,7 +12,7 @@ $table-bg-colors: (
 
 // mixin to add borders around and bg to individual row/col
 @mixin table-single-row-col-border {
-  @for $i from 1 through 100 {
+  @for $i from 1 through 50 {
     &.row-#{$i}-border {
       tr:nth-child(#{$i}) td {
         border-top: 1px solid $table-border !important;
@@ -22,6 +22,22 @@ $table-bg-colors: (
         }
         &:last-child {
           border-right: 1px solid $table-border !important;
+        }
+      }
+    }
+    // if no numerical value after background
+    &.row-#{$i}-border-background {
+      @extend .row-#{$i}-border;
+      tr:nth-child(#{$i}) td {
+        background-color: map-get($table-bg-colors, 1);
+      }
+    }
+    //map to table-bg-colors
+    @each $bg-num, $hex in $table-bg-colors {
+      &.row-#{$i}-border-background-#{$bg-num} {
+        @extend .row-#{$i}-border;
+        tr:nth-child(#{$i}) td {
+          background-color: $hex;
         }
       }
     }
@@ -43,11 +59,31 @@ $table-bg-colors: (
         }
       }
     }
+    // if no numerical value after background
+    &.col-#{$i}-border-background {
+      @extend .col-#{$i}-border;
+      tr {
+        td:nth-child(#{$i}) {
+          background-color: map-get($table-bg-colors, 1);
+        }
+      }
+    }
+    //map to table-bg-colors
+    @each $bg-num, $hex in $table-bg-colors {
+      &.col-#{$i}-border-background-#{$bg-num} {
+        @extend .col-#{$i}-border;
+        tr {
+          td:nth-child(#{$i}) {
+            background-color: $hex;
+          }
+        }
+      }
+    }
   }
 }
 // mixin to add borders to mimic divider for row/col
 @mixin table-divider {
-  @for $i from 1 through 100 {
+  @for $i from 1 through 50 {
     &.row-#{$i}-divider {
       tr:nth-child(#{$i}) td {
         border-bottom: 1px solid $table-border !important;

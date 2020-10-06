@@ -1260,6 +1260,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   .float-box.small-image > .filter-ally-wrapper > img {
     width: 100px;
     height: 100px; }
+  .float-box .img-container {
+    margin-right: 1rem; }
+    .float-box .img-container .caption, .float-box .img-container table caption, table .float-box .img-container caption, .float-box .img-container .table caption, .table .float-box .img-container caption, .float-box .img-container .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-container caption {
+      margin-top: 0.5rem; }
   .float-box > div h3, .float-box > div h4, .float-box > div h5,
   .float-box .float-box-body h3,
   .float-box .float-box-body h4,

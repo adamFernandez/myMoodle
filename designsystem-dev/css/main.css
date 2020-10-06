@@ -1901,6 +1901,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, table .bordered th, table .bordered td, .table.table-bordered th, .path-mod-choice #region-main .chart-area .chart-table .chart-table-data table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, .path-mod-choice #region-main .chart-area .chart-table .chart-table-data table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table .bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .bordered th, .table .bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .bordered td {
       border: 1px solid #8B9296 !important; }
+  table.outer-borders-only.background td, .table.outer-borders-only.background td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.outer-borders-only.background td {
+    background-color: #EDF1F2; }
   table.outer-borders-only thead, .table.outer-borders-only thead, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.outer-borders-only thead {
     border: 1px solid #8B9296 !important; }
   table.outer-borders-only tbody, .table.outer-borders-only tbody, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.outer-borders-only tbody {

@@ -121,6 +121,11 @@ table, .table {
   }
   
   &.outer-borders-only {
+    &.background {
+      td {
+        background-color: $block-background;
+      }
+    }
     thead {
       border: 1px solid $table-border !important;
     }

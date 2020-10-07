@@ -740,13 +740,13 @@ var data = {
      },
     "module10b": {
       "forum1": {
-        "1": "mod/forum/view.php?id=3250673"
+        "1": "mod/forum/view.php?id=4282698"
       },
       "forum2": {
-        "1": "mod/forum/view.php?id=3251586"
+        "1": "mod/forum/view.php?id=4282720"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=3251587"
+        "1": "mod/forum/view.php?id=4282730"
       }
     }
   }

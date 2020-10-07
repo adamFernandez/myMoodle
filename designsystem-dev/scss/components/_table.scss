@@ -273,7 +273,7 @@ table, .table {
       tr {
         pre {
           padding-left: 1rem;
-          text-indent: -22px;
+          text-indent: -26px;
         }
       }
     }
@@ -287,6 +287,7 @@ table, .table {
       pre {
         margin: 0;
         padding: 0;
+        font-size: 1rem;
         line-height: normal;
         border: none;
         word-break: break-word;

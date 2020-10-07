@@ -4887,13 +4887,14 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       background-color: #FFA375 !important; }
   table.line-associated-content.with-line-numbers tr pre, .table.line-associated-content.with-line-numbers tr pre, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content.with-line-numbers tr pre {
     padding-left: 1rem;
-    text-indent: -22px; }
+    text-indent: -26px; }
   table.line-associated-content tr:not(:first-child):not(:last-child) td, .table.line-associated-content tr:not(:first-child):not(:last-child) td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr:not(:first-child):not(:last-child) td {
     padding-top: 0;
     padding-bottom: 0; }
   table.line-associated-content tr pre, .table.line-associated-content tr pre, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr pre {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
     line-height: normal;
     border: none;
     word-break: break-word; }

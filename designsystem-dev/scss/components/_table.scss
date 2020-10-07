@@ -26,6 +26,11 @@ $table-bg-colors: (
       }
     }
     // if no numerical value after background
+    &.row-#{$i}-background {
+      tr:nth-child(#{$i}) td {
+        background-color: map-get($table-bg-colors, 1);
+      }
+    }
     &.row-#{$i}-border-background {
       @extend .row-#{$i}-border;
       tr:nth-child(#{$i}) td {
@@ -34,6 +39,11 @@ $table-bg-colors: (
     }
     //map to table-bg-colors
     @each $bg-num, $hex in $table-bg-colors {
+      &.row-#{$i}-background-#{$bg-num} {
+        tr:nth-child(#{$i}) td {
+          background-color: $hex;
+        }
+      }
       &.row-#{$i}-border-background-#{$bg-num} {
         @extend .row-#{$i}-border;
         tr:nth-child(#{$i}) td {

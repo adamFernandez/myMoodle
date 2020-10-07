@@ -268,4 +268,39 @@ table, .table {
       }
     }
   }
+  &.line-associated-content {
+    &.with-line-numbers {
+      tr {
+        pre {
+          padding-left: 1rem;
+          text-indent: -26px;
+        }
+      }
+    }
+    tr {
+      &:not(:first-child):not(:last-child) {
+        td {
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+      }
+      pre {
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        border: none;
+        word-break: break-word;
+      }
+      &:first-child {
+        td {
+          padding-bottom: 0;
+        }
+      }
+      &:last-child {
+        td {
+          padding-top: 0;
+        }
+      }
+    }
+  }
 }

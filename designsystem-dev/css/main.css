@@ -4885,6 +4885,22 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       background-color: #F5B6B3 !important; }
     table.table-highlight .highlight-cell.background-4, .table.table-highlight .highlight-cell.background-4, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.background-4 {
       background-color: #FFA375 !important; }
+  table.line-associated-content.with-line-numbers tr pre, .table.line-associated-content.with-line-numbers tr pre, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content.with-line-numbers tr pre {
+    padding-left: 1rem;
+    text-indent: -26px; }
+  table.line-associated-content tr:not(:first-child):not(:last-child) td, .table.line-associated-content tr:not(:first-child):not(:last-child) td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr:not(:first-child):not(:last-child) td {
+    padding-top: 0;
+    padding-bottom: 0; }
+  table.line-associated-content tr pre, .table.line-associated-content tr pre, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr pre {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    border: none;
+    word-break: break-word; }
+  table.line-associated-content tr:first-child td, .table.line-associated-content tr:first-child td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr:first-child td {
+    padding-bottom: 0; }
+  table.line-associated-content tr:last-child td, .table.line-associated-content tr:last-child td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr:last-child td {
+    padding-top: 0; }
 
 .timeline-container {
   margin-left: 64px;

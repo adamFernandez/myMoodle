@@ -1,3 +1,4 @@
+
 // -----------------------------------------------------------------------------
 // home
 // -----------------------------------------------------------------------------
@@ -88,7 +89,7 @@ body {
               &.type-assessed .activityinstance a {
                 .activity-label-container .activity-label {
                   background-color: #60bbba !important;
-                  color: white;
+                  color: $white !important;
                   width: 5.5rem !important;
                 }
               }
@@ -107,7 +108,10 @@ body {
                 &:not(:last-child) {
                   margin-bottom: 0;
                 }
-                & > .filter-ally-wrapper > :not(.quickeditlink), > :not(.quickeditlink) {
+                & > .inplaceeditable > :not(.quickeditlink),
+                & > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink),
+                & > .filter-ally-wrapper > :not(.quickeditlink),
+                & > :not(.quickeditlink) {
                   display: flex;
                   max-width: 100%;
                   & > img.activityicon {
@@ -426,7 +430,7 @@ body {
   }
   // collapsed topics only
   &.format-topcoll {
-    // hide quiz attempted info for now...
+    // quiz attempted info
     .ct-activity-meta-container {
       display: none;
     }
@@ -638,7 +642,7 @@ body {
               top: 0;
               .menubar {
                 margin: 0 !important;
-                background-color: white;
+                background-color: $white;
                 border-radius: 4px;
                 padding: 0.25rem;
               }
@@ -983,7 +987,7 @@ a.activity-link {
     @extend .activity-label-container-default;
     .activity-label.assessed {
       background-color: #60bbba !important;
-      color: white;
+      color: $white;
       width: 5.5rem !important;
     }
   }

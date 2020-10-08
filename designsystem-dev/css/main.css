@@ -5366,7 +5366,7 @@ body #region-main .course-content ul > li.section.main {
         display: none !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
         background-color: #60bbba !important;
-        color: white;
+        color: #FFFFFF !important;
         width: 5.5rem !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
         display: flex;
@@ -5788,7 +5788,7 @@ body.format-topcoll .course-content > ul.ctopics > .section .side.right {
     top: 0; }
     body.format-topcoll .course-content > ul.ctopics > .section .side.right .section_action_menu .menubar {
       margin: 0 !important;
-      background-color: white;
+      background-color: #FFFFFF;
       border-radius: 4px;
       padding: 0.25rem; }
 
@@ -5984,7 +5984,7 @@ a.activity-link {
     text-decoration: underline; }
   a.activity-link .activity-label-container .activity-label.assessed {
     background-color: #60bbba !important;
-    color: white;
+    color: #FFFFFF;
     width: 5.5rem !important; }
 
 .path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {

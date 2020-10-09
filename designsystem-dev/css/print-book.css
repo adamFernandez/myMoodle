@@ -197,7 +197,10 @@ html {
   width: auto;
 }
 #page-mod-book-print .col,
-[class^="col-"] {
+#page-mod-book-print .col-md-3,
+#page-mod-book-print .col-md-4,
+#page-mod-book-print .col-md-6,
+#page-mod-book-print .col-md-9 {
   margin-left: 15px;
   margin-right: 15px;
 }

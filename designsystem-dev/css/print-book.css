@@ -637,6 +637,7 @@ button .h4::before {
   display: none;
 }
 #page-mod-book-print .definition-box > :first-child::before,
+#page-mod-book-print .alert-caution > :first-child::before,
 #page-mod-book-print .alert-instructional > :first-child::before,
 #page-mod-book-print .feedback-box > :first-child::before,
 #page-mod-book-print .learning-outcome-box > :first-child::before,
@@ -653,6 +654,11 @@ button .h4::before {
   content: '\f02e';
   padding: 0 7px;
   top: 1.2rem;
+}
+#page-mod-book-print .alert-caution > :first-child::before {
+  content: '\f071';
+  padding: 0 2px;
+  top: 1.1rem;
 }
 #page-mod-book-print .alert-instructional > :first-child::before {
   content: '\f086';
@@ -673,6 +679,7 @@ button .h4::before {
   padding: 0 4px;
 }
 #page-mod-book-print .definition-box,
+#page-mod-book-print .alert-caution,
 #page-mod-book-print .alert-instructional,
 #page-mod-book-print .feedback-box,
 #page-mod-book-print .key-concept-box,
@@ -684,6 +691,7 @@ button .h4::before {
   margin-bottom: 1.25rem;
   position: relative;
 }
+#page-mod-book-print .alert-caution h5,
 #page-mod-book-print .definition-box h5,
 #page-mod-book-print .feedback-box h5,
 #page-mod-book-print .learning-outcome-box h5,
@@ -691,6 +699,7 @@ button .h4::before {
   font-size: 1.2rem;
 }
 #page-mod-book-print .definition-box p:last-child,
+#page-mod-book-print .alert-caution p:last-child,
 #page-mod-book-print .alert-instructional p:last-child,
 #page-mod-book-print .feedback-box p:last-child,
 #page-mod-book-print .key-concept-box p:last-child,
@@ -698,6 +707,7 @@ button .h4::before {
 #page-mod-book-print .reading-box p:last-child {
   margin-bottom: 0;
 }
+#page-mod-book-print .alert-caution,
 #page-mod-book-print .alert-instructional {
   background-color: #dce3e6;
 }

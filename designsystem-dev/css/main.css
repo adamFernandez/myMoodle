@@ -799,6 +799,13 @@ body #region-main .course-content ul > li.section.main ul.section li.activity .a
     color: #8262ae;
     padding: 0 3px; }
 
+.alert.alert-caution {
+  background-color: rgba(245, 184, 15, 0.2) !important; }
+  .alert.alert-caution::before {
+    color: #e2231a;
+    content: '\f071';
+    padding: 0 3px; }
+
 .alert.alert-danger {
   background-color: rgba(226, 35, 26, 0.2) !important; }
   .alert.alert-danger::before {

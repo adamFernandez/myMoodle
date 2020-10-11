@@ -6908,6 +6908,52 @@ input.mod_quiz-prev-nav.btn:not(:first-of-type)[type="submit"]:first-child, .pat
 #page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
   display: none; }
 
+#page-mod-tab-view #tabintro {
+  margin-bottom: 1.5rem;
+  padding: 0 !important; }
+  #page-mod-tab-view #tabintro > div > :last-child {
+    margin-bottom: 0; }
+
+#page-mod-tab-view #tab-menu-wrapper {
+  width: 20% !important; }
+
+#page-mod-tab-view #tab-menu-wrapper, #page-mod-tab-view #tabcontent {
+  margin-bottom: 1.5rem !important; }
+  #page-mod-tab-view #tab-menu-wrapper ul, #page-mod-tab-view #tabcontent ul {
+    margin: 0px !important; }
+    #page-mod-tab-view #tab-menu-wrapper ul li, #page-mod-tab-view #tabcontent ul li {
+      padding: 0.25rem 0.5rem; }
+      #page-mod-tab-view #tab-menu-wrapper ul li.row, #page-mod-tab-view #tabcontent ul li.row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #EDF1F2; }
+      #page-mod-tab-view #tab-menu-wrapper ul li:not(:last-child), #page-mod-tab-view #tabcontent ul li:not(:last-child) {
+        margin-bottom: 0; }
+      #page-mod-tab-view #tab-menu-wrapper ul li.menutitle, #page-mod-tab-view #tabcontent ul li.menutitle {
+        background-color: #0A2D50; }
+
+#page-mod-tab-view #tab-menu-wrapper {
+  margin-right: 1rem; }
+  #page-mod-tab-view #tab-menu-wrapper .TabbedPanels .TabbedPanelsTabSelected {
+    background-color: #0A2D50;
+    color: #FFFFFF; }
+
+#page-mod-tab-view #tabcontent {
+  margin: 0;
+  padding: 0; }
+  #page-mod-tab-view #tabcontent .TabbedPanels {
+    padding: 0; }
+    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTab {
+      background-color: #EDF1F2;
+      color: #0A2D50;
+      font: unset; }
+    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTabSelected {
+      background-color: #0A2D50;
+      color: #FFFFFF;
+      border-bottom: 1px solid #999; }
+  #page-mod-tab-view #tabcontent .TabbedPanelsContent {
+    padding: 0.25rem 0.5rem; }
+
 .mod_introbox {
   padding: 0; }
 

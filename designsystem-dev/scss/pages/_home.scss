@@ -432,7 +432,38 @@ body {
   &.format-topcoll {
     // quiz attempted info
     .ct-activity-meta-container {
-      display: none;
+      margin: 0 0 0 $component-margin-lg;
+      order: 2;
+      a {
+        display: flex;
+        align-items: center;
+        position: relative;
+        padding-left: 28px;
+        // hide original icon
+        img {
+          display: none;
+        }
+        &:hover {
+          text-decoration: underline !important;
+        }
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: '\f129';
+          position: absolute;
+          left: 0;
+          line-height: 16px;
+          color: $slate-grey;
+          border: 2px solid $slate-grey;
+          border-radius: 50%;
+          width: 20px;
+          margin-right: $component-margin-xs;
+          // img slightly out of vertical alignment
+          margin-bottom: 2px !important;
+          padding: 0px 6px;
+          font-size: 12px;
+        }
+      }
     }
     .course-content {
       ul.ctopics {

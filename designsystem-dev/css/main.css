@@ -6735,6 +6735,7 @@ img.cb-palette {
 #mod_quiz_navblock .content .qn_buttons {
   margin-bottom: 1.5rem; }
   #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading {
+    font-family: 'KingsBureauGrot';
     margin-bottom: 0.5rem; }
   #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
     padding: 1rem 0 0 0; }
@@ -6744,12 +6745,13 @@ img.cb-palette {
     font-size: 1rem !important;
     padding: 0 !important;
     margin: 0 0.625rem 0.625rem 0;
-    background-color: #CDD7DC !important;
+    background-color: transparent !important;
     color: #171717 !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
       text-decoration: none !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton .thispageholder {
-      border: none; }
+      border: 1px solid #8B9296;
+      border-radius: 4px !important; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.flagged .thispageholder {
       background: transparent url(https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg) 15px 0 no-repeat; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton .trafficlight {
@@ -6757,15 +6759,17 @@ img.cb-palette {
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
       background-color: transparent !important; }
       #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct span.thispageholder {
-        border: 2px solid #28C382;
-        border-radius: 4px; }
+        border: 1px solid #28C382; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect {
       background-color: rgba(234, 100, 94, 0.5) !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect span.thispageholder {
+        border: 1px solid #E2231A; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect {
+      background-color: #FCEAB7 !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect span.thispageholder {
+        border: 1px solid #F5B90F; }
     #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered {
-      background-color: rgba(65, 185, 225, 0.5) !important; }
-      #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered span.thispageholder {
-        border: 2px solid #8B9296;
-        border-radius: 4px; }
+      color: #8B9296 !important; }
 
 #mod_quiz_navblock .content .othernav {
   text-align: right;
@@ -6885,6 +6889,28 @@ img.cb-palette {
               margin: 0; }
           .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {
             display: none; }
+        .que .content .formulation .ablock .answer ul.sortablelist li {
+          position: relative;
+          border-radius: 4px;
+          padding: 4px 8px; }
+          .que .content .formulation .ablock .answer ul.sortablelist li .icon {
+            display: none; }
+          .que .content .formulation .ablock .answer ul.sortablelist li::before {
+            font-family: 'Font Awesome 5 Free';
+            margin-right: 0.5rem;
+            font-weight: 900; }
+          .que .content .formulation .ablock .answer ul.sortablelist li.correct {
+            background-color: rgba(40, 195, 130, 0.2) !important;
+            border-color: #28C382 !important; }
+            .que .content .formulation .ablock .answer ul.sortablelist li.correct::before {
+              color: #28C382;
+              content: '\f058'; }
+          .que .content .formulation .ablock .answer ul.sortablelist li.incorrect {
+            background-color: rgba(226, 35, 26, 0.2) !important;
+            border-color: #E2231A !important; }
+            .que .content .formulation .ablock .answer ul.sortablelist li.incorrect::before {
+              color: #E2231A;
+              content: '\f057'; }
   .que .content .outcome {
     background-color: rgba(245, 185, 15, 0.2) !important; }
     .que .content .outcome > .feedback::before {
@@ -6899,16 +6925,18 @@ img.cb-palette {
         margin-bottom: 0; }
   .que.correct .formulation input.correct {
     background-color: rgba(40, 195, 130, 0.2) !important;
-    border-color: #28C382 !important; }
+    border-color: #28C382 !important;
+    border-radius: 4px; }
   .que.correct .outcome {
     background-color: rgba(40, 195, 130, 0.2) !important; }
     .que.correct .outcome > .feedback::before {
       color: #28C382;
       padding: 0 4px;
       content: '\f058'; }
-  .que.incorrect .formulation input.correct {
+  .que.incorrect .formulation input.incorrect {
     background-color: rgba(226, 35, 26, 0.2) !important;
-    border-color: #E2231A !important; }
+    border-color: #E2231A !important;
+    border-radius: 4px; }
   .que.incorrect .outcome {
     background-color: rgba(226, 35, 26, 0.2) !important; }
     .que.incorrect .outcome > .feedback::before {

@@ -5994,6 +5994,12 @@ body.editing #region-main .course-content .ctopics .main:not(#section-0) {
   body.editing #region-main .course-content .ctopics .main:not(#section-0) .content .sectionbody.sectionopen > a > img {
     display: none; }
 
+body.editing #region-main .course-content .ctopics .ct-activity-meta-container {
+  margin-left: 100px; }
+  @media only screen and (min-width: 768px) {
+    body.editing #region-main .course-content .ctopics .ct-activity-meta-container {
+      margin-left: 116px; } }
+
 body.editing #region-main .course-content .single-section > ul.ctopics .section.main .right .tceditsection > img, body.editing #region-main .course-content .single-section > ul.ctopics .section.main .right .content .summary > a {
   display: none; }
 

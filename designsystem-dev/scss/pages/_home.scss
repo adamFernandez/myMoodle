@@ -951,6 +951,12 @@ body {
               }
             }
           }
+          .ct-activity-meta-container {
+            margin-left: 100px;
+            @media only screen and (min-width: $neo-breakpoint) {
+               margin-left: 116px;
+            }
+          }
         }
         // single section page
         .single-section {

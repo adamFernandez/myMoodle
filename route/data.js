@@ -501,10 +501,10 @@ var data = {
     "module1": {
       "w1": {
         "act1": {
-          "1": "mod/choice/view.php?id=3130983"
+          "1": "mod/choice/view.php?id=3231769"
         },
         "act2": {
-          "1": "mod/forum/view.php?id=3130776"
+          "1": "mod/forum/view.php?id=3231534"
         }
       }
     },

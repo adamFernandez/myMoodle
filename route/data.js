@@ -233,43 +233,43 @@ var data = {
     },
     "module5": {
       "forum1": {
-        "1": "mod/forum/view.php?id=2956054"
+        "1": "mod/forum/view.php?id=4405470"
       },
       "comments": {
-        "1": "mod/forum/view.php?id=2956029"
+        "1": "mod/forum/view.php?id=4405445"
       },
       "poll1": {
-        "1": "mod/choice/view.php?id=2956073"
+        "1": "mod/choice/view.php?id=4405489"
       },
       "forum2": {
         "1": "mod/forum/view.php?id=2538368"
       },
       "forum3": {
-        "1": "mod/forum/view.php?id=2956094"
+        "1": "mod/forum/view.php?id=4405508"
       },
       "forum4": {
-        "1": "mod/forum/view.php?id=2956089"
+        "1": "mod/forum/view.php?id=4405503"
       },
       "forum5": {
-        "1": "mod/forum/view.php?id=2956090"
+        "1": "mod/forum/view.php?id=4405504"
       },
       "forum6": {
-        "1": "mod/forum/view.php?id=2956097"
+        "1": "mod/forum/view.php?id=4405511"
       },
       "forum7": {
-        "1": "mod/forum/view.php?id=2956121"
+        "1": "mod/forum/view.php?id=4405538"
       },
       "forum8": {
-        "1": "mod/forum/view.php?id=2956124"
+        "1": "mod/forum/view.php?id=4405541"
       },
       "forum9": {
-        "1": "mod/forum/view.php?id=2956126"
+        "1": "mod/forum/view.php?id=4405543"
       },
       "forum10": {
-        "1": "mod/forum/view.php?id=2956127"
+        "1": "mod/forum/view.php?id=4405544"
       },
       "forum11": {
-        "1": "mod/forum/view.php?id=2956130"
+        "1": "mod/forum/view.php?id=4405547"
       }
     },
     "module6": {

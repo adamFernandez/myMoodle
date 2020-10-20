@@ -668,16 +668,16 @@ var data = {
        },
       "module7a": {
         "forum1": {
-          "1": "mod/forum/view.php?id=3202412"
+          "1": "mod/forum/view.php?id=4282072"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=3202419"
+          "1": "mod/forum/view.php?id=4282079"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3202444"
+          "1": "mod/forum/view.php?id=4282104"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=3202470"
+          "1": "mod/forum/view.php?id=4282130"
         }
        },
       "module7b": {

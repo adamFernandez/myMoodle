@@ -4350,7 +4350,7 @@ body #region-main .course-content ul > li.section.main {
         display: none !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
         background-color: #60bbba !important;
-        color: white;
+        color: white !important;
         width: 5.5rem !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
         display: flex;

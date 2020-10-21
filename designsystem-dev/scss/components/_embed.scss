@@ -111,16 +111,16 @@
 .transcript-container {
   margin-bottom: $component-margin-bottom;
   .transcript-button-group {
-    a::before, button::before {
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        margin-right: 0.375rem
+    & > ::before {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      margin-right: 0.375rem
     }
-  .view-close-transcript::before {
-        content: '\f070';
+    .view-close-transcript::before {
+      content: '\f070';
     }
-    a.download-transcript::before {
-        content: '\f019';
+    .download-transcript::before {
+      content: '\f019';
     }
   }
   .transcript-card .card-body {

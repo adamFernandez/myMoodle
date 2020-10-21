@@ -1512,13 +1512,13 @@ a.link-download {
 
 .transcript-container {
   margin-bottom: 1.5rem; }
-  .transcript-container .transcript-button-group a::before, .transcript-container .transcript-button-group button::before {
+  .transcript-container .transcript-button-group > ::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     margin-right: 0.375rem; }
   .transcript-container .transcript-button-group .view-close-transcript::before {
     content: '\f070'; }
-  .transcript-container .transcript-button-group a.download-transcript::before {
+  .transcript-container .transcript-button-group .download-transcript::before {
     content: '\f019'; }
   .transcript-container .transcript-card .card-body {
     border-left: 4px solid #CDD7DC;

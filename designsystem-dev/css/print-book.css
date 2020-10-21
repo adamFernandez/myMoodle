@@ -1666,6 +1666,37 @@ button .h4::before {
   word-break: break-word;
 }
 
+/* process */
+#page-mod-book-print .process-container .process-card img{
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+#page-mod-book-print .process-container .connector-container {
+  text-align:center;
+  margin-bottom: 1.25rem;
+}
+#page-mod-book-print .process-container .connector-container .icon.arrow-down::before{
+  content: '\f063';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 30px;
+  font-weight: 900;
+  margin:10px;
+  }
+#page-mod-book-print .process-container .connector-container .icon.arrow-up::after{
+  content: '\f062';
+  font-family: 'Font Awesome 5 Free';
+  font-size: 30px;
+  font-weight: 900;
+  margin:10px;
+}
+#page-mod-book-print .process-container .connector-container .icon.relate{
+  border-right:3px solid black !important;
+  height:40px;
+  width: 50%;
+  margin:10px;
+}
+
 /* timeline */
 #page-mod-book-print .timeline-container {
   margin-top: calc(25px - 2.5rem);

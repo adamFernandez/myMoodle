@@ -68,6 +68,7 @@
 
 .float-box {
   display: flex;
+  align-items: flex-start;
   margin-bottom: $component-margin-bottom;
   &.img-right .filter-ally-wrapper,
   &.img-right > img,

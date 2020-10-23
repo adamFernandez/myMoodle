@@ -17,7 +17,6 @@
 @import 'layout/sidebar';
 @import 'layout/forms';
 
-//@import 'components/buttons';
 @import 'components/academicnote';
 @import 'components/activitylabel';
 @import 'components/alert';
@@ -44,6 +43,7 @@
 @import 'pages/all';
 @import 'pages/book';
 @import 'pages/choice';
+@import 'pages/contentbank';
 @import 'pages/database';
 @import 'pages/editor';
 @import 'pages/feedback';
@@ -54,8 +54,10 @@
 @import 'pages/lesson';
 @import 'pages/link';
 @import 'pages/logs';
+@import 'pages/modinfo';
 @import 'pages/questionnaire';
 @import 'pages/quiz';
+@import 'pages/tab';
 @import 'pages/url';
 @import 'pages/versioning';
 @import 'pages/webinar';

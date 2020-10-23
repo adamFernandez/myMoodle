@@ -543,6 +543,11 @@ html {
     font-size: 1rem;
   }
 
+  /* process */
+  .process-card{
+    border:1px solid black;
+  }
+
   /* timeline */
  .timeline-container::before {
     content: "";

@@ -90,10 +90,43 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
 
+/* transcript */
 // toggle transcript button text and transcript card
 $(document).on("click", ".transcript-button-group .view-close-transcript", function(event) {
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
+});
+// generate printable transcript from text
+// unable to add stylesheet on safari
+$(".download-transcript").click(function() {
+  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
+  var printWindow = window.open('', 'PRINT', 'height=600, width=800');
+
+  var is_safari = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
+  var is_chrome = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') != -1;
+
+  printWindow.document.write(
+    '<html><head><title>'
+    + document.title
+    + '</title>');
+  // insert stylesheet if not safari
+  if (!is_safari) {
+    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://iddkingsonline.com/designsystem/ephie/css/transcript.css">');
+  }
+  printWindow.document.write(
+    '</head><body><div id="page-mod-book-print"><h1>'
+    + document.title
+    + '</h1>');
+  printWindow.document.write(printContent);
+  printWindow.document.write('</div></body></html>');
+
+  printWindow.document.close(); // necessary for IE >= 10
+  printWindow.focus(); // necessary for IE >= 10
+
+  printWindow.print();
+  printWindow.close();
+
+  return true;
 });
 
 /* view answer */
@@ -149,6 +182,9 @@ $(".block_book_toc .content ul > li:only-child strong:only-child").parents(".blo
 
 // add single-chapter-book class to screen and print to hide toc and title
 $(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
+
+// remove subchapter option when editing book
+$("#page-mod-book-edit #id_subchapter").parents(".fitem").addClass("subchapter");
 
 // remove stupid arrows from prev and next activity links
 $(".activity-navigation a#prev-activity-link").text(function(i, text) {

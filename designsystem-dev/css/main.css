@@ -1905,6 +1905,10 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child, .modal .modchooser .caro
     margin-bottom: 0;
     display: inline; }
 
+@-moz-document url-prefix() {
+  table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
+    margin-left: 1px; } }
+
 table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
   border-collapse: collapse;
@@ -5036,6 +5040,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     white-space: initial; }
   .block_book_toc .book_toc .d-flex:not(.action-list) .action-list {
     justify-content: flex-end; }
+
+#page-mod-book-edit .form-group.row.fitem.subchapter {
+  display: none; }
 
 .path-mod-choice #region-main .reportlink {
   text-align: left; }

@@ -28,7 +28,8 @@
     }
     li{
       height:100%;
-      list-style:none;
+      /* important required for IE */
+      list-style: none !important;
       margin:0 !important;
       padding:0 !important;
       border:0!important;
@@ -148,8 +149,12 @@
       > .filter-ally-wrapper > img {
         width: 100%;
       }
-      > .filter-ally-wrapper, > img, figcaption {
+      > .filter-ally-wrapper,
+      > img,
+      figcaption {
         width: 100%;
+        /* min-height req for IE */
+        min-height: 1px;
         vertical-align: top;
         border: 0px;
         position: relative;

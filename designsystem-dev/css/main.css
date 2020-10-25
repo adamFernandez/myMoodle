@@ -1386,7 +1386,8 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
       display: none; }
     #region-main .new-carousel .nc-gallery li {
       height: 100%;
-      list-style: none;
+      /* important required for IE */
+      list-style: none !important;
       margin: 0 !important;
       padding: 0 !important;
       border: 0 !important;
@@ -1480,8 +1481,12 @@ input.mod_quiz-prev-nav.btn[type="submit"]:first-child a.mod_quiz-prev-nav.btn-s
   flex-direction: column; }
   #region-main .landscape-carousel .nc-gallery li figure > .filter-ally-wrapper > img {
     width: 100%; }
-  #region-main .landscape-carousel .nc-gallery li figure > .filter-ally-wrapper, #region-main .landscape-carousel .nc-gallery li figure > img, #region-main .landscape-carousel .nc-gallery li figure figcaption {
+  #region-main .landscape-carousel .nc-gallery li figure > .filter-ally-wrapper,
+  #region-main .landscape-carousel .nc-gallery li figure > img,
+  #region-main .landscape-carousel .nc-gallery li figure figcaption {
     width: 100%;
+    /* min-height req for IE */
+    min-height: 1px;
     vertical-align: top;
     border: 0px;
     position: relative;

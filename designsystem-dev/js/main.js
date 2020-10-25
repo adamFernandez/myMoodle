@@ -117,11 +117,10 @@ function resetCarWidth() {
 
 $(".new-carousel").on("click", ".nc-next", function(event) {
   // get component width
-var slideWidth = $(".nc-gallery").width(); 
-console.log("sw"+slideWidth);
-// update value upon window resize
-// TODO: probably want to write something to reset to slide 1 too
-$(window).resize(function() {
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  // TODO: probably want to write something to reset to slide 1 too
+  $(window).resize(function() {
   slideWidth = $(".nc-gallery").width();
 });
   var newCarousel = $(this).parents()[2];
@@ -144,11 +143,11 @@ $(window).resize(function() {
 });
 
 $(".new-carousel").on("click", ".nc-previous", function(event) {
-    // get component width
-var slideWidth = $(".nc-gallery").width(); 
-// update value upon window resize
-// TODO: probably want to write something to reset to slide 1 too
-$(window).resize(function() {
+  // get component width
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  // TODO: probably want to write something to reset to slide 1 too
+  $(window).resize(function() {
   slideWidth = $(".nc-gallery").width();
 });
   var newCarousel = $(this).parents()[2];
@@ -176,7 +175,6 @@ function resetIndicators(dots) {
   activeIndicIndex = $(indicDots).index(activeIndic);
   $(activeIndic).removeClass("active");
 }
-
 function DisableNext(noOfIndic, dots, button) {
   var indicDots = $(dots).find("li");
   activeIndicIndex = $(indicDots).index(activeIndic);
@@ -192,11 +190,6 @@ function enableNext(noOfIndic, dots, button) {
   }
 };
 
-// $(document).on("click", ".indic-dots li", function(event) {
-//   alert("ow!");
-// });
-
-
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
@@ -209,6 +202,7 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
+/*
 // generate printable transcript from text
 // unable to add stylesheet on safari
 $(".download-transcript").click(function() {
@@ -241,6 +235,7 @@ $(".download-transcript").click(function() {
 
   return true;
 });
+*/
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card

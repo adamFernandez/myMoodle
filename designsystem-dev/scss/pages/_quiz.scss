@@ -74,10 +74,14 @@
 }
 
 //quiz attempt page
-#page-mod-quiz-attempt {
+#page-mod-quiz-attempt,
+#page-mod-quiz-review {
   .submitbtns {
-    .mod_quiz-prev-nav.btn.btn-secondary {
+    display: flex;
+    margin-bottom: $component-margin-bottom;
+    .mod_quiz-prev-nav {
       @extend .btn, .btn-secondary;
+      float: none !important;
     }
   }
 }
@@ -304,6 +308,12 @@
             img {
               display: none;
             }
+          }
+          > div.correct {
+            background-color: rgba(40, 195, 130, 0.2) !important;
+          }
+          > div.incorrect {
+            background-color: rgba(226, 35, 26, 0.2) !important;
           }
           ul.sortablelist {
             li {

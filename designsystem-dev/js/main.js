@@ -94,21 +94,19 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
 });
 
 // new carousel
-// on window load 
+// on window load
 $(window).on('load', function() {
   resetCarWidth();
 });
-// also on re-size 
+// also on re-size
 $(window).resize(function() {
   location.reload(true);
   resetCarWidth();
 });
 function resetCarWidth() {
-  // resize to make integer width so scroll will work 
+  // resize to make integer width so scroll will work
   $(".new-carousel").removeAttr("style");
   var loadWidth= $(".new-carousel").width();
-  // test 
-  console.log ("l="+loadWidth);
   var carWidth = Math.floor(loadWidth);
   $(".new-carousel").each(function() {
     $(this).width(carWidth);

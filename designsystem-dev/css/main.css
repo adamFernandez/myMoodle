@@ -2002,10 +2002,6 @@ body .editing-help-box {
       .process-container .connector-container .process-label:nth-child(3) {
         margin-top: 0.5rem; }
 
-h3 {
-  margin: 20px;
-  font-size: 24pt; }
-
 .quote-box {
   background-color: #EDF1F2; }
   .quote-box > :first-child::before {

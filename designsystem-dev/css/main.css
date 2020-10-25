@@ -733,6 +733,15 @@ input.course-discuss-reply-button.mod_quiz-prev-nav.btn[type="submit"]:first-chi
 #block-region-side-pre .block_html .content ul.fa-ul, #block-region-side-post .block_html .content ul.fa-ul {
   color: #0A2D50; }
 
+.block.block_course_modulenavigation ul.activities li > a {
+  display: flex; }
+  .block.block_course_modulenavigation ul.activities li > a .completionbox {
+    display: flex;
+    align-items: center; }
+    .block.block_course_modulenavigation ul.activities li > a .completionbox .completioncheck {
+      position: static;
+      margin: 0; }
+
 .calendarwrapper {
   margin-bottom: 1.5rem !important;
   margin-top: 0 !important; }

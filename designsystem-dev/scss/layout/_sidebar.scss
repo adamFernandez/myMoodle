@@ -227,6 +227,22 @@ aside {
   }
 }
 
+// module nav block
+// use flex instead of theme's absolute positioning
+.block.block_course_modulenavigation {
+  ul.activities li > a {
+    display: flex;
+    .completionbox {
+      display: flex;
+      align-items: center;
+      .completioncheck {
+        position: static;
+        margin: 0;
+      }
+    }
+  }
+}
+
 // calendar
 .calendarwrapper {
   margin-bottom: 1.5rem !important;

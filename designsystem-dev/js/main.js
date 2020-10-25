@@ -14,6 +14,15 @@ if (foundationCSS.length) {
   foundationCSS.remove();
 }
 
+// module nav block fails to open/collapse in IE
+if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+  const modNavBlock = ".block.block_course_modulenavigation .section .allsectionnames > a";
+  $(document).on("click", modNavBlock, function(event) {
+    event.preventDefault();
+    $(this).parents(".section").children(".section-collapse").toggleClass('in');
+  });
+};
+
 // remove this for no-print.js
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();

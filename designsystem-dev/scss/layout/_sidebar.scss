@@ -146,6 +146,8 @@ aside {
   &.block_book_toc {
     .content {
       li {
+        // list item height not flexing in IE
+        -ms-flex: 0 1 auto;
         &:not(:last-child) {
           margin-bottom: 0.75rem;
         }

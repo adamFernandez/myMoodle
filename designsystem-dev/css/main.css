@@ -673,12 +673,13 @@ aside section.block {
     #block-region-side-pre .block .content ul li strong, #block-region-side-pre .block .content ul li a:hover, #block-region-side-pre .block .content ul li p:hover, #block-region-side-post .block .content ul li strong, #block-region-side-post .block .content ul li a:hover, #block-region-side-post .block .content ul li p:hover {
       color: #536C84; }
 
-#block-region-side-pre .block.block_book_toc .content li:not(:last-child), #block-region-side-post .block.block_book_toc .content li:not(:last-child) {
-  margin-bottom: 0.75rem; }
-
-#block-region-side-pre .block.block_book_toc .content li strong, #block-region-side-post .block.block_book_toc .content li strong {
-  font-family: 'KingsBureauGrot';
-  color: #0A2D50; }
+#block-region-side-pre .block.block_book_toc .content li, #block-region-side-post .block.block_book_toc .content li {
+  -ms-flex: 0 1 auto; }
+  #block-region-side-pre .block.block_book_toc .content li:not(:last-child), #block-region-side-post .block.block_book_toc .content li:not(:last-child) {
+    margin-bottom: 0.75rem; }
+  #block-region-side-pre .block.block_book_toc .content li strong, #block-region-side-post .block.block_book_toc .content li strong {
+    font-family: 'KingsBureauGrot';
+    color: #0A2D50; }
 
 #block_course_discuss_posts_container {
   padding: 0.75rem; }

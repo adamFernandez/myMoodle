@@ -1614,6 +1614,8 @@ a.link-download {
 
 .transcript-container {
   margin-bottom: 1.5rem; }
+  .transcript-container .transcript-button-group .view-close-transcript:focus, .transcript-container .transcript-button-group .download-transcript:focus {
+    outline: #CDD7DC auto 1px !important; }
   .transcript-container .transcript-button-group > ::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;

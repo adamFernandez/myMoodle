@@ -111,6 +111,9 @@
 .transcript-container {
   margin-bottom: $component-margin-bottom;
   .transcript-button-group {
+    .view-close-transcript:focus, .download-transcript:focus {
+      outline: $pearl-grey auto 1px !important;
+    }
     & > ::before {
       font-family: "Font Awesome 5 Free";
       font-weight: 900;

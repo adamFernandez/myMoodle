@@ -1955,7 +1955,7 @@ body .editing-help-box {
 .process-container {
   margin-bottom: 1.5rem; }
   .process-container .process-card {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     background-color: #EDF1F2;
     padding: 1.5rem; }
     .process-container .process-card:last-child {
@@ -1966,22 +1966,30 @@ body .editing-help-box {
     .process-container .process-card .card-body {
       padding: 0; }
     .process-container .process-card > img,
-    .process-container .process-card .filter-ally-wrapper > img {
+    .process-container .process-card > .filter-ally-wrapper > img {
       width: 130px;
       height: 130px;
-      object-fit: cover;
+      object-fit: cover; }
+      @media only screen and (max-width: 768px) {
+        .process-container .process-card > img,
+        .process-container .process-card > .filter-ally-wrapper > img {
+          width: 100%;
+          height: auto; } }
+    .process-container .process-card > img,
+    .process-container .process-card > .filter-ally-wrapper {
+      display: block;
       margin-right: 1.5rem; }
       @media only screen and (max-width: 768px) {
         .process-container .process-card > img,
-        .process-container .process-card .filter-ally-wrapper > img {
-          width: 100%;
-          height: auto;
+        .process-container .process-card > .filter-ally-wrapper {
+          margin-right: 0;
           margin-bottom: 1rem; } }
   .process-container .connector-container {
     margin: 0.5rem 0;
     width: 100%;
     text-align: center; }
-    .process-container .connector-container .icon.arrow-down::before, .process-container .connector-container .icon.arrow-up::after {
+    .process-container .connector-container .icon.arrow-down::before,
+    .process-container .connector-container .icon.arrow-up::after {
       content: '\f063';
       font-family: 'Font Awesome 5 Free';
       color: #0A2D50;
@@ -1989,17 +1997,18 @@ body .editing-help-box {
       font-size: 40px;
       margin: 0.5rem; }
       @media only screen and (max-width: 768px) {
-        .process-container .connector-container .icon.arrow-down::before, .process-container .connector-container .icon.arrow-up::after {
+        .process-container .connector-container .icon.arrow-down::before,
+        .process-container .connector-container .icon.arrow-up::after {
           font-size: 32px; } }
     .process-container .connector-container .icon {
       margin-top: 1rem; }
-    .process-container .connector-container .icon.arrow-up::after {
-      content: '\f062'; }
-    .process-container .connector-container .icon.relate {
-      border-right: 5px solid #0A2D50;
-      margin: 0.5rem;
-      height: 40px;
-      width: 50%; }
+      .process-container .connector-container .icon.arrow-up::after {
+        content: '\f062'; }
+      .process-container .connector-container .icon.relate {
+        border-right: 5px solid #0A2D50;
+        margin: 0.5rem;
+        height: 40px;
+        width: 50%; }
     .process-container .connector-container .process-label {
       align-self: center;
       font-weight: bold; }

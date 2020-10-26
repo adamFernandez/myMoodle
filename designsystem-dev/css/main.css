@@ -6861,7 +6861,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
   font-size: 0.5rem;
   font-weight: bold;
   position: absolute;
-  top: 3.125rem;
+  top: 0;
   color: red;
   left: 0; }
 

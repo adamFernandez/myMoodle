@@ -18,17 +18,18 @@
     .card-body{
       padding:0;
     }
-    img {
-          width: 130px;
-          height: 130px;
-          object-fit: cover;
-          margin-right: $component-margin;
-          @media only screen and (max-width: $neo-breakpoint) {
-            width:100%;
-            height:auto;
-            margin-bottom: $component-margin-sm, 
-            // object-fit: cover;
-          }
+    & > img,
+    & .filter-ally-wrapper > img
+     {
+      width: 130px;
+      height: 130px;
+      object-fit: cover;
+      margin-right: $component-margin;
+      @media only screen and (max-width: $neo-breakpoint) {
+        width:100%;
+        height:auto;
+        margin-bottom: $component-margin-sm;
+      }
     }
   }
   .connector-container {

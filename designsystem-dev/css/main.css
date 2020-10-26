@@ -1965,13 +1965,15 @@ body .editing-help-box {
         padding: 1rem; } }
     .process-container .process-card .card-body {
       padding: 0; }
-    .process-container .process-card img {
+    .process-container .process-card > img,
+    .process-container .process-card .filter-ally-wrapper > img {
       width: 130px;
       height: 130px;
       object-fit: cover;
       margin-right: 1.5rem; }
       @media only screen and (max-width: 768px) {
-        .process-container .process-card img {
+        .process-container .process-card > img,
+        .process-container .process-card .filter-ally-wrapper > img {
           width: 100%;
           height: auto;
           margin-bottom: 1rem; } }

@@ -5581,6 +5581,9 @@ img.cb-palette {
   text-align: right !important;
   display: block; }
 
+.path-mod-questionnaire .qn-container:first-of-type {
+  position: relative; }
+
 .path-mod-questionnaire .qn-container:first-of-type:before {
   content: 'Indicates required field';
   font-family: "Open Sans";

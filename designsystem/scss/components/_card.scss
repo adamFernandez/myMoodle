@@ -68,10 +68,12 @@
 
 .float-box {
   display: flex;
+  align-items: flex-start;
   margin-bottom: $component-margin-bottom;
   &.img-right .filter-ally-wrapper,
   &.img-right > img,
-  & > img.img-right {
+  & > img.img-right,
+  &.img-right > .img-container {
     order: 2;
     margin-left: $component-margin-sm;
     margin-right: 0;

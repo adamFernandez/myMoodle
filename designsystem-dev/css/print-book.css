@@ -2218,7 +2218,7 @@ button .h4::before {
   vertical-align: top;
 }
 .landscape-carousel .nc-gallery li, .portrait-carousel .nc-gallery li{
-  width:40%; 
+  width:40%;
 }
 .text-carousel .nc-gallery li table tr td .nc-label{
   margin-bottom: 32px;

@@ -338,9 +338,9 @@ $("li.activity").each(function() {
   $(this).find(".instancename:contains('activity-label-ass-')").parents("li.activity").removeClass("type-study type-activity").addClass("type-assessed");
   // add icon
   $(this).find(".instancename:contains('-gro-')").parents("li.activity").addClass("i-group");
-  $(this).find(".instancename:contains('-med')").parents("li.activity").addClass("i-media");
+  $(this).find(".instancename:contains('-med ')").parents("li.activity").addClass("i-media");
   $(this).find(".instancename:contains('-ngr-')").parents("li.activity").removeClass("i-group");
-  $(this).find(".instancename:contains('-nme')").parents("li.activity").removeClass("i-media");
+  $(this).find(".instancename:contains('-nme ')").parents("li.activity").removeClass("i-media");
   // strip keywords from activity title
   $(this).find(".instancename:contains('activity-label')").text(function(i, currentText) {
     return currentText.substring(27);

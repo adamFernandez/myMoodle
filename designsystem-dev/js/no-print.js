@@ -48,7 +48,7 @@ $(window).on('load', function() {
 // and again on window resize
 $(window).resize(function() {
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
-    location.reload(true);
+//    location.reload(true);
     cardDeckEqualise();
   }
 });
@@ -102,7 +102,7 @@ $(window).on('load', function() {
 });
 // also on re-size
 $(window).resize(function() {
-  location.reload(true);
+//  location.reload(true);
   resetCarWidth();
 });
 function resetCarWidth() {

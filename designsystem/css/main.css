@@ -5042,7 +5042,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     vertical-align: top !important; }
   table td, .table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td {
     line-height: 1.375;
-    color: #333333; }
+    color: #333333;
+    background-color: #FFFFFF; }
   table tr.border-none td, table tr.border-none th, .table tr.border-none td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td, .table tr.border-none th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th {
     border-top: 0 !important; }
     table tr.border-none td:not(:first-child), table tr.border-none th:not(:first-child), .table tr.border-none td:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none td:not(:first-child), .table tr.border-none th:not(:first-child), .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table tr.border-none th:not(:first-child) {
@@ -5102,6 +5103,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     padding-bottom: 0; }
   table.line-associated-content tr:last-child td, .table.line-associated-content tr:last-child td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.line-associated-content tr:last-child td {
     padding-top: 0; }
+  table.bg-transparent td, .table.bg-transparent td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.bg-transparent td {
+    background-color: transparent !important; }
 
 .timeline-container {
   margin-left: 64px;

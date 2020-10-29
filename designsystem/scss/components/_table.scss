@@ -209,6 +209,7 @@ table, .table {
   td {
     line-height: 1.375;
     color: $body-text;
+    background-color: $white;
   }
   tr.border-none td, tr.border-none th {
     border-top: 0 !important;
@@ -308,6 +309,11 @@ table, .table {
           padding-top: 0;
         }
       }
+    }
+  }
+  &.bg-transparent {
+    td {
+      background-color: transparent !important;
     }
   }
 }

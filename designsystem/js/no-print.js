@@ -48,14 +48,15 @@ $(window).on('load', function() {
 // and again on window resize
 $(window).resize(function() {
   if ($(".card-deck .card-body:not(:only-child)").length > 0) {
-//    location.reload(true);
     cardDeckEqualise();
   }
 });
 function cardDeckEqualise() {
   // if window is larger than neo-breakpoint
   if ($(window).width() > 767) {
-    // get heights of all cards within a single deck
+    // reset the heights first
+    $(".card-body:not(:only-child)").height('auto');
+    // then get heights of all cards within a single deck
     $(".card-deck:has(.card-body:not(:only-child))").each(function(i) {
       var cardHeight = $(this).find(".card-body:not(:only-child)")
       var heights = cardHeight.map(function() {

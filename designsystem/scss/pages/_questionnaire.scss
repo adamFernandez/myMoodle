@@ -10,7 +10,7 @@
 .path-mod-questionnaire {
   // pre questionnaire intro page
   .mod_questionnaire_viewpage {
-    .complete, .allresponses, .yourresponse {
+    .complete, .allresponses, .yourresponse, .message {
       margin-bottom: $component-margin-bottom;
       &> a {
         @extend .btn, .btn-primary;

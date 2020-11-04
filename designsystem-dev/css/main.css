@@ -5089,28 +5089,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   }
 }
 */
-.editor_atto_toolbar button, .editor_atto_toolbar button:last-child {
-  margin: 0 !important; }
-
-.filemanager .fp-navbar {
-  margin: 0 !important;
-  padding-bottom: 9px; }
-  .filemanager .fp-navbar .fp-toolbar, .filemanager .fp-navbar .fp-viewbar {
-    margin: 9px;
-    border: 1px solid #ccc;
-    border-radius: 4px; }
-    .filemanager .fp-navbar .fp-toolbar > div a, .filemanager .fp-navbar .fp-toolbar a, .filemanager .fp-navbar .fp-viewbar > div a, .filemanager .fp-navbar .fp-viewbar a {
-      margin: 0 !important;
-      padding: 0 !important;
-      border: none !important; }
-      .filemanager .fp-navbar .fp-toolbar > div a img, .filemanager .fp-navbar .fp-toolbar a img, .filemanager .fp-navbar .fp-viewbar > div a img, .filemanager .fp-navbar .fp-viewbar a img {
-        padding: 0 !important;
-        margin: 0 !important; }
-  .filemanager .fp-navbar .fp-toolbar > div {
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important; }
-
 .path-mod-feedback #id_feedbackhdr .col-md-3 {
   flex: 1;
   max-width: 100%; }
@@ -5350,6 +5328,499 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: transparent; }
+
+.path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {
+  margin-bottom: 1.5rem; }
+
+#page-mod-lesson-view .fitem {
+  margin-bottom: 0; }
+  #page-mod-lesson-view .fitem .fitemtitle {
+    display: none; }
+  #page-mod-lesson-view .fitem .felement {
+    margin-left: 0; }
+
+#page-mod-lesson-view .answeroption {
+  margin-bottom: 1.5rem; }
+  #page-mod-lesson-view .answeroption .fitem .felement span {
+    margin: 0;
+    display: inline-flex;
+    align-items: center; }
+    #page-mod-lesson-view .answeroption .fitem .felement span input {
+      margin-right: 1rem; }
+    #page-mod-lesson-view .answeroption .fitem .felement span label {
+      margin: 0; }
+
+#page-mod-lesson-view .fitem_fsubmit {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0; }
+
+section#region-main .resourceworkaround, section#region-main .urlworkaround {
+  margin-bottom: 2.25rem; }
+  section#region-main .resourceworkaround a:link, section#region-main .urlworkaround a:link {
+    font-weight: bold;
+    text-decoration: underline !important; }
+
+.path-mod-lti a:link {
+  font-weight: bold;
+  text-decoration: underline !important;
+  margin-bottom: 2.25rem; }
+
+#page-mod-questionnaire-preview fieldset,
+#page-mod-questionnaire-complete fieldset {
+  min-inline-size: auto; }
+
+.path-mod-questionnaire {
+  /*  .mod_questionnaire_completepage .buttons {
+    input[type="submit"] {
+      @extend .btn, .btn-primary;
+    }
+  } */ }
+  .path-mod-questionnaire .mod_questionnaire_viewpage .complete, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses, .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse, .path-mod-questionnaire .mod_questionnaire_viewpage .message {
+    margin-bottom: 1.5rem; }
+  .path-mod-questionnaire .qn-container .qn-question {
+    background: none; }
+  .path-mod-questionnaire .qn-content {
+    /*
+    max-width: calc(100% - 255px);
+    @media only screen and (min-width: $neo-breakpoint) {
+      max-width: calc(100% - 110px);
+    }
+    */ }
+  .path-mod-questionnaire#page-mod-questionnaire-complete .surveyTitle {
+    padding: 0;
+    margin-bottom: 1.5rem; }
+  .path-mod-questionnaire#page-mod-questionnaire-complete .message {
+    border: none;
+    padding: 0; }
+  .path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {
+    border-bottom: 0;
+    border-right: 0;
+    border-top: 1px solid #8B9296;
+    border-left: 1px solid #8B9296; }
+
+.path-mod-questionnaire .surveyTitle {
+  margin-bottom: 0 !important; }
+
+.path-mod-questionnaire .floatprinticon {
+  width: 100%;
+  margin: 0;
+  float: none;
+  text-align: right !important;
+  display: block; }
+
+.path-mod-questionnaire .qn-container:first-of-type {
+  position: relative; }
+
+.path-mod-questionnaire .qn-container:first-of-type:before {
+  content: 'Indicates required field';
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: normal;
+  display: block;
+  margin-left: 0.825rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  cursor: text; }
+
+.path-mod-questionnaire .qn-container:first-of-type:after {
+  content: '\f069';
+  font-family: "Font Awesome 5 Free";
+  font-size: 0.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  color: red;
+  left: 0; }
+
+.path-mod-questionnaire .qn-container .qn-legend {
+  margin-right: 0.5rem; }
+  .path-mod-questionnaire .qn-container .qn-legend .qn-info {
+    padding: 0;
+    background: none; }
+    .path-mod-questionnaire .qn-container .qn-legend .qn-info .qn-number {
+      font-family: "Open Sans";
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 1.5; }
+  .path-mod-questionnaire .qn-container .qn-legend .req {
+    vertical-align: top !important; }
+
+.path-mod-questionnaire .qn-container .qn-content {
+  margin-left: 0; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-question {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem; }
+    .path-mod-questionnaire .qn-container .qn-content .qn-question p, .path-mod-questionnaire .qn-container .qn-content .qn-question label {
+      margin: 0;
+      font-weight: bold;
+      cursor: text; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-answer, .path-mod-questionnaire .qn-container .qn-content .editor_atto_wrap {
+    margin-bottom: 2.25rem; }
+  .path-mod-questionnaire .qn-container .qn-content .qn-answer table {
+    margin-bottom: 0 !important; }
+
+.quiz-table, #page-mod-quiz-view .quizattemptsummary, #page-mod-quiz-review .quizreviewsummary, #page-mod-quiz-summary .quizsummaryofattempt {
+  border: none;
+  border-right: 1px solid #8B9296;
+  border-bottom: 1px solid #8B9296;
+  border-collapse: separate;
+  margin-bottom: 1.5rem; }
+  .quiz-table thead th, #page-mod-quiz-view .quizattemptsummary thead th, #page-mod-quiz-review .quizreviewsummary thead th, #page-mod-quiz-summary .quizsummaryofattempt thead th {
+    background-color: #f8fafa !important; }
+  .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th, .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #8B9296;
+    border-left: 1px solid #8B9296;
+    padding: calc(0.5rem / 2) 0.5rem;
+    text-align: left !important;
+    vertical-align: top; }
+  .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th {
+    font-family: 'KingsBureauGrot';
+    color: #171717; }
+  .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
+    color: #333333; }
+  .quiz-table tr:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > th, .quiz-table tr:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > td {
+    background-color: #f8fafa; }
+
+#page-mod-quiz-view .box.quizinfo p {
+  font-family: 'KingsBureauGrotFiveOne';
+  text-align: left; }
+  #page-mod-quiz-view .box.quizinfo p:first-child::before {
+    content: '\f017'; }
+  #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before {
+    content: '\f091'; }
+
+#page-mod-quiz-view .generalbox#feedback {
+  margin: 0;
+  padding: 0; }
+
+#page-mod-quiz-view .quizstartbuttondiv form {
+  text-align: left; }
+  #page-mod-quiz-view .quizstartbuttondiv form div {
+    margin-left: 0; }
+
+#page-mod-quiz-attempt .submitbtns,
+#page-mod-quiz-review .submitbtns {
+  display: flex;
+  margin-bottom: 1.5rem; }
+  #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav,
+  #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav {
+    float: none !important; }
+
+#mod_quiz_navblock .content #user-picture {
+  margin: 0 0 1.5rem 0; }
+
+#mod_quiz_navblock .content .qn_buttons {
+  margin-bottom: 1.5rem; }
+  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading {
+    font-family: 'KingsBureauGrot';
+    margin-bottom: 0.5rem; }
+  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
+    padding: 1rem 0 0 0; }
+  #mod_quiz_navblock .content .qn_buttons a.qnbutton {
+    height: 1.25rem;
+    width: 1.25rem;
+    font-size: 1rem !important;
+    padding: 0 !important;
+    margin: 0 0.625rem 0.625rem 0;
+    background-color: transparent !important;
+    color: #171717 !important; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
+      text-decoration: none !important; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton .thispageholder {
+      border: 1px solid #8B9296;
+      border-radius: 4px !important; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.flagged .thispageholder {
+      background: transparent url(https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg) 15px 0 no-repeat; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton .trafficlight {
+      display: none; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
+      background-color: transparent !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct span.thispageholder {
+        border: 1px solid #28C382; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect {
+      background-color: rgba(234, 100, 94, 0.5) !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect span.thispageholder {
+        border: 1px solid #E2231A; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect {
+      background-color: #FCEAB7 !important; }
+      #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect span.thispageholder {
+        border: 1px solid #F5B90F; }
+    #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered {
+      color: #8B9296 !important; }
+
+#mod_quiz_navblock .content .othernav {
+  text-align: right;
+  margin: 0 !important; }
+  #mod_quiz_navblock .content .othernav a.endtestlink {
+    display: inline;
+    margin-right: 0 !important; }
+  #mod_quiz_navblock .content .othernav #quiz-timer {
+    font-family: 'KingsBureauGrotFiveOne';
+    font-size: 1.125rem; }
+    #mod_quiz_navblock .content .othernav #quiz-timer #quiz-time-left {
+      font-family: 'KingsBureauGrot'; }
+    #mod_quiz_navblock .content .othernav #quiz-timer::before {
+      content: '\f017';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      margin-right: 4px; }
+  #mod_quiz_navblock .content .othernav .singlebutton button {
+    margin: 1rem 0 0 0 !important; }
+
+.que {
+  margin: 0 0 2.25rem; }
+  .que.description .state, .que.description .questionflag {
+    display: none; }
+  .que .info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    padding: 0;
+    border: none; }
+    .que .info .no {
+      width: 100%; }
+    .que .info .no, .que .info .qno {
+      margin-bottom: 0.5rem; }
+    .que .info div {
+      margin: 0;
+      line-height: 1.5;
+      font-size: 1rem !important;
+      font-family: 'KingsBureauGrot';
+      border-radius: 0.125rem;
+      letter-spacing: 0.5px;
+      text-align: center;
+      height: 1.5rem;
+      border-radius: 15px;
+      background-color: #EDF1F2;
+      padding: 0 0.5rem;
+      color: #171717; }
+    .que .info div.state, .que .info div.grade {
+      margin-right: 0.5rem; }
+    .que .info div.state {
+      text-transform: uppercase; }
+    .que .info div.grade {
+      background-color: #e6ebed;
+      color: #171717; }
+    .que .info .questionflag {
+      padding: 0 0.5rem;
+      border-radius: 3px;
+      content: '';
+      background: #e6ebed url("https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg ") right top no-repeat;
+      background-size: 8px;
+      margin-right: 0;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset; }
+      @media only screen and (min-width: 768px) {
+        .que .info .questionflag {
+          margin-left: auto; } }
+      .que .info .questionflag .questionflagimage {
+        display: none; }
+    .que .info .editquestion {
+      background-color: transparent; }
+      .que .info .editquestion a img {
+        padding-left: 0; }
+      .que .info .editquestion a:hover {
+        text-decoration: none; }
+  .que .content .formulation {
+    background-color: transparent;
+    margin: 0;
+    padding: 0; }
+    .que .content .formulation .qtext {
+      margin-bottom: 1.5rem; }
+      .que .content .formulation .qtext p {
+        margin-bottom: 1rem; }
+    .que .content .formulation select {
+      border-radius: 4px;
+      margin: 0;
+      background-color: transparent;
+      color: #333333; }
+      .que .content .formulation select.correct {
+        border-color: #28C382; }
+      .que .content .formulation select.incorrect {
+        border-color: #E2231A; }
+    .que .content .formulation .ablock {
+      margin: 0 0 1.5rem 0; }
+      .que .content .formulation .ablock .prompt, .que .content .formulation .ablock .readonly, .que .content .formulation .ablock .readonly p {
+        margin-bottom: 1rem; }
+      .que .content .formulation .ablock .label {
+        margin: 0; }
+      .que .content .formulation .ablock .answer {
+        padding: 0 !important; }
+        .que .content .formulation .ablock .answer label {
+          margin-bottom: 0; }
+        .que .content .formulation .ablock .answer input[type="text"] {
+          margin-left: 0.5rem;
+          background-color: transparent;
+          border-color: #8B9296;
+          color: #171717; }
+        .que .content .formulation .ablock .answer > .icon {
+          display: none; }
+        .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
+          padding-top: 0;
+          padding-bottom: 0;
+          margin-bottom: 0.5rem !important; }
+          .que .content .formulation .ablock .answer .r0 label, .que .content .formulation .ablock .answer .r1 label {
+            font-size: 1rem;
+            line-height: 1.5; }
+            .que .content .formulation .ablock .answer .r0 label p, .que .content .formulation .ablock .answer .r1 label p {
+              margin: 0; }
+          .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {
+            display: none; }
+        .que .content .formulation .ablock .answer > div.correct {
+          background-color: rgba(40, 195, 130, 0.2) !important; }
+        .que .content .formulation .ablock .answer > div.incorrect {
+          background-color: rgba(226, 35, 26, 0.2) !important; }
+        .que .content .formulation .ablock .answer ul.sortablelist li {
+          position: relative;
+          border-radius: 4px;
+          padding: 4px 8px; }
+          .que .content .formulation .ablock .answer ul.sortablelist li .icon {
+            display: none; }
+          .que .content .formulation .ablock .answer ul.sortablelist li::before {
+            font-family: 'Font Awesome 5 Free';
+            margin-right: 0.5rem;
+            font-weight: 900; }
+          .que .content .formulation .ablock .answer ul.sortablelist li.correct {
+            background-color: rgba(40, 195, 130, 0.2) !important;
+            border-color: #28C382 !important; }
+            .que .content .formulation .ablock .answer ul.sortablelist li.correct::before {
+              color: #28C382;
+              content: '\f058'; }
+          .que .content .formulation .ablock .answer ul.sortablelist li.incorrect {
+            background-color: rgba(226, 35, 26, 0.2) !important;
+            border-color: #E2231A !important; }
+            .que .content .formulation .ablock .answer ul.sortablelist li.incorrect::before {
+              color: #E2231A;
+              content: '\f057'; }
+  .que .content .outcome {
+    background-color: rgba(245, 185, 15, 0.2) !important; }
+    .que .content .outcome > .feedback::before {
+      content: '\f27a';
+      color: #F5B90F;
+      padding: 0 4px; }
+    .que .content .outcome .feedback {
+      margin-bottom: 0; }
+      .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .specificfeedback p {
+        margin-bottom: 1rem; }
+      .que .content .outcome .feedback .rightanswer {
+        margin-bottom: 0; }
+  .que.correct .formulation input.correct {
+    background-color: rgba(40, 195, 130, 0.2) !important;
+    border-color: #28C382 !important;
+    border-radius: 4px; }
+  .que.correct .outcome {
+    background-color: rgba(40, 195, 130, 0.2) !important; }
+    .que.correct .outcome > .feedback::before {
+      color: #28C382;
+      padding: 0 4px;
+      content: '\f058'; }
+  .que.incorrect .formulation input.incorrect {
+    background-color: rgba(226, 35, 26, 0.2) !important;
+    border-color: #E2231A !important;
+    border-radius: 4px; }
+  .que.incorrect .outcome {
+    background-color: rgba(226, 35, 26, 0.2) !important; }
+    .que.incorrect .outcome > .feedback::before {
+      color: #E2231A;
+      content: '\f057';
+      padding: 0 4px; }
+
+#page-mod-quiz-attempt .submitbtns,
+#page-mod-quiz-review .submitbtns {
+  padding: 0; }
+
+#page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-review .mod_quiz-next-nav {
+  display: inline; }
+
+@media only screen and (min-width: 768px) {
+  .path-mod-quiz .moodle-dialogue {
+    width: 450px !important; } }
+
+.path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input[type="submit"]:first-child, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons button#searchforums, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-kalvidassign #region-main form input, .path-mod-kalvidassign #region-main form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .message > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav, #page-mod-quiz-attempt .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav,
+.path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav, #page-mod-quiz-review .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-attempt .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .mod_quiz-next-nav, #page-mod-quiz-review .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input {
+  margin: 0; }
+  .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type)[type="submit"], .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums:not(:first-of-type), .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons button#searchforums:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input:not(:first-of-type), #page-mod-forum-post #fgroup_id_buttonar .fgroup .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-kalvidassign #region-main form input:not(:first-of-type), .path-mod-kalvidassign #region-main form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .message > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:not(:first-of-type), .path-mod-questionnaire#page-mod-questionnaire-complete .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav:not(:first-of-type), #page-mod-quiz-attempt .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav:not(:first-of-type),
+  .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav:not(:first-of-type), #page-mod-quiz-review .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink:not(:first-of-type), #mod_quiz_navblock .content .othernav .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .mod_quiz-next-nav:not(:first-of-type), #page-mod-quiz-attempt .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .mod_quiz-next-nav:not(:first-of-type), #page-mod-quiz-review .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input:not(:first-of-type), #page-mod-connecthosted-view .chosted-button-row .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type) {
+    margin-left: 1rem; }
+
+#page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
+  display: none; }
+
+#page-mod-tab-view #tabintro {
+  margin-bottom: 1.5rem;
+  padding: 0 !important; }
+  #page-mod-tab-view #tabintro > div > :last-child {
+    margin-bottom: 0; }
+
+#page-mod-tab-view #tab-menu-wrapper {
+  width: 20% !important; }
+
+#page-mod-tab-view #tab-menu-wrapper, #page-mod-tab-view #tabcontent {
+  margin-bottom: 1.5rem !important; }
+  #page-mod-tab-view #tab-menu-wrapper ul, #page-mod-tab-view #tabcontent ul {
+    margin: 0px !important; }
+    #page-mod-tab-view #tab-menu-wrapper ul li, #page-mod-tab-view #tabcontent ul li {
+      padding: 0.25rem 0.5rem; }
+      #page-mod-tab-view #tab-menu-wrapper ul li.row, #page-mod-tab-view #tabcontent ul li.row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #EDF1F2; }
+      #page-mod-tab-view #tab-menu-wrapper ul li:not(:last-child), #page-mod-tab-view #tabcontent ul li:not(:last-child) {
+        margin-bottom: 0; }
+      #page-mod-tab-view #tab-menu-wrapper ul li.menutitle, #page-mod-tab-view #tabcontent ul li.menutitle {
+        background-color: #0A2D50; }
+
+#page-mod-tab-view #tab-menu-wrapper {
+  margin-right: 1rem; }
+  #page-mod-tab-view #tab-menu-wrapper .TabbedPanels .TabbedPanelsTabSelected {
+    background-color: #0A2D50;
+    color: #FFFFFF; }
+
+#page-mod-tab-view #tabcontent {
+  margin: 0;
+  padding: 0; }
+  #page-mod-tab-view #tabcontent .TabbedPanels {
+    padding: 0; }
+    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTab {
+      background-color: #EDF1F2;
+      color: #0A2D50;
+      font: unset; }
+    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTabSelected {
+      background-color: #0A2D50;
+      color: #FFFFFF;
+      border-bottom: 1px solid #999; }
+  #page-mod-tab-view #tabcontent .TabbedPanelsContent {
+    padding: 0.25rem 0.5rem; }
+
+.mod_introbox {
+  padding: 0; }
+
+.editor_atto_toolbar button, .editor_atto_toolbar button:last-child {
+  margin: 0 !important; }
+
+.filemanager .fp-navbar {
+  margin: 0 !important;
+  padding-bottom: 9px; }
+  .filemanager .fp-navbar .fp-toolbar, .filemanager .fp-navbar .fp-viewbar {
+    margin: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px; }
+    .filemanager .fp-navbar .fp-toolbar > div a, .filemanager .fp-navbar .fp-toolbar a, .filemanager .fp-navbar .fp-viewbar > div a, .filemanager .fp-navbar .fp-viewbar a {
+      margin: 0 !important;
+      padding: 0 !important;
+      border: none !important; }
+      .filemanager .fp-navbar .fp-toolbar > div a img, .filemanager .fp-navbar .fp-toolbar a img, .filemanager .fp-navbar .fp-viewbar > div a img, .filemanager .fp-navbar .fp-viewbar a img {
+        padding: 0 !important;
+        margin: 0 !important; }
+  .filemanager .fp-navbar .fp-toolbar > div {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important; }
 
 body #region-main .course-content > #completionprogressid {
   display: none !important; }
@@ -6053,9 +6524,6 @@ a.activity-link {
     color: #FFFFFF;
     width: 5.5rem !important; }
 
-.path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {
-  margin-bottom: 1.5rem; }
-
 .colour-palette {
   max-width: none; }
   .colour-palette .row {
@@ -6592,480 +7060,12 @@ img.cb-palette {
   .do-dont p:last-child {
     margin-bottom: 0; }
 
-#page-mod-lesson-view .fitem {
-  margin-bottom: 0; }
-  #page-mod-lesson-view .fitem .fitemtitle {
-    display: none; }
-  #page-mod-lesson-view .fitem .felement {
-    margin-left: 0; }
-
-#page-mod-lesson-view .answeroption {
-  margin-bottom: 1.5rem; }
-  #page-mod-lesson-view .answeroption .fitem .felement span {
-    margin: 0;
-    display: inline-flex;
-    align-items: center; }
-    #page-mod-lesson-view .answeroption .fitem .felement span input {
-      margin-right: 1rem; }
-    #page-mod-lesson-view .answeroption .fitem .felement span label {
-      margin: 0; }
-
-#page-mod-lesson-view .fitem_fsubmit {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  margin: 0 0 1.5rem 0; }
-
-section#region-main .resourceworkaround, section#region-main .urlworkaround {
-  margin-bottom: 2.25rem; }
-  section#region-main .resourceworkaround a:link, section#region-main .urlworkaround a:link {
-    font-weight: bold;
-    text-decoration: underline !important; }
-
-.path-mod-lti a:link {
-  font-weight: bold;
-  text-decoration: underline !important;
-  margin-bottom: 2.25rem; }
-
 .page-item.active .page-link {
   background-color: #0A2D50;
   border-color: #0A2D50; }
 
 .course-content .single-section .section-navigation.navigationtitle {
   display: none; }
-
-#page-mod-questionnaire-preview fieldset,
-#page-mod-questionnaire-complete fieldset {
-  min-inline-size: auto; }
-
-.path-mod-questionnaire {
-  /*  .mod_questionnaire_completepage .buttons {
-    input[type="submit"] {
-      @extend .btn, .btn-primary;
-    }
-  } */ }
-  .path-mod-questionnaire .mod_questionnaire_viewpage .complete, .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses, .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse, .path-mod-questionnaire .mod_questionnaire_viewpage .message {
-    margin-bottom: 1.5rem; }
-  .path-mod-questionnaire .qn-container .qn-question {
-    background: none; }
-  .path-mod-questionnaire .qn-content {
-    /*
-    max-width: calc(100% - 255px);
-    @media only screen and (min-width: $neo-breakpoint) {
-      max-width: calc(100% - 110px);
-    }
-    */ }
-  .path-mod-questionnaire#page-mod-questionnaire-complete .surveyTitle {
-    padding: 0;
-    margin-bottom: 1.5rem; }
-  .path-mod-questionnaire#page-mod-questionnaire-complete .message {
-    border: none;
-    padding: 0; }
-  .path-mod-questionnaire#page-mod-questionnaire-complete .c1, .path-mod-questionnaire#page-mod-questionnaire-complete .c0 {
-    border-bottom: 0;
-    border-right: 0;
-    border-top: 1px solid #8B9296;
-    border-left: 1px solid #8B9296; }
-
-.path-mod-questionnaire .surveyTitle {
-  margin-bottom: 0 !important; }
-
-.path-mod-questionnaire .floatprinticon {
-  width: 100%;
-  margin: 0;
-  float: none;
-  text-align: right !important;
-  display: block; }
-
-.path-mod-questionnaire .qn-container:first-of-type {
-  position: relative; }
-
-.path-mod-questionnaire .qn-container:first-of-type:before {
-  content: 'Indicates required field';
-  font-family: "Open Sans";
-  font-size: 1rem;
-  font-weight: normal;
-  display: block;
-  margin-left: 0.825rem;
-  text-align: left;
-  margin-bottom: 1.5rem;
-  cursor: text; }
-
-.path-mod-questionnaire .qn-container:first-of-type:after {
-  content: '\f069';
-  font-family: "Font Awesome 5 Free";
-  font-size: 0.5rem;
-  font-weight: bold;
-  position: absolute;
-  top: 0;
-  color: red;
-  left: 0; }
-
-.path-mod-questionnaire .qn-container .qn-legend {
-  margin-right: 0.5rem; }
-  .path-mod-questionnaire .qn-container .qn-legend .qn-info {
-    padding: 0;
-    background: none; }
-    .path-mod-questionnaire .qn-container .qn-legend .qn-info .qn-number {
-      font-family: "Open Sans";
-      font-size: 1rem;
-      font-weight: bold;
-      line-height: 1.5; }
-  .path-mod-questionnaire .qn-container .qn-legend .req {
-    vertical-align: top !important; }
-
-.path-mod-questionnaire .qn-container .qn-content {
-  margin-left: 0; }
-  .path-mod-questionnaire .qn-container .qn-content .qn-question {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 1rem; }
-    .path-mod-questionnaire .qn-container .qn-content .qn-question p, .path-mod-questionnaire .qn-container .qn-content .qn-question label {
-      margin: 0;
-      font-weight: bold;
-      cursor: text; }
-  .path-mod-questionnaire .qn-container .qn-content .qn-answer, .path-mod-questionnaire .qn-container .qn-content .editor_atto_wrap {
-    margin-bottom: 2.25rem; }
-  .path-mod-questionnaire .qn-container .qn-content .qn-answer table {
-    margin-bottom: 0 !important; }
-
-.quiz-table, #page-mod-quiz-view .quizattemptsummary, #page-mod-quiz-review .quizreviewsummary, #page-mod-quiz-summary .quizsummaryofattempt {
-  border: none;
-  border-right: 1px solid #8B9296;
-  border-bottom: 1px solid #8B9296;
-  border-collapse: separate;
-  margin-bottom: 1.5rem; }
-  .quiz-table thead th, #page-mod-quiz-view .quizattemptsummary thead th, #page-mod-quiz-review .quizreviewsummary thead th, #page-mod-quiz-summary .quizsummaryofattempt thead th {
-    background-color: #f8fafa !important; }
-  .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th, .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
-    background-color: transparent;
-    border: none;
-    border-top: 1px solid #8B9296;
-    border-left: 1px solid #8B9296;
-    padding: calc(0.5rem / 2) 0.5rem;
-    text-align: left !important;
-    vertical-align: top; }
-  .quiz-table tr th, #page-mod-quiz-view .quizattemptsummary tr th, #page-mod-quiz-review .quizreviewsummary tr th, #page-mod-quiz-summary .quizsummaryofattempt tr th {
-    font-family: 'KingsBureauGrot';
-    color: #171717; }
-  .quiz-table tr td, #page-mod-quiz-view .quizattemptsummary tr td, #page-mod-quiz-review .quizreviewsummary tr td, #page-mod-quiz-summary .quizsummaryofattempt tr td {
-    color: #333333; }
-  .quiz-table tr:nth-child(even) > th, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > th, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > th, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > th, .quiz-table tr:nth-child(even) > td, #page-mod-quiz-view .quizattemptsummary tr:nth-child(even) > td, #page-mod-quiz-review .quizreviewsummary tr:nth-child(even) > td, #page-mod-quiz-summary .quizsummaryofattempt tr:nth-child(even) > td {
-    background-color: #f8fafa; }
-
-#page-mod-quiz-view .box.quizinfo p {
-  font-family: 'KingsBureauGrotFiveOne';
-  text-align: left; }
-  #page-mod-quiz-view .box.quizinfo p:first-child::before {
-    content: '\f017'; }
-  #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before {
-    content: '\f091'; }
-
-#page-mod-quiz-view .generalbox#feedback {
-  margin: 0;
-  padding: 0; }
-
-#page-mod-quiz-view .quizstartbuttondiv form {
-  text-align: left; }
-  #page-mod-quiz-view .quizstartbuttondiv form div {
-    margin-left: 0; }
-
-#page-mod-quiz-attempt .submitbtns,
-#page-mod-quiz-review .submitbtns {
-  display: flex;
-  margin-bottom: 1.5rem; }
-  #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav,
-  #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav {
-    float: none !important; }
-
-#mod_quiz_navblock .content #user-picture {
-  margin: 0 0 1.5rem 0; }
-
-#mod_quiz_navblock .content .qn_buttons {
-  margin-bottom: 1.5rem; }
-  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading {
-    font-family: 'KingsBureauGrot';
-    margin-bottom: 0.5rem; }
-  #mod_quiz_navblock .content .qn_buttons h3.mod_quiz-section-heading:not(:first-child) {
-    padding: 1rem 0 0 0; }
-  #mod_quiz_navblock .content .qn_buttons a.qnbutton {
-    height: 1.25rem;
-    width: 1.25rem;
-    font-size: 1rem !important;
-    padding: 0 !important;
-    margin: 0 0.625rem 0.625rem 0;
-    background-color: transparent !important;
-    color: #171717 !important; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton:hover {
-      text-decoration: none !important; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton .thispageholder {
-      border: 1px solid #8B9296;
-      border-radius: 4px !important; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton.flagged .thispageholder {
-      background: transparent url(https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg) 15px 0 no-repeat; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton .trafficlight {
-      display: none; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct {
-      background-color: transparent !important; }
-      #mod_quiz_navblock .content .qn_buttons a.qnbutton.correct span.thispageholder {
-        border: 1px solid #28C382; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect {
-      background-color: rgba(234, 100, 94, 0.5) !important; }
-      #mod_quiz_navblock .content .qn_buttons a.qnbutton.incorrect span.thispageholder {
-        border: 1px solid #E2231A; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect {
-      background-color: #FCEAB7 !important; }
-      #mod_quiz_navblock .content .qn_buttons a.qnbutton.partiallycorrect span.thispageholder {
-        border: 1px solid #F5B90F; }
-    #mod_quiz_navblock .content .qn_buttons a.qnbutton.notanswered {
-      color: #8B9296 !important; }
-
-#mod_quiz_navblock .content .othernav {
-  text-align: right;
-  margin: 0 !important; }
-  #mod_quiz_navblock .content .othernav a.endtestlink {
-    display: inline;
-    margin-right: 0 !important; }
-  #mod_quiz_navblock .content .othernav #quiz-timer {
-    font-family: 'KingsBureauGrotFiveOne';
-    font-size: 1.125rem; }
-    #mod_quiz_navblock .content .othernav #quiz-timer #quiz-time-left {
-      font-family: 'KingsBureauGrot'; }
-    #mod_quiz_navblock .content .othernav #quiz-timer::before {
-      content: '\f017';
-      font-family: 'Font Awesome 5 Free';
-      font-weight: 900;
-      margin-right: 4px; }
-  #mod_quiz_navblock .content .othernav .singlebutton button {
-    margin: 1rem 0 0 0 !important; }
-
-.que {
-  margin: 0 0 2.25rem; }
-  .que.description .state, .que.description .questionflag {
-    display: none; }
-  .que .info {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-    background-color: transparent;
-    padding: 0;
-    border: none; }
-    .que .info .no {
-      width: 100%; }
-    .que .info .no, .que .info .qno {
-      margin-bottom: 0.5rem; }
-    .que .info div {
-      margin: 0;
-      line-height: 1.5;
-      font-size: 1rem !important;
-      font-family: 'KingsBureauGrot';
-      border-radius: 0.125rem;
-      letter-spacing: 0.5px;
-      text-align: center;
-      height: 1.5rem;
-      border-radius: 15px;
-      background-color: #EDF1F2;
-      padding: 0 0.5rem;
-      color: #171717; }
-    .que .info div.state, .que .info div.grade {
-      margin-right: 0.5rem; }
-    .que .info div.state {
-      text-transform: uppercase; }
-    .que .info div.grade {
-      background-color: #e6ebed;
-      color: #171717; }
-    .que .info .questionflag {
-      padding: 0 0.5rem;
-      border-radius: 3px;
-      content: '';
-      background: #e6ebed url("https://git.iddkingsonline.com/assets/images/ko-designsystem-quiz-flag.svg ") right top no-repeat;
-      background-size: 8px;
-      margin-right: 0;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 0px 0px inset; }
-      @media only screen and (min-width: 768px) {
-        .que .info .questionflag {
-          margin-left: auto; } }
-      .que .info .questionflag .questionflagimage {
-        display: none; }
-    .que .info .editquestion {
-      background-color: transparent; }
-      .que .info .editquestion a img {
-        padding-left: 0; }
-      .que .info .editquestion a:hover {
-        text-decoration: none; }
-  .que .content .formulation {
-    background-color: transparent;
-    margin: 0;
-    padding: 0; }
-    .que .content .formulation .qtext {
-      margin-bottom: 1.5rem; }
-      .que .content .formulation .qtext p {
-        margin-bottom: 1rem; }
-    .que .content .formulation select {
-      border-radius: 4px;
-      margin: 0;
-      background-color: transparent;
-      color: #333333; }
-      .que .content .formulation select.correct {
-        border-color: #28C382; }
-      .que .content .formulation select.incorrect {
-        border-color: #E2231A; }
-    .que .content .formulation .ablock {
-      margin: 0 0 1.5rem 0; }
-      .que .content .formulation .ablock .prompt, .que .content .formulation .ablock .readonly, .que .content .formulation .ablock .readonly p {
-        margin-bottom: 1rem; }
-      .que .content .formulation .ablock .label {
-        margin: 0; }
-      .que .content .formulation .ablock .answer {
-        padding: 0 !important; }
-        .que .content .formulation .ablock .answer label {
-          margin-bottom: 0; }
-        .que .content .formulation .ablock .answer input[type="text"] {
-          margin-left: 0.5rem;
-          background-color: transparent;
-          border-color: #8B9296;
-          color: #171717; }
-        .que .content .formulation .ablock .answer > .icon {
-          display: none; }
-        .que .content .formulation .ablock .answer .r0, .que .content .formulation .ablock .answer .r1 {
-          padding-top: 0;
-          padding-bottom: 0;
-          margin-bottom: 0.5rem !important; }
-          .que .content .formulation .ablock .answer .r0 label, .que .content .formulation .ablock .answer .r1 label {
-            font-size: 1rem;
-            line-height: 1.5; }
-            .que .content .formulation .ablock .answer .r0 label p, .que .content .formulation .ablock .answer .r1 label p {
-              margin: 0; }
-          .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img {
-            display: none; }
-        .que .content .formulation .ablock .answer > div.correct {
-          background-color: rgba(40, 195, 130, 0.2) !important; }
-        .que .content .formulation .ablock .answer > div.incorrect {
-          background-color: rgba(226, 35, 26, 0.2) !important; }
-        .que .content .formulation .ablock .answer ul.sortablelist li {
-          position: relative;
-          border-radius: 4px;
-          padding: 4px 8px; }
-          .que .content .formulation .ablock .answer ul.sortablelist li .icon {
-            display: none; }
-          .que .content .formulation .ablock .answer ul.sortablelist li::before {
-            font-family: 'Font Awesome 5 Free';
-            margin-right: 0.5rem;
-            font-weight: 900; }
-          .que .content .formulation .ablock .answer ul.sortablelist li.correct {
-            background-color: rgba(40, 195, 130, 0.2) !important;
-            border-color: #28C382 !important; }
-            .que .content .formulation .ablock .answer ul.sortablelist li.correct::before {
-              color: #28C382;
-              content: '\f058'; }
-          .que .content .formulation .ablock .answer ul.sortablelist li.incorrect {
-            background-color: rgba(226, 35, 26, 0.2) !important;
-            border-color: #E2231A !important; }
-            .que .content .formulation .ablock .answer ul.sortablelist li.incorrect::before {
-              color: #E2231A;
-              content: '\f057'; }
-  .que .content .outcome {
-    background-color: rgba(245, 185, 15, 0.2) !important; }
-    .que .content .outcome > .feedback::before {
-      content: '\f27a';
-      color: #F5B90F;
-      padding: 0 4px; }
-    .que .content .outcome .feedback {
-      margin-bottom: 0; }
-      .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .specificfeedback p {
-        margin-bottom: 1rem; }
-      .que .content .outcome .feedback .rightanswer {
-        margin-bottom: 0; }
-  .que.correct .formulation input.correct {
-    background-color: rgba(40, 195, 130, 0.2) !important;
-    border-color: #28C382 !important;
-    border-radius: 4px; }
-  .que.correct .outcome {
-    background-color: rgba(40, 195, 130, 0.2) !important; }
-    .que.correct .outcome > .feedback::before {
-      color: #28C382;
-      padding: 0 4px;
-      content: '\f058'; }
-  .que.incorrect .formulation input.incorrect {
-    background-color: rgba(226, 35, 26, 0.2) !important;
-    border-color: #E2231A !important;
-    border-radius: 4px; }
-  .que.incorrect .outcome {
-    background-color: rgba(226, 35, 26, 0.2) !important; }
-    .que.incorrect .outcome > .feedback::before {
-      color: #E2231A;
-      content: '\f057';
-      padding: 0 4px; }
-
-#page-mod-quiz-attempt .submitbtns,
-#page-mod-quiz-review .submitbtns {
-  padding: 0; }
-
-#page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-review .mod_quiz-next-nav {
-  display: inline; }
-
-@media only screen and (min-width: 768px) {
-  .path-mod-quiz .moodle-dialogue {
-    width: 450px !important; } }
-
-.path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input[type="submit"], .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input[type="submit"]:first-child, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons button#searchforums, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input, #page-mod-forum-post #fgroup_id_buttonar .fgroup .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-kalvidassign #region-main form input, .path-mod-kalvidassign #region-main form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .message > a, .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a, .path-mod-questionnaire#page-mod-questionnaire-complete .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav, #page-mod-quiz-attempt .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav,
-.path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav, #page-mod-quiz-review .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-attempt .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .mod_quiz-next-nav, #page-mod-quiz-review .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input {
-  margin: 0; }
-  .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .btn:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type)[type="submit"], .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .singlebutton > form > div > input:not(:first-of-type)[type="submit"]:first-child, .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums:not(:first-of-type), .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons button#searchforums:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-forum-post #fgroup_id_buttonar .fgroup input:not(:first-of-type), #page-mod-forum-post #fgroup_id_buttonar .fgroup .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-kalvidassign #region-main form input:not(:first-of-type), .path-mod-kalvidassign #region-main form .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .complete > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .allresponses > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .allresponses > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .yourresponse > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .yourresponse > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire .mod_questionnaire_viewpage .message > a:not(:first-of-type), .path-mod-questionnaire .mod_questionnaire_viewpage .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .path-mod-questionnaire#page-mod-questionnaire-complete .message > a:not(:first-of-type), .path-mod-questionnaire#page-mod-questionnaire-complete .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .message > a:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .submitbtns .mod_quiz-prev-nav:not(:first-of-type), #page-mod-quiz-attempt .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav:not(:first-of-type),
-  .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav:not(:first-of-type), #page-mod-quiz-review .submitbtns .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-prev-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #mod_quiz_navblock .content .othernav a.endtestlink:not(:first-of-type), #mod_quiz_navblock .content .othernav .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons a.endtestlink:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-attempt .mod_quiz-next-nav:not(:first-of-type), #page-mod-quiz-attempt .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-quiz-review .mod_quiz-next-nav:not(:first-of-type), #page-mod-quiz-review .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons .mod_quiz-next-nav:not(:first-of-type), .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons #page-mod-connecthosted-view .chosted-button-row input:not(:first-of-type), #page-mod-connecthosted-view .chosted-button-row .path-mod-quiz .moodle-dialogue .moodle-dialogue-bd .confirmation-buttons input:not(:first-of-type) {
-    margin-left: 1rem; }
-
-#page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
-  display: none; }
-
-#page-mod-tab-view #tabintro {
-  margin-bottom: 1.5rem;
-  padding: 0 !important; }
-  #page-mod-tab-view #tabintro > div > :last-child {
-    margin-bottom: 0; }
-
-#page-mod-tab-view #tab-menu-wrapper {
-  width: 20% !important; }
-
-#page-mod-tab-view #tab-menu-wrapper, #page-mod-tab-view #tabcontent {
-  margin-bottom: 1.5rem !important; }
-  #page-mod-tab-view #tab-menu-wrapper ul, #page-mod-tab-view #tabcontent ul {
-    margin: 0px !important; }
-    #page-mod-tab-view #tab-menu-wrapper ul li, #page-mod-tab-view #tabcontent ul li {
-      padding: 0.25rem 0.5rem; }
-      #page-mod-tab-view #tab-menu-wrapper ul li.row, #page-mod-tab-view #tabcontent ul li.row {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-        background-color: #EDF1F2; }
-      #page-mod-tab-view #tab-menu-wrapper ul li:not(:last-child), #page-mod-tab-view #tabcontent ul li:not(:last-child) {
-        margin-bottom: 0; }
-      #page-mod-tab-view #tab-menu-wrapper ul li.menutitle, #page-mod-tab-view #tabcontent ul li.menutitle {
-        background-color: #0A2D50; }
-
-#page-mod-tab-view #tab-menu-wrapper {
-  margin-right: 1rem; }
-  #page-mod-tab-view #tab-menu-wrapper .TabbedPanels .TabbedPanelsTabSelected {
-    background-color: #0A2D50;
-    color: #FFFFFF; }
-
-#page-mod-tab-view #tabcontent {
-  margin: 0;
-  padding: 0; }
-  #page-mod-tab-view #tabcontent .TabbedPanels {
-    padding: 0; }
-    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTab {
-      background-color: #EDF1F2;
-      color: #0A2D50;
-      font: unset; }
-    #page-mod-tab-view #tabcontent .TabbedPanels .TabbedPanelsTabSelected {
-      background-color: #0A2D50;
-      color: #FFFFFF;
-      border-bottom: 1px solid #999; }
-  #page-mod-tab-view #tabcontent .TabbedPanelsContent {
-    padding: 0.25rem 0.5rem; }
-
-.mod_introbox {
-  padding: 0; }
 
 .release-name-number {
   margin-bottom: 0; }

@@ -3,7 +3,6 @@
 // -----------------------------------------------------------------------------
 
 #region-main {
- // !important is needed sometimes
   ::-webkit-scrollbar {
      width: 16px !important;
      height: 16px !important;
@@ -24,10 +23,6 @@
   }
   
   .table-scroll {
-    // IE
-    -ms-scrollbar-base-color: $midnight-blue;
-    -ms-scrollbar-track-color: $pearl-grey;
-    -ms-scrollbar-arrow-color: $midnight-blue;
     // firefox
     scrollbar-color: $midnight-blue $pearl-grey;
     scrollbar-width: thin;

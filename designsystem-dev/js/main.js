@@ -14,15 +14,6 @@ if (foundationCSS.length) {
   foundationCSS.remove();
 }
 
-// module nav block fails to open/collapse in IE
-if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-  const modNavBlock = ".block.block_course_modulenavigation .section .allsectionnames > a";
-  $(document).on("click", modNavBlock, function(event) {
-    event.preventDefault();
-    $(this).parents(".section").children(".section-collapse").toggleClass('in');
-  });
-};
-
 // remove this for no-print.js
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
@@ -106,40 +97,6 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
-/*
-// generate printable transcript from text
-// unable to add stylesheet on safari
-$(".download-transcript").click(function() {
-  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
-  var printWindow = window.open('', 'PRINT', 'height=600, width=800');
-
-  var is_safari = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
-  var is_chrome = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') != -1;
-
-  printWindow.document.write(
-    '<html><head><title>'
-    + document.title
-    + '</title>');
-  // insert stylesheet if not safari
-  if (!is_safari) {
-    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://iddkingsonline.com/designsystem/ephie/css/transcript.css">');
-  }
-  printWindow.document.write(
-    '</head><body><div id="page-mod-book-print"><h1>'
-    + document.title
-    + '</h1>');
-  printWindow.document.write(printContent);
-  printWindow.document.write('</div></body></html>');
-
-  printWindow.document.close(); // necessary for IE >= 10
-  printWindow.focus(); // necessary for IE >= 10
-
-  printWindow.print();
-  printWindow.close();
-
-  return true;
-});
-*/
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card

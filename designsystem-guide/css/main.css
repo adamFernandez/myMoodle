@@ -1,0 +1,571 @@
+/* King's Online Design System Guide
+   ================================= */
+
+/* Colours
+   =======  */
+.colour-palette {
+  max-width: none; }
+  .colour-palette .row {
+    margin-right: -5px;
+    margin-left: -5px; }
+    .colour-palette .row .colour-pan, .colour-palette .row .colour-id {
+      padding-right: 5px;
+      padding-left: 5px; }
+    .colour-palette .row .colour-id {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .colour-palette .row .colour-id h3 {
+        margin-bottom: 0; }
+    .colour-palette .row .colour-pan {
+      margin-bottom: 0.5rem; }
+      .colour-palette .row .colour-pan .colour {
+        padding: 0.5rem 1rem;
+        color: #FFFFFF; }
+        .colour-palette .row .colour-pan .colour span {
+          display: block; }
+          .colour-palette .row .colour-pan .colour span:first-child {
+            font-family: 'KingsBureauGrot';
+            font-size: 1.125rem; }
+        .colour-palette .row .colour-pan .colour.white {
+          color: #000000;
+          padding: calc($component-margin-xs - 1px) 1rem;
+          border: 1px solid #000000;
+          background-color: #FFFFFF; }
+    .colour-palette .row.colour-combo {
+      margin-bottom: 1.5rem; }
+      .colour-palette .row.colour-combo .colour-pan {
+        margin-bottom: 0; }
+
+.cb .cb-row {
+  margin-right: 0;
+  margin-left: 0; }
+  .cb .cb-row.default .colour.purple {
+    background-color: #501491; }
+  .cb .cb-row.default .colour.reflex-blue {
+    background-color: #002395; }
+  .cb .cb-row.default .colour.sea-blue {
+    background-color: #005ad2; }
+  .cb .cb-row.default .colour.teal-blue {
+    background-color: #009ea0; }
+  .cb .cb-row.default .colour.pea-green {
+    background-color: #28c382; }
+  .cb .cb-row.default .colour.lime-green-2 {
+    background-color: #999900; }
+  .cb .cb-row.default .colour.yellow {
+    background-color: #f5b90f; }
+  .cb .cb-row.default .colour.orange {
+    background-color: #ff5f05; }
+  .cb .cb-row.default .colour.kings-red {
+    background-color: #e2231a; }
+  .cb .cb-row.default .colour.hot-pink {
+    background-color: #c83296; }
+  .cb .cb-row.default .colour.lilac {
+    background-color: #9b82d2; }
+  .cb .cb-row.default .colour.sky-blue {
+    background-color: #00b9e1; }
+  .cb .cb-row.default .colour.lime-green {
+    background-color: #c6e128; }
+  .cb .cb-row.default .colour.soft-pink {
+    background-color: #fc5e72; }
+  .cb .cb-row.default .colour.midnight-blue {
+    background-color: #0a2d50; }
+  .cb .cb-row.default .colour.slate-grey {
+    background-color: #5a6469; }
+  .cb .cb-row.default .colour.stone {
+    background-color: #575756; }
+  .cb .cb-row.default .colour.pebble {
+    background-color: #5f5550; }
+  .cb .cb-row.default .colour.powder-blue {
+    background-color: #8d9ebc; }
+  .cb .cb-row.default .colour.pearl-grey {
+    background-color: #cdd7dc; }
+  .cb .cb-row.default .colour.mushroom {
+    background-color: #cdc3b9; }
+  .cb .cb-row.default .colour.warm-grey {
+    background-color: #bcafa8; }
+  .cb .cb-row.default .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.default .colour.white {
+    background-color: #ffffff; }
+  .cb .cb-row.a .colour.purple {
+    background-color: #343434; }
+  .cb .cb-row.a .colour.reflex-blue {
+    background-color: #262626; }
+  .cb .cb-row.a .colour.sea-blue {
+    background-color: #4d4d4d; }
+  .cb .cb-row.a .colour.teal-blue {
+    background-color: #6f6f6f; }
+  .cb .cb-row.a .colour.pea-green {
+    background-color: #8d8d8d; }
+  .cb .cb-row.a .colour.lime-green-2 {
+    background-color: #888888; }
+  .cb .cb-row.a .colour.yellow {
+    background-color: #b8b8b8; }
+  .cb .cb-row.a .colour.orange {
+    background-color: #858585; }
+  .cb .cb-row.a .colour.kings-red {
+    background-color: #5b5b5b; }
+  .cb .cb-row.a .colour.hot-pink {
+    background-color: #6a6a6a; }
+  .cb .cb-row.a .colour.lilac {
+    background-color: #939393; }
+  .cb .cb-row.a .colour.sky-blue {
+    background-color: #868686; }
+  .cb .cb-row.a .colour.lime-green {
+    background-color: #c4c4c4; }
+  .cb .cb-row.a .colour.soft-pink {
+    background-color: #909090; }
+  .cb .cb-row.a .colour.midnight-blue {
+    background-color: #272727; }
+  .cb .cb-row.a .colour.slate-grey {
+    background-color: #626262; }
+  .cb .cb-row.a .colour.stone {
+    background-color: #575756; }
+  .cb .cb-row.a .colour.pebble {
+    background-color: #575757; }
+  .cb .cb-row.a .colour.powder-blue {
+    background-color: #9c9c9c; }
+  .cb .cb-row.a .colour.pearl-grey {
+    background-color: #d5d5d5; }
+  .cb .cb-row.a .colour.mushroom {
+    background-color: #c5c5c5; }
+  .cb .cb-row.a .colour.warm-grey {
+    background-color: #b2b2b2; }
+  .cb .cb-row.a .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.a .colour.white {
+    background-color: #ffffff; }
+  .cb .cb-row.b .colour.purple {
+    background-color: #3a2e47; }
+  .cb .cb-row.b .colour.reflex-blue {
+    background-color: #1e253c; }
+  .cb .cb-row.b .colour.sea-blue {
+    background-color: #3e5068; }
+  .cb .cb-row.b .colour.teal-blue {
+    background-color: #597879; }
+  .cb .cb-row.b .colour.pea-green {
+    background-color: #79988b; }
+  .cb .cb-row.b .colour.lime-green-2 {
+    background-color: #8b8b6d; }
+  .cb .cb-row.b .colour.yellow {
+    background-color: #c4b896; }
+  .cb .cb-row.b .colour.orange {
+    background-color: #9d7d6b; }
+  .cb .cb-row.b .colour.kings-red {
+    background-color: #76504e; }
+  .cb .cb-row.b .colour.hot-pink {
+    background-color: #7d5f73; }
+  .cb .cb-row.b .colour.lilac {
+    background-color: #9590a0; }
+  .cb .cb-row.b .colour.sky-blue {
+    background-color: #6b9098; }
+  .cb .cb-row.b .colour.lime-green {
+    background-color: #c4caa5; }
+  .cb .cb-row.b .colour.soft-pink {
+    background-color: #a6868a; }
+  .cb .cb-row.b .colour.midnight-blue {
+    background-color: #21282f; }
+  .cb .cb-row.b .colour.slate-grey {
+    background-color: #606263; }
+  .cb .cb-row.b .colour.stone {
+    background-color: #575757; }
+  .cb .cb-row.b .colour.pebble {
+    background-color: #595756; }
+  .cb .cb-row.b .colour.powder-blue {
+    background-color: #999ca2; }
+  .cb .cb-row.b .colour.pearl-grey {
+    background-color: #d3d5d6; }
+  .cb .cb-row.b .colour.mushroom {
+    background-color: #c7c5c3; }
+  .cb .cb-row.b .colour.warm-grey {
+    background-color: #b4b1b0; }
+  .cb .cb-row.b .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.b .colour.white {
+    background-color: #ffffff; }
+  .cb .cb-row.c .colour.purple {
+    background-color: #004281; }
+  .cb .cb-row.c .colour.reflex-blue {
+    background-color: #003c75; }
+  .cb .cb-row.c .colour.sea-blue {
+    background-color: #0066c7; }
+  .cb .cb-row.c .colour.teal-blue {
+    background-color: #93929b; }
+  .cb .cb-row.c .colour.pea-green {
+    background-color: #bdaf7f; }
+  .cb .cb-row.c .colour.lime-green-2 {
+    background-color: #ac9900; }
+  .cb .cb-row.c .colour.yellow {
+    background-color: #ddc51e; }
+  .cb .cb-row.c .colour.orange {
+    background-color: #ab9921; }
+  .cb .cb-row.c .colour.kings-red {
+    background-color: #887b36; }
+  .cb .cb-row.c .colour.hot-pink {
+    background-color: #5876c0; }
+  .cb .cb-row.c .colour.lilac {
+    background-color: #7892db; }
+  .cb .cb-row.c .colour.sky-blue {
+    background-color: #a2acd7; }
+  .cb .cb-row.c .colour.lime-green {
+    background-color: #f0d630; }
+  .cb .cb-row.c .colour.soft-pink {
+    background-color: #9f998f; }
+  .cb .cb-row.c .colour.midnight-blue {
+    background-color: #273557; }
+  .cb .cb-row.c .colour.slate-grey {
+    background-color: #6a696f; }
+  .cb .cb-row.c .colour.stone {
+    background-color: #615f5e; }
+  .cb .cb-row.c .colour.pebble {
+    background-color: #625f59; }
+  .cb .cb-row.c .colour.powder-blue {
+    background-color: #9ba0be; }
+  .cb .cb-row.c .colour.pearl-grey {
+    background-color: #d9d6dc; }
+  .cb .cb-row.c .colour.mushroom {
+    background-color: #cdc6bc; }
+  .cb .cb-row.c .colour.warm-grey {
+    background-color: #bab4ad; }
+  .cb .cb-row.c .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.c .colour.white {
+    background-color: #fffffe; }
+  .cb .cb-row.d .colour.purple {
+    background-color: #004670; }
+  .cb .cb-row.d .colour.reflex-blue {
+    background-color: #003f65; }
+  .cb .cb-row.d .colour.sea-blue {
+    background-color: #006bae; }
+  .cb .cb-row.d .colour.teal-blue {
+    background-color: #9590ab; }
+  .cb .cb-row.d .colour.pea-green {
+    background-color: #caa992; }
+  .cb .cb-row.d .colour.lime-green-2 {
+    background-color: #bf921c; }
+  .cb .cb-row.d .colour.yellow {
+    background-color: #f7bb1c; }
+  .cb .cb-row.d .colour.orange {
+    background-color: #bf9200; }
+  .cb .cb-row.d .colour.kings-red {
+    background-color: #9a7500; }
+  .cb .cb-row.d .colour.hot-pink {
+    background-color: #79768e; }
+  .cb .cb-row.d .colour.lilac {
+    background-color: #7b94d0; }
+  .cb .cb-row.d .colour.sky-blue {
+    background-color: #9aace9; }
+  .cb .cb-row.d .colour.lime-green {
+    background-color: #ffce80; }
+  .cb .cb-row.d .colour.soft-pink {
+    background-color: #b6946f; }
+  .cb .cb-row.d .colour.midnight-blue {
+    background-color: #1a3759; }
+  .cb .cb-row.d .colour.slate-grey {
+    background-color: #706772; }
+  .cb .cb-row.d .colour.stone {
+    background-color: #685c5f; }
+  .cb .cb-row.d .colour.pebble {
+    background-color: #6a5c59; }
+  .cb .cb-row.d .colour.powder-blue {
+    background-color: #a19ec0; }
+  .cb .cb-row.d .colour.pearl-grey {
+    background-color: #e7d1e0; }
+  .cb .cb-row.d .colour.mushroom {
+    background-color: #ddc1be; }
+  .cb .cb-row.d .colour.warm-grey {
+    background-color: #c9afad; }
+  .cb .cb-row.d .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.d .colour.white {
+    background-color: #fefffe; }
+  .cb .cb-row.e .colour.purple {
+    background-color: #424449; }
+  .cb .cb-row.e .colour.reflex-blue {
+    background-color: #004447; }
+  .cb .cb-row.e .colour.sea-blue {
+    background-color: #007379; }
+  .cb .cb-row.e .colour.teal-blue {
+    background-color: #22a1ad; }
+  .cb .cb-row.e .colour.pea-green {
+    background-color: #5abdcb; }
+  .cb .cb-row.e .colour.lime-green-2 {
+    background-color: #a9939e; }
+  .cb .cb-row.e .colour.yellow {
+    background-color: #feb0bc; }
+  .cb .cb-row.e .colour.orange {
+    background-color: #ff6267; }
+  .cb .cb-row.e .colour.kings-red {
+    background-color: #e32d2c; }
+  .cb .cb-row.e .colour.hot-pink {
+    background-color: #c45257; }
+  .cb .cb-row.e .colour.lilac {
+    background-color: #94949e; }
+  .cb .cb-row.e .colour.sky-blue {
+    background-color: #00bfcc; }
+  .cb .cb-row.e .colour.lime-green {
+    background-color: #dad3e2; }
+  .cb .cb-row.e .colour.soft-pink {
+    background-color: #fb686e; }
+  .cb .cb-row.e .colour.midnight-blue {
+    background-color: #003c40; }
+  .cb .cb-row.e .colour.slate-grey {
+    background-color: #636b73; }
+  .cb .cb-row.e .colour.stone {
+    background-color: #605e65; }
+  .cb .cb-row.e .colour.pebble {
+    background-color: #685c62; }
+  .cb .cb-row.e .colour.powder-blue {
+    background-color: #8fa5b1; }
+  .cb .cb-row.e .colour.pearl-grey {
+    background-color: #d1d7e7; }
+  .cb .cb-row.e .colour.mushroom {
+    background-color: #d2c2d0; }
+  .cb .cb-row.e .colour.warm-grey {
+    background-color: #c2b0bd; }
+  .cb .cb-row.e .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.e .colour.white {
+    background-color: #feffff; }
+  .cb .cb-row.f .colour.purple {
+    background-color: #1d3186; }
+  .cb .cb-row.f .colour.reflex-blue {
+    background-color: #003380; }
+  .cb .cb-row.f .colour.sea-blue {
+    background-color: #0061cb; }
+  .cb .cb-row.f .colour.teal-blue {
+    background-color: #5e969d; }
+  .cb .cb-row.f .colour.pea-green {
+    background-color: #87b680; }
+  .cb .cb-row.f .colour.lime-green-2 {
+    background-color: #a59900; }
+  .cb .cb-row.f .colour.yellow {
+    background-color: #e6c119; }
+  .cb .cb-row.f .colour.orange {
+    background-color: #c98416; }
+  .cb .cb-row.f .colour.kings-red {
+    background-color: #a95b2c; }
+  .cb .cb-row.f .colour.hot-pink {
+    background-color: #805db0; }
+  .cb .cb-row.f .colour.lilac {
+    background-color: #858cd8; }
+  .cb .cb-row.f .colour.sky-blue {
+    background-color: #67b1db; }
+  .cb .cb-row.f .colour.lime-green {
+    background-color: #e0da2d; }
+  .cb .cb-row.f .colour.soft-pink {
+    background-color: #c18384; }
+  .cb .cb-row.f .colour.midnight-blue {
+    background-color: #1d3254; }
+  .cb .cb-row.f .colour.slate-grey {
+    background-color: #64676d; }
+  .cb .cb-row.f .colour.stone {
+    background-color: #5d5c5b; }
+  .cb .cb-row.f .colour.pebble {
+    background-color: #615b56; }
+  .cb .cb-row.f .colour.powder-blue {
+    background-color: #969fbd; }
+  .cb .cb-row.f .colour.pearl-grey {
+    background-color: #d4d6dc; }
+  .cb .cb-row.f .colour.mushroom {
+    background-color: #cdc5bb; }
+  .cb .cb-row.f .colour.warm-grey {
+    background-color: #bbb2ab; }
+  .cb .cb-row.f .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.f .colour.white {
+    background-color: #fffffe; }
+  .cb .cb-row.g .colour.purple {
+    background-color: #1d337c; }
+  .cb .cb-row.g .colour.reflex-blue {
+    background-color: #003576; }
+  .cb .cb-row.g .colour.sea-blue {
+    background-color: #0065bb; }
+  .cb .cb-row.g .colour.teal-blue {
+    background-color: #5e95a7; }
+  .cb .cb-row.g .colour.pea-green {
+    background-color: #8fb28c; }
+  .cb .cb-row.g .colour.lime-green-2 {
+    background-color: #b19412; }
+  .cb .cb-row.g .colour.yellow {
+    background-color: #f6ba17; }
+  .cb .cb-row.g .colour.orange {
+    background-color: #d67f01; }
+  .cb .cb-row.g .colour.kings-red {
+    background-color: #b45709; }
+  .cb .cb-row.g .colour.hot-pink {
+    background-color: #955d91; }
+  .cb .cb-row.g .colour.lilac {
+    background-color: #878dd0; }
+  .cb .cb-row.g .colour.sky-blue {
+    background-color: #62b0e6; }
+  .cb .cb-row.g .colour.lime-green {
+    background-color: #ead560; }
+  .cb .cb-row.g .colour.soft-pink {
+    background-color: #cf8070; }
+  .cb .cb-row.g .colour.midnight-blue {
+    background-color: #143355; }
+  .cb .cb-row.g .colour.slate-grey {
+    background-color: #68666e; }
+  .cb .cb-row.g .colour.stone {
+    background-color: #625a5c; }
+  .cb .cb-row.g .colour.pebble {
+    background-color: #665956; }
+  .cb .cb-row.g .colour.powder-blue {
+    background-color: #999ebf; }
+  .cb .cb-row.g .colour.pearl-grey {
+    background-color: #ddd3de; }
+  .cb .cb-row.g .colour.mushroom {
+    background-color: #d7c1bc; }
+  .cb .cb-row.g .colour.warm-grey {
+    background-color: #c4afab; }
+  .cb .cb-row.g .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.g .colour.white {
+    background-color: #fefffe; }
+  .cb .cb-row.h .colour.purple {
+    background-color: #473263; }
+  .cb .cb-row.h .colour.reflex-blue {
+    background-color: #003863; }
+  .cb .cb-row.h .colour.sea-blue {
+    background-color: #006a99; }
+  .cb .cb-row.h .colour.teal-blue {
+    background-color: #15a0a8; }
+  .cb .cb-row.h .colour.pea-green {
+    background-color: #48bfb0; }
+  .cb .cb-row.h .colour.lime-green-2 {
+    background-color: #a39564; }
+  .cb .cb-row.h .colour.yellow {
+    background-color: #fbb37d; }
+  .cb .cb-row.h .colour.orange {
+    background-color: #ff6143; }
+  .cb .cb-row.h .colour.kings-red {
+    background-color: #e32925; }
+  .cb .cb-row.h .colour.hot-pink {
+    background-color: #c6466e; }
+  .cb .cb-row.h .colour.lilac {
+    background-color: #968db1; }
+  .cb .cb-row.h .colour.sky-blue {
+    background-color: #00bdd4; }
+  .cb .cb-row.h .colour.lime-green {
+    background-color: #d3d89e; }
+  .cb .cb-row.h .colour.soft-pink {
+    background-color: #fb646f; }
+  .cb .cb-row.h .colour.midnight-blue {
+    background-color: #033646; }
+  .cb .cb-row.h .colour.slate-grey {
+    background-color: #5f686f; }
+  .cb .cb-row.h .colour.stone {
+    background-color: #5d5b5f; }
+  .cb .cb-row.h .colour.pebble {
+    background-color: #65595c; }
+  .cb .cb-row.h .colour.powder-blue {
+    background-color: #8ea2b5; }
+  .cb .cb-row.h .colour.pearl-grey {
+    background-color: #cfd7e3; }
+  .cb .cb-row.h .colour.mushroom {
+    background-color: #d0c2c8; }
+  .cb .cb-row.h .colour.warm-grey {
+    background-color: #bfb0b5; }
+  .cb .cb-row.h .colour.black {
+    background-color: #000000; }
+  .cb .cb-row.h .colour.white {
+    background-color: #feffff; }
+  .cb .cb-row .cb-header {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    flex: 2;
+    padding-right: 5px;
+    padding-left: 5px; }
+  .cb .cb-row .cb-title {
+    flex: 2; }
+  .cb .cb-row h5, .cb .cb-row p {
+    margin-bottom: 0; }
+  .cb .cb-row .colour-pan {
+    flex: 2; }
+  .cb .cb-row .colour {
+    height: 18px; }
+  .cb .cb-row .half {
+    flex: 1; }
+
+.cb-colour-names {
+  padding-right: 0; }
+  .cb-colour-names li {
+    margin-bottom: 0 !important; }
+
+.cb-standard {
+  overflow: hidden; }
+
+.cb-palettes {
+  display: flex; }
+  .cb-palettes .cb-palette-container:not(:last-of-type) {
+    margin-right: 1.5rem; }
+
+.cb-palette-title {
+  text-align: center; }
+
+img.cb-palette {
+  height: 390px;
+  margin-top: 5px; }
+
+/* Iconography
+   =========== */
+.icon-container {
+  display: inline; }
+  .icon-container .icon-box {
+    background-color: midnightblue;
+    color: white;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    font-size: 2.25rem;
+    margin-bottom: 1rem; }
+  .icon-container p:not(:last-child) {
+    margin-bottom: 0.5rem; }
+
+/* Card and Float box 
+   Dos and Don'ts 
+   ================== */
+.do-dont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.25rem; }
+  .do-dont .fas {
+    font-size: 2rem;
+    margin: 0 1rem; }
+    .do-dont .fas.fa-check-circle {
+      color: #28C382; }
+    .do-dont .fas.fa-times-circle {
+      color: #E2231A; }
+  .do-dont p:last-child {
+    margin-bottom: 0; }
+
+/* Release Plan 
+   Illustration
+   ============ */
+.release-name-number {
+  margin-bottom: 0; }
+  .release-name-number .major {
+    color: #E2231A; }
+  .release-name-number .minor {
+    color: #28C382; }
+  .release-name-number .patch {
+    color: #F5B90F; }
+.container.versioning {
+  border-right: 10px solid #28C382;
+  border-left: 10px solid #28C382; }
+  .container.versioning > .row:nth-child(2) {
+    background-color: #0A2D50; }
+  .container.versioning > .row > .col {
+    height: 1rem;
+    border-left: 10px solid #28C382; }
+    .container.versioning > .row > .col.row {
+      margin: 0; }
+    .container.versioning > .row > .col.major {
+      border-left: 10px solid #E2231A; }
+    .container.versioning > .row > .col > .col {
+      border-right: 5px solid #F5B90F; }

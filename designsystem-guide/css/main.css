@@ -1,6 +1,23 @@
 /* King's Online Design System Guide
    ================================= */
 
+/* Card and Float box
+   Dos and Don'ts
+   ================== */
+.do-dont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.25rem; }
+  .do-dont .fas {
+    font-size: 2rem;
+    margin: 0 1rem; }
+    .do-dont .fas.fa-check-circle {
+      color: #28C382; }
+    .do-dont .fas.fa-times-circle {
+      color: #E2231A; }
+  .do-dont p:last-child {
+    margin-bottom: 0; }
+
 /* Colours
    =======  */
 .colour-palette {
@@ -526,23 +543,6 @@ img.cb-palette {
     margin-bottom: 1rem; }
   .icon-container p:not(:last-child) {
     margin-bottom: 0.5rem; }
-
-/* Card and Float box 
-   Dos and Don'ts 
-   ================== */
-.do-dont {
-  display: flex;
-  align-items: center;
-  margin-bottom: 2.25rem; }
-  .do-dont .fas {
-    font-size: 2rem;
-    margin: 0 1rem; }
-    .do-dont .fas.fa-check-circle {
-      color: #28C382; }
-    .do-dont .fas.fa-times-circle {
-      color: #E2231A; }
-  .do-dont p:last-child {
-    margin-bottom: 0; }
 
 /* Release Plan 
    Illustration

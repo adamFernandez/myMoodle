@@ -1,6 +1,12 @@
 /* Editor
    ======================== */
 
+// hide activity icon from add a new activity page
+.editing #region-main h2:first-of-type > img.icon {
+  display: none;
+}
+
+// remove standard button margin from editor buttons
 .editor_atto_toolbar {
   button, button:last-child {
     margin: 0 !important;

@@ -156,6 +156,14 @@ section#region-main a:link {
   text-decoration: none;
 }
 
+// link download
+// download button in components/_button
+a.link-download {
+  // yellow 0.2 opacity
+  background-color: rgba(245, 184, 15, 0.2);
+  padding: 2px 4px;
+}
+
 #region-main {
   // link hover styles
   p a, li p a {

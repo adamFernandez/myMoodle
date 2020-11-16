@@ -1,10 +1,12 @@
-// -----------------------------------------------------------------------------
-// info box
-// -----------------------------------------------------------------------------
+/* Info boxes
+   =========================*/
+
+// Alert-type info boxes are covered in alerts
 
 //definition box
 .definition-box {
   @extend .info-box;
+  // from common
   background-color: $block-background;
   &::before {
     content: '\f02e';
@@ -22,8 +24,7 @@ body {
   }
   .editing-help-box {
     @extend .info-box;
-    // lime green 0.2 opacity
-    background-color: rgba(198, 226, 40, 0.2);
+    background-color: $lime-green-transparency;
     border-radius: 1.5rem;
     &::before {
       font-size: 1.5rem;
@@ -38,7 +39,7 @@ body {
 .feedback-box {
   @extend .info-box;
   &.correct-answer {
-    background-color: rgba(40,195,130,0.2) !important;
+    background-color: $pea-green-transparency !important;
     &::before {
       color: $pea-green;
       padding: 0 4px;
@@ -46,7 +47,7 @@ body {
     }
   }
   &.model-answer {
-    background-color: rgba(245,185,15,0.2) !important;
+    background-color: $yellow-transaprency !important;
     &::before {
       content: '\f27a';
       color: $yellow;
@@ -54,7 +55,7 @@ body {
     }
   }
   &.incorrect-answer {
-    background-color: rgba(226,35,26,0.2) !important;
+    background-color: $red-transparency !important;
     &::before {
       color: $kings-red;
       content: '\f057';
@@ -85,7 +86,7 @@ body {
 //learning outcome box
 #region-main .learning-outcome-box {
   @extend .info-box;
-  background-color: #edf1f2;
+  background-color: $block-background;
   &::before {
     content: '\f091';
     color: $teal-blue;

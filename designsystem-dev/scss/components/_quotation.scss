@@ -1,9 +1,9 @@
-// -----------------------------------------------------------------------------
-// quotation box
-// -----------------------------------------------------------------------------
+/* Quotation box
+   =========================*/
 
 .quote-box {
   @extend .info-box;
+  // from common
   background-color: $block-background;
   & > :first-child::before {
     content: '“';

@@ -1,6 +1,5 @@
-// -----------------------------------------------------------------------------
-// embed
-// -----------------------------------------------------------------------------
+/* Embed
+   ======================== */
 
 .embed-responsive {
   margin-bottom: $component-margin-bottom;
@@ -33,7 +32,6 @@
 }
 // kaltura playlist
 .embed-responsive-kaltura-playlist {
-  // padding-top: calc(330%/7.4);
   padding-top: 0;
   & > * {
     width: 100% !important;
@@ -108,6 +106,7 @@
   }
 }
 
+// transcript 
 .transcript-container {
   margin-bottom: $component-margin-bottom;
   .transcript-button-group {

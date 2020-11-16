@@ -1,13 +1,7 @@
 @import '../css/normalize.css';
 
 @import 'utilities/variables';
-//@import 'utilities/functions';
-@import 'utilities/mixins';
 
-//@import 'vendors/bootstrap';
-//@import 'vendors/jquery-ui';
-
-//@import 'base/reset';
 @import 'base/fonts';
 @import 'base/typography';
 @import 'base/common';
@@ -15,9 +9,7 @@
 @import 'layout/navigation';
 @import 'layout/grid';
 @import 'layout/header';
-//@import 'layout/footer';
 @import 'layout/sidebar';
-@import 'layout/forms';
 
 @import 'components/academicnote';
 @import 'components/activitylabel';
@@ -42,7 +34,6 @@
 @import 'components/timeline';
 @import 'components/viewanswer';
 
-@import 'activities/all';
 @import 'activities/book';
 @import 'activities/choice';
 @import 'activities/contentbank';
@@ -60,10 +51,4 @@
 
 @import 'pages/editor';
 @import 'pages/home';
-@import 'pages/kitchensink';
 @import 'pages/logs';
-@import 'pages/modinfo';
-@import 'pages/versioning';
-
-//@import 'themes/theme';
-//@import 'themes/admin';

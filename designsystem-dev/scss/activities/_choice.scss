@@ -1,14 +1,20 @@
-// -----------------------------------------------------------------------------
-// choice
-// -----------------------------------------------------------------------------
+/* Choice
+   ======================== */
 
-.path-mod-choice {
+#page-mod-choice-view {
   #region-main {
     .reportlink {
       text-align: left;
       a {
         @extend .ds-link;
       }
+    }
+    .clearer {
+      height: auto;
+    }
+    .generalbox {
+      padding: 0 !important;
+      margin-bottom: $component-margin-bottom !important;
     }
     // hide chart image and display data table
     .chart-area {

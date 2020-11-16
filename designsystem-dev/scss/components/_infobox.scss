@@ -47,7 +47,7 @@ body {
     }
   }
   &.model-answer {
-    background-color: $yellow-transaprency !important;
+    background-color: $yellow-transparency !important;
     &::before {
       content: '\f27a';
       color: $yellow;

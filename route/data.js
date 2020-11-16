@@ -368,22 +368,22 @@ var data = {
     "module1": {
       "general": {
         "1": "mod/forum/view.php?id=2951321",
-        "2": "mod/forum/view.php?id=4519447"
+        "2": "mod/forum/view.php?id=4625175"
       },
       "week1": {
         "part3": {
           "social": {
             "act1": {
               "1": "mod/choice/view.php?id=2951338",
-              "2": "mod/choice/view.php?id=4519470"
+              "2": "mod/choice/view.php?id=4625197"
             }
           }
         }
       },
       "week3": {
         "activity": {
-          "1": "mod/forum/discuss.php?d=4519447",
-          "2": "mod/forum/discuss.php?d=4519447"
+          "1": "mod/forum/discuss.php?d=4625175",
+          "2": "mod/forum/discuss.php?d=4625175"
         }
       }
     },

@@ -1,70 +1,72 @@
-// -----------------------------------------------------------------------------
-// book
-// -----------------------------------------------------------------------------
+/* Book
+   ======================== */
 
-/*
-// screen reader
-.path-mod-book.editing {
-  #region-main {
-    .sr-only, .ds-sr-only, #id_content_editoreditable .sr-only {
-      width: auto;
-      height: auto;
-      // teal-blue
-      background-color: rgba(0, 155, 158, 0.2);
-      position: initial;
-      margin: 0;
-      padding: 0.5rem;
-    }
-  }
-  #region-main .book_content [aria-hidden="true"],
-  #id_content_editoreditable [aria-hidden="true"] {
-    //orange
-    background-color: rgba(255, 97, 5, 0.2);
-    padding: 0.5rem;
-  }
-}
-*/
-
-//override book headings
-.path-mod-book {
-  #region-main {
-    & > div:first-of-type {
-      &> h2:first-of-type {
-        @extend .h2;
-        margin-bottom: $component-margin-bottom-lg;
+#page-mod-book-view {
+  #page-content {
+    #region-main {
+      position: relative;
+      // book print button
+      #print-btn-container {
+        margin-bottom: 1.5rem;
+        position: absolute;
+        right: 0;
+        .print-book-btn {
+          margin: unset !important;
+          &::before {
+            content: '\f02f';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            margin-right: 0.5rem;
+          }
+        }
+      }
+      & > div:first-of-type {
+        & > h2:first-of-type {
+          // override theme book heading style
+          @extend .h2;
+          margin-bottom: $component-margin-bottom-lg;
+          // prevent the title from overlapping with the print button
+          margin-right: calc(88px + 1rem);
+        }
+      }
+      .generalbox.book_content {
+        // override theme book content padding
+        padding: 0 !important;
+        // override theme chapter heading style
+        & > h3 {
+          @extend .h3;
+        }
       }
     }
-    .generalbox.book_content {
-      // override book content padding
-      padding-top: 0 !important;
-      & > h3 {
-        @extend .h3;
+    // hide first chapter title of single chapter book
+    &.single-chapter-book {
+      .book_content > h3:first-of-type {
+        display: none;
+      }
+    }
+    aside {
+      // book table of contents block
+      .block_book_toc {
+        .book_toc {
+          // prevent book TOC from truncating title
+          .d-flex:not(.action-list) {
+            display: block !important;
+            .text-truncate {
+              white-space: initial;
+            }
+            .action-list {
+              justify-content: flex-end;
+            }
+          }
+        }
       }
     }
   }
 }
 
-// single chapter book hide first chapter title
-.single-chapter-book .book_content > h3:first-of-type {
-  display: none;
-}
-
-// moodle 3.9 prevent book TOC from truncating title
-.block_book_toc {
-  .book_toc {
-    .d-flex:not(.action-list) {
-      display: block !important;
-      .text-truncate {
-        white-space: initial;
-      }
-      .action-list {
-        justify-content: flex-end;
-      }
-    }
+#page-mod-book-edit {
+  // remove subchapter option when editing book
+  .form-group.row.fitem.subchapter {
+    display: none;
   }
-}
-
-// remove subchapter option when editing book
-#page-mod-book-edit .form-group.row.fitem.subchapter {
-  display: none;
 }

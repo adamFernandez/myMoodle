@@ -469,19 +469,19 @@ var data = {
     },
     "module9": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3222781"
+        "1": "mod/forum/view.php?id=4625489"
       }
     },
     "module10": {
       "discussion": {
-        "1": "mod/forum/view.php?id=4520673",
+        "1": "mod/forum/view.php?id=4625613",
         "2": "mod/forum/view.php?id=2942155"
       }
     },
     "module11": {
       "discussion": {
         "1": "mod/forum/view.php?id=2958006",
-        "2": "mod/forum/view.php?id=4520813"
+        "2": "mod/forum/view.php?id=4625720"
       }
     },
     "module12": {
@@ -493,7 +493,7 @@ var data = {
     "module13": {
       "discussion": {
         "1": "mod/forum/view.php?id=2948091",
-        "2": "mod/forum/view.php?id=4520986"
+        "2": "mod/forum/view.php?id=4625878"
       }
     }
   },

@@ -1,10 +1,10 @@
-// -----------------------------------------------------------------------------
-// kaltura video assignment
-// -----------------------------------------------------------------------------
+/* Kaltura video assignment
+   ======================== */
 
 .path-mod-kalvidassign {
   #region-main {
-    #video_thumbnail, .kaltura-player-container {
+    #video_thumbnail,
+    .kaltura-player-container {
       margin-bottom: $component-margin-bottom;
     }
     form {

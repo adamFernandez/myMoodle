@@ -6622,7 +6622,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
     font-weight: bold;
     text-decoration: underline !important; }
 
-.path-mod-lti a:link {
+#page-mod-lti-view #region-main > div:first-child a:link {
   font-weight: bold;
   text-decoration: underline !important;
   margin-bottom: 2.25rem; }

@@ -8,7 +8,7 @@
     position: absolute;
     height: 4px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    @include bg-colour-opacity($midnight-blue, 0.25);
     z-index: 50;
   }
   .carousel-item {
@@ -48,7 +48,7 @@
   }
   &.text-only {
     .carousel-item {
-      background-color: rgba(10, 45, 80, 0.85);
+      @include bg-colour-opacity($midnight-blue, 0.85);
       padding-top: 33.3333%;
     }
     .carousel-caption {
@@ -64,7 +64,7 @@
     bottom: -32px;
     margin: 0 !important;
     width: 100%;
-    background-color: rgba(10, 45, 80, 1);
+    @include bg-colour-opacity($midnight-blue, 1);
     li {
       width: 12px;
       height: 12px;
@@ -73,15 +73,17 @@
       margin: 10px 11px;
     }
   }
-  .carousel-control-prev, .carousel-control-next {
+  .carousel-control-prev,
+  .carousel-control-next {
     opacity: 1;
   }
   // hide carousel controls on first and last slide
-  &.start .carousel-control-prev, &.finish .carousel-control-next {
+  &.start .carousel-control-prev,
+  &.finish .carousel-control-next {
     display: none;
   }
   .carousel-control {
-    background-color: rgba(10, 45, 80, 0.5);
+    @include bg-colour-opacity($midnight-blue, 0.5);
     padding: 0 15px !important;
     border-radius: 4px;
     position: static;
@@ -90,10 +92,10 @@
     height: auto !important;
     opacity: 1;
     &:hover {
-      background-color: rgba(10, 45, 80, 1);
+      @include bg-colour-opacity($midnight-blue, 1);
     }
     i {
-    font-size: 60px;
+      font-size: 60px;
     }
   }
 }  

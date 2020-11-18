@@ -43,18 +43,19 @@ $rules-and-outlines: #8B9296;
 $block-header: #DCE3E6;
 $block-background: #EDF1F2;
 $table-border: #8B9296;
-// from Alert, infobox, screenreader description
-$pea-green-transparency: rgba(40,195,130,0.2);
-$yellow-transparency:rgba(245,185,15,0.2);
-$red-transparency:rgba(226,35,26,0.2);
-$lime-green-transparency: rgba(198, 226, 40, 0.2);
-$teal-transparency: rgba(0, 155, 158, 0.2);
-$orange-transparency: rgba(255, 97, 5, 0.2);
 
+// converts hex to rgba with custom opacity
+@mixin colour-opacity($color, $opacity) {
+  color: rgba($color, $opacity);
+}
+@mixin bg-colour-opacity($color, $opacity) {
+  background-color: rgba($color, $opacity) !important;
+}
 
 /* Layout */
 
 // Breakpoints
+$xxl-breakpoint: 1400px;
 $xl-breakpoint: 1200px;
 $lg-breakpoint: 979px;
 $neo-breakpoint: 768px;

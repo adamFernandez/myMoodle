@@ -197,7 +197,7 @@ body {
                     width: 1.25rem;
                     padding: 0;
                     border-radius: 4px;
-                    background: rgba(255, 255, 255, 0.8);
+                    @include bg-colour-opacity($white, 0.8);
                   }
                 }
                 .filler {
@@ -399,7 +399,7 @@ body {
                 font-family: 'KingsBureauGrot';
               }
               .icon_content {
-                background-color: rgba(90,100,105,0.85) !important;
+                @include bg-colour-opacity($slate-grey, 0.85);
               }
               img {
                 filter: grayscale(1);
@@ -553,8 +553,7 @@ body {
               }
             }
             .sectionbody.sectionopen {
-              // block-background at 30 opacity
-              background-color: rgba(237, 241, 242, 0.3);
+              @include bg-colour-opacity($block-background, 0.3);
               padding: $component-margin $component-margin-xs;
               margin-bottom: $component-margin-bottom-xs;
               border: 1px solid $pearl-grey;
@@ -859,7 +858,7 @@ body {
             border: none;
             .content {
               // apply background to each section
-              background: rgba(237, 241, 242, 0.3);
+              @include bg-colour-opacity($block-background, 0.3);
               margin: 0 0 1rem 0 !important;
               padding: 0 0.5rem 0.5rem 0.5rem !important;
               .sectionname {

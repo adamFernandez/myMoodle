@@ -7,7 +7,7 @@
   @extend .info-box;
   // from common
   &.alert-success {
-    background-color: $pea-green-transparency !important;
+    @include bg-colour-opacity($pea-green, 0.2);
     &::before {
       content: '\f164';
       color: $pea-green;
@@ -15,7 +15,7 @@
     }
   }
   &.alert-instructional {
-    background-color: $yellow-transparency !important;
+    @include bg-colour-opacity($yellow, 0.2);
     &::before {
       content: '\f086';
       color: $purple70;
@@ -23,7 +23,7 @@
     }
   }
   &.alert-caution {
-    background-color: $yellow-transparency !important;
+    @include bg-colour-opacity($yellow, 0.2);
     &::before {
       color: $kings-red;
       content: '\f071';
@@ -31,7 +31,7 @@
     }
   }
   &.alert-danger {
-    background-color: $red-transparency !important;
+    @include bg-colour-opacity($kings-red, 0.2);
     &::before {
       color:$kings-red;
       content: '\f071';

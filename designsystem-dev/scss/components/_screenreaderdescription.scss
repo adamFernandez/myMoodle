@@ -1,12 +1,12 @@
 /* Screenreader-only description
-   =========================*/
+   ============================= */
 
 @mixin label-inner-top-left ($label-text, $bg-color){
   &::before{
     font-family: 'KingsBureauGrot';
     font-size: 1.125rem;
     color: $white;
-    height:27px;
+    height: 27px;
     justify-content: center;
     padding: 4px;
     content: $label-text;
@@ -19,20 +19,18 @@
     #id_content_editoreditable .sr-only {
       width: auto;
       height: auto;
-      background-color: $teal-transparency;
+      @include bg-colour-opacity($teal-blue, 0.2);
       position: initial;
-      margin: 0.5rem 0rem !important;
+      margin: $component-margin-xs 0 !important;
       padding: 0.5rem;
       border: 1px dashed $body-text;
       @include label-inner-top-left ('Description for screen readers', $teal-blue)
     }
-
     .sr-only p:first-child{
-      margin-top:20px;
+      margin-top: 20px;
     }
-
     #id_content_editoreditable .complex-image {
-      background-color: $orange-transparency;
+      @include bg-colour-opacity($orange, 0.2);
       padding: 0.5rem;
       margin: 0.5rem 0rem !important;
       border: 1px solid $body-text;

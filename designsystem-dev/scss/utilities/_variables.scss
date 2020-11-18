@@ -45,9 +45,6 @@ $block-background: #EDF1F2;
 $table-border: #8B9296;
 
 // converts hex to rgba with custom opacity
-@mixin colour-opacity($color, $opacity) {
-  color: rgba($color, $opacity);
-}
 @mixin bg-colour-opacity($color, $opacity) {
   background-color: rgba($color, $opacity) !important;
 }

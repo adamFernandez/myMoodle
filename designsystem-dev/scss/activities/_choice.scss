@@ -6,6 +6,7 @@
     .reportlink {
       text-align: left;
       a {
+        // from Common
         @extend .ds-link;
       }
     }

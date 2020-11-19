@@ -1,8 +1,11 @@
 /* View/hide
-   =========================*/
+   ======================== */
 
-.view-generic-container, .view-answer-container, .view-feedback-container,
-.view-model-answer-container, .view-description-container {
+.view-generic-container,
+.view-answer-container,
+.view-feedback-container,
+.view-model-answer-container,
+.view-description-container {
+  // from Common
   @extend .note-container;
-  // from common
 }

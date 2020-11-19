@@ -1,11 +1,14 @@
-/* Kaltura video assignment
+/* Kaltura media assignment
    ======================== */
 
-.path-mod-kalvidassign {
+#page-mod-kalvidassign-view {
   #region-main {
-    #video_thumbnail,
-    .kaltura-player-container {
+    #video_thumbnail {
       margin-bottom: $component-margin-bottom;
+    }
+    .kaltura-player-container {
+      display: flex;
+      justify-content: center;
     }
     form {
       input {
@@ -16,4 +19,8 @@
       }
     }
   }
+}
+
+// grade submission admin view
+#page-mod-kalvidassign-grade_submissions {
 }

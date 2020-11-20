@@ -1,7 +1,83 @@
 /* Common
    ======================== */
 
+// Table of contents
+// =================
+// 1. Font Awesome psuedoelement
+//   - .icon-before / Button, etc.
+// 2. Image psuedoelements
+//    - .top-bar / Hero
+// 3. Links
+//    - .ds-link / Choice
+//    - .bold-link / File, LTI, URL
+// 4. Component templates and subcomponents
+//    - .caption-overlay / Carousel, Hero
+//    - .infobox / Alert, Infobox
+//    - .note-contaienr / Academic note, Viewhide
+
+// 1. Font Awesome psuedoelement
+// extended in Button, etc
+
+.icon-before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  margin-right: 0.375rem;
+}
+
+// 2. Image psuedoelements
+// extended in Hero
+
+.top-bar {
+  position: relative;
+   &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    @include bg-colour-opacity($black, 0.25);
+    z-index: 0;
+  }
+}
+
+// 3. Links
+// extended in Choice
+
+.ds-link {
+  text-decoration: underline;
+  color: $reflex-blue;
+  &:hover {
+    color: $sea-blue;
+  }
+  &:visited {
+    color: $midnight-blue;
+  }
+}
+
+// extended in File, LTI, URL
+.bold-link {
+  margin-bottom: $component-margin-bottom-lg;
+  a:link {
+    font-weight: bold;
+    text-decoration: underline !important;
+  }
+}
+
+// 4. Component templates and subcomponents
 // extended in Alert, Infobox
+// extended in Carousel, Hero
+
+.caption-overlay {
+  position: absolute;
+  @include bg-colour-opacity($midnight-blue, 0.85);
+  bottom: 0;
+  left: auto;
+  right: auto;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+}
+
 .info-box {
   margin-bottom: $component-margin-bottom;
   border-radius: 0;
@@ -35,73 +111,21 @@
   }
 }
 
-// extended in Choice
-.ds-link {
-  text-decoration: underline;
-  color: $reflex-blue;
-  &:hover {
-    color: $sea-blue;
-  }
-  &:visited {
-    color: $midnight-blue;
-  }
-}
-// extended in File, LTI, URL
-.bold-link {
-  margin-bottom: $component-margin-bottom-lg;
-  a:link {
-    font-weight: bold;
-    text-decoration: underline !important;
-  }
-}
-
-// extended in Hero
-.top-bar {
-  position: relative;
-   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 4px;
-    width: 100%;
-    @include bg-colour-opacity($black, 0.25);
-    z-index: 0;
-  }
-}
-
-// extended in Carousel, Hero
-.caption-overlay {
-  position: absolute;
-  @include bg-colour-opacity($midnight-blue, 0.85);
-  bottom: 0;
-  left: auto;
-  right: auto;
-  width: 100%;
-  padding: 1.25rem 1.5rem;
-}
-
-.icon-before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  margin-right: 0.375rem;
-}
-
 // extended in academicnote, viewhide
 .note-container {
   margin-bottom: $component-margin-bottom;
-  & > a::before,
-  & > button::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    margin-right: 0.375rem;
-    content: '\f070';
+  & > a,
+  & > button {
+    margin-bottom: 0 !important;
+    &::before {
+      @extend .icon-before;
+      content: '\f070';
+    }
   }
   & > div {
     & > .card-body {
       border-left: 4px solid $pearl-grey;
       padding: 0 0 0 $component-margin;
-      margin-top: $component-margin;
       .card-author {
         display: flex;
         align-items: center;
@@ -113,6 +137,14 @@
           width: 75px;
           margin-right: $component-margin-sm;
         }
+      }
+      .card-text {
+        & > *:last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      & > *:last-child {
+        margin-bottom: 0;
       }
     }
   }

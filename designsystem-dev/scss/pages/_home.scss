@@ -17,16 +17,7 @@ body {
           // hide activity labels on module information, forums and webinars, and
           // assessment pages
           &.section-hide-activity-labels {
-            li.activity {
-              &.type-assessed .activity-label-container {
-                .group-icon, .media-icon {
-                  display: none !important;
-                }
-              }
-              &:not(.type-assessed) .activity-label-container {
-                display: none !important;
-              }
-            }
+            @extend .hide-activity-labels;
           }
           .content {
             margin: 0 !important;
@@ -78,17 +69,14 @@ body {
               &.label p:last-child {
                 margin-bottom: 0;
               }
-              &.type-study .activityinstance .activity-label-container .activity-label {
-                display: none !important;
-              }
-              &.type-activity .activityinstance .activity-label-container
-              .activity-label {
+              &.type-study .activityinstance a {
+                .activity-label-container {
+                  @extend .activity-label-container-default.study;
+                }
               }
               &.type-assessed .activityinstance a {
-                .activity-label-container .activity-label {
-                  background-color: #60bbba !important;
-                  color: $white !important;
-                  width: 5.5rem !important;
+                .activity-label-container  {
+                  @extend .activity-label-container-default.assessed;
                 }
               }
               .mod-indent-outer > div:last-child {
@@ -133,14 +121,6 @@ body {
                   }
                   .activity-label-container {
                     @extend .activity-label-container-default;
-                    display: inline-flex;
-                    // safari renders the kings font slightly out of whack with all other
-                    // browsers
-                    @media not all and (min-resolution:.001dpcm) {
-                      .activity-label {
-                        line-height: 1.7;
-                      }
-                    }
                   }
                 }
                 a.quickeditlink {

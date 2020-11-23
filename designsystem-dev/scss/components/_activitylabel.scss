@@ -1,8 +1,17 @@
 /* Activity label
    ======================== */
    
+// default activity label display
+// extended in Home
 .activity-label-container-default {
-  display: inline;
+  display: inline-flex;
+  // safari renders the kings font slightly out of whack with all other
+  // browsers
+  @media not all and (min-resolution:.001dpcm) {
+    .activity-label {
+      line-height: 1.7;
+    }
+  }
   .activity-label {
     display: inline-block;
     font-family: 'KingsBureauGrot';
@@ -18,19 +27,53 @@
     margin-left: 1rem;
     background-color: $block-background;
   }
+  // hide label completely for study type activity
+  &.study {
+    .activity-label {
+      display: none !important;
+    }
+  }
+  // adjust colours for assessed label
+  &.assessed {
+    .activity-label {
+      @include bg-colour-opacity($teal-blue, 0.7);
+      color: $white !important;
+      width: 5.5rem !important;
+    }
+  }
   .group-icon {
     color: $orange;
     font-size: 1.25rem;
-  }
-  .group-icon .fas.fa-user-friends,
-  .media-icon .fas.fa-play-circle {
-    margin-left: $component-margin-xs;
-    @media only screen and (min-width: $neo-breakpoint) {
-      margin-left: $component-margin-sm;
+    .fas.fa-user-friends {
+      margin-left: $component-margin-xs;
+      @media only screen and (min-width: $neo-breakpoint) {
+        margin-left: $component-margin-sm;
+      }
     }
   }
   .media-icon {
     color: $sea-blue;
     font-size: 1.25rem;
+    .fas.fa-play-circle {
+      margin-left: $component-margin-xs;
+      @media only screen and (min-width: $neo-breakpoint) {
+        margin-left: $component-margin-sm;
+      }
+    }
+  }
+}
+
+// hide activity labels on specific section pages
+// extended in Home
+.hide-activity-labels {
+  li.activity {
+    &.type-assessed .activity-label-container {
+      .group-icon, .media-icon {
+        display: none !important;
+      }
+    }
+    &:not(.type-assessed) .activity-label-container {
+      display: none !important;
+    }
   }
 }

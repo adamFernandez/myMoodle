@@ -8,4 +8,7 @@
 .view-description-container {
   // from Common
   @extend .note-container;
+  .card-body {
+    margin-top: $component-margin;
+  }
 }

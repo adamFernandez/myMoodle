@@ -762,14 +762,14 @@ body #region-main .course-content ul > li.section.main ul.section li.activity .a
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
-    color: #FF5F05;
+    color: #FFFFFF;
     width: 5rem;
     height: 1.5rem;
     border-radius: 15px;
     margin-left: 1rem;
-    background-color: #EDF1F2; }
+    background-color: #EB5600; }
   .activity-label-container-default .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
-    color: #FF5F05;
+    color: #EB5600;
     font-size: 1.25rem; }
   .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
@@ -6051,7 +6051,6 @@ a.activity-link {
     text-decoration: underline; }
   a.activity-link .activity-label-container .activity-label.assessed {
     background-color: #60bbba !important;
-    color: #FFFFFF;
     width: 5.5rem !important; }
 
 .path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {

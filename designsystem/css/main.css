@@ -5401,7 +5401,7 @@ body #region-main .course-content ul > li.section.main {
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
         display: none !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
-        background-color: #60bbba !important;
+        background-color: #009ea0 !important;
         color: #FFFFFF !important;
         width: 5.5rem !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
@@ -6050,7 +6050,7 @@ a.activity-link {
   a.activity-link .activity-title {
     text-decoration: underline; }
   a.activity-link .activity-label-container .activity-label.assessed {
-    background-color: #60bbba !important;
+    background-color: #009ea0 !important;
     width: 5.5rem !important; }
 
 .path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {

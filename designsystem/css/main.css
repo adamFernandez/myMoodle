@@ -6937,7 +6937,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
             line-height: 1.5; }
             .que .content .formulation .ablock .answer .r0 label p, .que .content .formulation .ablock .answer .r1 label p {
               margin: 0; }
-          .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img.icon {
+          .que .content .formulation .ablock .answer .r0 img.icon, .que .content .formulation .ablock .answer .r1 img.icon {
             display: none; }
         .que .content .formulation .ablock .answer > div.correct {
           background-color: rgba(40, 195, 130, 0.2) !important; }

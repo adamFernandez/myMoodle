@@ -5369,6 +5369,10 @@ body #region-main .course-content ul > li.section.main {
     padding: 0 !important; }
     body #region-main .course-content ul > li.section.main .content h3.sectionname {
       color: #171717; }
+    body #region-main .course-content ul > li.section.main .content
+      .section_availability .availabilityinfo .label {
+      background-color: #005AD2;
+      color: #FFFFFF; }
     body #region-main .course-content ul > li.section.main .content .summary .no-overflow {
       width: 100%; }
     body #region-main .course-content ul > li.section.main .content > #completionprogressid {

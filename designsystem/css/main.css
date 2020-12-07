@@ -5478,7 +5478,8 @@ body #region-main .course-content ul > li.section.main {
         order: 3;
         flex: 0 0 100%;
         margin: 0.5rem 0 0 0; }
-        body #region-main .course-content ul > li.section.main ul.section li.activity .availabilityinfo label {
+        body #region-main .course-content ul > li.section.main ul.section li.activity .availabilityinfo .label {
+          background-color: #005AD2;
           color: #FFFFFF; }
       body #region-main .course-content ul > li.section.main ul.section li.activity.indent .contentwithoutlink, body #region-main .course-content ul > li.section.main ul.section li.activity .contentafterlink {
         border-left: 3px solid #CDD7DC;

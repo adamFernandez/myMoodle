@@ -762,14 +762,14 @@ body #region-main .course-content ul > li.section.main ul.section li.activity .a
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
-    color: #FF5F05;
+    color: #EB5600;
     width: 5rem;
     height: 1.5rem;
     border-radius: 15px;
     margin-left: 1rem;
     background-color: #EDF1F2; }
   .activity-label-container-default .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon, a.activity-link .activity-label-container .group-icon {
-    color: #FF5F05;
+    color: #EB5600;
     font-size: 1.25rem; }
   .activity-label-container-default .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, body #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > :not(.quickeditlink) .activity-label-container .group-icon .fas.fa-user-friends, a.activity-link .activity-label-container .group-icon .fas.fa-user-friends,
   .activity-label-container-default .media-icon .fas.fa-play-circle,
@@ -1103,7 +1103,6 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
   .card > img, .card .card-img-top, .card .card-img-left, .card .img-top, .card .img-left,
   .card .filter-ally-wrapper > img {
     width: 310px;
-    height: 100%;
     flex-shrink: 0;
     border-radius: 0; }
     @media only screen and (max-width: 768px) {
@@ -1114,6 +1113,8 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
     .card .filter-ally-wrapper > img.img-right,
     .card .filter-ally-wrapper > img .card-img-right {
       order: 2; }
+  .card > img {
+    height: 100%; }
   .card.img-right > img,
   .card.img-right > .filter-ally-wrapper {
     order: 2; }
@@ -5400,7 +5401,7 @@ body #region-main .course-content ul > li.section.main {
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-study .activityinstance .activity-label-container .activity-label {
         display: none !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity.type-assessed .activityinstance a .activity-label-container .activity-label {
-        background-color: #60bbba !important;
+        background-color: #009ea0 !important;
         color: #FFFFFF !important;
         width: 5.5rem !important; }
       body #region-main .course-content ul > li.section.main ul.section li.activity .mod-indent-outer > div:last-child {
@@ -6049,8 +6050,8 @@ a.activity-link {
   a.activity-link .activity-title {
     text-decoration: underline; }
   a.activity-link .activity-label-container .activity-label.assessed {
-    background-color: #60bbba !important;
-    color: #FFFFFF;
+    background-color: #009ea0 !important;
+    color: #ffffff;
     width: 5.5rem !important; }
 
 .path-mod-kalvidassign #region-main #video_thumbnail, .path-mod-kalvidassign #region-main .kaltura-player-container {
@@ -6622,7 +6623,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
     font-weight: bold;
     text-decoration: underline !important; }
 
-.path-mod-lti a:link {
+#page-mod-lti-view #region-main > div:first-child a:link {
   font-weight: bold;
   text-decoration: underline !important;
   margin-bottom: 2.25rem; }
@@ -6936,7 +6937,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
             line-height: 1.5; }
             .que .content .formulation .ablock .answer .r0 label p, .que .content .formulation .ablock .answer .r1 label p {
               margin: 0; }
-          .que .content .formulation .ablock .answer .r0 img.icon, .que .content .formulation .ablock .answer .r1 img.icon {
+          .que .content .formulation .ablock .answer .r0 img, .que .content .formulation .ablock .answer .r1 img.icon {
             display: none; }
         .que .content .formulation .ablock .answer > div.correct {
           background-color: rgba(40, 195, 130, 0.2) !important; }

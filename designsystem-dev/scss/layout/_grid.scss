@@ -1,9 +1,16 @@
 /* Grid
    =========================*/
 
+// required for sticky footer
+#wrapper {
+  height: 100%;
+}
+
 // general layout styles applied on every page
 #page {
   padding: 0;
+  // sticky footer for pages with little content
+  min-height: calc(100% - 231px);
   #page-header-nav, #page-content {
     // ensure content is no wider than 1312px even on extra wide screens
     @media only screen and (min-width: $xxl-breakpoint) {
@@ -19,7 +26,7 @@
           height: auto;
           // remove theme's padding from main content area
           // unless there is no page heading
-          & ~ h2 + .generalbox {
+          & ~ h2 ~ .generalbox {
             padding: 0 !important;
           }
           // keep top padding only when page heading absent

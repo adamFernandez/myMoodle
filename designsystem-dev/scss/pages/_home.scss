@@ -1,10 +1,12 @@
 /* Home
    ======================== */
 
-body {
+// only grid and collapsed topics formtas are supported
+#page-course-view-grid,
+#page-course-view-topcoll {
   #region-main {
     .course-content {
-      // completion progress id
+      // hide topcoll completion progress info
       & > #completionprogressid {
         display: none !important;
       }
@@ -26,11 +28,21 @@ body {
              h3.sectionname {
               color: $headings;
             }
+            .section_availability {
+              .availabilityinfo {
+                .label {
+                  background-color: $sea-blue;
+                  color: $white;
+                }
+              }
+            }
             .summary {
               .no-overflow {
                 width: 100%;
               }
             }
+            // hide completion progress info as it is
+            // cloned into each section individually
             & > #completionprogressid {
               display: none !important;
             }
@@ -44,7 +56,7 @@ body {
                 padding: 0;
               }
             }
-            // activity type labels
+            // Moodle activity title link
             li.activity {
               display: flex;
               margin-bottom: $component-margin-bottom-sm !important;
@@ -119,6 +131,14 @@ body {
                       text-decoration: underline;
                     }
                   }
+                  & > .stealth {
+                    opactiy: 0.9;
+                    .activity-label-container {
+                      .activity-label {
+                        color: $slate-grey;
+                      }
+                    }
+                  }
                   .activity-label-container {
                     @extend .activity-label-container-default;
                   }
@@ -138,7 +158,8 @@ body {
                 order: 3;
                 flex: 0 0 100%;
                 margin: $component-margin-xs 0 0 0;
-                label {
+                .label {
+                  background-color: $sea-blue;
                   color: $white;
                 }
               }
@@ -321,18 +342,17 @@ body {
       }
       // grid format
       #gridiconcontainer {
-        // for some reason a right margin cant be overidden
-        width: 103%;
         ul.gridicons {
-          margin-left: -0.75rem;
-          margin-right: 0.75rem;
+          width: calc(100% + 2rem);
+          margin-left: -1rem;
+          margin-right: -1rem;
           li {
-          @extend .top-bar;
-            padding: 0;
-            margin: 0.75rem;
+            padding: 0.75rem;
+            background-color: transparent;
           }
         }
-        .gridicon_link, ul.gridicons > li > span:first-child {
+        .gridicon_link,
+        ul.gridicons > li > span:first-child {
           position: relative;
           .icon_content {
             @extend .caption-overlay;
@@ -340,7 +360,7 @@ body {
             text-align: left;
             z-index: 1;
             padding: 1rem;
-            width: 277.5px;
+            width: calc(310px - 2rem);
             height: 100px;
             font-family: 'KingsBureauGrot';
             font-size: 1.25rem;
@@ -349,8 +369,9 @@ body {
             opacity: 1;
           }
           .image_holder {
+            @extend .top-bar;
             border: none;
-            width: 309.5px;
+            width: 310px;
             height: 310px;
             background-color: transparent;
             border-radius: 0;
@@ -499,6 +520,7 @@ body {
                     padding-left: $component-margin-lg;
                     font-weight: normal;
                     .label {
+                      background-color: $sea-blue;
                       color: $white;
                     }
                   }
@@ -1004,5 +1026,16 @@ a.activity-link {
       color: $white;
       width: 5.5rem !important;
     }
+  }
+}
+
+// section-0 title
+#section-0 .content > h3.sectionname {
+  @include font-scale(h1);
+  background: none;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  &:after {
+    display: none;
   }
 }

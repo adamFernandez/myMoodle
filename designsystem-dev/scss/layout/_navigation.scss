@@ -1,6 +1,5 @@
-// -----------------------------------------------------------------------------
-// navigation
-// -----------------------------------------------------------------------------
+/* Navigation
+   ======================== */
 
 // hide last modified date
 .modified {
@@ -13,22 +12,16 @@
 }
 
 // link is white by default because of course why not moodle
-#next-activity-link:visited, #prev-activity-link:visited {
+#next-activity-link:visited,
+#prev-activity-link:visited {
   color: #555;
 }
 
 .navcontainer {
-  // min-height: 6rem;
   display: flex;
   margin-top: 0.825rem;
   margin-bottom: 1.5rem;
   padding: 0;
-  @media only screen and (max-width: $lg-breakpoint) {
-    // min-height: 10rem;
-  }
-  @media only screen and (max-width: $neo-breakpoint) {
-    // min-height: 14.5rem;
-  }
   .navtextcontainer {
     flex: 1;
     top: 0;
@@ -44,15 +37,6 @@
     font-size: 1.25rem !important;
     line-height: 1.2;
     color: $midnight-blue !important;
-    @media only screen and (max-width: $xl-breakpoint) {
-      // max-width: 16rem;
-    }
-    @media only screen and (max-width: $lg-breakpoint) {
-      // max-width: 8rem;
-    }
-    @media only screen and (max-width: $neo-breakpoint) {
-      // width: calc(50% - 5rem);
-    }
   }
 }
 .navbutton {
@@ -63,13 +47,12 @@
   border-radius: 0.25rem;
   position: absolute;
   top: 0;
-//  top: calc(50% - 1rem);
   margin: 0;
   padding: 4px 12px;
   background-color: $midnight-blue;
   box-shadow: 0 2px 0 0 #05192e;
   &:hover {
-    background-color: #526C84;
+    @include bg-colour-opacity($midnight-blue, 0.85);
     box-shadow: 0 2px 0 0 #43566B;
   }
   @media only screen and (max-width: $neo-breakpoint) {
@@ -79,7 +62,6 @@
 }
 
 // activity navigation
-
 .activity-navigation {
   @extend .navcontainer;
   .row {
@@ -110,7 +92,8 @@
           }
         }
       }
-      a#prev-activity-link, a#next-activity-link {
+      a#prev-activity-link,
+      a#next-activity-link {
         @extend .navtext;
         margin-top: 0;
         padding: 0.25rem !important;
@@ -134,7 +117,8 @@
 }
 
 // section navigation
-.course-content .single-section .section-navigation.mdl-bottom {
+.course-content .single-section
+.section-navigation.mdl-bottom {
   @extend .navcontainer;
   .mdl-left, .mdl-right {
     @extend .navtextcontainer;
@@ -168,86 +152,6 @@
         @extend .navbutton;
         right: -3.125rem;
         top: 0;
-      }
-    }
-  }
-}
-
-// book navigation
-#page-mod-book-view {
-  .navtop, .navbottom {
-    padding: 0 0 $component-margin-bottom-lg 0;
-    margin: $component-margin-lg 0;
-    text-align: center;
-    border-top: none;
-    border-bottom: 1px solid $rules-and-outlines;
-    a {
-      margin: 0;
-      max-width: none;
-      float: none;
-      &.bookprev, &.booknext {
-        text-align: center;
-        width: 2.25rem;
-        height: 2.25rem;
-        &:hover {
-          text-decoration: none;
-        }
-        @media only screen and (max-width: $neo-breakpoint) {
-          display: inline-block;
-        }
-      }
-      &.bookprev:before, &.booknext:after, &.bookexit:after {
-        font-size: 1.5rem;
-        color: $midnight-blue;
-        background-color: transparent;
-        margin: 0;
-        padding: 0;
-      }
-      &.bookprev:hover:before, &.booknext:hover:after, &.bookexit:hover:after {
-        color: #526C84;
-      }
-    }
-    ul {
-      margin: 0;
-      display: inline-block;
-      @media only screen and (max-width: $neo-breakpoint) {
-        li.chapter:not(.current):not(.prev):not(.next) {
-          display: none;
-        }
-      }
-      li.chapter {
-        list-style: none;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'KingsBureauGrot';
-        font-size: 1.5rem;
-        min-width: 2.25rem;
-        height: 2.25rem;
-        margin: 0 0.5rem;
-        &.current {
-          background-color: $sea-blue;
-          border-radius: 50%;
-          strong {
-            color: $white;
-          }
-          // spacing slightly out for safari
-          @media not all and (min-resolution:.001dpcm) {
-            strong {
-              height: 36px;
-            }
-          }
-          // also for firefox on mac only
-          @supports (-moz-osx-font-smoothing: auto) {
-            strong {
-              height: 36px;
-            }
-          }
-        }
-        a:hover {
-          color: #526C84;
-          text-decoration: none;
-        }
       }
     }
   }

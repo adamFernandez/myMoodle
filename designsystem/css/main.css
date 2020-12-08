@@ -5352,6 +5352,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-forum-post #fgroup_id_buttonar {
   background-color: transparent; }
 
+.path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
+  overflow-x: scroll; }
+  @media only screen and (min-width: 768px) {
+    .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
+      overflow-x: auto; } }
+
 body #region-main .course-content > #completionprogressid {
   display: none !important; }
 

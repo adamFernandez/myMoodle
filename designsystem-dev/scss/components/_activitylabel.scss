@@ -20,7 +20,7 @@
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
-    color: $orange;
+    color: $activity-label-orange;
     width: 5rem;
     height: 1.5rem;
     border-radius: 15px;
@@ -36,13 +36,13 @@
   // adjust colours for assessed label
   &.assessed {
     .activity-label {
-      @include bg-colour-opacity($teal-blue, 0.7);
-      color: $white !important;
+      background-color: $teal-blue;
+      color: $white;
       width: 5.5rem !important;
     }
   }
   .group-icon {
-    color: $orange;
+    color: $activity-label-orange;
     font-size: 1.25rem;
     .fas.fa-user-friends {
       margin-left: $component-margin-xs;

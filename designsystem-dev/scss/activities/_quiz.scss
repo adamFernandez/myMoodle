@@ -163,9 +163,8 @@
         font-family: 'KingsBureauGrot';
       }
       &::before {
+        @extend .icon-before;
         content: '\f017';
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
         margin-right: 4px;
       }
     }
@@ -325,9 +324,8 @@
                 display: none;
               }
               &::before {
-                font-family: 'Font Awesome 5 Free';
+                @extend .icon-before;
                 margin-right: $component-margin-xs;
-                font-weight: 900;
               }
               &.correct {
                 @include bg-colour-opacity($pea-green, 0.2);

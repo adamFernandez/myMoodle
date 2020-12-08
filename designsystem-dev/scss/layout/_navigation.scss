@@ -6,17 +6,6 @@
   display: none;
 }
 
-// hide the jump to activity dropdown
-#jump-to-activity {
-  display: none;
-}
-
-// link is white by default because of course why not moodle
-#next-activity-link:visited,
-#prev-activity-link:visited {
-  color: #555;
-}
-
 .navcontainer {
   display: flex;
   margin-top: 0.825rem;
@@ -32,16 +21,25 @@
   .navtext {
     position: relative;
     float: none;
-    margin: 2.125rem 0;
+    margin: 0;
+    padding: 0.25rem 0 0 0;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem !important;
     line-height: 1.2;
     color: $midnight-blue !important;
+    &.prev {
+      padding: 0.25rem 0 0 0.25rem;
+    }
+    &.next {
+      padding: 0.25rem 0.25rem 0;
+    }
+    @media only screen and (min-width: $neo-breakpoint) {
+      padding-top: 0.5rem;
+    }
   }
 }
 .navbutton {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
+  @extend .icon-before;
   font-size: 1.25rem;
   color: $white;
   border-radius: 0.25rem;
@@ -72,9 +70,23 @@
     .col-md-4 {
       padding: 0;
       @extend .navtextcontainer;
-      // hide empty middle col
+      // hide the jump to activity dropdown
       &:nth-child(2) {
         display: none;
+      }
+      a#prev-activity-link,
+      a#next-activity-link {
+        @extend .navtext;
+      }
+      a#prev-activity-link {
+        left: 3rem;
+        text-align: left;
+        padding-right: 3rem !important;
+        &::before {
+          @extend .navbutton;
+          left: -3.125rem;
+          content: '\f104';
+        }
       }
       // right align next activity link
       &:last-child {
@@ -87,29 +99,8 @@
           &::after {
             @extend .navbutton;
             right: -3.125rem;
-            top: 0;
             content: '\f105';
           }
-        }
-      }
-      a#prev-activity-link,
-      a#next-activity-link {
-        @extend .navtext;
-        margin-top: 0;
-        padding: 0.25rem !important;
-        @media only screen and (max-width: $neo-breakpoint) {
-          padding: 0.5rem !important;
-        }
-      }
-      a#prev-activity-link {
-        left: 3rem;
-        text-align: left;
-        padding-right: 3rem !important;
-        &::before {
-          @extend .navbutton;
-          left: -3.125rem;
-          top: 0;
-          content: '\f104';
         }
       }
     }
@@ -117,10 +108,10 @@
 }
 
 // section navigation
-.course-content .single-section
-.section-navigation.mdl-bottom {
+.course-content .single-section .section-navigation.mdl-bottom {
   @extend .navcontainer;
-  .mdl-left, .mdl-right {
+  .mdl-left,
+  .mdl-right {
     @extend .navtextcontainer;
     a {
       @extend .navtext;
@@ -136,7 +127,6 @@
       &:before {
         @extend .navbutton;
         left: -3.125rem;
-        top: 0;
       }
     }
   }
@@ -151,7 +141,6 @@
       &:after {
         @extend .navbutton;
         right: -3.125rem;
-        top: 0;
       }
     }
   }

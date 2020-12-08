@@ -629,13 +629,13 @@ var data = {
       },
       "module5": {
         "forum1": {
-          "1": "mod/forum/view.php?id=4450624"
+          "1": "mod/forum/view.php?id=4278935"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=4595840"
+          "1": "mod/forum/view.php?id=4278958"
          },
         "forum3": {
-          "1": "mod/forum/view.php?id=4595848"
+          "1": "mod/forum/view.php?id=4278962"
         }
       },    
       "module6a": {

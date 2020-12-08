@@ -1,22 +1,28 @@
 /* Book
    ======================== */
 
+#page-mod-book-edit {
+  // remove subchapter option when editing book
+  .form-group.row.fitem.subchapter {
+    display: none;
+  }
+}
+
 #page-mod-book-view {
   #page-content {
     #region-main {
       position: relative;
       // book print button
       #print-btn-container {
-        margin-bottom: 1.5rem;
+        margin-bottom: $component-margin-bottom;
         position: absolute;
         right: 0;
         .print-book-btn {
           margin: unset !important;
           &::before {
+            @extend .icon-before;
             content: '\f02f';
-            font-family: 'Font Awesome 5 Free';
-            font-weight: 900;
-            margin-right: 0.5rem;
+            margin-right: $component-margin-xs;
           }
         }
       }
@@ -26,15 +32,16 @@
           @extend .h2;
           margin-bottom: $component-margin-bottom-lg;
           // prevent the title from overlapping with the print button
-          margin-right: calc(88px + 1rem);
+          margin-right: calc(88px + $component-margin-sm);
         }
       }
-      .generalbox.book_content {
-        // override theme book content padding
-        padding: 0 !important;
+      .book_content {
         // override theme chapter heading style
         & > h3 {
           @extend .h3;
+        }
+        & > div > *:last-child {
+          margin-bottom: 0;
         }
       }
     }
@@ -64,9 +71,89 @@
   }
 }
 
-#page-mod-book-edit {
-  // remove subchapter option when editing book
-  .form-group.row.fitem.subchapter {
-    display: none;
+// book navigation
+#page-mod-book-view {
+  .navtop,
+  .navbottom {
+    padding: 0 0 $component-margin-bottom-lg 0 !important;
+    margin: $component-margin-lg 0;
+    text-align: center;
+    border-top: none;
+    border-bottom: 1px solid $rules-and-outlines;
+    a {
+      margin: 0;
+      max-width: none;
+      float: none;
+      &.bookprev,
+      &.booknext {
+        text-align: center;
+        width: 2.25rem;
+        height: 2.25rem;
+        &:hover {
+          text-decoration: none;
+        }
+        @media only screen and (max-width: $neo-breakpoint) {
+          display: inline-block;
+        }
+      }
+      &.bookprev:before,
+      &.booknext:after,
+      &.bookexit:after {
+        font-size: 1.5rem;
+        color: $midnight-blue;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+      }
+      &.bookprev:hover:before,
+      &.booknext:hover:after,
+      &.bookexit:hover:after {
+        @include colour-opacity($midnight-blue, 0.85);
+      }
+    }
+    ul {
+      margin: 0;
+      display: inline-block;
+      @media only screen and (max-width: $neo-breakpoint) {
+        li.chapter:not(.current):not(.prev):not(.next) {
+          display: none;
+        }
+      }
+      li.chapter {
+        list-style: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'KingsBureauGrot';
+        font-size: 1.5rem;
+        min-width: 2.25rem;
+        height: 2.25rem;
+        margin: 0 $component-margin-xs;
+        &.current {
+          cursor: default;
+          background-color: $sea-blue;
+          border-radius: 50%;
+          strong {
+            color: $white;
+          }
+          // spacing slightly out for safari
+          @media not all and (min-resolution:.001dpcm) {
+            strong {
+              height: 36px;
+            }
+          }
+          // also for firefox on mac only
+          @supports (-moz-osx-font-smoothing: auto) {
+            strong {
+              height: 36px;
+            }
+          }
+        }
+        a:hover {
+          text-decoration: none;
+          @include colour-opacity($midnight-blue, 0.85);
+        }
+      }
+    }
   }
 }

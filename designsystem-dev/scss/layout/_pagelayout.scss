@@ -36,6 +36,12 @@
           .container {
             padding: 0;
             overflow: hidden;
+            &:not(:last-child) {
+              margin-bottom: $component-margin-bottom;
+            }
+            & > .row:last-child > [class^="col"] > * {
+              margin-bottom: 0 !important;
+            }
           }
           .row {
             // prevent safari grid elements from stacking
@@ -58,10 +64,15 @@
       background-color: transparent;
     }
     // sections
-    section:not(:last-of-type) {
-      margin-bottom: $section-margin-bottom-sm;
-      @media only screen and (min-width: $neo-breakpoint) {
-        margin-bottom: $section-margin-bottom;
+    section {
+      & > :last-child {
+        margin-bottom: 0 !important;
+      }
+      &:not(:last-of-type) {
+        margin-bottom: $section-margin-bottom-sm;
+        @media only screen and (min-width: $neo-breakpoint) {
+          margin-bottom: $section-margin-bottom;
+        }
       }
     }
   }

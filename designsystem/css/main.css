@@ -5677,19 +5677,19 @@ body.format-grid .course-content .single-section .gtopics {
   body.format-grid .course-content .single-section .gtopics .section.main .right {
     display: none; }
 
-body.format-topcoll .ct-activity-meta-container {
+body.format-topcoll li.activity.quiz .ct-activity-meta-container {
   margin: 0 0 0 2.25rem;
   order: 2; }
-  body.format-topcoll .ct-activity-meta-container a {
+  body.format-topcoll li.activity.quiz .ct-activity-meta-container a {
     display: flex;
     align-items: center;
     position: relative;
     padding-left: 28px; }
-    body.format-topcoll .ct-activity-meta-container a img {
+    body.format-topcoll  li.activity.quiz .ct-activity-meta-container a img {
       display: none; }
-    body.format-topcoll .ct-activity-meta-container a:hover {
+    body.format-topcoll  li.activity.quiz .ct-activity-meta-container a:hover {
       text-decoration: underline !important; }
-    body.format-topcoll .ct-activity-meta-container a::before {
+    body.format-topcoll  li.activity.quiz .ct-activity-meta-container a::before {
       font-family: "Font Awesome 5 Free";
       font-weight: 900;
       content: '\f129';

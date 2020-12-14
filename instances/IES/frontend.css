@@ -215,3 +215,20 @@ p.titlesep {
 }
 
 #region-main > div.m-t-2.m-b-1 > div {display: none;}
+
+/* forum add new discussion topic form buttons */
+#page-mod-forum-view #mformforum .form-group:first-of-type input {
+  margin: 0;
+}
+#page-mod-forum-view #mformforum #id_advancedadddiscussion {
+  border: 2px solid #0A2D50;
+  margin-bottom: 0;
+  color: #0A2D50 !important;
+  padding: 4px 16px;
+  box-sizing: border-box;
+}
+#page-mod-forum-view #mformforum #id_advancedadddiscussion:hover {
+  background-color: #3E4649 !important;
+  color: white !important;
+  border: 2px solid transparent;
+}

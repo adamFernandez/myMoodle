@@ -6733,7 +6733,7 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
     margin: 0;
     margin-bottom: 1rem; }
     .path-mod-questionnaire .qn-container .qn-content .qn-question p, .path-mod-questionnaire .qn-container .qn-content .qn-question label {
-      margin: 0;
+      margin: 0 0 1.5rem 0;
       font-weight: bold;
       cursor: text; }
   .path-mod-questionnaire .qn-container .qn-content .qn-answer, .path-mod-questionnaire .qn-container .qn-content .editor_atto_wrap {

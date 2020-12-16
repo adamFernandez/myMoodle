@@ -5354,9 +5354,18 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
   overflow-x: scroll; }
+  .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .p-b-1:first-child {
+    position: absolute;
+    padding: 0 !important; }
+  .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table {
+    margin-top: 50px; }
   @media only screen and (min-width: 768px) {
     .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
-      overflow-x: auto; } }
+      overflow-x: auto; }
+      .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .p-b-1:first-child {
+        position: static; }
+      .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table {
+        margin-top: 0; } }
 
 body #region-main .course-content > #completionprogressid {
   display: none !important; }

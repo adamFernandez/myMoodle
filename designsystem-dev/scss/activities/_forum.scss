@@ -318,3 +318,32 @@
   @extend .btn-secondary;
 }
 
+// ensure only the discussion table is scrollable on mobile
+.path-mod-forum {
+  #region-main {
+    & > div:first-of-type {
+      & > div:not(#intro) {
+        overflow-x: scroll;
+        // add a new discussion button container
+        .p-b-1:first-child {
+          position: absolute;
+          padding: 0 !important;
+        }
+        // add margin to allow space for
+        // absolutely positioned button
+        table {
+          margin-top: 50px;
+        }
+        @media only screen and (min-width: $neo-breakpoint) {
+          overflow-x: auto;
+          .p-b-1:first-child {
+            position: static;
+          }
+          table {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}

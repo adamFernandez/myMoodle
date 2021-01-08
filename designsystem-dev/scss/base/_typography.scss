@@ -170,15 +170,25 @@ a.link-download {
   // list margin bottom
   ol, ul {
     margin: 0 0 $component-margin-bottom $component-margin-lg;
-    &> li:not(:last-child) {
-      margin-bottom: $component-margin-bottom-sm;
+    & > li {
+      &:not(:last-child) {
+        margin-bottom: $component-margin-bottom-sm;
+      }
       // remove margin bottom from nested lists
-      ul, ol, li {
-        margin-bottom: 0;
+      ol, ul {
+        & > li:not(:last-child) {
+          margin-bottom: 0;
+        }
       }
     }
   }
 }
+
+  #region-main ol > li:not(:last-child),
+    #region-main ul > li:not(:last-child) {
+    margin-bottom: 1rem; }
+  #region-main ul > li > ul >li:not(:last-child) {
+    margin-bottom:0; }
 
 pre {
   margin-bottom: $component-margin-bottom;
@@ -198,20 +208,8 @@ code {
   border-radius: 4px;
 }
 
-/*
- //override book headings
-.path-mod-book {
-  #region-main > div:first-of-type > h2:first-of-type {
-    @extend .h1;
-    margin-bottom: $component-margin-bottom-lg;
-  }
-  .generalbox.book_content>h3 {
-    @extend .h2;
-  }
-}
-*/
-// and page headings
-.path-mod-page #region-main>div>h2 {
+// remove page heading underline
+.path-mod-page #region-main > div > h2 {
   background: none;
   &::after {
     display: none;

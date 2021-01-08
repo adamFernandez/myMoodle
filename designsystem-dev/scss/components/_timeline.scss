@@ -1,6 +1,9 @@
 /* Timeline
    =========================*/
 
+// timeline variables
+$timeline-join: 3px solid $rules-and-outlines !important;
+
 .timeline-container {
   margin-left: 64px;
   @media only screen and (max-width: $neo-breakpoint) {
@@ -17,23 +20,23 @@
     &.fill {
       background-color: $teal-blue;
     }
+    // horizontal line between pill and card
     &::after {
       content: '';
       position: absolute;
       display: block;
-      top: 50%;
+      top: calc(50% - 1.5px);
       left: calc(50% + 12px);
-      border-top: 1.5px solid $rules-and-outlines;
-      border-bottom: 1.5px solid $rules-and-outlines;
+      border-bottom: $timeline-join;
       width: 38px;
     }
   }
   .timeline-row {
     .border-right {
-      border-right: 3px solid $rules-and-outlines !important;
+      border-right: $timeline-join;
     }
     .border-left {
-      border-left: 3px solid $rules-and-outlines !important;
+      border-left: $timeline-join;
     }
     .flex-column {
       display: flex !important;

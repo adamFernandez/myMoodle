@@ -227,6 +227,7 @@ table, .table {
      }
   }
   &.table-diagonal-split {
+    // hack to display diagonal split in top left cell
     .split-cell {
       background: linear-gradient(to top right, $block-background 49.5%,
       $rules-and-outlines 49.5%, $rules-and-outlines 50.5%,
@@ -247,7 +248,9 @@ table, .table {
     }  
   }
   &.table-highlight {
-    margin: 2px;
+    // prevent cut off borders in some browsers
+    margin: 0 2px $component-margin-bottom 2px;
+    width: calc(100% - 4px);
     .highlight-cell {
       &.border {
         border: 4px solid $reflex-blue !important;

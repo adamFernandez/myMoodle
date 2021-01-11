@@ -8,8 +8,8 @@
 
 .navcontainer {
   display: flex;
-  margin-top: 0.825rem;
-  margin-bottom: 1.5rem;
+  margin-top: $component-margin-lg;
+  margin-bottom: $component-margin-bottom-lg !important;
   padding: 0;
   .navtextcontainer {
     flex: 1;
@@ -22,40 +22,55 @@
     position: relative;
     float: none;
     margin: 0;
-    padding: 0.25rem 0 0 0;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0 !important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem !important;
     line-height: 1.2;
     color: $midnight-blue !important;
     &.prev {
-      padding: 0.25rem 0 0 0.25rem;
+      left: 0;
+      padding-right: 0.75rem !important;
+      padding-left: 3.25rem !important;
+      text-align: left;
     }
     &.next {
-      padding: 0.25rem 0.25rem 0;
+      right: 0;
+      padding-right: 3.26rem !important;
+      padding-left: 0.75rem !important;
+      text-align: left;
     }
     @media only screen and (min-width: $neo-breakpoint) {
-      padding-top: 0.5rem;
+      padding: 0.25rem 3rem 0 3rem !important;
     }
   }
 }
 .navbutton {
   @extend .icon-before;
-  font-size: 1.25rem;
+  padding: 5px 16.5px;
+  font-size: 1.5625rem;
   color: $white;
   border-radius: 0.25rem;
   position: absolute;
   top: 0;
   margin: 0;
-  padding: 4px 12px;
   background-color: $midnight-blue;
   box-shadow: 0 2px 0 0 #05192e;
   &:hover {
     @include bg-colour-opacity($midnight-blue, 0.85);
     box-shadow: 0 2px 0 0 #43566B;
   }
-  @media only screen and (max-width: $neo-breakpoint) {
-    padding: 5px 16.5px;
-    font-size: 1.5625rem;
+  @media only screen and (min-width: $neo-breakpoint) {
+    font-size: 1.25rem;
+    padding: 4px 12px;
+  }
+  &::before {
+    left: 0;
+    content: '\f104';
+  }
+  &::after {
+    right: 0;
+    content: '\f105';
   }
 }
 
@@ -79,13 +94,9 @@
         @extend .navtext;
       }
       a#prev-activity-link {
-        left: 3rem;
-        text-align: left;
-        padding-right: 3rem !important;
+        @extend .navtext.prev;
         &::before {
           @extend .navbutton;
-          left: -3.125rem;
-          content: '\f104';
         }
       }
       // right align next activity link
@@ -93,13 +104,9 @@
         display: flex;
         justify-content: flex-end;
         a#next-activity-link {
-          right: 3rem;
-          text-align: right;
-          padding-left: 3rem !important;
+          @extend .navtext.next;
           &::after {
             @extend .navbutton;
-            right: -3.125rem;
-            content: '\f105';
           }
         }
       }

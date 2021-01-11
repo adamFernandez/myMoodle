@@ -30,8 +30,11 @@
     }
     .breadcrumb-button {
       .singlebutton {
-        // inline sibling with edit menu button
-        margin: 0 0.75rem 0.5rem 0;
+        margin: 0;
+        // only add margin if beside action menu
+        &:not(:only-child) {
+          margin-right: $component-margin-xs;
+        }
       }
       .moodle-actionmenu {
         @extend .btn, .btn-primary;

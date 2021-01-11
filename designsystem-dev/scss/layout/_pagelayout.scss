@@ -39,7 +39,7 @@
             &:not(:last-child) {
               margin-bottom: $component-margin-bottom;
             }
-            & > .row:last-child > [class^="col"] > * {
+            & > .row:last-child > [class^="col"] > :last-child {
               margin-bottom: 0 !important;
             }
           }
@@ -64,7 +64,7 @@
       background-color: transparent;
     }
     // sections
-    section {
+    section:not(#region-main) {
       & > :last-child {
         margin-bottom: 0 !important;
       }

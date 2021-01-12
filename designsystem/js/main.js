@@ -270,8 +270,7 @@ strip keywords from elsewhere:
 section view activity title, activity page title
 print page title, print book info title
 breadcrumb
-activity restriction info, activity restrict access dropdown
-previous/next activity buttons
+activity restriction infoprevious/next activity buttons
 webinar title
 course module navitation block
 logs
@@ -297,6 +296,12 @@ if ($('#fgroup_id_currentgrp fieldset').length) {
   })[0];
   currentCategory.nodeValue = currentCategory.nodeValue.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 }
+// activity restrict access dropdown
+setTimeout(function (){
+  $(".availability-group .custom-select option:contains('activity-label')").text(function(i, currentText) {
+    return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+  });
+}, 2000);
 
 if (window.matchMedia('print').matches) {
   $("#page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label')").text(function(i, currentText) {

@@ -297,7 +297,7 @@ $(`#region-main h2:first-of-type:contains('activity-label'),
  #page-question-category ul li .text_to_html:contains('activity-label'),
  #page-question-category select option:contains('activity-label'),
  #page-question-export select option:contains('activity-label'),
- .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')`).text(function(i, curr
+ .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')`).text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
 // completion progress activity title

@@ -227,6 +227,7 @@ strip keywords from elsewhere:
 section view activity title, activity page title
 print page title, print book info title
 breadcrumb
+activity restriction info
 previous/next activity buttons
 webinar title
 course module navitation block
@@ -235,9 +236,28 @@ forum new post confirmation
 question bank question page dropdown, question category page and export page
 question editing page
 */
-$("#region-main h2:first-of-type:contains('activity-label'), #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label'), .breadcrumb li a span:contains('activity-label'), .breadcrumb li a:contains('activity-label'), .activity-navigation .col-md-4 a:contains('activity-label'), .chosted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('actted-info .chosted-info-value p:contains('activity-label'), .alert p:contains('activity-label'), .block_course_modulenavigation .activityname:contains('activity-label'), #page-report-log-index td a:contains('activity-label'), #page-report-outline-index td a:contains('activity-label'), #page-question-edit select option:contains('activitiy-label'), #page-question-category h3:contains('activity-label'), #page-question-category ul li b a:contains('activity-label'), #page-question-category ul li .text_to_html:contains('activity-label'), #page-question-category select option:contains('activity-label'), #page-question-export select option:contains('activity-label'), .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')").text(function(i, currentText) {
+$(`#region-main h2:first-of-type:contains('activity-label'),
+ #page-mod-book-print #page-content h1:first-of-type:contains('activity-label'),
+ #page-mod-book-print #page-content .book_info td:contains('activity-label'),
+ .breadcrumb li a span:contains('activity-label'),
+ .breadcrumb li a:contains('activity-label'),
+ .availabilityinfo.isrestricted strong a:contains('activity-label'),
+ .activity-navigation .col-md-4 a:contains('activity-label'),
+ .chosted-info .chosted-info-value p:contains('activity-label'),
+ .alert p:contains('activity-label'),
+ .block_course_modulenavigation .activityname:contains('activity-label'),
+ #page-report-log-index td a:contains('activity-label'),
+ #page-report-outline-index td a:contains('activity-label'),
+ #page-question-edit select option:contains('activitiy-label'),
+ #page-question-category h3:contains('activity-label'),
+ #page-question-category ul li b a:contains('activity-label'),
+ #page-question-category ul li .text_to_html:contains('activity-label'),
+ #page-question-category select option:contains('activity-label'),
+ #page-question-export select option:contains('activity-label'),
+ .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')`).text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
+
 // completion progress activity title
 $(".course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon").attr("title", function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
@@ -253,6 +273,12 @@ if ($('#fgroup_id_currentgrp fieldset').length) {
   })[0];
   currentCategory.nodeValue = currentCategory.nodeValue.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 }
+// activity restrict access dropdown
+setTimeout(function (){
+  $(".availability-group .custom-select option:contains('activity-label')").text(function(i, currentText) {
+    return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
+  });
+}, 2000);
 
 if (window.matchMedia('print').matches) {
   $("#page-content h1:first-of-type:contains('activity-label'), #page-mod-book-print #page-content .book_info td:contains('activity-label')").text(function(i, currentText) {

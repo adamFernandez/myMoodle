@@ -169,7 +169,6 @@ a.link-download {
   margin-bottom: 1rem; }
 
 #region-main ul > li > ul > li:not(:last-child) {
-  border: 1px solid green !important;
   margin-bottom: 0; }
 
 pre {
@@ -188,18 +187,6 @@ code {
   color: #E2231A;
   border-radius: 4px; }
 
-/*
- //override book headings
-.path-mod-book {
-  #region-main > div:first-of-type > h2:first-of-type {
-    @extend .h1;
-    margin-bottom: $component-margin-bottom-lg;
-  }
-  .generalbox.book_content>h3 {
-    @extend .h2;
-  }
-}
-*/
 .path-mod-page #region-main > div > h2 {
   background: none; }
   .path-mod-page #region-main > div > h2::after {
@@ -240,7 +227,7 @@ footer#page-footer {
 .view-answer-container > button::before,
 .view-feedback-container > button::before,
 .view-model-answer-container > button::before,
-.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
+.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 0.375rem; }
@@ -375,8 +362,8 @@ footer#page-footer {
 
 .navcontainer, .activity-navigation, .course-content .single-section .section-navigation.mdl-bottom {
   display: flex;
-  margin-top: 0.825rem;
-  margin-bottom: 1.5rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem !important;
   padding: 0; }
   .navcontainer .navtextcontainer, .activity-navigation .navtextcontainer, .course-content .single-section .section-navigation.mdl-bottom .navtextcontainer, .activity-navigation .row .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .activity-navigation .row .col-md-4, .activity-navigation .row .course-content .single-section .section-navigation.mdl-bottom .col-md-4, .course-content .single-section .section-navigation.mdl-bottom .mdl-left,
   .course-content .single-section .section-navigation.mdl-bottom .mdl-right {
@@ -391,42 +378,57 @@ footer#page-footer {
     position: relative;
     float: none;
     margin: 0;
-    padding: 0.25rem 0 0 0;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0 !important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem !important;
     line-height: 1.2;
-    color: #0A2D50 !important; }
-    .navcontainer .navtext.prev, .activity-navigation .navtext.prev, .course-content .single-section .section-navigation.mdl-bottom .navtext.prev, .activity-navigation .row .col-md-4 a.prev#prev-activity-link,
+    color: #0A2D50 !important;
+    background-color: transparent !important;
+    box-shadow: none; }
+    .navcontainer .navtext.prev, .activity-navigation .navtext.prev, .course-content .single-section .section-navigation.mdl-bottom .navtext.prev, .activity-navigation .row .col-md-4 a#prev-activity-link,
     .activity-navigation .row .col-md-4 a.prev#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a.prev,
     .course-content .single-section .section-navigation.mdl-bottom .mdl-right a.prev {
-      padding: 0.25rem 0 0 0.25rem; }
+      left: 0;
+      padding-right: 0.75rem !important;
+      padding-left: 3.25rem !important;
+      text-align: left; }
     .navcontainer .navtext.next, .activity-navigation .navtext.next, .course-content .single-section .section-navigation.mdl-bottom .navtext.next, .activity-navigation .row .col-md-4 a.next#prev-activity-link,
-    .activity-navigation .row .col-md-4 a.next#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a.next,
+    .activity-navigation .row .col-md-4 a.next#next-activity-link, .activity-navigation .row .col-md-4:last-child a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a.next,
     .course-content .single-section .section-navigation.mdl-bottom .mdl-right a.next {
-      padding: 0.25rem 0.25rem 0; }
+      right: 0;
+      padding-right: 3.25rem !important;
+      padding-left: 0.75rem !important;
+      text-align: left; }
     @media only screen and (min-width: 768px) {
       .navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation .row .col-md-4 a#prev-activity-link,
       .activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a,
       .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-        padding-top: 0.5rem; } }
+        padding: 0.25rem 3rem 0 3rem !important; } }
 
-.navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
-  font-size: 1.25rem;
+.navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after {
+  padding: 5px 16.5px;
+  font-size: 1.5625rem;
   color: #FFFFFF;
   border-radius: 0.25rem;
   position: absolute;
   top: 0;
   margin: 0;
-  padding: 4px 12px;
   background-color: #0A2D50;
   box-shadow: 0 2px 0 0 #05192e; }
-  .navbutton:hover, .activity-navigation .row .col-md-4 a#prev-activity-link:hover::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link:hover::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover:after {
+  .navbutton:hover, .activity-navigation .row .col-md-4 a#prev-activity-link:hover::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link:hover::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:hover::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:hover::after {
     background-color: rgba(10, 45, 80, 0.85) !important;
     box-shadow: 0 2px 0 0 #43566B; }
-  @media only screen and (max-width: 768px) {
-    .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
-      padding: 5px 16.5px;
-      font-size: 1.5625rem; } }
+  @media only screen and (min-width: 768px) {
+    .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after {
+      font-size: 1.25rem;
+      padding: 4px 12px; } }
+  .navbutton::before, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before {
+    left: 0;
+    content: '\f104'; }
+  .navbutton::after, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after {
+    right: 0;
+    content: '\f105'; }
 
 .activity-navigation .row {
   width: 100%;
@@ -437,44 +439,17 @@ footer#page-footer {
     padding: 0; }
     .activity-navigation .row .col-md-4:nth-child(2) {
       display: none; }
-    .activity-navigation .row .col-md-4 a#prev-activity-link {
-      left: 3rem;
-      text-align: left;
-      padding-right: 3rem !important; }
-      .activity-navigation .row .col-md-4 a#prev-activity-link::before {
-        left: -3.125rem;
-        content: '\f104'; }
     .activity-navigation .row .col-md-4:last-child {
       display: flex;
       justify-content: flex-end; }
-      .activity-navigation .row .col-md-4:last-child a#next-activity-link {
-        right: 3rem;
-        text-align: right;
-        padding-left: 3rem !important; }
-        .activity-navigation .row .col-md-4:last-child a#next-activity-link::after {
-          right: -3.125rem;
-          content: '\f105'; }
 
-.course-content .single-section .section-navigation.mdl-bottom .mdl-left {
-  margin-right: 3.5rem !important; }
-  .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
-    left: 3rem; }
-    @media only screen and (max-width: 768px) {
-      .course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
-        left: 3rem; } }
-    .course-content .single-section .section-navigation.mdl-bottom .mdl-left a:before {
-      left: -3.125rem; }
+.course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before {
+  left: 0; }
 
-.course-content .single-section .section-navigation.mdl-bottom .mdl-right {
-  margin-left: 3.5rem !important; }
-  .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-    text-align: right;
-    right: 3rem; }
-    @media only screen and (max-width: 768px) {
-      .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-        right: 3rem; } }
-    .course-content .single-section .section-navigation.mdl-bottom .mdl-right a:after {
-      right: -3.125rem; }
+.course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
+  text-align: right; }
+  .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after {
+    right: 0; }
 
 /* Header
    =========================*/
@@ -493,7 +468,9 @@ footer#page-footer {
     color: #8B9296; }
 
 #page #page-header-nav .breadcrumb-button .singlebutton {
-  margin: 0 0.75rem 0.5rem 0; }
+  margin: 0; }
+  #page #page-header-nav .breadcrumb-button .singlebutton:not(:only-child) {
+    margin-right: 0.5rem; }
 
 #page #page-header-nav .breadcrumb-button .moodle-actionmenu .dropdown {
   display: flex;
@@ -510,6 +487,10 @@ footer#page-footer {
 
 /* Page layout
    =========================*/
+/* hide veritcal scrollbar in chrome on mac */
+.no-overflow {
+  padding-bottom: 2px; }
+
 #wrapper {
   height: 100%; }
   #wrapper #page {
@@ -530,7 +511,7 @@ footer#page-footer {
       overflow: hidden; }
       #wrapper #page #page-content #region-bs-main-and-pre #region-main .container:not(:last-child) {
         margin-bottom: 1.5rem; }
-      #wrapper #page #page-content #region-bs-main-and-pre #region-main .container > .row:last-child > [class^="col"] > * {
+      #wrapper #page #page-content #region-bs-main-and-pre #region-main .container > .row:last-child > [class^="col"] > :last-child {
         margin-bottom: 0 !important; }
     #wrapper #page #page-content #region-bs-main-and-pre #region-main .row:before, #wrapper #page #page-content #region-bs-main-and-pre #region-main .row:after {
       display: none !important; }
@@ -538,12 +519,12 @@ footer#page-footer {
       margin-left: -15px;
       margin-right: -15px;
       background-color: transparent; }
-    #wrapper #page section > :last-child {
+    #wrapper #page section:not(#region-main) > :last-child {
       margin-bottom: 0 !important; }
-    #wrapper #page section:not(:last-of-type) {
+    #wrapper #page section:not(#region-main):not(:last-of-type) {
       margin-bottom: 3rem; }
       @media only screen and (min-width: 768px) {
-        #wrapper #page section:not(:last-of-type) {
+        #wrapper #page section:not(#region-main):not(:last-of-type) {
           margin-bottom: 4rem; } }
 
 /* Layout
@@ -1411,7 +1392,8 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
 /* Carousel
    ======================== */
 .carousel {
-  margin-bottom: 3.5rem; }
+  margin-bottom: 1.5rem;
+  padding-bottom: 32px; }
   .carousel::before {
     content: "";
     position: absolute;
@@ -1448,13 +1430,13 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
     padding-top: 33.3333%; }
   .carousel.text-only .carousel-caption {
     position: absolute;
-    background-color: transparent;
+    background-color: transparent !important;
     top: 25%;
     z-index: 1;
     padding: 2.4% 12%; }
   .carousel .carousel-indicators {
     top: auto;
-    bottom: -32px;
+    bottom: 0;
     margin: 0 !important;
     width: 100%;
     background-color: #0a2d50 !important; }
@@ -1631,6 +1613,7 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
         margin-bottom: 0.75rem; }
       .audio-container .audio-top .audio-info .audio-title {
         font-family: 'KingsBureauGrot';
+        margin-top: 0;
         margin-bottom: 0; }
   .audio-container .embed-responsive-audio, .audio-container .audio-player {
     padding-top: 40px;
@@ -5124,7 +5107,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     vertical-align: top;
     line-height: 1; }
   table.table-highlight, .table.table-highlight, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight {
-    margin: 2px; }
+    margin: 0 2px 1.5rem 2px;
+    width: calc(100% - 4px); }
     table.table-highlight .highlight-cell.border, .table.table-highlight .highlight-cell.border, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border {
       border: 4px solid #002395 !important; }
     table.table-highlight .highlight-cell.border-t, table.table-highlight .highlight-cell.border-tr, table.table-highlight .highlight-cell.border-trb, table.table-highlight .highlight-cell.border-trl, table.table-highlight .highlight-cell.border-tb, table.table-highlight .highlight-cell.border-tbl, table.table-highlight .highlight-cell.border-tl, .table.table-highlight .highlight-cell.border-t, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-t, .table.table-highlight .highlight-cell.border-tr, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-tr, .table.table-highlight .highlight-cell.border-trb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-trb, .table.table-highlight .highlight-cell.border-trl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-trl, .table.table-highlight .highlight-cell.border-tb, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-tb, .table.table-highlight .highlight-cell.border-tbl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-tbl, .table.table-highlight .highlight-cell.border-tl, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-highlight .highlight-cell.border-tl {
@@ -5186,10 +5170,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       content: '';
       position: absolute;
       display: block;
-      top: 50%;
+      top: calc(50% - 1.5px);
       left: calc(50% + 12px);
-      border-top: 1.5px solid #8B9296;
-      border-bottom: 1.5px solid #8B9296;
+      border-bottom: 3px solid #8B9296 !important;
       width: 38px; }
   .timeline-container .timeline-row .border-right {
     border-right: 3px solid #8B9296 !important; }
@@ -5281,11 +5264,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         margin-right: 0.5rem; }
   #page-mod-book-view #page-content #region-main > div:first-of-type > h2:first-of-type {
     margin-bottom: 2.25rem;
-    margin-right: calc(88px + $component-margin-sm); }
+    margin-right: calc(88px + 1rem); }
   #page-mod-book-view #page-content #region-main .book_content > div > *:last-child {
     margin-bottom: 0; }
 
-#page-mod-book-view #page-content.single-chapter-book .book_content > h3:first-of-type {
+#page-mod-book-view #page-content.single-chapter-book .book_content > h3:first-of-type,
+#page-mod-book-view #page-content.single-chapter-book .navbottom {
   display: none; }
 
 #page-mod-book-view #page-content aside .block_book_toc .book_toc .d-flex:not(.action-list) {
@@ -5659,7 +5643,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     position: absolute;
     padding: 0 !important; }
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
-  .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss {
+  .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
+  .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
     margin-top: 50px; }
   @media only screen and (min-width: 768px) {
     .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
@@ -5667,7 +5652,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .p-b-1:first-child {
         position: static; }
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
-      .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss {
+      .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
+      .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
         margin-top: 0; } }
 
 /* Kaltura media assignment
@@ -6520,8 +6506,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo .activityinstance {
         margin-left: 38px; } }
 
-#page-course-view-grid.format-grid .course-content .gtopics-0,
-#page-course-view-topcoll.format-grid .course-content .gtopics-0 {
+#page-course-view-grid.format-grid .course-content #gtopics,
+#page-course-view-topcoll.format-grid .course-content #gtopics {
   margin: 0 !important; }
 
 #page-course-view-grid.format-grid .course-content #gridiconcontainer ul.gridicons,
@@ -6963,11 +6949,15 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       width: calc(100% - 116px) !important; } }
 
 #page-course-view-grid.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo,
-#page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo {
+#page-course-view-grid.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .contentafterlink,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .contentafterlink {
   margin-left: 100px !important; }
   @media only screen and (min-width: 768px) {
     #page-course-view-grid.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo,
-    #page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo {
+    #page-course-view-grid.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .contentafterlink,
+    #page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .availabilityinfo,
+    #page-course-view-topcoll.editing #region-main .course-content ul > .section.main.completion-progress-section .activity .contentafterlink {
       margin-left: 116px !important; } }
 
 #page-course-view-grid.editing #region-main .course-content ul > .section.main.completion-progress-section .activity.label .contentwithoutlink,

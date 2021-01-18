@@ -5627,7 +5627,8 @@ body #region-main .course-content ul > li.section.main {
       body #region-main .course-content ul > li.section.main.completion-progress-section .activity:not(.label):not(.completion-progress-activity) .activityinstance, body #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo .activityinstance {
         margin-left: 38px; } }
 
-body.format-grid .course-content .gtopics {
+body.format-grid .course-content .gtopics,
+body.format-grid .course-content .gtopics-0 {
   margin: 0 !important; }
 
 body.format-grid .course-content #gridiconcontainer {

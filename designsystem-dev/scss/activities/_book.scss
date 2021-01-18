@@ -45,9 +45,11 @@
         }
       }
     }
-    // hide first chapter title of single chapter book
+    // hide first chapter title
+    // and bottom nav of single chapter book
     &.single-chapter-book {
-      .book_content > h3:first-of-type {
+      .book_content > h3:first-of-type,
+      .navbottom {
         display: none;
       }
     }

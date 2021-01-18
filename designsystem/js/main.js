@@ -35,6 +35,10 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
+/* grid format*/
+// return 'accesshide' class to sectionname post 3.9.3
+$(".gtopics .content .sectionname").addClass("accesshide");
+
 /* card deck */
 // call function on window load (instead of doc ready)
 $(window).on('load', function() {

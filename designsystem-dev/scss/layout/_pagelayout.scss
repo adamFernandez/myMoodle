@@ -1,6 +1,11 @@
 /* Page layout
    =========================*/
 
+/* hide veritcal scrollbar in chrome on mac */
+.no-overflow {
+  padding-bottom: 2px;
+}
+
 // general layout styles applied on every page
 #wrapper {
   // required for sticky footer

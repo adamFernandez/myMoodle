@@ -320,9 +320,11 @@
           padding: 0 !important;
         }
         // add margin to allow space for absolutely positioned
-        // button above table and no discussion topics yet div
+        // button above table and 'no discussion topics yet' div
+        // and 'add a new discussion topics' form
         table,
-        .forumnodiscuss {
+        .forumnodiscuss,
+        #collapseAddForm {
           margin-top: 50px;
         }
         @media only screen and (min-width: $neo-breakpoint) {
@@ -331,7 +333,8 @@
             position: static;
           }
           table,
-          .forumnodiscuss {
+          .forumnodiscuss,
+          #collapseAddForm {
             margin-top: 0;
           }
         }

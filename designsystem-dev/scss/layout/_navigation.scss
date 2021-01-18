@@ -28,6 +28,8 @@
     font-size: 1.25rem !important;
     line-height: 1.2;
     color: $midnight-blue !important;
+    background-color: transparent !important;
+    box-shadow: none;
     &.prev {
       left: 0;
       padding-right: 0.75rem !important;
@@ -36,7 +38,7 @@
     }
     &.next {
       right: 0;
-      padding-right: 3.26rem !important;
+      padding-right: 3.25rem !important;
       padding-left: 0.75rem !important;
       text-align: left;
     }
@@ -125,29 +127,19 @@
     }
   }
   .mdl-left {
-    margin-right: 3.5rem !important;
     a {
-      left: $lg-nav-margin;
-      @media only screen and (max-width: $neo-breakpoint) {
-        left: $sm-nav-margin;
-      }
-      &:before {
+      &::before {
         @extend .navbutton;
-        left: -3.125rem;
+          left: 0;
       }
     }
   }
   .mdl-right {
-    margin-left: 3.5rem !important;
     a {
       text-align: right;
-      right: $lg-nav-margin;
-      @media only screen and (max-width: $neo-breakpoint) {
-        right: $sm-nav-margin;
-      }
-      &:after {
+      &::after {
         @extend .navbutton;
-        right: -3.125rem;
+          right: 0;
       }
     }
   }

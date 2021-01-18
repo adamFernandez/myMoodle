@@ -94,6 +94,7 @@ $(document).on("click", ".collapse-card .collapse-header", function(event) {
 /* transcript */
 // toggle transcript button text and transcript card
 $(document).on("click", ".transcript-button-group .view-close-transcript", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });

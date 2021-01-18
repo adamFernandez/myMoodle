@@ -7120,3 +7120,19 @@ section#region-main .resourceworkaround, section#region-main .urlworkaround {
       border-left: 10px solid #E2231A; }
     .container.versioning > .row > .col > .col {
       border-right: 5px solid #F5B90F; }
+
+/* Moodle upgrade changes January 2021 */
+.navcontainer .navtext, .activity-navigation .navtext, .course-content .single-section .section-navigation.mdl-bottom .navtext, .activity-navigation .row .col-md-4 a#prev-activity-link,
+.activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a,
+.course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
+  position: relative;
+  float: none;
+  margin: 0;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0 !important;
+  font-family: 'KingsBureauGrot';
+  font-size: 1.25rem !important;
+  line-height: 1.2;
+  color: #0A2D50 !important;
+  background-color: transparent !important;
+  box-shadow: none; }

@@ -657,13 +657,13 @@ var data = {
        },
       "module6b": {
         "forum1": {
-          "1": "mod/forum/view.php?id=3129600"
+          "1": "mod/forum/view.php?id=4758307"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=3129627"
+          "1": "mod/forum/view.php?id=4758339"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3129658"
+          "1": "mod/forum/view.php?id=4758368"
         }
        },
       "module7a": {

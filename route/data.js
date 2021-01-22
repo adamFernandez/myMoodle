@@ -144,7 +144,7 @@ var data = {
     },
     "module6": {
       "comments": {
-        "1": "mod/forum/view.php?id=2422973"
+        "1": "mod/forum/view.php?id=3445689"
       }
     },
     "module7": {
@@ -544,7 +544,7 @@ var data = {
     },
     "module11": {
       "forum1": {
-        "1": "mod/forum/view.php?id=3212461"
+        "1": "mod/forum/view.php?id=4780243"
       }
     }
   },
@@ -657,13 +657,13 @@ var data = {
        },
       "module6b": {
         "forum1": {
-          "1": "mod/forum/view.php?id=3129600"
+          "1": "mod/forum/view.php?id=4758307"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=3129627"
+          "1": "mod/forum/view.php?id=4758339"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=3129658"
+          "1": "mod/forum/view.php?id=4758368"
         }
        },
       "module7a": {

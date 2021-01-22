@@ -92,6 +92,7 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
+  event.preventDefault();
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
 
@@ -106,22 +107,27 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
 $(document).on("click", ".view-hide-generic", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
   $(this).parents(".view-generic-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-answer", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-description", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
   $(this).parents(".view-description-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-feedback", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-model-answer", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
   $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });

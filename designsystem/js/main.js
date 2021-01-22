@@ -14,15 +14,6 @@ if (foundationCSS.length) {
   foundationCSS.remove();
 }
 
-// module nav block fails to open/collapse in IE
-if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
-  const modNavBlock = ".block.block_course_modulenavigation .section .allsectionnames > a";
-  $(document).on("click", modNavBlock, function(event) {
-    event.preventDefault();
-    $(this).parents(".section").children(".section-collapse").toggleClass('in');
-  });
-};
-
 // remove this for no-print.js
 // pull print button from admin block and position at top of book
 printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
@@ -35,7 +26,7 @@ $(document).on("click", blockHide, function(event) {
   $(this).parents(".block").toggleClass('hidden');
 });
 
-/* grid format*/
+/* grid format */
 // return 'accesshide' class to sectionname post 3.9.3
 $(".gtopics .content .sectionname").addClass("accesshide");
 
@@ -101,69 +92,42 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
+  event.preventDefault();
   $(this).parents(".collapse-card").toggleClass("collapsed");
 });
 
 /* transcript */
 // toggle transcript button text and transcript card
 $(document).on("click", ".transcript-button-group .view-close-transcript", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
 });
-/*
-// generate printable transcript from text
-// unable to add stylesheet on safari
-$(".download-transcript").click(function() {
-  var printContent = $(this).parents(".transcript-container").children(".transcript-card").html();
-  var printWindow = window.open('', 'PRINT', 'height=600, width=800');
-
-  var is_safari = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
-  var is_chrome = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') != -1;
-
-  printWindow.document.write(
-    '<html><head><title>'
-    + document.title
-    + '</title>');
-  // insert stylesheet if not safari
-  if (!is_safari) {
-    printWindow.document.write('<link type="text/css" rel="stylesheet" href="https://iddkingsonline.com/designsystem/ephie/css/transcript.css">');
-  }
-  printWindow.document.write(
-    '</head><body><div id="page-mod-book-print"><h1>'
-    + document.title
-    + '</h1>');
-  printWindow.document.write(printContent);
-  printWindow.document.write('</div></body></html>');
-
-  printWindow.document.close(); // necessary for IE >= 10
-  printWindow.focus(); // necessary for IE >= 10
-
-  printWindow.print();
-  printWindow.close();
-
-  return true;
-});
-*/
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
 $(document).on("click", ".view-hide-generic", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
   $(this).parents(".view-generic-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-answer", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
   $(this).parents(".view-answer-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-description", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
   $(this).parents(".view-description-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-feedback", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
   $(this).parents(".view-feedback-container").toggleClass("collapsed");
 });
 $(document).on("click", ".view-hide-model-answer", function(event) {
+  event.preventDefault();
   $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
   $(this).parents(".view-model-answer-container").toggleClass("collapsed");
 });
@@ -304,6 +268,7 @@ $(`#region-main h2:first-of-type:contains('activity-label'),
  .path-question-type #fitem_id_categorymoveto select optgroup option:contains('activity-label')`).text(function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');
 })
+
 // completion progress activity title
 $(".course-content ul.section li.activity .actions button img.icon, .course-content ul.section li.activity .actions .autocompletion img.icon").attr("title", function(i, currentText) {
   return currentText.replace(/activity-label-[a-z]{3}-[a-z]{3}-[a-z]{3} /g, '');

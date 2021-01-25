@@ -5917,6 +5917,9 @@ body.editing #region-main .course-content ul > .section.main .right .section_act
 body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow {
   width: 100%; }
 
+body.editing #region-main .course-content ul > .section.main .content .summary .no-overflow ul > li {
+  list-style: disc; }
+
 body.editing #region-main .course-content ul > .section.main .content .activity .editing_move {
   top: 2px !important;
   left: 72px; }

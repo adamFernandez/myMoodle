@@ -130,12 +130,6 @@ $table-bg-colors: (
     display: inline;
   }
 }
-// firefox issue not rendering left border of table
-@-moz-document url-prefix() {
-  table, .table {
-    margin-left: 1px;
-  }
-}
 table, .table {
   margin-bottom: $component-margin-bottom;
   border-collapse: collapse;
@@ -317,5 +311,12 @@ table, .table {
     td {
       background-color: transparent !important;
     }
+  }
+}
+// firefox issue not rendering left border of table
+@-moz-document url-prefix() {
+  table, .table {
+    margin-left: 1px;
+    width: calc(100% - 1px);
   }
 }

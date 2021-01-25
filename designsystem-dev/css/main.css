@@ -2135,10 +2135,6 @@ body .editing-help-box {
     margin-bottom: 0;
     display: inline; }
 
-@-moz-document url-prefix() {
-  table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
-    margin-left: 1px; } }
-
 table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
   border-collapse: collapse;
@@ -5149,6 +5145,11 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table.bg-transparent td, .table.bg-transparent td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.bg-transparent td {
     background-color: transparent !important; }
 
+@-moz-document url-prefix() {
+  table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
+    margin-left: 1px;
+    width: calc(100% - 1px); } }
+
 /* Timeline
    =========================*/
 .timeline-container {
@@ -6506,8 +6507,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .availabilityinfo .activityinstance {
         margin-left: 38px; } }
 
-#page-course-view-grid.format-grid .course-content #gtopics,
-#page-course-view-topcoll.format-grid .course-content #gtopics {
+#page-course-view-grid.format-grid .course-content .gtopics-0,
+#page-course-view-topcoll.format-grid .course-content .gtopics-0 {
   margin: 0 !important; }
 
 #page-course-view-grid.format-grid .course-content #gridiconcontainer ul.gridicons,

@@ -1521,7 +1521,8 @@ figure {
   margin-bottom: 1.5rem; }
 
 .image-scroll {
-  overflow-x: scroll; }
+  overflow-x: scroll;
+  margin-bottom: 1.5rem; }
 
 .definition-box {
   background-color: #EDF1F2; }

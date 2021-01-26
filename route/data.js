@@ -510,7 +510,7 @@ var data = {
     },
     "module3": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2951670"
+        "1": "mod/forum/view.php?id=3232107"
       }
     },
     "module5": {

@@ -1919,10 +1919,6 @@ body .editing-help-box {
     margin-bottom: 0;
     display: inline; }
 
-@-moz-document url-prefix() {
-  table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
-    margin-left: 1px; } }
-
 table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
   margin-bottom: 1.5rem;
   border-collapse: collapse;

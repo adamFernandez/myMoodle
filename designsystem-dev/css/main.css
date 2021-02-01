@@ -32,10 +32,32 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 #notice.modal .modal-content .modal-header h4, .h2, #page-mod-book-view #page-content #region-main > div:first-of-type > h2:first-of-type, #page-course-view-grid.format-topcoll .single-section .section-navigation.navigationtitle .sectionname,
-#page-course-view-topcoll.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+#page-course-view-topcoll.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+.info-box > :first-child h3,
+.alert > :first-child h3,
+.definition-box > :first-child h3,
+body .editing-help-box > :first-child h3,
+.feedback-box > :first-child h3,
+#region-main .learning-outcome-box > :first-child h3,
+.reading-box > :first-child h3,
+div.quote-box > :first-child h3,
+.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+.note-container > div > .card-body .card-author h3,
+.academic-note-container > div > .card-body .card-author h3,
+.view-generic-container > div > .card-body .card-author h3,
+.view-answer-container > div > .card-body .card-author h3,
+.view-feedback-container > div > .card-body .card-author h3,
+.view-model-answer-container > div > .card-body .card-author h3,
+.view-description-container > div > .card-body .card-author h3, .note-container > div > .card-body .card-author h4, .academic-note-container > div > .card-body .card-author h4, .view-generic-container > div > .card-body .card-author h4, .view-answer-container > div > .card-body .card-author h4, .view-feedback-container > div > .card-body .card-author h4, .view-model-answer-container > div > .card-body .card-author h4, .view-description-container > div > .card-body .card-author h4, .note-container > div > .card-body .card-author h5, .academic-note-container > div > .card-body .card-author h5, .view-generic-container > div > .card-body .card-author h5, .view-answer-container > div > .card-body .card-author h5, .view-feedback-container > div > .card-body .card-author h5, .view-model-answer-container > div > .card-body .card-author h5, .view-description-container > div > .card-body .card-author h5, .note-container > div > .card-body .card-author h6, .academic-note-container > div > .card-body .card-author h6, .view-generic-container > div > .card-body .card-author h6, .view-answer-container > div > .card-body .card-author h6, .view-feedback-container > div > .card-body .card-author h6, .view-model-answer-container > div > .card-body .card-author h6, .view-description-container > div > .card-body .card-author h6, .card .card-body .card-title,
+.card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6, .float-box > div .float-box-title,
+.float-box > div h3, .float-box > div h4, .float-box > div h5, .float-box > div h6,
+.float-box .float-box-body .float-box-title,
 .float-box .float-box-body h3,
 .float-box .float-box-body h4,
-.float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
+.float-box .float-box-body h5,
+.float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+.collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6, .h5, .card .card-body .card-subheading, .collapse-container .collapse-card .collapse-body .collapse-subheading, .audio-container .audio-top .audio-info .audio-title,
+.audio-container .audio-top .audio-info h3, .audio-container .audio-top .audio-info h4, .audio-container .audio-top .audio-info h5, .audio-container .audio-top .audio-info h6, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: #171717;
@@ -57,19 +79,41 @@ h3, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .pat
   font-size: 1.25rem;
   line-height: 1.25; }
 
-h4, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+.info-box > :first-child h3,
+.alert > :first-child h3,
+.definition-box > :first-child h3,
+body .editing-help-box > :first-child h3,
+.feedback-box > :first-child h3,
+#region-main .learning-outcome-box > :first-child h3,
+.reading-box > :first-child h3,
+div.quote-box > :first-child h3,
+.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+.note-container > div > .card-body .card-author h3,
+.academic-note-container > div > .card-body .card-author h3,
+.view-generic-container > div > .card-body .card-author h3,
+.view-answer-container > div > .card-body .card-author h3,
+.view-feedback-container > div > .card-body .card-author h3,
+.view-model-answer-container > div > .card-body .card-author h3,
+.view-description-container > div > .card-body .card-author h3, .note-container > div > .card-body .card-author h4, .academic-note-container > div > .card-body .card-author h4, .view-generic-container > div > .card-body .card-author h4, .view-answer-container > div > .card-body .card-author h4, .view-feedback-container > div > .card-body .card-author h4, .view-model-answer-container > div > .card-body .card-author h4, .view-description-container > div > .card-body .card-author h4, .note-container > div > .card-body .card-author h5, .academic-note-container > div > .card-body .card-author h5, .view-generic-container > div > .card-body .card-author h5, .view-answer-container > div > .card-body .card-author h5, .view-feedback-container > div > .card-body .card-author h5, .view-model-answer-container > div > .card-body .card-author h5, .view-description-container > div > .card-body .card-author h5, .note-container > div > .card-body .card-author h6, .academic-note-container > div > .card-body .card-author h6, .view-generic-container > div > .card-body .card-author h6, .view-answer-container > div > .card-body .card-author h6, .view-feedback-container > div > .card-body .card-author h6, .view-model-answer-container > div > .card-body .card-author h6, .view-description-container > div > .card-body .card-author h6, .card .card-body .card-title,
+.card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6, .float-box > div .float-box-title,
+.float-box > div h3, .float-box > div h4, .float-box > div h5, .float-box > div h6,
+.float-box .float-box-body .float-box-title,
 .float-box .float-box-body h3,
 .float-box .float-box-body h4,
-.float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+.float-box .float-box-body h5,
+.float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+.collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6 {
   font-size: 1.125rem;
   line-height: 1.4; }
 
-h5, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
+h5, .h5, .card .card-body .card-subheading, .collapse-container .collapse-card .collapse-body .collapse-subheading, .audio-container .audio-top .audio-info .audio-title,
+.audio-container .audio-top .audio-info h3, .audio-container .audio-top .audio-info h4, .audio-container .audio-top .audio-info h5, .audio-container .audio-top .audio-info h6, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno, h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
   font-size: 1rem;
   line-height: 1.4; }
 
-#region-main h3:not(:first-child), #region-main h4:not(:first-child), #region-main h5:not(:first-child), #region-main h6:not(:first-child) {
-  margin-top: 12px; }
+#region-main .no-overflow > h3:not(:first-child), #region-main .no-overflow > h4:not(:first-child), #region-main .no-overflow > h5:not(:first-child), #region-main .no-overflow > h6:not(:first-child) {
+  margin-top: 0.75rem; }
 
 p {
   font-size: 1rem;
@@ -83,17 +127,12 @@ p {
   line-height: 1.5;
   font-family: Open Sans, sans-serif; }
 
-.quote-body {
+.quote-box .quote-body {
   font-size: 1.25rem;
   line-height: 1.25;
   font-family: KingsCaslonDisplay;
   margin-bottom: 1.75rem;
   font-style: italic; }
-
-.quote-attribution {
-  font-size: 1rem;
-  line-height: 1.25;
-  margin-bottom: 0 !important; }
 
 select, option {
   font-family: 'Open Sans', sans-serif; }
@@ -111,25 +150,45 @@ select, option {
   h3, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
     font-size: 1.5rem;
     line-height: 1.25; }
-  h4, .h4, .float-box > div h3, .float-box > div h4, .float-box > div h5,
+  h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+  .info-box > :first-child h3,
+  .alert > :first-child h3,
+  .definition-box > :first-child h3,
+  body .editing-help-box > :first-child h3,
+  .feedback-box > :first-child h3,
+  #region-main .learning-outcome-box > :first-child h3,
+  .reading-box > :first-child h3,
+  div.quote-box > :first-child h3,
+  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+  .note-container > div > .card-body .card-author h3,
+  .academic-note-container > div > .card-body .card-author h3,
+  .view-generic-container > div > .card-body .card-author h3,
+  .view-answer-container > div > .card-body .card-author h3,
+  .view-feedback-container > div > .card-body .card-author h3,
+  .view-model-answer-container > div > .card-body .card-author h3,
+  .view-description-container > div > .card-body .card-author h3, .note-container > div > .card-body .card-author h4, .academic-note-container > div > .card-body .card-author h4, .view-generic-container > div > .card-body .card-author h4, .view-answer-container > div > .card-body .card-author h4, .view-feedback-container > div > .card-body .card-author h4, .view-model-answer-container > div > .card-body .card-author h4, .view-description-container > div > .card-body .card-author h4, .note-container > div > .card-body .card-author h5, .academic-note-container > div > .card-body .card-author h5, .view-generic-container > div > .card-body .card-author h5, .view-answer-container > div > .card-body .card-author h5, .view-feedback-container > div > .card-body .card-author h5, .view-model-answer-container > div > .card-body .card-author h5, .view-description-container > div > .card-body .card-author h5, .note-container > div > .card-body .card-author h6, .academic-note-container > div > .card-body .card-author h6, .view-generic-container > div > .card-body .card-author h6, .view-answer-container > div > .card-body .card-author h6, .view-feedback-container > div > .card-body .card-author h6, .view-model-answer-container > div > .card-body .card-author h6, .view-description-container > div > .card-body .card-author h6, .card .card-body .card-title,
+  .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6, .float-box > div .float-box-title,
+  .float-box > div h3, .float-box > div h4, .float-box > div h5, .float-box > div h6,
+  .float-box .float-box-body .float-box-title,
   .float-box .float-box-body h3,
   .float-box .float-box-body h4,
-  .float-box .float-box-body h5, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1 {
+  .float-box .float-box-body h5,
+  .float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+  .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6 {
     font-size: 1.25rem;
     line-height: 1.4; }
-  h5, .h5, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno {
+  h5, .h5, .card .card-body .card-subheading, .collapse-container .collapse-card .collapse-body .collapse-subheading, .audio-container .audio-top .audio-info .audio-title,
+  .audio-container .audio-top .audio-info h3, .audio-container .audio-top .audio-info h4, .audio-container .audio-top .audio-info h5, .audio-container .audio-top .audio-info h6, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno {
     font-size: 1.125rem;
     line-height: 1.4; }
   h6, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author {
     font-size: 1rem;
     line-height: 1.4; }
-  .quote-body {
+  .quote-box .quote-body {
     font-size: 1.5rem;
     line-height: 1.25;
-    font-family: KingsCaslonDisplay; }
-  .quote-attribution {
-    font-size: 1.125rem;
-    line-height: 1.25; } }
+    font-family: KingsCaslonDisplay;
+    margin-bottom: 1.5rem; } }
 
 .path-mod-book .generalbox.book_content > h3 {
   background: none; }
@@ -227,7 +286,8 @@ footer#page-footer {
 .view-answer-container > button::before,
 .view-feedback-container > button::before,
 .view-model-answer-container > button::before,
-.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
+.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, .collapse-container .collapse-card .collapse-header button .collapse-title::before,
+.collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button h6::before, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 0.375rem; }
@@ -276,26 +336,31 @@ footer#page-footer {
   width: 100%;
   padding: 1.25rem 1.5rem; }
 
-.info-box, .alert, .definition-box, body .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, .quote-box, .que .content .outcome {
+.info-box, .alert, .definition-box, body .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, div.quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: 0;
   border: none;
   padding: 0.75rem 1.25rem;
-  position: relative;
-  color: #000000 !important; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, body .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, .quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, body .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, .quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
+  position: relative; }
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, body .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, div.quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, body .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, div.quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box h5, .alert h5, .definition-box h5, body .editing-help-box h5, .feedback-box h5, #region-main .learning-outcome-box h5, .reading-box h5, .quote-box h5, .que .content .outcome h5, .info-box .info-box-title, .alert .info-box-title, .definition-box .info-box-title, body .editing-help-box .info-box-title, .feedback-box .info-box-title, #region-main .learning-outcome-box .info-box-title, .reading-box .info-box-title, .quote-box .info-box-title, .que .content .outcome .info-box-title, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box .specificfeedback, .que .content .outcome .feedback .specificfeedback, #region-main .learning-outcome-box .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box p, .que .content .outcome .feedback .specificfeedback p {
-    font-family: 'KingsBureauGrot' !important;
-    font-size: 1.2rem;
-    color: #171717 !important;
+  .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+  .info-box > :first-child h3,
+  .alert > :first-child h3,
+  .definition-box > :first-child h3,
+  body .editing-help-box > :first-child h3,
+  .feedback-box > :first-child h3,
+  #region-main .learning-outcome-box > :first-child h3,
+  .reading-box > :first-child h3,
+  div.quote-box > :first-child h3,
+  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6 {
     margin-top: 0;
     margin-bottom: 1rem; }
-  .info-box p, .alert p, .definition-box p, body .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, .quote-box p, .que .content .outcome p {
+  .info-box p, .alert p, .definition-box p, body .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, div.quote-box p, .que .content .outcome p {
     color: #333333 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, body .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, .quote-box p:last-child, .que .content .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, body .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, div.quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
-  .info-box::before, .alert::before, .definition-box::before, body .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, .quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, body .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, .quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
+  .info-box::before, .alert::before, .definition-box::before, body .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, div.quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, body .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, div.quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.25rem;
@@ -346,6 +411,15 @@ footer#page-footer {
         height: 75px;
         width: 75px;
         margin-right: 1rem; }
+      .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+      .note-container > div > .card-body .card-author h3,
+      .academic-note-container > div > .card-body .card-author h3,
+      .view-generic-container > div > .card-body .card-author h3,
+      .view-answer-container > div > .card-body .card-author h3,
+      .view-feedback-container > div > .card-body .card-author h3,
+      .view-model-answer-container > div > .card-body .card-author h3,
+      .view-description-container > div > .card-body .card-author h3, .note-container > div > .card-body .card-author h4, .academic-note-container > div > .card-body .card-author h4, .view-generic-container > div > .card-body .card-author h4, .view-answer-container > div > .card-body .card-author h4, .view-feedback-container > div > .card-body .card-author h4, .view-model-answer-container > div > .card-body .card-author h4, .view-description-container > div > .card-body .card-author h4, .note-container > div > .card-body .card-author h5, .academic-note-container > div > .card-body .card-author h5, .view-generic-container > div > .card-body .card-author h5, .view-answer-container > div > .card-body .card-author h5, .view-feedback-container > div > .card-body .card-author h5, .view-model-answer-container > div > .card-body .card-author h5, .view-description-container > div > .card-body .card-author h5, .note-container > div > .card-body .card-author h6, .academic-note-container > div > .card-body .card-author h6, .view-generic-container > div > .card-body .card-author h6, .view-answer-container > div > .card-body .card-author h6, .view-feedback-container > div > .card-body .card-author h6, .view-model-answer-container > div > .card-body .card-author h6, .view-description-container > div > .card-body .card-author h6 {
+        margin: 0; }
     .note-container > div > .card-body .card-text > *:last-child, .academic-note-container > div > .card-body .card-text > *:last-child, .view-generic-container > div > .card-body .card-text > *:last-child, .view-answer-container > div > .card-body .card-text > *:last-child, .view-feedback-container > div > .card-body .card-text > *:last-child, .view-model-answer-container > div > .card-body .card-text > *:last-child, .view-description-container > div > .card-body .card-text > *:last-child {
       margin-bottom: 0 !important; }
     .note-container > div > .card-body > *:last-child, .academic-note-container > div > .card-body > *:last-child, .view-generic-container > div > .card-body > *:last-child, .view-answer-container > div > .card-body > *:last-child, .view-feedback-container > div > .card-body > *:last-child, .view-model-answer-container > div > .card-body > *:last-child, .view-description-container > div > .card-body > *:last-child {
@@ -1309,8 +1383,10 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
   .card .card-body {
     background-color: #EDF1F2;
     width: 100%; }
-    .card .card-body h4 {
-      margin-top: 0;
+    .card .card-body .card-title,
+    .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+      margin-bottom: 0.75rem; }
+    .card .card-body .card-subheading {
       margin-bottom: 0.75rem; }
     .card .card-body > :last-child {
       margin-bottom: 0 !important; }
@@ -1380,10 +1456,13 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
     margin-right: 1rem; }
     .float-box .img-container .caption, .float-box .img-container table caption, table .float-box .img-container caption, .float-box .img-container .table caption, .table .float-box .img-container caption, .float-box .img-container .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table caption, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .float-box .img-container caption {
       margin-top: 0.5rem; }
-  .float-box > div h3, .float-box > div h4, .float-box > div h5,
+  .float-box > div .float-box-title,
+  .float-box > div h3, .float-box > div h4, .float-box > div h5, .float-box > div h6,
+  .float-box .float-box-body .float-box-title,
   .float-box .float-box-body h3,
   .float-box .float-box-body h4,
-  .float-box .float-box-body h5 {
+  .float-box .float-box-body h5,
+  .float-box .float-box-body h6 {
     margin-bottom: 0.75rem; }
   .float-box > div > :last-child,
   .float-box .float-box-body > :last-child {
@@ -1480,27 +1559,22 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
       padding: 0 !important;
       width: 100%;
       text-align: left; }
-      .collapse-container .collapse-card .collapse-header button .h4, .collapse-container .collapse-card .collapse-header button .float-box > div h3, .float-box > div .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button .float-box > div h4, .float-box > div .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button .float-box > div h5, .float-box > div .collapse-container .collapse-card .collapse-header button h5,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1 {
+      .collapse-container .collapse-card .collapse-header button .collapse-title,
+      .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6 {
         position: relative;
         margin-bottom: 0;
         margin-left: 1.75rem;
         line-height: 1;
         color: #0A2D50;
         width: calc(100% - 1.75rem); }
-      .collapse-container .collapse-card .collapse-header button .h4::before, .collapse-container .collapse-card .collapse-header button .float-box > div h3::before, .float-box > div .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button .float-box > div h4::before, .float-box > div .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button .float-box > div h5::before, .float-box > div .collapse-container .collapse-card .collapse-header button h5::before,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h3::before,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h4::before,
-      .collapse-container .collapse-card .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card .collapse-header button h1::before {
-        content: '\f107';
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
-        font-size: 1.5rem;
-        position: absolute;
-        left: -1.75rem;
-        top: -2px; }
+        .collapse-container .collapse-card .collapse-header button .collapse-title::before,
+        .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button h6::before {
+          content: '\f107';
+          margin: 0;
+          font-size: 1.5rem;
+          position: absolute;
+          left: -1.75rem;
+          top: -2px; }
     .collapse-container .collapse-card .collapse-header:focus-within {
       outline: 4px auto -webkit-focus-ring-color; }
     .collapse-container .collapse-card .collapse-header .btn:focus, .collapse-container .collapse-card .collapse-header #page #page-header-nav .breadcrumb-button .moodle-actionmenu:focus, #page #page-header-nav .breadcrumb-button .collapse-container .collapse-card .collapse-header .moodle-actionmenu:focus, .collapse-container .collapse-card .collapse-header input:focus[type="submit"], .collapse-container .collapse-card .collapse-header #notice.modal .modal-content .modal-footer .buttons .singlebutton > form > div > input:focus[type="submit"]:first-child, #notice.modal .modal-content .modal-footer .buttons .collapse-container .collapse-card .collapse-header .singlebutton > form > div > input:focus[type="submit"]:first-child, .collapse-container .collapse-card .collapse-header .forumaddnew div input:focus[type="submit"]:first-child, .forumaddnew div .collapse-container .collapse-card .collapse-header input:focus[type="submit"]:first-child, .collapse-container .collapse-card .collapse-header .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form button#searchforums:focus, .path-mod-forum #page-navbar .breadcrumb-button .forumsearch form .collapse-container .collapse-card .collapse-header button#searchforums:focus, .collapse-container .collapse-card .collapse-header #page-mod-forum-post #fgroup_id_buttonar .fgroup input:focus, #page-mod-forum-post #fgroup_id_buttonar .fgroup .collapse-container .collapse-card .collapse-header input:focus, .collapse-container .collapse-card .collapse-header #page-mod-kalvidassign-view #region-main form input:focus, #page-mod-kalvidassign-view #region-main form .collapse-container .collapse-card .collapse-header input:focus, .collapse-container .collapse-card .collapse-header .path-mod-questionnaire .mod_questionnaire_viewpage .complete > a:focus, .path-mod-questionnaire .mod_questionnaire_viewpage .collapse-container .collapse-card .collapse-header .complete > a:focus,
@@ -1521,10 +1595,8 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
         margin-bottom: 1rem; }
         .collapse-container .collapse-card .collapse-body p:last-child {
           margin-bottom: 0; }
-    .collapse-container .collapse-card.collapsed .collapse-header button .h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h3::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h3::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h4::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h4::before, .collapse-container .collapse-card.collapsed .collapse-header button .float-box > div h5::before, .float-box > div .collapse-container .collapse-card.collapsed .collapse-header button h5::before,
-    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h3::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h3::before,
-    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h4::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h4::before,
-    .collapse-container .collapse-card.collapsed .collapse-header button .float-box .float-box-body h5::before, .float-box .float-box-body .collapse-container .collapse-card.collapsed .collapse-header button h5::before, .collapse-container .collapse-card.collapsed .collapse-header button .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1::before, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd .collapse-container .collapse-card.collapsed .collapse-header button h1::before {
+    .collapse-container .collapse-card.collapsed .collapse-header button .collapse-title::before,
+    .collapse-container .collapse-card.collapsed .collapse-header button h3::before, .collapse-container .collapse-card.collapsed .collapse-header button h4::before, .collapse-container .collapse-card.collapsed .collapse-header button h5::before, .collapse-container .collapse-card.collapsed .collapse-header button h6::before {
       content: '\f105'; }
     .collapse-container .collapse-card.collapsed .collapse-body {
       display: none; }
@@ -1611,11 +1683,12 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
         line-height: normal; }
       .audio-container .audio-top .audio-info .audio-speaker {
         margin-bottom: 0.75rem; }
-      .audio-container .audio-top .audio-info .audio-title {
-        font-family: 'KingsBureauGrot';
+      .audio-container .audio-top .audio-info .audio-title,
+      .audio-container .audio-top .audio-info h3, .audio-container .audio-top .audio-info h4, .audio-container .audio-top .audio-info h5, .audio-container .audio-top .audio-info h6 {
         margin-top: 0;
         margin-bottom: 0; }
-  .audio-container .embed-responsive-audio, .audio-container .audio-player {
+  .audio-container .embed-responsive-audio,
+  .audio-container .audio-player {
     padding-top: 40px;
     margin-bottom: 0; }
 
@@ -1715,7 +1788,8 @@ figure {
   margin-bottom: 1.5rem; }
 
 .image-scroll {
-  overflow-x: scroll; }
+  overflow-x: auto;
+  margin-bottom: 1.5rem; }
 
 /* Info boxes
    =========================*/
@@ -2054,9 +2128,9 @@ body .editing-help-box {
 
 /* Quotation box
    =========================*/
-.quote-box {
+div.quote-box {
   background-color: #EDF1F2; }
-  .quote-box > :first-child::before {
+  div.quote-box > :first-child::before {
     content: '“';
     padding: 0;
     color: #FF5F05;
@@ -2065,6 +2139,32 @@ body .editing-help-box {
     position: absolute;
     left: 18px;
     top: 40px; }
+  div.quote-box > :first-child .quote-attribution:last-child,
+  div.quote-box > :first-child h3:last-child, div.quote-box > :first-child h4:last-child, div.quote-box > :first-child h5:last-child, div.quote-box > :first-child h6:last-child {
+    margin-bottom: 0; }
+
+figure.quote-box {
+  margin-bottom: 1.5rem;
+  background-color: #EDF1F2;
+  position: relative;
+  padding: 1.25rem 1.75rem 1.25rem 4.625rem; }
+  figure.quote-box blockquote {
+    border: none;
+    padding: 0; }
+    figure.quote-box blockquote::before {
+      content: '“';
+      padding: 0;
+      color: #FF5F05;
+      font-family: 'KingsCaslonDisplay';
+      font-size: 4.5rem;
+      font-style: normal;
+      font-weight: normal;
+      position: absolute;
+      left: 18px;
+      top: 8px;
+      margin: 0; }
+  figure.quote-box figcaption:last-child {
+    margin-bottom: 0; }
 
 /* Screenreader-only description
    ============================= */
@@ -5145,11 +5245,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   table.bg-transparent td, .table.bg-transparent td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.bg-transparent td {
     background-color: transparent !important; }
 
-@-moz-document url-prefix() {
-  table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table {
-    margin-left: 1px;
-    width: calc(100% - 1px); } }
-
 /* Timeline
    =========================*/
 .timeline-container {
@@ -5215,9 +5310,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       @media only screen and (min-width: 768px) {
         .timeline-container .timeline-row .timeline-card .card-image {
           padding-right: 5px; } }
-    .timeline-container .timeline-row .timeline-card h5 {
-      line-height: 1.4;
-      color: #171717;
+    .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6 {
       margin-top: 0; }
     .timeline-container .timeline-row .timeline-card .img-reference {
       font-size: 0.8125rem;
@@ -6183,6 +6276,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     #page-course-view-grid #region-main .course-content ul > li.section.main .content .summary .no-overflow,
     #page-course-view-topcoll #region-main .course-content ul > li.section.main .content .summary .no-overflow {
       width: 100%; }
+      #page-course-view-grid #region-main .course-content ul > li.section.main .content .summary .no-overflow ul > li,
+      #page-course-view-topcoll #region-main .course-content ul > li.section.main .content .summary .no-overflow ul > li {
+        list-style: disc; }
     #page-course-view-grid #region-main .course-content ul > li.section.main .content > #completionprogressid,
     #page-course-view-topcoll #region-main .course-content ul > li.section.main .content > #completionprogressid {
       display: none !important; }
@@ -6746,7 +6842,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           outline-offset: -2px; }
       #page-course-view-grid.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen,
       #page-course-view-topcoll.format-topcoll .course-content ul.ctopics > .section .content .sectionbody.sectionopen {
-        background-color: rgba(237, 241, 242, 0.3) !important;
         padding: 1.5rem 0.5rem;
         margin-bottom: 0.5rem;
         border: 1px solid #CDD7DC;

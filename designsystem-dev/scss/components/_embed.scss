@@ -94,14 +94,16 @@
       .audio-speaker {
         margin-bottom: 0.75rem;
       }
-      .audio-title {
-        font-family: 'KingsBureauGrot';
+      .audio-title,
+      h3, h4, h5, h6 {
+        @extend .h5;
         margin-top: 0;
         margin-bottom: 0;
       }
     }
   }
-  .embed-responsive-audio, .audio-player {
+  .embed-responsive-audio,
+  .audio-player {
     padding-top: 40px;
     margin-bottom: 0;
   }

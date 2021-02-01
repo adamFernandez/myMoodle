@@ -14,8 +14,6 @@ $font-kbg: (
   h3-sm: ( font-size: 1.25rem, line-height: 1.25 ),
   h4-sm: ( font-size: 1.125rem, line-height: 1.4 ),
   h56-sm: ( font-size: 1rem, line-height: 1.4 ),
-  quote-attribution: ( font-size: 1.125rem, line-height: 1.25 ),
-  quote-attribution-sm: ( font-size: 1rem, line-height: 1.25 ),
   btn: ( font-size: 1.125rem !important, line-height: 1.25 !important),
   btn-lg: ( font-size: 1.25rem !important, line-height: 1.5 !important)
 );
@@ -84,8 +82,12 @@ h4, .h4 { @include font-scale(h4-sm) ;}
 h5, .h5, h6, .h6 { @include font-scale(h56-sm) ;}
 
 // allow margin above headers in main region to increase to 36px
-#region-main h3:not(:first-child), #region-main h4:not(:first-child), #region-main h5:not(:first-child), #region-main h6:not(:first-child){
-  margin-top: 12px;
+#region-main .no-overflow {
+  & > h3, & > h4, & > h5, & > h6 {
+    &:not(:first-child) {
+      margin-top: 0.75rem;
+    }
+  }
 }
 
 p {
@@ -96,20 +98,18 @@ p {
 .caption {
   @include font-scale(caption, $font-os);
 }
-.quote-body {
-  @include font-scale(quote-body-sm, $font-kcd);
-  margin-bottom: 1.75rem;
-  font-style: italic;
-}
-.quote-attribution {
-  @include font-scale(quote-attribution-sm);
-  margin-bottom: 0 !important;
+.quote-box {
+  .quote-body {
+    @include font-scale(quote-body-sm, $font-kcd);
+    margin-bottom: 1.75rem;
+    font-style: italic;
+  }
 }
 select, option, {
   font-family: 'Open Sans', sans-serif;
 }
 
-// mobile fonts
+// large screen fonts
 @media only screen and (min-width: $neo-breakpoint) {
   h1, .h1 { @include font-scale(h1) ;}
   h2, .h2 { @include font-scale(h2) ;}
@@ -117,8 +117,12 @@ select, option, {
   h4, .h4 { @include font-scale(h4) ;}
   h5, .h5 { @include font-scale(h5) ;}
   h6, .h6 { @include font-scale(h6) ;}
-  .quote-body { @include font-scale(quote-body, $font-kcd); }
-  .quote-attribution { @include font-scale(quote-attribution); }
+  .quote-box {
+    .quote-body {
+      @include font-scale(quote-body, $font-kcd);
+      margin-bottom: 1.5rem;
+    }
+  }
 }
 
 // hide page title underline

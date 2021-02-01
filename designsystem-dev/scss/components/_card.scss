@@ -33,8 +33,14 @@
   .card-body {
     background-color: $block-background;
     width: 100%;
-    h4 {
-      margin-top: 0;
+    .card-title,
+    h3, h4, h5, h6 {
+      // from typography
+      @extend .h4;
+      margin-bottom: 0.75rem;
+    }
+    .card-subheading {
+      @extend .h5;
       margin-bottom: 0.75rem;
     }
     & > :last-child {
@@ -132,9 +138,10 @@
   }
   & > div,
   .float-box-body {
-    h3, h4, h5 {
-      @extend .h4;
+    .float-box-title,
+    h3, h4, h5, h6 {
       // from typography 
+      @extend .h4;
       margin-bottom: 0.75rem;
     }
     & > :last-child {

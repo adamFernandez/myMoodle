@@ -510,7 +510,7 @@ var data = {
     },
     "module3": {
       "discussion": {
-        "1": "mod/forum/view.php?id=2951670"
+        "1": "mod/forum/view.php?id=3232107"
       }
     },
     "module5": {
@@ -586,25 +586,25 @@ var data = {
      },
      "module3": {
        "forum1": {
-          "1": "mod/forum/view.php?id=3233893"
+          "1": "mod/forum/view.php?id=4280562"
         },
        "forum2": {
-          "1": "mod/forum/view.php?id=3233901"
+          "1": "mod/forum/view.php?id=4795637"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=3233928"
+          "1": "mod/forum/view.php?id=4795641"
         },
        "forum4": {
-          "1": "mod/forum/view.php?id=3233950"
+          "1": "mod/forum/view.php?id=4795644"
         },
        "forum5": {
-          "1": "mod/forum/view.php?id=3233976"
+          "1": "mod/forum/view.php?id=4795648"
         },
        "forum6": {
-          "1": "mod/forum/view.php?id=3234001"
+          "1": "mod/forum/view.php?id=4795654"
         },
        "forum7": {
-          "1": "mod/forum/view.php?id=3234025"
+          "1": "mod/forum/view.php?id=4280694"
         }
       },
       "module4": {

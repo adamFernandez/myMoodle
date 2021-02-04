@@ -589,19 +589,19 @@ var data = {
           "1": "mod/forum/view.php?id=4280562"
         },
        "forum2": {
-          "1": "mod/forum/view.php?id=4795637"
+          "1": "mod/forum/view.php?id=4280570"
         },
        "forum3": {
-          "1": "mod/forum/view.php?id=4795641"
+          "1": "mod/forum/view.php?id=4280597"
         },
        "forum4": {
-          "1": "mod/forum/view.php?id=4795644"
+          "1": "mod/forum/view.php?id=4280619"
         },
        "forum5": {
-          "1": "mod/forum/view.php?id=4795648"
+          "1": "mod/forum/view.php?id=4280645"
         },
        "forum6": {
-          "1": "mod/forum/view.php?id=4795654"
+          "1": "mod/forum/view.php?id=4280670"
         },
        "forum7": {
           "1": "mod/forum/view.php?id=4280694"

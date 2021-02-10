@@ -313,10 +313,3 @@ table, .table {
     }
   }
 }
-// firefox issue not rendering left border of table
-@-moz-document url-prefix() {
-  table, .table {
-    margin-left: 1px;
-    width: calc(100% - 1px);
-  }
-}

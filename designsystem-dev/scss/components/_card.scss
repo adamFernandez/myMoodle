@@ -140,7 +140,7 @@
   .float-box-body {
     .float-box-title,
     h3, h4, h5, h6 {
-      // from typography 
+      // from typography
       @extend .h4;
       margin-bottom: 0.75rem;
     }

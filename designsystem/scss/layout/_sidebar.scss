@@ -1,3 +1,8 @@
+/* Layout
+   =========================*/
+
+// allow enough space for move
+// and menu icons in ediitng mode
 .editing {
   aside {
     .block {
@@ -12,8 +17,8 @@
 
 aside {
   section.block {
-    padding: 0 12px 12px 12px;
-    margin-bottom: 12px !important;
+    padding: 0;
+    margin-bottom: $component-margin-bottom !important;
     &.hide {
       display: none;
     }
@@ -65,7 +70,8 @@ aside {
     }
   }
 }
-#block-region-side-pre .block, #block-region-side-post .block {
+#block-region-side-pre .block,
+#block-region-side-post .block {
   &:not(.block_fake) .title h2::after {
     content: '\f068';
     font-family: 'Font Awesome 5 Free';
@@ -146,8 +152,6 @@ aside {
   &.block_book_toc {
     .content {
       li {
-        // list item height not flexing in IE
-        -ms-flex: 0 1 auto;
         &:not(:last-child) {
           margin-bottom: 0.75rem;
         }
@@ -194,7 +198,7 @@ aside {
     margin: 0;
     list-style: none;
     li {
-      & img,
+      & > img,
       & > span > img,
       .profile-img {
         width: 3rem;
@@ -220,7 +224,7 @@ aside {
   }
 }
 
-//quick access block
+// quick access block
 #block-region-side-pre, #block-region-side-post {
   .block_html .content ul.fa-ul {
     color: $midnight-blue;
@@ -243,7 +247,7 @@ aside {
   }
 }
 
-// calendar
+// calendar block
 .calendarwrapper {
   margin-bottom: 1.5rem !important;
   margin-top: 0 !important;

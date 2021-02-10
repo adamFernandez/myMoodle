@@ -1,6 +1,5 @@
-// -----------------------------------------------------------------------------
-// tab display
-// -----------------------------------------------------------------------------
+/* Tab display
+   ======================== */
 
 #page-mod-tab-view {
   #tabintro {
@@ -34,6 +33,9 @@
     }
   }
   #tab-menu-wrapper {
+    .menutable {
+      border: 1px solid $rules-and-outlines;
+    }
     margin-right: $component-margin-sm;
     .TabbedPanels {
       .TabbedPanelsTabSelected {
@@ -47,15 +49,20 @@
     padding: 0;
     .TabbedPanels {
       padding: 0;
-      .TabbedPanelsTab {
-        background-color: $block-background;
-        color: $midnight-blue;
-        font: unset;
+      .TabbedPanelsTabGroup {
+        .TabbedPanelsTab {
+          border: 1px solid $rules-and-outlines;
+          background-color: $block-background;
+          color: $midnight-blue;
+          font: unset;
+          &.TabbedPanelsTabSelected {
+            background-color: $midnight-blue;
+            color: $white;
+          }
+        }
       }
-      .TabbedPanelsTabSelected {
-        background-color: $midnight-blue;
-        color: $white;
-        border-bottom: 1px solid #999;
+      .TabbedPanelsContentGroup {
+        border: 1px solid $rules-and-outlines;
       }
     }
     .TabbedPanelsContent {

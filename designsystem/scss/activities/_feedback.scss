@@ -1,6 +1,5 @@
-// -----------------------------------------------------------------------------
-// feedback
-// -----------------------------------------------------------------------------
+/* Feedback
+   ======================== */
 
 .path-mod-feedback {
   // question and submission settings
@@ -29,7 +28,8 @@
             & > *:last-child {
               margin: 0 !important;
             }
-            span.start, span.stop {
+            span.start,
+            span.stop {
               text-transform: uppercase;
             }
           }

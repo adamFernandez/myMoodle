@@ -1,12 +1,12 @@
+/* Home
+   ======================== */
 
-// -----------------------------------------------------------------------------
-// home
-// -----------------------------------------------------------------------------
-
-body {
+// only grid and collapsed topics formtas are supported
+#page-course-view-grid,
+#page-course-view-topcoll {
   #region-main {
     .course-content {
-      // completion progress id
+      // hide topcoll completion progress info
       & > #completionprogressid {
         display: none !important;
       }
@@ -19,16 +19,7 @@ body {
           // hide activity labels on module information, forums and webinars, and
           // assessment pages
           &.section-hide-activity-labels {
-            li.activity {
-              &.type-assessed .activity-label-container {
-                .group-icon, .media-icon {
-                  display: none !important;
-                }
-              }
-              &:not(.type-assessed) .activity-label-container {
-                display: none !important;
-              }
-            }
+            @extend .hide-activity-labels;
           }
           .content {
             margin: 0 !important;
@@ -37,11 +28,25 @@ body {
              h3.sectionname {
               color: $headings;
             }
+            .section_availability {
+              .availabilityinfo {
+                .label {
+                  background-color: $sea-blue;
+                  color: $white;
+                }
+              }
+            }
             .summary {
               .no-overflow {
                 width: 100%;
+                // override theme list style
+                ul > li {
+                  list-style: disc;
+                }
               }
             }
+            // hide completion progress info as it is
+            // cloned into each section individually
             & > #completionprogressid {
               display: none !important;
             }
@@ -55,7 +60,7 @@ body {
                 padding: 0;
               }
             }
-            // activity type labels
+            // Moodle activity title link
             li.activity {
               display: flex;
               margin-bottom: $component-margin-bottom-sm !important;
@@ -80,17 +85,14 @@ body {
               &.label p:last-child {
                 margin-bottom: 0;
               }
-              &.type-study .activityinstance .activity-label-container .activity-label {
-                display: none !important;
-              }
-              &.type-activity .activityinstance .activity-label-container
-              .activity-label {
+              &.type-study .activityinstance a {
+                .activity-label-container {
+                  @extend .activity-label-container-default.study;
+                }
               }
               &.type-assessed .activityinstance a {
-                .activity-label-container .activity-label {
-                  background-color: #60bbba !important;
-                  color: $white !important;
-                  width: 5.5rem !important;
+                .activity-label-container  {
+                  @extend .activity-label-container-default.assessed;
                 }
               }
               .mod-indent-outer > div:last-child {
@@ -133,16 +135,16 @@ body {
                       text-decoration: underline;
                     }
                   }
-                  .activity-label-container {
-                    @extend .activity-label-container-default;
-                    display: inline-flex;
-                    // safari renders the kings font slightly out of whack with all other
-                    // browsers
-                    @media not all and (min-resolution:.001dpcm) {
+                  & > .stealth {
+                    opactiy: 0.9;
+                    .activity-label-container {
                       .activity-label {
-                        line-height: 1.7;
+                        color: $slate-grey;
                       }
                     }
+                  }
+                  .activity-label-container {
+                    @extend .activity-label-container-default;
                   }
                 }
                 a.quickeditlink {
@@ -160,21 +162,25 @@ body {
                 order: 3;
                 flex: 0 0 100%;
                 margin: $component-margin-xs 0 0 0;
-                label {
+                .label {
+                  background-color: $sea-blue;
                   color: $white;
                 }
               }
-              &.indent .contentwithoutlink, .contentafterlink {
+              &.indent .contentwithoutlink,
+              &.book .contentwithoutlink,
+              // activity description
+              .contentafterlink {
                 border-left: 3px solid $pearl-grey;
                 border-radius: 0;
                 padding-left: 0.625rem !important;
                 order: 3;
+                margin-top: $component-margin-sm;
                 // adding 1rem from activity label number spacing
                 margin-left: 34px;
                 @media only screen and (min-width: $neo-breakpoint) {
                   margin-left: 42px;
                 }
-                margin-top: 0;
                 p {
                   margin: 0 0 1rem 0;
                   &:last-child {
@@ -199,15 +205,12 @@ body {
                     width: 1.25rem;
                     padding: 0;
                     border-radius: 4px;
-                    background: rgba(255, 255, 255, 0.8);
+                    @include bg-colour-opacity($white, 0.8);
                   }
                 }
                 .filler {
                   display: none;
                 }
-              }
-              .contentafterlink {
-                margin-top: $component-margin-sm;
               }
               .contentwithoutlink {
                 min-height: 1.5rem;
@@ -312,6 +315,13 @@ body {
                   }
                 }
               }
+              .contentwithoutlink,
+              .contentafterlink {
+                margin-left: 64px !important;
+                @media only screen and (min-width: $neo-breakpoint) {
+                  margin-left: 80px !important;
+                }
+              }
               &:not(.label).completion-progress-activity {
                 .activityinstance {
                   max-width: calc(100% - 30px);
@@ -338,23 +348,23 @@ body {
   // grid format only
   &.format-grid {
     .course-content {
+      // section-0
       .gtopics-0 {
         margin: 0 !important;
       }
       // grid format
       #gridiconcontainer {
-        // for some reason a right margin cant be overidden
-        width: 103%;
         ul.gridicons {
-          margin-left: -0.75rem;
-          margin-right: 0.75rem;
+          width: calc(100% + 2rem);
+          margin-left: -1rem;
+          margin-right: -1rem;
           li {
-          @extend .top-bar;
-            padding: 0;
-            margin: 0.75rem;
+            padding: 0.75rem;
+            background-color: transparent;
           }
         }
-        .gridicon_link, ul.gridicons > li > span:first-child {
+        .gridicon_link,
+        ul.gridicons > li > span:first-child {
           position: relative;
           .icon_content {
             @extend .caption-overlay;
@@ -362,7 +372,7 @@ body {
             text-align: left;
             z-index: 1;
             padding: 1rem;
-            width: 277.5px;
+            width: calc(310px - 2rem);
             height: 100px;
             font-family: 'KingsBureauGrot';
             font-size: 1.25rem;
@@ -371,8 +381,9 @@ body {
             opacity: 1;
           }
           .image_holder {
+            @extend .top-bar;
             border: none;
-            width: 309.5px;
+            width: 310px;
             height: 310px;
             background-color: transparent;
             border-radius: 0;
@@ -401,7 +412,7 @@ body {
                 font-family: 'KingsBureauGrot';
               }
               .icon_content {
-                background-color: rgba(90,100,105,0.85) !important;
+                @include bg-colour-opacity($slate-grey, 0.85);
               }
               img {
                 filter: grayscale(1);
@@ -431,37 +442,39 @@ body {
   // collapsed topics only
   &.format-topcoll {
     // quiz attempted info
-    .ct-activity-meta-container {
-      margin: 0 0 0 $component-margin-lg;
-      order: 2;
-      a {
-        display: flex;
-        align-items: center;
-        position: relative;
-        padding-left: 28px;
-        // hide original icon
-        img {
-          display: none;
-        }
-        &:hover {
-          text-decoration: underline !important;
-        }
-        &::before {
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          content: '\f129';
-          position: absolute;
-          left: 0;
-          line-height: 16px;
-          color: $slate-grey;
-          border: 2px solid $slate-grey;
-          border-radius: 50%;
-          width: 20px;
-          margin-right: $component-margin-xs;
-          // img slightly out of vertical alignment
-          margin-bottom: 2px !important;
-          padding: 0px 6px;
-          font-size: 12px;
+    li.activity.quiz {
+      .ct-activity-meta-container {
+        margin: 0 0 0 $component-margin-lg;
+        order: 2;
+        a {
+          display: flex;
+          align-items: center;
+          position: relative;
+          padding-left: 28px;
+          // hide original icon
+          img {
+            display: none;
+          }
+          &:hover {
+            text-decoration: underline !important;
+          }
+          &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: '\f129';
+            position: absolute;
+            left: 0;
+            line-height: 16px;
+            color: $slate-grey;
+            border: 2px solid $slate-grey;
+            border-radius: 50%;
+            width: 20px;
+            margin-right: $component-margin-xs;
+            // img slightly out of vertical alignment
+            margin-bottom: 2px !important;
+            padding: 0px 6px;
+            font-size: 12px;
+          }
         }
       }
     }
@@ -521,6 +534,7 @@ body {
                     padding-left: $component-margin-lg;
                     font-weight: normal;
                     .label {
+                      background-color: $sea-blue;
                       color: $white;
                     }
                   }
@@ -534,7 +548,7 @@ body {
                     content: '\f107';
                   }
                   span {
-                    color: $white;
+                    color: $white !important;
                   } 
                 }
                 .section_availability {
@@ -555,8 +569,6 @@ body {
               }
             }
             .sectionbody.sectionopen {
-              // block-background at 30 opacity
-              background-color: rgba(237, 241, 242, 0.3);
               padding: $component-margin $component-margin-xs;
               margin-bottom: $component-margin-bottom-xs;
               border: 1px solid $pearl-grey;
@@ -564,8 +576,44 @@ body {
               @media only screen and (min-width: $neo-breakpoint) {
                 padding: $component-margin-lg $component-margin;
               }
-              li.activity:last-child {
-                margin-bottom: 0 !important;
+              li.activity {
+                // additional info i.e. due date, no. answered / submitted
+                .ct-activity-meta-container {
+                  order: 2;
+                  padding: 0;
+                  margin: 0;
+                  line-height: normal;
+                  .ct-activity-mod-engagement {
+                    margin-top: 4px;
+                    .ct-activity-due-date {
+                      line-height: normal;
+                      margin: 0;
+                      padding: 4px;
+                      border-radius: 4px;
+                      display: flex;
+                      font-size: 14px;
+                      font-weight: normal;
+                    }
+                  }
+                  a {
+                    display: flex;
+                    align-items: center;
+                    img.icon {
+                      margin-right: 4px;
+                    }
+                  }
+                }
+                &.completion-progress-activity {
+                  .ct-activity-meta-container {
+                    margin-left: 28px;
+                    @media only screen and (min-width: $neo-breakpoint) {
+                      margin-left: 36px;
+                    }
+                  }
+                }
+                &:last-child {
+                  margin-bottom: 0 !important;
+                }
               }
             }
             // hidden section for students
@@ -771,6 +819,15 @@ body {
                     }
                   }
                 }
+                // activity description
+                .contentafterlink {
+                  margin-left: 64px;
+                  @media only screen and (min-width: $neo-breakpoint) {
+                    margin-left: 80px;
+                  }
+                }
+                // folder and label activity type need extra indenting
+                &.folder,
                 &.label  {
                   .contentwithoutlink {
                     margin-left: 64px !important;
@@ -796,7 +853,8 @@ body {
                     width: calc(100% - 116px) !important;
                   }
                 }
-                .availabilityinfo {
+                .availabilityinfo,
+                .contentafterlink {
                   margin-left: 100px !important;
                   @media only screen and (min-width: $neo-breakpoint) {
                     margin-left: 116px !important;
@@ -828,7 +886,8 @@ body {
                 }
               }
               // indent and activity description labels
-              &.indent .contentwithoutlink, .contentafterlink {
+              &.indent .contentwithoutlink,
+              .contentafterlink {
                 margin-left: 102px !important;
                 @media only screen and (min-width: $neo-breakpoint) {
                   margin-left: 80px !important;
@@ -861,7 +920,7 @@ body {
             border: none;
             .content {
               // apply background to each section
-              background: rgba(237, 241, 242, 0.3);
+              @include bg-colour-opacity($block-background, 0.3);
               margin: 0 0 1rem 0 !important;
               padding: 0 0.5rem 0.5rem 0.5rem !important;
               .sectionname {
@@ -1027,5 +1086,16 @@ a.activity-link {
       color: $white;
       width: 5.5rem !important;
     }
+  }
+}
+
+// section-0 title
+#section-0 .content > h3.sectionname {
+  @include font-scale(h1);
+  background: none;
+  margin-bottom: 1.5rem;
+  padding: 0;
+  &:after {
+    display: none;
   }
 }

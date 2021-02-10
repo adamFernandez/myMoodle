@@ -1,7 +1,5 @@
-// -----------------------------------------------------------------------------
-// process
-// -----------------------------------------------------------------------------
-
+/* Process
+   =========================*/
 
 .process-container {
   margin-bottom: 1.5rem;
@@ -67,6 +65,7 @@
       }
     }
     .process-label {
+      // note that this can be made screenreader-only; the scss for that is in screenreaderdescription
       align-self: center;
       font-weight: bold;
       &:nth-child(3) {

@@ -1,6 +1,5 @@
-// -----------------------------------------------------------------------------
-// quiz
-// -----------------------------------------------------------------------------
+/* Quiz
+   ======================== */
 
 .quiz-table {
   border: none;
@@ -28,7 +27,8 @@
     td{
       color: $body-text;
     }
-    &:nth-child(even)>th, &:nth-child(even)>td {
+    &:nth-child(even)>th,
+    &:nth-child(even)>td {
       background-color: #f8fafa;
     }
   }
@@ -50,7 +50,8 @@
   } 
   .quizattemptsummary {
     @extend .quiz-table;
-    th.lastcol, td.lastcol {
+    th.lastcol,
+    td.lastcol {
       // display: none;
     }
   }
@@ -121,14 +122,14 @@
         display: none;
       }
       &.correct {
-        // background-color: rgba(65, 195, 130, 0.5) !important;
+        // transparent bg colour for correct questions
         background-color: transparent !important;
         span.thispageholder {
           border: 1px solid $pea-green;
         }
       }
       &.incorrect {
-        background-color: rgba(234, 100, 94, 0.5) !important;
+        @include bg-colour-opacity($kings-red, 0.3);
         span.thispageholder {
           border: 1px solid $kings-red;
         }
@@ -162,15 +163,14 @@
         font-family: 'KingsBureauGrot';
       }
       &::before {
+        @extend .icon-before;
         content: '\f017';
-        font-family: 'Font Awesome 5 Free';
-        font-weight: 900;
         margin-right: 4px;
       }
     }
     .singlebutton {
       button {
-        margin: 1rem 0 0 0 !important;
+        margin: $component-margin-sm 0 0 0 !important;
       }
     }
   }
@@ -310,10 +310,10 @@
             }
           }
           > div.correct {
-            background-color: rgba(40, 195, 130, 0.2) !important;
+            @include bg-colour-opacity($pea-green, 0.2);
           }
           > div.incorrect {
-            background-color: rgba(226, 35, 26, 0.2) !important;
+            @include bg-colour-opacity($kings-red, 0.2);
           }
           ul.sortablelist {
             li {
@@ -324,12 +324,11 @@
                 display: none;
               }
               &::before {
-                font-family: 'Font Awesome 5 Free';
+                @extend .icon-before;
                 margin-right: $component-margin-xs;
-                font-weight: 900;
               }
               &.correct {
-                background-color: rgba(40, 195, 130, 0.2) !important;
+                @include bg-colour-opacity($pea-green, 0.2);
                 border-color: $pea-green !important;
                 &::before {
                   color: $pea-green;
@@ -337,7 +336,7 @@
                 }
               }
               &.incorrect {
-                background-color: rgba(226, 35, 26, 0.2) !important;
+                @include bg-colour-opacity($kings-red, 0.2);
                 border-color: $kings-red !important;
                 &::before {
                   color: $kings-red;
@@ -354,7 +353,7 @@
     }
     .outcome {
       @extend .info-box;
-      background-color: rgba(245,185,15,0.2) !important;
+      @include bg-colour-opacity($yellow, 0.2);
       & > .feedback::before {
         content: '\f27a';
         color: $yellow;
@@ -378,12 +377,12 @@
   }
   &.correct {
     .formulation input.correct {
-      background-color: rgba(40, 195, 130, 0.2) !important;
+      @include bg-colour-opacity($pea-green, 0.2);
       border-color: $pea-green !important;
       border-radius: 4px;
     }
     .outcome {
-      background-color: rgba(40, 195, 130, 0.2) !important;
+      @include bg-colour-opacity($pea-green, 0.2);
       & > .feedback::before {
         color: $pea-green;
         padding: 0 4px;
@@ -393,12 +392,12 @@
   }
   &.incorrect {
     .formulation input.incorrect {
-      background-color: rgba(226, 35, 26, 0.2) !important;
+      @include bg-colour-opacity($kings-red, 0.2);
       border-color: $kings-red !important;   
       border-radius: 4px;
     }
     .outcome {
-      background-color: rgba(226, 35, 26, 0.2) !important;
+      @include bg-colour-opacity($kings-red, 0.2);
       & > .feedback::before {
         color: $kings-red;
         content: '\f057';

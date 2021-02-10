@@ -106,30 +106,25 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
 
 /* view answer */
 // toggle view generic, view answer, model answer, and feedback button text and card
-$(document).on("click", ".view-hide-generic", function(event) {
+var viewHideOptions = [
+  "View", "Hide",
+  "View answer", "Hide answer",
+  "View description", "Hide description",
+  "View feedback", "Hide feedback",
+  "View model answer", "Hide model answer"
+];
+$(document).on("click", "[class*='view-hide-']", function(event) {
   event.preventDefault();
-  $(this).text($(this).text() == 'View' ? 'Hide' : 'View');
-  $(this).parents(".view-generic-container").toggleClass("collapsed");
-});
-$(document).on("click", ".view-hide-answer", function(event) {
-  event.preventDefault();
-  $(this).text($(this).text() == 'View answer' ? 'Hide answer' : 'View answer');
-  $(this).parents(".view-answer-container").toggleClass("collapsed");
-});
-$(document).on("click", ".view-hide-description", function(event) {
-  event.preventDefault();
-  $(this).text($(this).text() == 'View description' ? 'Hide description' : 'View description');
-  $(this).parents(".view-description-container").toggleClass("collapsed");
-});
-$(document).on("click", ".view-hide-feedback", function(event) {
-  event.preventDefault();
-  $(this).text($(this).text() == 'View feedback' ? 'Hide feedback' : 'View feedback');
-  $(this).parents(".view-feedback-container").toggleClass("collapsed");
-});
-$(document).on("click", ".view-hide-model-answer", function(event) {
-  event.preventDefault();
-  $(this).text($(this).text() == 'View model answer' ? 'Hide model answer' : 'View model answer');
-  $(this).parents(".view-model-answer-container").toggleClass("collapsed");
+  $(this).text(function(i, currentText) {
+    if (viewHideOptions.includes($(this).text())) {
+      $(this).parents("div[class^='view-'][class*='-container']").toggleClass("collapsed");
+      if($(this).is(':contains("View")')) {
+        return currentText.replace("View", "Hide");
+      } else {
+        return currentText.replace("Hide", "View");
+      }
+    }
+  });
 });
 
 /* book activity */

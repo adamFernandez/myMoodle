@@ -1545,6 +1545,11 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
     .carousel .carousel-control i {
       font-size: 60px; }
 
+.editor_atto_content .carousel-item {
+  display: block !important; }
+  .editor_atto_content .carousel-item:not(:last-child) {
+    margin-bottom: 1.25rem; }
+
 /* Collapse
    ======================== */
 .collapse-container {
@@ -1600,6 +1605,9 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
       content: '\f105'; }
     .collapse-container .collapse-card.collapsed .collapse-body {
       display: none; }
+
+.editor_atto_content .collapse-container .collapse-card.collapsed .collapse-body {
+  display: block !important; }
 
 /* Embed
    ======================== */
@@ -1712,6 +1720,9 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
     content: '\f06e'; }
   .transcript-container.collapsed .transcript-card {
     display: none; }
+
+.editor_atto_content .transcript-container.collapsed .transcript-card {
+  display: block !important; }
 
 /* Form
    =========================*/
@@ -5339,6 +5350,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .view-model-answer-container .card-body,
 .view-description-container .card-body {
   margin-top: 1.5rem; }
+
+.editor_atto_content .view-generic-container > div,
+.editor_atto_content .view-answer-container > div,
+.editor_atto_content .view-feedback-container > div,
+.editor_atto_content .view-model-answer-container > div,
+.editor_atto_content .view-description-container > div {
+  display: block !important; }
 
 /* Book
    ======================== */

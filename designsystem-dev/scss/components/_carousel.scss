@@ -100,3 +100,13 @@
     }
   }
 }  
+
+// display in block in atto editor
+.editor_atto_content {
+  .carousel-item {
+    display: block !important;
+    &:not(:last-child) {
+      margin-bottom: 1.25rem;
+    }
+  }
+}

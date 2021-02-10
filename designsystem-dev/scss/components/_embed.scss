@@ -142,3 +142,12 @@
     }
   }
 }
+
+// display in block in atto editor
+.editor_atto_content {
+  .transcript-container.collapsed {
+    .transcript-card {
+      display: block !important;
+    }
+  }
+}

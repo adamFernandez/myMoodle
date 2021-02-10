@@ -12,3 +12,15 @@
     margin-top: $component-margin;
   }
 }
+// display in block in atto editor
+.editor_atto_content {
+ .view-generic-container,
+ .view-answer-container,
+ .view-feedback-container,
+ .view-model-answer-container,
+ .view-description-container {
+   & > div {
+     display: block !important;
+    }
+  }
+}

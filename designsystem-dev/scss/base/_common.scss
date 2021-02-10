@@ -151,6 +151,9 @@
           margin-bottom: 0 !important;
         }
       }
+      .card-subheading {
+        @extend .h5;
+      }
       & > *:last-child {
         margin-bottom: 0;
       }

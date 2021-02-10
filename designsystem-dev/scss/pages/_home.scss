@@ -39,6 +39,10 @@
             .summary {
               .no-overflow {
                 width: 100%;
+                // override theme list style
+                ul > li {
+                  list-style: disc;
+                }
               }
             }
             // hide completion progress info as it is
@@ -163,17 +167,20 @@
                   color: $white;
                 }
               }
-              &.indent .contentwithoutlink, .contentafterlink {
+              &.indent .contentwithoutlink,
+              &.book .contentwithoutlink,
+              // activity description
+              .contentafterlink {
                 border-left: 3px solid $pearl-grey;
                 border-radius: 0;
                 padding-left: 0.625rem !important;
                 order: 3;
+                margin-top: $component-margin-sm;
                 // adding 1rem from activity label number spacing
                 margin-left: 34px;
                 @media only screen and (min-width: $neo-breakpoint) {
                   margin-left: 42px;
                 }
-                margin-top: 0;
                 p {
                   margin: 0 0 1rem 0;
                   &:last-child {
@@ -204,9 +211,6 @@
                 .filler {
                   display: none;
                 }
-              }
-              .contentafterlink {
-                margin-top: $component-margin-sm;
               }
               .contentwithoutlink {
                 min-height: 1.5rem;
@@ -309,6 +313,13 @@
                       margin-left: 8px;
                     }
                   }
+                }
+              }
+              .contentwithoutlink,
+              .contentafterlink {
+                margin-left: 64px !important;
+                @media only screen and (min-width: $neo-breakpoint) {
+                  margin-left: 80px !important;
                 }
               }
               &:not(.label).completion-progress-activity {
@@ -537,7 +548,7 @@
                     content: '\f107';
                   }
                   span {
-                    color: $white;
+                    color: $white !important;
                   } 
                 }
                 .section_availability {
@@ -558,7 +569,6 @@
               }
             }
             .sectionbody.sectionopen {
-              @include bg-colour-opacity($block-background, 0.3);
               padding: $component-margin $component-margin-xs;
               margin-bottom: $component-margin-bottom-xs;
               border: 1px solid $pearl-grey;
@@ -566,8 +576,44 @@
               @media only screen and (min-width: $neo-breakpoint) {
                 padding: $component-margin-lg $component-margin;
               }
-              li.activity:last-child {
-                margin-bottom: 0 !important;
+              li.activity {
+                // additional info i.e. due date, no. answered / submitted
+                .ct-activity-meta-container {
+                  order: 2;
+                  padding: 0;
+                  margin: 0;
+                  line-height: normal;
+                  .ct-activity-mod-engagement {
+                    margin-top: 4px;
+                    .ct-activity-due-date {
+                      line-height: normal;
+                      margin: 0;
+                      padding: 4px;
+                      border-radius: 4px;
+                      display: flex;
+                      font-size: 14px;
+                      font-weight: normal;
+                    }
+                  }
+                  a {
+                    display: flex;
+                    align-items: center;
+                    img.icon {
+                      margin-right: 4px;
+                    }
+                  }
+                }
+                &.completion-progress-activity {
+                  .ct-activity-meta-container {
+                    margin-left: 28px;
+                    @media only screen and (min-width: $neo-breakpoint) {
+                      margin-left: 36px;
+                    }
+                  }
+                }
+                &:last-child {
+                  margin-bottom: 0 !important;
+                }
               }
             }
             // hidden section for students
@@ -773,6 +819,15 @@
                     }
                   }
                 }
+                // activity description
+                .contentafterlink {
+                  margin-left: 64px;
+                  @media only screen and (min-width: $neo-breakpoint) {
+                    margin-left: 80px;
+                  }
+                }
+                // folder and label activity type need extra indenting
+                &.folder,
                 &.label  {
                   .contentwithoutlink {
                     margin-left: 64px !important;
@@ -831,7 +886,8 @@
                 }
               }
               // indent and activity description labels
-              &.indent .contentwithoutlink, .contentafterlink {
+              &.indent .contentwithoutlink,
+              .contentafterlink {
                 margin-left: 102px !important;
                 @media only screen and (min-width: $neo-breakpoint) {
                   margin-left: 80px !important;

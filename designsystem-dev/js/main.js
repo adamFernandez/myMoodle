@@ -141,14 +141,31 @@ $(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function
 // add current class to current page
 $(".navbottom.clearfix ul li strong").parents("li").addClass("current");
 // add prev and next class to li before and after current for mobile
-$(".chapter.current").prev("li").addClass("prev");
-$(".chapter.current").next("li").addClass("next");
+$(".chapter.current").prev("li").addClass("mob-prev");
+$(".chapter.mob-prev").prevAll(":lt(2)").addClass("prev");
+$(".chapter.current").next("li").addClass("mob-next");
+$(".chapter.mob-next").nextAll(":lt(2)").addClass("next");
+/*
 // show one more page if first or last page on mobile
 if ($(".navbottom a.bookprev").length == 0) {
-  $("li.chapter:nth-child(3), li.chapter:nth-child(4)").addClass("next");
+  $("li.chapter:nth-child(3), li.chapter:nth-child(4), li.chapter:nth-child(5)").addClass("mob-next");
 } else if ($(".navbottom a.booknext").length == 0) {
-  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4)").addClass("prev");
+  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4), li.chapter:nth-last-child(5)").addClass("mob-prev");
+} else {
+  $(".chapter.prev").prev("li").addClass("mob-prev");
+  $(".chapter.next").next("li").addClass("mob-next");
 }
+*/
+if ($(".book_toc ul").length !== 0) {
+  // add large-book-pagination class if more than 10 chapters
+  if ($(".book_toc ul").get(0).childElementCount > 10) {
+    $(".navbottom ul").addClass("large-book-pagination");
+  // add mob-large-book-pagination class if more than 5 chapters
+  } else if ($(".book_toc ul").get(0).childElementCount > 5) {
+    $(".navbottom ul").addClass("mob-large-book-pagination");
+  };
+};
+
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
 

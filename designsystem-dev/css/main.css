@@ -6739,7 +6739,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     z-index: 1;
     padding: 1rem;
     width: calc(310px - 2rem);
-    height: 100px;
+    height: 100px!important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.4;

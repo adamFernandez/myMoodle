@@ -85,14 +85,18 @@
       font-family: "Open Sans";
       font-size: 1rem;
       font-weight: normal;
-      display: block;
+      // to be rectified after I hear back from phil
+      // display: block;
+      display:none;
       margin-left: 0.825rem;
       text-align: left;
       margin-bottom: $component-margin-bottom;
       cursor: text;
     }
     &:first-of-type:after {
-      content: '\f069';
+      content: '\f06a';
+      // to be rectified
+      display:none;
       font-family: "Font Awesome 5 Free";
       font-size: 0.5rem;
       font-weight: bold;
@@ -124,6 +128,7 @@
         padding: 0;
         margin: 0;
         margin-bottom: 1rem;
+        background-color:transparent;
         p,
         label {
           margin: 0 0 $component-margin-bottom 0;

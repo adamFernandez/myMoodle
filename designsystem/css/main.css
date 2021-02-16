@@ -5855,14 +5855,18 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   font-family: "Open Sans";
   font-size: 1rem;
   font-weight: normal;
-  display: block;
+  /* to be rectified */
+  /* display: block; */
+  display:none;
   margin-left: 0.825rem;
   text-align: left;
   margin-bottom: 1.5rem;
   cursor: text; }
 
 .path-mod-questionnaire .qn-container:first-of-type:after {
-  content: '\f069';
+  content: '\f06a';
+  /* to be rectified */
+  display:none;
   font-family: "Font Awesome 5 Free";
   font-size: 0.5rem;
   font-weight: bold;
@@ -5889,7 +5893,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .path-mod-questionnaire .qn-container .qn-content .qn-question {
     padding: 0;
     margin: 0;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    background-color:transparent; }
     .path-mod-questionnaire .qn-container .qn-content .qn-question p,
     .path-mod-questionnaire .qn-container .qn-content .qn-question label {
       margin: 0 0 1.5rem 0;

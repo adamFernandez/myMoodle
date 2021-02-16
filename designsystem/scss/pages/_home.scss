@@ -315,13 +315,13 @@
                   }
                 }
               }
-              .contentwithoutlink,
-              .contentafterlink {
-                margin-left: 64px !important;
-                @media only screen and (min-width: $neo-breakpoint) {
-                  margin-left: 80px !important;
-                }
-              }
+              // .contentwithoutlink,
+              // .contentafterlink {
+              //   margin-left: 64px !important;
+              //   @media only screen and (min-width: $neo-breakpoint) {
+              //     margin-left: 80px !important;
+              //   }
+              // }
               &:not(.label).completion-progress-activity {
                 .activityinstance {
                   max-width: calc(100% - 30px);

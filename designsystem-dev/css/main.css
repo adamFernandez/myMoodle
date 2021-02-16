@@ -6687,13 +6687,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       position: absolute;
       top: 2px;
       margin-left: 8px; }
-  #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink,
-  #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink {
-    margin-left: 64px !important; }
-    @media only screen and (min-width: 768px) {
-      #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink,
-      #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink {
-        margin-left: 80px !important; } }
   #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity:not(.label).completion-progress-activity .activityinstance,
   #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity:not(.label).completion-progress-activity .activityinstance {
     max-width: calc(100% - 30px); }
@@ -6739,7 +6732,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     z-index: 1;
     padding: 1rem;
     width: calc(310px - 2rem);
-    height: 100px!important;
+    height: 100px !important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.4;

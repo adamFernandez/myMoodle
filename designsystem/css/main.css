@@ -5864,11 +5864,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .path-mod-questionnaire .qn-container:first-of-type:after {
   content: '\f06a';
   font-family: "Font Awesome 5 Free";
-  font-size: 0.5rem;
   font-weight: bold;
   position: absolute;
   top: 0;
-  color: red;
+  color: #CA3120;
   left: 0; }
 
 .path-mod-questionnaire .qn-container .qn-legend {

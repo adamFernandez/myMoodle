@@ -5862,6 +5862,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 #page-mod-lesson-view .answeroption {
   margin-bottom: 1.5rem; }
+  #page-mod-lesson-view .answeroption .fitem .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%; }
   #page-mod-lesson-view .answeroption .fitem .felement span {
     margin: 0;
     display: inline-flex;

@@ -186,6 +186,15 @@ $(".activity-navigation a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
 });
 
+/* blog activity */
+// moves the info block into the main body text 
+$("#oublog_info_block").detach().prependTo($("#region-main"));
+$("#oublog_info_block").addClass("main-description");
+// changes the heading level on the info to h2 
+$("#oublog_info_block h5").replaceWith(function () {
+  return "<h2>" + $(this).html() + "</h2>";
+});
+
 /* activity labels */
 // move .accesshide from within .instancename and append to .activityinstance
 // affected the prefix title modification in original location

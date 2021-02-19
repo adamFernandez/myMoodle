@@ -5358,6 +5358,42 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .editor_atto_content .view-description-container > div {
   display: block !important; }
 
+/* OU Blog
+   ======================== */
+#page-mod-oublog-view #region-main #oublog_info_block.main-description .card-body {
+  padding: 1.5rem !important; }
+
+#page-mod-oublog-view #region-main .oublog-userpic {
+  padding: 0; }
+  #page-mod-oublog-view #region-main .oublog-userpic img.userpicture {
+    border-radius: 50%; }
+
+#page-mod-oublog-view #region-main #oublog-posts {
+  margin-bottom: 1rem; }
+
+#page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li {
+  margin-bottom: 8px; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li img.userpicture {
+    border-radius: 50%; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li h3 {
+    font-family: 'KingsBureauGrotFiveOne';
+    color: #333333;
+    font-size: 1.1rem; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content {
+    margin: 0.5rem; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content .oublog_statsinfo {
+      margin-left: 0; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content .oublog_statsinfo_bar span.oublogbar {
+      background: transparent; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-3 .col-form-label.d-inline[for="id_timefilter_commentpoststats"] {
+      padding-right: 0px;
+      padding-left: 0px; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-9 {
+    margin-left: 0; }
+
 /* Book
    ======================== */
 #page-mod-book-edit .form-group.row.fitem.subchapter {

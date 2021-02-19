@@ -69,9 +69,15 @@
   .surveyTitle {
     margin-bottom: 0 !important;
   }
+  // space between buttons
+  #notice .buttons .singlebutton{
+    margin-right: $component-margin-xs;
+  }
   .floatprinticon {
     width: 100%;
     margin: 0;
+    // couldn't add bottom-margin to title as this overrides styles of title on other pages, so had to apply it to the print 
+    margin-top:-1.5rem;
     float: none;
     text-align: right !important;
     display: block;

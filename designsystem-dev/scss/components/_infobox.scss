@@ -15,6 +15,18 @@
   }
 }
 
+//media box
+.media-box {
+  @extend .info-box;
+  // from common
+  background-color: $block-background;
+  &::before {
+    content: '\f03d';
+    padding: 0 5px;
+    color: $midnight-blue;
+  }
+}
+
 //editing help box
 body {
   &:not(.editing) {

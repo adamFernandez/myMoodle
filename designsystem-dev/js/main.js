@@ -30,6 +30,38 @@ $(document).on("click", blockHide, function(event) {
 // return 'accesshide' class to sectionname post 3.9.3
 $(".gtopics .content .sectionname").addClass("accesshide");
 
+/* external links in paragraphs */
+// on page load 
+$(window).on('load', function() {
+  addNewWindowIcon();
+  addNewWindowMessage();
+  addNoOpener();
+});
+// and on page re-size from editor
+$(window).resize(function() {
+  addNewWindowIcon();
+  addNewWindowMessage();
+}); 
+function addNewWindowIcon() {
+  // remove the icon in case it was added in the editor
+  $(".open-icon").remove();
+  // now add the icon to each; only links within paragraphs
+  $('p').find('a[target="_blank"]').each(function() {
+    $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
+  });
+}
+function addNewWindowMessage() {
+  // remove the span in case it was added in the editor
+  $(".sr-link-message").remove();
+  // now add the span to each; every link
+  $('a[target="_blank"]').each(function() {
+    $(this).append('<span class="sr-only sr-link-message">(opens in a new tab)</span>');
+  });
+}
+function addNoOpener(){
+  $('a[target="_blank"]').attr('rel','noopener');
+}
+
 /* card deck */
 // call function on window load (instead of doc ready)
 $(window).on('load', function() {

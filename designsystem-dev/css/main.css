@@ -217,12 +217,24 @@ a.link-download {
   background-color: rgba(245, 185, 15, 0.2) !important;
   padding: 2px 4px; }
 
+#region-main p a i.open-icon, #region-main li p a i.open-icon {
+  display: inline-block;
+  margin: 0.375rem;
+  vertical-align: baseline;
+  transform: translateY(-10%); }
+
+#region-main p a .sr-link-message, #region-main li p a .sr-link-message {
+  display: inline-block; }
+
 #region-main ol, #region-main ul {
   margin: 0 0 1.5rem 2.25rem; }
   #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
     margin-bottom: 1rem; }
   #region-main ol > li ol > li:not(:last-child), #region-main ol > li ul > li:not(:last-child), #region-main ul > li ol > li:not(:last-child), #region-main ul > li ul > li:not(:last-child) {
     margin-bottom: 0; }
+
+.editing #region-main #id_content_editoreditable p a .sr-link-message, .editing #region-main #id_content_editoreditable li p a .sr-link-message {
+  display: none; }
 
 #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
   margin-bottom: 1rem; }

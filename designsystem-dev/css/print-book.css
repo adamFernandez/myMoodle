@@ -120,6 +120,10 @@ html {
   position: relative;
   margin-right: 8px;
 }
+#page-mod-book-print p a  i.open-icon,
+#page-mod-book-print li p a  i.open-icon{
+  display:none;
+}
 #page-mod-book-print p a::after,
 #page-mod-book-print li p a::after {
   position: absolute;

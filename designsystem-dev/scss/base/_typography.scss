@@ -170,6 +170,16 @@ a.link-download {
   // link hover styles
   p a, li p a {
     @extend .ds-link;
+    // icon for external links
+    i.open-icon {
+      display: inline-block;
+      margin: 0.375rem;
+      vertical-align: baseline;
+      transform: translateY(-10%);
+    }
+    .sr-link-message{
+      display:inline-block;
+    } 
   }
   // list margin bottom
   ol, ul {
@@ -182,6 +192,18 @@ a.link-download {
       ol, ul {
         & > li:not(:last-child) {
           margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+// hide screenreader only note on external links in editor view of books
+.editing {
+  #region-main {
+    #id_content_editoreditable{
+      p a, li p a {
+        .sr-link-message{
+         display:none;
         }
       }
     }

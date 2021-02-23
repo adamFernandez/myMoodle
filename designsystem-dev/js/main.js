@@ -126,6 +126,10 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
   event.preventDefault();
   $(this).parents(".collapse-card").toggleClass("collapsed");
+  // toggle aria that tells if expanded
+  $(this).find("button").attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
 });
 
 /* transcript */
@@ -134,9 +138,13 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
   event.preventDefault();
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
+  // toggle aria that tells if expanded
+  $(this).attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
 });
 
-/* view answer */
+/* view/hide */
 // toggle view generic, view answer, model answer, and feedback button text and card
 var viewHideOptions = [
   "View", "Hide",
@@ -147,6 +155,10 @@ var viewHideOptions = [
 ];
 $(document).on("click", "[class*='view-hide-']", function(event) {
   event.preventDefault();
+  // toggle aria that tells if expanded
+  $(this).attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
   $(this).text(function(i, currentText) {
     if (viewHideOptions.includes($(this).text())) {
       $(this).parents("div[class^='view-'][class*='-container']").toggleClass("collapsed");

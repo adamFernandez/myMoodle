@@ -1365,6 +1365,14 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
   font-size: 0.833rem;
   color: #5A6469; }
 
+.btn-forum {
+  margin-bottom: 2.25rem !important; }
+  .btn-forum::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+    content: '\f500'; }
+
 #fgroup_id_buttonar .fitem:not(:last-of-type) {
   margin-right: 0.75rem; }
 

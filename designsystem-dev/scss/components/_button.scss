@@ -123,6 +123,17 @@ button a.btn-secondary:visited, .btn a.btn-secondary:visited, a.btn.btn-secondar
   }
 }
 
+// go to forum button
+.btn-forum{
+  margin-bottom: $component-margin-bottom-lg!important;
+  &::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: $component-margin-xs;
+    content: '\f500';
+  }
+}
+
 // 3.9 button groups are all in separate spans
 #fgroup_id_buttonar .fitem:not(:last-of-type) {
   margin-right: 0.75rem;

@@ -121,6 +121,96 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
   carouselContainer.find(".carousel-indicators li:nth-child(2)").css("background-color", newSlide === 2 ? "white" : "rgba(255, 255, 255, 0.5)");
 });
 
+/* new carousel */
+// on window load, set width
+$(window).on('load', function() {
+  resetCarWidth();
+});
+// also on re-size
+$(window).resize(function() {
+  resetCarWidth();
+});
+function resetCarWidth() {
+  // resize to make integer width so scroll will work
+  // remove the in-line attribute if it has been set in the editor
+  $(".new-carousel").removeAttr("style");
+  var loadWidth= $(".new-carousel").width();
+  var carWidth = Math.floor(loadWidth);
+  $(".new-carousel").each(function() {
+    $(this).width(carWidth);
+  });
+  var newWidth= $(".new-carousel").width();
+};
+
+$(".new-carousel").on("click", ".nc-next", function(event) {
+  // get component width
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  $(window).resize(function() {
+  slideWidth = $(".nc-gallery").width();
+  });
+  var newCarousel = $(this).parents()[2];
+  var ncGallery = $(newCarousel).find(".nc-gallery")[0];
+  // scroll 
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: '+=' + slideWidth }, 2).animate({opacity:"1"},300);
+});
+
+$(".new-carousel").on("click", ".nc-previous", function(event) {
+  // get component width
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  $(window).resize(function() {
+  slideWidth = $(".nc-gallery").width();
+  });
+  // scroll 
+  var newCarousel = $(this).parents()[2];
+  var ncGallery = $(newCarousel).find(".nc-gallery")[0];
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: '-=' + slideWidth }, 2).animate({opacity:"1"},300);
+});
+
+$(".nc-gallery").scroll(function() {
+  // Get component width. 
+  var slideWidth = $(this).width();
+  // Get how far we scrolled left. 
+  var leftNumber = $(this).scrollLeft();
+  // divide our scroll distance by component width to calculate which slide we're on (accounting for + 1 error)
+  var currSlideNum = (leftNumber / slideWidth) + 1;
+  // find the indicator dot with the same index and make that dot active, removing active from others
+  var newCarousel = $(this).parents()[0];
+  var indicDots = $(newCarousel).find(".indic-dots")[0];
+  var liveDot = $(indicDots).find(".active")[0];
+  $(liveDot).removeClass("active");
+  console.log(currSlideNum);
+  var activeDot = $(indicDots).find("li:nth-child(" + (currSlideNum) + ")")[0]
+  $(activeDot).addClass("active");
+  // For buttons
+  var noOfIndic = $(indicDots).find("li").length;
+  var ncNextButton = $(newCarousel).find(".nc-next")[0];
+  var ncPreviousButton = $(newCarousel).find(".nc-previous")[0];
+  // If slide number is last (equal to number of slides), make next button inactive
+  if (currSlideNum === noOfIndic) {
+    $(ncNextButton).attr('disabled','disabled')
+  } else{
+    $(ncNextButton).removeAttr('disabled')
+  }
+  // If slide number is 1, make previous button inactive
+  if (currSlideNum === 1) {
+    $(ncPreviousButton).attr('disabled','disabled')
+  } 
+  else{
+    $(ncPreviousButton).removeAttr('disabled')
+  }
+});
+
+$(".indic-dots li").click(function(numberDot){
+  var newCarousel = $(this).parents()[3];
+  var ncGallery= $(newCarousel).find(".nc-gallery")[0];
+  var slideWidth = $(ncGallery).width();
+  var numberDot = $(this).index();
+  var scrollTargetDistance = slideWidth * (numberDot);
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: scrollTargetDistance }, 2).animate({opacity:"1"},300);
+});
+
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {

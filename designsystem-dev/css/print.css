@@ -148,6 +148,9 @@ html {
   .quote-box .quote-body {
     font-family: 'KingsCaslonDisplay';
   }
+  .quote-box blockquote.quote-body {
+    border:none;
+  }
 
   /* bootstrap */
   .row {

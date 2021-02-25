@@ -163,11 +163,15 @@ html {
 }
 #page-mod-book-print .quote-box {
   border: 2px solid #464e52;
+  margin:0;
   margin-bottom: 1.25rem;
   position: relative;
+  padding: 1.25rem;
 }
 #page-mod-book-print .quote-box > :first-child {
-  padding: 1.25rem;
+  padding-left: 4rem;
+}
+#page-mod-book-print figure.quote-box{
   padding-left: 4rem;
 }
 #page-mod-book-print .quote-box > :first-child::before {
@@ -182,9 +186,14 @@ html {
 #page-mod-book-print .quote-box .quote-attribution {
   margin: 0;
   font-size: 1.2rem;
+  font-family: 'KingsBureauGrot';
 }
 #page-mod-book-print .quote-box .quote-body {
   font-family: 'KingsCaslonDisplay';
+}
+#page-mod-book-print .quote-box blockquote.quote-body{
+  border:none;
+  padding:0;
 }
 #page-mod-book-print pre {
   white-space: pre-line;
@@ -2091,6 +2100,15 @@ button .h4::before {
   }
   .quote-box .quote-body {
     font-family: 'KingsCaslonDisplay';
+  }
+  .quote-box blockquote.quote-body{
+    border:none;
+  }
+
+  /* forum button */
+  .btn-forum{
+    margin-bottom: 2.25rem !important;
+    text-decoration:underline;
   }
 
   /* forum button */

@@ -133,6 +133,21 @@ html {
   font-size: 8px;
   margin-left: 1px;
 }
+#page-mod-book-print .p-b-2 {
+  counter-reset: footnotes;
+}
+#page-mod-book-print a[aria-describedby="footnote-label"]{
+  counter-increment: footnotes;
+}
+#page-mod-book-print a[aria-describedby="footnote-label"]::after {
+  content: counter(footnotes);
+  vertical-align: super; 
+  font-size: 0.75em; 
+  margin-left: 3px;
+  margin-bottom: 5px; 
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+}
 #page-mod-book-print ol,
 #page-mod-book-print ul {
   margin: 0 0 1.25rem 1.25rem;
@@ -178,6 +193,11 @@ html {
   border: 1px solid #dce3e6;
   border-radius: 0;
   padding: 1rem;
+}
+
+/* forum button */
+#page-mod-book-print .btn-forum{
+  margin-bottom: 2.25rem !important;
 }
 
 /* bootstrap */
@@ -489,6 +509,55 @@ html {
   margin-bottom: 0;
 }
 
+/* new carousel  */
+#page-mod-book-print .new-carousel .nc-gallery{
+  list-style-type: none;
+  counter-reset: footnotes;
+  display: flex;
+  flex-wrap: wrap;
+}
+#page-mod-book-print .new-carousel .nc-gallery li{
+  list-style-type: none;
+  border:1px solid black;
+  padding:16px;
+  margin-left:0;
+  margin-right:5px;
+  display:inline-block;
+  width:100%;
+  counter-increment: footnotes;
+}
+#page-mod-book-print .new-carousel .nc-gallery li:last-child{
+  margin-right:0px;
+}
+#page-mod-book-print .new-carousel .nc-gallery li:before{
+  content: counter(footnotes);
+  color: black;
+  font-weight: bold;
+  vertical-align: top;
+}
+#page-mod-book-print .landscape-carousel .nc-gallery li{
+  width:43%;
+}
+#page-mod-book-print .portrait-carousel .nc-gallery li{
+  width:43%;
+}
+#page-mod-book-print .text-carousel .nc-gallery li table tr td .nc-label{
+  margin-bottom: 32px;
+  font-family: 'KingsBureauGrot';
+  padding-top:16px;
+  font-size: larger;
+}
+#page-mod-book-print .new-carousel figure{
+  margin:0;
+}
+#page-mod-book-print .new-carousel img{
+  max-width: 100%;
+  margin-bottom:16px;
+}
+#page-mod-book-print .new-carousel ul.nc-buttons{
+  display:none;
+}
+
 /* collapse */
 #page-mod-book-print .collapse-container {
   margin-bottom: 1.25rem;
@@ -645,6 +714,7 @@ button .h4::before {
 #page-mod-book-print .alert-instructional > :first-child::before,
 #page-mod-book-print .feedback-box > :first-child::before,
 #page-mod-book-print .learning-outcome-box > :first-child::before,
+#page-mod-book-print .media-box > :first-child::before,
 #page-mod-book-print .reading-box > :first-child::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -678,7 +748,11 @@ button .h4::before {
   padding: 0 3px;
   top: 1.15rem;
 }
-#page-mod-book-print .reading-box > :first-child::before {
+#page-mod-book-print .media-box > :first-child::before {
+  content: '\f03d';
+  padding: 0 4px;
+}
+#page-mod-book-print .reading-box > :first-child::before{
   content: '\f5da';
   padding: 0 4px;
 }
@@ -688,6 +762,7 @@ button .h4::before {
 #page-mod-book-print .feedback-box,
 #page-mod-book-print .key-concept-box,
 #page-mod-book-print .learning-outcome-box,
+#page-mod-book-print .media-box,
 #page-mod-book-print .reading-box {
   border: 2px solid #8b9296;
   padding: 1.25rem;
@@ -699,6 +774,7 @@ button .h4::before {
 #page-mod-book-print .definition-box h5,
 #page-mod-book-print .feedback-box h5,
 #page-mod-book-print .learning-outcome-box h5,
+#page-mod-book-print .media-box h5,
 #page-mod-book-print .reading-box h5 {
   font-size: 1.2rem;
 }
@@ -708,6 +784,7 @@ button .h4::before {
 #page-mod-book-print .feedback-box p:last-child,
 #page-mod-book-print .key-concept-box p:last-child,
 #page-mod-book-print .learning-outcome-box p:last-child,
+#page-mod-book-print .media-box p:last-child,
 #page-mod-book-print .reading-box p:last-child {
   margin-bottom: 0;
 }
@@ -2016,6 +2093,12 @@ button .h4::before {
     font-family: 'KingsCaslonDisplay';
   }
 
+  /* forum button */
+  .btn-forum{
+    margin-bottom: 2.25rem !important;
+    text-decoration:underline;
+  }
+
   /* bootstrap */
   .row {
     display: flex;
@@ -2328,6 +2411,7 @@ button .h4::before {
   .alert-instructional > :first-child::before,
   .feedback-box > :first-child::before,
   .learning-outcome-box > :first-child::before,
+  .media-box > :first-child::before,
   .reading-box > :first-child::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -2362,9 +2446,14 @@ button .h4::before {
     padding: 0 4px;
     top: 1.4rem;
   }
+  .media-box > :first-child::before {
+    content: '\f03d';
+    padding: 0 4px;
+    top: 1.4rem;
+  }
   .definition-box, .alert-instructional,
   .feedback-box, .key-concept-box,
-  .learning-outcome-box, .reading-box {
+  .learning-outcome-box, .reading-box, .media-box {
     page-break-inside: avoid;
     border: 2px solid #8b9296;
     padding: 1.25rem;
@@ -2373,12 +2462,12 @@ button .h4::before {
     position: relative;
   }
   .definition-box h5, .feedback-box h5,
-  .learning-outcome-box h5, .reading-box h5 {
+  .learning-outcome-box h5, .reading-box h5, .media-box h5 {
     font-size: 1.2rem;
   }
   .definition-box p:last-child, .alert-instructional p:last-child,
   .feedback-box p:last-child, .key-concept-box p:last-child,
-  .learning-outcome-box p:last-child, .reading-box p:last-child {
+  .learning-outcome-box p:last-child, .reading-box p:last-child, .media-box p:last-child {
     margin-bottom: 0;
   }
   .alert-instructional {

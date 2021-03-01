@@ -5761,7 +5761,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-    margin-top: 50px; }
+    margin-top: 50px!important; }
   @media only screen and (min-width: 768px) {
     .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
       overflow-x: auto; }
@@ -5770,7 +5770,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-        margin-top: 0; } }
+        margin-top: 0!important; } }
 
 /* Kaltura media assignment
    ======================== */

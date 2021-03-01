@@ -230,7 +230,7 @@
     .maincontent .content {
       margin-left: 3.75rem;
       .posting.fullpost {
-        margin-top: 0;
+        margin-top: 0!important;
       }
     }
     .row.side {
@@ -325,7 +325,7 @@
         table,
         .forumnodiscuss,
         #collapseAddForm {
-          margin-top: 50px;
+          margin-top: 50px!important;
         }
         @media only screen and (min-width: $neo-breakpoint) {
           overflow-x: auto;
@@ -335,7 +335,7 @@
           table,
           .forumnodiscuss,
           #collapseAddForm {
-            margin-top: 0;
+            margin-top: 0!important;
           }
         }
       }

@@ -101,6 +101,12 @@
       margin-bottom: 0;
     }
   }
+  ul li, ol li {
+    color: $body-text !important;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
   &::before, .info-box-inner::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;

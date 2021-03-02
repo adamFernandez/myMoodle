@@ -13,15 +13,22 @@
   }
   .answeroption {
     margin-bottom: $component-margin-bottom;
-    .fitem .felement span {
-      margin: 0;
-      display: inline-flex;
-      align-items: center;
-      input {
-        margin-right: $component-margin-sm;
+    .fitem{
+      // this makes the questions display at full width
+      .col-md-3{
+        flex: 0 0 100%;
+        max-width: 100%;
       }
-      label {
+      .felement span {
         margin: 0;
+        display: inline-flex;
+        align-items: center;
+        input {
+          margin-right: $component-margin-sm;
+        }
+        label {
+          margin: 0;
+        }
       }
     }
   }

@@ -142,6 +142,9 @@ table, .table {
       border: 1px solid $table-border !important;
     }
   }
+  &.table-fixed{
+    table-layout:fixed;
+  }
   
   &.outer-borders-only {
     &.background {

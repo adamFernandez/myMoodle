@@ -89,7 +89,7 @@
       &.bookprev,
       &.booknext {
         text-align: center;
-        width: 2.25rem;
+        width: 1.5rem;
         height: 2.25rem;
         &:hover {
           text-decoration: none;
@@ -116,11 +116,7 @@
     ul {
       margin: 0;
       display: inline-block;
-      @media only screen and (max-width: $neo-breakpoint) {
-        li.chapter:not(.current):not(.prev):not(.next) {
-          display: none;
-        }
-      }
+      line-height: normal;
       li.chapter {
         list-style: none;
         display: inline-flex;
@@ -128,14 +124,14 @@
         align-items: center;
         font-family: 'KingsBureauGrot';
         font-size: 1.5rem;
-        min-width: 2.25rem;
         height: 2.25rem;
-        margin: 0 $component-margin-xs;
+        margin: 0 0.375rem;
         &.current {
           cursor: default;
           background-color: $sea-blue;
           border-radius: 50%;
           strong {
+            min-width: 2.25rem;
             color: $white;
           }
           // spacing slightly out for safari
@@ -151,9 +147,74 @@
             }
           }
         }
-        a:hover {
-          text-decoration: none;
-          @include colour-opacity($midnight-blue, 0.85);
+        a {
+          min-width: 2.25rem;
+          &:hover {
+            text-decoration: none;
+            @include colour-opacity($midnight-blue, 0.85);
+          }
+        }
+        @media only screen and (min-width: $neo-breakpoint) {
+          margin: 0 $component-margin-xs;
+        }
+      }
+      // books with 6+ chapters
+      &.mob-large-book-pagination,
+      // books with 11+ chapters
+      &.large-book-pagination {
+        li.chapter {
+          display: none;
+          &:first-child,
+          &.mob-prev,
+          &.current,
+          &.mob-next,
+          &:last-child {
+            display: inline-flex;
+          }
+          &:not(:first-child) + .mob-prev::before,
+          &.mob-next:not(:last-child):not(:nth-last-child(2))::after {
+            content: '...';
+          }
+          &:not(:first-child) + .mob-prev::before {
+            margin-right: 0.375rem;
+          }
+          &.mob-next:not(:last-child)::after {
+            margin-left: 0.375rem;
+          }
+          @media only screen and (min-width: $neo-breakpoint) {
+            &.prev,
+            &.next {
+              display: inline-flex;
+            }
+            &:not(:first-child) + .mob-prev::before,
+            &.mob-next:not(:last-child):not(:nth-last-child(2))::after {
+              content: none;
+              margin: 0;
+            }
+            &:not(.prev):not(:first-child) + .prev::before,
+            &.next + .next:not(:last-child)::after {
+              content: '...';
+            }
+            &:not(.prev):not(:first-child) + .prev::before {
+              margin-right: $component-margin-sm;
+            }
+            &.next + .next:not(:last-child)::after {
+              margin-left: $component-margin-sm;
+            }
+          }
+        }
+      }
+      // books with 6 - 10 chapters
+      &.mob-large-book-pagination {
+        li.chapter {
+          @media only screen and (min-width: $neo-breakpoint) {
+            display: inline-flex;
+            &:not(.prev):not(:first-child) + .prev::before,
+            &.next + .next:not(:last-child)::after {
+              content: none;
+              margin: 0;
+            }
+          }
         }
       }
     }

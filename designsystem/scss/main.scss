@@ -18,9 +18,10 @@
 @import 'components/button';
 @import 'components/card';
 @import 'components/carousel';
-//@import 'components/newcarousel';
+@import 'components/newcarousel';
 @import 'components/collapse';
 @import 'components/embed';
+@import 'components/footnotes';
 @import 'components/form';
 @import 'components/hero';
 @import 'components/images';
@@ -34,6 +35,7 @@
 @import 'components/timeline';
 @import 'components/viewhide';
 
+@import 'activities/blog';
 @import 'activities/book';
 @import 'activities/choice';
 @import 'activities/contentbank';

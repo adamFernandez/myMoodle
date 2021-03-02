@@ -32,16 +32,17 @@ html, body {
 h1, h2, h3, h4, h5, h6,
 .h1,
 #notice.modal .modal-content .modal-header h4, .h2, #page-mod-book-view #page-content #region-main > div:first-of-type > h2:first-of-type, #page-course-view-grid.format-topcoll .single-section .section-navigation.navigationtitle .sectionname,
-#page-course-view-topcoll.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+#page-course-view-topcoll.format-topcoll .single-section .section-navigation.navigationtitle .sectionname, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, .media-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, .media-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .media-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, .media-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .media-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
 .info-box > :first-child h3,
 .alert > :first-child h3,
 .definition-box > :first-child h3,
+.media-box > :first-child h3,
 body .editing-help-box > :first-child h3,
 .feedback-box > :first-child h3,
 #region-main .learning-outcome-box > :first-child h3,
 .reading-box > :first-child h3,
 div.quote-box > :first-child h3,
-.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, .media-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, .media-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, .media-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
 .note-container > div > .card-body .card-author h3,
 .academic-note-container > div > .card-body .card-author h3,
 .view-generic-container > div > .card-body .card-author h3,
@@ -55,7 +56,7 @@ div.quote-box > :first-child h3,
 .float-box .float-box-body h3,
 .float-box .float-box-body h4,
 .float-box .float-box-body h5,
-.float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+.float-box .float-box-body h6, #region-main .new-carousel h3, #region-main .new-carousel h4, #region-main .new-carousel h5, #region-main .new-carousel h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
 .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6, .h5, .note-container > div > .card-body .card-subheading, .academic-note-container > div > .card-body .card-subheading, .view-generic-container > div > .card-body .card-subheading, .view-answer-container > div > .card-body .card-subheading, .view-feedback-container > div > .card-body .card-subheading, .view-model-answer-container > div > .card-body .card-subheading, .view-description-container > div > .card-body .card-subheading, .card .card-body .card-subheading, .collapse-container .collapse-card .collapse-body .collapse-subheading, .audio-container .audio-top .audio-info .audio-title,
 .audio-container .audio-top .audio-info h3, .audio-container .audio-top .audio-info h4, .audio-container .audio-top .audio-info h5, .audio-container .audio-top .audio-info h6, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle label, #page-mod-forum-discuss .notifications .alert.alert-success p:first-of-type, #page-mod-forum-view .notifications .alert.alert-success p:first-of-type, #page-mod-forum-post .notifications .alert.alert-success p:first-of-type, .que .info .no, .que .info .qno, .h6, #page-mod-forum-discuss.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-view.forumtype-single .forumpost.firstpost .header .author, #page-mod-forum-post.forumtype-single .forumpost.firstpost .header .author,
 .quote-attribution {
@@ -79,16 +80,17 @@ h3, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .pat
   font-size: 1.25rem;
   line-height: 1.25; }
 
-h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, .media-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, .media-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .media-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, .media-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .media-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
 .info-box > :first-child h3,
 .alert > :first-child h3,
 .definition-box > :first-child h3,
+.media-box > :first-child h3,
 body .editing-help-box > :first-child h3,
 .feedback-box > :first-child h3,
 #region-main .learning-outcome-box > :first-child h3,
 .reading-box > :first-child h3,
 div.quote-box > :first-child h3,
-.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+.que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, .media-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, .media-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, .media-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
 .note-container > div > .card-body .card-author h3,
 .academic-note-container > div > .card-body .card-author h3,
 .view-generic-container > div > .card-body .card-author h3,
@@ -102,7 +104,7 @@ div.quote-box > :first-child h3,
 .float-box .float-box-body h3,
 .float-box .float-box-body h4,
 .float-box .float-box-body h5,
-.float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+.float-box .float-box-body h6, #region-main .new-carousel h3, #region-main .new-carousel h4, #region-main .new-carousel h5, #region-main .new-carousel h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
 .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6 {
   font-size: 1.125rem;
   line-height: 1.4; }
@@ -150,16 +152,17 @@ select, option {
   h3, .h3, #page-mod-book-view #page-content #region-main .book_content > h3, .path-mod-feedback #region-main .feedback_form .fitem .fitemtitle .feedback-section {
     font-size: 1.5rem;
     line-height: 1.25; }
-  h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+  h4, .h4, .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, .media-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, .media-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .media-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, .media-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .media-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
   .info-box > :first-child h3,
   .alert > :first-child h3,
   .definition-box > :first-child h3,
+  .media-box > :first-child h3,
   body .editing-help-box > :first-child h3,
   .feedback-box > :first-child h3,
   #region-main .learning-outcome-box > :first-child h3,
   .reading-box > :first-child h3,
   div.quote-box > :first-child h3,
-  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
+  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, .media-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, .media-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, .media-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6, .note-container > h3, .academic-note-container > h3, .view-generic-container > h3, .view-answer-container > h3, .view-feedback-container > h3, .view-model-answer-container > h3, .view-description-container > h3, .note-container > h4, .academic-note-container > h4, .view-generic-container > h4, .view-answer-container > h4, .view-feedback-container > h4, .view-model-answer-container > h4, .view-description-container > h4, .note-container > h5, .academic-note-container > h5, .view-generic-container > h5, .view-answer-container > h5, .view-feedback-container > h5, .view-model-answer-container > h5, .view-description-container > h5, .note-container > h6, .academic-note-container > h6, .view-generic-container > h6, .view-answer-container > h6, .view-feedback-container > h6, .view-model-answer-container > h6, .view-description-container > h6, .note-container > div > .card-body .card-author .card-title, .academic-note-container > div > .card-body .card-author .card-title, .view-generic-container > div > .card-body .card-author .card-title, .view-answer-container > div > .card-body .card-author .card-title, .view-feedback-container > div > .card-body .card-author .card-title, .view-model-answer-container > div > .card-body .card-author .card-title, .view-description-container > div > .card-body .card-author .card-title,
   .note-container > div > .card-body .card-author h3,
   .academic-note-container > div > .card-body .card-author h3,
   .view-generic-container > div > .card-body .card-author h3,
@@ -173,7 +176,7 @@ select, option {
   .float-box .float-box-body h3,
   .float-box .float-box-body h4,
   .float-box .float-box-body h5,
-  .float-box .float-box-body h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
+  .float-box .float-box-body h6, #region-main .new-carousel h3, #region-main .new-carousel h4, #region-main .new-carousel h5, #region-main .new-carousel h6, .collapse-container .collapse-card .collapse-header button .collapse-title,
   .collapse-container .collapse-card .collapse-header button h3, .collapse-container .collapse-card .collapse-header button h4, .collapse-container .collapse-card .collapse-header button h5, .collapse-container .collapse-card .collapse-header button h6, .moodle-dialogue .moodle-dialogue-wrap .moodle-dialogue-hd h1, figure.quote-box figcaption:last-child, .timeline-container .timeline-row .timeline-card h3, .timeline-container .timeline-row .timeline-card h4, .timeline-container .timeline-row .timeline-card h5, .timeline-container .timeline-row .timeline-card h6 {
     font-size: 1.25rem;
     line-height: 1.4; }
@@ -217,12 +220,24 @@ a.link-download {
   background-color: rgba(245, 185, 15, 0.2) !important;
   padding: 2px 4px; }
 
+#region-main p a i.open-icon, #region-main li p a i.open-icon {
+  display: inline-block;
+  margin: 0.375rem;
+  vertical-align: baseline;
+  transform: translateY(-10%); }
+
+#region-main p a .sr-link-message, #region-main li p a .sr-link-message {
+  display: inline-block; }
+
 #region-main ol, #region-main ul {
   margin: 0 0 1.5rem 2.25rem; }
   #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
     margin-bottom: 1rem; }
   #region-main ol > li ol > li:not(:last-child), #region-main ol > li ul > li:not(:last-child), #region-main ul > li ol > li:not(:last-child), #region-main ul > li ul > li:not(:last-child) {
     margin-bottom: 0; }
+
+.editing #region-main #id_content_editoreditable p a .sr-link-message, .editing #region-main #id_content_editoreditable li p a .sr-link-message {
+  display: none; }
 
 #region-main ol > li:not(:last-child), #region-main ul > li:not(:last-child) {
   margin-bottom: 1rem; }
@@ -286,7 +301,7 @@ footer#page-footer {
 .view-answer-container > button::before,
 .view-feedback-container > button::before,
 .view-model-answer-container > button::before,
-.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, .collapse-container .collapse-card .collapse-header button .collapse-title::before,
+.view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, #region-main .new-carousel ul.nc-buttons li button.nc-previous:before, #region-main .new-carousel ul.nc-buttons li button.nc-next:after, .collapse-container .collapse-card .collapse-header button .collapse-title::before,
 .collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button h6::before, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
@@ -336,35 +351,36 @@ footer#page-footer {
   width: 100%;
   padding: 1.25rem 1.5rem; }
 
-.info-box, .alert, .definition-box, body .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, div.quote-box, .que .content .outcome {
+.info-box, .alert, .definition-box, .media-box, body .editing-help-box, .feedback-box, #region-main .learning-outcome-box, .reading-box, div.quote-box, .que .content .outcome {
   margin-bottom: 1.5rem;
   border-radius: 0;
   border: none;
   padding: 0.75rem 1.25rem;
   position: relative; }
-  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, body .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, div.quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, body .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, div.quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
+  .info-box > :first-child, .alert > :first-child, .definition-box > :first-child, .media-box > :first-child, body .editing-help-box > :first-child, .feedback-box > :first-child, #region-main .learning-outcome-box > :first-child, .reading-box > :first-child, div.quote-box > :first-child, .que .content .outcome > :first-child, .info-box .info-box-inner, .alert .info-box-inner, .definition-box .info-box-inner, .media-box .info-box-inner, body .editing-help-box .info-box-inner, .feedback-box .info-box-inner, #region-main .learning-outcome-box .info-box-inner, .reading-box .info-box-inner, div.quote-box .info-box-inner, .que .content .outcome .info-box-inner, #region-main .learning-outcome-box .que .content .outcome .feedback, .que .content .outcome #region-main .learning-outcome-box .feedback, .que .content .outcome .feedback {
     padding: 0.5rem 0.25rem 0.5rem 3.125rem; }
-  .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
+  .info-box > :first-child .info-box-title, .alert > :first-child .info-box-title, .definition-box > :first-child .info-box-title, .media-box > :first-child .info-box-title, body .editing-help-box > :first-child .info-box-title, .feedback-box > :first-child .info-box-title, #region-main .learning-outcome-box > :first-child .info-box-title, .reading-box > :first-child .info-box-title, div.quote-box > :first-child .info-box-title, .que .content .outcome > :first-child .info-box-title, .info-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .info-box > :first-child .specificfeedback, .alert > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .alert > :first-child .specificfeedback, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .definition-box > :first-child .specificfeedback, .media-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .media-box > :first-child .specificfeedback, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback body .editing-help-box > :first-child .specificfeedback, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .feedback-box > :first-child .specificfeedback, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback #region-main .learning-outcome-box > :first-child .specificfeedback, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback .reading-box > :first-child .specificfeedback, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback, .que .content .outcome .feedback div.quote-box > :first-child .specificfeedback, .que .content .outcome > :first-child .feedback .specificfeedback, .info-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .info-box > :first-child p, .alert > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .alert > :first-child p, .definition-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .definition-box > :first-child p, .media-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .media-box > :first-child p, body .editing-help-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback body .editing-help-box > :first-child p, .feedback-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .feedback-box > :first-child p, #region-main .learning-outcome-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback #region-main .learning-outcome-box > :first-child p, .reading-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback .reading-box > :first-child p, div.quote-box > :first-child .que .content .outcome .feedback .specificfeedback p, .que .content .outcome .feedback .specificfeedback div.quote-box > :first-child p, .que .content .outcome > :first-child .feedback .specificfeedback p,
   .info-box > :first-child h3,
   .alert > :first-child h3,
   .definition-box > :first-child h3,
+  .media-box > :first-child h3,
   body .editing-help-box > :first-child h3,
   .feedback-box > :first-child h3,
   #region-main .learning-outcome-box > :first-child h3,
   .reading-box > :first-child h3,
   div.quote-box > :first-child h3,
-  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6 {
+  .que .content .outcome > :first-child h3, .info-box > :first-child h4, .alert > :first-child h4, .definition-box > :first-child h4, .media-box > :first-child h4, body .editing-help-box > :first-child h4, .feedback-box > :first-child h4, #region-main .learning-outcome-box > :first-child h4, .reading-box > :first-child h4, div.quote-box > :first-child h4, .que .content .outcome > :first-child h4, .info-box > :first-child h5, .alert > :first-child h5, .definition-box > :first-child h5, .media-box > :first-child h5, body .editing-help-box > :first-child h5, .feedback-box > :first-child h5, #region-main .learning-outcome-box > :first-child h5, .reading-box > :first-child h5, div.quote-box > :first-child h5, .que .content .outcome > :first-child h5, .info-box > :first-child h6, .alert > :first-child h6, .definition-box > :first-child h6, .media-box > :first-child h6, body .editing-help-box > :first-child h6, .feedback-box > :first-child h6, #region-main .learning-outcome-box > :first-child h6, .reading-box > :first-child h6, div.quote-box > :first-child h6, .que .content .outcome > :first-child h6 {
     margin-top: 0;
     margin-bottom: 1rem; }
-  .info-box p, .alert p, .definition-box p, body .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, div.quote-box p, .que .content .outcome p {
+  .info-box p, .alert p, .definition-box p, .media-box p, body .editing-help-box p, .feedback-box p, #region-main .learning-outcome-box p, .reading-box p, div.quote-box p, .que .content .outcome p {
     color: #333333 !important; }
-    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, body .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, div.quote-box p:last-child, .que .content .outcome p:last-child {
+    .info-box p:last-child, .alert p:last-child, .definition-box p:last-child, .media-box p:last-child, body .editing-help-box p:last-child, .feedback-box p:last-child, #region-main .learning-outcome-box p:last-child, .reading-box p:last-child, div.quote-box p:last-child, .que .content .outcome p:last-child {
       margin-bottom: 0; }
   .info-box ul li, .alert ul li, .definition-box ul li, .media-box ul li, body .editing-help-box ul li, .feedback-box ul li, #region-main .learning-outcome-box ul li, .reading-box ul li, div.quote-box ul li, .que .content .outcome ul li, .info-box ol li, .alert ol li, .definition-box ol li, .media-box ol li, body .editing-help-box ol li, .feedback-box ol li, #region-main .learning-outcome-box ol li, .reading-box ol li, div.quote-box ol li, .que .content .outcome ol li {
     color: #333333 !important; }
     .info-box ul li:last-child, .alert ul li:last-child, .definition-box ul li:last-child, .media-box ul li:last-child, body .editing-help-box ul li:last-child, .feedback-box ul li:last-child, #region-main .learning-outcome-box ul li:last-child, .reading-box ul li:last-child, div.quote-box ul li:last-child, .que .content .outcome ul li:last-child, .info-box ol li:last-child, .alert ol li:last-child, .definition-box ol li:last-child, .media-box ol li:last-child, body .editing-help-box ol li:last-child, .feedback-box ol li:last-child, #region-main .learning-outcome-box ol li:last-child, .reading-box ol li:last-child, div.quote-box ol li:last-child, .que .content .outcome ol li:last-child {
       margin-bottom: 0; }
-  .info-box::before, .alert::before, .definition-box::before, body .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, div.quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, body .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, div.quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
+  .info-box::before, .alert::before, .definition-box::before, .media-box::before, body .editing-help-box::before, .feedback-box::before, #region-main .learning-outcome-box::before, .reading-box::before, div.quote-box::before, .que .content .outcome::before, .info-box .info-box-inner::before, .alert .info-box-inner::before, .definition-box .info-box-inner::before, .media-box .info-box-inner::before, body .editing-help-box .info-box-inner::before, .feedback-box .info-box-inner::before, #region-main .learning-outcome-box .info-box-inner::before, .reading-box .info-box-inner::before, div.quote-box .info-box-inner::before, .que .content .outcome .info-box-inner::before, #region-main .learning-outcome-box .que .content .outcome .feedback::before, .que .content .outcome #region-main .learning-outcome-box .feedback::before, .que .content .outcome .feedback::before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.25rem;
@@ -1353,6 +1369,14 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
   font-size: 0.833rem;
   color: #5A6469; }
 
+.btn-forum {
+  margin-bottom: 2.25rem !important; }
+  .btn-forum::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 0.5rem;
+    content: '\f500'; }
+
 #fgroup_id_buttonar .fitem:not(:last-of-type) {
   margin-right: 0.75rem; }
 
@@ -1554,6 +1578,165 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
   .editor_atto_content .carousel-item:not(:last-child) {
     margin-bottom: 1.25rem; }
 
+/* New Carousel
+   ======================== */
+#region-main .new-carousel {
+  margin-bottom: 4.5rem;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  background: #EDF1F2;
+  border: 1px solid #8B9296;
+  display: table;
+  table-layout: fixed; }
+  @media only screen and (max-width: 768px) {
+    #region-main .new-carousel {
+      margin-bottom: 1.5rem; } }
+  #region-main .new-carousel .nc-gallery {
+    list-style: none;
+    counter-reset: none;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0;
+    overflow-x: scroll;
+    counter-reset: item;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    /* Hide scrollbar for Chrome, Safari and Opera */ }
+    #region-main .new-carousel .nc-gallery::-webkit-scrollbar {
+      display: none; }
+    #region-main .new-carousel .nc-gallery li {
+      scroll-snap-align: start;
+      display: inline-block;
+      height: 100%;
+      /* important required for IE */
+      list-style: none !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      border: 0 !important;
+      flex: 0 0 100%; }
+      #region-main .new-carousel .nc-gallery li:before {
+        content: none; }
+  #region-main .new-carousel ul.nc-buttons {
+    padding: 0 2.25rem 1.5rem 2.25rem;
+    margin: 0px !important;
+    z-index: 30;
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+    @media only screen and (max-width: 768px) {
+      #region-main .new-carousel ul.nc-buttons {
+        padding: 0 1rem 1rem 1rem; } }
+    #region-main .new-carousel ul.nc-buttons li {
+      list-style: none;
+      padding: 0;
+      margin: 0 !important; }
+      #region-main .new-carousel ul.nc-buttons li button.nc-previous:before {
+        content: "\f104"; }
+      #region-main .new-carousel ul.nc-buttons li button.nc-next:after {
+        content: "\f105";
+        margin-right: 0;
+        margin-left: 0.375rem; }
+  #region-main .new-carousel ul.indic-dots {
+    text-align: center;
+    z-index: 31;
+    max-width: 200px;
+    left: calc(50% - 50px);
+    padding: 0;
+    margin: 0; }
+    @media only screen and (max-width: 768px) {
+      #region-main .new-carousel ul.indic-dots {
+        max-width: 100px; } }
+    #region-main .new-carousel ul.indic-dots li {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      background: #CDD7DC;
+      border-radius: 50px; }
+    #region-main .new-carousel ul.indic-dots li.active {
+      background: #0A2D50; }
+
+#region-main .landscape-carousel .nc-gallery li figure {
+  border: 0 !important;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column; }
+  #region-main .landscape-carousel .nc-gallery li figure > .filter-ally-wrapper > img {
+    width: 100%; }
+  #region-main .landscape-carousel .nc-gallery li figure > .filter-ally-wrapper,
+  #region-main .landscape-carousel .nc-gallery li figure > img,
+  #region-main .landscape-carousel .nc-gallery li figure figcaption {
+    width: 100%;
+    /* min-height req for IE */
+    min-height: 1px;
+    vertical-align: top;
+    border: 0px;
+    position: relative;
+    padding: 0;
+    margin: 0; }
+  #region-main .landscape-carousel .nc-gallery li figure figcaption.nc-description {
+    background: transparent;
+    padding: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5; }
+    @media only screen and (max-width: 768px) {
+      #region-main .landscape-carousel .nc-gallery li figure figcaption.nc-description {
+        padding: 1rem; } }
+
+#region-main .portrait-carousel .nc-gallery li figure {
+  border: 0 !important;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex; }
+  @media only screen and (max-width: 768px) {
+    #region-main .portrait-carousel .nc-gallery li figure {
+      display: block; } }
+  #region-main .portrait-carousel .nc-gallery li figure > .filter-ally-wrapper, #region-main .portrait-carousel .nc-gallery li figure img.nc-image, #region-main .portrait-carousel .nc-gallery li figure figcaption {
+    vertical-align: top;
+    border: 0px;
+    position: relative;
+    margin: 0;
+    height: auto; }
+  #region-main .portrait-carousel .nc-gallery li figure > .filter-ally-wrapper > img.nc-image, #region-main .portrait-carousel .nc-gallery li figure img.nc-image {
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 310px;
+    height: auto;
+    padding: 2.25rem;
+    padding-right: 0;
+    margin-bottom: auto; }
+    @media only screen and (max-width: 768px) {
+      #region-main .portrait-carousel .nc-gallery li figure > .filter-ally-wrapper > img.nc-image, #region-main .portrait-carousel .nc-gallery li figure img.nc-image {
+        padding: 1rem;
+        padding-bottom: 0;
+        width: 100%; } }
+  #region-main .portrait-carousel .nc-gallery li figure img.nc-image {
+    flex-shrink: 0; }
+  #region-main .portrait-carousel .nc-gallery li figure figcaption.nc-description {
+    background: transparent;
+    padding: 2.25rem;
+    font-size: 1rem;
+    line-height: 1.5; }
+    @media only screen and (max-width: 768px) {
+      #region-main .portrait-carousel .nc-gallery li figure figcaption.nc-description {
+        padding: 1rem; } }
+
+.editor_atto_content .new-carousel .nc-gallery {
+  display: block !important; }
+
+.editor_atto_content .new-carousel .nc-buttons {
+  display: none !important; }
+
 /* Collapse
    ======================== */
 .collapse-container {
@@ -1728,6 +1911,48 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
 .editor_atto_content .transcript-container.collapsed .transcript-card {
   display: block !important; }
 
+/* Footnotes
+   ======================== */
+section#region-main {
+  counter-reset: footnotes; }
+  section#region-main a[aria-describedby="footnote-label"] {
+    counter-increment: footnotes;
+    text-decoration: none !important;
+    color: inherit;
+    cursor: default;
+    outline: none; }
+    section#region-main a[aria-describedby="footnote-label"]:hover {
+      background-color: rgba(245, 185, 15, 0.3) !important; }
+    section#region-main a[aria-describedby="footnote-label"]:focus {
+      background-color: rgba(245, 185, 15, 0.3) !important; }
+    section#region-main a[aria-describedby="footnote-label"]::after {
+      content: counter(footnotes);
+      vertical-align: super;
+      font-size: 0.75em;
+      margin-left: 3px;
+      margin-bottom: 5px;
+      text-decoration: underline;
+      cursor: pointer; }
+    section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label {
+      border: none;
+      padding: 0;
+      margin: 0; }
+      section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label::before {
+        display: none; }
+  section#region-main .editing #region-main #id_content_editoreditable a .ref-label {
+    display: none; }
+  section#region-main aside.footnotes {
+    border-top: 1px solid #8B9296;
+    padding: 2.25rem 0 0 0;
+    margin: 2.25rem 0; }
+    section#region-main aside.footnotes :target {
+      background-color: rgba(245, 185, 15, 0.3) !important; }
+    section#region-main aside.footnotes ol {
+      margin: 0 0 1.5rem 1rem; }
+      section#region-main aside.footnotes ol li {
+        font-size: 0.875em;
+        line-height: 1.5em; }
+
 /* Form
    =========================*/
 @media (max-width: 1199px) {
@@ -1814,6 +2039,13 @@ figure {
     content: '\f02e';
     padding: 0 5px;
     color: #8262ae; }
+
+.media-box {
+  background-color: #EDF1F2; }
+  .media-box::before {
+    content: '\f03d';
+    padding: 0 5px;
+    color: #0A2D50; }
 
 body:not(.editing) .editing-help-box {
   display: none; }
@@ -2198,6 +2430,7 @@ figure.quote-box {
     height: 27px;
     justify-content: center;
     padding: 4px;
+    margin-right: 4px;
     content: "Description for screen readers";
     background-color: #009EA0; }
 
@@ -2216,6 +2449,7 @@ figure.quote-box {
     height: 27px;
     justify-content: center;
     padding: 4px;
+    margin-right: 4px;
     content: "Complex image";
     background-color: #FF5F05; }
 
@@ -2260,6 +2494,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     border-radius: 0; }
     table.table-bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, table.table-bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, table .bordered th, table .bordered td, .table.table-bordered th, #page-mod-choice-view #region-main .chart-area .chart-table .chart-table-data table th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table th, .table.table-bordered td, #page-mod-choice-view #region-main .chart-area .chart-table .chart-table-data table td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table td, .table .bordered th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .bordered th, .table .bordered td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table .bordered td {
       border: 1px solid #8B9296 !important; }
+  table.table-fixed, .table.table-fixed, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.table-fixed {
+    table-layout: fixed; }
   table.outer-borders-only.background td, .table.outer-borders-only.background td, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.outer-borders-only.background td {
     background-color: #EDF1F2; }
   table.outer-borders-only thead, .table.outer-borders-only thead, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.outer-borders-only thead {
@@ -5362,6 +5598,42 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .editor_atto_content .view-description-container > div {
   display: block !important; }
 
+/* OU Blog
+   ======================== */
+#page-mod-oublog-view #region-main #oublog_info_block.main-description .card-body {
+  padding: 1.5rem !important; }
+
+#page-mod-oublog-view #region-main .oublog-userpic {
+  padding: 0; }
+  #page-mod-oublog-view #region-main .oublog-userpic img.userpicture {
+    border-radius: 50%; }
+
+#page-mod-oublog-view #region-main #oublog-posts {
+  margin-bottom: 1rem; }
+
+#page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li {
+  margin-bottom: 8px; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li img.userpicture {
+    border-radius: 50%; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li h3 {
+    font-family: 'KingsBureauGrotFiveOne';
+    color: #333333;
+    font-size: 1.1rem; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content {
+    margin: 0.5rem; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content .oublog_statsinfo {
+      margin-left: 0; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li .oublog_statsview_content .oublog_statsinfo_bar span.oublogbar {
+      background: transparent; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+    #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-3 .col-form-label.d-inline[for="id_timefilter_commentpoststats"] {
+      padding-right: 0px;
+      padding-left: 0px; }
+  #page-mod-oublog-view #block-region-side-post .block .content ul.oublog-accordion li #fitem_id_timefilter_commentpoststats .col-md-9 {
+    margin-left: 0; }
+
 /* Book
    ======================== */
 #page-mod-book-edit .form-group.row.fitem.subchapter {
@@ -5411,7 +5683,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     #page-mod-book-view .navbottom a.bookprev,
     #page-mod-book-view .navbottom a.booknext {
       text-align: center;
-      width: 2.25rem;
+      width: 1.5rem;
       height: 2.25rem; }
       #page-mod-book-view .navtop a.bookprev:hover, #page-mod-book-view .navtop a.booknext:hover,
       #page-mod-book-view .navbottom a.bookprev:hover,
@@ -5439,11 +5711,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   #page-mod-book-view .navtop ul,
   #page-mod-book-view .navbottom ul {
     margin: 0;
-    display: inline-block; }
-    @media only screen and (max-width: 768px) {
-      #page-mod-book-view .navtop ul li.chapter:not(.current):not(.prev):not(.next),
-      #page-mod-book-view .navbottom ul li.chapter:not(.current):not(.prev):not(.next) {
-        display: none; } }
+    display: inline-block;
+    line-height: normal; }
     #page-mod-book-view .navtop ul li.chapter,
     #page-mod-book-view .navbottom ul li.chapter {
       list-style: none;
@@ -5452,9 +5721,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       align-items: center;
       font-family: 'KingsBureauGrot';
       font-size: 1.5rem;
-      min-width: 2.25rem;
       height: 2.25rem;
-      margin: 0 0.5rem; }
+      margin: 0 0.375rem; }
       #page-mod-book-view .navtop ul li.chapter.current,
       #page-mod-book-view .navbottom ul li.chapter.current {
         cursor: default;
@@ -5462,6 +5730,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         border-radius: 50%; }
         #page-mod-book-view .navtop ul li.chapter.current strong,
         #page-mod-book-view .navbottom ul li.chapter.current strong {
+          min-width: 2.25rem;
           color: #FFFFFF; }
         @media not all and (min-resolution: 0.001dpcm) {
           #page-mod-book-view .navtop ul li.chapter.current strong,
@@ -5471,10 +5740,87 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
           #page-mod-book-view .navtop ul li.chapter.current strong,
           #page-mod-book-view .navbottom ul li.chapter.current strong {
             height: 36px; } }
-      #page-mod-book-view .navtop ul li.chapter a:hover,
-      #page-mod-book-view .navbottom ul li.chapter a:hover {
-        text-decoration: none;
-        color: rgba(10, 45, 80, 0.85) !important; }
+      #page-mod-book-view .navtop ul li.chapter a,
+      #page-mod-book-view .navbottom ul li.chapter a {
+        min-width: 2.25rem; }
+        #page-mod-book-view .navtop ul li.chapter a:hover,
+        #page-mod-book-view .navbottom ul li.chapter a:hover {
+          text-decoration: none;
+          color: rgba(10, 45, 80, 0.85) !important; }
+      @media only screen and (min-width: 768px) {
+        #page-mod-book-view .navtop ul li.chapter,
+        #page-mod-book-view .navbottom ul li.chapter {
+          margin: 0 0.5rem; } }
+    #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter, #page-mod-book-view .navtop ul.large-book-pagination li.chapter,
+    #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter,
+    #page-mod-book-view .navbottom ul.large-book-pagination li.chapter {
+      display: none; }
+      #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:first-child, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.mob-prev, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.current, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.mob-next, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:last-child, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:first-child, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.mob-prev, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.current, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.mob-next, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:last-child,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:first-child,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-prev,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.current,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-next,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:last-child,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:first-child,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-prev,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.current,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-next,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:last-child {
+        display: inline-flex; }
+      #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after {
+        content: '...'; }
+      #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before {
+        margin-right: 0.375rem; }
+      #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child)::after, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.mob-next:not(:last-child)::after,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child)::after,
+      #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-next:not(:last-child)::after {
+        margin-left: 0.375rem; }
+      @media only screen and (min-width: 768px) {
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.prev, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.next, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.prev, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.next,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.prev,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.next,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.prev,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.next {
+          display: inline-flex; }
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after {
+          content: none;
+          margin: 0; }
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navtop ul.large-book-pagination li.chapter.next + .next:not(:last-child)::after,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.next + .next:not(:last-child)::after {
+          content: '...'; }
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before {
+          margin-right: 1rem; }
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after, #page-mod-book-view .navtop ul.large-book-pagination li.chapter.next + .next:not(:last-child)::after,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after,
+        #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.next + .next:not(:last-child)::after {
+          margin-left: 1rem; } }
+    @media only screen and (min-width: 768px) {
+      #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter,
+      #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter {
+        display: inline-flex; }
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
+        #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child)::after {
+          content: none;
+          margin: 0; } }
 
 /* Choice
    ======================== */
@@ -5716,7 +6062,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   #page-mod-forum-discuss .forumpost .maincontent .content, #page-mod-forum-view .forumpost .maincontent .content, #page-mod-forum-post .forumpost .maincontent .content {
     margin-left: 3.75rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
-      margin-top: 0; }
+      margin-top: 0 !important; }
   #page-mod-forum-discuss .forumpost .row.side .options, #page-mod-forum-view .forumpost .row.side .options, #page-mod-forum-post .forumpost .row.side .options {
     margin-left: 0.75rem; }
     #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
@@ -5761,7 +6107,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-    margin-top: 50px!important; }
+    margin-top: 50px !important; }
   @media only screen and (min-width: 768px) {
     .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
       overflow-x: auto; }
@@ -5770,7 +6116,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-        margin-top: 0!important; } }
+        margin-top: 0 !important; } }
 
 /* Kaltura media assignment
    ======================== */
@@ -5792,6 +6138,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 
 #page-mod-lesson-view .answeroption {
   margin-bottom: 1.5rem; }
+  #page-mod-lesson-view .answeroption .fitem .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%; }
   #page-mod-lesson-view .answeroption .fitem .felement span {
     margin: 0;
     display: inline-flex;
@@ -5841,12 +6190,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   border-top: 1px solid #8B9296;
   border-left: 1px solid #8B9296; }
 
-.path-mod-questionnaire .surveyTitle {
-  margin-bottom: 0 !important; }
+.path-mod-questionnaire #notice .buttons .singlebutton {
+  margin-right: 0.5rem; }
 
 .path-mod-questionnaire .floatprinticon {
   width: 100%;
   margin: 0;
+  margin-top: -1.5rem;
   float: none;
   text-align: right !important;
   display: block; }
@@ -5893,7 +6243,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     padding: 0;
     margin: 0;
     margin-bottom: 1rem;
-    background-color:transparent; }
+    background-color: transparent; }
     .path-mod-questionnaire .qn-container .qn-content .qn-question p,
     .path-mod-questionnaire .qn-container .qn-content .qn-question label {
       margin: 0 0 1.5rem 0;
@@ -6617,17 +6967,6 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       position: absolute;
       top: 2px;
       margin-left: 8px; }
-  /* #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentwithoutlink,
-  #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink,
-  #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentwithoutlink,
-  #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink {
-    margin-left: 64px !important; }
-    @media only screen and (min-width: 768px) {
-      #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentwithoutlink,
-      #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink,
-      #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentwithoutlink,
-      #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity .contentafterlink {
-        margin-left: 80px !important; } } */
   #page-course-view-grid #region-main .course-content ul > li.section.main.completion-progress-section .activity:not(.label).completion-progress-activity .activityinstance,
   #page-course-view-topcoll #region-main .course-content ul > li.section.main.completion-progress-section .activity:not(.label).completion-progress-activity .activityinstance {
     max-width: calc(100% - 30px); }
@@ -6673,7 +7012,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     z-index: 1;
     padding: 1rem;
     width: calc(310px - 2rem);
-    height: 100px!important;
+    height: 100px !important;
     font-family: 'KingsBureauGrot';
     font-size: 1.25rem;
     line-height: 1.4;

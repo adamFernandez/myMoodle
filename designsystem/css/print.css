@@ -148,6 +148,9 @@ html {
   .quote-box .quote-body {
     font-family: 'KingsCaslonDisplay';
   }
+  .quote-box blockquote.quote-body {
+    border:none;
+  }
 
   /* bootstrap */
   .row {
@@ -310,6 +313,40 @@ html {
   .carousel.text-only .carousel-caption {
     position: static;
     max-width: 100% !important;
+  }
+
+  /* new carousel */
+  .new-carousel{
+    border:none!important;
+  }
+  .new-carousel .nc-gallery{
+    display:block!important;
+  }
+  .new-carousel .nc-gallery li{
+    padding:16px;
+    margin-left:0;
+    display:block!important;
+    width:70%!important;
+  }
+  .new-carousel .nc-gallery li:before{
+    content: counter(my-awesome-counter);
+    color: black;
+    font-weight: bold;
+    vertical-align: top;
+  }
+  .landscape-carousel .nc-gallery li, .portrait-carousel .nc-gallery li{
+    width:60%;
+  }
+  .new-carousel figure{
+    margin:0;
+    display:block!important;
+  }
+  .new-carousel img{
+    max-width: 100%;
+    margin-bottom:16px;
+  }
+  .new-carousel ul.nc-buttons{
+    display:none;
   }
 
   /* collapse */

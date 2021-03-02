@@ -6062,7 +6062,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   #page-mod-forum-discuss .forumpost .maincontent .content, #page-mod-forum-view .forumpost .maincontent .content, #page-mod-forum-post .forumpost .maincontent .content {
     margin-left: 3.75rem; }
     #page-mod-forum-discuss .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-view .forumpost .maincontent .content .posting.fullpost, #page-mod-forum-post .forumpost .maincontent .content .posting.fullpost {
-      margin-top: 0; }
+      margin-top: 0 !important; }
   #page-mod-forum-discuss .forumpost .row.side .options, #page-mod-forum-view .forumpost .row.side .options, #page-mod-forum-post .forumpost .row.side .options {
     margin-left: 0.75rem; }
     #page-mod-forum-discuss .forumpost .row.side .options .commands, #page-mod-forum-view .forumpost .row.side .options .commands, #page-mod-forum-post .forumpost .row.side .options .commands {
@@ -6107,7 +6107,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
   .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-    margin-top: 50px; }
+    margin-top: 50px !important; }
   @media only screen and (min-width: 768px) {
     .path-mod-forum #region-main > div:first-of-type > div:not(#intro) {
       overflow-x: auto; }
@@ -6116,7 +6116,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) table,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) .forumnodiscuss,
       .path-mod-forum #region-main > div:first-of-type > div:not(#intro) #collapseAddForm {
-        margin-top: 0; } }
+        margin-top: 0 !important; } }
 
 /* Kaltura media assignment
    ======================== */

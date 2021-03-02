@@ -30,6 +30,38 @@ $(document).on("click", blockHide, function(event) {
 // return 'accesshide' class to sectionname post 3.9.3
 $(".gtopics .content .sectionname").addClass("accesshide");
 
+/* external links in paragraphs */
+// on page load 
+$(window).on('load', function() {
+  addNewWindowIcon();
+  addNewWindowMessage();
+  addNoOpener();
+});
+// and on page re-size from editor
+$(window).resize(function() {
+  addNewWindowIcon();
+  addNewWindowMessage();
+}); 
+function addNewWindowIcon() {
+  // remove the icon in case it was added in the editor
+  $(".open-icon").remove();
+  // now add the icon to each; only links within paragraphs
+  $('p').find('a[target="_blank"]').each(function() {
+    $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
+  });
+}
+function addNewWindowMessage() {
+  // remove the span in case it was added in the editor
+  $(".sr-link-message").remove();
+  // now add the span to each; every link
+  $('a[target="_blank"]').each(function() {
+    $(this).append('<span class="sr-only sr-link-message">(opens in a new tab)</span>');
+  });
+}
+function addNoOpener(){
+  $('a[target="_blank"]').attr('rel','noopener');
+}
+
 /* card deck */
 // call function on window load (instead of doc ready)
 $(window).on('load', function() {
@@ -89,11 +121,105 @@ $(document).on("click", ".carousel-control-prev, .carousel-control-next, .carous
   carouselContainer.find(".carousel-indicators li:nth-child(2)").css("background-color", newSlide === 2 ? "white" : "rgba(255, 255, 255, 0.5)");
 });
 
+/* new carousel */
+// on window load, set width
+$(window).on('load', function() {
+  resetCarWidth();
+});
+// also on re-size
+$(window).resize(function() {
+  resetCarWidth();
+});
+function resetCarWidth() {
+  // resize to make integer width so scroll will work
+  // remove the in-line attribute if it has been set in the editor
+  $(".new-carousel").removeAttr("style");
+  var loadWidth= $(".new-carousel").width();
+  var carWidth = Math.floor(loadWidth);
+  $(".new-carousel").each(function() {
+    $(this).width(carWidth);
+  });
+  var newWidth= $(".new-carousel").width();
+};
+
+$(".new-carousel").on("click", ".nc-next", function(event) {
+  // get component width
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  $(window).resize(function() {
+  slideWidth = $(".nc-gallery").width();
+  });
+  var newCarousel = $(this).parents()[2];
+  var ncGallery = $(newCarousel).find(".nc-gallery")[0];
+  // scroll 
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: '+=' + slideWidth }, 2).animate({opacity:"1"},300);
+});
+
+$(".new-carousel").on("click", ".nc-previous", function(event) {
+  // get component width
+  var slideWidth = $(".nc-gallery").width();
+  // update value upon window resize
+  $(window).resize(function() {
+  slideWidth = $(".nc-gallery").width();
+  });
+  // scroll 
+  var newCarousel = $(this).parents()[2];
+  var ncGallery = $(newCarousel).find(".nc-gallery")[0];
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: '-=' + slideWidth }, 2).animate({opacity:"1"},300);
+});
+
+$(".nc-gallery").scroll(function() {
+  // Get component width. 
+  var slideWidth = $(this).width();
+  // Get how far we scrolled left. 
+  var leftNumber = $(this).scrollLeft();
+  // divide our scroll distance by component width to calculate which slide we're on (accounting for + 1 error)
+  var currSlideNum = (leftNumber / slideWidth) + 1;
+  // find the indicator dot with the same index and make that dot active, removing active from others
+  var newCarousel = $(this).parents()[0];
+  var indicDots = $(newCarousel).find(".indic-dots")[0];
+  var liveDot = $(indicDots).find(".active")[0];
+  $(liveDot).removeClass("active");
+  console.log(currSlideNum);
+  var activeDot = $(indicDots).find("li:nth-child(" + (currSlideNum) + ")")[0]
+  $(activeDot).addClass("active");
+  // For buttons
+  var noOfIndic = $(indicDots).find("li").length;
+  var ncNextButton = $(newCarousel).find(".nc-next")[0];
+  var ncPreviousButton = $(newCarousel).find(".nc-previous")[0];
+  // If slide number is last (equal to number of slides), make next button inactive
+  if (currSlideNum === noOfIndic) {
+    $(ncNextButton).attr('disabled','disabled')
+  } else{
+    $(ncNextButton).removeAttr('disabled')
+  }
+  // If slide number is 1, make previous button inactive
+  if (currSlideNum === 1) {
+    $(ncPreviousButton).attr('disabled','disabled')
+  } 
+  else{
+    $(ncPreviousButton).removeAttr('disabled')
+  }
+});
+
+$(".indic-dots li").click(function(numberDot){
+  var newCarousel = $(this).parents()[3];
+  var ncGallery= $(newCarousel).find(".nc-gallery")[0];
+  var slideWidth = $(ncGallery).width();
+  var numberDot = $(this).index();
+  var scrollTargetDistance = slideWidth * (numberDot);
+  $(ncGallery).animate({opacity:"0"},300).animate( { scrollLeft: scrollTargetDistance }, 2).animate({opacity:"1"},300);
+});
+
 /* collapse */
 // hide and show collapse card
 $(document).on("click", ".collapse-card .collapse-header", function(event) {
   event.preventDefault();
   $(this).parents(".collapse-card").toggleClass("collapsed");
+  // toggle aria that tells if expanded
+  $(this).find("button").attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
 });
 
 /* transcript */
@@ -102,9 +228,13 @@ $(document).on("click", ".transcript-button-group .view-close-transcript", funct
   event.preventDefault();
   $(this).text($(this).text() == 'View transcript' ? 'Hide transcript' : 'View transcript');
   $(this).parents(".transcript-container").toggleClass("collapsed");
+  // toggle aria that tells if expanded
+  $(this).attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
 });
 
-/* view answer */
+/* view/hide */
 // toggle view generic, view answer, model answer, and feedback button text and card
 var viewHideOptions = [
   "View", "Hide",
@@ -115,6 +245,10 @@ var viewHideOptions = [
 ];
 $(document).on("click", "[class*='view-hide-']", function(event) {
   event.preventDefault();
+  // toggle aria that tells if expanded
+  $(this).attr('aria-expanded', function (i, attr) {
+    return attr == 'true' ? 'false' : 'true'
+  });
   $(this).text(function(i, currentText) {
     if (viewHideOptions.includes($(this).text())) {
       $(this).parents("div[class^='view-'][class*='-container']").toggleClass("collapsed");
@@ -141,14 +275,31 @@ $(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function
 // add current class to current page
 $(".navbottom.clearfix ul li strong").parents("li").addClass("current");
 // add prev and next class to li before and after current for mobile
-$(".chapter.current").prev("li").addClass("prev");
-$(".chapter.current").next("li").addClass("next");
+$(".chapter.current").prev("li").addClass("mob-prev");
+$(".chapter.mob-prev").prevAll(":lt(2)").addClass("prev");
+$(".chapter.current").next("li").addClass("mob-next");
+$(".chapter.mob-next").nextAll(":lt(2)").addClass("next");
+/*
 // show one more page if first or last page on mobile
 if ($(".navbottom a.bookprev").length == 0) {
-  $("li.chapter:nth-child(3), li.chapter:nth-child(4)").addClass("next");
+  $("li.chapter:nth-child(3), li.chapter:nth-child(4), li.chapter:nth-child(5)").addClass("mob-next");
 } else if ($(".navbottom a.booknext").length == 0) {
-  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4)").addClass("prev");
+  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4), li.chapter:nth-last-child(5)").addClass("mob-prev");
+} else {
+  $(".chapter.prev").prev("li").addClass("mob-prev");
+  $(".chapter.next").next("li").addClass("mob-next");
 }
+*/
+if ($(".book_toc ul").length !== 0) {
+  // add large-book-pagination class if more than 10 chapters
+  if ($(".book_toc ul").get(0).childElementCount > 10) {
+    $(".navbottom ul").addClass("large-book-pagination");
+  // add mob-large-book-pagination class if more than 5 chapters
+  } else if ($(".book_toc ul").get(0).childElementCount > 5) {
+    $(".navbottom ul").addClass("mob-large-book-pagination");
+  };
+};
+
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
 
@@ -167,6 +318,15 @@ $(".activity-navigation a#prev-activity-link").text(function(i, text) {
 });
 $(".activity-navigation a#next-activity-link").text(function(i, text) {
   return text.slice(0, -2);
+});
+
+/* blog activity */
+// moves the info block into the main body text 
+$("#oublog_info_block").detach().prependTo($("#region-main"));
+$("#oublog_info_block").addClass("main-description");
+// changes the heading level on the info to h2 
+$("#oublog_info_block h5").replaceWith(function () {
+  return "<h2>" + $(this).html() + "</h2>";
 });
 
 /* activity labels */

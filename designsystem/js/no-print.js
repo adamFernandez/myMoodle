@@ -292,6 +292,8 @@ if ($(".navbottom a.bookprev").length == 0) {
   $(".chapter.next").next("li").addClass("mob-next");
 }
 */
+/*
+// removing below because buggy
 if ($(".book_toc ul").length !== 0) {
   // add large-book-pagination class if more than 10 chapters
   if ($(".book_toc ul").get(0).childElementCount > 10) {
@@ -301,6 +303,7 @@ if ($(".book_toc ul").length !== 0) {
     $(".navbottom ul").addClass("mob-large-book-pagination");
   };
 };
+*/
 
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();

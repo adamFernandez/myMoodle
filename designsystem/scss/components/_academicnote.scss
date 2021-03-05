@@ -4,10 +4,10 @@
    .academic-note-container {
     @extend .note-container;
     // from common
-    .card-author{
+    .card-author.multi-author{
       //to make it work with 2 authors
       .card-title{
-        margin-right: $component-margin;
+        margin-right: $component-margin!important;
       }
     }
   }

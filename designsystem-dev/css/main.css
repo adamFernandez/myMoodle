@@ -825,8 +825,8 @@ aside section.block {
 
 /* Academic note
    ======================== */
-.academic-note-container .card-author .card-title {
-  margin-right: 1.5rem; }
+.academic-note-container .card-author.multi-author .card-title {
+  margin-right: 1.5rem!important; }
 
 /* Activity label
    ======================== */

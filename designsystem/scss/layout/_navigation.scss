@@ -20,6 +20,7 @@
   }
   .navtext {
     position: relative;
+    display:inline-block;
     float: none;
     margin: 0;
     padding-top: 0.5rem !important;
@@ -128,6 +129,7 @@
   }
   .mdl-left {
     a {
+      padding-left:3rem;
       &::before {
         @extend .navbutton;
           left: 0;
@@ -137,6 +139,7 @@
   .mdl-right {
     a {
       text-align: right;
+      padding-right:3rem;
       &::after {
         @extend .navbutton;
           right: 0;

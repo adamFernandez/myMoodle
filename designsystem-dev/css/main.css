@@ -825,7 +825,7 @@ aside section.block {
 
 /* Academic note
    ======================== */
-.academic-note-container .card-author h5.card-title {
+.academic-note-container .card-author .card-title {
   margin-right: 1.5rem; }
 
 /* Activity label

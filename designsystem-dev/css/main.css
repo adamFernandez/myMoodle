@@ -470,6 +470,7 @@ footer#page-footer {
   .activity-navigation .row .col-md-4 a#next-activity-link, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a,
   .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
     position: relative;
+    display: inline-block;
     float: none;
     margin: 0;
     padding-top: 0.5rem !important;
@@ -537,11 +538,14 @@ footer#page-footer {
       display: flex;
       justify-content: flex-end; }
 
-.course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before {
-  left: 0; }
+.course-content .single-section .section-navigation.mdl-bottom .mdl-left a {
+  padding-left: 3rem; }
+  .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before {
+    left: 0; }
 
 .course-content .single-section .section-navigation.mdl-bottom .mdl-right a {
-  text-align: right; }
+  text-align: right;
+  padding-right: 3rem; }
   .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after {
     right: 0; }
 

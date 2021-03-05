@@ -825,6 +825,9 @@ aside section.block {
 
 /* Academic note
    ======================== */
+   .academic-note-container .card-author h5.card-title {
+    margin-right: 1.5rem; }
+    
 /* Activity label
    ======================== */
 .activity-label-container-default, #page-course-view-grid #region-main .course-content ul > li.section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) .activity-label-container,

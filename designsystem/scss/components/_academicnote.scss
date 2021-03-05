@@ -1,7 +1,14 @@
 /* Academic note
    ======================== */
 
-.academic-note-container {
-  @extend .note-container;
-  // from common
-}
+   .academic-note-container {
+    @extend .note-container;
+    // from common
+    .card-author{
+      //to make it work with 2 authors
+      h5.card-title{
+        margin-right: $component-margin;
+      }
+    }
+  }
+  

@@ -1954,8 +1954,6 @@ section#region-main {
     margin: 2.25rem 0; }
     section#region-main aside.footnotes :target {
       background-color: rgba(245, 185, 15, 0.3) !important; }
-    section#region-main aside.footnotes ol {
-      margin: 0 0 1.5rem 1rem; }
       section#region-main aside.footnotes ol li {
         font-size: 0.875em;
         line-height: 1.5em; }

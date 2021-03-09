@@ -7051,7 +7051,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       #page-course-view-topcoll.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
         content: 'Available soon';
         position: absolute;
-        background-color: #F5B90F;
+        background-color: #F5B90F!important;
         color: #333333;
         z-index: 1;
         top: 148px;

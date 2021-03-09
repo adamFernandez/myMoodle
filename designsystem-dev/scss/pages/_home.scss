@@ -398,7 +398,7 @@
               &:before {
                 content: 'Available soon';
                 position: absolute;
-                background-color: $yellow;
+                background-color: $yellow!important;
                 color: $body-text;
                 z-index: 1;
                 top: 148px;

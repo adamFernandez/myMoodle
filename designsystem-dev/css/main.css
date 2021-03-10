@@ -826,7 +826,7 @@ aside section.block {
 /* Academic note
    ======================== */
 .academic-note-container .card-author.multi-author .card-title {
-  margin-right: 1.5rem!important; }
+  margin-right: 1.5rem !important; }
 
 /* Activity label
    ======================== */
@@ -1920,43 +1920,39 @@ input[type="submit"] #page-mod-quiz-review .submitbtns a.mod_quiz-prev-nav:visit
 
 /* Footnotes
    ======================== */
-section#region-main {
-  counter-reset: footnotes; }
-  section#region-main a[aria-describedby="footnote-label"] {
-    counter-increment: footnotes;
-    text-decoration: none !important;
-    color: inherit;
-    cursor: default;
-    outline: none; }
-    section#region-main a[aria-describedby="footnote-label"]:hover {
-      background-color: rgba(245, 185, 15, 0.3) !important; }
-    section#region-main a[aria-describedby="footnote-label"]:focus {
-      background-color: rgba(245, 185, 15, 0.3) !important; }
-    section#region-main a[aria-describedby="footnote-label"]::after {
-      content: counter(footnotes);
-      vertical-align: super;
-      font-size: 0.75em;
-      margin-left: 3px;
-      margin-bottom: 5px;
-      text-decoration: underline;
-      cursor: pointer; }
-    section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label {
-      border: none;
-      padding: 0;
-      margin: 0; }
-      section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label::before {
-        display: none; }
-  section#region-main .editing #region-main #id_content_editoreditable a .ref-label {
-    display: none; }
-  section#region-main aside.footnotes {
-    border-top: 1px solid #8B9296;
-    padding: 2.25rem 0 0 0;
-    margin: 2.25rem 0; }
-    section#region-main aside.footnotes :target {
-      background-color: rgba(245, 185, 15, 0.3) !important; }
-      section#region-main aside.footnotes ol li {
-        font-size: 0.875em;
-        line-height: 1.5em; }
+section#region-main a[aria-describedby="footnote-label"] {
+  color: inherit;
+  cursor: default;
+  outline: none;
+  vertical-align: super;
+  font-size: 0.75em;
+  padding: 3px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  cursor: pointer; }
+  section#region-main a[aria-describedby="footnote-label"]:hover {
+    background-color: rgba(245, 185, 15, 0.3) !important; }
+  section#region-main a[aria-describedby="footnote-label"]:focus {
+    background-color: rgba(245, 185, 15, 0.3) !important; }
+  section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label {
+    border: none;
+    padding: 0;
+    margin: 0; }
+    section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label::before {
+      display: none; }
+
+section#region-main .editing #region-main #id_content_editoreditable a .ref-label {
+  display: none; }
+
+section#region-main aside.footnotes {
+  border-top: 1px solid #8B9296;
+  padding: 2.25rem 0 0 0;
+  margin: 2.25rem 0; }
+  section#region-main aside.footnotes :target {
+    background-color: rgba(245, 185, 15, 0.3) !important; }
+  section#region-main aside.footnotes ol li {
+    font-size: 0.875em;
+    line-height: 1.5em; }
 
 /* Form
    =========================*/
@@ -7051,7 +7047,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       #page-course-view-topcoll.format-grid .course-content #gridiconcontainer ul.gridicons > li > span:first-child .image_holder.inaccessible:before {
         content: 'Available soon';
         position: absolute;
-        background-color: #F5B90F!important;
+        background-color: #F5B90F !important;
         color: #333333;
         z-index: 1;
         top: 148px;

@@ -28,18 +28,6 @@ section#region-main {
       }
     }
   }
-  // hide the screenreader only note on external links in editor view of books
-  .editing {
-    #region-main {
-      #id_content_editoreditable{
-        a {
-          .ref-label{
-          display:none;
-          }
-        }
-      }
-    }
-  }
   // style footnote
   aside.footnotes{
     border-top: 1px solid $rules-and-outlines;
@@ -52,6 +40,18 @@ section#region-main {
       li{
         font-size: 0.875em;
         line-height:1.5em;
+      }
+    }
+  }
+}
+// hide the screenreader only note in editor view of books
+.editing {
+  #region-main {
+    #id_content_editoreditable{
+      a {
+        .ref-label{
+        display:none;
+        }
       }
     }
   }

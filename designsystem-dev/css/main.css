@@ -1941,9 +1941,6 @@ section#region-main a[aria-describedby="footnote-label"] {
     section#region-main a[aria-describedby="footnote-label"] .sr-only.ref-label::before {
       display: none; }
 
-section#region-main .editing #region-main #id_content_editoreditable a .ref-label {
-  display: none; }
-
 section#region-main aside.footnotes {
   border-top: 1px solid #8B9296;
   padding: 2.25rem 0 0 0;
@@ -1953,6 +1950,9 @@ section#region-main aside.footnotes {
   section#region-main aside.footnotes ol li {
     font-size: 0.875em;
     line-height: 1.5em; }
+
+.editing #region-main #id_content_editoreditable a .ref-label {
+  display: none; }
 
 /* Form
    =========================*/

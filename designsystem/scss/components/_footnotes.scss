@@ -1,30 +1,23 @@
 /* Footnotes
    ======================== */
 
-// Initialiazing a `footnotes` counter on the main section
 section#region-main {
-  counter-reset: footnotes;
-  // style counter
+  //style counter
   a[aria-describedby="footnote-label"] {
-    counter-increment: footnotes; 
-    text-decoration: none!important; 
     color: inherit; 
     cursor: default; 
     outline: none; 
+    vertical-align: super; 
+    font-size: 0.75em; 
+    padding: 3px; 
+    margin-bottom: 5px; 
+    text-decoration: underline; 
+    cursor: pointer;
     &:hover{
       @include bg-colour-opacity($yellow, 0.3);
     }
     &:focus{
       @include bg-colour-opacity($yellow, 0.3);
-    }
-    &::after {
-      content: counter(footnotes); 
-      vertical-align: super; 
-      font-size: 0.75em; 
-      margin-left: 3px; 
-      margin-bottom: 5px; 
-      text-decoration: underline; 
-      cursor: pointer; 
     }
     .sr-only.ref-label{
       border:none;
@@ -32,18 +25,6 @@ section#region-main {
       margin:0;
       &::before{
         display:none;
-      }
-    }
-  }
-  // hide the screenreader only note on external links in editor view of books
-  .editing {
-    #region-main {
-      #id_content_editoreditable{
-        a {
-          .ref-label{
-          display:none;
-          }
-        }
       }
     }
   }
@@ -63,3 +44,16 @@ section#region-main {
     }
   }
 }
+// hide the screenreader only note in editor view of books
+.editing {
+  #region-main {
+    #id_content_editoreditable{
+      a {
+        .ref-label{
+        display:none;
+        }
+      }
+    }
+  }
+}
+  

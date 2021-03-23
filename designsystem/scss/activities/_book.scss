@@ -137,13 +137,14 @@
           // spacing slightly out for safari
           @media not all and (min-resolution:.001dpcm) {
             strong {
-              height: 36px;
+              margin-bottom: -30%; 
             }
           }
           // also for firefox on mac only
           @supports (-moz-osx-font-smoothing: auto) {
             strong {
               height: 36px;
+              margin-bottom: -30%; 
             }
           }
         }

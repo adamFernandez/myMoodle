@@ -5736,11 +5736,12 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         @media not all and (min-resolution: 0.001dpcm) {
           #page-mod-book-view .navtop ul li.chapter.current strong,
           #page-mod-book-view .navbottom ul li.chapter.current strong {
-            height: 36px; } }
+            margin-bottom: -30%; } }
         @supports (-moz-osx-font-smoothing: auto) {
           #page-mod-book-view .navtop ul li.chapter.current strong,
           #page-mod-book-view .navbottom ul li.chapter.current strong {
-            height: 36px; } }
+            height: 36px;
+            margin-bottom: -30%; } }
       #page-mod-book-view .navtop ul li.chapter a,
       #page-mod-book-view .navbottom ul li.chapter a {
         min-width: 2.25rem; }

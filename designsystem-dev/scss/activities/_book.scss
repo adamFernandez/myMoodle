@@ -133,6 +133,8 @@
           strong {
             min-width: 2.25rem;
             color: $white;
+            //to solve margin/padding offset issue in Safari and Firefox
+            margin-bottom: -30%;
           }
           // spacing slightly out for safari
           @media not all and (min-resolution:.001dpcm) {

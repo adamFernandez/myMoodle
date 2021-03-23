@@ -5732,7 +5732,8 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         #page-mod-book-view .navtop ul li.chapter.current strong,
         #page-mod-book-view .navbottom ul li.chapter.current strong {
           min-width: 2.25rem;
-          color: #FFFFFF; }
+          color: #FFFFFF;
+          margin-bottom: -30%; }
         @media not all and (min-resolution: 0.001dpcm) {
           #page-mod-book-view .navtop ul li.chapter.current strong,
           #page-mod-book-view .navbottom ul li.chapter.current strong {

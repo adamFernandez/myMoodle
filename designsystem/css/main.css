@@ -7661,6 +7661,12 @@ a.activity-link {
   #section-0 .content > h3.sectionname:after {
     display: none; }
 
+.ally-actions .ally-scoreindicator-container img {
+  margin-left: 0.5rem; }
+
+.ally-actions a[data-ally-invoke="alternativeformats"] {
+  margin: 0 0.5rem; }
+
 /* Logs
    ======================== */
 .page-item.active .page-link {

@@ -1099,3 +1099,15 @@ a.activity-link {
     display: none;
   }
 }
+
+// Blackboard Ally icons
+.ally-actions{
+  //gauge icon
+  .ally-scoreindicator-container img{
+    margin-left: $component-margin-xs;
+  }
+  //alt formats icons
+  a[data-ally-invoke="alternativeformats"]{
+    margin:0 $component-margin-xs;
+  }
+}

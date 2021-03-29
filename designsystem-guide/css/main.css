@@ -18,6 +18,12 @@
   .do-dont p:last-child {
     margin-bottom: 0; }
 
+/* Activity labels
+   =======  */
+.guide-on-labels .type-study .activity-label{
+  display:none!important;
+}
+
 /* Colours
    =======  */
 .colour-palette {

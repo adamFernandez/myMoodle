@@ -134,13 +134,7 @@
             min-width: 2.25rem;
             color: $white;
           }
-          // spacing slightly out for safari
-          @media not all and (min-resolution:.001dpcm) {
-            strong {
-              margin-bottom: -30%;
-            }
-          }
-          // also for firefox on mac only
+          //for firefox on mac only, seems to help Safari too
           @supports (-moz-osx-font-smoothing: auto) {
             strong {
               height: 36px;

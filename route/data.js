@@ -474,26 +474,26 @@ var data = {
     },
     "module10": {
       "discussion": {
-        "1": "mod/forum/view.php?id=4814285",
+        "1": "mod/forum/view.php?id=4913677",
         "2": "mod/forum/view.php?id=2942155"
       }
     },
     "module11": {
       "discussion": {
         "1": "mod/forum/view.php?id=2958006",
-        "2": "mod/forum/view.php?id=4814386"
+        "2": "mod/forum/view.php?id=4913775"
       }
     },
     "module12": {
       "discussion": {
-        "1": "mod/forum/view.php?id=4814483",
+        "1": "mod/forum/view.php?id=4913839",
         "2": "mod/forum/view.php?id=2960026"
       }
     },
     "module13": {
       "discussion": {
         "1": "mod/forum/view.php?id=2948091",
-        "2": "mod/forum/view.php?id=4814623"
+        "2": "mod/forum/view.php?id=4913928"
       }
     }
   },

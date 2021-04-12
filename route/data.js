@@ -446,10 +446,10 @@ var data = {
     },
     "module6": {
       "discussion": {
-        "1": "mod/forum/view.php?id=3439524"
+        "1": "mod/forum/view.php?id=4913518"
       },
       "poll11": {
-        "1": "mod/choice/view.php?id=3439555"
+        "1": "mod/choice/view.php?id=4913554"
       }
     },
     "module7": {

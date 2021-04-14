@@ -7665,6 +7665,6 @@ a.activity-link {
 
 /* Logs
    ======================== */
-.page-item.active .page-link {
+.page-report-log-index .page-item.active .page-link {
   background-color: #0A2D50;
   border-color: #0A2D50; }

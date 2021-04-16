@@ -609,22 +609,22 @@ var data = {
       },
       "module4": {
         "forum1": {
-          "1": "mod/forum/view.php?id=4281021"
+          "1": "mod/forum/view.php?id=4920769"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=4351537"
+          "1": "mod/forum/view.php?id=4920773"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=4351702"
+          "1": "mod/forum/view.php?id=4920776"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=4351738"
+          "1": "mod/forum/view.php?id=4920777"
         },
         "forum5": {
-          "1": "mod/forum/view.php?id=4351753"
+          "1": "mod/forum/view.php?id=4920779"
         },
         "forum6": {
-          "1": "mod/forum/view.php?id=4351776"
+          "1": "mod/forum/view.php?id=4920780"
         }
       },
       "module5": {

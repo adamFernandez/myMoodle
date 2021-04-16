@@ -729,13 +729,13 @@ var data = {
        },
      "module10a": {
         "forum1": {
-          "1": "mod/forum/view.php?id=4282481"
+          "1": "mod/forum/view.php?id=4918028"
         },
        "forum2": {
-         "1": "mod/forum/view.php?id=4282513"
+         "1": "mod/forum/view.php?id=4918054"
        },
        "forum3": {
-         "1": "mod/forum/view.php?id=4282544"
+         "1": "mod/forum/view.php?id=4918078"
        }
      },
     "module10b": {

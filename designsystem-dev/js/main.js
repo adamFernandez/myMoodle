@@ -49,7 +49,7 @@ function addNewWindowIcon() {
   $('p').find('a[target="_blank"]').each(function() {
     $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
   });
-  $('p').find('a[target="_blank"]').each(function() {
+  $('figcaption').find('a[target="_blank"]').each(function() {
     $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
   });
 }

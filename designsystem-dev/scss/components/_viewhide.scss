@@ -24,3 +24,13 @@
     }
   }
 }
+
+//description used in float box
+.float-box{
+  .img-container{
+    .view-description-container{
+      max-width: 310px;
+      margin-top: $component-margin-xs;
+    }
+  }
+}

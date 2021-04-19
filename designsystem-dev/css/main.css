@@ -5599,6 +5599,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 .editor_atto_content .view-description-container > div {
   display: block !important; }
 
+.float-box .img-container .view-description-container {
+  max-width: 310px;
+  margin-top: 0.5rem; }
+
 /* OU Blog
    ======================== */
 #page-mod-oublog-view #region-main #oublog_info_block.main-description .card-body {

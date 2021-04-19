@@ -168,7 +168,7 @@ a.link-download {
 
 #region-main {
   // link hover styles
-  p a, li p a {
+  p a, li p a, figcaption a {
     @extend .ds-link;
     // icon for external links
     i.open-icon {

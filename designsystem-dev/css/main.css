@@ -220,13 +220,13 @@ a.link-download {
   background-color: rgba(245, 185, 15, 0.2) !important;
   padding: 2px 4px; }
 
-#region-main p a i.open-icon, #region-main li p a i.open-icon {
+#region-main p a i.open-icon, #region-main li p a i.open-icon, #region-main figcaption a i.open-icon {
   display: inline-block;
   margin: 0.375rem;
   vertical-align: baseline;
   transform: translateY(-10%); }
 
-#region-main p a .sr-link-message, #region-main li p a .sr-link-message {
+#region-main p a .sr-link-message, #region-main li p a .sr-link-message, #region-main figcaption a .sr-link-message {
   display: inline-block; }
 
 #region-main ol, #region-main ul {
@@ -325,12 +325,12 @@ footer#page-footer {
     background-color: rgba(0, 0, 0, 0.25) !important;
     z-index: 0; }
 
-.ds-link, #region-main p a, #region-main li p a, #page-mod-choice-view #region-main .reportlink a {
+.ds-link, #region-main p a, #region-main li p a, #region-main figcaption a, #page-mod-choice-view #region-main .reportlink a {
   text-decoration: underline;
   color: #002395; }
-  .ds-link:hover, #region-main p a:hover, #page-mod-choice-view #region-main .reportlink a:hover {
+  .ds-link:hover, #region-main p a:hover, #region-main figcaption a:hover, #page-mod-choice-view #region-main .reportlink a:hover {
     color: #005AD2; }
-  .ds-link:visited, #region-main p a:visited, #page-mod-choice-view #region-main .reportlink a:visited {
+  .ds-link:visited, #region-main p a:visited, #region-main figcaption a:visited, #page-mod-choice-view #region-main .reportlink a:visited {
     color: #0A2D50; }
 
 .bold-link, #page-mod-resource-view .resourceworkaround, #page-mod-lti-view #region-main > div:first-child a:link, #page-mod-url-view .urlworkaround {

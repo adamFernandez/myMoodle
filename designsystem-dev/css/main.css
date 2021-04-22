@@ -2317,6 +2317,8 @@ body .editing-help-box {
     margin-bottom: 0;
     background-color: #EDF1F2;
     padding: 1.5rem; }
+    .process-container .process-card.highlighted {
+      border: 3px solid #FF5F05; }
     .process-container .process-card:last-child {
       margin-bottom: 1.5rem; }
     @media only screen and (max-width: 768px) {

@@ -7365,7 +7365,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     #page-course-view-grid.format-topcoll .course-content > ul.ctopics > .section .side.right a.tceditsection:before, #page-course-view-grid.format-topcoll .course-content > ul.ctopics > .section .side.right .cps_centre:before,
     #page-course-view-topcoll.format-topcoll .course-content > ul.ctopics > .section .side.right a.tceditsection:before,
     #page-course-view-topcoll.format-topcoll .course-content > ul.ctopics > .section .side.right .cps_centre:before {
-      content: '\f35d';
+      content: '\f31e';
       font-family: 'Font Awesome 5 Free';
       font-weight: 900;
       color: #0A2D50; }
@@ -7395,6 +7395,24 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     #page-course-view-grid.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after,
     #page-course-view-topcoll.format-topcoll .single-section .section-navigation.navigationtitle .sectionname:after {
       display: none; }
+
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-grid.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .inplaceeditable > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > .filter-ally-wrapper > :not(.quickeditlink) > img.activityicon,
+#page-course-view-topcoll.editing #region-main .course-content ul > .section.main ul.section li.activity .activityinstance > :not(.quickeditlink) > img.activityicon {
+  display: inline !important; }
 
 #page-course-view-grid.editing #region-main .course-content ul > .section.main .left .section-handle img.icon,
 #page-course-view-topcoll.editing #region-main .course-content ul > .section.main .left .section-handle img.icon {

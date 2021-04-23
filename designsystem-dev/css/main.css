@@ -5945,6 +5945,13 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 #page-mod-quiz-review .submitbtns .mod_quiz-prev-nav, #page-mod-quiz-review .submitbtns .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 .mod_quiz-prev-nav, .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 #mod_quiz_navblock .content .othernav a.endtestlink, #mod_quiz_navblock .content .othernav .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 a.endtestlink, .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 #page-mod-quiz-attempt .mod_quiz-next-nav, #page-mod-quiz-attempt .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 .mod_quiz-next-nav, .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 #page-mod-quiz-review .mod_quiz-next-nav, #page-mod-quiz-review .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 .mod_quiz-next-nav, .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 #page-mod-connecthosted-view .chosted-button-row input, #page-mod-connecthosted-view .chosted-button-row .path-mod-forum#page-mod-forum-discuss .d-flex.flex-wrap.mb-1 .ml-2 input {
       margin-bottom: 0 !important; }
 
+.path-mod-forum#page-mod-forum-discuss div[data-content="inpage-reply-content"] .card {
+  width: 100%; }
+  .path-mod-forum#page-mod-forum-discuss div[data-content="inpage-reply-content"] .card form[data-content="inpage-reply-form"] {
+    width: 100%; }
+    .path-mod-forum#page-mod-forum-discuss div[data-content="inpage-reply-content"] .card form[data-content="inpage-reply-form"] .row span {
+      width: 100%; }
+
 .path-mod-forum .table.discussion-list tbody th, .path-mod-forum .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer table.discussion-list tbody th, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answer .path-mod-forum table.discussion-list tbody th {
   vertical-align: middle !important; }
 

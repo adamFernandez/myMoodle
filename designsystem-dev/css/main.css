@@ -261,6 +261,9 @@ code {
   color: #E2231A;
   border-radius: 4px; }
 
+table code {
+  background: #F7F7F9 !important; }
+
 .path-mod-page #region-main > div > h2 {
   background: none; }
   .path-mod-page #region-main > div > h2::after {

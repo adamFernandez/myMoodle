@@ -354,12 +354,18 @@ html {
   page-break-after: always;
   page-break-before: auto;
 }
+#page-mod-book-print .book_toc_numbered,
+#page-mod-book-print .book_toc_none,
+#page-mod-book-print .book_toc_bullets,
+#page-mod-book-print .book_toc_indented {
+  margin-bottom: 4.5rem;
+}
 #page-mod-book-print .book_toc_numbered ul,
 #page-mod-book-print .book_toc_none ul,
 #page-mod-book-print .book_toc_bullets ul,
 #page-mod-book-print .book_toc_indented ul {
   margin-left: 0;
-  margin-bottom: 4.5rem;
+  margin-bottom: 0;
 }
 #page-mod-book-print .book_toc_numbered ul li,
 #page-mod-book-print .book_toc_none ul li,
@@ -367,6 +373,12 @@ html {
 #page-mod-book-print .book_toc_indented ul li {
   margin-top: 0.5rem;
   list-style: none;
+}
+#page-mod-book-print .book_toc_numbered > ul > li > ul > li,
+#page-mod-book-print .book_toc_none > ul > li > ul > li,
+#page-mod-book-print .book_toc_bullets > ul > li > ul > li,
+#page-mod-book-print .book_toc_indented > ul > li > ul > li{
+  margin-left:2rem;
 }
 #page-mod-book-print .book_toc_numbered > a:first-child,
 #page-mod-book-print .book_toc_none > a:first-child,

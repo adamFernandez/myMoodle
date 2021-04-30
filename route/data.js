@@ -704,16 +704,16 @@ var data = {
        },
       "module8a": {
         "forum1": {
-          "1": "mod/forum/view.php?id=4646913"
+          "1": "mod/forum/view.php?id=4929833"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=4646930"
+          "1": "mod/forum/view.php?id=4929848"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=4646930"
+          "1": "mod/forum/view.php?id=4929848"
         },
         "forum4": {
-          "1": "mod/forum/view.php?id=4646951"
+          "1": "mod/forum/view.php?id=4929869"
         }
        },
       "module8b": {

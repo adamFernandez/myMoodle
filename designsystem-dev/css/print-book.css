@@ -463,6 +463,10 @@ html {
 #page-mod-book-print .float-box.small-image img {
   width: 100px;
 }
+/* if view description used in floatbox */
+#page-mod-book-print .float-box .view-description-card .card-text {
+  margin-left:0!important;
+}
 
 @media only screen and (max-width: 767px) {
   #page-mod-book-print .card,
@@ -2264,6 +2268,10 @@ button .h4::before {
   }
   .float-box.small-image img {
     width: 100px;
+  }
+  /* if view description used in floatbox */
+  .float-box .view-description-card .card-text {
+    margin-left:0;
   }
 
   /* process */

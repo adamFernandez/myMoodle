@@ -63,10 +63,7 @@
         }
         //subchapters in TOC
         li.subChap {
-          .text-truncate{
-            //waiting for UX specs for exact number
-            padding-left:1.5rem;
-          }
+          padding-left:1.5rem;
         }
       }
     }

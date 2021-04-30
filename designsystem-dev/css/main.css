@@ -5753,7 +5753,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin-left: 0; }
 
 /* Book
-   ======================== */
+  ======================== */
 #page-mod-book-view #page-content #region-main {
   position: relative; }
   #page-mod-book-view #page-content #region-main #print-btn-container {
@@ -5782,7 +5782,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
   #page-mod-book-view #page-content aside .block_book_toc .book_toc .d-flex:not(.action-list) .action-list {
     justify-content: flex-end; }
 
-#page-mod-book-view #page-content aside .block_book_toc li.subChap .text-truncate {
+#page-mod-book-view #page-content aside .block_book_toc li.subChap {
   padding-left: 1.5rem; }
 
 #page-mod-book-view .navtop,

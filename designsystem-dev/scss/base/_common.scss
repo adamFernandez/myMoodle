@@ -14,6 +14,9 @@
 //    - .caption-overlay / Carousel, Hero
 //    - .infobox / Alert, Infobox
 //    - .note-contaienr / Academic note, Viewhide
+// 5. Navigation within non-book activities
+//    - tab navigation
+//    - pagination
 
 // 1. Font Awesome psuedoelement
 // extended in Button, etc
@@ -173,4 +176,109 @@
       display: none;
     }
   }
+}
+
+// 5. Navigation within activities
+
+// Tab format 
+// extended in turnitin, database
+.first-tab-nav{
+  margin:0;
+  li{
+    margin-bottom:0!important;
+    margin-right:10px;
+    border-radius: 0.25rem 0.25rem 0 0;
+    height:42px;
+    a{
+      // font-family: 'KingsBureauGrot';
+      @extend .h5;
+      padding: 8px 18px;
+      color:$midnight-blue;
+    }
+    &.active{
+      background:$midnight-blue;
+      a{
+        color:$white;
+      }
+    }
+    &:not(.active){
+      background:transparent;
+      a{
+        background:transparent;
+      }
+      &:hover{
+        background: $block-background;
+      }
+    }
+  }
+}
+.second-tab-nav{
+  background: $block-background !important;
+  margin:0;
+  margin-bottom:$component-margin !important;
+  border-radius:0;
+  border:none;
+  padding:10px 10px 0 10px;
+  li{
+    background:transparent;
+    height:35px;
+    margin:0 10px 10px 0;
+    a{
+      font-family: 'KingsBureauGrot';
+      color:$midnight-blue;
+      font-size:0.9rem; 
+      background:transparent;
+    }
+    &.ui-state-active, 
+    &.active{
+      background:$white;
+      border-bottom: 2px solid $midnight-blue !important;
+      border-radius:0;
+    }
+    &:hover{
+      border-bottom: 2px solid $midnight-blue !important;
+    }
+  }
+}
+
+// Pagination
+// extended in turnitin, database
+.activity-pagination-container{
+  margin:0;
+  background:transparent;
+  border:none;
+  box-shadow:none;
+}
+.activity-pagination-button{
+  border:none;
+  background:transparent;
+  font-size:1rem;
+  font-family:"Open Sans";
+}
+.a-p-b-active{
+  border-radius: 6px;
+  width:30px;
+  height:30px;
+  padding: 4px 12px;
+  background:$block-background;
+  background-color:$block-background;
+  font-weight: bold;
+  border:none;
+  color:#555;
+}
+.a-p-b-next{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content:'\f101';
+  color:$rules-and-outlines;
+  width:14px;
+  height:auto;
+}
+.a-p-b-previous{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content:'\f100';
+  color:$rules-and-outlines;
+  width:14px;
+  height:auto;
 }

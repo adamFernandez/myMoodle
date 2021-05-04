@@ -444,3 +444,61 @@
     }
   }
 }
+
+// more question types
+// Coderunner
+#page-mod-quiz-attempt, #page-mod-quiz-review{
+  .coderunner{
+    .ui_wrapper{
+      margin-bottom:$component-margin-bottom-sm;
+    }
+    .feedback{
+      .coderunner-test-results{
+        &.good, &.bad{
+          background-color:transparent;
+          img.icon{
+            display:none;
+          }
+          table.coderunner-test-results{
+            .lastcol{
+              display:none;
+            }
+            td.c0:not(.header){
+              &::before{
+                @extend .icon-before;
+                font-size: 1.25rem;
+                //for good
+                color: $pea-green;
+                content: '\f00c';
+              }
+            }
+          }
+        }
+        &.bad{
+          table.coderunner-test-results{
+            td.c0:not(.header){
+              &::before{
+                //for bad
+                color: $kings-red;
+                content: '\f00d';
+              }
+            }
+          }
+          input[value="Show differences"], input[value="Hide differences"]{
+            //usually we would set this on the bottom of the previous element, but the html has nexted this button within a <p> so it's impossible
+            margin-top: $component-margin-bottom!important;
+          }
+        }
+      }
+      .generalfeedback{
+        margin-bottom: $component-margin-bottom;
+        //putting top border on general because we don't want border if editor chooses not to include general feedback
+        border-top: 1px solid $rules-and-outlines;
+        padding-top: $component-margin-bottom;
+      }
+    }
+    .im-feedback{
+      display:none;
+    }
+  }
+}

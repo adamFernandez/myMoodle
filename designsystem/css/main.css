@@ -305,7 +305,7 @@ footer#page-footer {
 .view-feedback-container > button::before,
 .view-model-answer-container > button::before,
 .view-description-container > button::before, .navbutton, .activity-navigation .row .col-md-4 a#prev-activity-link::before, .activity-navigation .row .col-md-4:last-child a#next-activity-link::after, .course-content .single-section .section-navigation.mdl-bottom .mdl-left a::before, .course-content .single-section .section-navigation.mdl-bottom .mdl-right a::after, #region-main .new-carousel ul.nc-buttons li button.nc-previous:before, #region-main .new-carousel ul.nc-buttons li button.nc-next:after, .collapse-container .collapse-card .collapse-header button .collapse-title::before,
-.collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button h6::before, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before {
+.collapse-container .collapse-card .collapse-header button h3::before, .collapse-container .collapse-card .collapse-header button h4::before, .collapse-container .collapse-card .collapse-header button h5::before, .collapse-container .collapse-card .collapse-header button h6::before, #page-mod-book-view #page-content #region-main #print-btn-container .print-book-btn::before, #page-mod-quiz-view .box.quizinfo p:first-child::before, #page-mod-quiz-view .box.quizinfo p:nth-child(2)::before, #mod_quiz_navblock .content .othernav #quiz-timer::before, .que .content .formulation .ablock .answer ul.sortablelist li::before, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   margin-right: 0.375rem; }
@@ -6850,6 +6850,35 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin-left: 1rem; }
 
 #page-mod-quiz-summary .quizsummaryofattempt img.questionflag.icon-post {
+  display: none; }
+
+#page-mod-quiz-attempt .coderunner .ui_wrapper, #page-mod-quiz-review .coderunner .ui_wrapper {
+  margin-bottom: 1rem; }
+
+#page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.good, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.good, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad {
+  background-color: transparent; }
+  #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.good img.icon, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad img.icon, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.good img.icon, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad img.icon {
+    display: none; }
+  #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results .lastcol, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results .lastcol, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results .lastcol, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results .lastcol {
+    display: none; }
+  #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.good table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before {
+    font-size: 1.25rem;
+    color: #28C382;
+    content: '\f00c'; }
+
+#page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before, #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad table.coderunner-test-results td.c0:not(.header)::before {
+  color: #E2231A;
+  content: '\f00d'; }
+
+#page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad input[value="Show differences"], #page-mod-quiz-attempt .coderunner .feedback .coderunner-test-results.bad input[value="Hide differences"], #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad input[value="Show differences"], #page-mod-quiz-review .coderunner .feedback .coderunner-test-results.bad input[value="Hide differences"] {
+  margin-top: 1.5rem !important; }
+
+#page-mod-quiz-attempt .coderunner .feedback .generalfeedback, #page-mod-quiz-review .coderunner .feedback .generalfeedback {
+  margin-bottom: 1.5rem;
+  border-top: 1px solid #8B9296;
+  padding-top: 1.5rem; }
+
+#page-mod-quiz-attempt .coderunner .im-feedback, #page-mod-quiz-review .coderunner .im-feedback {
   display: none; }
 
 /* Tab display

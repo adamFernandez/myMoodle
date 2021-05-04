@@ -5970,7 +5970,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
       #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after,
       #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
       #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.mob-next:not(:last-child):not(:nth-last-child(2))::after {
-        content: '...'; }
+        content: '\2026'; }
       #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
       #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(:first-child) + .mob-prev::before,
       #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(:first-child) + .mob-prev::before {
@@ -6000,7 +6000,7 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
         #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter.next + .next:not(:last-child):not(:nth-last-child(2))::after,
         #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
         #page-mod-book-view .navbottom ul.large-book-pagination li.chapter.next + .next:not(:last-child):not(:nth-last-child(2))::after {
-          content: '...'; }
+          content: '\2026'; }
         #page-mod-book-view .navtop ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before, #page-mod-book-view .navtop ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
         #page-mod-book-view .navbottom ul.mob-large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before,
         #page-mod-book-view .navbottom ul.large-book-pagination li.chapter:not(.prev):not(:first-child) + .prev::before {

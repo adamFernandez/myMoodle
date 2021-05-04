@@ -165,7 +165,7 @@
           }
           &:not(:first-child) + .mob-prev::before,
           &.mob-next:not(:last-child):not(:nth-last-child(2))::after {
-            content: '...';
+            content: '\2026';
           }
           &:not(:first-child) + .mob-prev::before {
             margin-right: 0.375rem;
@@ -185,7 +185,7 @@
             }
             &:not(.prev):not(:first-child) + .prev::before,
             &.next + .next:not(:last-child):not(:nth-last-child(2))::after {
-              content: '...';
+              content: '\2026';
             }
             &:not(.prev):not(:first-child) + .prev::before {
               margin-right: $component-margin-sm;

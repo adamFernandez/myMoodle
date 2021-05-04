@@ -14,14 +14,6 @@ if (foundationCSS.length) {
   foundationCSS.remove();
 }
 
-/*
-// remove this for no-print.js
-// pull print button from admin block and position at top of book
-printButton = $('.block_settings .tree_item.hasicon.tree_item.leaf:contains("Print book") a').clone().find('img').remove().end();
-$('<div id="print-btn-container">').insertAfter('#page-mod-book-view #maincontent');
-printButton.addClass('btn btn-secondary print-book-btn').text("Print").appendTo('#print-btn-container');
-*/
-
 // toggle side bar menus
 const blockHide = "#block-region-side-pre .block .title h2, #block-region-side-post .block .title h2";
 $(document).on("click", blockHide, function(event) {
@@ -49,6 +41,9 @@ function addNewWindowIcon() {
   $(".open-icon").remove();
   // now add the icon to each; only links within paragraphs
   $('p').find('a[target="_blank"]').each(function() {
+    $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
+  });
+  $('figcaption').find('a[target="_blank"]').each(function() {
     $(this).append('<i class="open-icon fas fa-external-link-alt fa-xs" aria-hidden="true"></i>');
   });
 }
@@ -264,55 +259,66 @@ $(document).on("click", "[class*='view-hide-']", function(event) {
 });
 
 /* book activity */
-// copy chapterlist to book nav and remove .action-list
-booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
-$(".navbottom.clearfix.navtext a.bookprev").length
-  ? booknav.insertAfter(".navbottom.clearfix a.bookprev")
-  : booknav.insertBefore(".navbottom.clearfix a.booknext");
-//$(".book_toc_indented ul").clone().find(".action-list").remove().end().insertAfter(".navbottom.clearfix.navtext a.bookprev");
-$(".navbottom.clearfix ul li").removeClass("clearfix").addClass("chapter");
-$(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function(i) {
-  $(this).text(i+1);
-});
-// add current class to current page
-$(".navbottom.clearfix ul li strong").parents("li").addClass("current");
-// add prev and next class to li before and after current for mobile
-$(".chapter.current").prev("li").addClass("mob-prev");
-$(".chapter.mob-prev").prevAll(":lt(2)").addClass("prev");
-$(".chapter.current").next("li").addClass("mob-next");
-$(".chapter.mob-next").nextAll(":lt(2)").addClass("next");
-/*
-// show one more page if first or last page on mobile
-if ($(".navbottom a.bookprev").length == 0) {
-  $("li.chapter:nth-child(3), li.chapter:nth-child(4), li.chapter:nth-child(5)").addClass("mob-next");
-} else if ($(".navbottom a.booknext").length == 0) {
-  $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4), li.chapter:nth-last-child(5)").addClass("mob-prev");
-} else {
-  $(".chapter.prev").prev("li").addClass("mob-prev");
-  $(".chapter.next").next("li").addClass("mob-next");
-}
-*/
-/*
-// removing below because buggy
-if ($(".book_toc ul").length !== 0) {
-  // add large-book-pagination class if more than 10 chapters
-  if ($(".book_toc ul").get(0).childElementCount > 10) {
-    $(".navbottom ul").addClass("large-book-pagination");
-  // add mob-large-book-pagination class if more than 5 chapters
-  } else if ($(".book_toc ul").get(0).childElementCount > 5) {
-    $(".navbottom ul").addClass("mob-large-book-pagination");
+// find subchapters and add class 
+$(".block_fake .content > div > ul").find("li ul li").addClass("subChap");
+
+//if book contains subchapter, give page class
+if ($("body").find(".subChap").length !== 0){
+  $("body").addClass("hasSubChaps")
+//otherwise, create the numbered navigation
+} else if ($("body").find(".subChap").length == 0){
+  $("body").addClass("noSubChaps");
+  // copy chapterlist to book nav and remove .action-list
+  booknav = $(".block_fake .content > div > ul").clone().find(".action-list").remove().end();
+  $(".navbottom.clearfix.navtext a.bookprev").length
+    ? booknav.insertAfter(".navbottom.clearfix a.bookprev")
+    : booknav.insertBefore(".navbottom.clearfix a.booknext");
+  //$(".book_toc_indented ul").clone().find(".action-list").remove().end().insertAfter(".navbottom.clearfix.navtext a.bookprev");
+  $(".navbottom.clearfix ul li").removeClass("clearfix").addClass("chapter");
+  $(".navbottom.clearfix ul li a, .navbottom.clearfix ul li strong").each(function(i) {
+    $(this).text(i+1);
+  });
+  // add current class to current page
+  $(".navbottom.clearfix ul li strong").parents("li").addClass("current");
+  // add prev and next class to li before and after current for mobile
+  $(".chapter.current").prev("li").addClass("mob-prev");
+  $(".chapter.mob-prev").prevAll(":lt(2)").addClass("prev");
+  $(".chapter.current").next("li").addClass("mob-next");
+  $(".chapter.mob-next").nextAll(":lt(2)").addClass("next");
+  /*
+  // show one more page if first or last page on mobile
+  if ($(".navbottom a.bookprev").length == 0) {
+    $("li.chapter:nth-child(3), li.chapter:nth-child(4), li.chapter:nth-child(5)").addClass("mob-next");
+  } else if ($(".navbottom a.booknext").length == 0) {
+    $("li.chapter:nth-last-child(3), li.chapter:nth-last-child(4), li.chapter:nth-last-child(5)").addClass("mob-prev");
+  } else {
+    $(".chapter.prev").prev("li").addClass("mob-prev");
+    $(".chapter.next").next("li").addClass("mob-next");
+  }
+  */
+  if ($(".book_toc ul").length !== 0) {
+    // add large-book-pagination class if more than 10 chapters
+    if ($(".book_toc ul").get(0).childElementCount > 10) {
+      $(".navbottom ul").addClass("large-book-pagination");
+    // add mob-large-book-pagination class if more than 5 chapters
+    } else if ($(".book_toc ul").get(0).childElementCount > 5) {
+      $(".navbottom ul").addClass("mob-large-book-pagination");
+    };
   };
-};
-*/
+}
 
 // remove text from previous and next buttons
 $(".navbottom.clearfix > a").empty();
+// and add new text for subchapter books
+$(".hasSubChaps .navbottom.clearfix > a.booknext").text("Next");
+$(".hasSubChaps .navbottom.clearfix > a.bookprev").text("Previous");
 
 // hide toc for single chapter book
-$(".block_book_toc .content ul > li:only-child strong:only-child").parents(".block_book_toc").hide();
+$(".noSubChaps .block_book_toc .content ul > li:only-child strong:only-child").parents(".block_book_toc").hide();
 
+// DJ made more specific so subchapter books wouldn't be marked as single-chapter
 // add single-chapter-book class to screen and print to hide toc and title
-$(".block_book_toc .content ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
+$(".noSubChaps .block_book_toc .content div > ul > li:only-child, #page-mod-book-print .book_toc_numbered ul li:only-child").parents("#page-content").addClass("single-chapter-book");
 
 // remove subchapter option when editing book
 $("#page-mod-book-edit #id_subchapter").parents(".fitem").addClass("subchapter");

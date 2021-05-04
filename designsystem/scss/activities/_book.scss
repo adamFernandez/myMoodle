@@ -1,12 +1,5 @@
 /* Book
-   ======================== */
-
-#page-mod-book-edit {
-  // remove subchapter option when editing book
-  .form-group.row.fitem.subchapter {
-    display: none;
-  }
-}
+  ======================== */
 
 #page-mod-book-view {
   #page-content {
@@ -67,6 +60,10 @@
               justify-content: flex-end;
             }
           }
+        }
+        //subchapters in TOC
+        li.subChap {
+          padding-left:1.5rem;
         }
       }
     }
@@ -134,11 +131,11 @@
             min-width: 2.25rem;
             color: $white;
           }
-          // for firefox on mac only, seems to help with Safari too
+          //for firefox on mac only, helps with Safari too
           @supports (-moz-osx-font-smoothing: auto) {
             strong {
               height: 36px;
-              margin-bottom: -30%; 
+              margin-bottom: -30%;
             }
           }
         }
@@ -168,7 +165,7 @@
           }
           &:not(:first-child) + .mob-prev::before,
           &.mob-next:not(:last-child):not(:nth-last-child(2))::after {
-            content: '...';
+            content: '\2026';
           }
           &:not(:first-child) + .mob-prev::before {
             margin-right: 0.375rem;
@@ -187,8 +184,8 @@
               margin: 0;
             }
             &:not(.prev):not(:first-child) + .prev::before,
-            &.next + .next:not(:last-child)::after {
-              content: '...';
+            &.next + .next:not(:last-child):not(:nth-last-child(2))::after {
+              content: '\2026';
             }
             &:not(.prev):not(:first-child) + .prev::before {
               margin-right: $component-margin-sm;
@@ -210,6 +207,25 @@
               margin: 0;
             }
           }
+        }
+      }
+    }
+  }
+  // for books with sub-chapters, hide the nav
+  &.hasSubChaps{
+    .navbottom{
+      ul{
+        display:none;
+      }
+      display:flex;
+      justify-content: space-around;
+      a{
+        font-family: 'KingsBureauGrot';
+        color: $midnight-blue;
+        display:flex;
+        &:before, &:after{
+          padding: $component-margin-xs;
+          margin-top: -0.5rem;
         }
       }
     }

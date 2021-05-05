@@ -721,10 +721,10 @@ var data = {
           "1": "mod/forum/view.php?id=4936894"
         },
         "forum2": {
-          "1": "mod/forum/view.php?id=4282338"
+          "1": "mod/forum/view.php?id=4936882"
         },
         "forum3": {
-          "1": "mod/forum/view.php?id=4282360"
+          "1": "mod/forum/view.php?id=4936922"
         }
        },
      "module10a": {

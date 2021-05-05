@@ -718,7 +718,7 @@ var data = {
        },
       "module8b": {
         "forum1": {
-          "1": "mod/forum/view.php?id=4282312"
+          "1": "mod/forum/view.php?id=4936894"
         },
         "forum2": {
           "1": "mod/forum/view.php?id=4282338"

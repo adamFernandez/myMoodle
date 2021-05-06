@@ -87,7 +87,9 @@
     border: 1px solid $table-border;
     margin-bottom: $component-margin-bottom; 
     padding: $component-margin;
-    word-break: break-all;
+    a{
+      word-break: break-all;
+    }
   }
   img{
     max-width:100%;

@@ -6107,8 +6107,9 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
 #page-mod-data-templates .entry, #page-mod-data-view .entry, #page-mod-data-edit .entry, #page-mod-data-export .entry, #page-mod-data-field- .entry, #page-mod-data-preset .entry {
   border: 1px solid #8B9296;
   margin-bottom: 1.5rem;
-  padding: 1.5rem;
-  word-break: break-all; }
+  padding: 1.5rem; }
+  #page-mod-data-templates .entry a, #page-mod-data-view .entry a, #page-mod-data-edit .entry a, #page-mod-data-export .entry a, #page-mod-data-field- .entry a, #page-mod-data-preset .entry a {
+    word-break: break-all; }
 
 #page-mod-data-templates img, #page-mod-data-view img, #page-mod-data-edit img, #page-mod-data-export img, #page-mod-data-field- img, #page-mod-data-preset img {
   max-width: 100%; }

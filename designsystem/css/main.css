@@ -5914,6 +5914,10 @@ table, .table, .path-mod-questionnaire#page-mod-questionnaire-complete .qn-answe
     margin: 0;
     display: inline-block;
     line-height: normal; }
+    @media only screen and (max-width: 768px) {
+      #page-mod-book-view .navtop ul li.chapter:not(.current):not(.mob-prev):not(.mob-next),
+      #page-mod-book-view .navbottom ul li.chapter:not(.current):not(.mob-prev):not(.mob-next) {
+        display: none; } }
     #page-mod-book-view .navtop ul li.chapter,
     #page-mod-book-view .navbottom ul li.chapter {
       list-style: none;

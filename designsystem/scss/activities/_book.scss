@@ -114,6 +114,12 @@
       margin: 0;
       display: inline-block;
       line-height: normal;
+      // added for quick fix to remove long-book pag changes for 2.4
+      @media only screen and (max-width: $neo-breakpoint) {
+        li.chapter:not(.current):not(.mob-prev):not(.mob-next) {
+          display: none;
+        }
+      }
       li.chapter {
         list-style: none;
         display: inline-flex;

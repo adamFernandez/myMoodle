@@ -154,13 +154,15 @@ input {
 }
 
 .no-gutters > .col,
-.no-gutters > [class^="col-"] {
+.no-gutters > [class^="col-"],
+.no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
 .col,
-[class^="col-"] {
+[class^="col-"],
+[class*=" col-"] {
   position: relative;
   width: 100%;
   min-height: 1px;

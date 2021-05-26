@@ -411,7 +411,7 @@ html {
   padding: 0;
   flex: 1;
 }
-#page-mod-book-print .card .card-body p:last-child {
+#page-mod-book-print .card .card-body > :last-child {
   margin-bottom: 0;
 }
 #page-mod-book-print .card .card-title,
@@ -530,57 +530,57 @@ html {
   color: #333333;
   margin-bottom: 1.25rem;
 }
-#page-mod-book-print .carousel .carousel-caption p:last-child {
+#page-mod-book-print .carousel .carousel-caption > :last-child {
   margin-bottom: 0;
 }
 
 /* new carousel  */
-#page-mod-book-print .new-carousel .nc-gallery{
+#page-mod-book-print .new-carousel .nc-gallery {
   list-style-type: none;
   counter-reset: footnotes;
   display: flex;
   flex-wrap: wrap;
 }
-#page-mod-book-print .new-carousel .nc-gallery li{
+#page-mod-book-print .new-carousel .nc-gallery li {
   list-style-type: none;
-  border:1px solid black;
-  padding:16px;
-  margin-left:0;
-  margin-right:5px;
-  display:inline-block;
-  width:100%;
+  border: 1px solid black;
+  padding: 16px;
+  margin-left: 0;
+  margin-right: 5px;
+  display: inline-block;
+  width: 100%;
   counter-increment: footnotes;
 }
-#page-mod-book-print .new-carousel .nc-gallery li:last-child{
-  margin-right:0px;
+#page-mod-book-print .new-carousel .nc-gallery li:last-child {
+  margin-right: 0px;
 }
-#page-mod-book-print .new-carousel .nc-gallery li:before{
+#page-mod-book-print .new-carousel .nc-gallery li:before {
   content: counter(footnotes);
   color: black;
   font-weight: bold;
   vertical-align: top;
 }
-#page-mod-book-print .landscape-carousel .nc-gallery li{
-  width:43%;
+#page-mod-book-print .landscape-carousel .nc-gallery li {
+  width: 43%;
 }
-#page-mod-book-print .portrait-carousel .nc-gallery li{
-  width:43%;
+#page-mod-book-print .portrait-carousel .nc-gallery li {
+  width: 43%;
 }
-#page-mod-book-print .text-carousel .nc-gallery li table tr td .nc-label{
+#page-mod-book-print .text-carousel .nc-gallery li table tr td .nc-label {
   margin-bottom: 32px;
   font-family: 'KingsBureauGrot';
-  padding-top:16px;
+  padding-top: 16px;
   font-size: larger;
 }
-#page-mod-book-print .new-carousel figure{
-  margin:0;
+#page-mod-book-print .new-carousel figure {
+  margin: 0;
 }
-#page-mod-book-print .new-carousel img{
+#page-mod-book-print .new-carousel img {
   max-width: 100%;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
-#page-mod-book-print .new-carousel ul.nc-buttons{
-  display:none;
+#page-mod-book-print .new-carousel ul.nc-buttons {
+  display: none;
 }
 
 /* collapse */
@@ -616,8 +616,7 @@ button .h4::before {
   top: -6px;
   font-size: 24px;
 }
-#page-mod-book-print .collapse-container .collapse-card .collapse-body
-#p:last-child {
+#page-mod-book-print .collapse-container .collapse-card .collapse-body > :last-child {
   margin: 0;
 }
 
@@ -803,14 +802,14 @@ button .h4::before {
 #page-mod-book-print .reading-box h5 {
   font-size: 1.2rem;
 }
-#page-mod-book-print .definition-box p:last-child,
-#page-mod-book-print .alert-caution p:last-child,
-#page-mod-book-print .alert-instructional p:last-child,
-#page-mod-book-print .feedback-box p:last-child,
-#page-mod-book-print .key-concept-box p:last-child,
-#page-mod-book-print .learning-outcome-box p:last-child,
-#page-mod-book-print .media-box p:last-child,
-#page-mod-book-print .reading-box p:last-child {
+#page-mod-book-print .definition-box > div > :last-child,
+#page-mod-book-print .alert-caution > div > :last-child,
+#page-mod-book-print .alert-instructional > div > :last-child,
+#page-mod-book-print .feedback-box > div > :last-child,
+#page-mod-book-print .key-concept-box > div > :last-child,
+#page-mod-book-print .learning-outcome-box > div > :last-child,
+#page-mod-book-print .media-box > div > :last-child,
+#page-mod-book-print .reading-box > div > :last-child {
   margin-bottom: 0;
 }
 #page-mod-book-print .alert-caution,
@@ -2219,7 +2218,7 @@ button .h4::before {
     padding: 0;
     flex: 1;
   }
-  .card .card-body p:last-child {
+  .card .card-body > :last-child {
     margin-bottom: 0;
   }
   .card .card-title, .card h4, .float-box h4 {
@@ -2358,7 +2357,7 @@ button .h4::before {
     color: #333333;
     margin-bottom: 1.25rem;
   }
-  .carousel .carousel-caption p:last-child {
+  .carousel .carousel-caption > :last-child {
     margin-bottom: 0;
   }
   .carousel.text-only .carousel-caption {
@@ -2396,7 +2395,7 @@ button .h4::before {
     top: -6px;
     font-size: 24px;
   }
-  .collapse-container .collapse-card .collapse-body p:last-child {
+  .collapse-container .collapse-card .collapse-body > :last-child {
     margin: 0;
   }
 
@@ -2546,9 +2545,9 @@ button .h4::before {
   .learning-outcome-box h5, .reading-box h5, .media-box h5 {
     font-size: 1.2rem;
   }
-  .definition-box p:last-child, .alert-instructional p:last-child,
-  .feedback-box p:last-child, .key-concept-box p:last-child,
-  .learning-outcome-box p:last-child, .reading-box p:last-child, .media-box p:last-child {
+  .definition-box > div > :last-child, .alert-instructional > div > :last-child,
+  .feedback-box > div > :last-child, .key-concept-box > div > :last-child,
+  .learning-outcome-box > div > :last-child, .reading-box > div > :last-child, .media-box > div > :last-child {
     margin-bottom: 0;
   }
   .alert-instructional {

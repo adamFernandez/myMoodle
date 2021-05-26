@@ -120,9 +120,9 @@ html {
   position: relative;
   margin-right: 8px;
 }
-#page-mod-book-print p a  i.open-icon,
-#page-mod-book-print li p a  i.open-icon{
-  display:none;
+#page-mod-book-print p a i.open-icon,
+#page-mod-book-print li p a i.open-icon {
+  display: none;
 }
 #page-mod-book-print p a::after,
 #page-mod-book-print li p a::after {
@@ -136,15 +136,15 @@ html {
 #page-mod-book-print .p-b-2 {
   counter-reset: footnotes;
 }
-#page-mod-book-print a[aria-describedby="footnote-label"]{
+#page-mod-book-print a[aria-describedby="footnote-label"] {
   counter-increment: footnotes;
 }
 #page-mod-book-print a[aria-describedby="footnote-label"]::after {
   content: counter(footnotes);
-  vertical-align: super; 
-  font-size: 0.75em; 
+  vertical-align: super;
+  font-size: 0.75em;
   margin-left: 3px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
   text-decoration: underline;
   font-family: "Open Sans", sans-serif;
 }
@@ -171,7 +171,7 @@ html {
 #page-mod-book-print .quote-box > :first-child {
   padding-left: 4rem;
 }
-#page-mod-book-print figure.quote-box{
+#page-mod-book-print figure.quote-box {
   padding-left: 4rem;
 }
 #page-mod-book-print .quote-box > :first-child::before {
@@ -377,8 +377,8 @@ html {
 #page-mod-book-print .book_toc_numbered > ul > li > ul > li,
 #page-mod-book-print .book_toc_none > ul > li > ul > li,
 #page-mod-book-print .book_toc_bullets > ul > li > ul > li,
-#page-mod-book-print .book_toc_indented > ul > li > ul > li{
-  margin-left:2rem;
+#page-mod-book-print .book_toc_indented > ul > li > ul > li {
+  margin-left: 2.25rem;
 }
 #page-mod-book-print .book_toc_numbered > a:first-child,
 #page-mod-book-print .book_toc_none > a:first-child,
@@ -477,7 +477,7 @@ html {
 }
 /* if view description used in floatbox */
 #page-mod-book-print .float-box .view-description-card .card-text {
-  margin-left:0!important;
+  margin-left: 0 !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1779,34 +1779,34 @@ button .h4::before {
   object-fit: cover;
 }
 #page-mod-book-print .process-container .connector-container {
-  text-align:center;
+  text-align: center;
   margin-bottom: 1.25rem;
 }
-#page-mod-book-print .process-container .connector-container .icon.arrow-down::before{
+#page-mod-book-print .process-container .connector-container .icon.arrow-down::before {
   content: '\f063';
   font-family: 'Font Awesome 5 Free';
   font-size: 30px;
   font-weight: 900;
-  margin:10px;
-  }
-#page-mod-book-print .process-container .connector-container .icon.arrow-up::after{
+  margin: 10px;
+}
+#page-mod-book-print .process-container .connector-container .icon.arrow-up::after {
   content: '\f062';
   font-family: 'Font Awesome 5 Free';
   font-size: 30px;
   font-weight: 900;
-  margin:10px;
+  margin: 10px;
 }
-#page-mod-book-print .process-container .connector-container .icon.relate{
-  border-right:3px solid black !important;
-  height:40px;
+#page-mod-book-print .process-container .connector-container .icon.relate {
+  border-right: 3px solid black !important;
+  height: 40px;
   width: 50%;
-  margin:10px;
+  margin: 10px;
 }
-#page-mod-book-print .process-container .process-card{
-  border:4px dashed black!important;
+#page-mod-book-print .process-container .process-card {
+  border: 4px dashed black!important;
 }
-#page-mod-book-print .process-container .process-card.highlighted{
-  border:4px solid black!important;
+#page-mod-book-print .process-container .process-card.highlighted {
+  border: 4px solid black!important;
 }
 
 /* timeline */
@@ -2283,45 +2283,45 @@ button .h4::before {
   }
   /* if view description used in floatbox */
   .float-box .view-description-card .card-text {
-    margin-left:0;
+    margin-left: 0;
   }
 
   /* process */
-.process-container .process-card img{
-  width: 130px;
-  height: 130px;
-  object-fit: cover;
-}
-.process-container .connector-container {
-  text-align:center;
-  margin-bottom: 1.25rem;
-}
-.process-container .connector-container .icon.arrow-down::before{
-  content: '\f063';
-  font-family: 'Font Awesome 5 Free';
-  font-size: 30px;
-  font-weight: 900;
-  margin:10px;
+  .process-container .process-card img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
   }
-.process-container .connector-container .icon.arrow-up::after{
-  content: '\f062';
-  font-family: 'Font Awesome 5 Free';
-  font-size: 30px;
-  font-weight: 900;
-  margin:10px;
-}
-.process-container .connector-container .icon.relate{
-  border-right:3px solid black !important;
-  height:40px;
-  width: 50%;
-  margin:10px;
-}
-.process-container .process-card{
-  border:4px dashed black!important;
-}
-.process-container .process-card.highlighted{
-  border:4px solid black!important;
-}
+  .process-container .connector-container {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+  .process-container .connector-container .icon.arrow-down::before {
+    content: '\f063';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+  }
+  .process-container .connector-container .icon.arrow-up::after {
+    content: '\f062';
+    font-family: 'Font Awesome 5 Free';
+    font-size: 30px;
+    font-weight: 900;
+    margin: 10px;
+  }
+  .process-container .connector-container .icon.relate {
+    border-right: 3px solid black !important;
+    height: 40px;
+    width: 50%;
+    margin: 10px;
+  }
+  .process-container .process-card {
+    border: 4px dashed black!important;
+  }
+  .process-container .process-card.highlighted {
+    border: 4px solid black!important;
+  }
 
   /* carousel */
   .carousel::before {

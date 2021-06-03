@@ -68,18 +68,23 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6,
+.h1, .h2, .h3, .h4, .h5, .h6
 .quote-attribution {
   font-family: 'KingsBureauGrot';
   color: $headings;
   margin-top: 0;
   margin-bottom: $component-margin-bottom-sm;
 }
+h6, .h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+}
 h1, .h1 { @include font-scale(h1-sm) ;}
 h2, .h2 { @include font-scale(h2-sm) ;}
 h3, .h3 { @include font-scale(h3-sm) ;}
 h4, .h4 { @include font-scale(h4-sm) ;}
-h5, .h5, h6, .h6 { @include font-scale(h56-sm) ;}
+h5, .h5,
+h6, .h6 { @include font-scale(h56-sm) ;}
 
 // allow margin above headers in main region to increase to 36px
 #region-main .no-overflow {

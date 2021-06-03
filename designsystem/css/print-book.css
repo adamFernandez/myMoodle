@@ -535,52 +535,56 @@ html {
 }
 
 /* new carousel  */
-#page-mod-book-print .new-carousel .nc-gallery{
+#page-mod-book-print .new-carousel {
+  margin-bottom: 1.25rem;
+  width: 100% !important;
+}
+#page-mod-book-print .new-carousel .nc-gallery {
   list-style-type: none;
-  counter-reset: footnotes;
+  counter-reset: newcarousel;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  margin-right: -0.625rem !important;
 }
-#page-mod-book-print .new-carousel .nc-gallery li{
+#page-mod-book-print .new-carousel .nc-gallery > li{
   list-style-type: none;
-  border:1px solid black;
-  padding:16px;
-  margin-left:0;
-  margin-right:5px;
+  border: 1px solid #5A6469;
+  margin: 0 0.625rem 0.625rem 0;
+  padding: 1.25rem 0;
   display:inline-block;
-  width:100%;
-  counter-increment: footnotes;
+  width: 100%;
+  counter-increment: newcarousel;
 }
-#page-mod-book-print .new-carousel .nc-gallery li:last-child{
-  margin-right:0px;
-}
-#page-mod-book-print .new-carousel .nc-gallery li:before{
-  content: counter(footnotes);
+#page-mod-book-print .new-carousel .nc-gallery > li:before {
+  content: counter(newcarousel);
   color: black;
   font-weight: bold;
   vertical-align: top;
+  margin-left: 1.25rem;
 }
-#page-mod-book-print .landscape-carousel .nc-gallery li{
-  width:43%;
+#page-mod-book-print .new-carousel .nc-gallery > li figure {
+  margin: 0;
+  padding: 0 1.25rem;
 }
-#page-mod-book-print .portrait-carousel .nc-gallery li{
-  width:43%;
+#page-mod-book-print .new-carousel .nc-gallery > li figure figcaption > :last-child {
+  margin-bottom: 0;
 }
-#page-mod-book-print .text-carousel .nc-gallery li table tr td .nc-label{
-  margin-bottom: 32px;
-  font-family: 'KingsBureauGrot';
-  padding-top:16px;
-  font-size: larger;
-}
-#page-mod-book-print .new-carousel figure{
-  margin:0;
-}
-#page-mod-book-print .new-carousel img{
+#page-mod-book-print .new-carousel .nc-gallery > li img {
   max-width: 100%;
-  margin-bottom:16px;
+  margin-bottom: 16px;
 }
-#page-mod-book-print .new-carousel ul.nc-buttons{
-  display:none;
+#page-mod-book-print .new-carousel .nc-buttons {
+  display: none;
+}
+#page-mod-book-print .new-carousel:not(.text-carousel) .nc-gallery > li {
+  width: calc(50% - 0.75rem);
+}
+#page-mod-book-print .text-carousel .nc-gallery > li table tr td .nc-label {
+  margin-bottom: 36px;
+  font-family: 'KingsBureauGrot';
+  padding-top: 16px;
+  font-size: larger;
 }
 
 /* collapse */

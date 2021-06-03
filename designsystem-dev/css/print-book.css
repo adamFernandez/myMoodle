@@ -361,9 +361,9 @@ html {
         margin: 0 calc(1.25rem / 2) calc(1.25rem / 2) 0;
         padding: 1.25rem 0;
         display: inline-block;
-        width: 100%;
+        width: calc(50% - 0.75rem);
         counter-increment: newcarousel; }
-        #page-mod-book-print .new-carousel .nc-gallery > li:before {
+        #page-mod-book-print .new-carousel .nc-gallery > li::before {
           content: counter(newcarousel);
           color: #000000;
           font-weight: bold;
@@ -379,13 +379,6 @@ html {
           margin-bottom: 1rem; }
     #page-mod-book-print .new-carousel .nc-buttons {
       display: none; }
-    #page-mod-book-print .new-carousel:not(.text-carousel) .nc-gallery > li {
-      width: calc(50% - 0.75rem); }
-    #page-mod-book-print .new-carousel.text-carousel .nc-gallery li table tr td .nc-label {
-      margin-bottom: 2.25rem;
-      font-family: 'KingsBureauGrot';
-      padding-top: 1rem;
-      font-size: larger; }
   #page-mod-book-print .collapse-container {
     margin-bottom: 1.25rem; }
     #page-mod-book-print .collapse-container .collapse-card {

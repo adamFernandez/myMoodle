@@ -489,9 +489,9 @@ html {
   .new-carousel {
     margin-bottom: $print-component-margin;
     width: 100% !important;
-    .nc-gallery{
+    .nc-gallery {
       list-style-type: none;
-      counter-reset: footnotes;
+      counter-reset: newcarousel;
       display: flex;
       flex-wrap: wrap;
       margin: 0;
@@ -502,9 +502,9 @@ html {
         margin: 0 $print-component-margin-sm $print-component-margin-sm 0;
         padding: $print-component-padding 0;
         display: inline-block;
-        width: 100%;
+        width: calc(50% - 0.75rem);
         counter-increment: newcarousel;
-        &:before {
+        &::before {
           content: counter(newcarousel);
           color: $black;
           font-weight: bold;
@@ -526,15 +526,6 @@ html {
     }
     .nc-buttons {
       display: none;
-    }
-    &:not(.text-carousel) .nc-gallery > li {
-      width: calc(50% - 0.75rem);
-    }
-    &.text-carousel .nc-gallery li table tr td .nc-label {
-      margin-bottom: $component-margin-bottom-lg;
-      font-family: 'KingsBureauGrot';
-      padding-top: $component-padding-sm;
-      font-size: larger;
     }
   }
   

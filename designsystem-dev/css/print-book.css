@@ -350,7 +350,7 @@ html {
     width: 100% !important; }
     #page-mod-book-print .new-carousel .nc-gallery {
       list-style-type: none;
-      counter-reset: footnotes;
+      counter-reset: newcarousel;
       display: flex;
       flex-wrap: wrap;
       margin: 0;

@@ -140,6 +140,8 @@ html {
     font-size: 1.125rem;
     line-height: 1.4; }
   #page-mod-book-print h6, #page-mod-book-print .h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 !important;
     font-size: 1rem;
     line-height: 1.4; }
   #page-mod-book-print p,

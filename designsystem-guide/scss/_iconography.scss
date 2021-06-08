@@ -1,0 +1,21 @@
+/* Iconography
+   ======================== */
+
+.icon-container {
+  display: inline;
+  .icon-box {
+    background-color: midnightblue;
+    color: white;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    font-size: 2.25rem;
+    margin-bottom: $component-margin-bottom-sm;
+  }
+  p:not(:last-child) {
+    margin-bottom: $component-margin-bottom-xs;
+  }
+}

@@ -1,0 +1,22 @@
+/* Card
+   ======================== */
+
+// dos and donts
+.do-dont {
+  display: flex;
+  align-items: center;
+  margin-bottom: $component-margin-bottom-lg;
+  .fas {
+    font-size: 2rem;
+    margin: 0 1rem;
+    &.fa-check-circle {
+      color: $pea-green;
+    }
+    &.fa-times-circle {
+      color: $kings-red;
+    }
+  }
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

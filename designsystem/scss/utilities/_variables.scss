@@ -1,0 +1,80 @@
+// Variables
+// =========
+
+// Colours
+
+// Primary
+$kings-red: #E2231A;
+$white: #FFFFFF;
+$black:#000000;
+
+// Secondary
+$yellow: #F5B90F;
+$orange: #FF5F05;
+$soft-pink: #FC5E72;
+$hot-pink: #C83296;
+$lilac: #9B82D2;
+$purple: #501491;
+$purple70: #8262ae;
+$sea-blue: #005AD2;
+$sky-blue: #00B9E1;
+$teal-blue: #009EA0;
+$pea-green: #28C382;
+$lime-green: #C6E128;
+$lime-green-2: #999900;
+$reflex-blue: #002395;
+$midnight-blue: #0A2D50;
+
+// Neutrals
+$pebble: #5F5550;
+$stone: #575756;
+$slate-grey: #5A6469;
+$mushroom: #CDC3B9;
+$pearl-grey: #CDD7DC;
+$warm-grey: #BCAFA8;
+$powder-blue: #8D9EBC;
+
+// KC Custom
+$link-hover: #536C84;
+$headings: #171717;
+$body-text: #333333;
+$footer-dark: #464E52;
+$rules-and-outlines: #8B9296;
+$block-header: #DCE3E6;
+$block-background: #EDF1F2;
+$table-border: #8B9296;
+$activity-label-orange: #EB5600;
+
+// converts hex to rgba with custom opacity
+@mixin colour-opacity($color, $opacity) {
+  color: rgba($color, $opacity) !important;
+}
+@mixin bg-colour-opacity($color, $opacity) {
+  background-color: rgba($color, $opacity) !important;
+}
+
+// Layout
+
+// Breakpoints
+$xxl-breakpoint: 1400px;
+$xl-breakpoint: 1200px;
+$lg-breakpoint: 979px;
+$neo-breakpoint: 768px;
+
+// Spacing
+$component-margin-xs: 0.5rem;
+$component-margin-sm: 1rem;
+$component-margin: 1.5rem;
+$component-margin-lg: 2.25rem;
+$component-margin-xl: 4.5rem;
+$component-margin-bottom-xs: $component-margin-xs;
+$component-margin-bottom-sm: $component-margin-sm;
+$component-margin-bottom: $component-margin;
+$component-margin-bottom-lg: $component-margin-lg;
+$component-margin-bottom-xl: $component-margin-xl;
+$section-margin-bottom-sm: 3rem;
+$section-margin-bottom: 4rem;
+
+// Nav button margins
+$lg-nav-margin: 3rem;
+$sm-nav-margin: 3rem;

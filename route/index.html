@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Loading...</title>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript">
+    function route(location) {
+      location = location.substr(1);
+      location = location.split("_");
+      var url = data[location[0]];
+      for (var i = 1; i < location.length; i++) {
+        url = url[location[i]];
+        if (typeof url === 'string') {
+          window.location.replace('https://keats.kcl.ac.uk/' + url);
+        }
+      }
+    }
+
+    route(window.location.hash);
+  </script>
+</head>
+
+<body>
+  Ah dang! We couldn't find that page for you.
+</body>
+
+</html>

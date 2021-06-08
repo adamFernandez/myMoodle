@@ -1,0 +1,66 @@
+/* Header
+   =========================*/
+
+#page-header {
+  // usermenu
+  .usermenu {
+    // show user name on larger screens only
+    .userbutton .usertext {
+      display: none;
+      @media only screen and (min-width: $neo-breakpoint) {
+        display: inline-block;
+      }
+    }
+  }
+}
+#page {
+  #page-header-nav {
+    // breadcrumb
+    .breadcrumb-nav {
+      ul.breadcrumb li {
+        font-family: 'KingsBureauGrotFiveOne';
+        font-size: 1rem;
+        a {
+          @include colour-opacity($midnight-blue, 0.85);
+        }
+        &::after {
+          color: $rules-and-outlines;
+        }
+      }
+    }
+    .breadcrumb-button {
+      .singlebutton {
+        margin: 0;
+        // only add margin if beside action menu
+        &:not(:only-child) {
+          margin-right: $component-margin-xs;
+        }
+      }
+      .moodle-actionmenu {
+        @extend .btn, .btn-primary;
+        .dropdown {
+          display: flex;
+          align-items: center;
+          // standard button height
+          height: 22px;
+          a {
+            display: flex !important;
+            justify-content: center;
+            &:before {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#drawer {
+  // message drawer
+  // appears upon clicking message icon in usermenu
+  .message-app {
+    .input-prepend .add-on {
+      height: auto;
+    }
+  }
+}

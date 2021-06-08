@@ -1,9 +1,0 @@
-/* kaltura media player within video component
-   called in within the iframe variables
-   see guidance: https://iddkingsonline.com/design-system/guidance/kaltura.html */
-
-/* brightcove caption positioning */
-.track > .caption {
-  top: unset !important;
-  bottom: 9vh !important;
-}

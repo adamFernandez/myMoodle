@@ -233,6 +233,10 @@ code {
   color: $kings-red;
   border-radius: 4px;
 }
+table code{
+  //so that the code is still visible when cells are highlighted
+  background:#F7F7F9!important;
+}
 
 // remove page heading underline
 .path-mod-page #region-main > div > h2 {

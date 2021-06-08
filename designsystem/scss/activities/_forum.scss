@@ -30,7 +30,18 @@
           margin-bottom: 0 !important;
         }
       }
-    }  
+    }
+    div[data-content="inpage-reply-content"]{
+      .card{
+        width:100%;
+        form[data-content="inpage-reply-form"]{
+          width:100%;
+          .row span{
+            width:100%;
+          }
+        }
+      }
+    }
   }
   // discussion list table
   .table.discussion-list {

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Credit and Exemption methods tax calculator</title>
+	
+		<link rel="stylesheet" href="style.css" type="text/css" />		
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+function changetax($this){
+    
+   $("#tax").text($this.value>0?("Income Tax: " + $this.value + "%") : "");
+}
+
+function calculate(e) {
+    e.preventDefault();
+    
+    var residenceIncome = $('#residenceIncome').val();
+    var sourceIncome = $('#sourceIncome').val();
+    var residenceRate = $('#residenceRate').val();	
+    var sourceRate = $('#sourceRate').val();
+
+	var sourceTax = parseInt(sourceIncome)*sourceRate/100;
+	$('#sourceTax').text(sourceTax);
+
+	var residenceTax = parseInt(sourceIncome)*residenceRate/100;
+	$('#residenceTax').text(residenceTax);	
+	
+	var totalIncome = parseInt(sourceIncome);
+	$('#totalIncome').text(totalIncome);
+
+	var taxCredit = sourceTax - residenceTax;
+	$('#taxCredit').text(taxCredit);	
+	
+	var residenceTax = residenceIncome*residenceRate/100 - sourceTax
+		
+	
+    return false;
+
+}
+$(function(){
+$('#calculator').click( calculate );
+
+});
+
+    
+    </script>
+  </head>
+
+  <h2>Credit method</h2>
+
+<div class="scenario"> 
+<p>The credit method means that where income or gains are taxed in both states, the state of residence gives credit for the source state tax against its own tax.</p>
+  <p>Scenario: a company earns 5,000 abroad, and is taxed at 20% in the source state. That amount would have been taxed at 25% in its Residence state. Use the calculator below to work out the credit allocated against residence tax.</p>
+  </div>
+
+<div class="step">  
+ <img src="fig-1.png" class="step-number"> <h3>Income</h3>
+  <p>Firstly, show the income from the source state:</p>
+ <div class="flex-container"> 
+  
+ 
+  
+<div id="StateS">
+<p>What was the income from the <strong>source</strong> state?</p>
+    <p><input value="eg 20,000" id="sourceIncome"></input></p>    
+</div>
+
+</div>
+</div>
+<div class="step">
+ <img src="fig-2.png" class="step-number"><h3>Tax rates</h3>
+<p>Now choose the tax rate in both countries:</p>
+<div class="flex-container">
+<div>
+<select id="residenceRate" onchange="changetax(this)">
+  <option>Tax rate in Residence State</option>
+    <option value="10">10%</option>
+	<option value="15">15%</option>
+	<option value="20">20%</option>
+	<option value="25">25%</option>
+	<option value="33">33%</option>	
+</select>
+</div>
+<div>
+<select id="sourceRate" onchange="changetax(this)">
+  <option>Tax rate in Source State</option>
+    <option value="10">10%</option>
+	<option value="15">15%</option>
+	<option value="20">20%</option>
+	<option value="25">25%</option>
+	<option value="30">30%</option>	
+</select>
+</div>
+</div>
+</div>
+
+<div class="flex-container">
+<div>
+<p><button id="calculator">Calculate</button></p>
+</div>
+<div>
+<p>Total taxable: <span id="totalIncome"></span></p>
+<p>Source tax: <span id="sourceTax"></span></p>
+<p>Residence tax would have been: <span id="residenceTax"></span></p>
+<p>Credit: <span id="taxCredit"></span></p>
+</div>
+</div>
+
+    
+
+  </body>
+</html>

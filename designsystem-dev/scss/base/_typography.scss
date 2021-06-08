@@ -1,0 +1,288 @@
+/* Typography
+   ======================== */
+
+$font-kbg: (
+  family: 'KingsBureauGrot',
+  h1: ( font-size: 2.375rem, line-height: 1.1 ),
+  h2: ( font-size: 1.875rem, line-height: 1.25 ),
+  h3: ( font-size: 1.5rem, line-height: 1.25 ),
+  h4: ( font-size: 1.25rem, line-height: 1.4 ),
+  h5: ( font-size: 1.125rem, line-height: 1.4 ),
+  h6: ( font-size: 1rem, line-height: 1.4 ),
+  h1-sm: ( font-size: 1.75rem, line-height: 1.2),
+  h2-sm: ( font-size: 1.5rem, line-height: 1.25 ),
+  h3-sm: ( font-size: 1.25rem, line-height: 1.25 ),
+  h4-sm: ( font-size: 1.125rem, line-height: 1.4 ),
+  h56-sm: ( font-size: 1rem, line-height: 1.4 ),
+  btn: ( font-size: 1.125rem !important, line-height: 1.25 !important),
+  btn-lg: ( font-size: 1.25rem !important, line-height: 1.5 !important)
+);
+$font-os: (
+  family: 'Open Sans, sans-serif',
+  p: ( font-size: 1rem, line-height: 1.5 ),
+  caption: ( font-size: 0.833rem, line-height: 1.5 ),
+  key-concept: ( font-size: 1rem, line-height: 1.5 )
+);
+$font-kcd: (
+  family:  'KingsCaslonDisplay',
+  quote-body: ( font-size: 1.5rem, line-height: 1.25 ),
+  quote-body-sm: ( font-size: 1.25rem, line-height: 1.25 )
+);
+
+$font-default: $font-kbg;
+@function _fontset-feature($feature, $family:$font-default, $set: 'base'){
+  $result: map-get(map-get($family, $set), $feature);
+  @return ($result);
+}
+@function fontset-family($family) {
+  $result: map-get($family, family);
+  @return unquote($result);
+}
+@function calc-font-size($set, $family:$font-default) {
+  @return _fontset-feature(font-size, $family, $set);
+}
+@function calc-line-height($set, $family:$font-default) {
+  @return _fontset-feature(line-height, $family, $set);
+}
+@mixin font-scale ($font-size, $family:$font-default,
+$line-height:$font-size) {
+  font-size: calc-font-size($font-size, $family);
+  line-height: calc-line-height($line-height, $family);
+  @if $family != $font-default {
+    font-family: fontset-family($family);
+  }
+}
+
+.sidebar-header {
+  padding: 0;
+  margin: 0;
+  color: $midnight-blue;
+  font-family: 'KingsBureauGrot' !important;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+html, body {
+  font-size: 16px;
+  color: $body-text;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6
+.quote-attribution {
+  font-family: 'KingsBureauGrot';
+  color: $headings;
+  margin-top: 0;
+  margin-bottom: $component-margin-bottom-sm;
+}
+h6, .h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+}
+h1, .h1 { @include font-scale(h1-sm) ;}
+h2, .h2 { @include font-scale(h2-sm) ;}
+h3, .h3 { @include font-scale(h3-sm) ;}
+h4, .h4 { @include font-scale(h4-sm) ;}
+h5, .h5,
+h6, .h6 { @include font-scale(h56-sm) ;}
+
+// allow margin above headers in main region to increase to 36px
+#region-main .no-overflow {
+  & > h3, & > h4, & > h5, & > h6 {
+    &:not(:first-child) {
+      margin-top: 0.75rem;
+    }
+  }
+}
+
+p {
+  @include font-scale(p, $font-os);
+  margin-bottom: $component-margin-bottom;
+  color: $body-text;
+}
+.caption {
+  @include font-scale(caption, $font-os);
+}
+.quote-box {
+  .quote-body {
+    @include font-scale(quote-body-sm, $font-kcd);
+    margin-bottom: 1.75rem;
+    font-style: italic;
+  }
+}
+select, option, {
+  font-family: 'Open Sans', sans-serif;
+}
+
+// large screen fonts
+@media only screen and (min-width: $neo-breakpoint) {
+  h1, .h1 { @include font-scale(h1) ;}
+  h2, .h2 { @include font-scale(h2) ;}
+  h3, .h3 { @include font-scale(h3) ;}
+  h4, .h4 { @include font-scale(h4) ;}
+  h5, .h5 { @include font-scale(h5) ;}
+  h6, .h6 { @include font-scale(h6) ;}
+  .quote-box {
+    .quote-body {
+      @include font-scale(quote-body, $font-kcd);
+      margin-bottom: 1.5rem;
+    }
+  }
+}
+
+// hide page title underline
+.path-mod-book .generalbox.book_content>h3 {
+  background: none;
+  &:after {
+    display: none;
+  }
+}
+
+//override theme list font style
+li {
+  line-height: inherit;
+  & > p {
+    margin-bottom: 0;
+  }
+}
+hr {
+  margin: $component-margin 0;
+  border: 1px solid $rules-and-outlines;
+  border-width: 0 0 1px 0;
+}
+
+//override module week page link
+.instancename {
+  color: $midnight-blue;
+  &:hover {
+    color: #003d5c;
+  }
+}
+
+// override theme permanent underline
+section#region-main a:link {
+  text-decoration: none;
+}
+
+// link download
+// download button in components/_button
+a.link-download {
+  @include bg-colour-opacity($yellow, 0.2);
+  padding: 2px 4px;
+}
+
+#region-main {
+  // link hover styles
+  p a, li p a, figcaption a {
+    @extend .ds-link;
+    // icon for external links
+    i.open-icon {
+      display: inline-block;
+      margin: 0.375rem;
+      vertical-align: baseline;
+      transform: translateY(-10%);
+    }
+    .sr-link-message{
+      display:inline-block;
+    } 
+  }
+  // list margin bottom
+  ol, ul {
+    margin: 0 0 $component-margin-bottom $component-margin-lg;
+    & > li {
+      &:not(:last-child) {
+        margin-bottom: $component-margin-bottom-sm;
+      }
+      // remove margin bottom from nested lists
+      ol, ul {
+        & > li:not(:last-child) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+// hide screenreader only note on external links in editor view of books
+.editing {
+  #region-main {
+    #id_content_editoreditable{
+      p a, li p a {
+        .sr-link-message{
+         display:none;
+        }
+      }
+    }
+  }
+}
+
+  #region-main ol > li:not(:last-child),
+    #region-main ul > li:not(:last-child) {
+    margin-bottom: 1rem; }
+  #region-main ul > li > ul >li:not(:last-child) {
+    margin-bottom:0; }
+
+pre {
+  margin-bottom: $component-margin-bottom;
+  background-color: transparent;
+  border: 1px solid $block-header;
+  border-radius: 0;
+  padding: $component-margin-sm;
+  white-space: pre-wrap;
+  code {
+    border: none;
+  }
+}
+code {
+  border: 1px solid $block-header;
+  @include bg-colour-opacity($block-background, 0.2);
+  color: $kings-red;
+  border-radius: 4px;
+}
+table code{
+  //so that the code is still visible when cells are highlighted
+  background:#F7F7F9!important;
+}
+
+// remove page heading underline
+.path-mod-page #region-main > div > h2 {
+  background: none;
+  &::after {
+    display: none;
+  }
+}
+
+// font-size is overridden so reset to 14px to keep the navbar and footer
+// the same as kcl.ac.uk
+header.navbar {
+  font-size: 14px;
+  .container-fluid {
+    padding: 0;
+  }
+  form#search {
+    button {
+      font-family: 'Open Sans',sans-serif;
+      font-size: 1.08rem !important;
+      padding: 6px 18px !important; 
+    }
+    &:hover input#coursesearchbox {
+      font-size: 13.65px !important;
+    }
+  }
+}
+footer#page-footer {
+  font-size: 14px;
+  p {
+    color: $white;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 10px;  
+  }
+}
+.back-to-top {
+  z-index: 100;
+  bottom: 28px;
+  right: 48px;
+  .fa-3x {
+    font-size: 42px;
+  }
+}

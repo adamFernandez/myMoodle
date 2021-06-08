@@ -1,0 +1,53 @@
+.chapters > .k-chapters-container.k-vertical .mediaBox {
+        height: 120px !important;
+}
+
+.chapters > .k-chapters-container .boxImg img {
+        display: none;
+}
+
+.topBarContainer {
+        display: none;
+}
+
+.sideBarContainerReminder {
+        top: 3px !important;
+}
+
+.k-title-container {
+	max-height: 50px;
+}
+
+/*.k-description-container {
+	display: none;
+}*/
+
+.k-chapter-time {
+	display: none;
+}
+
+.k-duration {
+	display: block !important;
+}
+
+.sideBarContainerReminder.left {
+	background-color:#ff5f05;
+	margin-left:3px!important;
+}
+
+.chapters > .k-chapters-container .k-chapter-title {
+    font-size: 13px!important;
+}
+
+.chapters > .k-chapters-container .k-description-container{
+	font-size: 11px!important;
+}
+
+.footer{
+	display:none!important;
+}
+
+.sideBarContainer{
+	top:0.5px!important;
+	border: 2px solid black;
+}

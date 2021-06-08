@@ -1,0 +1,149 @@
+/* Navigation
+   ======================== */
+
+// hide last modified date
+.modified {
+  display: none;
+}
+
+.navcontainer {
+  display: flex;
+  margin-top: $component-margin-lg;
+  margin-bottom: $component-margin-bottom-lg !important;
+  padding: 0;
+  .navtextcontainer {
+    flex: 1;
+    top: 0;
+    transform: none;
+    max-width: 50%;
+    position: initial;
+  }
+  .navtext {
+    position: relative;
+    display:inline-block;
+    float: none;
+    margin: 0;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0 !important;
+    font-family: 'KingsBureauGrot';
+    font-size: 1.25rem !important;
+    line-height: 1.2;
+    color: $midnight-blue !important;
+    background-color: transparent !important;
+    box-shadow: none;
+    &.prev {
+      left: 0;
+      padding-right: 0.75rem !important;
+      padding-left: 3.25rem !important;
+      text-align: left;
+    }
+    &.next {
+      right: 0;
+      padding-right: 3.25rem !important;
+      padding-left: 0.75rem !important;
+      text-align: left;
+    }
+    @media only screen and (min-width: $neo-breakpoint) {
+      padding: 0.25rem 3rem 0 3rem !important;
+    }
+  }
+}
+.navbutton {
+  @extend .icon-before;
+  padding: 5px 16.5px;
+  font-size: 1.5625rem;
+  color: $white;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  background-color: $midnight-blue;
+  box-shadow: 0 2px 0 0 #05192e;
+  &:hover {
+    @include bg-colour-opacity($midnight-blue, 0.85);
+    box-shadow: 0 2px 0 0 #43566B;
+  }
+  @media only screen and (min-width: $neo-breakpoint) {
+    font-size: 1.25rem;
+    padding: 4px 12px;
+  }
+  &::before {
+    left: 0;
+    content: '\f104';
+  }
+  &::after {
+    right: 0;
+    content: '\f105';
+  }
+}
+
+// activity navigation
+.activity-navigation {
+  @extend .navcontainer;
+  .row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 !important;
+    .col-md-4 {
+      padding: 0;
+      @extend .navtextcontainer;
+      // hide the jump to activity dropdown
+      &:nth-child(2) {
+        display: none;
+      }
+      a#prev-activity-link,
+      a#next-activity-link {
+        @extend .navtext;
+      }
+      a#prev-activity-link {
+        @extend .navtext.prev;
+        &::before {
+          @extend .navbutton;
+        }
+      }
+      // right align next activity link
+      &:last-child {
+        display: flex;
+        justify-content: flex-end;
+        a#next-activity-link {
+          @extend .navtext.next;
+          &::after {
+            @extend .navbutton;
+          }
+        }
+      }
+    }
+  }
+}
+
+// section navigation
+.course-content .single-section .section-navigation.mdl-bottom {
+  @extend .navcontainer;
+  .mdl-left,
+  .mdl-right {
+    @extend .navtextcontainer;
+    a {
+      @extend .navtext;
+    }
+  }
+  .mdl-left {
+    a {
+      padding-left:3rem;
+      &::before {
+        @extend .navbutton;
+          left: 0;
+      }
+    }
+  }
+  .mdl-right {
+    a {
+      text-align: right;
+      padding-right:3rem;
+      &::after {
+        @extend .navbutton;
+          right: 0;
+      }
+    }
+  }
+}

@@ -37,7 +37,7 @@
         }
       }
       .moodle-actionmenu {
-        @extend .btn, .btn-primary;
+        @extend .btn, .btn-primary !optional;
         .dropdown {
           display: flex;
           align-items: center;

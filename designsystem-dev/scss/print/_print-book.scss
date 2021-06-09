@@ -516,7 +516,7 @@ html {
         figure {
           margin: 0;
           padding: 0 $print-component-padding;
-          figcaption > :last-child {
+          figcaption :last-child {
             margin-bottom: 0;
           }
         }
@@ -1120,7 +1120,7 @@ html {
     }
   }
   
-  // Timeline
+  // Timeline (v2.4-)
   .timeline-container {
     margin-top: calc(25px - 2.5rem);
     .row,
@@ -1210,6 +1210,61 @@ html {
     .timeline-content .timeline-card .date-tab,
     .timeline-content .timeline-card {
       background-color: #ffe1d2;
+    }
+  }
+  // Timeline (v2.5+)
+  .timeline-2021-container {
+    margin-top: 0;
+    margin-bottom: $print-component-margin;
+    .timeline-card {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      border: $print-component-border;
+      margin-bottom: 2.25rem;
+      padding: $print-component-padding;
+      &:not(:first-child) {
+        &::before {
+          position: absolute;
+          content: '';
+          border: 0.25rem solid $black;
+          height: 2rem;
+          top: -2.5rem;
+          left: 4.5rem;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &.highlighted {
+        border-style: dashed;
+      }
+      .date-label {
+        line-height: 1;
+        font-family: OpenSans, sans-serif;
+        font-size: 1rem;
+        font-weight: bold !important;
+        color: $white;
+        background-color: $black;
+        padding: 0.5rem;
+        width: fit-content;
+      }
+      .card-body {
+        .card-title {
+          margin-bottom: 0.75rem;
+        }
+        &:only-child > :last-child {
+          margin-bottom: 0;
+        }
+      }
+      .card-image {
+        margin: 0 0 0 $print-component-margin;
+        order: 2;
+        max-width: 130px;
+        img {
+          width: 100%;
+        }
+      }
     }
   }
   

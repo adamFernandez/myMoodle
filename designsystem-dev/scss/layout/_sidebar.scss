@@ -224,6 +224,23 @@ aside {
   }
 }
 
+// networking html block
+#block-region-side-pre, #block-region-side-post {
+  // networking-block class is added with JS
+  .block_html.networking-block {
+    .card-title {
+      background-color: darken($teal-blue, 10%) !important;
+      color: $white;
+    }
+    // increase contrast against icons by changing background colour around
+    // them
+    .action-menu-item,
+    .action-menu-trigger {
+      background-color: $block-background;
+    }
+  }
+}
+
 // quick access block
 #block-region-side-pre, #block-region-side-post {
   .block_html .content ul.fa-ul {

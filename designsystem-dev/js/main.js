@@ -6,6 +6,8 @@ $("#block-region-side-post:not(:has(.block:not(:has(h5.card-title:contains('Add 
 // if there are no visible blocks in aside hide it and make main region full width
 $("#block-region-side-pre:not(:has(.block:not(.hide)))").addClass("hide").siblings("#region-main").removeClass("span8 pull-right");
 $("#block-region-side-post:not(:has(.block:not(.hide)))").addClass("hide").parents("body").addClass("empty-region-side-post used-region-side-pre");
+// add networking-block class
+$("#block-region-side-pre .block:has(ul.networking-list), #block-region-side-post .block:has(ul.networking-list)").addClass("networking-block");
 
 // if the foundation css is loaded, remove it
 var foundationCSS = $('link[href="https://www.kcl.ac.uk/study/learningteaching/ctel/Documents/hosting/css/templates/foundation-template.css"]');

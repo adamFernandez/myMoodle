@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title>Credit and Exemption methods tax calculator</title>
+	
+		<link rel="stylesheet" href="style.css" type="text/css" />		
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+function changetax($this){
+    
+   $("#tax").text($this.value>0?("Income Tax: " + $this.value + "%") : "");
+}
+
+function calculate(e) {
+    e.preventDefault();
+    
+    var residenceIncome = $('#residenceIncome').val();
+    var sourceIncome = $('#sourceIncome').val();
+    var residenceRate = $('#residenceRate').val();	
+    var sourceRate = $('#sourceRate').val();
+
+	var sourceTax = sourceIncome*sourceRate/100;
+	var residenceTax = residenceIncome*residenceRate/100;
+
+    $('#totalSourceTax').text(sourceTax);
+    $('#totalResidenceTax').text(residenceTax);	
+	
+	var threshhold = $('#income-threshhold');
+	var taxableResidence = $('#threshholdR').val();
+    var taxedAmount = income*tax/100;
+    var total = income - taxedAmount;
+
+    return false;
+
+}
+$(function(){
+$('#calculator').click( calculate );
+
+});
+
+    
+    </script>
+  </head>
+
+  <h2>Full exemption method</h2>
+
+<div class="scenario">
+<p>Full exemption means that income earned in a foreign source state is not considered in the state of residence.</p>
+  <p>Scenario: a company earns 10,000 in its Residence state, and 5,000 in an overseas state (the Source state). Use the calculator below to work out how much tax it will have to pay in both Residence and Source states under full exemption.</p>
+  </div>
+
+<div class="step">  
+ <img src="fig-1.png" class="step-number"> <h3>Income</h3>
+  <p>Firstly, add the income from residence and source states:</p>
+ <div class="flex-container"> 
+  
+<div id="StateR">
+<p>What was the income from the <strong>residence</strong> state?</p>
+    <p><input value="eg: 50,000" id="residenceIncome"></input></p>    
+</div>  
+  
+<div id="StateS">
+<p>What was the income from the <strong>source</strong> state?</p>
+    <p><input value="eg 20,000" id="sourceIncome"></input></p>    
+</div>
+
+</div>
+</div>
+<div class="step">
+ <img src="fig-2.png" class="step-number"><h3>Tax rates</h3>
+<p>Now choose the tax rate in both countries:</p>
+<div class="flex-container">
+<div>
+<select id="residenceRate" onchange="changetax(this)">
+  <option>Tax rate in Residence State</option>
+    <option value="10">10%</option>
+	<option value="15">15%</option>
+	<option value="20">20%</option>
+	<option value="25">25%</option>
+	<option value="30">30%</option>	
+</select>
+</div>
+<div>
+<select id="sourceRate" onchange="changetax(this)">
+  <option>Tax rate in Source State</option>
+    <option value="10">10%</option>
+	<option value="15">15%</option>
+	<option value="20">20%</option>
+	<option value="25">25%</option>
+	<option value="30">30%</option>	
+</select>
+</div>
+</div>
+</div>
+
+<div class="flex-container">
+<div>
+<p><button id="calculator">Calculate</button></p>
+</div>
+<div>
+<p>Residence tax: <span id="totalResidenceTax"></span></p>
+<p>Source tax: <span id="totalSourceTax"></span></p>
+</div>
+</div>
+
+    
+
+  </body>
+</html>

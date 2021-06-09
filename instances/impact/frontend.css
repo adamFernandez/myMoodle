@@ -1,0 +1,61 @@
+@font-face {
+  font-family: kingsfont-37;
+  src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-ThreeSeven.ttf');
+}
+
+@font-face {
+	font-family: kingsfont-51;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsBureauGrot-FiveOne.ttf');
+}
+
+@font-face {
+	font-family: kingscaslon;
+	src: url('https://git.iddkingsonline.com/assets/fonts/KingsCaslonDisplay.ttf');
+}
+
+.section-title, h2, h3, h4 {
+	font-family: 'kingsfont-37' !important;
+	font-weight: normal !important;
+	letter-spacing: .3px;
+	color: #4d5c6d;
+}
+
+ul#navlist { 
+	list-style: none !important;
+	font-family: 'kingsfont-37' !important;
+	color: #4d5c6d;
+	font-size: 25px;
+	border-bottom: 1px solid #cdd7dc;
+}
+
+ul#navlist li {
+	line-height: 70px;
+	border-top: 1px solid #cdd7dc;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+ul#navlist a {
+	color: #4d5c6d;
+}
+
+ul#navlist a:hover {
+	color: #8dad0e;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+.activityinstance {
+	line-height: 40px;
+	font-size: 15px;
+}
+
+html a, body a {
+	color: #4d5c6d;
+}
+
+#region-main p, #region-main li {
+	font-size: 16px;
+}

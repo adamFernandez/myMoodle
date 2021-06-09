@@ -1,0 +1,19 @@
+
+<script type="text/javascript" src="https://iddkingsonline.com/fancyapps/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript">
+    $('a.fancybox').fancybox({
+        type: "iframe",
+		afterLoad:function(){
+			$('.fancybox-iframe').contents().find("#page-header").remove(); 
+			$('.fancybox-iframe').contents().find(".navbar-inner").remove();
+			$('.fancybox-iframe').contents().find("#page-footer").remove();
+			$('.fancybox-iframe').contents().find(".course-content").remove();
+			$('.fancybox-iframe').contents().find("#navbar").remove();
+			$('.fancybox-iframe').contents().find(".span8").remove();
+			//$(".fancybox-iframe").contents().find("a").attr("onclick", "parent.location.assign(this.href);parent.$.fancybox.close();");
+		}
+    });
+</script>
+<!-- To hide the columns of blocks, use the code above to remove 'span4'. To hide the main column of the page, use 'span8'.-->
+<p style="text-align: center;"><a class="fancybox fancybox.iframe" href="https://keats.kcl.ac.uk/mod/page/view.php?id=1462040">My Dashboard</a></p>
+

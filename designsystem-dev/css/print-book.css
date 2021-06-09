@@ -374,7 +374,7 @@ html {
         #page-mod-book-print .new-carousel .nc-gallery > li figure {
           margin: 0;
           padding: 0 1.25rem; }
-          #page-mod-book-print .new-carousel .nc-gallery > li figure figcaption > :last-child {
+          #page-mod-book-print .new-carousel .nc-gallery > li figure figcaption :last-child {
             margin-bottom: 0; }
         #page-mod-book-print .new-carousel .nc-gallery > li img {
           max-width: 100%;
@@ -3687,6 +3687,46 @@ html {
   #page-mod-book-print.highlighted .timeline-content .timeline-card .date-tab,
   #page-mod-book-print.highlighted .timeline-content .timeline-card {
     background-color: #ffe1d2; }
+  #page-mod-book-print .timeline-2021-container {
+    margin-top: 0;
+    margin-bottom: 1.25rem; }
+    #page-mod-book-print .timeline-2021-container .timeline-card {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      border: 2px solid #5A6469;
+      margin-bottom: 2.25rem;
+      padding: 1.25rem; }
+      #page-mod-book-print .timeline-2021-container .timeline-card:not(:first-child)::before {
+        position: absolute;
+        content: '';
+        border: 0.25rem solid #000000;
+        height: 2rem;
+        top: -2.5rem;
+        left: 4.5rem; }
+      #page-mod-book-print .timeline-2021-container .timeline-card:last-child {
+        margin-bottom: 0; }
+      #page-mod-book-print .timeline-2021-container .timeline-card.highlighted {
+        border-style: dashed; }
+      #page-mod-book-print .timeline-2021-container .timeline-card .date-label {
+        line-height: 1;
+        font-family: OpenSans, sans-serif;
+        font-size: 1rem;
+        font-weight: bold !important;
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 0.5rem;
+        width: fit-content; }
+      #page-mod-book-print .timeline-2021-container .timeline-card .card-body .card-title {
+        margin-bottom: 0.75rem; }
+      #page-mod-book-print .timeline-2021-container .timeline-card .card-body:only-child > :last-child {
+        margin-bottom: 0; }
+      #page-mod-book-print .timeline-2021-container .timeline-card .card-image {
+        margin: 0 0 0 1.25rem;
+        order: 2;
+        max-width: 130px; }
+        #page-mod-book-print .timeline-2021-container .timeline-card .card-image img {
+          width: 100%; }
   #page-mod-book-print .transcript-container {
     display: inline-block;
     width: calc(100% - 40px);

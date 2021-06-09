@@ -15,7 +15,7 @@ $table-bg-colors: (
   10: #51D2EC, // pale sky blue
   11: #02DFE3, // teal blue
   12: #BFDB1F // lime green
- ) !important;
+);
 
 // mixin to add borders around and bg to individual row/col
 @mixin table-single-row-col-border {
